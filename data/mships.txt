@@ -1742,7 +1742,7 @@ ship "Spetum Class"
 		"X3700 Ion Thruster"
 		"X5200 Ion Steering"
 		"X4200 Ion Steering"
-		"Scarm Drive"
+		"Scram Drive"
 		
 	gun -35.5 -389.5
 	gun 35.5 -389.5
