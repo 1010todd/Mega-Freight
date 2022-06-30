@@ -4,7 +4,11 @@ This plugin adds:
 
 8 Freighters (Mostly Heavy)
 
-8 Warships
+7 Warships
+
+1 Battlestation
+
+2 Transport
 
 Requires Continuous/0.9.15+
 
