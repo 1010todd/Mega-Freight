@@ -629,3 +629,21 @@ event "MGF: Add Ships to Fleets (Navy Update)"
 			"Frigate" 4
 			"Rainmaker" 2
 			"Gunboat" 4
+			
+mission "MGF: Add ships to fleets (Light Freighter Update)"
+	landing
+	invisible
+	deadline 1
+	to offer
+		never
+		has "mgf event spawn"
+	on offer
+		event "MGF: Add Ships to Fleets (Light Freighter Update)" #WIP
+
+event "MGF: Add Ships to Fleets (Light Freighter Update)"
+	fleet "Small Southern Merchants"
+		add variant 1
+			"QYG-30 Qazan"
+	fleet "Large Southern Merchants"
+		add variant 1
+			"QYG-60 Sandiq" 2

@@ -1,4 +1,4 @@
-Adds several civilian ships for you and npc merchants to use for more variety in human space. As well as pirates.
+Adds several mostly civilian ships for you and npc merchants( and pirates) to use for more variety in human space.
 
 This plugin adds:
 

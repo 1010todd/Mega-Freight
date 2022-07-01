@@ -6,6 +6,9 @@ fleet "Small Southern Merchants"
 		"CF-50 Cart"
 	add variant 5
 		"FG-6 Startrain"
+		
+	add variant 1
+		"QYG-30 Qazan"
 
 fleet "Large Southern Merchants"
 	add variant 6
@@ -35,6 +38,9 @@ fleet "Large Southern Merchants"
 		"Hauler I" 6
 		"CS-24 Garrison" #18
 		"Lance" 18
+		
+	add variant 1
+		"QYG-60 Sandiq" 2
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -43,6 +49,9 @@ fleet "Small Core Merchants"
 		"CF-50 Cart"
 	add variant 5
 		"FG-6 Startrain"
+		
+	add variant 7
+		"QYG-30 Qazan"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -89,6 +98,32 @@ fleet "Large Core Merchants"
 		"CSE-6 Steward" 5 #6
 		"Finch" 30
 	
+	add variant 20
+		"QYG-30 Qazan" 3
+	add variant 25
+		"QYG-60 Sandiq" 2
+	add variant 20
+		"QYG-60 Sandiq" 3
+	add variant 5
+		"QYG-60 Sandiq"
+		"QYG-30 Qazan" 2
+	add variant 10
+		"Nasprite"
+		"Quicksilver" 3
+	add variant 10
+		"Nasprite"
+	add variant 10
+		"FG-7 Conveyor"
+		"AGT-31 Xencar" 8
+	add variant 1
+		"FG-5 Bluewhale" 8
+		"CS-24 Garrison" 3 #18
+		"Lance" 36
+		"AGT-31 Xencar" 18
+	add variant 8
+		"CH-6 Carrack"
+		"AGT-31 Xencar" 4
+	
 fleet "Paradise Merchants"
 	add variant 10
 		"FR-4 Dart"
@@ -99,6 +134,13 @@ fleet "Paradise Merchants"
 		"Lance" 32
 	add variant 5
 		"FG-6 Startrain"
+		
+	add variant 20
+		"QYG-30 Qazan" 3
+	add variant 25
+		"QYG-60 Sandiq" 2
+	add variant 20
+		"QYG-60 Sandiq" 3
 
 
 fleet "Small Northern Merchants"
@@ -106,6 +148,9 @@ fleet "Small Northern Merchants"
 		"FR-4 Dart"
 	add variant 5
 		"CF-50 Cart"
+		
+	add variant 7
+		"QYG-30 Qazan"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -158,6 +203,16 @@ fleet "Large Northern Merchants"
 		"CS-24 Garrison" #18
 		"Lance" 18
 		
+	add variant 20
+		"QYG-30 Qazan" 3
+	add variant 25
+		"QYG-60 Sandiq" 2
+	add variant 20
+		"QYG-60 Sandiq" 3
+	add variant 10
+		"FG-7 Conveyor"
+		"AGT-31 Xencar" 8
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -185,6 +240,9 @@ fleet "Small Free Worlds"
 	add variant 4
 		"CY-10 (Fighter)"
 		"Finch"
+	add variant 3
+		"CY-10 (Fighter)"
+		"AGT-31 Xencar"
 		
 fleet "Large Free Worlds"
 	add variant 8
@@ -261,6 +319,21 @@ fleet "Large Free Worlds"
 		"CS-24 Garrison" 5
 		"Finch" 90
 		
+	add variant 1
+		"Falcon (Heavy)" 2
+		"Falcon" 2
+		"CS-24 Garrison" 5
+		"Finch" 54
+		"AGT-31 Xencar" 36
+	add variant 4
+		"CS-24 Garrison" 2
+		"Finch" 24
+		"AGT-31 Xencar" 12
+	add variant 5
+		"Bastion"
+		"CSE-6 Steward" #6
+		"Finch" 3
+		"AGT-31 Xencar" 3
 
 fleet "Large Southern Pirates"
 	add variant 4
@@ -342,6 +415,12 @@ fleet "Large Core Pirates"
 		"CSE-6 Steward" 2 #6
 		"Barb" 12
 		
+	add variant 1
+		"Vanguard"
+		"CS-24 Garrison"
+		"Barb" 10
+		"AGT-31 Xencar" 8
+		
 fleet "Large Southern Pirates"
 	add variant 7
 		"Aplomado"
@@ -385,6 +464,12 @@ fleet "Large Southern Pirates"
 		"Aplomado (Heavy)"
 		"CS-24 Garrison"
 		"Finch" 18
+		
+	add variant 1
+		"Aplomado (Heavy)"
+		"CS-24 Garrison"
+		"Finch" 10
+		"AGT-31 Xencar" 8
 		
 fleet "Large Northern Pirates"
 	add variant 5

@@ -36,6 +36,125 @@ ship "FR-4 Dart"
 	"final explode" "final explosion small"
 	description "With goal of creating the smallest and cheapest spaceship possible, the FR-4 Dart was designed offering an even cheaper alternative to Shuttle with everything at to reduced to the minimal. Despite its' fragility this ship is fast enough to outrun nearly everything else in human space."
 
+ship "Wisymton"
+	sprite "ship/mgf wisymton"
+	thumbnail "thumbnail/mgf wisymton thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 85000
+		"hull" 520
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" .5
+		"heat dissipation" .9
+		"cargo space" 2
+		"outfit space" 81
+		"weapon capacity" 0
+		"engine capacity" 42
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"MRF-10 EM Clamp"
+		
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	gun 0 -24.5
+	"reverse engine" -26 -10.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 26 -10.5
+		zoom 1
+		angle 0
+		under
+	engine -26 20.5
+		zoom 1
+		angle 0
+		under
+	engine 26 20.5
+		zoom 1
+		angle 0
+		under
+		
+	"steering engine" -26 -10.5
+		zoom 1
+		angle 180
+		under
+		left
+	"steering engine" 26 -10.5
+		zoom 1
+		angle 180
+		under
+		right
+	"steering engine" -26 20.5
+		zoom 1
+		angle 0
+		under
+		right
+	"steering engine" 26 20.5
+		zoom 1
+		angle 0
+		under
+		left
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description "A tugboat from early days of space trading made to transport cargo containers between ground and space when repulsor engines are still in its infancy and many ships from previous era still lack one or were not designed to enter atmosphere and land at all. With more freighters equipped with repulsor engines these tugboat roles changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
+
+ship "Wisymton" "Wisymton (Cargo)"
+	sprite "ship/mgf wisymton c"
+	thumbnail "thumbnail/mgf wisymton c thumb"
+	add attributes
+		"mass" 5
+		"cargo space" 40
+		
+	gun 0 4.5
+	"reverse engine" -28.5 20
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 28.5 20
+		zoom 1
+		angle 0
+		under
+	"steering engine" -28 20
+		zoom 1
+		angle -180
+		under
+		left
+	"steering engine" 28 20
+		zoom 1
+		angle 180
+		under
+		right
+	engine -29 53
+		zoom 1
+		angle 0
+		under
+	engine 29 53
+		zoom 1
+		angle 0
+		under
+	"steering engine" -29 52.5
+		zoom 1
+		angle 0
+		under
+		right
+	"steering engine" 29 52.5
+		zoom 1
+		angle 0
+		under
+		left
+	description "Wisymton tugboat with cargo container attached commonly used for intrasystem transport."
+		
 ship "CF-50 Cart"
 	sprite "ship/mgf cart"
 	attributes
@@ -864,8 +983,8 @@ ship "SMM-111 Bagger"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 4
 		
-		"Capybara Reverse Thruster" 4
-		"Tyrant Plasma Steering"
+		"Capybara Reverse Thruster" 5
+		"Tyrant Plasma Steering" 2
 		"Tyrant Plasma Thruster"
 		"Hyperdrive"
 		
@@ -1918,4 +2037,234 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"X3700 Ion Thruster"
 		"X5200 Ion Steering"
 		"X4200 Ion Steering"
-		"Scarm Drive"
+		"Scram Drive"
+		
+ship "Nasprite"
+	sprite "ship/mgf nasprite"
+	thumbnail "thumbnail/mgf nasprite thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8200000
+		"shields" 11000
+		"hull" 12500
+		"required crew" 46
+		"bunks" 120
+		"mass" 1605
+		"drag" 15.4
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 500
+		"outfit space" 876
+		"weapon capacity" 412
+		"engine capacity" 212
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -33.5 -167
+	gun 33.5 -167
+	turret 0 -115.5 "Heavy Anti-Missile Turret"
+	turret -36.5 -109
+	turret 36.5 -109
+	turret -27 -83 "Proton Turret"
+	turret 27 -83 "Proton Turret"
+	turret -27.5 57.5 "Proton Turret"
+	turret 27.5 57.5 "Proton Turret"
+	turret -37.5 103
+	turret 37.5 103
+	turret 0 184.5 "Heavy Anti-Missile Turret"
+	engine -56.5 159.5
+		zoom 1
+		angle 0
+		under
+	engine 56.5 159.5
+		zoom 1
+		angle 0
+		under
+	engine 0 194
+		zoom 1
+		angle 0
+		under
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war made to withstand combat and long travel. Though originates from the core, most of these are now found operating around the Dirtbelt.`
+	
+ship "QYG-30 Qazan"
+	sprite "ship/mgf qazan"
+	thumbnail "thumbnail/mgf qazan thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 760000
+		"shields" 2200
+		"hull" 1500
+		"required crew" 2
+		"bunks" 5
+		"mass" 167
+		"drag" 3.4
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 270
+		"weapon capacity" 80
+		"engine capacity" 120
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		
+	turret 0 -24
+	turret 0 -1.5
+	engine 24.5 94.5
+		zoom 1.2
+		angle 0
+		under
+	engine -24.5 94.5
+		zoom 1.2
+		angle 0
+		under
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `A fast and well armoured freighter for medium range shipping. Preferred by some captain for greater manoeuvrability compared to Syndicate Freighter.`
+		
+ship "QYG-60 Sandiq"
+	sprite "ship/mgf sandiq"
+	thumbnail "thumbnail/mgf sandiq thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 1280000
+		"shields" 4350
+		"hull" 2600
+		"required crew" 4
+		"bunks" 8
+		"mass" 312
+		"drag" 5.2
+		"heat dissipation" .75
+		"fuel capacity" 800
+		"cargo space" 270
+		"outfit space" 301
+		"weapon capacity" 122
+		"engine capacity" 164
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Blaster Turret"
+		"Heavy Anti-Missile Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		
+	turret 0 -40
+	turret 0 -13.5
+	turret 0 68
+	engine -24.5 140.5
+		zoom 1
+		angle 0
+		under
+	engine 24.5 140.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighter around the Core and North area.`
+	
+ship "AGT-31 Xencar"
+	sprite "ship/mgf xencar"
+	thumbnail "thumbnail/mgf xencar thumb"
+	attributes
+		category "Fighter"
+		"cost" 93000
+		"shields" 900
+		"hull" 450
+		"required crew" 1
+		"bunks" 1
+		"mass" 45
+		"drag" .7
+		"heat dissipation" .8
+		"outfit space" 120
+		"weapon capacity" 31
+		"engine capacity" 51
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Atesac Plasma Cannon"
+		
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	engine -10 48
+		zoom 1
+		angle 0
+		under
+	engine 10 48
+		zoom 1
+		angle 0
+		under
+	gun 0 -41.5
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Heavy fighter/bomber developed as more effective way to deter pirates, equipped with a powerful Atesac Plasma Cannon to make a quick work of enemy shields and chase the more cowardly pirates away.`

@@ -24,6 +24,53 @@ outfit "Bagger Excavator"
 		"shield damage" 4.5
 		"hull damage" 10
 		"minable damage" 30
+	description `An old-school physical excavator build into the tip of the Bagger, while lack of range it will break up asteroids much faster than any other energy weapon in human space.`
+		
+outfit "MRF-10 EM Clamp"
+	category "Guns"
+	cost 12000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"gun ports" -1
+	weapon
+		#sprite "projectile/atesac beam"
+		sound "ion tiny"
+		"velocity" 2
+		"turret turn" 360
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .03
+		"firing heat" .01
+		"hit force" -20
+		"blast radius" 5
+		"safe"
+		
+outfit "Atesac Plasma Cannon"
+	category "Guns"
+	cost 250000
+	thumbnail "outfit/mgf atesac cannon"
+	"mass" 27
+	"outfit space" -27
+	"weapon capacity" -27
+	"gun ports" -1
+	weapon
+		sprite "projectile/atesac beam"
+		sound "plasma"
+		"hit effect" "v85 railgun fire"
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" 3.2
+		"velocity" 30
+		"lifetime" 20
+		"random lifetime" 10
+		"reload" 160
+		"firing energy" 125
+		"firing heat" 112
+		"hit force" 20
+		"firing force" 30
+		"shield damage" 420
+		"hull damage" 108
+	description "Experimental ultra-compressed plasma cannon, very powerful against shields."
 		
 outfit "M6-ACS Artillery Turret"
 	category "Turrets"
