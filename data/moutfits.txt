@@ -1,5 +1,3 @@
-outfit "Mega Freight Active"
-	#fake outfit to detect if this plugin is installed.
 
 outfit "Bagger Excavator"
 	category "Guns"
@@ -10,6 +8,7 @@ outfit "Bagger Excavator"
 	"weapon capacity" -140
 	"gun ports" -1
 	"excavator" 1
+	"asteroid scan power" 20
 	weapon
 		#sprite "projectile/particle beam"
 		sound "tiny explosion"
@@ -17,13 +16,14 @@ outfit "Bagger Excavator"
 		"inaccuracy" .5
 		"velocity" 1
 		"lifetime" 1
-		"reload" 20
+		"reload" 1
 		"firing energy" 5
 		"firing force" -1
 		"firing heat" 20
 		"hit force" -20
 		"shield damage" 4.5
 		"hull damage" 10
+		"minable damage" 30
 		
 outfit "M6-ACS Artillery Turret"
 	category "Turrets"
