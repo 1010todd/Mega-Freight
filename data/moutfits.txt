@@ -72,6 +72,30 @@ outfit "Atesac Plasma Cannon"
 		"hull damage" 108
 	description "Experimental ultra-compressed plasma cannon, very powerful against shields."
 		
+outfit "G22 Particle Turret"
+	category "Guns"
+	cost 980000
+	thumbnail "outfit/particle cannon"
+	"mass" 77
+	"outfit space" -77
+	"weapon capacity" -77
+	"turret mounts" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .5
+		"velocity" 30
+		"lifetime" 25
+		"reload" 8
+		"firing energy" 40
+		"firing force" 8
+		"firing heat" 150
+		"hit force" 60
+		"shield damage" 62
+		"hull damage" 60
+	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate found on some older ships.`
+		
 outfit "M6-ACS Artillery Turret"
 	category "Turrets"
 	cost 520000

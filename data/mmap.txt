@@ -8,7 +8,7 @@ system "Zosma"
 	add fleet "Intrasystem Merchants" 800
 system "Pollux"
 	add fleet "Intrasystem Merchants" 800
-system "Tejad"
+system "Tejat"
 	add fleet "Intrasystem Merchants" 800
 system "Alheka"
 	add fleet "Intrasystem Merchants" 800

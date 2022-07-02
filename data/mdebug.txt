@@ -8,6 +8,28 @@ mission "MGF Debug: Toggle Event Mode"
 		government "cheat"
 	on accept
 		"mgf event spawn" = 1
+		
+mission "MGF Debug: Reset Alcazar Spawn"
+	job
+	deadline 1
+	name "MGF Reset Alcazar Spawn"
+	description `If the Alcazar spawned don't have correct weapon due to being spawned in previous version. Can also be used if you want to challenge them again. NOTE: Will not reset reputation loss.`
+	source
+		government "cheat"
+	on accept
+		fail "MGF: Polaris Alcazar"
+		fail "MGF: Sol Alcazar"
+		fail "MGF: Almaaz Alcazar"
+		clear "MGF: Polaris Alcazar: offered"
+		clear "MGF: Sol Alcazar: offered"
+		clear "MGF: Almaaz Alcazar: offered"
+		clear "MGF: Polaris Alcazar: failed"
+		clear "MGF: Sol Alcazar: failed"
+		clear "MGF: Almaaz Alcazar: failed"
+	on enter
+		clear "MGF: Polaris Alcazar: failed"
+		clear "MGF: Sol Alcazar: failed"
+		clear "MGF: Almaaz Alcazar: failed"
 	
 mission "MGF: Add ships to fleets"
 	landing

@@ -1238,7 +1238,7 @@ ship "SV-4450 Sovereign"
 	outfits
 		"Torpedo Launcher" 6
 		"Torpedo" 180
-		"Particle Turret" 2
+		"G22 Particle Turret" 2
 		"Proton Turret" 14
 		"Heavy Anti-Missile Turret" 5
 		
@@ -1373,7 +1373,7 @@ ship "SC-1 Alcazar"
 			"hit force" 18000
 	outfits
 		
-		"Proton Turret" 54
+		"Proton Turret" 42
 		"Heavy Anti-Missile Turret" 18
 		"M6-ACS Artillery Turret" 12
 		"Swordfish Missile Turret" 12
@@ -1689,8 +1689,8 @@ ship "Culverin Class"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 780
-		"weapon capacity" 350
+		"outfit space" 833
+		"weapon capacity" 361
 		"engine capacity" 210
 		"vertical launching support" 4
 		weapon
@@ -1832,8 +1832,8 @@ ship "Spetum Class"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 150
-		"outfit space" 1885
-		"weapon capacity" 970
+		"outfit space" 1944
+		"weapon capacity" 1064
 		"engine capacity" 350
 		weapon
 			"blast radius" 300
