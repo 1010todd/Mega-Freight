@@ -11,7 +11,7 @@ outfit "Bagger Excavator"
 	"asteroid scan power" 20
 	weapon
 		#sprite "projectile/particle beam"
-		sound "tiny explosion"
+		sound "explosion tiny"
 		"hit effect" "smoke"
 		"inaccuracy" .5
 		"velocity" 1
@@ -137,7 +137,7 @@ outfit "M6-ACS Artillery Turret"
 			"frame rate" 3
 		"hardpoint sprite" "hardpoint/mgf g22 particle turret hp"
 		"hardpoint offset" 5.
-		sound "heavy rocket impact"
+		sound "heavy rocket hit"
 		"hit effect" "large explosion"
 		"inaccuracy" 2
 		"turret turn" .8

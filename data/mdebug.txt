@@ -74,7 +74,7 @@ event "MGF: Add Ships to Fleets"
 			"CS-24 Garrison" #18
 			"Lance" 18
 		add variant 2
-			"Hauler I" 6
+			"Hauler" 6
 			"CS-24 Garrison" #18
 			"Lance" 18
 		

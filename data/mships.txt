@@ -1263,11 +1263,11 @@ ship "SV-4450 Sovereign"
 	gun 40 -758.5
 	gun -63 -728.5
 	gun 63 -728.5
-	turret 0 -657.5 "Particle Turret"
+	turret 0 -657.5 "G22 Particle Turret"
 	turret -75 -518 "Proton Turret"
 	turret 75 -518 "Proton Turret"
 	turret 0 -435.5 "Heavy Anti-Missile Turret"
-	turret 0 -280 "Particle Turret"
+	turret 0 -280 "G22 Particle Turret"
 	turret -40 -122.5 "Heavy Anti-Missile Turret"
 	turret 40 -122.5 "Heavy Anti-Missile Turret"
 	turret -41 -167.5 "Proton Turret"
