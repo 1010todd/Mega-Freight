@@ -1156,8 +1156,8 @@ ship "CSE-6 Steward"
 		"fuel capacity" 800
 		"cargo space" 50
 		"outfit space" 870
-		"weapon capacity" 300
-		"engine capacity" 165
+		"weapon capacity" 320
+		"engine capacity" 178
 		weapon
 			"blast radius" 140
 			"shield damage" 1200
@@ -1359,8 +1359,8 @@ ship "SC-1 Alcazar"
 		"heat dissipation" .5
 		"fuel capacity" 6000
 		"cargo space" 1500
-		"outfit space" 11070
-		"weapon capacity" 5000
+		"outfit space" 13070
+		"weapon capacity" 7000
 		"engine capacity" 650
 		"hull repair rate" 25
 		"repair delay" 760
@@ -1794,7 +1794,7 @@ ship "Culverin Class" "Culverin Class (Mark II)"
 	outfits
 		"Sidewinder Missile Launcher" 16
 		"Sidewinder Missile" 720
-		"Electron Laser Turret" 1
+		"Electron Turret" 1
 		"Heavy Anti-Missile Turret" 1
 		"Spearfish VLS Array" 4
 		"Spearfish Missile" 48
@@ -2018,7 +2018,7 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 	outfits
 		"Typhoon Launcher" 4
 		"Typhoon Torpedo" 120
-		"Electron Laser Turret" 6
+		"Electron Turret" 6
 		"Heavy Anti-Missile Turret" 4
 		"V85 Railgun Turret" 3
 		

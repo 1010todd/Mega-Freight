@@ -166,7 +166,7 @@ outfit "Swordfish Missile Turret"
 	"mass" 5
 	"outfit space" -18
 	"weapon capacity" -18
-	"gun ports" -1
+	"turret mounts" -1
 	"swordfish capacity" 45
 	weapon
 		sprite "projectile/sidewinder"

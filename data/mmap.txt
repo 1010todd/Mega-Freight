@@ -1,0 +1,20 @@
+system "Sol"
+	add fleet "Intrasystem Merchants" 500
+system "Tarazed"
+	add fleet "Intrasystem Merchants" 800
+system "Hadar"
+	add fleet "Intrasystem Merchants" 800
+system "Zosma"
+	add fleet "Intrasystem Merchants" 800
+system "Pollux"
+	add fleet "Intrasystem Merchants" 800
+system "Tejad"
+	add fleet "Intrasystem Merchants" 800
+system "Alheka"
+	add fleet "Intrasystem Merchants" 800
+system "Scheat"
+	add fleet "Intrasystem Merchants" 800
+system "Algorel"
+	add fleet "Intrasystem Merchants" 800
+system "Aldhibain"
+	add fleet "Intrasystem Merchants" 800
