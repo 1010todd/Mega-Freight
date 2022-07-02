@@ -339,4 +339,4 @@ outfit "Spearfish VLS Array"
 		"hull damage" 880
 		"hit force" 520
 		"missile strength" 12
-	description ""
+	description "Powerful anti-ship missile"

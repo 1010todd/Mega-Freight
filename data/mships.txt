@@ -39,6 +39,7 @@ ship "FR-4 Dart"
 ship "Wisymton"
 	sprite "ship/mgf wisymton"
 	thumbnail "thumbnail/mgf wisymton thumb"
+	"swizzle" 0
 	attributes
 		category "Light Freighter"
 		"cost" 85000
