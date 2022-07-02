@@ -18,3 +18,15 @@ system "Algorel"
 	add fleet "Intrasystem Merchants" 800
 system "Aldhibain"
 	add fleet "Intrasystem Merchants" 800
+system "Men"
+	add fleet "Rare Southern Pirate" 12000
+planet Asgard
+	add shipyard "MGF Special C"
+planet Clark
+	add shipyard "MGF Special B"
+planet Chiron
+	add shipyard "MGF Special B"
+planet Rust
+	add shipyard "MGF Special A"
+planet Haven
+	add shipyard "MGF Special D"

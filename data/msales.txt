@@ -24,6 +24,10 @@ shipyard developer
 	"AGT-31 Xencar"
 	"Wisymton"
 	"Wisymton (Cargo)"
+	"FG-5 Bluewhale-A"
+	"FG-6 Startrain-A"
+	"FG-7 Conveyor-A"
+	"RF-03 Gerlache"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -77,6 +81,7 @@ shipyard "Southbound Advanced"
 	"CS-24 Garrison"
 	"CSE-6 Steward"
 	"SMM-111 Bagger"
+	"RF-03 Gerlache"
 
 shipyard "Betelgeuse Basic"
 	"QYG-30 Qazan"
@@ -91,6 +96,7 @@ shipyard "Betelgeuse Advanced"
 	"CSE-6 Steward"
 	"SMM-111 Bagger"
 	"QYG-60 Sandiq"
+	"RF-03 Gerlache"
 	
 shipyard "Tarazed Advanced"
 	"CS-24 Garrison"
@@ -122,6 +128,20 @@ shipyard "Advanced Core Pirates"
 shipyard "Navy Advanced"
 	"Culverin Class"
 	"Spetum Class"
+	
+shipyard "MGF Special A"
+	"FG-5 Bluewhale-A"
+	"FG-6 Startrain-A"
+	
+shipyard "MGF Special B"
+	"Wisymton"
+	"Wisymton (Cargo)"
+
+shipyard "MGF Special C"
+	"FG-7 Conveyor-A"
+	
+shipyard "MGF Special D"
+	"Wisymton (Gold)"
 	
 outfitter "Navy Basic"
 	"Spearfish Missile"

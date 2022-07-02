@@ -41,6 +41,15 @@ fleet "Large Southern Merchants"
 		
 	add variant 1
 		"QYG-60 Sandiq" 2
+		
+	add variant 6
+		"FG-7 Conveyor-A"
+		"CSE-6 Steward" #6
+		"Lance" 14
+	add variant 4
+		"FG-7 Conveyor-A" 3
+		"CS-24 Garrison" #18
+		"Lance" 42
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -52,6 +61,9 @@ fleet "Small Core Merchants"
 		
 	add variant 7
 		"QYG-30 Qazan"
+		
+	add variant 5
+		"FG-6 Startrain-A"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -123,6 +135,24 @@ fleet "Large Core Merchants"
 	add variant 8
 		"CH-6 Carrack"
 		"AGT-31 Xencar" 4
+		
+	add variant 5
+		"FG-7 Conveyor-A" 3
+		"Barb" 24
+		"CS-24 Garrison" #18
+		"Lance" 18
+	add variant 1
+		"FG-7 Conveyor-A" 6
+		"Barb" 24
+		"Barb (Proton)" 24
+		"CS-24 Garrison" 3 #18
+		"Lance" 54
+	add variant 1
+		"FG-5 Bluewhale-A" 8
+		"CS-24 Garrison" 3 #18
+		"Lance" 54
+	add variant 5
+		"FG-5 Bluewhale-A"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -213,6 +243,27 @@ fleet "Large Northern Merchants"
 		"FG-7 Conveyor"
 		"AGT-31 Xencar" 8
 		
+	add variant 3
+		"RF-03 Gerlache"
+		"Dagger" 8
+		"Firebird" 2
+	add variant 5
+		"FG-5 Bluewhale-A"
+	add variant 10
+		"FG-7 Conveyor-A"
+		"Lance" 8
+	add variant 10
+		"FG-7 Conveyor-A"
+		"Dagger" 8
+	add variant 10
+		"FG-7 Conveyor-A"
+		"Barb" 8
+	add variant 7
+		"FG-5 Bluewhale-A"
+		"Raven" 2
+	add variant 10
+		"FG-6 Startrain-A"
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -228,6 +279,13 @@ fleet "Large Human Merchants (Hai)"
 		"FG-5 Bluewhale" 2
 		"CSE-6 Steward" #6
 		"Dagger" 6
+		
+	add variant 6
+		"FG-5 Bluewhale-A"
+	add variant 5
+		"FG-5 Bluewhale-A" 2
+		"CSE-6 Steward" #6
+		"Dagger" 6
 	
 fleet "Human Miners"
 	add variant 3
@@ -235,6 +293,11 @@ fleet "Human Miners"
 	add variant 1
 		"SMM-111 Bagger"
 		"Barb (Proton)" 4
+		
+	add variant 1
+		"SMM-111 Bagger"
+		"Barb (Proton)" 2
+		"Boxwing" 2
 		
 fleet "Intrasystem Merchants"
 	government "Merchant"
@@ -487,6 +550,15 @@ fleet "Large Southern Pirates"
 		"CS-24 Garrison"
 		"Finch" 10
 		"AGT-31 Xencar" 8
+		
+fleet "Rare Southern Pirate"
+	government "Pirate"
+	names "pirate"
+	cargo 1
+	personality
+		plunders harvests
+	variant 1
+		"Wisymton (Gold)"
 		
 fleet "Large Northern Pirates"
 	add variant 5

@@ -46,6 +46,28 @@ outfit "MRF-10 EM Clamp"
 		"blast radius" 5
 		"safe"
 		
+outfit "MRF-SS Scrambler"
+	category "Guns"
+	cost 84000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"gun ports" -1
+	weapon
+		sound "ion"
+		"fire effect" "ion impact"
+		"velocity" 5
+		"turret turn" 360
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .2
+		"firing heat" .4
+		"shield damage" 1
+		"hull damage" .01
+		"ion damage" 10
+		"disruption damage" 10
+		"firing ion" 1
+		
 outfit "Atesac Plasma Cannon"
 	category "Guns"
 	cost 250000
