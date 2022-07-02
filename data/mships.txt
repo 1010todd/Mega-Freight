@@ -115,6 +115,7 @@ ship "Wisymton" "Wisymton (Cargo)"
 	add attributes
 		"mass" 5
 		"cargo space" 40
+		"drag" .1
 		
 	gun 0 4.5
 	"reverse engine" -28.5 20
