@@ -1,23 +1,23 @@
 system "Sol"
-	add fleet "Intrasystem Merchants" 500
+	add fleet "Intrasystem Merchants" 650
 system "Tarazed"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Hadar"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Zosma"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Pollux"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Tejat"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Alheka"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Scheat"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Algorel"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Aldhibain"
-	add fleet "Intrasystem Merchants" 800
+	add fleet "Intrasystem Merchants" 900
 system "Men"
 	add fleet "Rare Southern Pirate" 12000
 planet Asgard
