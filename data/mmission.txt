@@ -220,6 +220,8 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 1"
 	source "Farpoint"
 	to offer
 		has "wanderers: found the sestor fleet"
+	to complete
+		has "Wanderers: Sestor: Farpoint Attack 1: done"
 	npc
 		government "Navy (Oathkeeper)"
 		personality heroic
@@ -239,6 +241,10 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2"
 	source "Farpoint"
 	to offer
 		has "Wanderers: Sestor: Quarg Help 2: done"
+	to complete
+		or
+			has "Wanderers: Sestor: Farpoint Attack 2: done"
+			has "Wanderers: Sestor: Bomb Zenith 1: done"
 	npc
 		government "Navy (Oathkeeper)"
 		personality heroic staying
