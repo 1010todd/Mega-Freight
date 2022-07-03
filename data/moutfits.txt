@@ -294,16 +294,21 @@ outfit "swordfish missile activated"
 outfit "Spearfish Missile"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/sidewinder"
+	thumbnail "outfit/spearfish missile"
 	"mass" .4
 	"spearfish capacity" -1
 	description "The Spearfish Missile is ammunition for the Spearfish VLS Array"
 	
-		
+effect "spearfish flare"
+	sprite "effect/spearfish flare"
+		"frame rate" 6
+	"lifetime" 6
+	"velocity scale" .3
+	
 outfit "Spearfish VLS Array"
 	category "Secondary Weapons"
 	cost 200000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/spearfish vls"
 	"mass" 2
 	"outfit space" -12
 	"weapon capacity" -12
@@ -311,13 +316,14 @@ outfit "Spearfish VLS Array"
 	"spearfish capacity" 12
 	"vertical launching support" -1
 	weapon
-		sprite "projectile/sidewinder"
+		sprite "projectile/spearfish proj"
 			"no repeat"
 			"frame rate" 6
 		sound "nuke"
 		ammo "Spearfish Missile"
 		stream
-		icon "icon/torpedo"
+		icon "icon/spearfish"
+		"live effect" "spearfish flare" 200
 		"fire effect" "smoke"
 		"hit effect" "huge explosion"
 		"turret turn" 360
