@@ -341,19 +341,19 @@ ship "Aplomado"
 	thumbnail "thumbnail/mgf aplomado"
 	attributes
 		category "Heavy Warship"
-		"cost" 10900000
-		"shields" 14200
-		"hull" 7800
-		"required crew" 60
+		"cost" 14900000
+		"shields" 13800
+		"hull" 5800
+		"required crew" 65
 		"bunks" 100
 		"mass" 710
 		"drag" 6.9
-		"heat dissipation" .65
-		"fuel capacity" 1200
-		"cargo space" 230
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 150
 		"outfit space" 740
-		"weapon capacity" 450
-		"engine capacity" 250
+		"weapon capacity" 344
+		"engine capacity" 221
 		weapon
 			"blast radius" 180
 			"shield damage" 1600
