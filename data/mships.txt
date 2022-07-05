@@ -39,9 +39,8 @@ ship "FR-4 Dart"
 ship "Wisymton"
 	sprite "ship/mgf wisymton"
 	thumbnail "thumbnail/mgf wisymton thumb"
-	"swizzle" 0
 	attributes
-		category "Light Freighter"
+		category "Fighter"
 		"cost" 85000
 		"hull" 520
 		"required crew" 1
@@ -160,8 +159,9 @@ ship "Wisymton" "Wisymton (Cargo)"
 ship "Wisymton" "Wisymton (Gold)"
 	sprite "ship/mgf wisymton-gold"
 	thumbnail "thumbnail/mgf wisymton-gold thumb"
+	"swizzle" 0
 	attributes
-		category "Light Freighter"
+		category "Fighter"
 		"cost" 85000
 		"shields" 200
 		"hull" 680
