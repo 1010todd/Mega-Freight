@@ -13,6 +13,7 @@ outfit "Bagger Excavator"
 		#sprite "projectile/particle beam"
 		sound "explosion tiny"
 		"hit effect" "smoke"
+		icon "icon/template"
 		"inaccuracy" .5
 		"velocity" 1
 		"lifetime" 1
