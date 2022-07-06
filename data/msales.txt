@@ -129,6 +129,10 @@ shipyard "Navy Advanced"
 	"Culverin Class"
 	"Spetum Class"
 	
+shipyard "Intrasystem Basic"
+	"Wisymton"
+	"Wisymton (Cargo)"
+	
 shipyard "MGF Special A"
 	"FG-5 Bluewhale-A"
 	"FG-6 Startrain-A"

@@ -1,23 +1,27 @@
 system "Sol"
-	add fleet "Intrasystem Merchants" 650
+	add fleet "Intrasystem Merchants" 750
 system "Tarazed"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Hadar"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Zosma"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Pollux"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Tejat"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Alheka"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Scheat"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Algorel"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
 system "Aldhibain"
-	add fleet "Intrasystem Merchants" 900
+	add fleet "Intrasystem Merchants" 1000
+system Alhena
+	add fleet "Intrasystem Merchants" 1000
+system Menkar
+	add fleet "Intrasystem Merchants" 1000
 system "Men"
 	add fleet "Rare Southern Pirate" 12000
 planet Asgard
@@ -30,3 +34,33 @@ planet Rust
 	add shipyard "MGF Special A"
 planet Haven
 	add shipyard "MGF Special D"
+	
+planet Earth
+	add shipyard "Intrasystem Basic"
+planet Luna
+	add shipyard "Intrasystem Basic"
+planet Mars
+	add shipyard "Intrasystem Basic"
+	
+planet Wayfarer
+	add shipyard "Intrasystem Basic"
+planet Thrall
+	add shipyard "Intrasystem Basic"
+planet Memory
+	add shipyard "Intrasystem Basic"
+planet "New Wales"
+	add shipyard "Intrasystem Basic"
+planet Skymoot
+	add shipyard "Intrasystem Basic"
+planet Glaze
+	add shipyard "Intrasystem Basic"
+planet Shroud
+	add shipyard "Intrasystem Basic"
+planet Delve
+	add shipyard "Intrasystem Basic"
+planet Calda
+	add shipyard "Intrasystem Basic"
+planet Mainsail
+	add shipyard "Intrasystem Basic"
+planet Icefall
+	add shipyard "Intrasystem Basic"
