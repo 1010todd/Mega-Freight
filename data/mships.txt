@@ -352,7 +352,7 @@ ship "Aplomado"
 		"fuel capacity" 800
 		"cargo space" 150
 		"outfit space" 740
-		"weapon capacity" 344
+		"weapon capacity" 351
 		"engine capacity" 221
 		weapon
 			"blast radius" 180
