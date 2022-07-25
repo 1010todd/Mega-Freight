@@ -120,7 +120,7 @@ outfit "G22 Particle Cannon"
 	description `Old model of Particle Cannon with less efficiency and firepower but faster fire-rate found on some older ships.`
 		
 outfit "G22 Particle Turret"
-	category "Guns"
+	category "Turrets"
 	cost 980000
 	thumbnail "outfit/mgf g22 particle turret"
 	"mass" 77
