@@ -63,9 +63,204 @@ mission `MGF: Pickup Alcazar`
 	on offer
 		conversation
 			`	You arrived at the <origin> to pick up your SC-1 Alcazar battlestation which awaits for you at low orbit.`
-		give ship "SC-1 Alcazar"
+		give ship "SC-1 Alcazar" "N-005"
 		
+mission `MGF: Canaveral Naval Yard Trigger`
+	invisible
+	landing
+	to offer
+		has "main plot completed"
+	on offer
+		event "mgf: canaveral naval yard begin" 30
+	on accept
+		fail
+		
+mission `MGF: Canaveral Naval Yard Begin`
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+	on offer
+		event "mgf: canaveral naval yard 50 trigger" 120
+	on accept
+		fail
+		
+event "mgf: canaveral naval yard begin"
+	system Sol
+		add object "MGF Fake Mars"
+			sprite planet/mars
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard10"
+				distance 150.24
+				period 27.3
 
+planet "MGF Fake Mars"
+	attributes "requires: unlandable"
+
+planet "Canaveral Naval Yard"
+	landscape land/space0
+	attributes station
+	description `To further advance the Republic Navy and secure humanity's future, the government is building a new orbital naval yard to allow production of larger and more advanced ships and remains easily upgradable for any future improvement and expansion.`
+	spaceport `The spaceport have few basic accommodations, mostly as resting area for construction workers.`
+	security .8
+
+event "mgf: canaveral naval yard 50 trigger"
+
+mission `MGF: Canaveral Naval Yard 50 Early`
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+		not "event: mgf: canaveral naval yard 50"
+		"mgf: canaveral construction assist" >= 12
+	on offer
+		event "mgf: canaveral naval yard 50"
+		event "mgf: canaveral naval yard compt trig" 120
+	on accept
+		fail
+
+mission `MGF: Canaveral Naval Yard 50Auto`
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+		has "event: mgf: canaveral naval yard 50 trigger"
+		not "event: mgf: canaveral naval yard 50"
+	on offer
+		event "mgf: canaveral naval yard 50"
+		event "mgf: canaveral naval yard compt trig" 120
+	on accept
+		fail
+event "mgf: canaveral naval yard compt trig"
+
+event "mgf: canaveral naval yard 50"
+	system Sol
+		remove object "MGF Fake Mars"
+			sprite planet/mars
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard10"
+				distance 150.24
+				period 27.3
+		add object "MGF Fake Mars"
+			sprite planet/mars
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard50"
+				distance 150.24
+				period 27.3
+		
+mission `MGF: Canaveral Naval Yard Complete Early`
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard 50"
+		not "event: mgf: canaveral naval yard done"
+		"mgf: canaveral construction assist" >= 30
+	on offer
+		event "mgf: canaveral naval yard done"
+		event "mgf: developed Lucerne" 360
+	on accept
+		fail
+		
+mission `MGF: Canaveral Naval Yard Complete Auto`
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard 50"
+		not "event: mgf: canaveral naval yard done"
+		has "event: mgf: canaveral naval yard compt trig"
+	on offer
+		event "mgf: canaveral naval yard done"
+		event "mgf: developed Lucerne" 360
+	on accept
+		fail
+		
+event "mgf: canaveral naval yard done"
+	system Sol
+		remove object "MGF Fake Mars"
+			sprite planet/mars
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard50"
+				distance 150.24
+				period 27.3
+		add object "MGF Fake Mars"
+			sprite planet/mars
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard"
+				distance 150.24
+				period 27.3
+	planet "Canaveral Naval Yard"
+		landscape land/space0
+		attributes station
+		description `To further advance the Republic Navy and secure humanity's future, the government built a new orbital naval yard to allow production of larger and more advanced ships and remains easily upgradable for any future improvement and expansion. The naval yard is very heavily armed with countless of artillery turrets and advanced anti-missile system spread across the surface. There's also always a fleet carrier in nearby orbit, always within clear visual range.`
+		spaceport `The spaceport have few basic accommodations, mostly as resting area for shipyard workers.`
+		bribe 1.9
+		security .9
+		shipyard "Basic Ships"
+		shipyard "Navy Basic"
+		shipyard "Navy Advanced"
+		outfitter "Common Outfits"
+		outfitter "Navy Basic"
+		outfitter "Navy Advanced"
+		outfitter "Lovelace Advanced"
+		
+event "mgf: developed Lucerne"
+	
+mission "MGF: Lucerne Deployment"
+	invisible
+	landing
+	to offer
+		has "event: mgf: canaveral naval yard done"
+		has "event: mgf: developed Lucerne"
+	on offer
+		event "mgf: Lucerne Deployment" 120
+		
+event "mgf: Lucerne Deployment" 
+	planet "Canaveral Naval Yard"
+		add shipyard "Navy Advanced EX"
+	fleet "Large Republic"
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 56
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 4
+			"Frigate (Mark II)" 2
+			"Rainmaker (Mark II)" 2
+			"Gunboat (Mark II)" 2
+			"Culverin Class (Mark II)"
+			"Lance" 2
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 56
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Lucerne Class"
+			"Lance" 96
+			"Combat Drone" 32
+			"Spetum Class (Mark II)"
+			"Lance" 56
+			"Combat Drone" 24
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			"Frigate (Mark II)" 12
+			"Rainmaker (Mark II)" 8
+			"Gunboat (Mark II)" 12
 		
 #=====================Story Mission Addition
 
@@ -76,6 +271,7 @@ mission "MGF Addition: FW Southern Battle 2"
 	clearance
 	to offer
 		has "FW Southern Battle 1B: done"
+		not "FW Southern Battle 2: done"
 	deadline 3
 	npc evade
 		system Rastaban
@@ -197,7 +393,7 @@ mission "MGF Addition: FWC Pug 4C"
 		personality disables heroic staying
 		government Pug
 		system "Zeta Aquilae"
-		fleet 6
+		fleet 3
 			names "pug"
 			variant
 				"Pug Maboro"
@@ -252,6 +448,44 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2"
 			names "republic capital"
 			fighters "republic fighter"
 			variant
+				"Spetum Class (Mark II)"
+				"Lance" 56
+				"Combat Drone" 24
+				"Culverin Class (Mark II)" 3
+				"Lance" 6
+				"Frigate (Mark II)" 2
+				
+mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2 (Lucerne)"
+	landing
+	invisible
+	source "Farpoint"
+	to offer
+		has "Wanderers: Sestor: Quarg Help 2: done"
+		has "event: mgf: developed Lucerne"
+	to complete
+		or
+			has "Wanderers: Sestor: Farpoint Attack 2: done"
+			has "Wanderers: Sestor: Bomb Zenith 1: done"
+	npc
+		government "Navy (Oathkeeper)"
+		personality heroic staying entering
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Lucerne Class"
+				"Lance" 96
+				"Combat Drone" 32
+				"Spetum Class (Mark II)"
+				"Lance" 56
+				"Combat Drone" 24
+				"Culverin Class (Mark II)" 2
+				"Lance" 4
+				"Cruiser (Mark II)" 4
+				"Combat Drone" 16
+				"Rainmaker (Mark II)" 8
+				"Gunboat (Mark II)" 12
+				
 				"Spetum Class (Mark II)"
 				"Lance" 56
 				"Combat Drone" 24

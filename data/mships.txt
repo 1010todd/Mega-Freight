@@ -1478,7 +1478,7 @@ ship "SC-1 Alcazar"
 	sprite "ship/mgf alcazar"
 	thumbnail "thumbnail/mgf alcazar"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		"cost" 202000000
 		"shields" 180000
 		"hull" 250000
@@ -1496,6 +1496,7 @@ ship "SC-1 Alcazar"
 		"repair delay" 760
 		"ramscoop" 50
 		"force protection" 100
+		"heat capacity" 500000
 		weapon
 			"blast radius" 1400
 			"shield damage" 12000
@@ -2169,6 +2170,516 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"X4200 Ion Steering"
 		"Scram Drive"
 		
+ship "Lucerne Class"
+	sprite "ship/mgf navy supercarrier"
+	thumbnail "thumbnail/mgf navy supercarrier thumb"
+	attributes
+		category "Superheavy"
+		licenses
+			"Navy Carrier"
+		"cost" 88700000
+		"shields" 141500
+		"hull" 128800
+		"hull repair rate" .5
+		"required crew" 1250
+		"bunks" 1570
+		"mass" 35685
+		"drag" 34
+		"heat dissipation" .45
+		"fuel capacity" 2800
+		"cargo space" 1680
+		"outfit space" 13882
+		"weapon capacity" 8862
+		"engine capacity" 985
+		"vertical launching support" 12
+		"spinal mount" 1
+		"force protection" 100
+		"spearfish capacity" 120
+		"repair delay" 160
+		"ramscoop" 30
+		"heat capacity" 120000
+		"active cooling" 250
+		"ion protection" 2
+		weapon
+			"blast radius" 3000
+			"shield damage" 8000
+			"hull damage" 5500
+			"hit force" 4500
+	outfits
+		"ExP314 Railcannon"
+		"V85 Railgun" 4
+		"EMX-55 Flakcannon Turret" 20
+		"CMX-12 Anti-Missile" 18
+		"V85 Railgun Turret" 23
+		"Spearfish Launcher Array" 12
+		"Spearfish Missile" 264
+		"Sidewinder Missile Launcher" 10
+		"Sidewinder Missile" 450
+		
+		"MX30 Sirius Core"
+		"Armageddon Core"
+		"LP576a Battery Pack" 8
+		"DX-30k Shield Hub"
+		"SX-12 Shield Node" 12
+		"NX-40k Repair Center"
+		"Large Radar Jammer" 5
+		"Liquid Helium Cooler" 7
+		"Brig"
+		"Laser Rifle" 1300
+		"Fragmentation Grenades" 280
+		"Security Station" 8
+		"Tactical Scanner" 2
+		
+		"X5700 Ion Thruster" 2
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering" 2
+		"X4200 Ion Steering"
+		"Scram Drive"
+
+	gun 0 -1485 "ExP314 Railcannon"
+	gun -96 -1352.5 "V85 Railgun"
+	gun 96 -1352.5 "V85 Railgun"
+	gun -96 -1352.5 "V85 Railgun"
+	gun 96 -1352.5 "V85 Railgun"
+	gun -271 -623 "Sidewinder Missile Launcher"
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -271 -623 "Sidewinder Missile Launcher" 
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -271 -623 "Sidewinder Missile Launcher"
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -339 -499 "Sidewinder Missile Launcher"
+	gun 339 -499 "Sidewinder Missile Launcher"
+	gun -339 -499 "Sidewinder Missile Launcher"
+	gun 339 -499 "Sidewinder Missile Launcher"
+	turret -109 -1062.5 "V85 Railgun Turret"
+	turret 109 -1062.5 "V85 Railgun Turret"
+	turret -109 -913 "V85 Railgun Turret"
+	turret 109 -913 "V85 Railgun Turret"
+	turret -109 -763.5 "V85 Railgun Turret"
+	turret 109 -763.5 "V85 Railgun Turret"
+	turret -207 -610 "V85 Railgun Turret"
+	turret 207 -610 "V85 Railgun Turret"
+	turret -232.5 -507.5 "V85 Railgun Turret"
+	turret 232.5 -507.5 "V85 Railgun Turret"
+	turret 0 -584.5 "V85 Railgun Turret"
+	turret 0 -507.5 "V85 Railgun Turret"
+	turret 0 -362.5 "V85 Railgun Turret"
+	turret -147 247.5 "V85 Railgun Turret"
+	turret 147 247.5 "V85 Railgun Turret"
+	turret -138.5 452.5 "V85 Railgun Turret"
+	turret 138.5 452.5 "V85 Railgun Turret"
+	turret -126 354 "V85 Railgun Turret"
+	turret 126 354 "V85 Railgun Turret"
+	turret -109 1032.5 "V85 Railgun Turret"
+	turret 109 1032.5 "V85 Railgun Turret"
+	turret -104.5 1135 "V85 Railgun Turret"
+	turret 104.5 1135 "V85 Railgun Turret"
+	
+	turret -155.5 -635.5 "EMX-55 Flakcannon Turret"
+	turret 155.5 -635.5 "EMX-55 Flakcannon Turret"
+	turret -155.5 -589 "CMX-12 Anti-Missile"
+	turret 155.5 -589 "CMX-12 Anti-Missile"
+	turret -155.5 -554.5 "EMX-55 Flakcannon Turret"
+	turret 155.5 -554.5 "EMX-55 Flakcannon Turret"
+	turret -155.5 -516.5 "CMX-12 Anti-Missile"
+	turret 155.5 -516.5 "CMX-12 Anti-Missile"
+	turret -117.5 -405.5 "EMX-55 Flakcannon Turret"
+	turret 117.5 -405.5 "EMX-55 Flakcannon Turret"
+	turret -109 -350 "CMX-12 Anti-Missile"
+	turret 109 -350 "CMX-12 Anti-Missile"
+	turret -219.5 260.5 "EMX-55 Flakcannon Turret"
+	turret 219.5 260.5 "EMX-55 Flakcannon Turret"
+	turret -211 439.5 "CMX-12 Anti-Missile"
+	turret 211 439.5 "CMX-12 Anti-Missile"
+	turret -569.5 205 "EMX-55 Flakcannon Turret"
+	turret 569.5 205 "EMX-55 Flakcannon Turret"
+	turret -569.5 499 "CMX-12 Anti-Missile"
+	turret 569.5 499 "CMX-12 Anti-Missile"
+	turret -471.5 264.5 "EMX-55 Flakcannon Turret"
+	turret 471.5 264.5 "EMX-55 Flakcannon Turret"
+	turret -475.5 443.5 "CMX-12 Anti-Missile"
+	turret 475.5 443.5 "CMX-12 Anti-Missile"
+	turret -301 891.5 "EMX-55 Flakcannon Turret"
+	turret 301 891.5 "EMX-55 Flakcannon Turret"
+	turret -356.5 913 "CMX-12 Anti-Missile"
+	turret 356.5 913 "CMX-12 Anti-Missile"
+	turret -292.5 1130.5 "EMX-55 Flakcannon Turret"
+	turret 292.5 1130.5 "EMX-55 Flakcannon Turret"
+	turret -57.5 -311.5 "CMX-12 Anti-Missile"
+	turret 57.5 -311.5 "CMX-12 Anti-Missile"
+	turret -57.5 -230.5 "EMX-55 Flakcannon Turret"
+	turret 57.5 -230.5 "EMX-55 Flakcannon Turret"
+	turret -57.5 -153.5 "CMX-12 Anti-Missile"
+	turret 57.5 -153.5 "CMX-12 Anti-Missile"
+	turret -57.5 610 "EMX-55 Flakcannon Turret"
+	turret 57.5 610 "EMX-55 Flakcannon Turret"
+	gun -83 -597.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -597.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -83 -542 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -542 "Spearfish Launcher Array"
+		"angle" 90
+	gun -83 -478 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -478 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 742.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 742.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 793.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 793.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 845 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 845 "Spearfish Launcher Array"
+		"angle" 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+		
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	engine -173 1442
+		zoom 1.7
+		under
+	engine 173 1442
+		zoom 1.7
+		under
+	engine 0 1531.5
+		zoom 2
+		under
+	"steering engine" -147 -1263
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" 147 -1263
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" -155.5 -1224.5
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" 155.5 -1224.5
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" -160 -1182
+		zoom .5
+		angle 90
+		under
+		right
+	"steering engine" 160 -1182
+		zoom .5
+		angle -90
+		under
+		left
+	"steering engine" -454.5 -294.5
+		zoom .5
+		angle 60
+		under
+		right
+	"steering engine" 454.5 -294.5
+		zoom .5
+		angle -60
+		under
+		left
+	"steering engine" -450 926
+		zoom .5
+		angle -260
+		under
+		left
+	"steering engine" 450 926
+		zoom .5
+		angle 260
+		under
+		right
+	"reverse engine" -245.5 -661.5
+		zoom .7
+		under
+	"reverse engine" 245.5 -661.5
+		zoom .7
+		under
+		
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	explode "nuke explosion" 10
+	"final explode" "final explosion large" 2
+	description `Massive capital ship.`
+		
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
 	thumbnail "thumbnail/mgf nasprite thumb"
@@ -2398,3 +2909,47 @@ ship "AGT-31 Xencar"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description `Heavy fighter/bomber developed as more effective way to deter pirates, equipped with a powerful Atesac Plasma Cannon to make a quick work of enemy shields and chase the more cowardly pirates away.`
+	
+ship "AFFR-3 Fylla"
+	sprite "ship/mgf fylla"
+	thumbnail "thumbnail/mgf fylla thumb"
+	attributes
+		category "Fighter"
+		"cost" 93000
+		"shields" 120
+		"hull" 420
+		"required crew" 1
+		"bunks" 1
+		"mass" 35
+		"drag" .75
+		"heat dissipation" .9
+		"outfit space" 80
+		"weapon capacity" 0
+		"engine capacity" 51
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	engine -16.5 37.5
+		zoom 1
+		under
+	engine -16.5 37.5
+		zoom 1
+		under
+	"reverse engine" -17 6
+		zoom .7
+		under
+	"reverse engine" 17 6
+		zoom .7
+		under
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`

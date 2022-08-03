@@ -352,3 +352,129 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 		dialog phrase "generic safe escort completion dialog"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
+		
+		
+mission "MGF CNY: Large Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 200 600
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+		not "event: mgf: canaveral naval yard done"
+		random < 40
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		distance 3 16
+		planet "Canaveral Naval Yard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 600000
+		"mgf: canaveral construction assist" += 1
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF CNY: Very Large Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 700 2100
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+		not "event: mgf: canaveral naval yard done"
+		random < 30
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		distance 3 16
+		planet "Canaveral Naval Yard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 1400000
+		"mgf: canaveral construction assist" += 2
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF CNY: Mega Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 2500 7500
+	to offer
+		has "event: mgf: canaveral naval yard begin"
+		not "event: mgf: canaveral naval yard done"
+		random < 20
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		distance 3 16
+		planet "Canaveral Naval Yard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 4500000
+		"mgf: canaveral construction assist" += 3
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF CNY: Escort (Huge 1, Dangerous Origin)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 30
+	to offer
+		random < 15
+		"combat rating" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "frontier"
+	destination
+		planet "Canaveral Naval Yard"
+		distance 3 20
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		fleet "Small Northern Pirates"
+		fleet "Small Northern Pirates"
+		fleet "Small Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system
+			distance 1 2
+		fleet "Small Northern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system
+			distance 1 1
+		fleet "Large Northern Pirates"
+	
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "civilian"
+			variant
+				"FG-7 Conveyor" 2
+	on complete
+		payment 860000
+		"mgf: canaveral construction assist" += 2
+		dialog phrase "generic safe escort completion dialog"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"

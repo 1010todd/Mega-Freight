@@ -186,6 +186,32 @@ effect "v85 railgun hit"
 	lifetime 3
 	"velocity scale" 0
 	
+outfit "V85 Railgun"
+	category "Guns"
+	cost 1120000
+	thumbnail "outfit/railgun v85"
+	"mass" 99
+	"outfit space" -99
+	"weapon capacity" -99
+	"gun ports" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/railgun v85 beam"
+		sound "v85 railgun"
+		"hit effect" "v85 railgun hit"
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" .05
+		"velocity" 85
+		"lifetime" 20
+		"reload" 132
+		"firing energy" 1250
+		"firing heat" 1480
+		"hit force" 310
+		"shield damage" 825
+		"hull damage" 1286
+		"piercing" .02
+	description "Large anti-capital gun."
+	
 outfit "V85 Railgun Turret"
 	category "Turrets"
 	cost 1820000
@@ -214,6 +240,221 @@ outfit "V85 Railgun Turret"
 		"hull damage" 1286
 		"piercing" .02
 	description "Large anti-capital turret that can fire projectiles at extremely high velocity consuming enormous amount of power."
+	
+effect "exp314 railcannon fire"
+	sprite "effect/exp314 fire"
+		"no repeat"
+		"frame rate" 30
+	lifetime 10
+	"velocity scale" 1.1
+	
+effect "exp314 railcannon hit"
+	sprite "effect/exp314 impact"
+		"no repeat"
+		"frame rate" 30
+	lifetime 20
+	"velocity scale" 0
+	"random angle" 2
+	
+effect "exp314 railcannon hit2a"
+	sprite "effect/exp314 impactcrack1"
+		"no repeat"
+		"frame rate" 10
+	lifetime 15
+	"velocity scale" 0
+	"random angle" 35
+	
+effect "exp314 railcannon hit2b"
+	sprite "effect/exp314 impactcrack2"
+		"no repeat"
+		"frame rate" 10
+	lifetime 15
+	"velocity scale" 0
+	"random angle" 35
+	
+effect "exp314 railcannon hit3a"
+	sprite "effect/exp314 spall"
+		"no repeat"
+		"frame rate" 5
+	lifetime 20
+	"velocity scale" .01
+	"random velocity" 20
+	"random lifetime" 10
+	"random frame rate" 5
+	"random angle" 45
+	"random lifetime" 10
+	
+effect "exp314 railcannon hit3b"
+	sprite "effect/exp314 spall2"
+		"no repeat"
+		"frame rate" 5
+	lifetime 20
+	"velocity scale" .01
+	"random velocity" 20
+	"random lifetime" 10
+	"random frame rate" 5
+	"random angle" 45
+	"random lifetime" 10
+	
+effect "exp314 railcannon hit3a sl"
+	sprite "effect/exp314 spall"
+		"no repeat"
+		"frame rate" 5
+	lifetime 7
+	"velocity scale" .01
+	"random velocity" 20
+	"random lifetime" 10
+	"random frame rate" 5
+	"random angle" 45
+	"random lifetime" 5
+	
+effect "exp314 railcannon hit3b sl"
+	sprite "effect/exp314 spall2"
+		"no repeat"
+		"frame rate" 5
+	lifetime 7
+	"velocity scale" .01
+	"random velocity" 20
+	"random lifetime" 10
+	"random frame rate" 5
+	"random angle" 45
+	"random lifetime" 5
+	
+outfit "ExP314 Railcannon"
+	category "Guns"
+	cost 188900000
+	thumbnail "outfit/railgun v85"
+	"mass" 1886
+	"outfit space" -1886
+	"weapon capacity" -1886
+	"gun ports" -1
+	"spinal mount" -1
+	"required crew" 32
+	weapon
+		sprite "projectile/exp314 projectile"
+		sound "v85 railgun"
+		icon "icon/template"
+		"hit effect" "exp314 railcannon hit"
+		"hit effect" "exp314 railcannon hit2a" 2
+		"hit effect" "exp314 railcannon hit2b" 2
+		"hit effect" "exp314 railcannon hit3a" 18
+		"hit effect" "exp314 railcannon hit3b" 18
+		"hit effect" "exp314 railcannon hit3a sl" 24
+		"hit effect" "exp314 railcannon hit3b sl" 24
+		#"hit effect" "nuke explosion"
+		"fire effect" "exp314 railcannon fire"
+		"inaccuracy" .05
+		"velocity" 85
+		"lifetime" 80
+		"reload" 360
+		"firing energy" 5885
+		"firing heat" 6859
+		"hit force" 855
+		"shield damage" 14850
+		"hull damage" 20860
+		"piercing" .2
+		"blast radius" 120
+		"safe"
+	description "Extremely large railgun."
+	
+effect "emx55 flak"
+	sprite "effect/emx55 flak"
+		"no repeat"
+		"frame rate" 10
+	lifetime 12
+	"random lifetime" 1
+	"velocity scale" 0
+	"random angle" 360
+	
+outfit "EMX-55 Flakcannon"
+	category "Guns"
+	cost 320000
+	thumbnail "outfit/emx55 flak"
+	"mass" 34
+	"outfit space" -34
+	"weapon capacity" -34
+	"gun ports" -1
+	weapon
+		sprite "projectile/emx55 proj"
+		sound "pulse"
+		"hit effect" "emx55 flak"
+		"die effect" "emx55 flak"
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" 5
+		"velocity" 23
+		"random velocity" 5
+		"lifetime" 35
+		"reload" 24
+		"firing energy" 122
+		"firing heat" 100
+		"hit force" 50
+		"shield damage" 655
+		"hull damage" 215
+		"ion damage" .05
+		"blast radius" 70
+		"trigger radius" 30
+		"safe"
+	description "Anti-swarm flakcannon"
+	
+outfit "EMX-55 Flakcannon Turret"
+	category "Turrets"
+	cost 820000
+	thumbnail "outfit/emx55 flak turret"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"turret mounts" -1
+	weapon
+		sprite "projectile/emx55 proj"
+		sound "pulse"
+		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint offset" 10.
+		"hit effect" "emx55 flak"
+		"die effect" "emx55 flak"
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" 6
+		"velocity" 23
+		"random velocity" 5
+		"turret turn" 5.5
+		"lifetime" 35
+		"reload" 12
+		"firing energy" 122
+		"firing heat" 100
+		"hit force" 50
+		"shield damage" 655
+		"hull damage" 215
+		"ion damage" .05
+		"blast radius" 70
+		"trigger radius" 30
+		"safe"
+	description "Anti-swarm flakcannon"
+	
+outfit "CMX-12 Anti-Missile"
+	category "Turrets"
+	cost 590000
+	thumbnail "outfit/emx55 flak turret"
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	weapon
+		#sprite "projectile/emx55 proj"
+		sound "heavy anti-missile"
+		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint offset" 10.
+		#"hit effect" "emx55 flak"
+		"die effect" "v85 railgun fire"
+		"fire effect" "v85 railgun fire"
+		"velocity" 750
+		"turret turn" 5.5
+		"lifetime" 1
+		"reload" 5
+		"burst count" 12
+		"burst reload" 3
+		"firing energy" 15.1
+		"firing heat" 10.2
+		"anti-missile" 15
+	description "Anti-swarm flakcannon"
 	
 outfit "Swordfish Missile"
 	category "Ammunition"
@@ -306,6 +547,16 @@ effect "spearfish flare"
 	"lifetime" 6
 	"velocity scale" .3
 	
+effect "spearfish smoke"
+	sprite "effect/spearfish smoke"
+		"frame rate" 6
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" .3
+	"random velocity" 2
+	"random angle" 10
+	"random spin" 30
+	
 outfit "Spearfish VLS Array"
 	category "Secondary Weapons"
 	cost 200000
@@ -324,7 +575,9 @@ outfit "Spearfish VLS Array"
 		ammo "Spearfish Missile"
 		stream
 		icon "icon/spearfish"
-		"live effect" "spearfish flare" 200
+		"live effect" "spearfish flare" 250
+		"live effect" "spearfish smoke" 500
+		"live effect" "spearfish smoke" 500
 		"fire effect" "smoke"
 		"hit effect" "huge explosion"
 		"turret turn" 360
@@ -347,3 +600,90 @@ outfit "Spearfish VLS Array"
 		"hit force" 520
 		"missile strength" 12
 	description "Powerful anti-ship missile"
+	
+outfit "Spearfish Launcher Array"
+	category "Secondary Weapons"
+	cost 200000
+	thumbnail "outfit/spearfish vls"
+	"mass" 2
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"spearfish capacity" 12
+	"vertical launching support" -1
+	weapon
+		sprite "projectile/spearfish proj"
+			"no repeat"
+			"frame rate" 6
+		sound "nuke"
+		ammo "Spearfish Missile"
+		stream
+		icon "icon/spearfish"
+		"live effect" "spearfish flare" 250
+		"live effect" "spearfish smoke" 500
+		"live effect" "spearfish smoke" 500
+		"fire effect" "smoke" 2
+		"hit effect" "huge explosion"
+		"velocity override" 1000
+		"inaccuracy" 1
+		"velocity" 1
+		"lifetime" 800
+		"reload" 20
+		"firing energy" 10
+		"firing heat" 48
+		"acceleration" 1
+		"drag" .07
+		"turn" 4
+		"homing" 4
+		"radar tracking" .7
+		"optical tracking" .8
+		"blast radius" 30
+		"shield damage" 1280
+		"hull damage" 880
+		"hit force" 520
+		"missile strength" 12
+	description "Powerful anti-ship missile"
+	
+outfit "MX30 Sirius Core"
+	category "Power"
+	cost 90000000
+	thumbnail "outfit/core"
+	"mass" 1352
+	"outfit space" -1352
+	"energy generation" 368
+	"heat generation" 651
+	"ion resistance" .1
+	description "Massive experimental reactor designed specifically for the Lucerne Class Supercarrier."
+	
+outfit "DX-30k Shield Hub"
+	category "Systems"
+	cost 3800000
+	thumbnail "outfit/huge shield"
+	"mass" 300
+	"outfit space" -300
+	"shield generation" 6.7
+	"shield energy" 6.7
+	"shield node" 12
+	description "A new technology of shield hub while not super efficient by itself it can support multiple shield nodes for maximum efficiency."
+	
+outfit "SX-12 Shield Node"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/medium shield"
+	"mass" 60
+	"outfit space" -60
+	"shield generation" 3.65
+	"shield energy" 3.65
+	"shield node" -1
+	
+outfit "NX-40k Repair Center"
+	category "Systems"
+	cost 3800000
+	thumbnail "outfit/huge shield"
+	"mass" 400
+	"outfit space" -400
+	"hull repair rate" 5.1
+	"hull energy" 5.1
+	"hull heat" 5.1
+	"required crew" 25
+	description ""
