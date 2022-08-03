@@ -914,6 +914,104 @@ ship "FG-5 Bluewhale"
 ship "FG-5 Bluewhale" "FG-5 Bluewhale-A"
 	sprite "ship/mgf bluewhale-a"
 	thumbnail "thumbnail/mgf bluewhale-a"
+
+ship "PAS-2 Bulwark"
+	sprite "ship/mgf fw bulwark"
+	thumbnail "thumbnail/mgf fw bulwark thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Militia
+		"cost" 18200000
+		"shields" 12000
+		"hull" 18500
+		"required crew" 42
+		"bunks" 61
+		"mass" 8018
+		"drag" 13.5
+		"heat dissipation" .45
+		"fuel capacity" 1200
+		"cargo space" 25
+		"outfit space" 1778
+		"weapon capacity" 1090
+		"engine capacity" 165
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 27
+		"Anti-Missile Turret"
+		"Heavy Anti-Missile Turret" 5
+		
+		"Fission Reactor" 5
+		"Water Coolant System"
+		"LP576a Battery Pack"
+		"D41-HY Shield Generator"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 50
+		
+		"Impala Plasma Thruster"
+		"Orca Plasma Steering"
+		"Greyhound Plasma Steering"
+		"Scram Drive"
+		
+	turret 0 -197 "Heavy Anti-Missile Turret"
+	turret 0 -176.5 "Anti-Missile Turret"
+	turret 0 36
+	turret -21.5 -175 "Proton Turret"
+	turret 21.5 -175 "Proton Turret"
+	turret -21.5 58 "Heavy Anti-Missile Turret"
+	turret 21.5 58 "Heavy Anti-Missile Turret"
+	turret -24 105 "Proton Turret"
+	turret 24 105 "Proton Turret"
+	turret -24 114.5
+	turret 24 114.5
+	turret -24 126.5 "Heavy Anti-Missile Turret"
+	turret 24 126.5 "Heavy Anti-Missile Turret"
+	
+	turret -43.5 -115
+	turret 43.5 -115
+	turret -43.5 -49.5
+	turret 43.5 -49.5
+	turret -43.5 17
+	turret 43.5 17
+	turret -70 17
+	turret 70 17
+	turret -70 -48.5
+	turret 70 -48.5
+	turret -70 -116
+	turret 70 -116
+	turret -58 -82
+	turret 58 -82
+	turret -58 -16
+	turret 58 -16
+	turret -80 -16
+	turret 80 -16
+	turret -80 -83.5
+	turret 80 -83.5
+	engine 0 253.5
+		zoom 1
+		angle 0
+		under
+	engine -48.5 246.5
+		zoom 1
+		angle 0
+		under
+	engine 48.5 246.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description ""
 	
 ship "FG-6 Startrain"
 	sprite "ship/mgf startrain"
@@ -1076,6 +1174,253 @@ ship "FG-7 Conveyor"
 ship "FG-7 Conveyor" "FG-7 Conveyor-A"
 	sprite "ship/mgf conveyor-a"
 	thumbnail "thumbnail/mgf conveyor-a"
+	
+ship "PCS-4 Castle"
+	sprite "ship/mgf fw castle"
+	thumbnail "thumbnail/mgf fw castle thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Militia
+		"cost" 18200000
+		"shields" 13800
+		"hull" 13000
+		"hull repair rate" .01
+		"repair delay" 760
+		"disabled repair delay" 1520
+		"required crew" 76
+		"bunks" 100
+		"mass" 11820
+		"drag" 28
+		"heat dissipation" .65
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 1402
+		"weapon capacity" 650
+		"engine capacity" 245
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 6
+		"Quad Blaster Turret" 3
+		"Heavy Anti-Missile Turret" 8
+		
+		"Fission Reactor" 4
+		"Liquid Nitrogen Cooler"
+		"LP576a Battery Pack" 2
+		"D94-YV Shield Generator" 3
+		"Laser Rifle" 80
+		
+		"Tyrant Plasma Steering"
+		"Tyrant Plasma Thruster"
+		"Scram Drive"
+		
+	turret -36.5 -266 "Heavy Anti-Missile Turret"
+	turret 36.5 -266 "Heavy Anti-Missile Turret"
+	turret 0 -173
+	turret -25.5 -89.5
+	turret 25.5 -89.5
+	turret -25 -68 "Heavy Anti-Missile Turret"
+	turret 25 -68 "Heavy Anti-Missile Turret"
+	turret -56 12
+	turret 56 12
+	turret -29 63 "Heavy Anti-Missile Turret"
+	turret 29 63 "Heavy Anti-Missile Turret"
+	turret -36 144
+	turret 36 144
+	turret -40 225
+	turret 40 225
+	turret -63 285 "Heavy Anti-Missile Turret"
+	turret 63 285 "Heavy Anti-Missile Turret"
+	bay "Fighter" -95 12
+		left
+	bay "Fighter" 95 12
+		right
+	bay "Fighter" -95 12
+		left
+	bay "Fighter" 95 12
+		right
+	bay "Fighter" -95 12
+		left
+	bay "Fighter" 95 12
+		right
+	bay "Fighter" -95 12
+		left
+	bay "Fighter" 95 12
+		right
+		
+	bay "Fighter" -69 -205
+		left
+	bay "Fighter" 69 -205
+		right
+	bay "Fighter" -69 -161
+		left
+	bay "Fighter" 69 -161
+		right
+	bay "Fighter" -69 -117
+		left
+	bay "Fighter" 69 -117
+		right
+	bay "Fighter" -69 143
+		left
+	bay "Fighter" 69 143
+		right
+	bay "Fighter" -69 186
+		left
+	bay "Fighter" 69 186
+		right
+	bay "Fighter" -69 232
+		left
+	bay "Fighter" 69 232
+		right
+	bay "Fighter" -86 232
+		left
+	bay "Fighter" 86 232
+		right
+	bay "Fighter" -86 186
+		left
+	bay "Fighter" 86 186
+		right
+	bay "Fighter" -86 142
+		left
+	bay "Fighter" 86 142
+		right
+	bay "Fighter" -86 -117
+		left
+	bay "Fighter" 86 -117
+		right
+	bay "Fighter" -86 -161
+		left
+	bay "Fighter" 86 -161
+		right
+	bay "Fighter" -86 -206
+		left
+	bay "Fighter" 86 -206
+		right
+	bay "Fighter" -96 -206
+		left
+	bay "Fighter" 96 -206
+		right
+	bay "Fighter" -96 -163
+		left
+	bay "Fighter" 96 -163
+		right
+	bay "Fighter" -96 -117
+		left
+	bay "Fighter" 96 -117
+		right
+	bay "Fighter" -96 142
+		left
+	bay "Fighter" 96 142
+		right
+	bay "Fighter" -96 186
+		left
+	bay "Fighter" 96 186
+		right
+	bay "Fighter" -96 230
+		left
+	bay "Fighter" 96 230
+		right
+	bay "Fighter" -69 -205
+		left
+	bay "Fighter" 69 -205
+		right
+	bay "Fighter" -69 -161
+		left
+	bay "Fighter" 69 -161
+		right
+	bay "Fighter" -69 -117
+		left
+	bay "Fighter" 69 -117
+		right
+	bay "Fighter" -69 143
+		left
+	bay "Fighter" 69 143
+		right
+	bay "Fighter" -69 186
+		left
+	bay "Fighter" 69 186
+		right
+	bay "Fighter" -69 232
+		left
+	bay "Fighter" 69 232
+		right
+	bay "Fighter" -86 232
+		left
+	bay "Fighter" 86 232
+		right
+	bay "Fighter" -86 186
+		left
+	bay "Fighter" 86 186
+		right
+	bay "Fighter" -86 142
+		left
+	bay "Fighter" 86 142
+		right
+	bay "Fighter" -86 -117
+		left
+	bay "Fighter" 86 -117
+		right
+	bay "Fighter" -86 -161
+		left
+	bay "Fighter" 86 -161
+		right
+	bay "Fighter" -86 -206
+		left
+	bay "Fighter" 86 -206
+		right
+	bay "Fighter" -96 -206
+		left
+	bay "Fighter" 96 -206
+		right
+	bay "Fighter" -96 -163
+		left
+	bay "Fighter" 96 -163
+		right
+	bay "Fighter" -96 -117
+		left
+	bay "Fighter" 96 -117
+		right
+	bay "Fighter" -96 142
+		left
+	bay "Fighter" 96 142
+		right
+	bay "Fighter" -96 186
+		left
+	bay "Fighter" 96 186
+		right
+	bay "Fighter" -96 230
+		left
+	bay "Fighter" 96 230
+		right
+	engine 36 347
+		zoom 2
+		angle 0
+		under
+	engine -36 347
+		zoom 2
+		angle 0
+		under
+	engine 25 332
+		zoom 1
+		angle 0
+		over
+	engine -25 332
+		zoom 1
+		angle 0
+		over
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description ``
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"

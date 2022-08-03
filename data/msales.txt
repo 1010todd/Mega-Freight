@@ -30,6 +30,8 @@ shipyard developer
 	"RF-03 Gerlache"
 	"AFFR-3 Fylla"
 	"Lucerne Class"
+	"PCS-4 Castle"
+	"PAS-2 Bulwark"
 
 outfitter developer
 	"Atesac Plasma Cannon"
