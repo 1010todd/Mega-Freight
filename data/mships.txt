@@ -2430,6 +2430,22 @@ ship "Spetum Class"
 	bay "Fighter" 56 -157
 	bay "Fighter" -98.5 -55.5
 	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
 	bay "Drone" -112.5 175
 		left
 	bay "Drone" 112.5 175
@@ -2682,6 +2698,31 @@ ship "Lucerne Class"
 		"angle" -90
 	gun 49 845 "Spearfish Launcher Array"
 		"angle" 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
 		angle -90
