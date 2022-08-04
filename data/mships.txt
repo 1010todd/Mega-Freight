@@ -1818,7 +1818,158 @@ ship "SV-4450 Sovereign"
 	explode "huge explosion" 60
 	"final explode" "final explosion large"
 	description "Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remains today in few private hands."
-	
+
+ship "Fusillade"
+	sprite "ship/mgf syn fusillade"
+	thumbnail "thumbnail/mgf syn fusillade thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Syndicate Platinum Member"
+		"cost" 28200000
+		"shields" 15700
+		"hull" 16800
+		"required crew" 525
+		"bunks" 822
+		"mass" 5405
+		"drag" 16.8
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 2588
+		"weapon capacity" 1664
+		"engine capacity" 662
+		"spinal mount" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Proton Gun" 44
+		"Proton Turret" 11
+		"Heavy Anti-Missile Turret" 8
+		"Meteor Missile Launcher" 16
+		"Meteor Missile" 480
+		
+		"Armageddon Core" 4
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator" 3
+		"Large Radar Jammer" 2
+		"Liquid Helium Cooler"
+		"Brig"
+		"Laser Rifle" 500
+		"Security Station" 2
+		
+		"X5700 Ion Thruster"
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	gun 0 -268
+	gun -22 -250
+	gun 22 -250
+	gun -28 -248
+	gun 28 -248
+	gun -22 -246
+	gun 22 -246
+	gun -26 -246
+	gun 26 -246
+	gun -36 -230
+	gun 36 -230
+	gun -36 -230
+	gun 36 -230
+	gun -40 -229
+	gun 40 -229
+	gun -40 -229
+	gun 40 -229
+	gun -47 -214
+	gun 47 -214
+	gun -47 -214
+	gun 47 -214
+	gun -54 -212
+	gun 54 -212
+	gun -54 -212
+	gun 54 -212
+	gun -60 -192
+	gun 60 -192
+	gun -64 -192
+	gun 64 -192
+	gun -69 -180
+	gun 69 -180
+	gun -69 -180
+	gun 69 -180
+	gun -76 -179
+	gun 76 -179
+	gun -76 -179
+	gun 76 -179
+	gun -104 10
+	gun 104 10
+	gun -104 10
+	gun 104 10
+	gun -118 28
+	gun 118 28
+	gun -118 28
+	gun 118 28
+	turret -28 -146 "Heavy Anti-Missile Turret"
+	turret 28 -146 "Heavy Anti-Missile Turret"
+	turret -28 -130 "Heavy Anti-Missile Turret"
+	turret 28 -130 "Heavy Anti-Missile Turret"
+	turret -20 -99
+	turret 20 -99
+	turret 0 -23
+	turret -46 58
+	turret 46 58
+	turret -46 77 "Heavy Anti-Missile Turret"
+	turret 46 77 "Heavy Anti-Missile Turret"
+	turret -46 92 
+	turret 46 92
+	turret -60 180
+	turret 60 180
+	turret -60 207
+	turret 60 207
+	turret -60 222 "Heavy Anti-Missile Turret"
+	turret 60 222 "Heavy Anti-Missile Turret"
+	gun -137 162 "Meteor Missile Launcher" 
+	gun 137 162 "Meteor Missile Launcher" 
+	gun -146 162 "Meteor Missile Launcher" 
+	gun 146 162 "Meteor Missile Launcher" 
+	gun -157 162 "Meteor Missile Launcher" 
+	gun 157 162 "Meteor Missile Launcher" 
+	gun -165 162 "Meteor Missile Launcher" 
+	gun 165 162 "Meteor Missile Launcher" 
+	gun -137 162 "Meteor Missile Launcher" 
+	gun 137 162 "Meteor Missile Launcher" 
+	gun -146 162 "Meteor Missile Launcher" 
+	gun 146 162 "Meteor Missile Launcher" 
+	gun -157 162 "Meteor Missile Launcher" 
+	gun 157 162 "Meteor Missile Launcher" 
+	gun -165 162 "Meteor Missile Launcher" 
+	gun 165 162 "Meteor Missile Launcher" 
+	engine -70 332
+		zoom 1
+		under
+	engine -70 332
+		zoom 1
+		under
+	engine -26 349
+		zoom 1
+		under
+	engine -26 349
+		zoom 1
+		under
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description ""
+
 ship "SC-1 Alcazar"
 	sprite "ship/mgf alcazar"
 	thumbnail "thumbnail/mgf alcazar"
