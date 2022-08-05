@@ -153,6 +153,13 @@ fleet "Large Core Merchants"
 		"Lance" 54
 	add variant 5
 		"FG-5 Bluewhale-A"
+		
+	add variant 1
+		"AP-22 Fusillade"
+		"FG-7 Conveyor-A" 3
+		"Barb (Proton)" 24
+		"CS-24 Garrison" #18
+		"Lance" 18
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -714,6 +721,12 @@ fleet "Large Core Pirates"
 	add variant 5
 		"Battle Bulk (Proton)"
 		"Manta" 2
+		
+	add variant 1
+		"AP-22 Fusillade"
+		"Battle Bulk" 2
+		"CS-24 Garrison"
+		"Barb" 18
 		
 #=================NAVY
 		

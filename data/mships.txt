@@ -1819,26 +1819,26 @@ ship "SV-4450 Sovereign"
 	"final explode" "final explosion large"
 	description "Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remains today in few private hands."
 
-ship "Fusillade"
+ship "AP-22 Fusillade"
 	sprite "ship/mgf syn fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"
 	attributes
 		category "Heavy Warship"
 		licenses
-			"Syndicate Platinum Member"
+			"Syndicate Platinum"
 		"cost" 28200000
-		"shields" 15700
+		"shields" 25700
 		"hull" 16800
-		"required crew" 525
-		"bunks" 822
+		"required crew" 185
+		"bunks" 246
 		"mass" 5405
 		"drag" 16.8
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 120
-		"outfit space" 2588
-		"weapon capacity" 1664
-		"engine capacity" 662
+		"outfit space" 3226
+		"weapon capacity" 2014
+		"engine capacity" 782
 		"spinal mount" 1
 		weapon
 			"blast radius" 300
@@ -1968,7 +1968,7 @@ ship "Fusillade"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description ""
+	description "Syndicate platinum member exclusive warship packed with up to more than 50 guns for taking down anyone who stand in its way."
 
 ship "SC-1 Alcazar"
 	sprite "ship/mgf alcazar"

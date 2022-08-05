@@ -32,6 +32,7 @@ shipyard developer
 	"Lucerne Class"
 	"PCS-4 Castle"
 	"PAS-2 Bulwark"
+	"AP-22 Fusillade"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -45,6 +46,7 @@ outfitter developer
 	"EMX-55 Flakcannon Turret"
 	"Spearfish Launcher Array"
 	"CMX-12 Anti-Missile"
+	"Syndicate Platinum License"
 	
 shipyard "Basic Ships"
 	"CF-50 Cart"
@@ -72,6 +74,7 @@ shipyard "Syndicate Advanced"
 	"QYG-30 Qazan"
 	"QYG-60 Sandiq"
 	"AGT-31 Xencar"
+	"AP-22 Fusillade"
 
 shipyard "Southbound Basic"
 	"CY-10 (Fighter)"
@@ -180,6 +183,7 @@ outfitter "Syndicate Advanced"
 	"M6-ACS Artillery Turret"
 	"G22 Particle Cannon"
 	"G22 Particle Turret"
+	"Syndicate Platinum License"
 	
 outfitter "Lovelace Advanced"
 	"Spearfish VLS Array"

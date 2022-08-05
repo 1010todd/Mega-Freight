@@ -687,3 +687,10 @@ outfit "NX-40k Repair Center"
 	"hull heat" 5.1
 	"required crew" 25
 	description ""
+
+outfit "Syndicate Platinum License"
+	category "Specials"
+	cost 20000000
+	thumbnail "outfit/license"
+	"maintenance cost" 500
+	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.`
