@@ -420,7 +420,13 @@ fleet "Large Free Worlds"
 		"Finch" 3
 		"AGT-31 Xencar" 3
 		
-
+#=============================SYNDICATES
+fleet "Large Syndicate"
+	add variant 1
+		"AP-22 Fusillade"
+		"Vanguard" 2
+		"Protector" 2
+		"Quicksilver (Proton)" 4
 
 #=============================PIRATES
 
@@ -479,36 +485,6 @@ fleet "Large Northern Pirates"
 		"Leviathan"
 		"CS-24 Garrison" 5
 		"Dagger" 90
-		
-fleet "Large Core Pirates"
-	add variant 4
-		"CSE-6 Steward" #6
-		"Barb" 6
-	add variant 2
-		"CSE-6 Steward" 2 #6
-		"Barb" 12
-	add variant 1
-		"CS-24 Garrison"
-		"Barb" 18
-	add variant 1
-		"Protector"
-		"CS-24 Garrison"
-		"Barb" 18
-	add variant 1
-		"Vanguard"
-		"CS-24 Garrison"
-		"Barb" 18
-	add variant 1
-		"Vanguard"
-		"Protector"
-		"CSE-6 Steward" 2 #6
-		"Barb" 12
-		
-	add variant 1
-		"Vanguard"
-		"CS-24 Garrison"
-		"Barb" 10
-		"AGT-31 Xencar" 8
 		
 fleet "Large Southern Pirates"
 	add variant 7
@@ -609,6 +585,35 @@ fleet "Large Northern Pirates"
 		"Dagger" 36
 		
 fleet "Large Core Pirates"
+	add variant 4
+		"CSE-6 Steward" #6
+		"Barb" 6
+	add variant 2
+		"CSE-6 Steward" 2 #6
+		"Barb" 12
+	add variant 1
+		"CS-24 Garrison"
+		"Barb" 18
+	add variant 1
+		"Protector"
+		"CS-24 Garrison"
+		"Barb" 18
+	add variant 1
+		"Vanguard"
+		"CS-24 Garrison"
+		"Barb" 18
+	add variant 1
+		"Vanguard"
+		"Protector"
+		"CSE-6 Steward" 2 #6
+		"Barb" 12
+		
+	add variant 1
+		"Vanguard"
+		"CS-24 Garrison"
+		"Barb" 10
+		"AGT-31 Xencar" 8
+
 	add variant 6
 		"Aplomado"
 	add variant 3
