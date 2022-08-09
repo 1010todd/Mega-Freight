@@ -42,3 +42,367 @@ mission "MGF: Almaaz Alcazar"
 				"Dagger" 90
 	on complete
 		"reputation: Pirate" -= 1000
+		
+		
+event "MGF: Pirate Advancement I"
+	date 16 12 3014
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Aplomado"
+			"CSE-6 Steward" #6
+			"Finch" 5
+			
+		add variant 1
+			"Battle Bulk"
+			
+		add variant 2
+			"Aplomado"
+			"Aplomado (Heavy)"
+		add variant 3
+			"Aplomado (Heavy)"
+			"Fury" 3
+			
+	fleet "Large Northern Pirates"
+		add variant 3
+			"CSE-6 Steward" #6
+			"Dagger" 6
+		add variant 1
+			"CS-24 Garrison"
+			"Dagger" 18
+		add variant 2
+			"Battle Behemoth"
+			"Battle Behemoth (Proton)"
+		add variant 2
+			"Battle Behemoth (Proton)"
+			"CSE-6 Steward"
+			"Dagger" 6
+			
+	fleet "Large Core Pirates"
+		add variant 3
+			"Battle Bulk"
+			"CSE-6 Steward"
+			"Barb" 6
+		add variant 5
+			"Battle Bulk"
+			"Fury" 3
+		add variant 1
+			"Battle Bulk"
+			"Vanguard"
+		add variant 1
+			"Battle Bulk"
+			"Manta" 2
+		add variant 2
+			"Battle Bulk (Mod Blaster)"
+			"Fury" 3
+		add variant 2
+			"Battle Bulk (Mod Blaster)"
+			"Sparrow" 3
+
+event "MGF: Pirate Advancement II"
+	date 16 12 3015
+	fleet "Large Southern Pirates"
+		add variant 2
+			"Battle Bulk"
+			"Falcon (Heavy)"
+		add variant 2
+			"Battle Bulk"
+			"Aplomado (Heavy)"
+		add variant 1
+			"Battle Behemoth"
+		
+		add variant 3
+			"Aplomado"
+			"Falcon (Heavy)"
+		add variant 3
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 2
+			"CSE-6 Steward" 2 #6
+			"Finch" 12
+		add variant 1
+			"CS-24 Garrison"
+			"Finch" 18
+			
+		add variant 1
+			"Aplomado"
+			"CSE-6 Steward" 2 #6
+			"Finch" 12
+		add variant 1
+			"Aplomado"
+			"CS-24 Garrison"
+			"Finch" 18
+			
+	fleet "Large Northern Pirates"
+		add variant 2
+			"CSE-6 Steward" 2 #6
+			"Dagger" 12
+		add variant 1
+			"Leviathan"
+			"CSE-6 Steward" #6
+			"Dagger" 6
+		
+		add variant 2
+			"Battle Behemoth" 2
+		add variant 2
+			"Battle Behemoth (Proton)" 2
+		add variant 1
+			"Battle Bulk"
+			"CSE-6 Steward"
+			"Barb" 6
+		
+	fleet "Large Core Pirates"
+		add variant 1
+			"Battle Bulk"
+			"CS-24 Garrison"
+			"Barb" 18
+		add variant 3
+			"Battle Bulk"
+			"CSE-6 Steward" 2
+			"Barb" 12
+		add variant 1
+			"Battle Behemoth"
+		add variant 1
+			"Battle Behemoth (Proton)"
+		add variant 3
+			"Battle Bulk (Mod Blaster)"
+			"Vanguard"
+		add variant 5
+			"Battle Bulk (Mod Blaster)"
+			"Quicksilver" 3
+		add variant 5
+			"Battle Bulk (Mod Blaster)"
+			"Manta" 2
+		add variant 3
+			"Battle Bulk (Mod Blaster)"
+			"Vanguard"
+		add variant 3
+			"Battle Bulk (Mod Blaster)"
+			"CSE-6 Steward"
+			"Barb" 6
+		add variant 2
+			"Battle Bulk (Proton)"
+			"Sparrow" 3
+		add variant 2
+			"Battle Bulk (Proton)"
+			"Battle Bulk (Mod Blaster)"
+			"Sparrow" 3
+		add variant 2
+			"Battle Bulk (Proton)"
+			"Quicksilver" 3
+	
+event "MGF: Pirate Advancement III"
+	date 16 12 3016
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Falcon (Heavy)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 1
+			"Falcon (Heavy)"
+			"CSE-6 Steward" 2 #6
+			"Finch" 12
+		add variant 1
+			"Falcon (Heavy)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"Aplomado (Heavy)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+			
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Leviathan"
+			"CSE-6 Steward" 2 #6
+			"Dagger" 12
+		add variant 1
+			"Leviathan"
+			"CS-24 Garrison"
+			"Dagger" 18
+		add variant 1
+			"Bactrian"
+			"Dagger" 3
+			"Leviathan"
+			"CS-24 Garrison" 2
+			"Dagger" 36
+		add variant 1
+			"Leviathan"
+			"CS-24 Garrison" 5
+			"Dagger" 90
+		
+		add variant 1
+			"Leviathan"
+			"Battle Behemoth"
+			"CSE-6 Steward" 2 #6
+			"Dagger" 12
+		add variant 1
+			"Leviathan"
+			"Battle Behemoth (Proton)"
+			"CS-24 Garrison"
+			"Dagger" 18
+		
+	fleet "Large Core Pirates"
+		add variant 4
+			"CSE-6 Steward" #6
+			"Barb" 6
+		add variant 2
+			"CSE-6 Steward" 2 #6
+			"Barb" 12
+		add variant 1
+			"CS-24 Garrison"
+			"Barb" 18
+		add variant 1
+			"Protector"
+			"CS-24 Garrison"
+			"Barb" 18
+		add variant 1
+			"Vanguard"
+			"CS-24 Garrison"
+			"Barb" 18
+		add variant 3
+			"Battle Bulk (Mod Blaster)"
+			"CSE-6 Steward"
+			"Barb" 6
+		add variant 3
+			"Battle Bulk (Mod Blaster)"
+			"CSE-6 Steward" 2
+			"Barb" 12
+		add variant 1
+			"Battle Bulk (Proton)"
+			"CS-24 Garrison"
+			"Barb" 10
+			"Barb" (Proton)" 8
+		add variant 5
+			"Battle Bulk (Proton)"
+			"Battle Bulk"
+			"Quicksilver" 3
+		add variant 5
+			"Battle Bulk (Proton)"
+			"Quicksilver (Proton)" 3
+		add variant 5
+			"Battle Bulk (Proton)"
+			"Manta" 2
+	
+event "MGF: Pirate Advancement IV"
+	date 16 12 3017
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Aplomado (Heavy)"
+			"CSE-6 Steward" 2 #6
+			"Finch" 10
+			"AGT-31 Xencar" 2
+		add variant 1
+			"Aplomado (Heavy)"
+			"CS-24 Garrison"
+			"Finch" 12
+			"AGT-31 Xencar" 6
+		add variant 1
+			"Aplomado (Heavy)"
+			"CS-24 Garrison"
+			"Finch" 10
+			"AGT-31 Xencar" 8
+			
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Leviathan"
+			"CSE-6 Steward" 2 #6
+			"Dagger" 6
+			"AGT-31 Xencar" 6
+		add variant 1
+			"Leviathan"
+			"CS-24 Garrison"
+			"Dagger" 10
+			"AGT-31 Xencar" 8
+		add variant 1
+			"Bactrian"
+			"Dagger" 3
+			"Leviathan" 2
+			"CS-24 Garrison" 2
+			"Dagger" 20
+			"AGT-31 Xencar" 16
+		add variant 1
+			"Leviathan"
+			"CS-24 Garrison" 5
+			"Dagger" 50
+			"AGT-31 Xencar" 40
+		add variant 1
+			"Leviathan"
+			"CS-24 Garrison" 5
+			"Dagger" 30
+			"Barb (Proton)" 20
+			"AGT-31 Xencar" 40
+			
+		add variant 1
+			"Bactrian"
+			"Dagger" 3
+			"Battle Behemoth (Proton)"
+			"CS-24 Garrison" 2
+			"Dagger" 20
+			"AGT-31 Xencar" 16
+			
+	fleet "Large Core Pirates"
+		add variant 1
+			"Battle Bulk (Proton)"
+			"Battle Bulk (Mod Blaster)" 2
+			"Vanguard" 2
+			"CS-24 Garrison" 5
+			"Barb" 60
+			"Barb (Proton)" 30
+		add variant 1
+			"Battle Bulk (Mod Blaster)"
+			"Battle Bulk" 2
+			"Vanguard" 2
+			"CS-24 Garrison" 5
+			"Barb" 60
+			"Barb (Proton)" 30
+		add variant 1
+			"Vanguard"
+			"Protector"
+			"CSE-6 Steward" 2 #6
+			"Barb" 12
+		add variant 1
+			"Battle Bulk (Mod Blaster)"
+			"CS-24 Garrison"
+			"Barb" 18
+		add variant 3
+			"Battle Bulk (Proton)"
+			"CSE-6 Steward" 2
+			"Barb" 12
+		add variant 1
+			"Battle Bulk" 3
+			"Vanguard" 2
+			"CS-24 Garrison" 5
+			"Barb" 90
+		add variant 1
+			"Vanguard"
+			"CS-24 Garrison"
+			"Barb" 10
+			"AGT-31 Xencar" 8
+			
+event "MGF: Pirate Advancement V"
+	date 16 12 3018
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Aplomado (Heavy)" 3
+			"Vanguard"
+			"CS-24 Garrison" 5
+			"Finch" 30
+			"Barb (Proton)" 30
+			"AGT-31 Xencar" 30
+			
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Bactrian"
+			"Dagger" 3
+			"Leviathan" 2
+			"CS-24 Garrison" 5
+			"Dagger" 30
+			"Barb (Proton)" 30
+			"AGT-31 Xencar" 30
+			
+	fleet "Large Core Pirates"
+		add variant 1
+			"AP-22 Fusillade"
+			"Battle Bulk" 2
+			"CS-24 Garrison"
+			"Barb" 18
