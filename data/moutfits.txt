@@ -456,6 +456,35 @@ outfit "CMX-12 Anti-Missile"
 		"anti-missile" 15
 	description "Anti-swarm flakcannon"
 	
+outfit "4C-1 Detonator"
+	category "Guns"
+	cost 16000
+	thumbnail "outfit/unknown"
+	"mass" 2
+	"outfit space" -2
+	"gun ports" -1
+	weapon
+		sound "explosion tiny"
+		"fire effect" "tiny explosion"
+		"hit effect" "huge explosion" 2
+		"inaccuracy" 3
+		"velocity" 10
+		"lifetime" 1
+		"reload" 20
+		ammo "4C-1 Detonator"
+		"submunition" "4C-1 Bomb Charge"
+		
+outfit "4C-1 Bomb Charge"
+	weapon
+		"die effect" "huge explosion" 2
+		"hit effect" "huge explosion" 2
+		"lifetime" 5
+		"trigger radius" 200
+		"blast radius" 100
+		"shield damage" 2200
+		"hull damage" 1400
+		"hit force" 350
+		
 outfit "Swordfish Missile"
 	category "Ammunition"
 	cost 1000

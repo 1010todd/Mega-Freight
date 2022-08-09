@@ -406,3 +406,34 @@ event "MGF: Pirate Advancement V"
 			"Battle Bulk" 2
 			"CS-24 Garrison"
 			"Barb" 18
+			
+mission "MGF: Pirate Drone Bombers"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement II"
+	on offer
+		event "MGF: Pirate Drone Bombers"
+
+event "MGF: Pirate Drone Bombers"
+	shipyard "Advanced Northern Pirates"
+		"CY-10 (Drone)"
+		"Surveillance Drone (Kamikaze)"
+		
+	fleet "Large Southern Pirates"
+		add variant 1
+			"Aplomado"
+			"CY-10 (Drone)" 2
+			"Surveillance Drone (Kamikaze)" 2
+			
+	fleet "Large Northern Pirates"
+		add variant 1
+			"Battle Behemoth"
+			"CY-10 (Drone)" 4
+			"Surveillance Drone (Kamikaze)" 4
+			
+	fleet "Large Core Pirates"
+		add variant 1
+			"Protector"
+			"CY-10 (Drone)" 2
+			"Surveillance Drone (Kamikaze)" 2

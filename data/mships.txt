@@ -197,6 +197,37 @@ ship "Wisymton" "Wisymton (Gold)"
 		
 	description `Rare Gold-plated variant commissioned by an unknown individual.`
 		
+ship "Surveillance Drone" "Surveillance Drone (Kamikaze)"
+	attributes
+		category "Drone"
+		"cost" 50000
+		"hull" 300
+		"automaton" 1
+		"mass" 15
+		"drag" .50
+		"heat dissipation" .9
+		"outfit space" 53
+		"weapon capacity" 0
+		"engine capacity" 28
+		"self destruct" .7
+		weapon
+			"blast radius" 3
+			"shield damage" 30
+			"hull damage" 15
+			"hit force" 45
+	outfits
+		"4C-1 Detonator"
+		"KP-6 Photovoltaic Panel"
+		"LP036a Battery Pack"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	gun 0 -5 "4C-1 Detonator"
+	engine -3 29
+	engine 3 29
+	"final explode" "final explosion small"
+		
 ship "CF-50 Cart"
 	sprite "ship/mgf cart"
 	attributes
@@ -239,7 +270,7 @@ ship "CF-50 Cart"
 	"final explode" "final explosion small"
 	description "Small and cheap mining vessel"
 
-ship "CY-10 Dragonfly" #Base variant with not carry.
+ship "CY-10 Dragonfly" #Base variant without carry.
 	sprite "ship/mgf dragonfly"
 	attributes
 		category "Light Freighter"
