@@ -3324,6 +3324,135 @@ ship "Nasprite"
 	"final explode" "final explosion large"
 	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war made to withstand combat and long travel. Though originates from the core, most of these are now found operating around the Dirtbelt.`
 	
+ship "PF-80 Intrepid"
+	sprite "ship/mgf intrepid"
+	thumbnail "thumbnail/mgf intrepid thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 6720000
+		"shields" 7840
+		"hull" 8560
+		"required crew" 24
+		"bunks" 56
+		"mass" 759
+		"drag" 11.2
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 400
+		"outfit space" 833
+		"weapon capacity" 466
+		"engine capacity" 174
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 6
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 3
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X4700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		
+	gun -29 -162
+	gun 29 -162
+	gun -29 -162
+	gun 29 -162
+	
+	turret 0 -131.5 "Proton Turret"
+	turret -42 -101 "Heavy Anti-Missile Turret"
+	turret 42 -101 "Heavy Anti-Missile Turret"
+	
+	turret -45.5 -53.5
+	turret 45.5 -53.5
+	turret -49 -21.5 "Heavy Anti-Missile Turret"
+	turret 49 -21.5 "Heavy Anti-Missile Turret"
+	turret -84 46.5 "Proton Turret"
+	turret 84 46.5 "Proton Turret"
+	turret -81.5 69
+	turret 81.5 69
+	turret -49.5 77 
+	turret 49.5 77 
+	engine -61.5 174
+		zoom 1
+		under
+	engine 61.5 174
+		zoom 1
+		under
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Intrepid is a recently developed protected freighter with heavy armour and decent firepower to hold off pirates on its own while also being fast enough to outrun heavier ships.`
+	
+ship "FF-30 Volant"
+	sprite "ship/mgf volant"
+	thumbnail "thumbnail/mgf volant thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 650000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 2
+		"bunks" 4
+		"mass" 125
+		"drag" 3.1
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 140
+		"outfit space" 283
+		"weapon capacity" 51
+		"engine capacity" 144
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Heavy Anti-Missile Turret"
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Scram Drive"
+		
+	turret 0 73
+	engine -38.5 84
+		zoom 1
+		under
+	engine -38.5 84
+		zoom 1
+		under
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested area. Lightly protected and not designed for any combat.`
+	
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
 	thumbnail "thumbnail/mgf qazan thumb"

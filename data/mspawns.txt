@@ -414,6 +414,8 @@ mission "MGF: Pirate Drone Bombers"
 		has "MGF: Pirate Advancement II"
 	on offer
 		event "MGF: Pirate Drone Bombers"
+	on accept
+		fail
 
 event "MGF: Pirate Drone Bombers"
 	shipyard "Advanced Northern Pirates"
@@ -437,3 +439,65 @@ event "MGF: Pirate Drone Bombers"
 			"Protector"
 			"CY-10 (Drone)" 2
 			"Surveillance Drone (Kamikaze)" 2
+			
+mission "MGF: Southern Merchant Upgrade I"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement II"
+	on offer
+		event "MGF: Southern Merchant Upgrade I"
+	on accept
+		fail
+		
+event "MGF: Southern Merchant Upgrade I"
+	fleet "Small Southern Merchants"
+		add variant 5
+			"FG-6 Startrain"
+			"Hawk" 2
+			
+		add variant 2
+			"QYG-30 Qazan"
+			"Hawk"
+		add variant 5
+			"FF-30 Volant"
+			"Sparrow"
+		add variant 2
+			"FF-30 Volant" 2
+			"Raven"
+
+	fleet "Large Southern Merchants"
+		add variant 6
+			"PF-80 Intrepid"
+			"Bastion"
+		add variant 4
+			"PF-80 Intrepid" 2
+			"Osprey"
+			"Osprey (Missile)"
+		add variant 3
+			"PF-80 Intrepid" 3
+			"CSE-6 Steward"
+			"Barb (Proton)" 6
+			
+		add variant 4
+			"FG-7 Conveyor" 3
+			"CS-24 Garrison" #18
+			"Lance" 30
+			"AGT-31 Xencar" 12
+		add variant 4
+			"Hauler III" 4
+			"Hawk" 2
+			"Hawk (Speedy)" 1
+			"CS-24 Garrison" #18
+			"Lance" 10
+			"AGT-31 Xencar" 8
+		add variant 4
+			"LCC-3 Sierra"
+			"Hawk" 2
+			"Osprey"
+			"Osprey (Missile)"
+		add variant 4
+			"FG-5 Bluewhale" 2
+			"CSE-6 Steward" 2
+			"Lance" 6
+			"AGT-31 Xencar" 6

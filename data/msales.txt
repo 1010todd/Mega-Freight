@@ -33,6 +33,8 @@ shipyard developer
 	"PCS-4 Castle"
 	"PAS-2 Bulwark"
 	"AP-22 Fusillade"
+	"FF-30 Volant"
+	"PF-80 Intrepid"
 
 outfitter developer
 	"Atesac Plasma Cannon"

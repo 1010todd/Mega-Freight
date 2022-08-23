@@ -9,6 +9,11 @@ fleet "Small Southern Merchants"
 		
 	add variant 1
 		"QYG-30 Qazan"
+		
+	add variant 10
+		"FF-30 Volant"
+	add variant 5
+		"FF-30 Volant" 2
 
 fleet "Large Southern Merchants"
 	add variant 6
@@ -50,6 +55,12 @@ fleet "Large Southern Merchants"
 		"FG-7 Conveyor-A" 3
 		"CS-24 Garrison" #18
 		"Lance" 42
+		
+	add variant 8
+		"PF-80 Intrepid"
+	add variant 6
+		"PF-80 Intrepid" 2
+		"Osprey"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -64,6 +75,9 @@ fleet "Small Core Merchants"
 		
 	add variant 5
 		"FG-6 Startrain-A"
+	
+	add variant 5
+		"FF-30 Volant"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -160,6 +174,9 @@ fleet "Large Core Merchants"
 		"Barb (Proton)" 24
 		"CS-24 Garrison" #18
 		"Lance" 18
+		
+	add variant 6
+		"PF-80 Intrepid"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -188,6 +205,9 @@ fleet "Small Northern Merchants"
 		
 	add variant 7
 		"QYG-30 Qazan"
+		
+	add variant 6
+		"FF-30 Volant"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -270,6 +290,9 @@ fleet "Large Northern Merchants"
 		"Raven" 2
 	add variant 10
 		"FG-6 Startrain-A"
+		
+	add variant 6
+		"PF-80 Intrepid"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
