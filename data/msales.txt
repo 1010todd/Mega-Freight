@@ -35,6 +35,7 @@ shipyard developer
 	"AP-22 Fusillade"
 	"FF-30 Volant"
 	"PF-80 Intrepid"
+	"Agrunnos"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -49,6 +50,7 @@ outfitter developer
 	"Spearfish Launcher Array"
 	"CMX-12 Anti-Missile"
 	"Syndicate Platinum License"
+	"Mjolnir Launcher"
 	
 shipyard "Basic Ships"
 	"CF-50 Cart"
@@ -170,8 +172,11 @@ outfitter "Navy Basic"
 	
 outfitter "Ammo South"
 	"Swordfish Missile"
+	
 outfitter "Ammo North"
 	"Swordfish Missile"
+	"Mjolnir Missile"
+	
 outfitter "Common Outfits"
 	"Swordfish Missile Turret"
 	"Swordfish Missile Rack"
@@ -180,12 +185,17 @@ outfitter "Common Outfits"
 outfitter "Kraz Advanced"
 	"Atesac Plasma Cannon"
 	
+outfitter "Syndicate Basic"
+	"Mjolnir Missile"
+	
 outfitter "Syndicate Advanced"
 	"Atesac Plasma Cannon"
 	"M6-ACS Artillery Turret"
 	"G22 Particle Cannon"
 	"G22 Particle Turret"
 	"Syndicate Platinum License"
+	"Mjolnir Launcher"
+	"Mjolnir Missile"
 	
 outfitter "Lovelace Advanced"
 	"Spearfish VLS Array"

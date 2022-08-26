@@ -1355,6 +1355,7 @@ ship "PCS-4 Castle"
 		left
 	bay "Fighter" 96 230
 		right
+		
 	bay "Fighter" -69 -205
 		left
 	bay "Fighter" 69 -205
@@ -1722,7 +1723,7 @@ ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
 	#thumbnail "thumbnail/mgf sovereign"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		"cost" 44200000
 		"shields" 88200
 		"hull" 38000
@@ -1880,8 +1881,10 @@ ship "AP-22 Fusillade"
 		"Proton Gun" 44
 		"Proton Turret" 11
 		"Heavy Anti-Missile Turret" 8
-		"Meteor Missile Launcher" 16
-		"Meteor Missile" 480
+		"Meteor Missile Launcher" 8
+		"Meteor Missile" 240
+		"Mjolnir Missile" 240
+		"Mjolnir Launcher" 8
 		
 		"Armageddon Core" 4
 		"LP576a Battery Pack"
@@ -1970,14 +1973,15 @@ ship "AP-22 Fusillade"
 	gun 157 162 "Meteor Missile Launcher" 
 	gun -165 162 "Meteor Missile Launcher" 
 	gun 165 162 "Meteor Missile Launcher" 
-	gun -137 162 "Meteor Missile Launcher" 
-	gun 137 162 "Meteor Missile Launcher" 
-	gun -146 162 "Meteor Missile Launcher" 
-	gun 146 162 "Meteor Missile Launcher" 
-	gun -157 162 "Meteor Missile Launcher" 
-	gun 157 162 "Meteor Missile Launcher" 
-	gun -165 162 "Meteor Missile Launcher" 
-	gun 165 162 "Meteor Missile Launcher" 
+	
+	gun -137 162 "Mjolnir Launcher" 
+	gun 137 162 "Mjolnir Launcher" 
+	gun -146 162 "Mjolnir Launcher" 
+	gun 146 162 "Mjolnir Launcher" 
+	gun -157 162 "Mjolnir Launcher" 
+	gun 157 162 "Mjolnir Launcher" 
+	gun -165 162 "Mjolnir Launcher" 
+	gun 165 162 "Mjolnir Launcher" 
 	engine -70 332
 		zoom 1
 		under
@@ -3246,7 +3250,7 @@ ship "Lucerne Class"
 	explode "huge explosion" 10
 	explode "nuke explosion" 10
 	"final explode" "final explosion large" 2
-	description `Massive capital ship.`
+	description `Republic Navy Supercarrier-Battleship hybrid heavily armed with multiple railgun turrets capable of tearing down smaller ships in seconds. While officially claimed to be recently developed to face against future alien invasion threat it was rumoured to be in research and development long before the war with Free Worlds for potential aggression from the Quarg or someone as advanced as them.`
 		
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
@@ -3339,7 +3343,7 @@ ship "PF-80 Intrepid"
 		"heat dissipation" .5
 		"fuel capacity" 800
 		"cargo space" 400
-		"outfit space" 833
+		"outfit space" 838
 		"weapon capacity" 466
 		"engine capacity" 174
 		weapon

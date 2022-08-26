@@ -562,6 +562,56 @@ outfit "swordfish missile activated"
 		"hit force" 100
 		"missile strength" 8
 		
+outfit "Mjolnir Missile"
+	category "Ammunition"
+	cost 18500
+	licenses
+		"Syndicate Platinum License"
+	thumbnail "outfit/spearfish missile"
+	"mass" .3
+	"mjolnir capacity" -1
+	description "A smart missile that can dodge obstacles and untargeted ships to ensure it hit the correct target."
+		
+outfit "Mjolnir Launcher"
+	category "Secondary Weapons"
+	cost 800000
+	thumbnail "outfit/spearfish vls"
+	"mass" 2
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"mjolnir capacity" 30
+	weapon
+		sprite "projectile/spearfish proj"
+			"no repeat"
+			"frame rate" 6
+		sound "nuke"
+		ammo "Mjolnir Missile"
+		stream
+		icon "icon/spearfish"
+		"live effect" "spearfish flare" 250
+		"fire effect" "smoke"
+		"hit effect" "huge explosion"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 850
+		"reload" 35
+		"firing energy" 10
+		"firing heat" 48
+		"acceleration" 1.2
+		"drag" .01
+		"turn" 4
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .9
+		"blast radius" 30
+		"safe"
+		"phasing"
+		"shield damage" 1025
+		"hull damage" 956
+		"hit force" 125
+		"missile strength" 23
+		
 outfit "Spearfish Missile"
 	category "Ammunition"
 	cost 1000
@@ -704,6 +754,7 @@ outfit "SX-12 Shield Node"
 	"shield generation" 3.65
 	"shield energy" 3.65
 	"shield node" -1
+	description `A smaller shield generator that can be placed around the ship for maximum efficiency but requires a hub to power it.`
 	
 outfit "NX-40k Repair Center"
 	category "Systems"
@@ -716,10 +767,28 @@ outfit "NX-40k Repair Center"
 	"hull heat" 5.1
 	"required crew" 25
 	description ""
-
+	
 outfit "Syndicate Platinum License"
 	category "Specials"
 	cost 20000000
 	thumbnail "outfit/license"
 	"maintenance cost" 500
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.`
+	
+outfit "Epsion Value Detector"
+	category "Systems
+	cost 285570
+	thumbnail "outfit/asteroid scanner"
+	licenses
+		"Epsion Employee"
+	mass 3
+	"outfit space" -3
+	"asteroid scan power" 55
+	description `Advanced asteroid scanner using proprietary technology developed and patented by Epsion Mining co. Only those within the company or lots of money can purchase one.`
+	
+outfit "Epsion Employee License"
+	category "Specials"
+	thumbnail "outfit/license"
+	description `A small card that proves you're employed at Epsion allowing you to buy special technologies reserved only for Epsion employees`
+		
+		
