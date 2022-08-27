@@ -262,6 +262,170 @@ event "mgf: Lucerne Deployment"
 			"Rainmaker (Mark II)" 8
 			"Gunboat (Mark II)" 12
 		
+mission "MGF: Espion co. job ad"
+	job
+	name "Asteroid Miner Wanted"
+	description "Espion Mining co. is looking for aspiring asteroid miner to join the company. No experience required."
+	destination "New Sahara"
+	to offer
+		not "license: Espion Employee"
+	on complete
+		dialog
+			`You landed at the planet where Espion headquarter is located, you can find it at the spaceport to apply for the job.`
+	
+	
+mission "MGF: Join Espion co."
+	repeat 
+	source "New Sahara"
+	to offer
+		has "MGF: Espion co. job ad: done"
+		not "MGF: Join Espion co.: done"
+		not "license: Espion Employee"
+	on offer
+		conversation
+			branch nolicense
+				not "license: Pilot's"
+			`You find Espion headquarter along with its own private spaceport some distance away from the main spaceport. At the reception you asked about joining as a miner, to which they asked for your pilot license then tell you to wait while they call for an assessment staff.`
+				goto wait
+		
+			label nolicense
+			`You landed at Espion co. private spaceport some distance away from the main spaceport. Finding the reception you asked about joining as a miner, to which they asked for your pilot license which you realize you didn't have.`
+			choice
+				`	(Tell them you don't have one.)`
+				`	(Leave)`
+					defer
+			`	They said they can help you get one if you want, you only have to wait for their assessment staff.`
+			label wait
+			`	After a while a man enter the room and introduce as the person who will be checking your pilot skill. He tells you to depart and 15 Titanium in this system as fast as you can, he'll be observing your performance in orbit. Once that's done it'll be continued back here.`
+				accept
+				
+	npc accompany save
+		government "MGF: Espion Mining Co."
+		personality timid staying
+		fleet
+			names "civilian"
+			variant
+				"Armadillo (Weapon)"
+				
+	# Was gonna do an actual timer npc here but lazy.
+				
+	on enter Algorel
+		fail
+		conversation
+			`You left the assessment area for job at Espion Mining Co. The test is suspended and need to be restarted at <origin>`
+	on enter Merak
+		fail
+		conversation
+			`You left the assessment area for job at Espion Mining Co. The test is suspended and need to be restarted at <origin>`
+	on enter "Tania Australis"
+		fail
+		conversation
+			`You left the assessment area for job at Espion Mining Co. The test is suspended and need to be restarted at <origin>`
+			
+	on complete
+		outfit "Titanium" -15
+		conversation
+			branch nolicense #too lazy to test for nolicense and fleet.
+				not "license: Pilot's"
+			branch fleet
+				or
+					and
+						"ships: Heavy Warship" >= 1
+						or
+							"ships: Fighter" >= 2
+							"ships: Drone" >= 2
+							"ships: Screener" >= 2
+							"ships: Caravan" >= 2
+							"ships: Pocket Warship" >= 2
+					and
+						"ships: Heavy Freighter" >= 1
+						or
+							"ships: Fighter" >= 2
+							"ships: Drone" >= 2
+							"ships: Screener" >= 2
+							"ships: Caravan" >= 2
+							"ships: Pocket Warship" >= 2
+					and
+						"ships: Superheavy" >= 1
+						or
+							"ships: Fighter" >= 2
+							"ships: Drone" >= 2
+							"ships: Screener" >= 2
+							"ships: Caravan" >= 2
+							"ships: Pocket Warship" >= 2
+					and
+						or
+							"ships: Interceptor" >= 8
+							"ships: Light Warship" >= 5
+							and
+								"ships: Heavy Freighter" >= 1
+								or
+									"ships: Interceptor" >= 5
+									"ships: Light Warship" >= 3
+				
+			`You landed back at Espion private spaceport for the ground crew to unload the cargo. Your examiner meet you back at the reception and approves your recruitment. Payment worth of what you mined is transferred to you, and from now you will receive a daily salary of 500, you'll also have the license to buy proprietary technology available only to the employee of the company and offered special jobs. He also mentioned that tomorrow a fleet will be heading out to Delta Velorum to mine Neodymium, you can join them at the spaceport to get some experience while also being covered from pirates.`
+			action
+				set "license: Espion Employee"
+				payment 35500
+				"salary: Espion Co." = 500
+				"reputation: MGF: Black Death" = 0
+			``
+				decline
+			label nolicense
+			`You landed back at Espion private spaceport for the ground crew to unload the cargo. Your examiner meet you back at the reception and approves your recruitment. The money from the mined materials will be used to cover for your pilot license and from now you will receive a daily salary of 500, you'll also have the license to buy proprietary technology available only to the employee of the company and offered special jobs. He also mentioned that tomorrow a fleet will be heading out to Delta Velorum to mine Neodymium, you can join them at the spaceport to get some experience while also being covered from pirates.`
+			action
+				set "license: Espion Employee"
+				set "license: Pilot's"
+				"salary: Espion Co." = 500
+				"reputation: MGF: Black Death" = 0
+			``
+				decline
+			
+			label fleet
+			`You landed back at Espion private spaceport for the ground crew to unload the cargo. Your examiner meet you back at the reception and approves your recruitment. The money from the mined materials will be used to cover for your pilot license and from now you will receive a daily salary of 500, you'll also have the license to buy proprietary technology available only to the employee of the company and offered special jobs. He also mentioned that tomorrow a fleet will be heading out to Delta Velorum to mine Neodymium, you can join them to get some experience but since you already got a sizeable fleet you can also look for other jobs.`
+			action
+				set "license: Espion Employee"
+				payment 35500
+				"salary: Espion Co." = 500
+				"reputation: MGF: Black Death" = 0
+			``
+				decline
+				
+mission "MGF: Espion: Neodymium at Delta Velorum"
+	name `Mine Neodymium`
+	description `Mine at least 15 tons of Neodymium at Delta Velorum then return to <destination>.`
+	source "New Sahara"
+	destination "New Sahara"
+	to offer
+		has "MGF: Join Espion co.: done"
+	on offer
+		conversation
+			`You arrived at the spaceport looking for the Espion mining fleet heading for Delta Velorum, which didn't take too long as Espion captains often use ships manufactured by their own company and distinct paint. After meeting with the leader of the fleet they agreed to let you join them for this occasion. They also suggested that you grab yourself an asteroid scanner or Espion value detector from the outfitter if you haven't already.`
+				accept
+				
+	npc accompany
+		government "MGF: Espion Mining Co."
+		personality timid staying mining harvests
+		fleet
+			names "civilian"
+			variant
+				"Armadillo (Weapon)"
+				"EP-2 Marmot" 4
+				"EP-1 Mole" 5
+				"Sparrow" 2
+						
+	waypoint "Delta Velorum"
+						
+	on visit
+		dialog
+			`You arrived at <destination> but either not all of the fleet are here yet or you didn't collect enough Neodymium.`
+	
+	on complete
+		outfit "Neodymium" -15
+		payment 73000
+		conversation
+			`The ground crew unloads 15 tons of the material and pays you <payment>. You bid farewell to the other captains and head on your own way.`
+			
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"

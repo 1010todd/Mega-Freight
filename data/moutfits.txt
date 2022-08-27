@@ -27,6 +27,34 @@ outfit "Bagger Excavator"
 		"minable damage" 30
 	description `An old-school physical excavator build into the tip of the Bagger, while lack of range it will break up asteroids much faster than any other energy weapon in human space.`
 		
+outfit "Espion Mining Laser"
+	category "Guns"
+	cost 92000
+	licenses
+		"Espion Employee"
+	thumbnail "outfit/heavy laser"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .2
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"damage dropoff" 300
+		"dropoff modifier" .2
+		"firing energy" 1.33
+		"firing heat" 2.8
+		"shield damage" 1.2
+		"hull damage" 3.1
+		"mineable damage" 6.2
+	description `Basic mining laser used by Espion miners that is exceptionally effective to asteroids though the damage will dropoff at longer range.`
+		
 outfit "MRF-10 EM Clamp"
 	category "Guns"
 	cost 12000
@@ -47,6 +75,42 @@ outfit "MRF-10 EM Clamp"
 		"blast radius" 5
 		"safe"
 		
+outfit "Mixture-DX Corrosive Thrower"
+	category "Guns"
+	cost 285000
+	thumbnail "outfit/flamethrower"
+	mass 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/mixturedx shot"
+			"random start frame"
+			"frame rate" 0
+		sound "minelayer"
+		"inaccuracy" 1.2
+		"submunition" "Mixture-DX Shots" 8 
+		"velocity" 1
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 21
+		"firing heat" 23
+
+outfit "Mixture-DX Shots"
+	weapon
+		sprite "projectile/mixturedx shot"
+			"random start frame"
+			"frame rate" 0
+		"hit effect" "nano spark"
+		"inaccuracy" 3
+		"lifetime" 40
+		"velocity" 12
+		"random velocity" 12
+		"slowing damage" .01
+		"corrosion damage" .1
+		"hull damage" .7
+		"shield damage" .9
+
 outfit "MRF-SS Scrambler"
 	category "Guns"
 	cost 84000
@@ -429,6 +493,58 @@ outfit "EMX-55 Flakcannon Turret"
 		"safe"
 	description "Anti-swarm flakcannon"
 	
+outfit "EL-1388 Aphelion Turret"
+	category "Turrets"
+	cost 820000
+	thumbnail "outfit/emx55 flak turret"
+	"mass" 51
+	"outfit space" -51
+	"weapon capacity" -51
+	"turret mounts" -1
+	weapon
+		sprite "projectile/emx55 proj"
+		sound "pulse"
+		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint offset" 10.
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" 6
+		"velocity" 25
+		"random velocity" 5
+		"turret turn" 3.6
+		"random lifetime" 20
+		"lifetime" 80
+		"reload" 6
+		"firing energy" 86
+		"firing heat" 100
+		"hit force" 50
+		"trigger radius" 300
+		submunition "el-1388 frag 1" 5
+		submunition "el-1388 frag 2" 2
+	description "Espion long-ranged turret for defending against attackers"
+	
+outfit "el-1388 frag 1"
+	weapon
+		sprite "projectile/emx55 proj"
+		"lifetime" 20
+		"inaccuracy" 18
+		"random velocity" 1
+		"random lifetime" 5
+		"shield damage" 35
+		"hull damage" 10
+		"hit force" 50
+		
+outfit "el-1388 frag 2"
+	weapon
+		sprite "projectile/emx55 proj"
+		"lifetime" 20
+		"inaccuracy" 20
+		"random velocity" 1
+		"random lifetime" 5
+		"shield damage" 35
+		"hull damage" 10
+		"hit force" 50
+		"phasing"
+	
 outfit "CMX-12 Anti-Missile"
 	category "Turrets"
 	cost 590000
@@ -768,6 +884,44 @@ outfit "NX-40k Repair Center"
 	"required crew" 25
 	description ""
 	
+outfit "Espion Value Detector"
+	category "Systems"
+	cost 285570
+	thumbnail "outfit/asteroid scanner"
+	licenses
+		"Espion Employee"
+	mass 3
+	"outfit space" -3
+	"asteroid scan power" 67
+	description `Advanced asteroid scanner using proprietary technology developed and patented by Espion Mining co. Only those within the company or lots of money can purchase one.`
+	
+outfit "E-XE10 Ion Maneuver Engine"
+	category "Engines"
+	"cost" 12000
+	thumbnail "outfit/reverse thruster ion"
+	"mass" 4
+	"outfit space" -4
+	"weapon capacity" -4
+	"turn" 64
+	"turning energy" .25
+	"turning heat" .32
+	"steering flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.3
+	"steering flare sound" "ion tiny"
+	"reverse thrust" 2.4
+	"reverse thrusting energy" .25
+	"reverse thrusting heat" .32
+	"reverse flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.3
+	"reverse flare sound" "ion tiny"
+	description "Ultra compact maneuvring thruster developed by Espion to improve mobility of their smaller mining vessels."
+	
+outfit "Espion Employee License"
+	category "Specials"
+	cost 3000
+	thumbnail "outfit/license"
+	description `A small card that proves you're employed at Espion allowing you to buy special technologies reserved only for Espion employees`
+		
 outfit "Syndicate Platinum License"
 	category "Specials"
 	cost 20000000
@@ -775,20 +929,3 @@ outfit "Syndicate Platinum License"
 	"maintenance cost" 500
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.`
 	
-outfit "Epsion Value Detector"
-	category "Systems
-	cost 285570
-	thumbnail "outfit/asteroid scanner"
-	licenses
-		"Epsion Employee"
-	mass 3
-	"outfit space" -3
-	"asteroid scan power" 55
-	description `Advanced asteroid scanner using proprietary technology developed and patented by Epsion Mining co. Only those within the company or lots of money can purchase one.`
-	
-outfit "Epsion Employee License"
-	category "Specials"
-	thumbnail "outfit/license"
-	description `A small card that proves you're employed at Epsion allowing you to buy special technologies reserved only for Epsion employees`
-		
-		

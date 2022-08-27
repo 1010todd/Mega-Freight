@@ -64,3 +64,581 @@ planet Mainsail
 	add shipyard "Intrasystem Basic"
 planet Icefall
 	add shipyard "Intrasystem Basic"
+	
+#==========================Espion
+
+planet "New Sahara"
+	add attributes "Espion HQ" "Espion Base"
+	add shipyard "Espion Basic"
+	add shipyard "Espion Advanced"
+	add outfitter "Espion Basic"
+	add outfitter "Espion Advanced"
+	
+system "Phecda"
+	add fleet "Small Espion Miners" 500
+	add fleet "Large Espion Miners" 800
+	add fleet "Small Espion Guard" 600
+	add fleet "Large Espion Guard" 1600
+	
+system "Regulus"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 2000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2400
+
+system "Lolami"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 2000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2400
+
+system "Cor Caroli"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 5000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2400
+
+system "Boral"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 1800
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2000
+
+system "Nocte"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 1800
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2000
+
+system "Naper"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 2000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2000
+
+system "Ascella"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 1800
+	add fleet "Small Espion Guard" 900
+	add fleet "Large Espion Guard" 1800
+
+#=================================Crossguard Patrol
+system Acrux
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 1000
+system Albaldah
+	add fleet "Small Crossguard Patrol" 1800
+	add fleet "Large Crossguard Patrol" 3100
+system Albireo
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 2700
+system Aldhibain
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 900
+system Algorel
+	add fleet "Small Crossguard Patrol" 1500
+	add fleet "Large Crossguard Patrol" 3400
+system Alioth
+	add fleet "Small Crossguard Patrol" 1600
+	add fleet "Large Crossguard Patrol" 2900
+system Alkaid
+	add fleet "Small Crossguard Patrol" 2100
+	add fleet "Large Crossguard Patrol" 3700
+system Alnasl
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 1300
+system Alniyat
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 3400
+system "Alpha Arae"
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 3000
+system Alphecca
+	add fleet "Small Crossguard Patrol" 900
+	add fleet "Large Crossguard Patrol" 1900
+system Antares
+	add fleet "Small Crossguard Patrol" 900
+	add fleet "Large Crossguard Patrol" 3100
+system Arcturus
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 1200
+system Ascella
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 2900
+system Atria
+	add fleet "Small Crossguard Patrol" 1600
+	add fleet "Large Crossguard Patrol" 1800
+system "Beta Lupi"
+	add fleet "Small Crossguard Patrol" 1000
+	add fleet "Large Crossguard Patrol" 1700
+system Boral
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 2800
+system Cebalrai
+	add fleet "Small Crossguard Patrol" 3400
+	add fleet "Large Crossguard Patrol" 2000
+system "Cor Caroli"
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 3700
+system Dabih
+	add fleet "Small Crossguard Patrol" 2100
+	add fleet "Large Crossguard Patrol" 1000
+system "Delta Sagittarii"
+	add fleet "Small Crossguard Patrol" 1100
+	add fleet "Large Crossguard Patrol" 2900
+system "Delta Velorum"
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 900
+system Dschubba
+	add fleet "Small Crossguard Patrol" 2500
+	add fleet "Large Crossguard Patrol" 2000
+system Eber
+	add fleet "Small Crossguard Patrol" 1800
+	add fleet "Large Crossguard Patrol" 3800
+system Eltanin
+	add fleet "Small Crossguard Patrol" 1800
+	add fleet "Large Crossguard Patrol" 1000
+system Fala
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 1500
+system Gacrux
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 2600
+system "Gamma Corvi"
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 900
+system Girtab
+	add fleet "Small Crossguard Patrol" 2100
+	add fleet "Large Crossguard Patrol" 2500
+system Graffias
+	add fleet "Small Crossguard Patrol" 1300
+	add fleet "Large Crossguard Patrol" 2500
+system Hadar
+	add fleet "Small Crossguard Patrol" 1700
+	add fleet "Large Crossguard Patrol" 800
+system Han
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 1400
+system Hintar
+	add fleet "Small Crossguard Patrol" 1400
+	add fleet "Large Crossguard Patrol" 1800
+system Holeb
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 2400
+system Ildaria
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 2000
+system Ipsing
+	add fleet "Small Crossguard Patrol" 3700
+	add fleet "Large Crossguard Patrol" 1000
+system Izar
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 3400
+system "Kappa Centauri"
+	add fleet "Small Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 3600
+system "Kaus Australis"
+	add fleet "Small Crossguard Patrol" 1500
+	add fleet "Large Crossguard Patrol" 2700
+system "Kaus Borealis"
+	add fleet "Small Crossguard Patrol" 800
+	add fleet "Large Crossguard Patrol" 2000
+system Kochab
+	add fleet "Small Crossguard Patrol" 3700
+	add fleet "Large Crossguard Patrol" 2200
+system Kornephoros
+	add fleet "Small Crossguard Patrol" 1400
+	add fleet "Large Crossguard Patrol" 2600
+system Kraz
+	add fleet "Small Crossguard Patrol" 900
+	add fleet "Large Crossguard Patrol" 3900
+system Lesath
+	add fleet "Small Crossguard Patrol" 2600
+	add fleet "Large Crossguard Patrol" 1300
+system Limen
+	add fleet "Small Crossguard Patrol" 1600
+	add fleet "Large Crossguard Patrol" 3200
+system Lolami
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 1000
+system Lurata
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 2000
+system Men
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 2600
+system Menkent
+	add fleet "Small Crossguard Patrol" 1500
+	add fleet "Large Crossguard Patrol" 1700
+system Mimosa
+	add fleet "Small Crossguard Patrol" 1200
+	add fleet "Large Crossguard Patrol" 3700
+system Minkar
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 2000
+system Mizar
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 3800
+system Mora
+	add fleet "Small Crossguard Patrol" 1200
+	add fleet "Large Crossguard Patrol" 3100
+system Muhlifain
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 3000
+system Naper
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 1400
+system Nunki
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 3000
+system Orbona
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 1100
+system Orvala
+	add fleet "Small Crossguard Patrol" 2500
+	add fleet "Large Crossguard Patrol" 3000
+system Peacock
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 2200
+system Phecda
+	add fleet "Small Crossguard Patrol" 2600
+	add fleet "Large Crossguard Patrol" 1800
+system Pherkad
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 3000
+system Rasalhague
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 2000
+system Rastaban
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 1800
+system Rutilicus
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 2500
+system Sabik
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 800
+system Sadalmelik
+	add fleet "Small Crossguard Patrol" 1400
+	add fleet "Large Crossguard Patrol" 1000
+system Sadalsuud
+	add fleet "Small Crossguard Patrol" 3900
+	add fleet "Large Crossguard Patrol" 3900
+system Sadr
+	add fleet "Small Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 2800
+system Sargas
+	add fleet "Small Crossguard Patrol" 1700
+	add fleet "Large Crossguard Patrol" 2000
+system Sarin
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 2300
+system Seginus
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 900
+system Shaula
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 1100
+system Spica
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 2100
+system Tais
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 1900
+system "Tania Australis"
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 2500
+system Tarazed
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 2000
+system Terminus
+	add fleet "Small Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 2000
+system Turais
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 2700
+system Umbral
+	add fleet "Small Crossguard Patrol" 1900
+	add fleet "Large Crossguard Patrol" 3500
+system Unukalhai
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 2400
+system Vindemiatrix
+	add fleet "Small Crossguard Patrol" 1900
+	add fleet "Large Crossguard Patrol" 2300
+system Wei
+	add fleet "Small Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 3300
+system "Yed Prior"
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 3100
+system "Zeta Aquilae"
+	add fleet "Small Crossguard Patrol" 1200
+	add fleet "Large Crossguard Patrol" 3800
+system "Zeta Centauri"
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 2700
+system Zubenelgenubi
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 3300
+
+#===============================Black Death
+
+system Acrux
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Albaldah
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Albireo
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Aldhibain
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Algorel
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Alioth
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Alkaid
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Alnasl
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Alniyat
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system "Alpha Arae"
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system Alphecca
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Antares
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system Arcturus
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Ascella
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Atria
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system "Beta Lupi"
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Boral
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system Cebalrai
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system "Cor Caroli"
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Dabih
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system "Delta Sagittarii"
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system "Delta Velorum"
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Dschubba
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Eber
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Eltanin
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Fala
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Gacrux
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system "Gamma Corvi"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Girtab
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Graffias
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Hadar
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Han
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system Hintar
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Holeb
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Ildaria
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Ipsing
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Izar
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system "Kappa Centauri"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system "Kaus Australis"
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system "Kaus Borealis"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Kochab
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Kornephoros
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Kraz
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Lesath
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Limen
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Lolami
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Lurata
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Men
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Menkent
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Mimosa
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Minkar
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Mizar
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Mora
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Muhlifain
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Naper
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Nunki
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Orbona
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Orvala
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Peacock
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Phecda
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Pherkad
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Rasalhague
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Rastaban
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Rutilicus
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Sabik
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 6000
+system Sadalmelik
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Sadalsuud
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system Sadr
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Sargas
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Sarin
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 5000
+system Seginus
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Shaula
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Spica
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Tais
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system "Tania Australis"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Tarazed
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Terminus
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 5000
+system Turais
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 6000
+system Umbral
+	add fleet "Small Black Death Fleet" 7000
+	add fleet "Large Black Death Fleet" 7000
+system Unukalhai
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system Vindemiatrix
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 6000
+system Wei
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 5000
+system "Yed Prior"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system "Zeta Aquilae"
+	add fleet "Small Black Death Fleet" 6000
+	add fleet "Large Black Death Fleet" 7000
+system "Zeta Centauri"
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000
+system Zubenelgenubi
+	add fleet "Small Black Death Fleet" 5000
+	add fleet "Large Black Death Fleet" 7000

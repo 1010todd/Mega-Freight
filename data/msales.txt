@@ -36,6 +36,9 @@ shipyard developer
 	"FF-30 Volant"
 	"PF-80 Intrepid"
 	"Agrunnos"
+	"EP-2 Marmot"
+	"EP-1 Mole"
+	"EM-8A Armadillo"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -166,6 +169,48 @@ shipyard "MGF Special C"
 	
 shipyard "MGF Special D"
 	"Wisymton (Gold)"
+	
+shipyard "Espion Basic"
+	"Sparrow"
+	"CF-50 Cart"
+	"AGT-31 Xencar"
+	"EP-2 Marmot"
+	"EP-1 Mole"
+	
+shipyard "Espion Advanced"
+	"Sparrow"
+	"CF-50 Cart"
+	"FG-7 Conveyor"
+	"SMM-111 Bagger"
+	"AGT-31 Xencar"
+	"EP-2 Marmot"
+	"EP-1 Mole"
+	"EM-8A Armadillo"
+	
+outfitter "Espion Basic"
+	"E-XE10 Ion Maneuver Engine"
+	"Espion Value Detector"
+	"Espion Mining Laser"
+	
+	"Asteroid Scanner"
+	"Outfit Scanner"
+	"Cargo Scanner"
+	"Cargo Expansion"
+	"Outfit Expansion"
+	"Local Map"
+	
+outfitter "Espion Advanced"
+	"E-XE10 Ion Maneuver Engine"
+	"Espion Value Detector"
+	"Espion Mining Laser"
+	"EL-1388 Aphelion Turret"
+	
+	"Asteroid Scanner"
+	"Outfit Scanner"
+	"Cargo Scanner"
+	"Cargo Expansion"
+	"Outfit Expansion"
+	"Local Map"
 	
 outfitter "Navy Basic"
 	"Spearfish Missile"

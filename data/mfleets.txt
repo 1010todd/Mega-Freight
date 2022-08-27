@@ -342,6 +342,204 @@ fleet "Intrasystem Merchants"
 		"Wisymton (Cargo)" 3
 	variant 10
 		"Wisymton"
+		
+fleet "Small Espion Miners"
+	government "MGF: Espion Mining Co."
+	names "civilian"
+	cargo 0
+	personality
+		confusion 40
+		timid frugal appeasing
+	variant 10
+		"Sparrow"
+		
+fleet "Large Espion Miners"
+	government "MGF: Espion Mining Co."
+	names "civilian"
+	cargo 0
+	personality
+		confusion 30
+		timid frugal appeasing
+	variant 10
+		"EM-8A Armadillo"
+		"EP-2 Marmot" 8
+		"EP-1 Mole" 10
+	variant 10
+		"Armadillo (Weapon)"
+		"EP-2 Marmot" 8
+		"EP-1 Mole" 10
+	variant 7
+		"SMM-111 Bagger"
+		"EP-2 Marmot" 4
+
+fleet "Small Espion Guard"
+	government "MGF: Espion Mining Co."
+	names "civilian"
+	cargo 0
+	personality
+		confusion 30
+		swarming disables
+	variant 10
+		"Quicksilver" 3
+	variant 10
+		"Quicksilver (Proton)" 3
+	variant 8
+		"Quicksilver (Mark II)"
+		"Quicksilver (Proton)" 2
+	variant 6
+		"CSE-6 Steward"
+		"AGT-31 Xencar" 6
+	
+fleet "Large Espion Guard"
+	government "MGF: Espion Mining Co."
+	names "civilian"
+	cargo 0
+	personality
+		confusion 25
+		swarming disables
+	variant 10
+		"Vanguard"
+		"Quicksilver" 3
+	variant 10
+		"Vanguard"
+		"Quicksilver (Proton)" 2
+		"Quicksilver (Mark II)"
+	variant 6
+		"CS-24 Garrison"
+		"AGT-31 Xencar" 18
+
+fleet "Small Crossguard Patrol"
+	government "MGF: Crossguard Patrol"
+	names "civilian"
+	cargo 1
+	personality
+		confusion 30
+		heroic swarming disables
+	variant 10
+		"Osprey"
+		"Osprey (Heavy)"
+	variant 8
+		"Osprey (Heavy)"
+		"Manta"
+	variant 6
+		"Marauder Quicksilver" 4
+
+fleet "Large Crossguard Patrol"
+	government "MGF: Crossguard Patrol"
+	names "civilian"
+	cargo 1
+	personality
+		confusion 20
+		heroic swarming disables
+	variant 10
+		"Aplomado"
+		"Osprey"
+	variant 8
+		"Aplomado"
+		"Osprey (Heavy)"
+	variant 8
+		"Falcon"
+		"Raven" 2
+	variant 8
+		"Falcon (Heavy)"
+		"Aplomado"
+	variant 5
+		"Aplomado"
+		"Marauder Splinter" 2
+	variant 4
+		"Marauder Firebird"
+		"Falcon (Heavy)"
+	variant 5
+		"Aplomado"
+		"CSE-6 Steward"
+		"Lance" 6
+	variant 2
+		"Battle Behemoth"
+		"CSE-6 Steward"
+		"Lance" 6
+	variant 4
+		"Vanguard"
+		"CS-24 Garrison"
+		"Lance" 10
+		"AGT-31 Xencar" 8
+	
+fleet "Small Black Death Fleet"
+	government "MGF: Black Death"
+	names "pirate"
+	cargo 1
+	personality
+		disables plunders harvests
+		confusion 20
+	variant 8
+		"Sparrow" 2
+	variant 3
+		"Hawk"
+		"Hawk (Black Death)" 2
+	variant 2
+		"Hawk (Speedy)" 2
+	variant 5
+		"Fury" 2
+	variant 4
+		"Fury (Laser)" 2
+	variant 1
+		"Fury (Black Death)"
+		"Fury (Laser)"
+	variant 1
+		"Fury (Missile)"
+		"Fury (Black Death)"
+	variant 4
+		"Sparrow" 2
+	variant 1
+		"Hawk (Black Death)"
+		"Sparrow (Black Death)"
+	variant 1
+		"Hawk (Speedy)"
+		"Sparrow (Black Death)"
+	variant 1
+		"Fury" 2
+		"Fury (Black Death)"
+	variant 1
+		"Fury (Missile)" 2
+	variant 1
+		"Fury (Heavy)" 2
+	variant 1
+		"Marauder Bounder (Engines)"
+		"Hawk (Speedy)" 
+		"Hawk (Black Death)"
+	variant 1
+		"Quicksilver (Black Death)" 2
+	variant 1
+		"Modified Argosy (Black Death)"
+		"Hawk (Speedy)" 
+
+fleet "Large Black Death Fleet"
+	government "MGF: Black Death"
+	names "pirate"
+	cargo 1
+	personality
+		disables plunders harvests
+		confusion 20
+	variant 10
+		"Aplomado (Black Death)"
+		"Fury" 2
+		"Fury (Black Death)"
+	variant 10
+		"Aplomado (Heavy)"
+		"Hawk (Speedy)"
+		"Sparrow (Black Death)"
+	variant 8
+		"Aplomado (Heavy)"
+		"Hawk (Speedy)"
+		"Modified Argosy (Black Death)"
+	variant 4
+		"CSE-6 Steward" #6
+		"Dagger" 4
+		"Lance" 2
+	variant 1
+		"CSE-6 Steward" #6
+		"Dagger" 4
+		"Lance" 2
+		"Osprey (Black Death)"
 #===============================FW
 		
 fleet "Small Free Worlds"

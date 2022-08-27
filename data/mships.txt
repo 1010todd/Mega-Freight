@@ -441,40 +441,6 @@ ship "Aplomado"
 	"final explode" "final explosion large"
 	description "Started from some veteran pirates modifying their Falcon to suit their need of long range durable cargo ship which eventually results in the Aplomado. Very little of the Falcon it was based on is left as the ship was upgraded and redesigned over the years, with other pirate captain showing interest and present enough money the Aplomado eventually becomes mass produced."
 	
-ship "Aplomado" "Aplomado (Heavy)"
-	outfits
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Heavy Laser Turret" 4
-		"Heavy Anti-Missile Turret" 2
-		
-		"Breeder Reactor"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		"Liquid Nitrogen Cooler"
-		"Laser Rifle" 50
-		
-		"Orca Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Scram Drive"
-		
-ship "Aplomado" "Aplomado (Plasma)"
-	outfits
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Plasma Turret" 4
-		"Heavy Anti-Missile Turret" 2
-		
-		"Fusion Reactor"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		"Liquid Nitrogen Cooler"
-		"Laser Rifle" 50
-		
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Scram Drive"
-	
 
 ship "Battle Bulk"
 	sprite "ship/mgf battlebulk"
@@ -1718,7 +1684,98 @@ ship "CSE-6 Steward"
 	explode "huge explosion" 20
 	description `Steward is an escort carrier found escorting merchant convoys.`
 	
-	
+ship "EM-8A Armadillo"
+	sprite "ship/mgf epn armadillo"
+	thumbnail "thumbnail/mgf epn armadillo thumb"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			"Espion Employee"
+		"cost" 18200000
+		"shields" 7850
+		"hull" 8540
+		"required crew" 24
+		"bunks" 50
+		"mass" 1282
+		"drag" 14.3
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 450
+		"outfit space" 820
+		"weapon capacity" 276
+		"engine capacity" 183
+		"hull repair rate" .1
+		"repair delay" 300
+		"disabled repair delay" 600
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Espion Mining Laser" 4
+		"Proton Turret" 1
+		"Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Espion Value Detector" 2
+		
+		"Orca Plasma Steering"
+		"Orca Plasma Thruster"
+		"Hyperdrive"
+		
+	gun -38.5 -162.5
+	gun -38.5 -162.5
+	gun 38.5 -162.5
+	gun 38.5 -162.5
+	turret 0 -111.5 "Proton Turret"
+	turret -34.5 -91
+	turret 34.5 -91 "Heavy Anti-Missile Turret"
+	turret -35 91 "Heavy Anti-Missile Turret"
+	turret 35 91
+	bay "Fighter" -27.5 -24
+	bay "Fighter" 27.5 -24
+	bay "Fighter" -28.5 -7.5
+	bay "Fighter" 28.5 -7.5
+	bay "Fighter" -28 10
+	bay "Fighter" 28 10
+	bay "Fighter" -27.5 25
+	bay "Fighter" 27.5 25
+	bay "Drone" -42 -30
+	bay "Drone" 42 -30
+	bay "Drone" -42.5 -15
+	bay "Drone" 42.5 -15
+	bay "Drone" -42.5 1
+	bay "Drone" 42.5 1
+	bay "Drone" -43 18
+	bay "Drone" 43 18
+	bay "Drone" -42.5 34.5
+	bay "Drone" 42.5 34.5
+	engine -20.5 174
+		zoom 1
+		under
+	engine -20.5 174
+		zoom 1
+		under
+	engine -40.5 171
+		zoom 1
+		under
+	engine -40.5 171
+		zoom 1
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	description `Espion-exclusive light mining carrier with sizeable squadron of drones and fighters for defending itself or help mining and collecting materials.`
+		
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
 	#thumbnail "thumbnail/mgf sovereign"
@@ -3654,3 +3711,95 @@ ship "AFFR-3 Fylla"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description `Old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`
+
+ship "EP-2 Marmot"
+	sprite "ship/mgf epn marmot"
+	thumbnail "thumbnail/mgf epn marmot thumb"
+	attributes
+		category "Fighter"
+		licenses
+			"Espion Employee"
+		"cost" 120000
+		"shields" 670
+		"hull" 780
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" .8
+		"heat dissipation" .9
+		"cargo space" 40
+		"outfit space" 120
+		"weapon capacity" 38
+		"engine capacity" 51
+		"asteroid scan power" 20
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Espion Mining Laser" 2
+	
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"E-XE10 Ion Maneuver Engine"
+		
+	gun 10 -34
+	gun 10 -34
+	engine -8.5 39.5
+		zoom 1
+		under
+	engine -8.5 39.5
+		zoom 1
+		under
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Piloted mining fighter developed and used by Espion Mining Co. Due to their specialized nature these fighters comes with built-in asteroid scanner.`
+	
+ship "EP-1 Mole"
+	sprite "ship/mgf epn mole"
+	thumbnail "thumbnail/mgf epn mole thumb"
+	attributes
+		category "Drone"
+		licenses
+			"Espion Employee"
+		"cost" 120000
+		"shields" 520
+		"hull" 540
+		"automaton" 1
+		"mass" 30
+		"drag" .75
+		"heat dissipation" .9
+		"cargo space" 20
+		"outfit space" 80
+		"weapon capacity" 19
+		"engine capacity" 51
+		"asteroid scan power" 12
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Espion Mining Laser"
+	
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"E-XE10 Ion Maneuver Engine"
+		
+	gun 7.5 -34
+	engine -6.5 34.5
+		zoom 1
+		under
+	engine -6.5 34.5
+		zoom 1
+		under
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Automated mining drone developed and used by Espion Mining Co. Due to their specialized nature these drones comes with built-in asteroid scanner.`
