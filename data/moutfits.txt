@@ -92,9 +92,9 @@ outfit "Mixture-DX Corrosive Thrower"
 		"submunition" "Mixture-DX Shots" 8 
 		"velocity" 1
 		"lifetime" 1
-		"reload" 10
-		"firing energy" 21
-		"firing heat" 23
+		"reload" 1
+		"firing energy" .7
+		"firing heat" 1.1
 
 outfit "Mixture-DX Shots"
 	weapon
