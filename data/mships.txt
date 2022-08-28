@@ -321,7 +321,7 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or methods of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering emergency supplies and tall construction or construction in inaccessible area instead of crane."
-	description `[Carry: Nothing, you should see or use this]`
+	description `[Carry: Nothing, you shouldnt see or use this]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	gun -14 -75.5
@@ -513,38 +513,6 @@ ship "Battle Bulk"
 	"final explode" "final explosion large"
 	description "Results of pirates wondering what to do with captured Bulk Freighters as they were too slow and cumbersome for smuggling. The Battle Bulk were often used to battle against rival gang or the navy."
 	
-ship "Battle Bulk" "Battle Bulk (Proton)"
-	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Proton Turret" 5
-		"Heavy Anti-Missile Turret" 6
-		
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator"
-		"Laser Rifle" 50
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Scram Drive"
-		
-ship "Battle Bulk" "Battle Bulk (Mod Blaster)"
-	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
-		"Modified Blaster Turret" 11
-		"Heavy Anti-Missile Turret" 6
-		
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator"
-		"Laser Rifle" 50
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Scram Drive"
-	
 ship "Battle Behemoth"
 	sprite "ship/behemoth"
 	thumbnail "thumbnail/behemoth"
@@ -605,21 +573,6 @@ ship "Battle Behemoth"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "Heavily modified version of Behemoth."
-
-ship "Battle Behemoth" "Battle Behemoth (Proton)"
-	outfits
-		"Proton Turret" 6
-		"Heavy Anti-Missile Turret" 2
-		
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Small Radar Jammer"
-		"Laser Rifle" 12
-		
-		"A370 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Scram Drive"
 	
 ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
@@ -2773,6 +2726,14 @@ ship "Spetum Class"
 	bay "Fighter" 56 -157
 	bay "Fighter" -98.5 -55.5
 	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
+	bay "Fighter" -56 -157
+	bay "Fighter" 56 -157
+	bay "Fighter" -98.5 -55.5
+	bay "Fighter" 98.5 -55.5
 	bay "Drone" -112.5 175
 		left
 	bay "Drone" 112.5 175
@@ -2831,7 +2792,7 @@ ship "Spetum Class"
 	explode "huge explosion" 10
 	"final explode" "final explosion large" 2
 	description `Republic Navy Spetum Class Fleetcarrier is a massive carrier that doubles as mobile headquarter projecting power not only within the system but also to nearby systems. Spetum Class is the first spaceship to carry a complement of fighters on par with wet navy carriers of 20th century. With over 5 times more capacity than older carrier fleets appearance of a single Spetum Class can turn the tide of a battle.`
-	description `Public reaction was mixed, while the ship itself it a feat of engineering and a mark of progress in a way some thought the budget could've been better spent else where. Though the ship will be a major deterrence against pirates some where also concerned about the lives of fighter pilots who where often just cannon fodder. Nevertheless armchair generals where all at least somewhat satisfied with what they would consider an actual carrier.`
+	description `Public reaction was mixed, while the ship itself it a feat of engineering and a mark of progress in a way some thought the budget could've been better spent else where. Though the ship will be a major deterrence against pirates some were also concerned about the lives of fighter pilots who where often just cannon fodder. Nevertheless armchair generals were all at least somewhat satisfied with what they would consider an actual carrier.`
 	
 ship "Spetum Class" "Spetum Class (Mark II)"
 	outfits
@@ -3250,7 +3211,296 @@ ship "Lucerne Class"
 		angle -90
 	bay "Fighter" 254 742.5
 		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		angle -90
+	bay "Fighter" 258 -38.5
+		angle 90
+	bay "Fighter" -305 42.5
+		angle -30
+	bay "Fighter" 305 42.5
+		angle 30
+	bay "Fighter" -394.5 38.5
+		angle 30
+	bay "Fighter" 394.5 38.5
+		angle -30
+	bay "Fighter" -394.5 657
+		angle 150
+	bay "Fighter" 394.5 657
+		angle -150
+	bay "Fighter" -305 665.5
+		angle -150
+	bay "Fighter" 305 665.5
+		angle 150
+	bay "Fighter" -254 742.5
+		angle -90
+	bay "Fighter" 254 742.5
+		angle 90
 		
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
+	bay "Drone" -232.5 -222
+		angle -110
+	bay "Drone" 232.5 -222
+		angle 110
 	bay "Drone" -232.5 -222
 		angle -110
 	bay "Drone" 232.5 -222

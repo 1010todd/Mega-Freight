@@ -633,13 +633,13 @@ event "MGF: Add Ships to Fleets (Navy Update)"
 			"Gunboat" 2
 		add variant 1
 			"Spetum Class"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Cruiser" 2
 			"Combat Drone" 8
 		add variant 1
 			"Spetum Class"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Culverin Class"
 			"Lance" 2

@@ -162,3 +162,50 @@ ship "Shuttle" "Shuttle (Kamikaze)"
 		"X2700 Ion Thruster"
 		"X2200 Ion Steering"
 		"Hyperdrive"
+
+ship "Battle Bulk" "Battle Bulk (Proton)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Proton Turret" 5
+		"Heavy Anti-Missile Turret" 6
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 50
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		
+ship "Battle Bulk" "Battle Bulk (Mod Blaster)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Modified Blaster Turret" 11
+		"Heavy Anti-Missile Turret" 6
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 50
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+
+ship "Battle Behemoth" "Battle Behemoth (Proton)"
+	outfits
+		"Proton Turret" 6
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer"
+		"Laser Rifle" 12
+		
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Scram Drive"

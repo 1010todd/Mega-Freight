@@ -676,13 +676,13 @@ event "MGF: Add Navy Mark II"
 			"Gunboat (Mark II)" 2
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Culverin Class (Mark II)"
 			"Lance" 2
@@ -726,13 +726,13 @@ event "MGF: Add Navy Mark II"
 			"Gunboat (Mark II)" 2
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 56
+			"Lance" 80
 			"Combat Drone" 24
 			"Culverin Class (Mark II)"
 			"Lance" 2
