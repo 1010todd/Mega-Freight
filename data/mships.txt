@@ -961,7 +961,7 @@ ship "PAS-2 Bulwark"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description ""
+	description "In order to quickly get a ship to match the Navy Cruiser and Carrier the Free Worlds has also opted for a modified version of the FG-5 Bluewhale replacing cargo containers with turret mounts effectively converting it into a formidable weapon platform outgunning nearly all ship in human space."
 	
 ship "FG-6 Startrain"
 	sprite "ship/mgf startrain"
@@ -1371,7 +1371,7 @@ ship "PCS-4 Castle"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description ``
+	description `Modified from the FG-7 Conveyor, the Castle rivals even the Navy's Spetum class in terms of raw fighter capacity. However, it still can't compete when it comes to fighter servicing.`
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
