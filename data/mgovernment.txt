@@ -123,6 +123,11 @@ government "MGF: Black Death"
 		"Merchant" -.1
 		"Pirate" .06
 		"Korath" -.1
+		"Republic" -.1
+		"Navy (Oathkeeper)" -.1
+		"Navy Intelligence" -.1
+		"Militia" -.1
+		"Free Worlds" -.1
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Maryhal Logistic" -.01
 		"Quarg" -.1

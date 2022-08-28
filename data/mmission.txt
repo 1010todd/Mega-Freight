@@ -268,7 +268,7 @@ mission "MGF: Espion co. job ad"
 	description "Espion Mining co. is looking for aspiring asteroid miner to join the company. No experience required."
 	destination "New Sahara"
 	source
-		government "Republic" "Syndicate" "Free World" "Independent" "Neutral"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
 		not attributes uninhabited
 	to offer
 		not "license: Espion Employee"
