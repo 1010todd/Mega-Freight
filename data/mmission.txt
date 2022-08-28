@@ -267,8 +267,12 @@ mission "MGF: Espion co. job ad"
 	name "Asteroid Miner Wanted"
 	description "Espion Mining co. is looking for aspiring asteroid miner to join the company. No experience required."
 	destination "New Sahara"
+	source
+		government "Republic" "Syndicate" "Free World" "Independent" "Neutral"
+		not attributes uninhabited
 	to offer
 		not "license: Espion Employee"
+		random < 30
 	on complete
 		dialog
 			`You landed at the planet where Espion headquarter is located, you can find it at the spaceport to apply for the job.`
