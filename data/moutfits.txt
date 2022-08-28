@@ -589,6 +589,7 @@ outfit "4C-1 Detonator"
 		"reload" 20
 		ammo "4C-1 Detonator"
 		"submunition" "4C-1 Bomb Charge"
+		"cluster"
 		
 outfit "4C-1 Bomb Charge"
 	weapon

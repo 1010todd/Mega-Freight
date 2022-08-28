@@ -1,7 +1,7 @@
 #Asteroid mining company
 government "MGF: Espion Mining Co."
 	"display name" "Espion Mining Co."
-	"swizzle" 20
+	"swizzle" 22
 	color .75 .81 .0
 	"player reputation" .1
 	"attitude toward"
@@ -91,6 +91,7 @@ government "MGF: Minotaurs"
 		"Deep Security" -.01
 		"Independent" -.01
 		"Independent (Killable)" -.01
+		"Quarg" -.1
 	bribe 0.5
 		
 # South-core pirate group
@@ -104,24 +105,29 @@ government "MGF: Black Death"
 		"Korath" -.1
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Maryhal Logistic" -.01
+		"Quarg" -.1
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
 	
 # South, religious crackheads.
 government "MGF: Ugyr's Sanctuary"
 	"display name" "Ugyr's Sanctuary"
-	swizzle 22
+	swizzle 11
 	"attitude toward"
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Black Death" -.2
 		"MGF: Minotaurs" -.2
 		"Pirate" -.1
 		"Republic" -.1
+		"Navy (Oathkeeper)" -.1
+		"Navy Intelligence" -.1
 		"Author" -.01
 		"Hai" -.01
 		"Hai (Wormhole Access)" -.01
 		"Militia" -.1
 		"Free Worlds" -.1
+		"Quarg" -.1
+		"Indigenous Lifeform" -.01
 	"penalty for"
 		scan .1
 	"provoked on scan"

@@ -501,3 +501,63 @@ event "MGF: Southern Merchant Upgrade I"
 			"CSE-6 Steward" 2
 			"Lance" 6
 			"AGT-31 Xencar" 6
+			
+mission "Ugyr's Sanctuary Appears"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement II"
+	on offer
+		event "MGF: Ugyr's Sanctuary Appears"
+	on accept
+		fail
+		
+event "MGF: Ugyr's Sanctuary Appears"
+	system Lesath
+		add fleet "Small Ugyr Harasser" 3500
+	system Atria
+		add fleet "Small Ugyr Harasser" 3500
+	system Sargas
+		add fleet "Small Ugyr Harasser" 3500
+	system Dschubba
+		add fleet "Small Ugyr Harasser" 3500
+	system Aldhibain
+		add fleet "Small Ugyr Harasser" 3500
+	system Alniyat
+		add fleet "Small Ugyr Harasser" 3500
+	system Antares
+		add fleet "Small Ugyr Harasser" 3500
+	system Girtab
+		add fleet "Small Ugyr Harasser" 3500
+	system Rastaban
+		add fleet "Small Ugyr Harasser" 3500
+	system Nunki
+		add fleet "Small Ugyr Harasser" 3500
+	system Albaldah
+		add fleet "Small Ugyr Harasser" 3500
+	news "ugyr rumor"
+		location
+			government "Republic" "Free Worlds" "Neutral" "Independent"
+			attributes "rim" "south" "dirt belt"
+		name
+			word
+				"Merchant captain"
+				"Starship captain"
+				"Spacecraft captain"
+				"Spaceship captain"
+				"Freelance captain"
+				"Merchant pilot"
+				"Starship pilot"
+				"Spacecraft pilot"
+				"Spaceship pilot"
+				"Freelance pilot"
+		message
+			word
+				`"`
+			word
+				`Watch out for some crazy suicidal cultist, I almost lost my ship to an attack.`
+				`There's been some new terrorist popping up recently that will try to ram your ship, watch out!`
+				`I just saw some pirates getting shredded by a few odd Sparrows, dunno who the hell those guys are but surely I don't want their guns aiming at me.`
+				`There've been some mad cult strapping huge cannons to their Star barge parading it around Lesath shooting at anyone who looked at them wrong, you probably want to avoid that area for the time.`
+			word
+				`"`

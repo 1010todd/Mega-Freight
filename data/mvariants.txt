@@ -141,3 +141,24 @@ ship "EM-8A Armadillo" "Armadillo (Weapon)"
 		"Orca Plasma Steering"
 		"Orca Plasma Thruster"
 		"Hyperdrive"
+		
+ship "Sparrow" "Sparrow (Kamikaze)"
+	outfits
+		"4C-1 Detonator" 2
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+		
+ship "Shuttle" "Shuttle (Kamikaze)"
+	outfits
+		"4C-1 Detonator" 1
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"

@@ -5538,6 +5538,8 @@ outfit "SilChu Missile Fired"
 		"drag" .1
 		"turn" 3
 		"homing" 4
+		"radar tracking" .9
+		"optical tracking" .5
 		"inaccuracy" 5
 		"lifetime" 1000
 		"missile strength" 455

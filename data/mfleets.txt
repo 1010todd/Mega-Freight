@@ -378,7 +378,7 @@ fleet "Small Espion Guard"
 	cargo 0
 	personality
 		confusion 30
-		swarming disables
+		disables
 	variant 10
 		"Quicksilver" 3
 	variant 10
@@ -396,7 +396,7 @@ fleet "Large Espion Guard"
 	cargo 0
 	personality
 		confusion 25
-		swarming disables
+		disables
 	variant 10
 		"Vanguard"
 		"Quicksilver" 3
@@ -414,7 +414,7 @@ fleet "Small Crossguard Patrol"
 	cargo 1
 	personality
 		confusion 30
-		heroic swarming disables
+		heroic disables
 	variant 10
 		"Osprey"
 		"Osprey (Heavy)"
@@ -430,7 +430,7 @@ fleet "Large Crossguard Patrol"
 	cargo 1
 	personality
 		confusion 20
-		heroic swarming disables
+		heroic disables
 	variant 10
 		"Aplomado"
 		"Osprey"
@@ -540,6 +540,40 @@ fleet "Large Black Death Fleet"
 		"Dagger" 4
 		"Lance" 2
 		"Osprey (Black Death)"
+		
+fleet "Small Ugyr Harasser"
+	government "MGF: Ugyr's Sanctuary"
+	names "Ugyr Followers"
+	cargo 1
+	personality
+		vindictive plunders
+		confusion 40
+	variant 10
+		"Sparrow" 3
+	variant 10
+		"Sparrow" 2
+		"Sparrow (Kamikaze)"
+	variant 10
+		"Shuttle (Kamikaze)"
+		"Sparrow (Ugyr)" 2
+	variant 10
+		"Shuttle (Kamikaze)"
+		"Star Barge (Ugyr)" 2
+	variant 10
+		"Shuttle (Kamikaze)"
+		"Sparrow (Kamikaze)"
+		"Sparrow (Ugyr)"
+		"Star Barge (Ugyr)"
+	variant 10
+		"Sparrow (Ugyr)" 3
+	variant 10
+		"Sparrow (Ugyr)" 2
+		"Star Barge (Ugyr)" 1
+	variant 10
+		"Sparrow (Ugyr)" 1
+		"Star Barge (Ugyr)" 2
+	variant 9
+		"Shuttle (Kamikaze)" 3
 #===============================FW
 		
 fleet "Small Free Worlds"

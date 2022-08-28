@@ -1908,6 +1908,90 @@ ship "SV-4450 Sovereign"
 	"final explode" "final explosion large"
 	description "Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remains today in few private hands."
 
+ship "Sparrow" "Sparrow (Ugyr)"
+	sprite "ship/mgf ugyr sparrow"
+	thumbnail "thumbnail/mgf ugyr sparrow thumb"
+	attributes
+		category "Interceptor"
+		"cost" 293000
+		"shields" 1100
+		"hull" 410
+		"required crew" 1
+		"bunks" 2
+		"mass" 50
+		"drag" .85
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 148
+		"weapon capacity" 40
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"Gatling Gun" 4
+		"Gatling Gun Ammo" 12000
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+		
+	engine -5 35
+	engine 5 35
+	gun -8 -19.5
+	gun 8 -19.5
+	gun -16 -12
+	gun 16 -12
+	description `Heavily modified Sparrow with extra pair of guns, used by followers of Ugyr to harass their enemies.`
+
+ship "Star Barge" "Star Barge (Ugyr)"
+	sprite "ship/mgf ugyr starbarge"
+	thumbnail "thumbnail/mgf ugyr starbarge thumb"
+	attributes
+		category "Interceptor"
+		"cost" 210000
+		"shields" 500
+		"hull" 1150
+		"required crew" 1
+		"bunks" 3
+		"mass" 70
+		"drag" 1.75
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 172
+		"weapon capacity" 64
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"G22 Particle Cannon" 2
+
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -9.5 38
+	engine 9.5 38
+	turret 0 -18
+	gun -15 -31.5
+	gun 15 -31.5
+	description `Heavily modified Star Barge with two large cannons in place of cargo containers, used by followers of Ugyr to harass their enemies.`
+
 ship "AP-22 Fusillade"
 	sprite "ship/mgf syn fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"

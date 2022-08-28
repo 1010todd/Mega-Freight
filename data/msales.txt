@@ -39,6 +39,8 @@ shipyard developer
 	"EP-2 Marmot"
 	"EP-1 Mole"
 	"EM-8A Armadillo"
+	"Star Barge (Ugyr)"
+	"Sparrow (Ugyr)"
 
 outfitter developer
 	"Atesac Plasma Cannon"

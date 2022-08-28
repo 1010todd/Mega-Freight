@@ -642,3 +642,4 @@ system "Zeta Centauri"
 system Zubenelgenubi
 	add fleet "Small Black Death Fleet" 5000
 	add fleet "Large Black Death Fleet" 7000
+	
