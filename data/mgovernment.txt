@@ -11,6 +11,10 @@ government "MGF: Espion Mining Co."
 		"Korath" -.01
 		"MGF: Minotaurs" -.2
 		"MGF: Ugyr's Sanctuary" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	bribe .3
 	fine .75
 	"friendly hail" "friendly civilian"
@@ -32,6 +36,10 @@ government "MGF: Maryhal Logistic"
 		"Scar's Legion" -.1
 		"MGF: Minotaurs" -.2
 		"MGF: Black Death" -.2
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
@@ -46,6 +54,10 @@ government "MGF: Rangphenn Transport"
 		"Pirate" -.1
 		"Korath" -.01
 		"MGF: Minotaurs" -.2
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
@@ -61,6 +73,10 @@ government "MGF: Crossguard Patrol"
 		"Korath" -.1
 		"MGF: Black Death" -.2
 		"MGF: Jack's Gang" 1.6
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"hostile hail" "hostile bounty hunter"
 	
 # South-north alien-equipped pirate group.
@@ -92,6 +108,10 @@ government "MGF: Minotaurs"
 		"Independent" -.01
 		"Independent (Killable)" -.01
 		"Quarg" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	bribe 0.5
 		
 # South-core pirate group
@@ -106,6 +126,10 @@ government "MGF: Black Death"
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Maryhal Logistic" -.01
 		"Quarg" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"friendly hail" "friendly pirate"
 	"hostile hail" "hostile pirate"
 	
@@ -128,6 +152,10 @@ government "MGF: Ugyr's Sanctuary"
 		"Free Worlds" -.1
 		"Quarg" -.1
 		"Indigenous Lifeform" -.01
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"penalty for"
 		scan .1
 	"provoked on scan"
@@ -142,6 +170,10 @@ government "MGF: Shadow Rakin"
 	"attitude toward"
 		"Pirate" .06
 		"MGF: Espion Mining Co." -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	#"friendly hail" "friendly pirate"
 	#"hostile hail" "hostile pirate"
 	
@@ -156,6 +188,10 @@ government "MGF: Jack's Gang"
 		"Militia" 1
 		"Free Worlds" 1
 		"MGF: Crossguard Patrol" 1.6
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
 	"penalty for"
 		assist -0.5
 		disable 0.1
