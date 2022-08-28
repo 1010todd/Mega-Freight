@@ -142,6 +142,16 @@ ship "EM-8A Armadillo" "Armadillo (Weapon)"
 		"Orca Plasma Thruster"
 		"Hyperdrive"
 		
+ship "Sparrow" "Sparrow (Espion)"
+	outfits
+		"Espion Mining Laser" 2
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
+
 ship "Sparrow" "Sparrow (Kamikaze)"
 	outfits
 		"4C-1 Detonator" 2

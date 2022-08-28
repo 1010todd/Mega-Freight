@@ -352,6 +352,8 @@ fleet "Small Espion Miners"
 		timid frugal appeasing
 	variant 10
 		"Sparrow"
+	variant 8
+		"Sparrow (Espion)"
 		
 fleet "Large Espion Miners"
 	government "MGF: Espion Mining Co."
