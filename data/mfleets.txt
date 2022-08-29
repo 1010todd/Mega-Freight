@@ -14,14 +14,20 @@ fleet "Small Southern Merchants"
 		"FF-30 Volant"
 	add variant 5
 		"FF-30 Volant" 2
+		
+	add variant 10
+		"TS-650 Herrenbal"
+	add variant 5
+		"TS-650 Herrenbal"
+		"Sparrow" 2
 
 fleet "Large Southern Merchants"
 	add variant 6
 		"CH-6 Carrack"
-		"Finch" 5
+		"Lance" 5
 	add variant 12
 		"CH-6 Carrack"
-		"Finch" 5
+		"Lance" 5
 		"Hawk" 3
 	add variant 5
 		"LCC-3 Sierra"
@@ -61,6 +67,20 @@ fleet "Large Southern Merchants"
 	add variant 6
 		"PF-80 Intrepid" 2
 		"Osprey"
+		
+	add variant 8
+		"TS-CH0 Kratzbal"
+	add variant 6
+		"TS-CH0 Kratzbal"
+		"Hawk" 2
+	add variant 4
+		"TS-CH0 Kratzbal"
+		"TS-650 Herrenbal" 2
+		"Osprey"
+	add variant 2
+		"PF-80 Intrepid"
+		"TS-CH0 Kratzbal"
+		"Osprey"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -78,6 +98,12 @@ fleet "Small Core Merchants"
 	
 	add variant 5
 		"FF-30 Volant"
+		
+	add variant 10
+		"TS-650 Herrenbal"
+	add variant 5
+		"TS-650 Herrenbal"
+		"Sparrow" 2
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -177,6 +203,20 @@ fleet "Large Core Merchants"
 		
 	add variant 6
 		"PF-80 Intrepid"
+		
+	add variant 8
+		"TS-CH0 Kratzbal"
+	add variant 6
+		"TS-CH0 Kratzbal"
+		"Wasp" 2
+	add variant 4
+		"TS-CH0 Kratzbal"
+		"TS-650 Herrenbal" 2
+		"Quicksilver" 3
+	add variant 2
+		"PF-80 Intrepid"
+		"TS-CH0 Kratzbal"
+		"Manta" 2
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -195,6 +235,9 @@ fleet "Paradise Merchants"
 		"QYG-60 Sandiq" 2
 	add variant 20
 		"QYG-60 Sandiq" 3
+		
+	add variant 10
+		"TS-650 Herrenbal"
 
 
 fleet "Small Northern Merchants"
@@ -208,6 +251,12 @@ fleet "Small Northern Merchants"
 		
 	add variant 6
 		"FF-30 Volant"
+		
+	add variant 10
+		"TS-650 Herrenbal"
+	add variant 5
+		"TS-650 Herrenbal"
+		"Sparrow" 2
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -294,6 +343,21 @@ fleet "Large Northern Merchants"
 	add variant 6
 		"PF-80 Intrepid"
 		
+	add variant 8
+		"TS-CH0 Kratzbal"
+	add variant 6
+		"TS-CH0 Kratzbal"
+		"Berserker" 2
+	add variant 4
+		"TS-CH0 Kratzbal"
+		"TS-650 Herrenbal" 2
+		"Headhunter" 2
+		"Corvette"
+	add variant 2
+		"PF-80 Intrepid"
+		"TS-CH0 Kratzbal"
+		"Firebird" 2
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -354,6 +418,8 @@ fleet "Small Espion Miners"
 		"Sparrow"
 	variant 8
 		"Sparrow (Espion)"
+	add variant 5
+		"CF-50 Cart"
 		
 fleet "Large Espion Miners"
 	government "MGF: Espion Mining Co."

@@ -1017,7 +1017,7 @@ ship "FG-6 Startrain"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Skytrain is a medium ranged freighter capable of quickly unloading cargo containers.`
+	description `Startrain is a medium ranged freighter capable of quickly unloading cargo containers.`
 	
 ship "FG-6 Startrain" "FG-6 Startrain-A"
 	sprite "ship/mgf startrain-a"
@@ -3956,6 +3956,142 @@ ship "QYG-60 Sandiq"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighter around the Core and North area.`
+	
+ship "TS-650 Herrenbal"
+	sprite "ship/mgf herrenbal"
+	thumbnail "thumbnail/mgf herrenbal thumb"
+	attributes
+		category "Transport"
+		"cost" 810000
+		"shields" 2900
+		"hull" 2250
+		"required crew" 6
+		"bunks" 48
+		"mass" 187
+		"drag" 5.5
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 371
+		"weapon capacity" 139
+		"engine capacity" 85
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Proton Turret"
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle" 6
+		
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		"Hyperdrive"
+		
+	gun -11.5 -77
+	gun 11.5 -77
+	turret 0 -44
+	turret 0 -25 "Heavy Anti-Missile Turret"
+	turret -14 59 "Heavy Anti-Missile Turret"
+	turret 14 59 "Quad Blaster Turret"
+	engine -12 94
+		zoom 1
+		under
+	engine 12 94
+		zoom 1
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `A mid-sized transport`
+	
+ship "TS-CH0 Kratzbal"
+	sprite "ship/mgf kratzbal"
+	thumbnail "thumbnail/mgf kratzbal thumb"
+	attributes
+		category "Transport"
+		"cost" 1380000
+		"shields" 6780
+		"hull" 3890
+		"required crew" 12
+		"bunks" 176
+		"mass" 452
+		"drag" 7.8
+		"heat dissipation" .65
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 629
+		"weapon capacity" 330
+		"engine capacity" 154
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Proton Turret" 3
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"nGVF-EE Fuel Cell"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 12
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Hyperdrive"
+		
+	gun -26.5 -166
+	gun 26.5 -166
+	gun -26.5 -166
+	gun 26.5 -166
+	turret 0 -143.5 "Proton Turret"
+	turret -12 -119 "Quad Blaster Turret"
+	turret 12 -119 "Quad Blaster Turret"
+	turret -23 -51.5 "Heavy Anti-Missile Turret"
+	turret 23 -51.5 "Heavy Anti-Missile Turret"
+	turret 0 20 "Proton Turret"
+	turret 0 41.5 "Proton Turret"
+	turret -18.5 96 "Quad Blaster Turret"
+	turret 18.5 96 "Quad Blaster Turret"
+	engine -38 162.5
+		zoom 1
+		under
+	engine 38 162.5
+		zoom 1
+		under
+	engine 0 166
+		zoom 1
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Fast and well-armed transport for hauling large amount of people across distance.`
 	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
