@@ -1945,6 +1945,58 @@ ship "Star Barge" "Star Barge (Ugyr)"
 	gun 15 -31.5
 	description `Heavily modified Star Barge with two large cannons in place of cargo containers, used by followers of Ugyr to harass their enemies.`
 
+ship "Star Barge" "Star Barge (Bare, Q-Bomb)"
+	sprite "ship/mgf bare barge"
+	thumbnail "thumbnail/mgf bare barge thumb"
+	attributes
+		category "Interceptor"
+		"cost" 210000
+		"shields" 500
+		"hull" 750
+		"required crew" 1
+		"bunks" 3
+		"mass" 60
+		"drag" 1.25
+		"heat dissipation" .9
+		"fuel capacity" 300
+		"cargo space" 0
+		"outfit space" 172
+		"weapon capacity" 64
+		"engine capacity" 45
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"QB-10 Box Missile" 5
+
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -9.5 38
+	engine 9.5 38
+	turret 0 -18
+	gun -8.5 -1
+		over
+		angle -90
+	gun 8.5 -1
+		over
+		angle 90
+	gun -8.5 15.5
+		over
+		angle -90
+	gun 8.5 15.5
+		over
+		angle 90
+	gun 0 -2
+	description `Starbarge with cargo box replaced with hardpoint for concealed missiles.`
+
 ship "AP-22 Fusillade"
 	sprite "ship/mgf syn fusillade"
 	thumbnail "thumbnail/mgf syn fusillade thumb"

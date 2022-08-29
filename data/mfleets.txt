@@ -642,6 +642,8 @@ fleet "Small Ugyr Harasser"
 		"Star Barge (Ugyr)" 2
 	variant 9
 		"Shuttle (Kamikaze)" 3
+	variant 1
+		"Star Barge (Bare, Q-Bomb)"
 #===============================FW
 		
 fleet "Small Free Worlds"

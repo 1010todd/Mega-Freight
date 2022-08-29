@@ -34,6 +34,8 @@ planet Rust
 	add shipyard "MGF Special A"
 planet Haven
 	add shipyard "MGF Special D"
+planet Covert
+	add shipyard "MGF Special E"
 	
 planet Earth
 	add shipyard "Intrasystem Basic"
@@ -134,7 +136,7 @@ system Albireo
 	add fleet "Large Crossguard Patrol" 2700
 system Aldhibain
 	add fleet "Small Crossguard Patrol" 2300
-	add fleet "Large Crossguard Patrol" 900
+	add fleet "Large Crossguard Patrol" 2000
 system Algorel
 	add fleet "Small Crossguard Patrol" 1500
 	add fleet "Large Crossguard Patrol" 3400

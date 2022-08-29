@@ -865,6 +865,64 @@ outfit "Spearfish Launcher Array"
 		"missile strength" 12
 	description "Powerful anti-ship missile"
 	
+outfit "QB-10 Box Missile"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/mgf cargobox outfit"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/mgf cargobox"
+		"hardpoint sprite" "projectile/mgf cargobox"
+		sound "torpedo"
+		ammo "QB-10 Box Missile"
+		stream
+		icon "icon/nuke"
+		"fire effect" "smoke"
+		"live effect" "bombbox flare" 500
+		"live effect" "bombbox smoke" 500
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "huge explosion"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 800
+		"reload" 30
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .7
+		"drag" .1
+		"turn" 3
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 150
+		"shield damage" 9000
+		"hull damage" 7000
+		"hit force" 4000
+		"missile strength" 400
+	description "Large bomb concealed as a cargo box."
+	description "	[Box missiles are a one-shot weapon: each missile occupies a gun slot, and after it is fired, the slot it was in is left empty.]"
+
+effect "bombbox flare"
+	sprite "effect/mgf bombbox flare"
+	"lifetime" 2
+	"velocity scale" .9
+	
+effect "bombbox smoke"
+	sprite "effect/mgf bombbox smoke"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 2
+	"velocity scale" .5
+	"random angle" 10
+	"random velocity" 1
+	
+	
 outfit "MX30 Sirius Core"
 	category "Power"
 	cost 90000000

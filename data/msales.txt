@@ -43,6 +43,7 @@ shipyard developer
 	"Sparrow (Ugyr)"
 	"TS-650 Herrenbal"
 	"TS-CH0 Kratzbal"
+	"Star Barge (Bare, Q-Bomb)"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -185,6 +186,9 @@ shipyard "MGF Special C"
 	
 shipyard "MGF Special D"
 	"Wisymton (Gold)"
+	
+shipyard "MGF Special E"
+	"Star Barge (Bare, Q-Bomb)"
 	
 shipyard "Espion Basic"
 	"Sparrow"
