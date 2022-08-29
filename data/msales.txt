@@ -233,7 +233,6 @@ outfitter "Navy Basic"
 	
 outfitter "Navy Advanced EX"
 	"Spearfish Missile"
-	"M6-ACS Artillery Turret"
 	
 outfitter "Ammo South"
 	"Swordfish Missile"
@@ -255,6 +254,7 @@ outfitter "Syndicate Basic"
 	
 outfitter "Syndicate Advanced"
 	"Atesac Plasma Cannon"
+	"M6-ACS Artillery"
 	"M6-ACS Artillery Turret"
 	"G22 Particle Cannon"
 	"G22 Particle Turret"

@@ -210,6 +210,31 @@ outfit "G22 Particle Turret"
 		"hull damage" 60
 	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate found on some older ships.`
 		
+outfit "M6-ACS Artillery"
+	category "Guns"
+	cost 2100000
+	thumbnail "outfit/mgf acs gun"
+	"mass" 98
+	"outfit space" -98
+	"weapon capacity" -98
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/particle beam"
+			"frame rate" 3
+		sound "heavy rocket hit"
+		"hit effect" "large explosion"
+		"inaccuracy" .8
+		"velocity" 20
+		"lifetime" 80
+		"reload" 60
+		"firing energy" 30
+		"firing heat" 180
+		"hit force" 30
+		"shield damage" 1850
+		"hull damage" 886
+	description "Long range anti-capital artillery gun."
+		
 outfit "M6-ACS Artillery Turret"
 	category "Turrets"
 	cost 5200000
