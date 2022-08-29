@@ -231,6 +231,10 @@ outfitter "Espion Advanced"
 outfitter "Navy Basic"
 	"Spearfish Missile"
 	
+outfitter "Navy Advanced EX"
+	"Spearfish Missile"
+	"M6-ACS Artillery Turret"
+	
 outfitter "Ammo South"
 	"Swordfish Missile"
 	
