@@ -499,16 +499,16 @@ fleet "Large Crossguard Patrol"
 	personality
 		confusion 20
 		heroic disables
-	variant 10
+	variant 8
 		"Aplomado"
 		"Osprey"
 	variant 8
 		"Aplomado"
 		"Osprey (Heavy)"
-	variant 8
+	variant 12
 		"Falcon"
 		"Raven" 2
-	variant 8
+	variant 10
 		"Falcon (Heavy)"
 		"Aplomado"
 	variant 5
