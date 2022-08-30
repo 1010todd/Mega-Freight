@@ -4893,319 +4893,399 @@ ship "Agrunnos"
 	bay "Fighter" -199 274.5
 	bay "Fighter" 199 274.5
 	#========================Pocket Warship
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Heavy Warship" -187.5 -168
+	bay "Pocket Heavy Warship" 187.5 -168
+	bay "Pocket Heavy Warship" -199 274.5
+	bay "Pocket Heavy Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Medium Warship" -187.5 -168
+	bay "Pocket Medium Warship" 187.5 -168
+	bay "Pocket Medium Warship" -199 274.5
+	bay "Pocket Medium Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	
-	bay "Pocket Warship" -187.5 -168
-	bay "Pocket Warship" 187.5 -168
-	bay "Pocket Warship" -199 274.5
-	bay "Pocket Warship" 199 274.5
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
+	
+	bay "Pocket Light Warship" -187.5 -168
+	bay "Pocket Light Warship" 187.5 -168
+	bay "Pocket Light Warship" -199 274.5
+	bay "Pocket Light Warship" 199 274.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
