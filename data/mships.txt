@@ -2131,13 +2131,13 @@ ship "AP-22 Fusillade"
 	engine -70 332
 		zoom 1
 		under
-	engine -70 332
+	engine 70 332
 		zoom 1
 		under
 	engine -26 349
 		zoom 1
 		under
-	engine -26 349
+	engine 26 349
 		zoom 1
 		under
 	leak "leak" 30 50
