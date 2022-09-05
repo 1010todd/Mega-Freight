@@ -430,6 +430,53 @@ mission "MGF: Espion: Neodymium at Delta Velorum"
 		conversation
 			`The ground crew unloads 15 tons of the material and pays you <payment>. You bid farewell to the other captains and head on your own way.`
 			
+mission "MGF: Syndi Platinum License Upkeep"
+	landing
+	invisible
+	to offer
+		has "license: Syndicate Platinum"
+		not "MGF: Syndi Platinum License Upkeep: offered"
+	on offer
+		"salary: Syndicate Platinum" = -5000
+		"MGF: Splatinum member regis year" = "year"
+		"MGF: Splatinum member regis month" = "month"
+	on accept
+		fail
+		
+mission "MGF: Syndi Platinum License Cancel (bfr 1yr)"
+	job
+	repeat
+	name "Cancel Platinum License"
+	description "Cancel Syndicate Platinum License for a fee of <payment>."
+	to offer
+		has "license: Syndicate Platinum"
+		has "MGF: Syndi Platinum License Upkeep: offered"
+		#Convert years to month and count from there. This check if a year passes or not.
+		"MGF: Splatinum member regis year"  * 12 + "MGF: Splatinum member regis month" >= "year" * 12 + "month" - 12
+	on accept
+		"payment" -1820000
+		clear "salary: Syndicate Platinum"
+		clear "MGF: Syndi Platinum License Upkeep: offered"
+		clear "license: Syndicate Platinum"
+		fail
+		
+mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
+	job
+	repeat
+	name "Cancel Platinum License"
+	description "Cancel Syndicate Platinum License for a fee of <payment>."
+	to offer
+		has "license: Syndicate Platinum"
+		has "MGF: Syndi Platinum License Upkeep: offered"
+		#Convert years to month and count from there. This check if a year passes or not.
+		"MGF: Splatinum member regis year"  * 12 + "MGF: Splatinum member regis month" < "year" * 12 + "month" - 12
+	on accept
+		"payment" -910000
+		clear "salary: Syndicate Platinum"
+		clear "MGF: Syndi Platinum License Upkeep: offered"
+		clear "license: Syndicate Platinum"
+		fail
+		
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"
