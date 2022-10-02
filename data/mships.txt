@@ -514,8 +514,8 @@ ship "Battle Bulk"
 	description "Results of pirates wondering what to do with captured Bulk Freighters as they were too slow and cumbersome for smuggling. The Battle Bulk were often used to battle against rival gang or the navy."
 	
 ship "Battle Behemoth"
-	sprite "ship/behemoth"
-	thumbnail "thumbnail/behemoth"
+	sprite "ship/mgf battle behemoth"
+	#thumbnail "thumbnail/behemoth"
 	attributes
 		category "Heavy Warship"
 		"cost" 10800000
@@ -2882,8 +2882,6 @@ ship "Lucerne Class"
 		"shields" 141500
 		"hull" 128800
 		"hull repair rate" .5
-		"required crew" 1250
-		"bunks" 1570
 		"mass" 35685
 		"drag" 34
 		"heat dissipation" .45
