@@ -126,263 +126,263 @@ system "Ascella"
 
 #=================================Crossguard Patrol
 system Acrux
-	add fleet "Small Crossguard Patrol" 3600
-	add fleet "Large Crossguard Patrol" 1000
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 5000
 system Albaldah
-	add fleet "Small Crossguard Patrol" 1800
-	add fleet "Large Crossguard Patrol" 3100
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 6400
 system Albireo
-	add fleet "Small Crossguard Patrol" 3500
-	add fleet "Large Crossguard Patrol" 2700
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 6400
 system Aldhibain
-	add fleet "Small Crossguard Patrol" 2300
-	add fleet "Large Crossguard Patrol" 2000
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 5500
 system Algorel
-	add fleet "Small Crossguard Patrol" 1500
-	add fleet "Large Crossguard Patrol" 3400
-system Alioth
-	add fleet "Small Crossguard Patrol" 1600
-	add fleet "Large Crossguard Patrol" 2900
-system Alkaid
 	add fleet "Small Crossguard Patrol" 2100
-	add fleet "Large Crossguard Patrol" 3700
+	add fleet "Large Crossguard Patrol" 6600
+system Alioth
+	add fleet "Small Crossguard Patrol" 3400
+	add fleet "Large Crossguard Patrol" 6800
+system Alkaid
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 6200
 system Alnasl
-	add fleet "Small Crossguard Patrol" 2200
-	add fleet "Large Crossguard Patrol" 1300
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 5900
 system Alniyat
-	add fleet "Small Crossguard Patrol" 3600
-	add fleet "Large Crossguard Patrol" 3400
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 6900
 system "Alpha Arae"
 	add fleet "Small Crossguard Patrol" 2000
-	add fleet "Large Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 6300
 system Alphecca
-	add fleet "Small Crossguard Patrol" 900
-	add fleet "Large Crossguard Patrol" 1900
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 5800
 system Antares
-	add fleet "Small Crossguard Patrol" 900
-	add fleet "Large Crossguard Patrol" 3100
-system Arcturus
-	add fleet "Small Crossguard Patrol" 3600
-	add fleet "Large Crossguard Patrol" 1200
-system Ascella
-	add fleet "Small Crossguard Patrol" 3500
-	add fleet "Large Crossguard Patrol" 2900
-system Atria
-	add fleet "Small Crossguard Patrol" 1600
-	add fleet "Large Crossguard Patrol" 1800
-system "Beta Lupi"
-	add fleet "Small Crossguard Patrol" 1000
-	add fleet "Large Crossguard Patrol" 1700
-system Boral
-	add fleet "Small Crossguard Patrol" 3500
-	add fleet "Large Crossguard Patrol" 2800
-system Cebalrai
-	add fleet "Small Crossguard Patrol" 3400
-	add fleet "Large Crossguard Patrol" 2000
-system "Cor Caroli"
 	add fleet "Small Crossguard Patrol" 2400
-	add fleet "Large Crossguard Patrol" 3700
-system Dabih
+	add fleet "Large Crossguard Patrol" 6500
+system Arcturus
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 5800
+system Ascella
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 5600
+system Atria
 	add fleet "Small Crossguard Patrol" 2100
-	add fleet "Large Crossguard Patrol" 1000
-system "Delta Sagittarii"
-	add fleet "Small Crossguard Patrol" 1100
-	add fleet "Large Crossguard Patrol" 2900
-system "Delta Velorum"
-	add fleet "Small Crossguard Patrol" 2800
-	add fleet "Large Crossguard Patrol" 900
-system Dschubba
-	add fleet "Small Crossguard Patrol" 2500
-	add fleet "Large Crossguard Patrol" 2000
-system Eber
-	add fleet "Small Crossguard Patrol" 1800
-	add fleet "Large Crossguard Patrol" 3800
-system Eltanin
-	add fleet "Small Crossguard Patrol" 1800
-	add fleet "Large Crossguard Patrol" 1000
-system Fala
-	add fleet "Small Crossguard Patrol" 2800
-	add fleet "Large Crossguard Patrol" 1500
-system Gacrux
-	add fleet "Small Crossguard Patrol" 2700
-	add fleet "Large Crossguard Patrol" 2600
-system "Gamma Corvi"
-	add fleet "Small Crossguard Patrol" 2700
-	add fleet "Large Crossguard Patrol" 900
-system Girtab
+	add fleet "Large Crossguard Patrol" 6300
+system "Beta Lupi"
 	add fleet "Small Crossguard Patrol" 2100
-	add fleet "Large Crossguard Patrol" 2500
-system Graffias
-	add fleet "Small Crossguard Patrol" 1300
-	add fleet "Large Crossguard Patrol" 2500
-system Hadar
-	add fleet "Small Crossguard Patrol" 1700
-	add fleet "Large Crossguard Patrol" 800
-system Han
-	add fleet "Small Crossguard Patrol" 3100
-	add fleet "Large Crossguard Patrol" 1400
-system Hintar
-	add fleet "Small Crossguard Patrol" 1400
-	add fleet "Large Crossguard Patrol" 1800
-system Holeb
-	add fleet "Small Crossguard Patrol" 2300
-	add fleet "Large Crossguard Patrol" 2400
-system Ildaria
-	add fleet "Small Crossguard Patrol" 2800
-	add fleet "Large Crossguard Patrol" 2000
-system Ipsing
-	add fleet "Small Crossguard Patrol" 3700
-	add fleet "Large Crossguard Patrol" 1000
-system Izar
-	add fleet "Small Crossguard Patrol" 3800
-	add fleet "Large Crossguard Patrol" 3400
-system "Kappa Centauri"
-	add fleet "Small Crossguard Patrol" 3000
-	add fleet "Large Crossguard Patrol" 3600
-system "Kaus Australis"
-	add fleet "Small Crossguard Patrol" 1500
-	add fleet "Large Crossguard Patrol" 2700
-system "Kaus Borealis"
-	add fleet "Small Crossguard Patrol" 800
-	add fleet "Large Crossguard Patrol" 2000
-system Kochab
-	add fleet "Small Crossguard Patrol" 3700
-	add fleet "Large Crossguard Patrol" 2200
-system Kornephoros
-	add fleet "Small Crossguard Patrol" 1400
-	add fleet "Large Crossguard Patrol" 2600
-system Kraz
-	add fleet "Small Crossguard Patrol" 900
-	add fleet "Large Crossguard Patrol" 3900
-system Lesath
-	add fleet "Small Crossguard Patrol" 2600
-	add fleet "Large Crossguard Patrol" 1300
-system Limen
-	add fleet "Small Crossguard Patrol" 1600
-	add fleet "Large Crossguard Patrol" 3200
-system Lolami
-	add fleet "Small Crossguard Patrol" 2000
-	add fleet "Large Crossguard Patrol" 1000
-system Lurata
-	add fleet "Small Crossguard Patrol" 3100
-	add fleet "Large Crossguard Patrol" 2000
-system Men
-	add fleet "Small Crossguard Patrol" 2200
-	add fleet "Large Crossguard Patrol" 2600
-system Menkent
-	add fleet "Small Crossguard Patrol" 1500
-	add fleet "Large Crossguard Patrol" 1700
-system Mimosa
-	add fleet "Small Crossguard Patrol" 1200
-	add fleet "Large Crossguard Patrol" 3700
-system Minkar
-	add fleet "Small Crossguard Patrol" 3500
-	add fleet "Large Crossguard Patrol" 2000
-system Mizar
+	add fleet "Large Crossguard Patrol" 6400
+system Boral
+	add fleet "Small Crossguard Patrol" 3900
+	add fleet "Large Crossguard Patrol" 5500
+system Cebalrai
 	add fleet "Small Crossguard Patrol" 2900
-	add fleet "Large Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 5800
+system "Cor Caroli"
+	add fleet "Small Crossguard Patrol" 2600
+	add fleet "Large Crossguard Patrol" 5600
+system Dabih
+	add fleet "Small Crossguard Patrol" 2500
+	add fleet "Large Crossguard Patrol" 6600
+system "Delta Sagittarii"
+	add fleet "Small Crossguard Patrol" 2100
+	add fleet "Large Crossguard Patrol" 6000
+system "Delta Velorum"
+	add fleet "Small Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 6400
+system Dschubba
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 6400
+system Eber
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 6700
+system Eltanin
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 5300
+system Fala
+	add fleet "Small Crossguard Patrol" 3700
+	add fleet "Large Crossguard Patrol" 6000
+system Gacrux
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 5900
+system "Gamma Corvi"
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 5000
+system Girtab
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 5700
+system Graffias
+	add fleet "Small Crossguard Patrol" 3400
+	add fleet "Large Crossguard Patrol" 5700
+system Hadar
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 6300
+system Han
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 5800
+system Hintar
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 5500
+system Holeb
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 6600
+system Ildaria
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 6000
+system Ipsing
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 6000
+system Izar
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 5800
+system "Kappa Centauri"
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 6500
+system "Kaus Australis"
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 5900
+system "Kaus Borealis"
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 6600
+system Kochab
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 6600
+system Kornephoros
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 5800
+system Kraz
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 5900
+system Lesath
+	add fleet "Small Crossguard Patrol" 3400
+	add fleet "Large Crossguard Patrol" 5200
+system Limen
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 6400
+system Lolami
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 5200
+system Lurata
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 5000
+system Men
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 6200
+system Menkent
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 6300
+system Mimosa
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 5700
+system Minkar
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 6400
+system Mizar
+	add fleet "Small Crossguard Patrol" 3900
+	add fleet "Large Crossguard Patrol" 6800
 system Mora
-	add fleet "Small Crossguard Patrol" 1200
-	add fleet "Large Crossguard Patrol" 3100
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 5900
 system Muhlifain
 	add fleet "Small Crossguard Patrol" 2000
-	add fleet "Large Crossguard Patrol" 3000
+	add fleet "Large Crossguard Patrol" 6000
 system Naper
-	add fleet "Small Crossguard Patrol" 3800
-	add fleet "Large Crossguard Patrol" 1400
-system Nunki
-	add fleet "Small Crossguard Patrol" 3100
-	add fleet "Large Crossguard Patrol" 3000
-system Orbona
-	add fleet "Small Crossguard Patrol" 2900
-	add fleet "Large Crossguard Patrol" 1100
-system Orvala
-	add fleet "Small Crossguard Patrol" 2500
-	add fleet "Large Crossguard Patrol" 3000
-system Peacock
-	add fleet "Small Crossguard Patrol" 3300
-	add fleet "Large Crossguard Patrol" 2200
-system Phecda
-	add fleet "Small Crossguard Patrol" 2600
-	add fleet "Large Crossguard Patrol" 1800
-system Pherkad
-	add fleet "Small Crossguard Patrol" 2800
-	add fleet "Large Crossguard Patrol" 3000
-system Rasalhague
-	add fleet "Small Crossguard Patrol" 3300
-	add fleet "Large Crossguard Patrol" 2000
-system Rastaban
-	add fleet "Small Crossguard Patrol" 3800
-	add fleet "Large Crossguard Patrol" 1800
-system Rutilicus
-	add fleet "Small Crossguard Patrol" 2700
-	add fleet "Large Crossguard Patrol" 2500
-system Sabik
-	add fleet "Small Crossguard Patrol" 2000
-	add fleet "Large Crossguard Patrol" 800
-system Sadalmelik
-	add fleet "Small Crossguard Patrol" 1400
-	add fleet "Large Crossguard Patrol" 1000
-system Sadalsuud
-	add fleet "Small Crossguard Patrol" 3900
-	add fleet "Large Crossguard Patrol" 3900
-system Sadr
-	add fleet "Small Crossguard Patrol" 3000
-	add fleet "Large Crossguard Patrol" 2800
-system Sargas
-	add fleet "Small Crossguard Patrol" 1700
-	add fleet "Large Crossguard Patrol" 2000
-system Sarin
-	add fleet "Small Crossguard Patrol" 3100
-	add fleet "Large Crossguard Patrol" 2300
-system Seginus
 	add fleet "Small Crossguard Patrol" 3200
-	add fleet "Large Crossguard Patrol" 900
-system Shaula
-	add fleet "Small Crossguard Patrol" 2400
-	add fleet "Large Crossguard Patrol" 1100
-system Spica
-	add fleet "Small Crossguard Patrol" 3600
-	add fleet "Large Crossguard Patrol" 2100
-system Tais
-	add fleet "Small Crossguard Patrol" 2200
-	add fleet "Large Crossguard Patrol" 1900
-system "Tania Australis"
-	add fleet "Small Crossguard Patrol" 3800
-	add fleet "Large Crossguard Patrol" 2500
-system Tarazed
+	add fleet "Large Crossguard Patrol" 5200
+system Nunki
+	add fleet "Small Crossguard Patrol" 3200
+	add fleet "Large Crossguard Patrol" 5600
+system Orbona
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 6800
+system Orvala
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 5700
+system Peacock
+	add fleet "Small Crossguard Patrol" 3900
+	add fleet "Large Crossguard Patrol" 6400
+system Phecda
 	add fleet "Small Crossguard Patrol" 2800
-	add fleet "Large Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 6400
+system Pherkad
+	add fleet "Small Crossguard Patrol" 2600
+	add fleet "Large Crossguard Patrol" 6200
+system Rasalhague
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 6100
+system Rastaban
+	add fleet "Small Crossguard Patrol" 2300
+	add fleet "Large Crossguard Patrol" 5400
+system Rutilicus
+	add fleet "Small Crossguard Patrol" 2500
+	add fleet "Large Crossguard Patrol" 5300
+system Sabik
+	add fleet "Small Crossguard Patrol" 3900
+	add fleet "Large Crossguard Patrol" 6500
+system Sadalmelik
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 5100
+system Sadalsuud
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 6800
+system Sadr
+	add fleet "Small Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 6000
+system Sargas
+	add fleet "Small Crossguard Patrol" 2500
+	add fleet "Large Crossguard Patrol" 6300
+system Sarin
+	add fleet "Small Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 5200
+system Seginus
+	add fleet "Small Crossguard Patrol" 2900
+	add fleet "Large Crossguard Patrol" 5300
+system Shaula
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 6300
+system Spica
+	add fleet "Small Crossguard Patrol" 2200
+	add fleet "Large Crossguard Patrol" 5000
+system Tais
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 5400
+system "Tania Australis"
+	add fleet "Small Crossguard Patrol" 3500
+	add fleet "Large Crossguard Patrol" 6000
+system Tarazed
+	add fleet "Small Crossguard Patrol" 2400
+	add fleet "Large Crossguard Patrol" 6500
 system Terminus
-	add fleet "Small Crossguard Patrol" 3000
-	add fleet "Large Crossguard Patrol" 2000
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 5600
 system Turais
 	add fleet "Small Crossguard Patrol" 3100
-	add fleet "Large Crossguard Patrol" 2700
+	add fleet "Large Crossguard Patrol" 6100
 system Umbral
-	add fleet "Small Crossguard Patrol" 1900
-	add fleet "Large Crossguard Patrol" 3500
+	add fleet "Small Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 6100
 system Unukalhai
-	add fleet "Small Crossguard Patrol" 2700
-	add fleet "Large Crossguard Patrol" 2400
+	add fleet "Small Crossguard Patrol" 3600
+	add fleet "Large Crossguard Patrol" 5300
 system Vindemiatrix
-	add fleet "Small Crossguard Patrol" 1900
-	add fleet "Large Crossguard Patrol" 2300
+	add fleet "Small Crossguard Patrol" 2000
+	add fleet "Large Crossguard Patrol" 5100
 system Wei
-	add fleet "Small Crossguard Patrol" 3000
-	add fleet "Large Crossguard Patrol" 3300
+	add fleet "Small Crossguard Patrol" 3800
+	add fleet "Large Crossguard Patrol" 5800
 system "Yed Prior"
 	add fleet "Small Crossguard Patrol" 2900
-	add fleet "Large Crossguard Patrol" 3100
+	add fleet "Large Crossguard Patrol" 5800
 system "Zeta Aquilae"
-	add fleet "Small Crossguard Patrol" 1200
-	add fleet "Large Crossguard Patrol" 3800
-system "Zeta Centauri"
-	add fleet "Small Crossguard Patrol" 2400
-	add fleet "Large Crossguard Patrol" 2700
-system Zubenelgenubi
 	add fleet "Small Crossguard Patrol" 2900
-	add fleet "Large Crossguard Patrol" 3300
+	add fleet "Large Crossguard Patrol" 5400
+system "Zeta Centauri"
+	add fleet "Small Crossguard Patrol" 2800
+	add fleet "Large Crossguard Patrol" 5600
+system Zubenelgenubi
+	add fleet "Small Crossguard Patrol" 2600
+	add fleet "Large Crossguard Patrol" 6700
 
 #===============================Black Death
 

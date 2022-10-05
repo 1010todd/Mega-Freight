@@ -505,12 +505,12 @@ fleet "Large Crossguard Patrol"
 		confusion 20
 		heroic disables
 	variant 8
-		"Aplomado"
+		"Eleonorae"
 		"Osprey"
 	variant 8
-		"Aplomado"
+		"Eleonorae"
 		"Osprey (Heavy)"
-	variant 12
+	variant 15
 		"Falcon"
 		"Raven" 2
 	variant 10
@@ -522,8 +522,12 @@ fleet "Large Crossguard Patrol"
 	variant 4
 		"Marauder Firebird"
 		"Falcon (Heavy)"
-	variant 5
+	variant 4
 		"Aplomado"
+		"CSE-6 Steward"
+		"Lance" 6
+	variant 5
+		"Eleonorae"
 		"CSE-6 Steward"
 		"Lance" 6
 	variant 2
@@ -535,6 +539,9 @@ fleet "Large Crossguard Patrol"
 		"CS-24 Garrison"
 		"Lance" 10
 		"AGT-31 Xencar" 8
+	variant 4
+		"Eleonorae"
+		"Aplomado"
 	
 fleet "Small Black Death Fleet"
 	government "MGF: Black Death"
@@ -651,6 +658,15 @@ fleet "Small Ugyr Harasser"
 		"Star Barge (Bare, Q-Bomb)"
 #===============================FW
 		
+fleet "Large Militia"
+	add variant 1
+		"Eleonorae"
+		"Bastion"
+	add variant 1
+		"Eleonorae"
+		"Hawk" 2
+		"Sparrow" 3
+		
 fleet "Small Free Worlds"
 	add variant 4
 		"CY-10 (Fighter)"
@@ -749,6 +765,30 @@ fleet "Large Free Worlds"
 		"CSE-6 Steward" #6
 		"Finch" 3
 		"AGT-31 Xencar" 3
+		
+	add variant 5
+		"Eleonorae"
+		"Falcon (Heavy)"
+	add variant 1
+		"Eleonorae"
+		"CSE-6 Steward" #6
+		"Finch" 6
+	add variant 2
+		"Eleonorae"
+		"CS-24 Garrison"
+		"Finch" 18
+	add variant 1
+		"Eleonorae"
+		"Falcon (Heavy)"
+		"CS-24 Garrison"
+		"Finch" 18
+	add variant 2
+		"Eleonorae" 2
+	add variant 3
+		"Eleonorae"
+		"Osprey (Missile)"
+		"CSE-6 Steward" #6
+		"Finch" 6
 		
 #=============================SYNDICATES
 fleet "Large Syndicate"

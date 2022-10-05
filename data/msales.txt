@@ -45,6 +45,7 @@ shipyard developer
 	"TS-CH0 Kratzbal"
 	"Star Barge (Bare, Q-Bomb)"
 	"Claymore Class"
+	"Eleonorae"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -123,6 +124,7 @@ shipyard "Southbound Advanced"
 	"TS-CH0 Kratzbal"
 	"FF-30 Volant"
 	"PF-80 Intrepid"
+	"Eleonorae"
 
 shipyard "Betelgeuse Basic"
 	"QYG-30 Qazan"
@@ -156,6 +158,7 @@ shipyard "Tarazed Advanced"
 	"AGT-31 Xencar"
 	"FF-30 Volant"
 	"PF-80 Intrepid"
+	"Eleonorae"
 	
 shipyard "Advanced Northern Pirates"
 	"CSE-6 Steward"

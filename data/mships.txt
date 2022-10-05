@@ -440,7 +440,70 @@ ship "Aplomado"
 	explode "large explosion" 40
 	"final explode" "final explosion large"
 	description "Started from some veteran pirates modifying their Falcon to suit their need of long range durable cargo ship which eventually results in the Aplomado. Very little of the Falcon it was based on is left as the ship was upgraded and redesigned over the years, with other pirate captain showing interest and present enough money the Aplomado eventually becomes mass produced."
-	
+
+ship "Eleonorae"
+	sprite "ship/mgf eleonorae"
+	thumbnail "thumbnail/mgf eleonorae thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 27880000
+		"shields" 15500
+		"hull" 5300
+		"required crew" 55
+		"bunks" 70
+		"mass" 585
+		"drag" 6.5
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 10
+		"outfit space" 718
+		"weapon capacity" 342
+		"engine capacity" 225
+		"tactical scan power" 35
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Plasma Cannon" 4
+		"Quad Blaster Turret" 6
+		"Heavy Anti-Missile Turret"
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 60
+		"Brig"
+		
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+		
+	gun -17 -115 "Plasma Cannon"
+	gun 17 -115 "Plasma Cannon"
+	gun -45.5 -27.5 "Plasma Cannon"
+	gun 45.5 -27.5 "Plasma Cannon"
+	turret -19.5 -31 
+	turret 19.5 -31 
+	turret 0 44 "Heavy Anti-Missile Turret"
+	turret -46 46 
+	turret 46 46 
+	turret -49 80.5 
+	turret 49 80.5 
+	engine -20 156 
+	engine 20 156 
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description "Originally heavily modified Tarazed Falcon by commissioned by some member of the Crossguard Patrol group to be used as long-range fast cruiser with built-in advanced sensors to fight pirates and catch smugglers. Now it's a complete redesign with some outline resemblance to the Tarazed Falcon. Unlike the expertly modified Marauder ships or Aplomado hastily built by pirates, the Eleonorae was optimized and constructed with some of the best tech in Human space, it was rumoured that some component is actually derived from confidential military-grade technology. This made it potentially the of the most advanced warship civilian could get their hand on."
 
 ship "Battle Bulk"
 	sprite "ship/mgf battlebulk"

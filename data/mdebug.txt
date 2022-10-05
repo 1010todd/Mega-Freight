@@ -754,7 +754,6 @@ mission "MGF: Add ships to fleets (Syndicate HW Update)"
 	invisible
 	deadline 1
 	to offer
-		never
 		has "mgf event spawn"
 	on offer
 		event "MGF: Add ships to fleets (Syndicate HW Update)" #WIP
@@ -767,3 +766,10 @@ event "MGF: Add ships to fleets (Syndicate HW Update)" #WIP
 			"Barb (Proton)" 24
 			"CS-24 Garrison" #18
 			"Lance" 18
+			
+	fleet "Large Syndicate"
+		add variant 1
+			"AP-22 Fusillade"
+			"Vanguard" 2
+			"Protector" 2
+			"Quicksilver (Proton)" 4
