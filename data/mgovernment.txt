@@ -209,3 +209,34 @@ government "MGF: Jack's Gang"
 	fine 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+	
+# For test run of newly developed ship
+government "MGF: Republic (Test Run)"
+	"display name" "Republic"
+	swizzle 0
+	color .91 .42 .09
+	"crew attack" 1.8
+	"crew defense" 2.8
+	
+	"player reputation" 2
+	"attitude toward"
+		"Alpha" -.3
+		"Merchant" .25
+		"Militia" .1
+		"Pirate" -.3
+		"Republic" 1
+		"Navy Intelligence" 1
+		"Navy (Oathkeeper)" 1
+		"Neutral" .1
+		"MGF: NPC Target" -.01
+	"hostile hail" "hostile navy"
+	
+government "MGF: NPC Target"
+	"display name" "Test Dummy"
+	swizzle 5
+	color .51 .52 .59
+	"attitude toward"
+		"MGF: Republic (Test Run)" -.01
+	"hostile hail" "test dummy"
+	"hostile disabled hail" "disabled test dummy"
+	

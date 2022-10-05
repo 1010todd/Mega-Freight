@@ -95,6 +95,7 @@ outfit "Mixture-DX Corrosive Thrower"
 		"reload" 1
 		"firing energy" .7
 		"firing heat" 1.1
+	description	`Special weapon that fires sticky, corrosive liquid that melts away enemy hull, developed and used by the Black Death pirate group. It also disrupts engine functionality.`
 
 outfit "Mixture-DX Shots"
 	weapon
@@ -132,6 +133,33 @@ outfit "MRF-SS Scrambler"
 		"ion damage" 10
 		"disruption damage" 10
 		"firing ion" 1
+		
+outfit "KC-344 Chainsaw"
+	category "Guns"
+	cost 24000
+	thumbnail "outfit/mgf chainsaw"
+	"mass" 8
+	"outfit space" -8
+	"weapon space" -4
+	"gun ports" -1
+	weapon
+		sound "mgf chainsaw"
+		"hit effect" "smoke"
+		"hit effect" "nano spark"
+		"hardpoint sprite" "hardpoint/mgf chainsaw hp"
+		"hardpoint offset" 2.
+		"velocity" 2
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .4
+		"firing heat" .8
+		"shield damage" 1
+		"hull damage" 4.5
+		"mineable damage" 6.2
+		"hit force" -5
+		"firing force" -1
+	description `One of Edward's side project when he came across some interesting pieces of scrap. The chainsaw can deal large amount of damage to unshielded ships but requires the user to be within melee range of enemy craft.`
+	description `Instead, many captains find this to be more useful as mining tool.`
 		
 outfit "Atesac Plasma Cannon"
 	category "Guns"
@@ -226,7 +254,7 @@ outfit "M6-ACS Artillery"
 		"hit effect" "large explosion"
 		"inaccuracy" .8
 		"velocity" 20
-		"lifetime" 80
+		"lifetime" 90
 		"reload" 60
 		"firing energy" 30
 		"firing heat" 180
@@ -254,7 +282,7 @@ outfit "M6-ACS Artillery Turret"
 		"inaccuracy" 2
 		"turret turn" .8
 		"velocity" 20
-		"lifetime" 80
+		"lifetime" 90
 		"reload" 60
 		"burst count" 2
 		"burst reload" 10
@@ -264,6 +292,77 @@ outfit "M6-ACS Artillery Turret"
 		"shield damage" 1850
 		"hull damage" 886
 	description "Long range anti-capital artillery turret."
+	
+outfit "V47 Plasma-Railgun"
+	category "Guns"
+	cost 1960000
+	license
+		"Navy"
+	thumbnail "outfit/railplasma v47"
+	"mass" 116
+	"outfit space" -116
+	"weapon capacity" -116
+	"gun ports" -1
+	"required crew" 1
+	weapon
+		#sprite "projectile/railplasma v47 proj"
+		sound "v47 railplasma"
+		"hit effect" "v85 railgun hit"
+		"fire effect" "v85 railgun fire"
+		"live effect" "v47 railplasma trail" 500
+		"inaccuracy" .16
+		"velocity" 65
+		"lifetime" 25
+		"reload" 60
+		"burst count" 2
+		"burst reload" 5
+		"firing energy" 1682
+		"firing heat" 1255
+		"hit force" 100
+		"shield damage" 1684
+		"hull damage" 486
+	description "Large anti-shield turret that can fire projectiles at high velocity consuming enormous amount of power."
+	
+outfit "V47 Plasma-Railgun Turret"
+	category "Turrets"
+	cost 1960000
+	license
+		"Navy"
+	thumbnail "outfit/railplasma v47 turret"
+	"mass" 211
+	"outfit space" -211
+	"weapon capacity" -211
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		#sprite "projectile/railplasma v47 proj"
+		"hardpoint sprite" "hardpoint/railplasma v47 turret hp"
+		"hardpoint offset" 10.
+		sound "v47 railplasma"
+		"hit effect" "v85 railgun hit"
+		"fire effect" "v85 railgun fire"
+		"live effect" "v47 railplasma trail" 500
+		"inaccuracy" .2
+		"turret turn" 1.
+		"velocity" 65
+		"lifetime" 25
+		"reload" 60
+		"burst count" 2
+		"burst reload" 5
+		"firing energy" 1682
+		"firing heat" 1255
+		"hit force" 100
+		"shield damage" 1684
+		"hull damage" 486
+	description "Large anti-shield turret that can fire projectiles at high velocity consuming enormous amount of power."
+	
+effect "v47 railplasma trail"
+	sprite "effect/railplasma v47 trail"
+		"frame rate" 12
+		"no repeat"
+	lifetime 20
+	#"absolute velocity" 64
+	"velocity scale" .9
 	
 effect "v85 railgun fire"
 	sprite "effect/railgun v85 fire"
@@ -278,6 +377,8 @@ effect "v85 railgun hit"
 outfit "V85 Railgun"
 	category "Guns"
 	cost 1120000
+	license
+		"Navy"
 	thumbnail "outfit/railgun v85"
 	"mass" 99
 	"outfit space" -99
@@ -304,6 +405,8 @@ outfit "V85 Railgun"
 outfit "V85 Railgun Turret"
 	category "Turrets"
 	cost 1820000
+	license
+		"Navy"
 	thumbnail "outfit/railgun v85 turret"
 	"mass" 155
 	"outfit space" -155
@@ -412,6 +515,8 @@ effect "exp314 railcannon hit3b sl"
 outfit "ExP314 Railcannon"
 	category "Guns"
 	cost 188900000
+	license
+		"Navy"
 	thumbnail "outfit/railgun v85"
 	"mass" 1886
 	"outfit space" -1886
@@ -458,6 +563,8 @@ effect "emx55 flak"
 outfit "EMX-55 Flakcannon"
 	category "Guns"
 	cost 320000
+	license
+		Navy
 	thumbnail "outfit/emx55 flak"
 	"mass" 34
 	"outfit space" -34
@@ -488,6 +595,8 @@ outfit "EMX-55 Flakcannon"
 outfit "EMX-55 Flakcannon Turret"
 	category "Turrets"
 	cost 820000
+	license
+		Navy
 	thumbnail "outfit/emx55 flak turret"
 	"mass" 76
 	"outfit space" -76
@@ -497,7 +606,7 @@ outfit "EMX-55 Flakcannon Turret"
 		sprite "projectile/emx55 proj"
 		sound "pulse"
 		"hardpoint sprite" "hardpoint/emx55 hardpoint"
-		"hardpoint offset" 10.
+		"hardpoint offset" 2.
 		"hit effect" "emx55 flak"
 		"die effect" "emx55 flak"
 		"fire effect" "v85 railgun fire"
@@ -517,6 +626,50 @@ outfit "EMX-55 Flakcannon Turret"
 		"trigger radius" 30
 		"safe"
 	description "Anti-swarm flakcannon"
+	
+effect "emx84 flak"
+	sprite "effect/mgf pulseflak"
+		"no repeat"
+		"frame rate" 10
+	lifetime 12
+	"random lifetime" 1
+	"velocity scale" 0
+	"random angle" 360
+	
+outfit "EMX-84 Pulse-Flak Turret"
+	category "Turrets"
+	cost 2120000
+	license
+		Navy
+	thumbnail "outfit/emx55 flak turret"
+	"mass" 89
+	"outfit space" -89
+	"weapon capacity" -89
+	"turret mounts" -1
+	weapon
+		sprite "projectile/emx55 proj"
+		sound "pulse"
+		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint offset" 5.
+		"hit effect" "emx84 flak"
+		"die effect" "emx84 flak"
+		"fire effect" "v85 railgun fire"
+		"inaccuracy" 6
+		"velocity" 26
+		"random velocity" 5
+		"turret turn" 3.2
+		"lifetime" 40
+		"reload" 22
+		"firing energy" 212
+		"firing heat" 140
+		"hit force" 60
+		"shield damage" 955
+		"hull damage" 121
+		"ion damage" .14
+		"blast radius" 75
+		"trigger radius" 40
+		"safe"
+	description "Experimental pulse flak turret that deals very high shield and ion damage but weak against hull."
 	
 outfit "EL-1388 Aphelion Turret"
 	category "Turrets"
@@ -595,7 +748,43 @@ outfit "CMX-12 Anti-Missile"
 		"firing energy" 15.1
 		"firing heat" 10.2
 		"anti-missile" 15
-	description "Anti-swarm flakcannon"
+	description "Experimental burst Anti-missile"
+	
+outfit "CMX-63 Kavacha Anti-Missile"
+	category "Turrets"
+	cost 590000
+	thumbnail "outfit/mgf kavacha antimissile"
+	"mass" 82
+	"outfit space" -82
+	"weapon capacity" -82
+	"turret mounts" -1
+	weapon
+		#sprite "projectile/emx55 proj"
+		sound "mgf kavacha fire"
+		"hardpoint sprite" "hardpoint/mgf kavacha antimissile hp"
+		"hardpoint offset" 10.
+		#"hit effect" "emx55 flak"
+		"die effect" "mgf kavacha hit"
+		"fire effect" "v85 railgun fire"
+		"velocity" 650
+		"turret turn" 5.5
+		"lifetime" 1
+		"reload" 45
+		"burst count" 2
+		"burst reload" 3
+		"firing energy" 187.2
+		"firing heat" 199.8
+		"anti-missile" 120
+	description "Powerful experimental heavy anti-missile"
+	
+effect "mgf kavacha hit"
+	sprite "effect/kavacha hit"
+		"no repeat"
+		"frame rate" 30
+	lifetime 8
+	"random lifetime" 1
+	"velocity scale" 0
+	"random angle" 5
 	
 outfit "4C-1 Detonator"
 	category "Guns"
@@ -717,6 +906,8 @@ outfit "Mjolnir Missile"
 outfit "Mjolnir Launcher"
 	category "Secondary Weapons"
 	cost 800000
+	licenses #Temporary.
+		"Syndicate Platinum License"
 	thumbnail "outfit/spearfish vls"
 	"mass" 2
 	"outfit space" -8
@@ -753,6 +944,7 @@ outfit "Mjolnir Launcher"
 		"hull damage" 956
 		"hit force" 125
 		"missile strength" 23
+	description "A smart missile that can dodge obstacles and untargeted ships to ensure it hit the correct target."
 		
 outfit "Spearfish Missile"
 	category "Ammunition"
@@ -792,7 +984,7 @@ outfit "Spearfish VLS Array"
 		sprite "projectile/spearfish proj"
 			"no repeat"
 			"frame rate" 6
-		sound "nuke"
+		sound "sidewinder"
 		ammo "Spearfish Missile"
 		stream
 		icon "icon/spearfish"
@@ -836,7 +1028,7 @@ outfit "Spearfish Launcher Array"
 		sprite "projectile/spearfish proj"
 			"no repeat"
 			"frame rate" 6
-		sound "nuke"
+		sound "sidewinder"
 		ammo "Spearfish Missile"
 		stream
 		icon "icon/spearfish"
@@ -864,6 +1056,73 @@ outfit "Spearfish Launcher Array"
 		"hit force" 520
 		"missile strength" 12
 	description "Powerful anti-ship missile"
+	
+outfit "AH-5 Eteron Torpedo"
+	category "Ammunition"
+	cost 88000
+	licenses
+		"Navy"
+	thumbnail "outfit/mgf eteron torp"
+	"mass" .8
+	"ah5 eteron capacity" -1
+	description "Anti-Heavy Guided Torpedo with very limited maneuvrability but capable of dodging obstacles."
+	
+effect "ah5 eteron flare"
+	sprite "effect/eteron flare"
+		"frame rate" 6
+		"no repeat"
+	"lifetime" 6
+	"velocity scale" .3
+	
+effect "ah5 eteron trail"
+	sprite "effect/eteron trail"
+		"frame rate" 6
+		"no repeat"
+	"lifetime" 20
+	"velocity scale" .8
+	
+outfit "AH-5 Eteron Launch System"
+	category "Secondary Weapons"
+	cost 885000
+	licenses
+		"Navy"
+	thumbnail "outfit/mgf eteron torp launcher"
+	"mass" 4
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"ah5 eteron capacity" 10
+	weapon
+		sprite "projectile/mgf eteron torp proj"
+			"no repeat"
+			"frame rate" 6
+		sound "mgf eteron launch"
+		ammo "AH-5 Eteron Torpedo"
+		stream
+		icon "icon/spearfish"
+		"live effect" "ah5 eteron flare" 500
+		"live effect" "ah5 eteron trail" 500
+		"fire effect" "smoke"
+		"hit effect" "huge explosion"
+		"inaccuracy" 1
+		"velocity" 1.5
+		"lifetime" 900
+		"reload" 120
+		"firing energy" 10
+		"firing heat" 56
+		"acceleration" 1.2
+		"drag" .01
+		"turn" 2
+		"homing" 4
+		"radar tracking" .9
+		"optical tracking" .8
+		"blast radius" 20
+		"shield damage" 7680
+		"hull damage" 7880
+		"hit force" 820
+		"missile strength" 42
+		"phasing"
+	description "Powerful anti-ship missile with very limited maneuvrability but can guide itself around obstacles."
 	
 outfit "QB-10 Box Missile"
 	category "Secondary Weapons"

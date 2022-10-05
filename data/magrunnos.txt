@@ -5704,7 +5704,7 @@ outfit "Type-CCX Hyperdrive"
 	thumbnail "outfit/unknown"
 	"mass" 2.5e+6
 	"outfit space" -2e+6
-	"jump speed" .8
+	"jump speed" 1.2
 	"jump fuel" 1000
 	"hyperdrive" 1
 	"jump drive" 1
@@ -5781,7 +5781,7 @@ outfit "HeVian-9 Engine"
 	"mass" 212e+7
 	"outfit space" -212e+7
 	"engine capacity" -212e+7
-	"thrust" 253.4e+7
+	"thrust" 353.4e+7
 	"thrusting energy" 15.8e+5
 	"thrusting heat" 42.6e+5
 	"flare sprite" "effect/korath flare/huge"

@@ -151,6 +151,16 @@ ship "Sparrow" "Sparrow (Espion)"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering"
 		"Hyperdrive"
+		
+ship "Sparrow" "Sparrow (Chainsaw)"
+	outfits
+		"KC-344 Chainsaw" 2
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Hyperdrive"
 
 ship "Sparrow" "Sparrow (Kamikaze)"
 	outfits

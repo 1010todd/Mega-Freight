@@ -65,6 +65,8 @@ mission `MGF: Pickup Alcazar`
 			`	You arrived at the <origin> to pick up your SC-1 Alcazar battlestation which awaits for you at low orbit.`
 		give ship "SC-1 Alcazar" "N-005"
 		
+#============CANAVERAL NAVAL YARD
+		
 mission `MGF: Canaveral Naval Yard Trigger`
 	invisible
 	landing
@@ -227,6 +229,7 @@ mission "MGF: Lucerne Deployment"
 event "mgf: Lucerne Deployment" 
 	planet "Canaveral Naval Yard"
 		add shipyard "Navy Advanced EX"
+		add outfitter "Navy Advanced EX"
 	fleet "Large Republic"
 		add variant 2
 			"Spetum Class (Mark II)"
@@ -262,6 +265,112 @@ event "mgf: Lucerne Deployment"
 			"Rainmaker (Mark II)" 8
 			"Gunboat (Mark II)" 12
 		
+mission "MGF: CNY Outfitter patch"
+		
+mission "MGF: Claymore development begin"
+	invisible
+	landing
+	to offer
+		or
+			has "Wanderers: Sestor: Farpoint Attack 2: done"
+			has "Wanderers: Sestor: Bomb Zenith 1: done"
+	on offer
+		event "mgf: developed Claymore" 720
+		event "mgf: Claymore Deployment" 840
+
+event "mgf: developed Claymore"
+
+mission "MGF: Claymore test run"
+	invisible
+	landing
+	deadline 14
+	to offer
+		has "event: mgf: developed Claymore"
+	
+	npc 
+		government "MGF: Republic (Test Run)"
+		personality staying heroic disables
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Claymore Class"
+				
+	npc
+		government "MGF: NPC Target"
+		personality staying heroic disables
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Falcon" 8
+				"Leviathan" 8
+				"Culverin Class" 4
+				
+	
+				
+event "mgf: Claymore Deployment"
+	shipyard "Navy Advanced EX"
+		add "Claymore Class"
+	outfitter "Navy Advanced EX"
+		add "AH-5 Eteron Launch System"
+		add "AH-5 Eteron Torpedo"
+		add "V47 Plasma-Railgun"
+		add "V47 Plasma-Railgun Turret"
+	outfitter "Navy Advanced"
+		add "AH-5 Eteron Torpedo"
+	fleet "Large Republic"
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 80
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Frigate (Mark II)" 6
+			"Rainmaker (Mark II)" 4
+			"Gunboat (Mark II)" 2
+			"Culverin Class (Mark II)"
+			"Lance" 2
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 80
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Spetum Class (Mark II)" 2
+			"Lance" 160
+			"Combat Drone" 48
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Claymore Class"
+			"Lucerne Class"
+			"Lance" 216
+			"Combat Drone" 64
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			"Frigate (Mark II)" 12
+			"Rainmaker (Mark II)" 8
+			"Gunboat (Mark II)" 12
+		add variant 1
+			"Claymore Class"
+			"Spetum Class (Mark II)"
+			"Lance" 80
+			"Combat Drone" 24
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+			"Rainmaker (Mark II)" 8
+			"Gunboat (Mark II)" 6
+			
 mission "MGF: Espion co. job ad"
 	job
 	name "Asteroid Miner Wanted"

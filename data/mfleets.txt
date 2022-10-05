@@ -393,6 +393,9 @@ fleet "Human Miners"
 		"Barb (Proton)" 2
 		"Boxwing" 2
 		
+	add variant 1
+		"Sparrow (Chainsaw)"
+		
 fleet "Intrasystem Merchants"
 	government "Merchant"
 	names "civilian"
@@ -418,8 +421,10 @@ fleet "Small Espion Miners"
 		"Sparrow"
 	variant 8
 		"Sparrow (Espion)"
-	add variant 5
+	variant 5
 		"CF-50 Cart"
+	variant 4
+		"Sparrow (Chainsaw)"
 		
 fleet "Large Espion Miners"
 	government "MGF: Espion Mining Co."

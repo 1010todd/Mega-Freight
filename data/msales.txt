@@ -44,6 +44,7 @@ shipyard developer
 	"TS-650 Herrenbal"
 	"TS-CH0 Kratzbal"
 	"Star Barge (Bare, Q-Bomb)"
+	"Claymore Class"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -65,6 +66,10 @@ outfitter developer
 	"Mixture-DX Corrosive Thrower"
 	"EL-1388 Aphelion Turret"
 	"E-XE10 Ion Maneuver Engine"
+	"V47 Plasma-Railgun Turret"
+	"AH-5 Eteron Launch System"
+	"AH-5 Eteron Torpedo"
+	"KC-344 Chainsaw"
 	
 shipyard "Basic Ships"
 	"CF-50 Cart"
@@ -100,6 +105,7 @@ shipyard "Southbound Basic"
 	"CY-10 (Drone)"
 	"AGT-31 Xencar"
 	"AFFR-3 Fylla"
+	"FF-30 Volant"
 
 shipyard "Southbound Advanced"
 	"CH-6 Carrack"
@@ -115,6 +121,8 @@ shipyard "Southbound Advanced"
 	"RF-03 Gerlache"
 	"TS-650 Herrenbal"
 	"TS-CH0 Kratzbal"
+	"FF-30 Volant"
+	"PF-80 Intrepid"
 
 shipyard "Betelgeuse Basic"
 	"QYG-30 Qazan"
@@ -146,6 +154,8 @@ shipyard "Tarazed Advanced"
 	"LCC-3 Sierra"
 	"Nasprite"
 	"AGT-31 Xencar"
+	"FF-30 Volant"
+	"PF-80 Intrepid"
 	
 shipyard "Advanced Northern Pirates"
 	"CSE-6 Steward"
@@ -237,6 +247,10 @@ outfitter "Navy Basic"
 	
 outfitter "Navy Advanced EX"
 	"Spearfish Missile"
+	"V85 Railgun"
+	"V85 Railgun Turret"
+	"EMX-55 Flakcannon"
+	"EMX-55 Flakcannon Turret"
 	
 outfitter "Ammo South"
 	"Swordfish Missile"
@@ -250,7 +264,11 @@ outfitter "Common Outfits"
 	"Swordfish Missile Rack"
 	"Swordfish Missile"
 	
+outfitter "Kraz Basic"
+	"KC-344 Chainsaw"
+	
 outfitter "Kraz Advanced"
+	"KC-344 Chainsaw"
 	"Atesac Plasma Cannon"
 	
 outfitter "Syndicate Basic"
