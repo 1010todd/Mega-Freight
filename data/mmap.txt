@@ -387,261 +387,260 @@ system Zubenelgenubi
 #===============================Black Death
 
 system Acrux
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 16600
 system Albaldah
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 16300
 system Albireo
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 16900
 system Aldhibain
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 11900
 system Algorel
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 16400
 system Alioth
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 10600
 system Alkaid
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 10200
 system Alnasl
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 11800
 system Alniyat
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 14800
 system "Alpha Arae"
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 16100
 system Alphecca
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 13700
 system Antares
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 11100
 system Arcturus
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 16000
 system Ascella
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 15800
 system Atria
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 13200
 system "Beta Lupi"
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 12400
 system Boral
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 12000
 system Cebalrai
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 12600
 system "Cor Caroli"
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 18800
 system Dabih
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 10200
 system "Delta Sagittarii"
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 14000
 system "Delta Velorum"
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 19800
 system Dschubba
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 14800
 system Eber
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18000
 system Eltanin
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 19400
 system Fala
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 13000
 system Gacrux
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 10100
 system "Gamma Corvi"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 18300
 system Girtab
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18700
 system Graffias
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 16000
 system Hadar
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 17000
 system Han
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 16900
 system Hintar
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 17800
 system Holeb
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 11400
 system Ildaria
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 13800
 system Ipsing
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 13800
 system Izar
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 12100
 system "Kappa Centauri"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 14700
 system "Kaus Australis"
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 12100
 system "Kaus Borealis"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 16200
 system Kochab
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 17600
 system Kornephoros
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 13000
 system Kraz
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 10300
 system Lesath
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 10900
 system Limen
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 10300
 system Lolami
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 10500
 system Lurata
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 14900
 system Men
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18300
 system Menkent
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18900
 system Mimosa
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 19600
 system Minkar
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 13400
 system Mizar
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 18500
 system Mora
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 13600
 system Muhlifain
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 19700
 system Naper
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 15700
 system Nunki
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 11600
 system Orbona
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18700
 system Orvala
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 17600
 system Peacock
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 14500
 system Phecda
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 17100
 system Pherkad
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 12500
 system Rasalhague
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 19000
 system Rastaban
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 16800
 system Rutilicus
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 14800
 system Sabik
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 10000
 system Sadalmelik
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 14400
 system Sadalsuud
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 19300
 system Sadr
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 18500
 system Sargas
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 10300
 system Sarin
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 18400
 system Seginus
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 19700
 system Shaula
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 14300
 system Spica
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 16300
 system Tais
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 13800
 system "Tania Australis"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 14200
 system Tarazed
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 13500
 system Terminus
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 13000
 system Turais
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 14700
 system Umbral
-	add fleet "Small Black Death Fleet" 7000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7700
+	add fleet "Large Black Death" 13200
 system Unukalhai
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 18500
 system Vindemiatrix
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 6000
+	add fleet "Small Black Death" 7500
+	add fleet "Large Black Death" 12000
 system Wei
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 5000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 10100
 system "Yed Prior"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 14700
 system "Zeta Aquilae"
-	add fleet "Small Black Death Fleet" 6000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7600
+	add fleet "Large Black Death" 10100
 system "Zeta Centauri"
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
+	add fleet "Small Black Death" 7900
+	add fleet "Large Black Death" 19100
 system Zubenelgenubi
-	add fleet "Small Black Death Fleet" 5000
-	add fleet "Large Black Death Fleet" 7000
-	
+	add fleet "Small Black Death" 7800
+	add fleet "Large Black Death" 18700
