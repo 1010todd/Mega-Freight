@@ -27,6 +27,21 @@ outfit "Bagger Excavator"
 		"minable damage" 30
 	description `An old-school physical excavator build into the tip of the Bagger, while lack of range it will break up asteroids much faster than any other energy weapon in human space.`
 		
+outfit "Thyrupp Industrial Systems"
+	category "Systems"
+	cost 22734000
+	thumbnail "outfit/mgf espion ore refinery"
+	mass 550
+	"outfit space" -800
+	"operating cost" 6500
+	"ore refinery" 1
+	"manufacturing" 1
+	"required crew" 16
+	"energy consumption" 5
+	"integrated system" 1
+	description `Complete industrial system for processing ores and manufacturing basic products built into the ship.`
+	description `Requires at least 10 tons of harvested material to process into 10 tons of refined materials. Refined materials can be further processed into products 2 tons at a time. Max 1 of the Thyrupp Industrial Systems can be stacked, beyond that will have no effect.`
+		
 outfit "Espion Mining Laser"
 	category "Guns"
 	cost 92000
@@ -187,6 +202,56 @@ outfit "Atesac Plasma Cannon"
 		"hull damage" 108
 	description "Experimental ultra-compressed plasma cannon, very powerful against shields."
 		
+outfit "EPB3-2 Particle Cannon"
+	category "Guns"
+	cost 290000
+	thumbnail "outfit/particle cannon"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .8
+		"velocity" 29
+		"lifetime" 23
+		"reload" 15
+		"burst count" 3
+		"burst reload" 5
+		"firing energy" 32
+		"firing force" 10
+		"firing heat" 100
+		"hit force" 80
+		"shield damage" 60
+		"hull damage" 54
+	description "Modified version of particle cannon by Espion Mining co. to fire a 3-shot burst at slightly lower damage."
+		
+outfit "EPS-1 Particle Cannon"
+	category "Guns"
+	cost 320000
+	thumbnail "outfit/particle cannon"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .2
+		"velocity" 35
+		"lifetime" 30
+		"reload" 40
+		"firing energy" 32
+		"firing force" 15
+		"firing heat" 120
+		"hit force" 100
+		"shield damage" 65
+		"hull damage" 62
+	description "Modified version of particle cannon by Espion Mining co. to fire slower but with faster projectile and longer range."
+		
 outfit "G22 Particle Cannon"
 	category "Guns"
 	cost 360000
@@ -296,7 +361,7 @@ outfit "M6-ACS Artillery Turret"
 outfit "V47 Plasma-Railgun"
 	category "Guns"
 	cost 1960000
-	license
+	licenses
 		"Navy"
 	thumbnail "outfit/railplasma v47"
 	"mass" 116
@@ -326,7 +391,7 @@ outfit "V47 Plasma-Railgun"
 outfit "V47 Plasma-Railgun Turret"
 	category "Turrets"
 	cost 1960000
-	license
+	licenses
 		"Navy"
 	thumbnail "outfit/railplasma v47 turret"
 	"mass" 211
@@ -377,7 +442,7 @@ effect "v85 railgun hit"
 outfit "V85 Railgun"
 	category "Guns"
 	cost 1120000
-	license
+	licenses
 		"Navy"
 	thumbnail "outfit/railgun v85"
 	"mass" 99
@@ -405,7 +470,7 @@ outfit "V85 Railgun"
 outfit "V85 Railgun Turret"
 	category "Turrets"
 	cost 1820000
-	license
+	licenses
 		"Navy"
 	thumbnail "outfit/railgun v85 turret"
 	"mass" 155
@@ -515,7 +580,7 @@ effect "exp314 railcannon hit3b sl"
 outfit "ExP314 Railcannon"
 	category "Guns"
 	cost 188900000
-	license
+	licenses
 		"Navy"
 	thumbnail "outfit/railgun v85"
 	"mass" 1886
@@ -563,7 +628,7 @@ effect "emx55 flak"
 outfit "EMX-55 Flakcannon"
 	category "Guns"
 	cost 320000
-	license
+	licenses
 		Navy
 	thumbnail "outfit/emx55 flak"
 	"mass" 34
@@ -595,7 +660,7 @@ outfit "EMX-55 Flakcannon"
 outfit "EMX-55 Flakcannon Turret"
 	category "Turrets"
 	cost 820000
-	license
+	licenses
 		Navy
 	thumbnail "outfit/emx55 flak turret"
 	"mass" 76
@@ -639,7 +704,7 @@ effect "emx84 flak"
 outfit "EMX-84 Pulse-Flak Turret"
 	category "Turrets"
 	cost 2120000
-	license
+	licenses
 		Navy
 	thumbnail "outfit/emx55 flak turret"
 	"mass" 89
@@ -1238,6 +1303,36 @@ outfit "Espion Value Detector"
 	"asteroid scan power" 67
 	description `Advanced asteroid scanner using proprietary technology developed and patented by Espion Mining co. Only those within the company or lots of money can purchase one.`
 	
+outfit "Espion Ore Refinery Module"
+	category "Systems"
+	cost 15734000
+	thumbnail "outfit/mgf espion ore refinery"
+	licenses
+		"Espion Employee"
+	mass 450
+	"outfit space" -600
+	"operating cost" 4000
+	"ore refinery" 1
+	"required crew" 10
+	"energy consumption" 2
+	description `Compact ship-based universal ore refinery that can be easily converted to refine different material easily allowing ships to process variety of different materials mined on the go reducing the time wasted travelling and unloading the ores.`
+	description `Requires at least 5 tons of harvested material to process into 5 tons of refined materials. Max 10 of the Ore Refinery can be stacked, beyond that will have no effect.`
+	
+outfit "Tyrant Reverse Thruster"
+	category "Engines"
+	"cost" 389000
+	thumbnail "outfit/huge plasma thruster"
+	"mass" 129
+	"outfit space" -129
+	"weapon capacity" -129
+	"reverse thrust" 127.6
+	"reverse thrusting energy" 8.6
+	"reverse thrusting heat" 19.1
+	"reverse flare sprite" "effect/plasma flare/huge"
+		"frame rate" 9
+	"reverse flare sound" "plasma huge"
+	description "Tyrant Plasma Thruster but facing the other way."
+
 outfit "E-XE10 Ion Maneuver Engine"
 	category "Engines"
 	"cost" 12000
@@ -1271,4 +1366,189 @@ outfit "Syndicate Platinum License"
 	thumbnail "outfit/license"
 	"maintenance cost" 500
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.`
+	
+#========Processed Mined materials
+	
+outfit "GMS16 Steel"
+	plural "GMS10 Steel"
+	category "Special"
+	#cost 48000
+	#cost 1700
+	cost 24850
+	thumbnail "outfit/harvested iron"
+	"flotsam sprite" "effect/flotsam iron"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Steel refined to GMS16 standard from iron. Can be sold for significantly higher price than regular unprocessed iron.`
+	
+outfit "GMS23 Aluminum"
+	plural "GMS21 Aluminum"
+	category "Special"
+	#cost 72000 #based on irl price ratio between bauxite and aluminum. (40 times)
+	#cost 2500 #based on shuttle price/mass assuming it's all aluminum. about 1.38 times more than raw alu
+	cost 37250 #avg between the two.
+	thumbnail "outfit/harvested aluminum"
+	"flotsam sprite" "effect/flotsam aluminum"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Aluminum refined to GMS23 standard. Can be sold for significantly higher price than regular unprocessed aluminum.`
+	
+outfit "GMS39 Copper"
+	plural "GMS39 Copper"
+	category "Special"
+	#cost 120000
+	#cost 4140
+	cost 62070 #20.7 times
+	thumbnail "outfit/harvested copper"
+	"flotsam sprite" "effect/flotsam copper"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Copper refined to GMS39 standard. Can be sold for significantly higher price than regular unprocessed Copper.`
+
+outfit "GMS49 Gold"
+	plural "GMS49 Gold"
+	category "Special"
+	cost 165520
+	thumbnail "outfit/harvested gold"
+	"flotsam sprite" "effect/flotsam gold"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Gold refined to GMS49 standard. Can be sold for significantly higher price than regular unprocessed Gold.`
+
+outfit "GMS52 Lead"
+	plural "GMS52 Lead"
+	category "Special"
+	cost 18630
+	thumbnail "outfit/harvested lead"
+	"flotsam sprite" "effect/flotsam lead"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Lead refined to GMS52 standard. Can be sold for significantly higher price than regular unprocessed Lead.`
+
+outfit "GMS60 Neodymium"
+	plural "GMS60 Neodymium"
+	category "Special"
+	cost 78660
+	thumbnail "outfit/harvested neodymium"
+	"flotsam sprite" "effect/flotsam neodymium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Neodymium refined to GMS60 standard. Can be sold for significantly higher price than regular unprocessed Neodymium."
+
+outfit "GMS78 Platinum"
+	plural "GMS78 Platinum"
+	category "Special"
+	cost 207000
+	thumbnail "outfit/harvested platinum"
+	"flotsam sprite" "effect/flotsam platinum"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Platinum refined to GMS78 standard. Can be sold for significantly higher price than regular unprocessed Platinum."
+
+outfit "GMS84 Silicon"
+	plural "GMS84 Silicon"
+	category "Special"
+	cost 8280
+	thumbnail "outfit/harvested silicon"
+	"flotsam sprite" "effect/flotsam silicon"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Silicon refined to GMS84 standard. Can be sold for significantly higher price than regular unprocessed Silicon."
+
+outfit "GMS97 Silver"
+	plural "GMS97 Silver"
+	category "Special"
+	cost 124200
+	thumbnail "outfit/harvested silver"
+	"flotsam sprite" "effect/flotsam silver"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Silver refined to GMS97 standard. Can be sold for significantly higher price than regular unprocessed Silver."
+
+outfit "GMS02 Titanium"
+	plural "GMS02 Titanium"
+	category "Special"
+	cost 51750
+	thumbnail "outfit/harvested titanium"
+	"flotsam sprite" "effect/flotsam titanium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Titanium refined to GMS02 standard. Can be sold for significantly higher price than regular unprocessed Titanium."
+
+outfit "GMS14 Tungsten"
+	plural "GMS14 Tungsten"
+	category "Special"
+	cost 93150
+	thumbnail "outfit/harvested tungsten"
+	"flotsam sprite" "effect/flotsam tungsten"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Tungsten refined to GMS14 standard. Can be sold for significantly higher price than regular unprocessed Tungsten."
+	
+
+outfit "GMS16 Steel Product"
+	plural "GMS10 Steel Product"
+	category "Special"
+	cost 74550
+	thumbnail "outfit/harvested iron"
+	"flotsam sprite" "effect/flotsam iron"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS16 Steel.`
+	
+outfit "GMS23 Aluminum Product"
+	plural "GMS21 Aluminum Product"
+	category "Special"
+	cost 111750
+	thumbnail "outfit/harvested aluminum"
+	"flotsam sprite" "effect/flotsam aluminum"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS23 Aluminum.`
+	
+outfit "GMS39 Copper Product"
+	plural "GMS39 Copper Product"
+	category "Special"
+	cost 186210
+	thumbnail "outfit/harvested copper"
+	"flotsam sprite" "effect/flotsam copper"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS39 Copper.`
+
+outfit "GMS02 Titanium Product"
+	plural "GMS02 Titanium Product"
+	category "Special"
+	cost 232875
+	thumbnail "outfit/harvested titanium"
+	"flotsam sprite" "effect/flotsam titanium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS02 Titanium.`
+
+outfit "GMS14 Tungsten Product"
+	plural "GMS14 Tungsten Product"
+	category "Special"
+	cost 512325
+	thumbnail "outfit/harvested tungsten"
+	"flotsam sprite" "effect/flotsam tungsten"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS14 Tungsten.`
 	

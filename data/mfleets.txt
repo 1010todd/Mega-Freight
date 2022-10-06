@@ -81,6 +81,9 @@ fleet "Large Southern Merchants"
 		"PF-80 Intrepid"
 		"TS-CH0 Kratzbal"
 		"Osprey"
+		
+	add variant 1
+		"FTV-33 Acareus"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -217,6 +220,9 @@ fleet "Large Core Merchants"
 		"PF-80 Intrepid"
 		"TS-CH0 Kratzbal"
 		"Manta" 2
+		
+	add variant 1
+		"FTV-33 Acareus"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -238,6 +244,9 @@ fleet "Paradise Merchants"
 		
 	add variant 10
 		"TS-650 Herrenbal"
+		
+	add variant 5
+		"FTV-33 Acareus"
 
 
 fleet "Small Northern Merchants"
@@ -358,6 +367,9 @@ fleet "Large Northern Merchants"
 		"TS-CH0 Kratzbal"
 		"Firebird" 2
 		
+	add variant 9
+		"FTV-33 Acareus"
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -380,6 +392,9 @@ fleet "Large Human Merchants (Hai)"
 		"FG-5 Bluewhale-A" 2
 		"CSE-6 Steward" #6
 		"Dagger" 6
+		
+	add variant 3
+		"FTV-33 Acareus"
 	
 fleet "Human Miners"
 	add variant 3
@@ -444,6 +459,14 @@ fleet "Large Espion Miners"
 	variant 7
 		"SMM-111 Bagger"
 		"EP-2 Marmot" 4
+	variant 1
+		"EM-28F Wombat"
+		"EP-3 Rat" 2
+		"EP-3 Rat (Sniper)" 2
+		"EP-2 Marmot" 44
+		"EP-1 Mole" 48
+		"Vanguard"
+		"Quicksilver" 3
 
 fleet "Small Espion Guard"
 	government "MGF: Espion Mining Co."

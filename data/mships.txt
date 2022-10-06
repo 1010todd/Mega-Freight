@@ -1091,7 +1091,7 @@ ship "FG-7 Conveyor"
 	thumbnail "thumbnail/mgf conveyor"
 	attributes
 		category "Heavy Freighter"
-		"cost" 18200000
+		"cost" 52200000
 		"shields" 13800
 		"hull" 15000
 		"required crew" 45
@@ -1436,6 +1436,68 @@ ship "PCS-4 Castle"
 	"final explode" "final explosion large"
 	description `Modified from the FG-7 Conveyor, the Castle rivals even the Navy's Spetum class in terms of raw fighter capacity. However, it still can't compete when it comes to fighter servicing.`
 	
+ship "FTV-33 Acareus"
+	sprite "ship/mgf acareus"
+	thumbnail "thumbnail/mgf acareus thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 10800000
+		"shields" 11000
+		"hull" 8900
+		"required crew" 20
+		"bunks" 60
+		"mass" 8564
+		"drag" 18
+		"heat dissipation" .55
+		"fuel capacity" 1400
+		"cargo space" 850
+		"outfit space" 1120
+		"weapon capacity" 512
+		"engine capacity" 245
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Proton Turret" 4
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fission Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP576a Battery Pack" 2
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Scram Drive"
+	
+	gun -13.5 -131.5 
+	gun 13.5 -131.5 
+	gun -24 -131.5 
+	gun 24 -131.5 
+	turret -47.5 -68.5 "Proton Turret"
+	turret 47.5 -68.5 "Proton Turret"
+	turret -106.5 -77 "Heavy Anti-Missile Turret"
+	turret 106.5 -77 "Heavy Anti-Missile Turret"
+	turret -146 -35.5 "Proton Turret"
+	turret 146 -35.5 "Proton Turret"
+	
+	turret -17.5 -53.5 
+	turret 17.5 -53.5 
+	turret -18 -42 "Heavy Anti-Missile Turret"
+	turret 18 -42 "Heavy Anti-Missile Turret"
+	turret -18 -31 
+	turret 18 -31 
+	engine -179 33 
+	engine 179 33 
+	engine 0 127.5 
+	description `Fancy experimental freighter as more heavily armed alternative to the Carrack.`
+	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
 	thumbnail "thumbnail/mgf bagger"
@@ -1451,10 +1513,11 @@ ship "SMM-111 Bagger"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 750
-		"outfit space" 1370
+		"outfit space" 2170
 		"weapon capacity" 818
 		"engine capacity" 350
 		"excavator" -3
+		"integrated system" -1
 		weapon
 			"blast radius" 140
 			"shield damage" 1200
@@ -1470,7 +1533,9 @@ ship "SMM-111 Bagger"
 		"Liquid Nitrogen Cooler"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
-		"Laser Rifle" 4
+		"Laser Rifle" 40
+		
+		"Thyrupp Industrial Systems"
 		
 		"Capybara Reverse Thruster" 5
 		"Tyrant Plasma Steering" 2
@@ -1791,6 +1856,305 @@ ship "EM-8A Armadillo"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	description `Espion-exclusive light mining carrier with sizeable squadron of drones and fighters for defending itself or help mining and collecting materials.`
+		
+ship "EM-28F Wombat"
+	sprite "ship/mgf epn wombat"
+	thumbnail "thumbnail/mgf epn wombat thumb"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			"Espion Employee"
+		"cost" 78500000
+		"shields" 48750
+		"hull" 53280
+		"required crew" 189
+		"bunks" 352
+		"mass" 7852
+		"drag" 26.3
+		"heat dissipation" .5
+		"fuel capacity" 1600
+		"cargo space" 1800
+		"outfit space" 8955
+		"weapon capacity" 999
+		"engine capacity" 368
+		"hull repair rate" .2
+		"repair delay" 300
+		"disabled repair delay" 600
+		"industrial support" 8
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Espion Mining Laser" 4
+		"Torpedo Launcher" 6
+		"Torpedo" 180
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+		
+		"Proton Turret" 10
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 6
+		
+		"Fission Reactor" 4
+		"Water Coolant System"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		"Espion Value Detector" 12
+		"Espion Ore Refinery Module" 12
+		
+		"Tyrant Plasma Steering"
+		"Tyrant Plasma Thruster"
+		"Tyrant Reverse Thruster"
+		"Scram Drive"
+		
+	turret -36 -272.5 "Proton Turret"
+	turret 36 -272.5 "Proton Turret"
+	turret -36 -209.5 "Quad Blaster Turret"
+	turret 36 -209.5 "Quad Blaster Turret"
+	turret -76.5 -250.5 "Proton Turret"
+	turret 76.5 -250.5 "Proton Turret"
+	turret -76.5 -186 "Heavy Anti-Missile Turret"
+	turret 76.5 -186 "Heavy Anti-Missile Turret"
+	
+	turret -76.5 81.5 "Heavy Anti-Missile Turret"
+	turret 76.5 81.5 "Heavy Anti-Missile Turret"
+	turret -76.5 146 "Proton Turret"
+	turret 76.5 146 "Proton Turret"
+	gun -83 -329.5 "Espion Mining Laser"
+	gun 83 -329.5 "Espion Mining Laser"
+	gun -83 -329.5 "Torpedo Launcher"
+	gun 83 -329.5 "Torpedo Launcher"
+	gun -83 -329.5 "Espion Mining Laser"
+	gun 83 -329.5 "Espion Mining Laser"
+	gun -83 -329.5 "Torpedo Launcher"
+	gun 83 -329.5 "Torpedo Launcher"
+	turret -528 -177.5 "Proton Turret"
+	turret 528 -177.5 "Proton Turret"
+	turret -528 -125.5 "Quad Blaster Turret"
+	turret 528 -125.5 "Quad Blaster Turret"
+	turret -532 3.5 "Heavy Anti-Missile Turret"
+	turret 532 3.5 "Heavy Anti-Missile Turret"
+	turret -532 68 "Proton Turret"
+	turret 532 68 "Proton Turret"
+	gun -503 -248 
+	gun 503 -248 
+	gun -503 -248 "Torpedo Launcher"
+	gun 503 -248 "Torpedo Launcher"
+	gun -503 -248 
+	gun 503 -248 
+	engine -44.5 355 
+	engine 44.5 355 
+	engine -481.5 350 
+	engine 481.5 350 
+	bay "Pocket Light Warship" 80.5 -34.5 
+		right
+	bay "Pocket Light Warship" -80.5 -34.5 
+		left
+	bay "Pocket Light Warship" 80.5 -67 
+		right
+	bay "Pocket Light Warship" -80.5 -67 
+		left
+	
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	bay "Fighter" 80.5 -34.5 
+		right
+	bay "Fighter" -80.5 -34.5 
+		left
+	bay "Fighter" 80.5 -67 
+		right
+	bay "Fighter" -80.5 -67 
+		left
+	
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+	bay "Drone" 89.5 -67 
+		right
+	bay "Drone" -89.5 -67 
+		left
+	bay "Drone" 89.5 -39 
+		right
+	bay "Drone" -89.5 -39 
+		left
+
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station with bays for sizeable amount of fighters and drones for mining.`
 		
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
@@ -4530,7 +4894,7 @@ ship "AFFR-3 Fylla"
 	engine -16.5 37.5
 		zoom 1
 		under
-	engine -16.5 37.5
+	engine 16.5 37.5
 		zoom 1
 		under
 	"reverse engine" -17 6
@@ -4583,7 +4947,7 @@ ship "EP-2 Marmot"
 	engine -8.5 39.5
 		zoom 1
 		under
-	engine -8.5 39.5
+	engine 8.5 39.5
 		zoom 1
 		under
 	explode "tiny explosion" 15
@@ -4628,9 +4992,67 @@ ship "EP-1 Mole"
 	engine -6.5 34.5
 		zoom 1
 		under
-	engine -6.5 34.5
+	engine 6.5 34.5
 		zoom 1
 		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description `Automated mining drone developed and used by Espion Mining Co. Due to their specialized nature these drones comes with built-in asteroid scanner.`
+	
+ship "EP-3 Rat"
+	sprite "ship/mgf epn rat"
+	thumbnail "thumbnail/mgf epn rat thumb"
+	attributes
+		category "Pocket Light Warship"
+		licenses
+			"Espion Employee"
+		"cost" 120000
+		"shields" 1800
+		"hull" 740
+		"required crew" 1
+		"bunks" 2
+		"mass" 100
+		"drag" 1.5
+		"heat dissipation" .9
+		"cargo space" 0
+		"outfit space" 180
+		"weapon capacity" 72
+		"engine capacity" 66
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"EPB3-2 Particle Cannon" 2
+		"Anti-Missile Turret"
+	
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"E-XE10 Ion Maneuver Engine"
+		
+	gun -11 -57 
+	gun 11 -57 
+	turret 0 8.5 
+	engine -12.5 57 
+	engine 12.5 57
+	explode "tiny explosion" 18
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description `Espion Mining co. compact gunship to be carried by their larger carriers for guarding the mining fleets while they are away from the mothership.`
+	
+ship "EP-3 Rat" "EP-3 Rat (Sniper)"
+	outfits
+		"EPS-1 Particle Cannon" 2
+	
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"E-XE10 Ion Maneuver Engine"

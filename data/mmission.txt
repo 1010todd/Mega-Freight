@@ -586,6 +586,8 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 		clear "license: Syndicate Platinum"
 		fail
 		
+
+		
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"
