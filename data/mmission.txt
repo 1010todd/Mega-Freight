@@ -217,7 +217,11 @@ mission "MGF: Mars-fix"
 	to offer
 		not "mgf: canaveral post 07102022 patch"
 		has "event: mgf: canaveral naval yard done"
-	
+	on offer
+		event "mgf: mars-fix"
+	on accept
+		fail
+		
 event "mgf: mars-fix"
 	system Sol
 		remove object "MGF Fake Mars"
