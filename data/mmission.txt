@@ -73,6 +73,7 @@ mission `MGF: Canaveral Naval Yard Trigger`
 	to offer
 		has "main plot completed"
 	on offer
+		"mgf: canaveral post 07102022 patch" = 1
 		event "mgf: canaveral naval yard begin" 30
 	on accept
 		fail
@@ -90,7 +91,6 @@ mission `MGF: Canaveral Naval Yard Begin`
 event "mgf: canaveral naval yard begin"
 	system Sol
 		add object "MGF Fake Mars"
-			sprite planet/mars
 			distance 1471.43
 			period 687.001
 			object "Canaveral Naval Yard"
@@ -140,7 +140,6 @@ event "mgf: canaveral naval yard compt trig"
 event "mgf: canaveral naval yard 50"
 	system Sol
 		remove object "MGF Fake Mars"
-			sprite planet/mars
 			distance 1471.43
 			period 687.001
 			object "Canaveral Naval Yard"
@@ -148,7 +147,6 @@ event "mgf: canaveral naval yard 50"
 				distance 150.24
 				period 27.3
 		add object "MGF Fake Mars"
-			sprite planet/mars
 			distance 1471.43
 			period 687.001
 			object "Canaveral Naval Yard"
@@ -185,7 +183,6 @@ mission `MGF: Canaveral Naval Yard Complete Auto`
 event "mgf: canaveral naval yard done"
 	system Sol
 		remove object "MGF Fake Mars"
-			sprite planet/mars
 			distance 1471.43
 			period 687.001
 			object "Canaveral Naval Yard"
@@ -193,7 +190,6 @@ event "mgf: canaveral naval yard done"
 				distance 150.24
 				period 27.3
 		add object "MGF Fake Mars"
-			sprite planet/mars
 			distance 1471.43
 			period 687.001
 			object "Canaveral Naval Yard"
@@ -214,6 +210,34 @@ event "mgf: canaveral naval yard done"
 		outfitter "Navy Basic"
 		outfitter "Navy Advanced"
 		outfitter "Lovelace Advanced"
+		
+mission "MGF: Mars-fix"
+	landing
+	invisible
+	to offer
+		not "mgf: canaveral post 07102022 patch"
+		has "event: mgf: canaveral naval yard done"
+	
+event "mgf: mars-fix"
+	system Sol
+		remove object "MGF Fake Mars"
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard50"
+				distance 150.24
+				period 27.3
+		add object "MGF Fake Mars"
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard50"
+				distance 150.24
+				period 27.3
+		add object "Mars"
+			sprite "planet/mars"
+			distance 1471.43
+			period 687.001
 		
 event "mgf: developed Lucerne"
 	
