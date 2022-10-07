@@ -67,7 +67,7 @@ outfit "Espion Mining Laser"
 		"firing heat" 2.8
 		"shield damage" 1.2
 		"hull damage" 3.1
-		"mineable damage" 6.2
+		"minable damage" 6.2
 	description `Basic mining laser used by Espion miners that is exceptionally effective to asteroids though the damage will dropoff at longer range.`
 		
 outfit "MRF-10 EM Clamp"
@@ -170,7 +170,7 @@ outfit "KC-344 Chainsaw"
 		"firing heat" .8
 		"shield damage" 1
 		"hull damage" 4.5
-		"mineable damage" 6.2
+		"minable damage" 6.2
 		"hit force" -5
 		"firing force" -1
 	description `One of Edward's side project when he came across some interesting pieces of scrap. The chainsaw can deal large amount of damage to unshielded ships but requires the user to be within melee range of enemy craft.`
