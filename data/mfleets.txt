@@ -20,6 +20,10 @@ fleet "Small Southern Merchants"
 	add variant 5
 		"TS-650 Herrenbal"
 		"Sparrow" 2
+		
+	add variant 1
+		"AD-012C Iaphia"
+		
 
 fleet "Large Southern Merchants"
 	add variant 6
@@ -85,6 +89,11 @@ fleet "Large Southern Merchants"
 	add variant 1
 		"FTV-33 Acareus"
 	
+	add variant 4
+		"CK50T Stahbar"
+	add variant 1
+		"AD-019A Iabayi"
+	
 fleet "Small Core Merchants"
 	add variant 40
 		"FR-4 Dart"
@@ -107,6 +116,9 @@ fleet "Small Core Merchants"
 	add variant 5
 		"TS-650 Herrenbal"
 		"Sparrow" 2
+		
+	add variant 1
+		"AD-012C Iaphia"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -223,6 +235,13 @@ fleet "Large Core Merchants"
 		
 	add variant 1
 		"FTV-33 Acareus"
+		
+	add variant 1
+		"AD-019A Iabayi"
+	add variant 4
+		"AsK12-6 Celjurai"
+		"Quicksilver" 3
+		
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -247,7 +266,13 @@ fleet "Paradise Merchants"
 		
 	add variant 5
 		"FTV-33 Acareus"
-
+	
+	add variant 10
+		"AD-012C Iaphia"
+	add variant 5
+		"AD-019A Iabayi"
+	add variant 4
+		"AsK12-6 Celjurai"
 
 fleet "Small Northern Merchants"
 	add variant 10
@@ -266,6 +291,9 @@ fleet "Small Northern Merchants"
 	add variant 5
 		"TS-650 Herrenbal"
 		"Sparrow" 2
+		
+	add variant 5
+		"AD-012C Iaphia"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -370,6 +398,14 @@ fleet "Large Northern Merchants"
 	add variant 9
 		"FTV-33 Acareus"
 		
+	add variant 7
+		"CK50T Stahbar"
+	add variant 5
+		"AD-019A Iabayi"
+	add variant 4
+		"AsK12-6 Celjurai"
+		"Corvette"
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -395,6 +431,13 @@ fleet "Large Human Merchants (Hai)"
 		
 	add variant 3
 		"FTV-33 Acareus"
+		
+	add variant 1
+		"CK50T Stahbar"
+	add variant 1
+		"AD-012C Iaphia"
+	add variant 1
+		"AD-019A Iabayi"
 	
 fleet "Human Miners"
 	add variant 3

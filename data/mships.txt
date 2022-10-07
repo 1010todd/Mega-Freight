@@ -4373,7 +4373,7 @@ ship "Nasprite"
 	thumbnail "thumbnail/mgf nasprite thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 8200000
+		"cost" 14200000
 		"shields" 11000
 		"hull" 12500
 		"required crew" 46
@@ -4383,9 +4383,9 @@ ship "Nasprite"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 500
-		"outfit space" 876
-		"weapon capacity" 412
-		"engine capacity" 212
+		"outfit space" 816
+		"weapon capacity" 337
+		"engine capacity" 192
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -4442,7 +4442,65 @@ ship "Nasprite"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war made to withstand combat and long travel. Though originates from the core, most of these are now found operating around the Dirtbelt.`
+	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war made to withstand combat and long travel. Though originates from the core, most of these are now found operating around the Dirt Belt.`
+	
+ship "CK50T Stahbar"
+	sprite "ship/mgf stahbar"
+	thumbnail "thumbnail/mgf stahbar thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12900000
+		"shields" 12000
+		"hull" 12800
+		"required crew" 26
+		"bunks" 86
+		"mass" 2845
+		"drag" 18.2
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 850
+		"outfit space" 772
+		"weapon capacity" 412
+		"engine capacity" 212
+		"radar jamming" 50
+		"scan interference" 23
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -47.5 -209.5 
+	gun -75.5 -179 
+	gun 49 -177 
+	gun 55 -159 
+	turret -6.5 -160.5 "Proton Turret"
+	turret -64.5 -150.5 
+	turret 9 -92.5 "Quad Blaster Turret"
+	turret 50 -89.5 "Heavy Anti-Missile Turret"
+	turret 64.5 -11 "Proton Turret"
+	turret 64.5 21.5 "Quad Blaster Turret"
+	turret 64.5 55 "Heavy Anti-Missile Turret"
+	turret 9 110.5 "Proton Turret"
+	engine -38.5 226.5 
+	engine 38.5 226.5 
+	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on.`
 	
 ship "PF-80 Intrepid"
 	sprite "ship/mgf intrepid"
@@ -4682,6 +4740,119 @@ ship "QYG-60 Sandiq"
 	"final explode" "final explosion small"
 	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighter around the Core and North area.`
 	
+ship "AD-012C Iaphia"
+	sprite "ship/mgf iaphia"
+	thumbnail "thumbnail/mgf iaphia thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 1250000
+		"shields" 2800
+		"hull" 1600
+		"required crew" 4
+		"bunks" 10
+		"mass" 158
+		"drag" 3.6
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 130
+		"outfit space" 284
+		"weapon capacity" 106
+		"engine capacity" 124
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Heavy Anti-Missile Turret"
+		"Blaster Turret"
+		"Proton Gun" 2
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		
+	gun -12.5 -94.5 
+	gun 12.5 -94.5 
+	turret -19.5 11 
+	turret 19.5 11 
+	engine -20.5 56 
+	engine 20.5 56 
+	engine -49 79.5 
+		zoom .7
+	engine 49 79.5 
+		zoom .7
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Expensive and fancy freighter for those who want to fly a freighter that doesn't look like a freighter.`
+	
+ship "AD-019A Iabayi"
+	sprite "ship/mgf iabayi"
+	thumbnail "thumbnail/mgf iabayi thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 14100000
+		"shields" 10800
+		"hull" 5800
+		"required crew" 10
+		"bunks" 26
+		"mass" 645
+		"drag" 10.5
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 410
+		"outfit space" 562
+		"weapon capacity" 282
+		"engine capacity" 144
+		weapon
+			"blast radius" 100
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 600
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Quad Blaster Turret" 4
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 60
+		
+		"Fission Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2 
+		"Scram Drive"
+	
+	gun -22 -185.5 
+	gun 22 -185.5 
+	gun -32.5 -174.5 
+	gun 32.5 -174.5 
+	turret -29.5 -45 
+	turret 29.5 -45 
+	turret -29.5 -24 "Heavy Anti-Missile Turret"
+	turret 29.5 -24 "Heavy Anti-Missile Turret"
+	turret -36 57 
+	turret 36 57 
+	engine -26 142 
+	engine 26 142 
+	engine -59 173 
+		zoom .8
+	engine 59 173
+		zoom .8
+	description `Expensive and fancy freighter for those who want to fly a freighter that doesn't look like a freighter.`
+	
 ship "TS-650 Herrenbal"
 	sprite "ship/mgf herrenbal"
 	thumbnail "thumbnail/mgf herrenbal thumb"
@@ -4817,6 +4988,72 @@ ship "TS-CH0 Kratzbal"
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
 	description `Fast and well-armed transport for hauling large amount of people across distance.`
+	
+ship "AsK12-6 Celjurai"
+	sprite "ship/mgf celjurai"
+	thumbnail "thumbnail/mgf celjurai thumb"
+	attributes
+		category "Transport"
+		"cost" 1160000
+		"shields" 4720
+		"hull" 1800
+		"required crew" 24
+		"bunks" 148
+		"mass" 452
+		"drag" 8.6
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 477
+		"weapon capacity" 168
+		"engine capacity" 162
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"nGVF-EE Fuel Cell"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 10
+		"Luxury Accommodations"
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Hyperdrive"
+		
+	gun -7 -76 
+	gun 7 -76 
+	turret -55 -16 
+	turret 55 -16 
+	turret -106 1 
+	turret 106 1 
+	engine -14.5 33 
+	engine 14.5 33 
+	engine -33.5 37 
+	engine 33.5 37 
+	engine -54.5 41.5 
+	engine 54.5 41.5 
+	engine -74 47 
+		zoom .8
+	engine 74 47 
+		zoom .8
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.`
 	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
