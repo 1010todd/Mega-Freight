@@ -54,6 +54,7 @@ shipyard developer
 	"AD-012C Iaphia"
 	"AsK12-6 Celjurai"
 	"CK50T Stahbar"
+	"A-14F Rondel"
 
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -159,6 +160,21 @@ shipyard "Betelgeuse Advanced"
 	"AD-019A Iabayi"
 	"CK50T Stahbar"
 	
+shipyard "Lionheart Basics"
+	"AD-012C Iaphia"
+
+shipyard "Lionheart Advanced"
+	"AD-019A Iabayi"
+	"FTV-33 Acareus"
+	"RF-03 Gerlache"
+	
+shipyard "Tarazed Basics"
+	"CY-10 (Fighter)"
+	"CY-10 (Drone)"
+	"FF-30 Volant"
+	"AD-012C Iaphia"
+	"AGT-31 Xencar"
+	
 shipyard "Tarazed Advanced"
 	"CS-24 Garrison"
 	"CSE-6 Steward"
@@ -190,6 +206,9 @@ shipyard "Advanced Core Pirates"
 	"CS-24 Garrison"
 	"Aplomado"
 	"Battle Bulk"
+	
+shipyard "Navy Basics"
+	"A-14F Rondel"
 	
 shipyard "Navy Advanced"
 	"Culverin Class"

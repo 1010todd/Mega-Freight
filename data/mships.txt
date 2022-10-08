@@ -2907,6 +2907,52 @@ ship "SC-1 Alcazar"
 	"final explode" "final explosion large"
 	description `Massive mobile battle station with enough space for a small town. Only few of these are known to exist at certain location serving as major deterrence against pirates. It is said that one of these station would be enough to halt an entire battle fleet. `
 	
+ship "A-14F Rondel"
+	sprite "ship/mgf navy bomber"
+	thumbnail "thumbnail/mgf navy bomber"
+	attributes
+		category "Fighter"
+		licenses
+			"Navy"
+		"cost" 93000
+		"shields" 1000
+		"hull" 500
+		"required crew" 2
+		"bunks" 2
+		"mass" 35
+		"drag" .9
+		"heat dissipation" .8
+		"outfit space" 120
+		"weapon capacity" 25
+		"engine capacity" 30
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 8
+		"Torpedo Pod" 2
+		"Torpedo" 6
+		
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+	gun -9 -1.5 
+	gun 9 -1.5 
+	gun -13 5 
+	gun 13 5 
+	engine 0 38 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "A relatively recent fighter/bomber developed alongside the Spetum to provide more effective anti-ship capability."
+	
 ship "Culverin Class"
 	sprite "ship/mgf navy arsenalship"
 	thumbnail "thumbnail/mgf navy arsenalship thumb"
@@ -3091,6 +3137,11 @@ ship "Spetum Class"
 		"Fragmentation Grenades" 90
 		"Security Station" 2
 		"Tactical Scanner"
+		
+		"Sidewinder Missile Rack" 7
+		"Sidewinder Missile" 161
+		"Torpedo Storage Rack" 12
+		"Torpedo" 180
 		
 		"X5700 Ion Thruster"
 		"X3700 Ion Thruster"
@@ -3291,6 +3342,12 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"Fragmentation Grenades" 90
 		"Security Station" 2
 		"Tactical Scanner"
+		
+		"Outfit Expansion" 2
+		"Sidewinder Missile Rack" 7
+		"Sidewinder Missile" 161
+		"Torpedo Storage Rack" 12
+		"Torpedo" 180
 		
 		"X5700 Ion Thruster"
 		"X3700 Ion Thruster"
@@ -3603,6 +3660,11 @@ ship "Lucerne Class"
 		"Fragmentation Grenades" 280
 		"Security Station" 8
 		"Tactical Scanner" 2
+		
+		"Sidewinder Missile Rack" 60
+		"Sidewinder Missile" 1380
+		"Torpedo Storage Rack" 40
+		"Torpedo" 600
 		
 		"X5700 Ion Thruster" 2
 		"X3700 Ion Thruster"

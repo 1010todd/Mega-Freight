@@ -953,6 +953,47 @@ fleet "Large Republic"
 		"Frigate" 4
 		"Rainmaker" 2
 		"Gunboat" 4
+	add variant 1
+		"Carrier"
+		"Lance" 2
+		"A-14F Rondel" 2
+		"Combat Drone" 6
+		"Cruiser"
+		"Combat Drone" 4
+		"Frigate" 2
+		"Rainmaker" 2
+		"Gunboat" 2
+		"Culverin Class"
+		"Lance"
+		"A-14F Rondel"
+	add variant 1
+		"Cruiser"
+		"Combat Drone" 4
+		"Culverin Class"
+		"A-14F Rondel" 2
+	add variant 1
+		"Spetum Class"
+		"Lance" 20
+		"A-14F Rondel" 60
+		"Combat Drone" 24
+		"Cruiser" 2
+		"Combat Drone" 8
+	add variant 1
+		"Spetum Class"
+		"Lance" 20
+		"A-14F Rondel" 60
+		"Combat Drone" 24
+		"Culverin Class"
+		"Lance" 2
+		"Carrier" 2
+		"Lance" 4
+		"A-14F Rondel" 4
+		"Combat Drone" 12
+		"Cruiser" 2
+		"Combat Drone" 8
+		"Frigate" 4
+		"Rainmaker" 2
+		"Gunboat" 4
 		
 #===============PIRATE spawnrate adjustment
 #Add more vanilla fleet variant to balance the weight don't spawn plugin ones too often.

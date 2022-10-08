@@ -252,6 +252,7 @@ mission "MGF: Lucerne Deployment"
 		has "event: mgf: canaveral naval yard done"
 		has "event: mgf: developed Lucerne"
 	on offer
+		"mgf: Lucerne post 08102022 patch" = 1
 		event "mgf: Lucerne Deployment" 120
 		
 event "mgf: Lucerne Deployment" 
@@ -261,7 +262,8 @@ event "mgf: Lucerne Deployment"
 	fleet "Large Republic"
 		add variant 2
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 40
+			"A-14F Rondel" 40
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 4
@@ -272,13 +274,81 @@ event "mgf: Lucerne Deployment"
 			"Lance" 2
 		add variant 2
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 40
+			"A-14F Rondel" 40
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
 			"Culverin Class (Mark II)" 2
 			"Lance" 2
 		add variant 1
+			"Lucerne Class"
+			"Lance" 116
+			"A-14F Rondel" 100
+			"Combat Drone" 64
+			"Spetum Class (Mark II)"
+			"Lance" 40
+			"A-14F Rondel" 40
+			"Combat Drone" 24
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			"Frigate (Mark II)" 12
+			"Rainmaker (Mark II)" 8
+			"Gunboat (Mark II)" 12
+		
+mission "MGF: CNY Outfitter patch"
+	landing
+	invisible
+	repeat 2 # I left empty mission here before and it might've been offered once.
+	deadline 1
+	to offer
+		has "event: mgf: Lucerne Deployment" 
+	on offer
+		event "mgf: cny outfitter patch"
+	on accept
+		fail
+		
+event "mgf: cny outfitter patch"
+	planet "Canaveral Naval Yard"
+		add outfitter "Navy Advanced EX"
+		
+mission "MGF: Add Rondel patch"
+	landing
+	invisible
+	repeat 2
+	deadline 1
+	to offer
+		not "mgf: Lucerne post 08102022 patch"
+		has "event: mgf: Lucerne Deployment" 
+	on offer
+		event "mgf: add Rondel to lucerne fleets"
+	on accept
+		fail
+		
+event "mgf: add Rondel to lucerne fleets"
+	fleet "Large Republic"
+		remove variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 80
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 4
+			"Frigate (Mark II)" 2
+			"Rainmaker (Mark II)" 2
+			"Gunboat (Mark II)" 2
+			"Culverin Class (Mark II)"
+			"Lance" 2
+		remove variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 80
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		remove variant 1
 			"Lucerne Class"
 			"Lance" 216
 			"Combat Drone" 64
@@ -292,8 +362,44 @@ event "mgf: Lucerne Deployment"
 			"Frigate (Mark II)" 12
 			"Rainmaker (Mark II)" 8
 			"Gunboat (Mark II)" 12
-		
-mission "MGF: CNY Outfitter patch"
+			
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 40
+			"A-14F Rondel" 40
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 4
+			"Frigate (Mark II)" 2
+			"Rainmaker (Mark II)" 2
+			"Gunboat (Mark II)" 2
+			"Culverin Class (Mark II)"
+			"Lance" 2
+		add variant 2
+			"Spetum Class (Mark II)"
+			"Lance" 40
+			"A-14F Rondel" 40
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Lucerne Class"
+			"Lance" 116
+			"A-14F Rondel" 100
+			"Combat Drone" 64
+			"Spetum Class (Mark II)"
+			"Lance" 40
+			"A-14F Rondel" 40
+			"Combat Drone" 24
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			"Frigate (Mark II)" 12
+			"Rainmaker (Mark II)" 8
+			"Gunboat (Mark II)" 12
 		
 mission "MGF: Claymore development begin"
 	invisible
@@ -335,7 +441,6 @@ mission "MGF: Claymore test run"
 				"Leviathan" 8
 				"Culverin Class" 4
 				
-	
 				
 event "mgf: Claymore Deployment"
 	shipyard "Navy Advanced EX"
@@ -350,7 +455,8 @@ event "mgf: Claymore Deployment"
 	fleet "Large Republic"
 		add variant 2
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 30
+			"A-14F Rondel" 50
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 4
 			"Combat Drone" 16
@@ -361,7 +467,8 @@ event "mgf: Claymore Deployment"
 			"Lance" 2
 		add variant 2
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 30
+			"A-14F Rondel" 50
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 4
 			"Combat Drone" 16
@@ -369,16 +476,18 @@ event "mgf: Claymore Deployment"
 			"Lance" 2
 		add variant 1
 			"Spetum Class (Mark II)" 2
-			"Lance" 160
+			"Lance" 60
+			"A-14F Rondel" 100
 			"Combat Drone" 48
 			"Cruiser (Mark II)" 4
 			"Combat Drone" 16
 			"Culverin Class (Mark II)" 2
-			"Lance" 2
+			"Lance" 4
 		add variant 1
 			"Claymore Class"
 			"Lucerne Class"
-			"Lance" 216
+			"Lance" 116
+			"A-14F Rondel" 100
 			"Combat Drone" 64
 			"Culverin Class (Mark II)" 4
 			"Lance" 6
@@ -390,7 +499,8 @@ event "mgf: Claymore Deployment"
 		add variant 1
 			"Claymore Class"
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 40
+			"A-14F Rondel" 40
 			"Combat Drone" 24
 			"Culverin Class (Mark II)" 4
 			"Lance" 6
