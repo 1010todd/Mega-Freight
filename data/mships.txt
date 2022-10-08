@@ -939,7 +939,7 @@ ship "PAS-2 Bulwark"
 		"shields" 12000
 		"hull" 18500
 		"required crew" 42
-		"bunks" 61
+		"bunks" 70
 		"mass" 8018
 		"drag" 13.5
 		"heat dissipation" .45
