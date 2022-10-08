@@ -273,7 +273,7 @@ ship "CF-50 Cart"
 ship "CY-10 Dragonfly" #Base variant without carry.
 	sprite "ship/mgf dragonfly"
 	attributes
-		category "Light Freighter"
+		category "Utility"
 		"cost" 190000
 		"shields" 1800
 		"hull" 800
@@ -1502,7 +1502,7 @@ ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
 	thumbnail "thumbnail/mgf bagger"
 	attributes
-		category "Heavy Freighter"
+		category "Utility"
 		"cost" 18200000
 		"shields" 15000
 		"hull" 12800
@@ -1769,7 +1769,7 @@ ship "EM-8A Armadillo"
 	sprite "ship/mgf epn armadillo"
 	thumbnail "thumbnail/mgf epn armadillo thumb"
 	attributes
-		category "Heavy Freighter"
+		category "Utility"
 		licenses
 			"Espion Employee"
 		"cost" 18200000
@@ -1861,7 +1861,7 @@ ship "EM-28F Wombat"
 	sprite "ship/mgf epn wombat"
 	thumbnail "thumbnail/mgf epn wombat thumb"
 	attributes
-		category "Heavy Freighter"
+		category "Utility"
 		licenses
 			"Espion Employee"
 		"cost" 78500000
@@ -5055,7 +5055,7 @@ ship "AsK12-6 Celjurai"
 	sprite "ship/mgf celjurai"
 	thumbnail "thumbnail/mgf celjurai thumb"
 	attributes
-		category "Transport"
+		category "Space Liner"
 		"cost" 1160000
 		"shields" 4720
 		"hull" 1800
