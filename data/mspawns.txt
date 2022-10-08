@@ -648,10 +648,12 @@ event "MGF: Add Navy Mark II"
 	fleet "Large Republic"
 		add variant 1
 			"Culverin Class (Mark II)"
-			"Lance" 2
+			"Lance"
+			"A-14F Rondel"
 		add variant 1
 			"Carrier (Mark II)"
-			"Lance" 4
+			"Lance" 2
+			"A-14F Rondel" 2
 			"Combat Drone" 6
 			"Cruiser (Mark II)"
 			"Combat Drone" 4
@@ -676,13 +678,15 @@ event "MGF: Add Navy Mark II"
 			"Gunboat (Mark II)" 2
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 20
+			"A-14F Rondel" 60
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 20
+			"A-14F Rondel" 60
 			"Combat Drone" 24
 			"Culverin Class (Mark II)"
 			"Lance" 2
@@ -726,13 +730,15 @@ event "MGF: Add Navy Mark II"
 			"Gunboat (Mark II)" 2
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 20
+			"A-14F Rondel" 60
 			"Combat Drone" 24
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
 		add variant 1
 			"Spetum Class (Mark II)"
-			"Lance" 80
+			"Lance" 20
+			"A-14F Rondel" 60
 			"Combat Drone" 24
 			"Culverin Class (Mark II)"
 			"Lance" 2
