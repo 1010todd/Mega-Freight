@@ -523,7 +523,7 @@ fleet "Intrasystem Merchants"
 		
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
-	names "civilian"
+	names "rangphenn transport"
 	cargo 2
 	personality
 		confusion 30
@@ -543,7 +543,7 @@ fleet "Rangphenn Transport"
 		
 fleet "Jacks Gang"
 	government "MGF: Jack's Gang"
-	names "civilian"
+	names "civilian subphrase 8"
 	cargo 2
 	personality
 		confusion 30
@@ -570,7 +570,7 @@ fleet "Jacks Gang"
 		
 fleet "Small Espion Miners"
 	government "MGF: Espion Mining Co."
-	names "civilian"
+	names "espion name"
 	cargo 0
 	personality
 		confusion 40
@@ -586,7 +586,7 @@ fleet "Small Espion Miners"
 		
 fleet "Large Espion Miners"
 	government "MGF: Espion Mining Co."
-	names "civilian"
+	names "espion name"
 	cargo 0
 	personality
 		confusion 30
@@ -613,7 +613,7 @@ fleet "Large Espion Miners"
 
 fleet "Small Espion Guard"
 	government "MGF: Espion Mining Co."
-	names "civilian"
+	names "espion name"
 	cargo 0
 	personality
 		confusion 30
@@ -631,7 +631,7 @@ fleet "Small Espion Guard"
 	
 fleet "Large Espion Guard"
 	government "MGF: Espion Mining Co."
-	names "civilian"
+	names "espion name"
 	cargo 0
 	personality
 		confusion 25
@@ -649,7 +649,7 @@ fleet "Large Espion Guard"
 
 fleet "Small Crossguard Patrol"
 	government "MGF: Crossguard Patrol"
-	names "civilian"
+	names "crossguard name"
 	cargo 1
 	personality
 		confusion 30
@@ -665,7 +665,7 @@ fleet "Small Crossguard Patrol"
 
 fleet "Large Crossguard Patrol"
 	government "MGF: Crossguard Patrol"
-	names "civilian"
+	names "crossguard name"
 	cargo 1
 	personality
 		confusion 20
