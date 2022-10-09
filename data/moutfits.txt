@@ -69,7 +69,35 @@ outfit "Espion Mining Laser"
 		"hull damage" 3.1
 		"minable damage" 6.2
 	description `Basic mining laser used by Espion miners that is exceptionally effective to asteroids though the damage will dropoff at longer range.`
-		
+
+outfit "Espion Mini-Mining Laser"
+	category "Guns"
+	cost 75000
+	licenses
+		"Espion Employee"
+	thumbnail "outfit/heavy laser"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" .2
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"damage dropoff" 200
+		"dropoff modifier" .2
+		"firing energy" .94
+		"firing heat" 2.47
+		"shield damage" .8
+		"hull damage" 2.
+		"minable damage" 4.3
+	description `Smaller version of Espion mining laser with closer dropoff range at half total range and lower damage and heat efficiency than full-sized.`
+
 outfit "MRF-10 EM Clamp"
 	category "Guns"
 	cost 12000

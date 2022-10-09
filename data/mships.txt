@@ -1612,8 +1612,8 @@ ship "CS-24 Garrison"
 		"heat dissipation" .5
 		"fuel capacity" 1200
 		"cargo space" 150
-		"outfit space" 870
-		"weapon capacity" 500
+		"outfit space" 824
+		"weapon capacity" 425
 		"engine capacity" 165
 		weapon
 			"blast radius" 140
@@ -1632,6 +1632,9 @@ ship "CS-24 Garrison"
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
 		"Laser Rifle" 40
+		
+		"Torpedo Storage Rack" 3
+		"Torpedo" 45
 		
 		"X4200 Ion Steering"
 		"X4700 Ion Thruster"
@@ -1709,7 +1712,7 @@ ship "CSE-6 Steward"
 		"heat dissipation" .5
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 870
+		"outfit space" 686
 		"weapon capacity" 320
 		"engine capacity" 178
 		weapon
@@ -1782,7 +1785,7 @@ ship "EM-8A Armadillo"
 		"heat dissipation" .5
 		"fuel capacity" 800
 		"cargo space" 450
-		"outfit space" 820
+		"outfit space" 633
 		"weapon capacity" 276
 		"engine capacity" 183
 		"hull repair rate" .1
@@ -3113,7 +3116,7 @@ ship "Spetum Class"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 150
-		"outfit space" 1944
+		"outfit space" 1988
 		"weapon capacity" 1064
 		"engine capacity" 350
 		weapon
@@ -3343,7 +3346,7 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"Security Station" 2
 		"Tactical Scanner"
 		
-		"Outfit Expansion" 2
+		"Outfits Expansion" 2
 		"Sidewinder Missile Rack" 7
 		"Sidewinder Missile" 161
 		"Torpedo Storage Rack" 12
@@ -4445,8 +4448,8 @@ ship "Nasprite"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 500
-		"outfit space" 816
-		"weapon capacity" 337
+		"outfit space" 866
+		"weapon capacity" 412
 		"engine capacity" 192
 		weapon
 			"blast radius" 300
@@ -4580,7 +4583,7 @@ ship "CK40T Treibard"
 		"fuel capacity" 800
 		"cargo space" 640
 		"outfit space" 642
-		"weapon capacity" 239
+		"weapon capacity" 245
 		"engine capacity" 142
 		"radar jamming" 60
 		"scan interference" 26
@@ -5255,8 +5258,8 @@ ship "AD-012C Iaphia"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 130
-		"outfit space" 284
-		"weapon capacity" 106
+		"outfit space" 336
+		"weapon capacity" 119
 		"engine capacity" 124
 		weapon
 			"blast radius" 40
@@ -5368,7 +5371,7 @@ ship "TS-650 Herrenbal"
 		"heat dissipation" .65
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 371
+		"outfit space" 379
 		"weapon capacity" 139
 		"engine capacity" 85
 		weapon
@@ -5430,8 +5433,8 @@ ship "TS-CH0 Kratzbal"
 		"heat dissipation" .65
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 629
-		"weapon capacity" 330
+		"outfit space" 668
+		"weapon capacity" 334
 		"engine capacity" 154
 		weapon
 			"blast radius" 140
@@ -5752,8 +5755,8 @@ ship "EP-3 Rat"
 		"drag" 1.5
 		"heat dissipation" .9
 		"cargo space" 0
-		"outfit space" 180
-		"weapon capacity" 72
+		"outfit space" 211
+		"weapon capacity" 74
 		"engine capacity" 66
 		weapon
 			"blast radius" 12
