@@ -4682,7 +4682,7 @@ ship "PCS-5 Citadel"
 	sprite "ship/mgf fw citadel"
 	thumbnail "thumbnail/mgf fw citadel thumb"
 	attributes
-		category "Heavy Freighter"
+		category "Utility"
 		licenses
 			Militia
 		"cost" 46500000
