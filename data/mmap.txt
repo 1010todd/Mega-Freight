@@ -67,12 +67,35 @@ planet Mainsail
 planet Icefall
 	add shipyard "Intrasystem Basic"
 	
+planet Clark
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+
+planet Glaze
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+
 #==========================Espion
 
 planet "New Sahara"
 	add attributes "Espion HQ" "Espion Base"
 	add shipyard "Espion Basic"
 	add shipyard "Espion Advanced"
+	add outfitter "Espion Basic"
+	add outfitter "Espion Advanced"
+	
+planet Heartland
+	add attributes "Espion Base"
+	add shipyard "Espion Basic"
+	add shipyard "MarStel Intermediate"
+	add outfitter "Espion Basic"
+	
+planet Sundrinker
+	add attributes "Espion Base"
+	add shipyard "Espion Basic"
+	add shipyard "Espion Advanced"
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
 	add outfitter "Espion Basic"
 	add outfitter "Espion Advanced"
 	
@@ -95,8 +118,14 @@ system "Lolami"
 	add fleet "Large Espion Guard" 2400
 
 system "Cor Caroli"
+	add fleet "Small Espion Miners" 600
+	add fleet "Large Espion Miners" 3000
+	add fleet "Small Espion Guard" 800
+	add fleet "Large Espion Guard" 1800
+
+system "Turais"
 	add fleet "Small Espion Miners" 800
-	add fleet "Large Espion Miners" 5000
+	add fleet "Large Espion Miners" 4500
 	add fleet "Small Espion Guard" 1000
 	add fleet "Large Espion Guard" 2400
 
@@ -123,6 +152,38 @@ system "Ascella"
 	add fleet "Large Espion Miners" 1800
 	add fleet "Small Espion Guard" 900
 	add fleet "Large Espion Guard" 1800
+
+system "Dschubba"
+	add fleet "Small Espion Miners" 600
+	add fleet "Large Espion Miners" 1000
+	add fleet "Small Espion Guard" 600
+	add fleet "Large Espion Guard" 1800
+
+system "Aldhibain"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 2000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2400
+
+system "Rastaban"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 4000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 3400
+	
+system "Atria"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 2800
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 2400
+	
+system "Unukalhai"
+	add fleet "Small Espion Miners" 800
+	add fleet "Large Espion Miners" 4000
+	add fleet "Small Espion Guard" 1000
+	add fleet "Large Espion Guard" 3400
+	
+
 
 #=================================Crossguard Patrol
 system Acrux

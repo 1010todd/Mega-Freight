@@ -635,6 +635,68 @@ event "mgf: fw converted warships"
 			"Finch" 20
 			"AGT-31 Xencar" 60
 			
+mission "MGF: FW Converted Supercarrier"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: initial deployment 4"
+	on offer
+		event "mgf: fw converted supercarrier" 360
+		
+event "mgf: fw converted supercarrier"
+	shipyard "Southbound Advanced"
+		"PCS-5 Citadel"
+		"SWV4 Ravelin"
+	fleet "Large Free Worlds"
+		add variant 4
+			"PAS-2 Bulwark"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 5
+			"PAS-2 Bulwark"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 1
+			"Eleonorae"
+			"PAS-2 Bulwark"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"Eleonorae"
+			"PAS-2 Bulwark"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"Falcon (Heavy)"
+			"Eleonorae"
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+		add variant 2
+			"Eleonorae" 2
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+		add variant 2
+			"PAS-2 Bulwark"
+			"Bastion" 2
+			"CS-24 Garrison"
+			"Finch" 18
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+		add variant 1
+			"PCS-5 Citadel"
+			"Finch" 44
+			"AGT-31 Xencar" 100
+			"SWV4 Ravelin" 2
+			"Eleonorae" 2
+			"PAS-2 Bulwark" 2
+			"Bastion" 4
+			
 mission "MGF: Add Navy Mark II"
 	landing
 	invisible

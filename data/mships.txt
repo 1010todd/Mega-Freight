@@ -635,7 +635,7 @@ ship "Battle Behemoth"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Heavily modified version of Behemoth."
+	description "To improve upon the Behemoth's already decent combat capability the pirates made extensive modifications to it and turn it into proper warship with large cargo hold perfect for plundering."
 	
 ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
@@ -714,7 +714,7 @@ ship "CH-6 Carrack"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Carrack is a heavy freighter for long range shipping."
+	description "Carrack is an old heavy freighter for long range shipping."
 	
 ship "LCC-3 Sierra"
 	sprite "ship/mgf sierra tanker"
@@ -848,7 +848,7 @@ ship "RF-03 Gerlache"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Old tanker ship dating from early days of space exploration with bays for smaller fuel distribution ships. It also comes with built-in ramscoop. Very few are seen nowadays as the galaxy becomes more inhabited."
+	description "Old fleet tanker ship dating from early days of space exploration where hyperdrives were much more inefficient and inhabited planets were few, it came with bays for smaller fuel distribution ships allowing fuel to be distributed among the fleet faster. It also comes with built-in ramscoop to slowly produce fuel as they travel. Very few are seen nowadays as the galaxy becomes more inhabited."
 	
 	
 ship "FG-5 Bluewhale"
@@ -1181,8 +1181,8 @@ ship "FG-7 Conveyor"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Conveyor is a massive freighter designed and build by Freight Galactic with special mechanism for quickly unloading cargo independent of port equipment and extra ports for resupplying theoretically allowing them to trade much faster than ships of similar size. In practice this is debatable as few ports can keep up with the calculations due to various other factors."
-	description `Conveyor is also capable of carrying a small squadron of fighters to protect itself, due to number of fighters carried almost matching entire capacity of the Navy Carrier there were attempts to have it restricted yet the CEO of the company simply told them to come get an actual carrier. It is rumoured the company is now developing new carrier for the navy.`
+	description "Conveyor is a massive freighter designed and build by Freight Galactic with special mechanism for quickly unloading cargo independent of port equipment and extra ports for resupplying theoretically allowing them to trade much faster than ships of similar size. In practice this is debatable as few ports can keep up with the sheer amount of cargo due to various other factors."
+	description `Conveyor is also capable of carrying a small squadron of fighters to protect itself, due to number of fighters carried almost matching entire capacity of the Navy Carrier there were attempts to have it restricted yet the CEO of the company simply told them to come get an actual carrier. It is rumoured that the company was responsible for the development of the more recent Spetum class carrier.`
 	
 ship "FG-7 Conveyor" "FG-7 Conveyor-A"
 	sprite "ship/mgf conveyor-a"
@@ -1434,7 +1434,7 @@ ship "PCS-4 Castle"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Modified from the FG-7 Conveyor, the Castle rivals even the Navy's Spetum class in terms of raw fighter capacity. However, it still can't compete when it comes to fighter servicing.`
+	description `Modified from the FG-7 Conveyor, the Castle rivals even the Navy's Spetum class in terms of raw fighter capacity. However, it still can't compete when it comes to fighter servicing and ship's combat capability.`
 	
 ship "FTV-33 Acareus"
 	sprite "ship/mgf acareus"
@@ -1496,7 +1496,7 @@ ship "FTV-33 Acareus"
 	engine -179 33 
 	engine 179 33 
 	engine 0 127.5 
-	description `Fancy experimental freighter as more heavily armed alternative to the Carrack.`
+	description `Fancy experimental freighter as more heavily armed alternative to the older Carrack. While relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
@@ -3105,7 +3105,7 @@ ship "Spetum Class"
 		"cost" 28200000
 		"shields" 27800
 		"hull" 12600
-		"hull repair rate" .1
+		"hull repair rate" .4
 		"required crew" 525
 		"bunks" 822
 		"mass" 5805
@@ -3611,7 +3611,7 @@ ship "Lucerne Class"
 		"cost" 88700000
 		"shields" 141500
 		"hull" 128800
-		"hull repair rate" .5
+		"hull repair rate" .6
 		"required crew" 1550
 		"bunks" 2200
 		"mass" 35685
@@ -4516,7 +4516,7 @@ ship "CK50T Stahbar"
 		"hull" 12800
 		"required crew" 26
 		"bunks" 86
-		"mass" 2845
+		"mass" 3845
 		"drag" 18.2
 		"heat dissipation" .45
 		"fuel capacity" 800
@@ -4562,8 +4562,446 @@ ship "CK50T Stahbar"
 	turret 9 110.5 "Proton Turret"
 	engine -38.5 226.5 
 	engine 38.5 226.5 
-	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on.`
+	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on. According to the company representative however, this feature was an accident as they're developing their coating.`
 	
+ship "CK40T Treibard"
+	sprite "ship/mgf treibard"
+	thumbnail "thumbnail/mgf treibard thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8900000
+		"shields" 10200
+		"hull" 9800
+		"required crew" 18
+		"bunks" 65
+		"mass" 2058
+		"drag" 18.2
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 640
+		"outfit space" 642
+		"weapon capacity" 239
+		"engine capacity" 142
+		"radar jamming" 60
+		"scan interference" 26
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Torpedo Launcher" 3
+		"Torpedo" 90
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 2
+		
+		"Fission Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 40
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun 35 -204.5 
+	gun 48.5 -193.5 
+	gun -28.5 -195 
+	turret 31.5 -167 "Quad Blaster Turret"
+	turret -48.5 -148.5 "Quad Blaster Turret"
+	turret -8.5 -89 "Heavy Anti-Missile Turret"
+	turret 3 -8 "Proton Turret" 
+	turret 56.5 51 "Heavy Anti-Missile Turret"
+	turret 3 155 "Proton Turret" 
+	engine -36.5 236.5 
+	engine 36.5 236.5 
+	description `Smaller and cheaper version of the company's CK50T Stahbar with improved anti-radar capability and lighter armament.`
+	
+ship "CK80T Tlielart"
+	sprite "ship/mgf tlielart cargocargo"
+	thumbnail "thumbnail/mgf tlielart cargocargo thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 46500000
+		"shields" 22500
+		"hull" 21880
+		"required crew" 42
+		"bunks" 162
+		"mass" 8459
+		"drag" 58.5
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 6800 #5100 front, 850*2 rear
+		"outfit space" 872
+		"weapon capacity" 312
+		"engine capacity" 219
+		"radar jamming" 30
+		"scan interference" 12
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 5
+		
+		"Fusion Reactor"
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 80
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Scram Drive"
+	
+	turret 253.5 -223.5 "Proton Turret"
+	turret -253.5 -223.5 "Proton Turret"
+	turret 253.5 -171 "Heavy Anti-Missile Turret"
+	turret -253.5 -171 "Heavy Anti-Missile Turret"
+	turret 253.5 -118 
+	turret -253.5 -118 
+	turret 194.5 -8 "Proton Turret"
+	turret -194.5 -8 "Proton Turret"
+	turret 232 29 "Heavy Anti-Missile Turret"
+	turret -232 29 "Heavy Anti-Missile Turret"
+	turret 0 275.5 "Proton Turret"
+	engine -46.5 397 
+	engine 46.5 397 
+	description `Massive freighter developed to carry as much cargo as possible, and did so exceeding the capacity of every other ship by far. Though unlike the other ship from MarStel Industries, it is very lightly armed relative to cargo capacity to protect itself or speed to dodge any raider and will require decent escort to safely travel.`
+	description `Though it carried more than most, if not all, freighter in human space the sheer amount of cargo that have to be unloaded will require ungodly amount of time, equipment, and manpower, which only get worse when loading cargo. Any less than well developed urban spaceport would struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
+
+ship "PCS-5 Citadel"
+	sprite "ship/mgf fw citadel"
+	thumbnail "thumbnail/mgf fw citadel thumb"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			Militia
+		"cost" 46500000
+		"shields" 28500
+		"hull" 20800
+		"required crew" 188
+		"bunks" 241
+		"mass" 8025
+		"drag" 58.5
+		"heat dissipation" .45
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 962
+		"weapon capacity" 312
+		"engine capacity" 219
+		"radar jamming" 30
+		"scan interference" 10
+		"hull repair rate" .2
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 5
+		
+		"Fusion Reactor"
+		"Fission Reactor" 2
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 180
+		
+		"Heavy Rocket Rack" 12 #10 each
+		"Heavy Rocket" 120
+		"Javelin Storage Crate" 12
+		"Javelin" 1200
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Scram Drive"
+	
+	turret 253.5 -223.5 "Proton Turret"
+	turret -253.5 -223.5 "Proton Turret"
+	turret 253.5 -171 "Heavy Anti-Missile Turret"
+	turret -253.5 -171 "Heavy Anti-Missile Turret"
+	turret 253.5 -118 
+	turret -253.5 -118 
+	turret 194.5 -8 "Proton Turret"
+	turret -194.5 -8 "Proton Turret"
+	turret 232 29 "Heavy Anti-Missile Turret"
+	turret -232 29 "Heavy Anti-Missile Turret"
+	turret 0 275.5 "Proton Turret"
+	bay "Pocket Medium Warship" -105 -152 
+		over
+	bay "Pocket Medium Warship" 105 -152 
+		over
+	bay "Pocket Light Warship" -67.5 -56 
+		angle -45
+	bay "Pocket Light Warship" 67.5 -56 
+		angle 45
+	bay "Pocket Light Warship" -67.5 -56 
+		angle -45
+	bay "Pocket Light Warship" 67.5 -56 
+		angle 45
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	bay "Fighter" -58.5 -274 
+	bay "Fighter" 58.5 -274 
+	bay "Fighter" -102.5 -274 
+	bay "Fighter" 102.5 -274 
+	bay "Fighter" -157.5 -274 
+	bay "Fighter" 157.5 -274 
+	bay "Fighter" -157.5 -313 
+	bay "Fighter" 157.5 -313 
+	bay "Fighter" -102.5 -313 
+	bay "Fighter" 102.5 -313 
+	bay "Fighter" -60 -313 
+	bay "Fighter" 60 -313 
+	engine -46.5 397 
+	engine 46.5 397 
+	bay "Fighter" 147.5 236.5 
+		angle 135
+	bay "Fighter" -147.5 236.5 
+		angle -135
+	bay "Fighter" 208 178.5 
+		angle 135
+	bay "Fighter" -208 178.5 
+		angle -135
+	bay "Fighter" 163.5 260.5 
+		angle 135
+	bay "Fighter" -163.5 260.5 
+		angle -135
+	bay "Fighter" 223 201 
+		angle 135
+	bay "Fighter" -223 201 
+		angle -135
+	bay "Fighter" 164.5 273 
+		angle 135
+	bay "Fighter" -164.5 273 
+		angle -135
+	bay "Fighter" 237.5 201 
+		angle 135
+	bay "Fighter" -237.5 201 
+		angle -135
+	bay "Fighter" 147.5 236.5 
+		angle 135
+	bay "Fighter" -147.5 236.5 
+		angle -135
+	bay "Fighter" 208 178.5 
+		angle 135
+	bay "Fighter" -208 178.5 
+		angle -135
+	bay "Fighter" 163.5 260.5 
+		angle 135
+	bay "Fighter" -163.5 260.5 
+		angle -135
+	bay "Fighter" 223 201 
+		angle 135
+	bay "Fighter" -223 201 
+		angle -135
+	bay "Fighter" 164.5 273 
+		angle 135
+	bay "Fighter" -164.5 273 
+		angle -135
+	bay "Fighter" 237.5 201 
+		angle 135
+	bay "Fighter" -237.5 201 
+		angle -135
+	bay "Fighter" 147.5 236.5 
+		angle 135
+	bay "Fighter" -147.5 236.5 
+		angle -135
+	bay "Fighter" 208 178.5 
+		angle 135
+	bay "Fighter" -208 178.5 
+		angle -135
+	bay "Fighter" 163.5 260.5 
+		angle 135
+	bay "Fighter" -163.5 260.5 
+		angle -135
+	bay "Fighter" 223 201 
+		angle 135
+	bay "Fighter" -223 201 
+		angle -135
+	bay "Fighter" 164.5 273 
+		angle 135
+	bay "Fighter" -164.5 273 
+		angle -135
+	bay "Fighter" 237.5 201 
+		angle 135
+	bay "Fighter" -237.5 201 
+		angle -135
+	bay "Pocket Light Warship" 195.5 236.5 
+		angle 135
+	bay "Pocket Light Warship" -195.5 236.5 
+		angle -135
+	bay "Pocket Light Warship" 195.5 236.5 
+		angle 135
+	bay "Pocket Light Warship" -195.5 236.5 
+		angle -135
+	description `With the formation of the Free Worlds and them looking for carriers, MarStel Industries took this opportunity to convert the Tlielart into full fledged carrier however the development took too long and they were too late as the Free Worlds ended up picking others as their carrier. Though, thanks to its massive size it's capable of carrying enormous amount of fighter as well as larger carried ships unmatched by any other carrier at the time of its development. Due to this it got some interest as mobile service station for the Free Worlds patrol fleets and got adopted as part of the Free Worlds navy after some modification to improve its capability.`
+
+
+ship "SWV4 Ravelin"
+	sprite "ship/bastion" #Todo custom sprite?
+	thumbnail "thumbnail/bastion"
+	attributes
+		category "Pocket Medium Warship"
+		"cost" 3860000
+		"shields" 7500
+		"hull" 4700
+		"required crew" 17
+		"bunks" 40
+		"mass" 580
+		"drag" 10.3
+		"heat dissipation" .5
+		"fuel capacity" 200 #For flamers maybe
+		"cargo space" 10
+		"outfit space" 594
+		"weapon capacity" 184
+		"engine capacity" 140
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Plasma Cannon" 2
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 60
+		"Heavy Rocket Rack" 2
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret"
+		
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Tactical Scanner"
+		"Laser Rifle" 7
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		
+	engine 31.5 89.5
+	engine -31.5 89.5
+	gun 52.5 -0.5 "Heavy Rocket Launcher"
+	gun 52.5 -0.5 "Plasma Cannon"
+	gun -52.5 -0.5 "Heavy Rocket Launcher"
+	gun -52.5 -0.5 "Plasma Cannon"
+	turret 35.5 29.5 "Quad Blaster Turret"
+	turret -35.5 29.5 "Quad Blaster Turret"
+	turret 0 0.5 "Heavy Anti-Missile Turret"
+	leak "leak" 40 50
+	leak "flame" 40 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 5
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion medium"
+	description "Modified version of the Southbound Shipyards Bastion into a carried version for the recently developed carrier PCS-5 Citadel. Removing now unnecessary hyperdrive and fuel for extra space for other systems."
+
+
 ship "PF-80 Intrepid"
 	sprite "ship/mgf intrepid"
 	thumbnail "thumbnail/mgf intrepid thumb"

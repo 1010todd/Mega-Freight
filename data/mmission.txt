@@ -957,3 +957,85 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2 (Lucerne)"
 				"Lance" 6
 				"Frigate (Mark II)" 2
 				
+#==================================Plugin Addition
+# Adding additional fleets to plugin missions.
+mission "MGF Addition: ATHI: NI Quarg Assistance 2"
+	landing
+	invisible
+	source "Alta Hai"
+	destination Farpoint
+	to offer
+		has "ATHI: NI Quarg Assistance: done"
+		
+	npc
+		government "Navy (Oathkeeper)"
+		personality heroic staying
+		system Alnitak
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Spetum Class (Mark II)"
+				"Lance" 20
+				"A-14F Rondel" 60
+				"Combat Drone" 24
+				"Culverin Class (Mark II)"
+				"Lance" 2
+				"Carrier (Mark II)" 2
+				"Lance" 8
+				"Combat Drone" 12
+				"Cruiser (Mark II)" 2
+				"Combat Drone" 8
+				"Frigate (Mark II)" 4
+				"Rainmaker (Mark II)" 2
+				"Gunboat (Mark II)" 4
+	npc
+		to despawn
+			has "event: mgf: Lucerne Deployment" 
+		government "Republic"
+		personality heroic staying entering
+		system Alnitak
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Spetum Class (Mark II)"
+				"Lance" 20
+				"A-14F Rondel" 60
+				"Combat Drone" 24
+				"Culverin Class (Mark II)"
+				"Lance" 2
+				"Carrier (Mark II)" 2
+				"Lance" 8
+				"Combat Drone" 12
+				"Cruiser (Mark II)" 2
+				"Combat Drone" 8
+				"Frigate (Mark II)" 4
+				"Rainmaker (Mark II)" 2
+				"Gunboat (Mark II)" 4
+				
+	npc
+		to spawn
+			has "event: mgf: Lucerne Deployment" 
+		government "Republic"
+		personality heroic staying entering
+		system Alnitak
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Lucerne Class"
+				"Lance" 116
+				"A-14F Rondel" 100
+				"Combat Drone" 64
+				"Spetum Class (Mark II)"
+				"Lance" 40
+				"A-14F Rondel" 40
+				"Combat Drone" 24
+				"Culverin Class (Mark II)" 4
+				"Lance" 6
+				"Cruiser (Mark II)" 6
+				"Combat Drone" 24
+				"Frigate (Mark II)" 12
+				"Rainmaker (Mark II)" 8
+				"Gunboat (Mark II)" 12

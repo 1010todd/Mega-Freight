@@ -93,6 +93,18 @@ fleet "Large Southern Merchants"
 		"CK50T Stahbar"
 	add variant 1
 		"AD-019A Iabayi"
+		
+	add variant 6
+		"CK40T Treibard"
+		"Headhunter"
+	add variant 1
+		"Tlielart (Cargo Carrier)"
+		"Dagger" 12
+		"AGT-31 Xencar" 24
+	add variant 1
+		"Tlielart (Cargo Engine)"
+		"Corvette" 2
+		"Manta" 2
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -242,6 +254,14 @@ fleet "Large Core Merchants"
 		"AsK12-6 Celjurai"
 		"Quicksilver" 3
 		
+	add variant 1
+		"CK80T Tlielart"
+		"Vanguard"
+		"Manta" 2
+	add variant 1
+		"Tlielart (Cargo Engine)"
+		"Manta" 2
+		"Quicksilver" 3
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -273,6 +293,13 @@ fleet "Paradise Merchants"
 		"AD-019A Iabayi"
 	add variant 4
 		"AsK12-6 Celjurai"
+	add variant 3
+		"CK40T Treibard"
+	add variant 1
+		"CK80T Tlielart"
+	add variant 1
+		"Tlielart (Cargo Engine)"
+		
 
 fleet "Small Northern Merchants"
 	add variant 10
@@ -405,6 +432,18 @@ fleet "Large Northern Merchants"
 	add variant 4
 		"AsK12-6 Celjurai"
 		"Corvette"
+	add variant 2
+		"CK40T Treibard"
+	add variant 2
+		"CK40T Treibard"
+		"Firebird"
+	add variant 1
+		"CK80T Tlielart"
+		"CSE-6 Steward" #6
+		"Dagger" 6
+	add variant 1
+		"Tlielart (Cargo Carrier)"
+		"Dagger" 36
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -438,6 +477,12 @@ fleet "Large Human Merchants (Hai)"
 		"AD-012C Iaphia"
 	add variant 1
 		"AD-019A Iabayi"
+		
+	add variant 1
+		"CK80T Tlielart"
+		"Firebird" 2
+	add variant 2
+		"CK40T Treibard" 2
 	
 fleet "Human Miners"
 	add variant 3
@@ -451,7 +496,7 @@ fleet "Human Miners"
 		"Barb (Proton)" 2
 		"Boxwing" 2
 		
-	add variant 1
+	add variant 2
 		"Sparrow (Chainsaw)"
 		
 fleet "Intrasystem Merchants"
