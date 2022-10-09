@@ -28,10 +28,10 @@ fleet "Small Southern Merchants"
 fleet "Large Southern Merchants"
 	add variant 6
 		"CH-6 Carrack"
-		"Lance" 5
+		"Lance" 4
 	add variant 12
 		"CH-6 Carrack"
-		"Lance" 5
+		"Lance" 4
 		"Hawk" 3
 	add variant 5
 		"LCC-3 Sierra"
@@ -300,6 +300,10 @@ fleet "Paradise Merchants"
 	add variant 1
 		"Tlielart (Cargo Engine)"
 		
+	add variant 1
+		"CH-6 Carrack (Atomic I)"
+		"AGT-31 Xencar" 4
+		
 
 fleet "Small Northern Merchants"
 	add variant 10
@@ -445,6 +449,10 @@ fleet "Large Northern Merchants"
 		"Tlielart (Cargo Carrier)"
 		"Dagger" 36
 		
+	add variant 3
+		"CH-6 Carrack (Atomic I)"
+		"AGT-31 Xencar" 4
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -513,13 +521,60 @@ fleet "Intrasystem Merchants"
 	variant 10
 		"Wisymton"
 		
+fleet "Rangphenn Transport"
+	government "MGF: Rangphenn Transport"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 30
+		timid frugal appeasing
+	variant 50
+		"TS-CH0 Kratzbal"
+		"Quicksilver (Rangphenn Escort)" 3
+	variant 60
+		"Herrenbal (Long Range)"
+		"Quicksilver (Rangphenn Escort)" 3
+	variant 20
+		"TS-CH0 Kratzbal" 2
+		"Quicksilver (Rangphenn Escort)" 4
+	variant 30
+		"Herrenbal (Long Range)" 3
+		"Quicksilver (Rangphenn Escort)" 5
+		
+fleet "Jacks Gang"
+	government "MGF: Jack's Gang"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 30
+		heroic appeasing
+	variant 50
+		"CH-6 Carrack (Atomic I)"
+		"AGT-31 Xencar" 4
+		"CH-6 Carrack (Atomic II)"
+		"AGT-31 Xencar" 4
+		"CH-6 Carrack (Atomic, Jacks)"
+		"AGT-31 Xencar" 4
+	variant 60
+		"PF-80 Intrepid (Atomic, Jacks)" 2
+		"CH-6 Carrack (Atomic, Jacks)"
+		"AGT-31 Xencar" 4
+	variant 20
+		"PF-80 Intrepid (Atomic, Jacks)" 3
+		"Behemoth (Atomic, Jacks)"
+	variant 30
+		"CH-6 Carrack (Atomic, Jacks)"
+		"AGT-31 Xencar" 4
+		"PF-80 Intrepid (Atomic, Jacks)" 2
+		"Behemoth (Atomic, Jacks)"
+		
 fleet "Small Espion Miners"
 	government "MGF: Espion Mining Co."
 	names "civilian"
 	cargo 0
 	personality
 		confusion 40
-		timid frugal appeasing
+		mining harvests timid frugal appeasing
 	variant 10
 		"Sparrow"
 	variant 8
@@ -535,7 +590,7 @@ fleet "Large Espion Miners"
 	cargo 0
 	personality
 		confusion 30
-		timid frugal appeasing
+		mining harvests timid frugal appeasing
 	variant 10
 		"EM-8A Armadillo"
 		"EP-2 Marmot" 8
@@ -767,6 +822,20 @@ fleet "Small Ugyr Harasser"
 		"Shuttle (Kamikaze)" 3
 	variant 1
 		"Star Barge (Bare, Q-Bomb)"
+		
+fleet "Small Shadow Rakin"
+	government "MGF: Shadow Rakin"
+	names "pirate"
+	cargo 0
+	personality
+		confusion 40
+		mining harvests timid frugal plunders
+	variant 10
+		"Sparrow"
+	variant 5
+		"CF-50 Cart"
+	variant 8
+		"Sparrow (Chainsaw)"
 #===============================FW
 		
 fleet "Large Militia"

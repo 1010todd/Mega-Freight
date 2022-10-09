@@ -148,6 +148,7 @@ outfitter developer
 	"AH-5 Eteron Launch System"
 	"AH-5 Eteron Torpedo"
 	"KC-344 Chainsaw"
+	"JX-2 Overdriven Gatling Turret"
 	
 shipyard "Basic Ships"
 	"CF-50 Cart"

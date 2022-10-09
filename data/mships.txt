@@ -660,17 +660,18 @@ ship "CH-6 Carrack"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Proton Turret" 2
+		"Proton Turret" 6
 		"Heavy Anti-Missile Turret" 3
 		
 		"Fission Reactor"
-		"Liquid Nitrogen Cooler"
-		"LP144a Battery Pack"
-		"D23-QP Shield Generator"
+		"LP288a Battery Pack"
+		"D47-HY Shield Generator"
 		"Laser Rifle" 4
 		
-		"A525 Atomic Steering"
-		"A370 Atomic Thruster"
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		#"A525 Atomic Steering"
+		#"A370 Atomic Thruster"
 		"Scram Drive"
 		
 	turret -47 -260

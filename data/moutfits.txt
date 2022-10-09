@@ -98,6 +98,52 @@ outfit "Espion Mini-Mining Laser"
 		"minable damage" 4.3
 	description `Smaller version of Espion mining laser with closer dropoff range at half total range and lower damage and heat efficiency than full-sized.`
 
+outfit "JX-2 Overdriven Gatling Turret"
+	category "Turrets"
+	cost 180000
+	thumbnail "outfit/mgf overdriven gatling turret"
+	"mass" 12
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	"gatling round capacity" 12000
+	"active cooling" 2
+	"cooling energy" 3
+	weapon
+		sprite "projectile/tinyflare"
+			"random start frame"
+		sound "gatling"
+		"hardpoint sprite" "hardpoint/mgf overdriven gatling hp"
+		"hardpoint offset" 2.
+		ammo "Gatling Gun Ammo" 2
+		icon "icon/gat"
+		"inaccuracy" 1.5
+		"turret turn" 4.5
+		"velocity" 16
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .05
+		"firing heat" 2
+		"submunition" "jx1gbullet" 2
+		"cluster"
+		"hit effect" "bullet impact"
+	description "Heavily modified version of pirate gatling gun with active cooling to negate the heat generated and permits continuous firing as well as improved mechanism and refitted parts for better reliability and performance. The tool marking and finishes on this seems to indicate it was handmade and not a mass-produced weapon, likely from some privateer that happen to get their hands on it from plundering pirates and was disappointed with its performance."
+	
+outfit "jx1gbullet"
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"random velocity" 2
+		"velocity" 6
+		"lifetime" 25
+		"random lifetime" 5
+		"shield damage" 3.2
+		"hull damage" 6.2
+		"hit force" 2.5
+		"hit effect" "bullet impact"
+	
 outfit "MRF-10 EM Clamp"
 	category "Guns"
 	cost 12000
