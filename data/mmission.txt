@@ -733,14 +733,15 @@ mission "MGF: Mieusbar Release Announcement"
 	to offer
 		has "event: mgf: mieusbar released"
 	on offer
-		scene "thumbnail/mgf mieusbar thumb"
-		`You see a few people gathered around the TV screen and join in to see what's going on; the news show live video of a release ceremony of a new transport ship produced in cooperation between Vessa Shipworks and Southbound Shipyard funded by the southern worlds. The TS-1L260 Mieusbar was designed to transport nearly 700 passengers across vast distance with its large fuel storage and could be armed with up to 17 turrets. It is currently the largest transport available, carrying more than twice of the so-called city-ship of the Deep. It is said to help drive the economy in the south by providing economic transport for migrating workers and low-budget tourists.`
-		`	The ship is now available for purchase at Southbound Shipyard in Zug and Rust in Zubeneschamali system and Kraz system respectively.`
-		choice
-			`	(Mark the planet for visit)`
-				accept
-			`	(Leave)`
-				decline
+		conversation
+			scene "thumbnail/mgf mieusbar thumb"
+			`You see a few people gathered around the TV screen and join in to see what's going on; the news show live video of a release ceremony of a new transport ship produced in cooperation between Vessa Shipworks and Southbound Shipyard funded by the southern worlds. The TS-1L260 Mieusbar was designed to transport nearly 700 passengers across vast distance with its large fuel storage and could be armed with up to 17 turrets. It is currently the largest transport available, carrying more than twice of the so-called city-ship of the Deep. It is said to help drive the economy in the south by providing economic transport for migrating workers and low-budget tourists.`
+			`	The ship is now available for purchase at Southbound Shipyard in Zug and Rust in Zubeneschamali system and Kraz system respectively.`
+			choice
+				`	(Mark the planet for visit)`
+					accept
+				`	(Leave)`
+					decline
 	
 		
 #=====================Story Mission Addition
