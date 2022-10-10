@@ -4639,7 +4639,7 @@ ship "CK80T Tlielart"
 		"fuel capacity" 1200
 		"cargo space" 6800 #5100 front, 850*2 rear
 		"outfit space" 872
-		"weapon capacity" 312
+		"weapon capacity" 348
 		"engine capacity" 219
 		"radar jamming" 30
 		"scan interference" 12
@@ -4696,8 +4696,8 @@ ship "PCS-5 Citadel"
 		"heat dissipation" .45
 		"fuel capacity" 1200
 		"cargo space" 120
-		"outfit space" 962
-		"weapon capacity" 312
+		"outfit space" 1128
+		"weapon capacity" 388
 		"engine capacity" 219
 		"radar jamming" 30
 		"scan interference" 10
