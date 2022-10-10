@@ -460,7 +460,7 @@ outfit "V47 Plasma-Railgun"
 		"hit force" 100
 		"shield damage" 1684
 		"hull damage" 486
-	description "Large anti-shield turret that can fire projectiles at high velocity consuming enormous amount of power."
+	description "Large anti-shield railgun developed by the Navy that can fire projectiles at high velocity consuming enormous amount of power."
 	
 outfit "V47 Plasma-Railgun Turret"
 	category "Turrets"
