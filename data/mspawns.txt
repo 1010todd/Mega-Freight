@@ -504,14 +504,6 @@ event "MGF: Southern Merchant Upgrade I"
 			"CSE-6 Steward" 2
 			"Lance" 6
 			"AGT-31 Xencar" 6
-
-mission "MGF: Mieusbar Release Trigger"
-	landing
-	invisible
-	to offer
-		has "event: war begins"
-	on offer
-		event "mgf: mieusbar released" 360
 		
 event "mgf: mieusbar released"
 	date 21 4 3014
@@ -539,7 +531,35 @@ event "mgf: mieusbar released"
 		add variant 1
 			"TS-1L260 Mieusbar"
 			"Quicksilver" 3
-	
+			
+event "mgf: ialmuslati released"
+	date 6 10 3014
+	shipyard "Betelgeuse Advanced"
+		"AD-0032 Ialmuslati"
+	shipyard "Lionheart Basics"
+		"AD-0032 Ialmuslati"
+	shipyard "Luxury Ships"
+		"AD-0032 Ialmuslati"
+	fleet "Small Northern Merchants"
+		add variant 4
+			"AD-0032 Ialmuslati"
+		add variant 3
+			"Ialmuslati (Hyperdrive)"
+	fleet "Large Northern Merchants"
+		add variant 2
+			"AD-0032 Ialmuslati" 2
+			"Corvette"
+	fleet "Paradise Merchants" 
+		add variant 8
+			"AD-0032 Ialmuslati"
+		add variant 4
+			"Ialmuslati (Hyperdrive)"
+	fleet "Small Core Merchants"
+		add variant 1
+			"AD-0032 Ialmuslati"
+		add variant 1
+			"Ialmuslati (Hyperdrive)"
+			
 #=========================Event Additions
 
 

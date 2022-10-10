@@ -479,6 +479,211 @@ mission "MGF CNY: Escort (Huge 1, Dangerous Origin)"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
+mission "MGF: Huge Passengers [0]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Due to last minute cancellation, this transport agency is looking for ships to bring <fare> to <destination>. Payment is <payment>."
+	passengers 200 700 .9
+	to offer
+		random < 40
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 8000 100
+		dialog phrase "generic passenger dropoff payment"
+
+mission "MGF: well-off tourists out [0]"
+	name "Bring well-off tourists to <planet>"
+	job
+	repeat
+	description "These <bunks> well-off tourists want to see <destination>. They are willing to pay you <payment>."
+	passengers 2 10 .8
+	to offer
+		random < 70
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite" #Incase other plugin add anything similar.
+			require "Business-class Accommodations"
+	source
+		attributes "rich" "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "tourism"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 7000 50
+		dialog phrase "generic passenger dropoff payment"
+		
+mission "MGF: well-off tourists out [1]"
+	name "Bring well-off tourists to <planet>"
+	job
+	repeat
+	description "These <bunks> well-off tourists want to see <destination>. They are willing to pay you <payment>."
+	passengers 2 10 .8
+	to offer
+		random < 60
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite"
+			require "Business-class Accommodations"
+	source
+		attributes "rich" "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "tourism"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 100
+		dialog phrase "generic passenger dropoff payment"
+
+mission "MGF: well-off tourists back [0]"
+	name "Bring well-off tourists home to <planet>"
+	job
+	repeat
+	description "These <bunks> well-off tourists are headed home to <destination>. They are willing to pay you <payment>."
+	passengers 2 10 .8
+	to offer
+		random < 70
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite"
+			require "Business-class Accommodations"
+	source
+		attributes "tourism"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "rich" "urban"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 7000 50
+		dialog phrase "generic passenger dropoff payment"
+
+mission "MGF: well-off tourists back [1]"
+	name "Bring well-off tourists home to <planet>"
+	job
+	repeat
+	description "These <bunks> well-off tourists are headed home to <destination>. They are willing to pay you <payment>."
+	passengers 2 10 .8
+	to offer
+		random < 60
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite"
+			require "Business-class Accommodations"
+	source
+		attributes "tourism"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "rich" "urban"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 8000 100
+		dialog phrase "generic passenger dropoff payment"
+
+mission "MGF: transport businessman [0]"
+	name "Bring businessman to <planet>"
+	job
+	repeat
+	deadline 
+	description "This group of <bunks> businessman need to travel to <destination> by <date>. They are will to pay you <payment>."
+	passengers 1 4 .5
+	to offer
+		random < 70
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite" #Incase other plugin add anything similar.
+			require "Business-class Accommodations"
+	source
+		attributes "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "urban"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 12000 50
+		dialog phrase "generic passenger dropoff payment"
+		
+mission "MGF: transport businessman [1]"
+	name "Bring businessman to <planet>"
+	job
+	repeat
+	deadline 
+	description "This group of <bunks> businessman need to travel to <destination> by <date>. They are will to pay you <payment>."
+	passengers 1 4 .5
+	to offer
+		random < 60
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite" #Incase other plugin add anything similar.
+			require "Business-class Accommodations"
+	source
+		attributes "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "urban"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 14000 75
+		dialog phrase "generic passenger dropoff payment"
+		
+mission "MGF: transport businessman [2]"
+	name "Bring businessman to <planet>"
+	job
+	repeat
+	deadline 1 1
+	description "This group of <bunks> businessman need to travel to <destination> by <date>. They are will to pay you <payment>."
+	passengers 1 4 .5
+	to offer
+		random < 30
+	on offer
+		or
+			require "AJ-5 Business-class Suite"
+			require "Business-class Suite" #Incase other plugin add anything similar.
+			require "Business-class Accommodations"
+	source
+		attributes "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "urban"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 16000 150
+		dialog phrase "generic passenger dropoff payment"
+
 mission "MGF: Mine Titanium Small"
 	name "Mine Titanium"
 	description "Someone wants a delivery of 30 tons of raw Titanium, mine it and return to <origin> before <date> for payment of <payment>."

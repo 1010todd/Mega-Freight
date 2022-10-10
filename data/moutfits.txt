@@ -1366,6 +1366,16 @@ outfit "NX-40k Repair Center"
 	"required crew" 25
 	description ""
 	
+outfit "AJ-5 Business-class Suite"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/luxury accommodations"
+	"mass" 5
+	"outfit space" -5
+	"required crew" 1
+	"unplunderable" 1
+	description "More spacious rooms with few more utilities and decoration made by Najrmalas Shipworks that offer more comfort and style for passengers who are willing to offer more."
+
 outfit "Espion Value Detector"
 	category "Systems"
 	cost 285570

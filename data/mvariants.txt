@@ -119,6 +119,23 @@ ship "Behemoth" "Behemoth (Atomic, Jacks)"
 		"A375 Atomic Steering"
 		"Scram Drive"
 		
+ship "AD-0032 Ialmuslati" "Ialmuslati (Hyperdrive)"
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Quad Blaster Turret" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 60
+		
+		"nGVF-EE Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"AJ-5 Business-class Suite"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
 ship "Modified Argosy" "Modified Argosy (Black Death)"
 	outfits
 		"Mixture-DX Corrosive Thrower" 2

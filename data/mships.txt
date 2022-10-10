@@ -5361,7 +5361,69 @@ ship "AD-019A Iabayi"
 		zoom .8
 	engine 59 173
 		zoom .8
-	description `Expensive and fancy freighter for those who want to fly a freighter that doesn't look like a freighter.`
+	description `Larger fancy freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distance.`
+	
+ship "AD-0032 Ialmuslati"
+	sprite "ship/mgf ialmuslati"
+		"random start frame" #For random lights on/off
+		"frame rate" 0
+	thumbnail "thumbnail/mgf ialmuslati thumb"
+	attributes
+		category "Transport"
+		"cost" 1420000
+		"shields" 3120
+		"hull" 1850
+		"required crew" 6
+		"bunks" 48
+		"mass" 243
+		"drag" 5.2
+		"heat dissipation" .75
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 452
+		"weapon capacity" 156
+		"engine capacity" 162
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Quad Blaster Turret" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 60
+		
+		"nGVF-EE Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"AJ-5 Business-class Suite"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		
+	gun -16.5 -117.5 
+	gun 16.5 -117.5 
+	turret -19.5 -64 "Quad Blaster Turret"
+	turret 19.5 -64 "Quad Blaster Turret"
+	turret -18.5 63.5 "Heavy Anti-Missile Turret"
+	turret 18.5 63.5 "Heavy Anti-Missile Turret"
+	engine -13.5 96 
+		zoom .6
+	engine 13.5 96
+		zoom .6
+	engine -39 119.5 
+	engine 39 119.5 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Fast mid-sized transport offered by Najrmalas Shipworks seeing the few competitor. The Ialmuslati while expensive it offers more speed as well as business-class suite for better-paying customers.`
+	
 	#req|round10(bnk)|0
 ship "TS-650 Herrenbal"
 	sprite "ship/mgf herrenbal"

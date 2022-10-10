@@ -725,6 +725,7 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 		fail
 		
 mission "MGF: Mieusbar Release Announcement"
+	landing
 	name `Check out new ship`
 	description `You marked <destination> for visiting later to check out the new space liner "TS-1L260 Mieusbar" they just released. (NOTE: Marker will be removed when you visit.)`
 	source
@@ -732,6 +733,8 @@ mission "MGF: Mieusbar Release Announcement"
 	destination Zug
 	to offer
 		has "event: mgf: mieusbar released"
+		#not "month" >= 5
+		#"year" == 3014
 	on offer
 		conversation
 			scene "thumbnail/mgf mieusbar thumb"
@@ -742,7 +745,28 @@ mission "MGF: Mieusbar Release Announcement"
 					accept
 				`	(Leave)`
 					decline
-	
+					
+mission "MGF: Ialmuslati Release Announcement"
+	landing
+	name `Check out new ship`
+	description `You marked <destination> for visiting later to check out the new transport "AD-0032 Ialmuslati" they just released. (NOTE: Marker will be removed when you visit.)`
+	source
+		government "Republic" "Free Worlds" "Syndicate"
+	destination Follower
+	to offer
+		has "event: mgf: ialmuslati released"
+		#not "month" >= 10
+		#"year" == 3014
+	on offer
+		conversation
+			scene "thumbnail/mgf ialmuslati thumb"
+			`You noticed the TV screen seems to be broadcasting something that attracts some eyes on it, especially the richer-looking captains; the screen shows live feed of a new ship being launched by Najrmalas Shipworks at Follower in Alphard system. There's not much detail available about it except having more spacious interior for potentially more-paying passengers.`
+			`	The ship is now available for purchase at Southbound Shipyard in Zug and Rust in Zubeneschamali system and Kraz system respectively.`
+			choice
+				`	(Mark the planet for visit)`
+					accept
+				`	(Leave)`
+					decline
 		
 #=====================Story Mission Addition
 
