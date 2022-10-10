@@ -499,6 +499,28 @@ mission "MGF: Huge Passengers [0]"
 		payment 8000 100
 		dialog phrase "generic passenger dropoff payment"
 
+mission "MGF: Huge Syndi Workers [0]"
+	name "Workers to <planet>"
+	job
+	repeat
+	description "This transport agency is looking for ships to transport <bunks> of workers to <destination>. Payment is <payment>."
+	passengers 200 700 .9
+	to offer
+		has "event: mgf: mieusbar released"
+		random < 30
+	source
+		government "Syndicate"
+	destination
+		distance 4 30
+		attributes "factory" "manufacturing" "shipyard"
+		government "Free Worlds"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment
+		payment 6000 50
+		dialog phrase "generic passenger dropoff payment"
+
 mission "MGF: well-off tourists out [0]"
 	name "Bring well-off tourists to <planet>"
 	job
