@@ -18,6 +18,7 @@ shipyard developer
 	"Battle Behemoth"
 	"Culverin Class"
 	"Spetum Class"
+	"Spetum Class (Mark II)"
 	"Nasprite"
 	"QYG-30 Qazan"
 	"QYG-60 Sandiq"
@@ -61,6 +62,7 @@ shipyard developer
 	"Tlielart (Cargo Engine)"
 	"PCS-5 Citadel"
 	"TS-1L260 Mieusbar"
+	"SWV4 Ravelin"
 
 shipyard "human plugins"
 	"FR-4 Dart"

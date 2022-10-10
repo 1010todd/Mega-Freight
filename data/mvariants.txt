@@ -97,8 +97,8 @@ ship "PF-80 Intrepid" "PF-80 Intrepid (Atomic, Jacks)"
 		"Liquid Nitrogen Cooler"
 		"Laser Rifle" 56
 		
-		"A520 Atomic Thruster"
 		"A525 Atomic Steering"
+		"A520 Atomic Thruster"
 		"Scram Drive"
 		
 ship "Behemoth" "Behemoth (Atomic, Jacks)"
@@ -367,7 +367,7 @@ ship "CK80T Tlielart" "Tlielart (Cargo Carrier)"
 		"fuel capacity" 1200
 		"cargo space" 5100
 		"outfit space" 872
-		"weapon capacity" 312
+		"weapon capacity" 348
 		"engine capacity" 219
 		"radar jamming" 30
 		"scan interference" 12
@@ -497,9 +497,9 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 		"heat dissipation" .4
 		"fuel capacity" 1200
 		"cargo space" 5100
-		"outfit space" 872
-		"weapon capacity" 312
-		"engine capacity" 819
+		"outfit space" 1335
+		"weapon capacity" 348
+		"engine capacity" 719
 		"radar jamming" 30
 		"scan interference" 12
 		weapon

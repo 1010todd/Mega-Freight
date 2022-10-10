@@ -927,6 +927,8 @@ ship "FG-5 Bluewhale"
 	
 ship "FG-5 Bluewhale" "FG-5 Bluewhale-A"
 	sprite "ship/mgf bluewhale-a"
+		"random start frame" #For random cargo colour
+		"frame rate" 0
 	thumbnail "thumbnail/mgf bluewhale-a"
 
 ship "PAS-2 Bulwark"
@@ -1085,6 +1087,8 @@ ship "FG-6 Startrain"
 	
 ship "FG-6 Startrain" "FG-6 Startrain-A"
 	sprite "ship/mgf startrain-a"
+		"random start frame" #For random cargo colour
+		"frame rate" 0
 	thumbnail "thumbnail/mgf startrain-a"
 	
 ship "FG-7 Conveyor"
@@ -1187,6 +1191,8 @@ ship "FG-7 Conveyor"
 	
 ship "FG-7 Conveyor" "FG-7 Conveyor-A"
 	sprite "ship/mgf conveyor-a"
+		"random start frame" #For random cargo colour
+		"frame rate" 0
 	thumbnail "thumbnail/mgf conveyor-a"
 	
 ship "PCS-4 Castle"
@@ -5495,6 +5501,8 @@ ship "TS-CH0 Kratzbal"
 	
 ship "TS-1L260 Mieusbar"
 	sprite "ship/mgf mieusbar"
+		"random start frame" #For random lights on/off
+		"frame rate" 0
 	thumbnail "thumbnail/mgf mieusbar thumb"
 	attributes
 		category "Space Liner"
