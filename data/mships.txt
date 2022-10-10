@@ -2913,7 +2913,7 @@ ship "SC-1 Alcazar"
 	
 ship "A-14F Rondel"
 	sprite "ship/mgf navy bomber"
-	thumbnail "thumbnail/mgf navy bomber"
+	thumbnail "thumbnail/mgf navy bomber thumb"
 	attributes
 		category "Fighter"
 		licenses
@@ -5356,7 +5356,6 @@ ship "AD-019A Iabayi"
 	engine 59 173
 		zoom .8
 	description `Expensive and fancy freighter for those who want to fly a freighter that doesn't look like a freighter.`
-	
 ship "TS-650 Herrenbal"
 	sprite "ship/mgf herrenbal"
 	thumbnail "thumbnail/mgf herrenbal thumb"
@@ -5417,7 +5416,6 @@ ship "TS-650 Herrenbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `A mid-sized transport`
 	
 ship "TS-CH0 Kratzbal"
 	sprite "ship/mgf kratzbal"
@@ -5491,7 +5489,6 @@ ship "TS-CH0 Kratzbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Fast and well-armed transport for hauling large amount of people across distance.`
 	
 ship "AsK12-6 Celjurai"
 	sprite "ship/mgf celjurai"
