@@ -73,7 +73,7 @@ ship "CH-6 Carrack" "CH-6 Carrack (Atomic, Jacks)"
 		"Fission Reactor" 2
 		"LP288a Battery Pack"
 		"D41-HY Shield Generator"
-		"D97-YV Shield Generator"
+		"D94-YV Shield Generator"
 		"Laser Rifle" 36
 		
 		"A525 Atomic Steering"
@@ -93,7 +93,7 @@ ship "PF-80 Intrepid" "PF-80 Intrepid (Atomic, Jacks)"
 		
 		"Fusion Reactor"
 		"LP288a Battery Pack"
-		"D97-YV Shield Generator"
+		"D94-YV Shield Generator"
 		"Liquid Nitrogen Cooler"
 		"Laser Rifle" 56
 		
