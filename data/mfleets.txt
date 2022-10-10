@@ -24,6 +24,8 @@ fleet "Small Southern Merchants"
 	add variant 1
 		"AD-012C Iaphia"
 		
+	add variant 4
+		"FG-6 Startrain-A"
 
 fleet "Large Southern Merchants"
 	add variant 6
@@ -262,6 +264,17 @@ fleet "Large Core Merchants"
 		"Tlielart (Cargo Engine)"
 		"Manta" 2
 		"Quicksilver" 3
+		
+	add variant 6
+		"FG-5 Bluewhale-A"
+		"Quicksilver" 3
+	add variant 4
+		"FG-5 Bluewhale-A"
+		"Manta" 2
+	add variant 3
+		"FG-5 Bluewhale-A" 2
+		"Vanguard"
+		"Quicksilver" 3
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -304,6 +317,8 @@ fleet "Paradise Merchants"
 		"CH-6 Carrack (Atomic I)"
 		"AGT-31 Xencar" 4
 		
+	add variant 5
+		"FG-6 Startrain-A"
 
 fleet "Small Northern Merchants"
 	add variant 10
@@ -325,6 +340,11 @@ fleet "Small Northern Merchants"
 		
 	add variant 5
 		"AD-012C Iaphia"
+		
+	add variant 5
+		"FG-6 Startrain"
+	add variant 5
+		"FG-6 Startrain-A"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -491,6 +511,18 @@ fleet "Large Human Merchants (Hai)"
 		"Firebird" 2
 	add variant 2
 		"CK40T Treibard" 2
+		
+	add variant 3
+		"FG-7 Conveyor-A" 3 
+		"Dagger" 24
+		"CS-24 Garrison" #18
+		"Lance" 18
+	add variant 3
+		"FG-5 Bluewhale-A"
+	add variant 2
+		"FG-5 Bluewhale-A" 2
+		"CSE-6 Steward" #6
+		"Dagger" 6
 	
 fleet "Human Miners"
 	add variant 3
