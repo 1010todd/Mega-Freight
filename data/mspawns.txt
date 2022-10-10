@@ -505,6 +505,41 @@ event "MGF: Southern Merchant Upgrade I"
 			"Lance" 6
 			"AGT-31 Xencar" 6
 
+mission "MGF: Mieusbar Release Trigger"
+	landing
+	invisible
+	to offer
+		has "event: war begins"
+	on offer
+		event "mgf: mieusbar released" 360
+		
+event "mgf: mieusbar released"
+	date 21 4 3014
+	shipyard "Southbound Advanced"
+		add "TS-1L260 Mieusbar"
+	fleet "Rangphenn Transport"
+		add variant 5
+			"TS-1L260 Mieusbar"
+			"Quicksilver (Rangphenn Escort)" 5
+	fleet "Large Northern Merchants"
+		add variant 1
+			"TS-1L260 Mieusbar"
+			"Bastion" 2
+	fleet "Large Southern Merchants"
+		add variant 2
+			"TS-1L260 Mieusbar"
+			"Bastion" 2
+		add variant 1
+			"TS-1L260 Mieusbar"
+			"Quicksilver" 3
+	fleet "Large Core Merchants"
+		add variant 1
+			"TS-1L260 Mieusbar"
+			"Bastion" 2
+		add variant 1
+			"TS-1L260 Mieusbar"
+			"Quicksilver" 3
+	
 #=========================Event Additions
 
 

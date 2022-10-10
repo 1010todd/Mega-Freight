@@ -60,6 +60,7 @@ shipyard developer
 	"Tlielart (Cargo Carrier)"
 	"Tlielart (Cargo Engine)"
 	"PCS-5 Citadel"
+	"TS-1L260 Mieusbar"
 
 shipyard "human plugins"
 	"FR-4 Dart"
@@ -123,6 +124,7 @@ shipyard "human plugins"
 	"Tlielart (Cargo Carrier)"
 	"Tlielart (Cargo Engine)"
 	"PCS-5 Citadel"
+	"TS-1L260 Mieusbar"
 	
 outfitter developer
 	"Atesac Plasma Cannon"

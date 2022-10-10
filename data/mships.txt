@@ -5356,6 +5356,7 @@ ship "AD-019A Iabayi"
 	engine 59 173
 		zoom .8
 	description `Expensive and fancy freighter for those who want to fly a freighter that doesn't look like a freighter.`
+	#req|round10(bnk)|0
 ship "TS-650 Herrenbal"
 	sprite "ship/mgf herrenbal"
 	thumbnail "thumbnail/mgf herrenbal thumb"
@@ -5416,6 +5417,7 @@ ship "TS-650 Herrenbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
+	description `A mid-sized transport to fill in the gap between Blackbird and Star Queen as well as serving as economy-class transport.`
 	
 ship "TS-CH0 Kratzbal"
 	sprite "ship/mgf kratzbal"
@@ -5489,6 +5491,91 @@ ship "TS-CH0 Kratzbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
+	description `Fast and well-armed transport for hauling large amount of people across distance as non-luxury alternative to the Star Queen.`
+	
+ship "TS-1L260 Mieusbar"
+	sprite "ship/mgf mieusbar"
+	thumbnail "thumbnail/mgf mieusbar thumb"
+	attributes
+		category "Space Liner"
+		"cost" 1380000
+		"shields" 14900
+		"hull" 9800
+		"required crew" 56
+		"bunks" 766
+		"mass" 1852
+		"drag" 22.2
+		"heat dissipation" .6
+		"fuel capacity" 1600
+		"cargo space" 100
+		"outfit space" 1148
+		"weapon capacity" 635
+		"engine capacity" 182
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Proton Turret" 7
+		"Quad Blaster Turret" 6
+		"Heavy Anti-Missile Turret" 4
+		
+		"NT-200 Nucleovoltaic"
+		"KP-6 Photovoltaic Array" 5
+		"Cooling Ducts"
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 26
+		
+		"X4200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Hyperdrive"
+		
+	gun -57 -300.5 
+	gun 57 -300.5 
+	gun -57 -300.5 
+	gun 57 -300.5 
+	gun -57 -300.5 
+	gun 57 -300.5 
+	turret -62 -261.5 "Proton Turret"
+	turret 62 -261.5 "Proton Turret"
+	turret -62 -220.5 "Heavy Anti-Missile Turret"
+	turret 62 -220.5 "Heavy Anti-Missile Turret"
+	turret -78 -142 "Proton Turret"
+	turret 78 -142 "Proton Turret"
+	turret -78 -102 "Quad Blaster Turret"
+	turret 78 -102 "Quad Blaster Turret"
+	turret 0 -66 "Proton Turret"
+	turret -79 98.5 "Proton Turret"
+	turret 79 98.5 "Proton Turret"
+	turret -79 132.5 "Heavy Anti-Missile Turret"
+	turret 79 132.5 "Heavy Anti-Missile Turret"
+	turret -133.5 132 "Quad Blaster Turret"
+	turret 133.5 132 "Quad Blaster Turret"
+	turret -133.5 165.5 "Quad Blaster Turret"
+	turret 133.5 165.5 "Quad Blaster Turret"
+	engine -97 285.5 
+	engine 97 285.5 
+	engine -37 306.5 
+		zoom .8
+	engine 37 306.5 
+		zoom .8
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Huge transport for mass transportation across vast distance. The development was partially sponsored by some of the southern worlds to provide means of cheap transportation for the masses for low-budget tourists, encouraging small business owner to expand, and workers to migrate.`
+	
 	
 ship "AsK12-6 Celjurai"
 	sprite "ship/mgf celjurai"
