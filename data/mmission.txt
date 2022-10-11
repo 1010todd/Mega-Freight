@@ -575,6 +575,9 @@ mission "MGF: Join Espion co."
 			
 	on complete
 		outfit "Titanium" -15
+		"MGF: epn join day" = "day"
+		"MGF: epn join month" = "month"
+		"MGF: epn join year" = "year"
 		conversation
 			branch nolicense #too lazy to test for nolicense and fleet.
 				not "license: Pilot's"
@@ -648,6 +651,9 @@ mission "MGF: Espion: Neodymium at Delta Velorum"
 	source "New Sahara"
 	destination "New Sahara"
 	to offer
+		"MGF: epn join day" == "day"
+		"MGF: epn join month" == "month"
+		"MGF: epn join year" == "year"
 		has "MGF: Join Espion co.: done"
 	on offer
 		conversation
