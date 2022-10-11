@@ -4707,7 +4707,7 @@ ship "CK40T Treibard"
 		"fuel capacity" 800
 		"cargo space" 640
 		"outfit space" 642
-		"weapon capacity" 245
+		"weapon capacity" 255
 		"engine capacity" 142
 		"radar jamming" 60
 		"scan interference" 26
