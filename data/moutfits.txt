@@ -229,7 +229,7 @@ outfit "KC-344 Chainsaw"
 	thumbnail "outfit/mgf chainsaw"
 	"mass" 8
 	"outfit space" -8
-	"weapon space" -4
+	"weapon capacity" -4
 	"gun ports" -1
 	weapon
 		sound "mgf chainsaw"
