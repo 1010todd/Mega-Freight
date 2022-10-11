@@ -5317,7 +5317,7 @@ ship "QYG-60 Sandiq"
 	thumbnail "thumbnail/mgf sandiq thumb"
 	attributes
 		category "Light Freighter"
-		"cost" 1280000
+		"cost" 2364000
 		"shields" 4350
 		"hull" 2600
 		"required crew" 4
@@ -5609,7 +5609,7 @@ ship "TS-CH0 Kratzbal"
 	thumbnail "thumbnail/mgf kratzbal thumb"
 	attributes
 		category "Transport"
-		"cost" 1380000
+		"cost" 2380000
 		"shields" 6780
 		"hull" 3890
 		"required crew" 12
@@ -5685,7 +5685,7 @@ ship "TS-1L260 Mieusbar"
 	thumbnail "thumbnail/mgf mieusbar thumb"
 	attributes
 		category "Space Liner"
-		"cost" 1380000
+		"cost" 11060000
 		"shields" 14900
 		"hull" 9800
 		"required crew" 56

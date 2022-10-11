@@ -530,10 +530,7 @@ mission "MGF: well-off tourists out [0]"
 	to offer
 		random < 70
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite" #Incase other plugin add anything similar.
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -556,10 +553,7 @@ mission "MGF: well-off tourists out [1]"
 	to offer
 		random < 60
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite"
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -582,10 +576,7 @@ mission "MGF: well-off tourists back [0]"
 	to offer
 		random < 70
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite"
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -608,10 +599,7 @@ mission "MGF: well-off tourists back [1]"
 	to offer
 		random < 60
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite"
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -635,10 +623,7 @@ mission "MGF: transport businessman [0]"
 	to offer
 		random < 70
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite" #Incase other plugin add anything similar.
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -662,10 +647,7 @@ mission "MGF: transport businessman [1]"
 	to offer
 		random < 60
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite" #Incase other plugin add anything similar.
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -689,10 +671,7 @@ mission "MGF: transport businessman [2]"
 	to offer
 		random < 30
 	on offer
-		or
-			require "AJ-5 Business-class Suite"
-			require "Business-class Suite" #Incase other plugin add anything similar.
-			require "Business-class Accommodations"
+		require "AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"

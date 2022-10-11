@@ -768,7 +768,7 @@ mission "MGF: Ialmuslati Release Announcement"
 		conversation
 			scene "thumbnail/mgf ialmuslati thumb"
 			`You noticed the TV screen seems to be broadcasting something that attracts some eyes on it, especially the richer-looking captains; the screen shows live feed of a new ship being launched by Najrmalas Shipworks at Follower in Alphard system. There's not much detail available about it except having more spacious interior for potentially more-paying passengers.`
-			`	The ship is now available for purchase at Southbound Shipyard in Zug and Rust in Zubeneschamali system and Kraz system respectively.`
+			`	The ship is now available for purchase at Follower in Alphard system.`
 			choice
 				`	(Mark the planet for visit)`
 					accept
