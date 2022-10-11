@@ -12,7 +12,7 @@ mission "MGF: Polaris Alcazar"
 		fleet
 			names "syndicate small"
 			variant
-				"Barb" 90
+				"Barb" 120
 	on complete
 		"reputation: Syndicate" -= 1000
 		
@@ -28,6 +28,7 @@ mission "MGF: Sol Alcazar"
 			names "republic fighter"
 			variant
 				"Lance" 90
+				"A-14F Rondel" 30
 	on complete
 		"reputation: Republic" -= 1000
 		
@@ -42,7 +43,7 @@ mission "MGF: Almaaz Alcazar"
 		fleet
 			names "pirate"
 			variant
-				"Dagger" 90
+				"Dagger" 120
 	on complete
 		"reputation: Pirate" -= 1000
 		

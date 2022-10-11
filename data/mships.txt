@@ -1849,13 +1849,13 @@ ship "EM-8A Armadillo"
 	engine -20.5 174
 		zoom 1
 		under
-	engine -20.5 174
+	engine 20.5 174
 		zoom 1
 		under
 	engine -40.5 171
 		zoom 1
 		under
-	engine -40.5 171
+	engine 40.5 171
 		zoom 1
 		under
 	leak "leak" 40 50
@@ -2631,6 +2631,11 @@ ship "SC-1 Alcazar"
 		"Laser Rifle" 5000
 		"Liquid Helium Cooler" 12
 		
+		"Sidewinder Missile Rack" 7
+		"Sidewinder Missile" 161
+		"Torpedo Storage Rack" 12
+		"Torpedo" 180
+		
 		"Tyrant Plasma Thruster"
 		"Tyrant Plasma Steering"
 		"Hyperdrive"
@@ -2905,6 +2910,118 @@ ship "SC-1 Alcazar"
 	bay "Fighter" -735 427
 		angle -120
 	bay "Fighter" 735 427
+		angle 120
+	bay "Fighter" 0 -853.5
+	bay "Fighter" 0 854
+		angle 180
+	bay "Fighter" -735.5 -427
+		angle -60
+	bay "Fighter" 735.5 -427
+		angle 60
+	bay "Fighter" -735 427
+		angle -120
+	bay "Fighter" 735 427
+		angle 120
+	bay "Fighter" 0 -853.5
+	bay "Fighter" 0 854
+		angle 180
+	bay "Fighter" -735.5 -427
+		angle -60
+	bay "Fighter" 735.5 -427
+		angle 60
+	bay "Fighter" -735 427
+		angle -120
+	bay "Fighter" 735 427
+		angle 120
+	bay "Fighter" 0 -853.5
+	bay "Fighter" 0 854
+		angle 180
+	bay "Fighter" -735.5 -427
+		angle -60
+	bay "Fighter" 735.5 -427
+		angle 60
+	bay "Fighter" -735 427
+		angle -120
+	bay "Fighter" 735 427
+		angle 120
+	bay "Fighter" 0 -853.5
+	bay "Fighter" 0 854
+		angle 180
+	bay "Fighter" -735.5 -427
+		angle -60
+	bay "Fighter" 735.5 -427
+		angle 60
+	bay "Fighter" -735 427
+		angle -120
+	bay "Fighter" 735 427
+		angle 120
+	bay "Fighter" 0 -853.5
+	bay "Fighter" 0 854
+		angle 180
+	bay "Fighter" -735.5 -427
+		angle -60
+	bay "Fighter" 735.5 -427
+		angle 60
+	bay "Fighter" -735 427
+		angle -120
+	bay "Fighter" 735 427
+		angle 120
+		
+	bay "Pocket Light Warship" 0 -853.5
+	bay "Pocket Light Warship" 0 854
+		angle 180
+	bay "Pocket Light Warship" -735.5 -427
+		angle -60
+	bay "Pocket Light Warship" 735.5 -427
+		angle 60
+	bay "Pocket Light Warship" -735 427
+		angle -120
+	bay "Pocket Light Warship" 735 427
+		angle 120
+	bay "Pocket Light Warship" 0 -853.5
+	bay "Pocket Light Warship" 0 854
+		angle 180
+	bay "Pocket Light Warship" -735.5 -427
+		angle -60
+	bay "Pocket Light Warship" 735.5 -427
+		angle 60
+	bay "Pocket Light Warship" -735 427
+		angle -120
+	bay "Pocket Light Warship" 735 427
+		angle 120
+	bay "Pocket Light Warship" 0 -853.5
+	bay "Pocket Light Warship" 0 854
+		angle 180
+	bay "Pocket Light Warship" -735.5 -427
+		angle -60
+	bay "Pocket Light Warship" 735.5 -427
+		angle 60
+	bay "Pocket Light Warship" -735 427
+		angle -120
+	bay "Pocket Light Warship" 735 427
+		angle 120
+	bay "Pocket Light Warship" 0 -853.5
+	bay "Pocket Light Warship" 0 854
+		angle 180
+	bay "Pocket Light Warship" -735.5 -427
+		angle -60
+	bay "Pocket Light Warship" 735.5 -427
+		angle 60
+	bay "Pocket Light Warship" -735 427
+		angle -120
+	bay "Pocket Light Warship" 735 427
+		angle 120
+		
+	bay "Pocket Medium Warship" 0 -853.5
+	bay "Pocket Medium Warship" 0 854
+		angle 180
+	bay "Pocket Medium Warship" -735.5 -427
+		angle -60
+	bay "Pocket Medium Warship" 735.5 -427
+		angle 60
+	bay "Pocket Medium Warship" -735 427
+		angle -120
+	bay "Pocket Medium Warship" 735 427
 		angle 120
 	leak "leak" 30 50
 	leak "flame" 30 80
@@ -5130,7 +5247,7 @@ ship "FF-30 Volant"
 	engine -38.5 84
 		zoom 1
 		under
-	engine -38.5 84
+	engine 38.5 84
 		zoom 1
 		under
 	leak "leak" 60 50
