@@ -706,6 +706,20 @@ mission "MGF: transport businessman [2]"
 		payment 16000 150
 		dialog phrase "generic passenger dropoff payment"
 
+mission "MGF: Mine Titanium Tiny"
+	name "Mine Titanium"
+	description "Someone wants a delivery of 15 tons of raw Titanium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 30
+	to offer
+		random < 17
+
+	on complete
+		outfit "Titanium" -15
+		payment 41200 #10
+		dialog `You delivered 15 tons of Titanium and received a payment of <payment>`
+
 mission "MGF: Mine Titanium Small"
 	name "Mine Titanium"
 	description "Someone wants a delivery of 30 tons of raw Titanium, mine it and return to <origin> before <date> for payment of <payment>."
@@ -717,8 +731,25 @@ mission "MGF: Mine Titanium Small"
 
 	on complete
 		outfit "Titanium" -30
-		payment 84000
+		payment 84000 #2800 per ton from def 2500, 12 percent more
 		dialog `You delivered 30 tons of Titanium and received a payment of <payment>`
+
+mission "MGF: Mine Neodymium Tiny" #3800
+	name "Mine Neodymium"
+	description "Someone wants a delivery of 15 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+
+	on complete
+		outfit "Neodymium" -15
+		payment 62700
+		dialog `You delivered 15 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF: Mine Neodymium Small"
 	name "Mine Neodymium"
@@ -737,7 +768,24 @@ mission "MGF: Mine Neodymium Small"
 		payment 160000
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
-mission "MGF: Mine Silicon Small"
+mission "MGF: Mine Silicon Tiny" #400
+	name "Mine Silicon"
+	description "Someone wants a delivery of 15 tons of raw Silicon, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+
+	on complete
+		outfit "Silicon" -15
+		payment 6600
+		dialog `You delivered 15 tons of Silicon and received a payment of <payment>`
+
+mission "MGF: Mine Silicon Small" #400
 	name "Mine Silicon"
 	description "Someone wants a delivery of 30 tons of raw Silicon, mine it and return to <origin> before <date> for payment of <payment>."
 	repeat
@@ -770,6 +818,23 @@ mission "MGF: Mine Tungsten Small"
 		outfit "Tungsten" -30
 		payment 162000
 		dialog `You delivered 30 tons of Tungsten and received a payment of <payment>`
+
+mission "MGF: Mine Lead Tiny"
+	name "Mine Lead"
+	description "Someone wants a delivery of 15 tons of raw Lead, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+
+	on complete
+		outfit "Lead" -15
+		payment 14900
+		dialog `You delivered 15 tons of Lead and received a payment of <payment>`
 
 mission "MGF: Mine Lead Small"
 	name "Mine Lead"
@@ -838,6 +903,24 @@ mission "MGF: Mine Lead Huge"
 		outfit "Lead" -400
 		payment 422000
 		dialog `You delivered 400 tons of Lead and received a payment of <payment>`
+
+mission "MGF EPN: Mine Lead Tiny"
+	name "Mine Lead"
+	description "A contract requires a delivery of 15 tons of raw Lead, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 10
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Lead" -15
+		payment 17550
+		dialog `You delivered 15 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Small"
 	name "Mine Lead"
@@ -911,6 +994,24 @@ mission "MGF EPN: Mine Lead Huge"
 		payment 582000
 		dialog `You delivered 400 tons of Lead and received a payment of <payment>`
 
+mission "MGF EPN: Mine Copper Tiny"
+	name "Mine Copper"
+	description "A contract requires a delivery of 15 tons of raw Copper, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Copper" -15
+		payment 58500 #3900/ton def 3000, 30% more. #probably should be reversed with smallest offering highest per ton?
+		dialog `You delivered 30 tons of Copper and received a payment of <payment>`
+
 mission "MGF EPN: Mine Copper Small"
 	name "Mine Copper"
 	description "A contract requires a delivery of 30 tons of raw Copper, mine it and return to <origin> before <date> for payment of <payment>."
@@ -926,7 +1027,7 @@ mission "MGF EPN: Mine Copper Small"
 
 	on complete
 		outfit "Copper" -30
-		payment 121500
+		payment 121500 #35%
 		dialog `You delivered 30 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Medium"
@@ -944,7 +1045,7 @@ mission "MGF EPN: Mine Copper Medium"
 
 	on complete
 		outfit "Copper" -90
-		payment 378000
+		payment 378000 #40%
 		dialog `You delivered 90 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Large"
@@ -962,7 +1063,7 @@ mission "MGF EPN: Mine Copper Large"
 
 	on complete
 		outfit "Copper" -180
-		payment 783000
+		payment 783000 #45
 		dialog `You delivered 180 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Huge"
@@ -980,5 +1081,186 @@ mission "MGF EPN: Mine Copper Huge"
 
 	on complete
 		outfit "Copper" -400
-		payment 1800000
+		payment 1800000 #50
 		dialog `You delivered 400 tons of Copper and received a payment of <payment>`
+		
+mission "MGF EPN: Mine Neodymium Tiny" #3800/ton
+	name "Mine Neodymium"
+	description "A contract requires a delivery of 15 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Neodymium" -15
+		payment 74100
+		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
+
+mission "MGF EPN: Mine Neodymium Small"
+	name "Mine Neodymium"
+	description "A contract requires a delivery of 30 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 10
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Neodymium" -30
+		payment 153900
+		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
+
+mission "MGF EPN: Mine Neodymium Medium"
+	name "Mine Neodymium"
+	description "A contract requires a delivery of 90 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 7
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Neodymium" -90
+		payment 478800
+		dialog `You delivered 90 tons of Neodymium and received a payment of <payment>`
+
+mission "MGF EPN: Mine Neodymium Large"
+	name "Mine Neodymium"
+	description "A contract requires a delivery of 180 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 6
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Neodymium" -180
+		payment 991800
+		dialog `You delivered 180 tons of Neodymium and received a payment of <payment>`
+
+mission "MGF EPN: Mine Neodymium Huge"
+	name "Mine Neodymium"
+	description "A contract requires a delivery of 400 tons of raw Neodymium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 3
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Neodymium" -400
+		payment 2280000
+		dialog `You delivered 400 tons of Neodymium and received a payment of <payment>`
+		
+
+mission "MGF EPN: Mine Aluminum Tiny" #1800/ton
+	name "Mine Aluminum"
+	description "A contract requires a delivery of 15 tons of raw Aluminum, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Aluminum" -15
+		payment 35100
+		dialog `You delivered 30 tons of Aluminum and received a payment of <payment>`
+
+mission "MGF EPN: Mine Aluminum Small"
+	name "Mine Aluminum"
+	description "A contract requires a delivery of 30 tons of raw Aluminum, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 10
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Aluminum" -30
+		payment 72900
+		dialog `You delivered 30 tons of Aluminum and received a payment of <payment>`
+
+mission "MGF EPN: Mine Aluminum Medium"
+	name "Mine Aluminum"
+	description "A contract requires a delivery of 90 tons of raw Aluminum, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 7
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Aluminum" -90
+		payment 226800
+		dialog `You delivered 90 tons of Aluminum and received a payment of <payment>`
+
+mission "MGF EPN: Mine Aluminum Large"
+	name "Mine Aluminum"
+	description "A contract requires a delivery of 180 tons of raw Aluminum, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 6
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Aluminum" -180
+		payment 469800
+		dialog `You delivered 180 tons of Aluminum and received a payment of <payment>`
+
+mission "MGF EPN: Mine Aluminum Huge"
+	name "Mine Aluminum"
+	description "A contract requires a delivery of 400 tons of raw Aluminum, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 15
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 3
+		has "license: Espion Employee"
+
+	on complete
+		outfit "Aluminum" -400
+		payment 1080000
+		dialog `You delivered 400 tons of Aluminum and received a payment of <payment>`
