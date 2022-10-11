@@ -6027,8 +6027,8 @@ ship "EP-3 Rat"
 		"drag" 1.5
 		"heat dissipation" .9
 		"cargo space" 0
-		"outfit space" 211
-		"weapon capacity" 74
+		"outfit space" 217
+		"weapon capacity" 81
 		"engine capacity" 66
 		weapon
 			"blast radius" 12

@@ -547,7 +547,7 @@ mission "MGF: Join Espion co."
 					defer
 			`	They said they can help you get one if you want, you only have to wait for their assessment staff.`
 			label wait
-			`	After a while a man enter the room and introduce as the person who will be checking your pilot skill. He tells you to depart and 15 Titanium in this system as fast as you can, he'll be observing your performance in orbit. Once that's done it'll be continued back here.`
+			`	After a while a man enter the room and introduce as the person who will be checking your pilot skill. He tells you to depart and mine 15 Titanium in this system as fast as you can, he'll be observing your performance in orbit. Once that's done it'll be continued back here.`
 				accept
 				
 	npc accompany save
@@ -656,7 +656,8 @@ mission "MGF: Espion: Neodymium at Delta Velorum"
 				
 	npc accompany
 		government "MGF: Espion Mining Co."
-		personality timid staying mining harvests
+		personality 
+			mining harvests escort launching
 		fleet
 			names "civilian"
 			variant
