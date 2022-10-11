@@ -14,6 +14,8 @@ mission `MGF: Canaveral Naval Yard Begin Debug`
 	deadline 1
 	name "MGF CNY start"
 	description `Force begin the construction of Canaveral Naval Yard in Sol.`
+	source
+		government "cheat"
 	on accept
 		event "mgf: canaveral naval yard begin"
 		
