@@ -113,6 +113,7 @@ ship "Wisymton" "Wisymton (Cargo)"
 	sprite "ship/mgf wisymton c"
 	thumbnail "thumbnail/mgf wisymton c thumb"
 	add attributes
+		"cost" 4000
 		"mass" 5
 		"cargo space" 40
 		"drag" .1
@@ -237,7 +238,7 @@ ship "CF-50 Cart"
 		"hull" 1200
 		"required crew" 1
 		"bunks" 3
-		"mass" 150
+		"mass" 70
 		"drag" 1.8
 		"heat dissipation" .8
 		"fuel capacity" 400
@@ -641,7 +642,7 @@ ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
 	attributes
 		category "Heavy Freighter"
-		"cost" 11200000
+		"cost" 12200000
 		"shields" 12000
 		"hull" 10500
 		"required crew" 12
@@ -649,7 +650,7 @@ ship "CH-6 Carrack"
 		"mass" 7420
 		"drag" 12.4
 		"heat dissipation" .45
-		"fuel capacity" 1400
+		"fuel capacity" 1000
 		"cargo space" 1040
 		"outfit space" 670
 		"weapon capacity" 300
@@ -665,7 +666,7 @@ ship "CH-6 Carrack"
 		
 		"Fission Reactor"
 		"LP288a Battery Pack"
-		"D47-HY Shield Generator"
+		"D41-HY Shield Generator"
 		"Laser Rifle" 4
 		
 		"X4700 Ion Thruster"
@@ -4696,7 +4697,7 @@ ship "CK40T Treibard"
 	thumbnail "thumbnail/mgf treibard thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 8900000
+		"cost" 10900000
 		"shields" 10200
 		"hull" 9800
 		"required crew" 18
@@ -5769,7 +5770,7 @@ ship "AsK12-6 Celjurai"
 	thumbnail "thumbnail/mgf celjurai thumb"
 	attributes
 		category "Space Liner"
-		"cost" 1160000
+		"cost" 4160000
 		"shields" 4720
 		"hull" 1800
 		"required crew" 24
@@ -5891,6 +5892,7 @@ ship "AFFR-3 Fylla"
 		"outfit space" 80
 		"weapon capacity" 0
 		"engine capacity" 51
+		"fuel capacity" 200
 		weapon
 			"blast radius" 12
 			"shield damage" 120

@@ -279,6 +279,28 @@ ship "EM-8A Armadillo" "Armadillo (Weapon)"
 		"Orca Plasma Thruster"
 		"Hyperdrive"
 		
+ship "Clipper" "Clipper (Espion)"
+	outfits
+		"Espion Mining Laser" 4
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
+ship "Clipper" "Clipper (Heavy Laser)"
+	outfits
+		"Heavy Laser" 4
+		"RT-I Radiothermal"
+		"Supercapacitor"
+		"D23-QP Shield Generator"
+		"Greyhound Plasma Thruster"
+		"Impala Plasma Steering"
+		"Scram Drive"
+		
 ship "Sparrow" "Sparrow (Espion)"
 	outfits
 		"Espion Mini-Mining Laser" 2
@@ -288,6 +310,7 @@ ship "Sparrow" "Sparrow (Espion)"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering"
 		"Hyperdrive"
+		
 		
 ship "Sparrow" "Sparrow (Chainsaw)"
 	outfits

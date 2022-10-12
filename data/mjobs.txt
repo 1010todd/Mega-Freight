@@ -691,6 +691,9 @@ mission "MGF: Mine Titanium Tiny"
 	repeat
 	job
 	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
 	to offer
 		random < 17
 
@@ -705,6 +708,9 @@ mission "MGF: Mine Titanium Small"
 	repeat
 	job
 	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
 	to offer
 		random < 15
 
@@ -712,6 +718,23 @@ mission "MGF: Mine Titanium Small"
 		outfit "Titanium" -30
 		payment 84000 #2800 per ton from def 2500, 12 percent more
 		dialog `You delivered 30 tons of Titanium and received a payment of <payment>`
+
+mission "MGF: Mine Titanium Medium"
+	name "Mine Titanium"
+	description "Someone wants a delivery of 90 tons of raw Titanium, mine it and return to <origin> before <date> for payment of <payment>."
+	repeat
+	job
+	deadline 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		not attributes "uninhabited"
+	to offer
+		random < 15
+
+	on complete
+		outfit "Titanium" -90
+		payment 315000 #2800 per ton from def 2500, 12.5 percent more
+		dialog `You delivered 90 tons of Titanium and received a payment of <payment>`
 
 mission "MGF: Mine Neodymium Tiny" #3800
 	name "Mine Neodymium"
@@ -744,7 +767,7 @@ mission "MGF: Mine Neodymium Small"
 
 	on complete
 		outfit "Neodymium" -30
-		payment 160000
+		payment 153900
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF: Mine Silicon Tiny" #400
@@ -1096,7 +1119,7 @@ mission "MGF EPN: Mine Neodymium Small"
 
 	on complete
 		outfit "Neodymium" -30
-		payment 153900
+		payment 160000
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF EPN: Mine Neodymium Medium"
