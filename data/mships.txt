@@ -1783,7 +1783,7 @@ ship "EM-8A Armadillo"
 		category "Utility"
 		licenses
 			"Espion Employee"
-		"cost" 18200000
+		"cost" 20200000
 		"shields" 7850
 		"hull" 8540
 		"required crew" 24
@@ -1831,8 +1831,6 @@ ship "EM-8A Armadillo"
 	turret 35 91
 	bay "Fighter" -27.5 -24
 	bay "Fighter" 27.5 -24
-	bay "Fighter" -28.5 -7.5
-	bay "Fighter" 28.5 -7.5
 	bay "Fighter" -28 10
 	bay "Fighter" 28 10
 	bay "Fighter" -27.5 25
@@ -1845,8 +1843,6 @@ ship "EM-8A Armadillo"
 	bay "Drone" 42.5 1
 	bay "Drone" -43 18
 	bay "Drone" 43 18
-	bay "Drone" -42.5 34.5
-	bay "Drone" 42.5 34.5
 	engine -20.5 174
 		zoom 1
 		under
@@ -6070,3 +6066,68 @@ ship "EP-3 Rat" "EP-3 Rat (Sniper)"
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"
 		"E-XE10 Ion Maneuver Engine"
+		
+ship "AYS-17 Proetida"
+	sprite "ship/mgf hai proetida"
+	thumbnail "thumbnail/mgf hai proetida thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 31160000
+		"shields" 28300
+		"hull" 14200
+		"required crew" 29
+		"bunks" 65
+		"mass" 10810
+		"drag" 21.5
+		"heat dissipation" 0.45
+		"fuel capacity" 1000
+		"cargo space" 1523
+		"outfit space" 882
+		"weapon capacity" 236
+		"engine capacity" 154
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Hai Tracker Pod" 4
+		"Hai Tracker" 224
+		"Pulse Turret" 2
+		"Bullfrog Anti-Missile" 4
+		"Geode Reactor" 3
+		"Hai Valley Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 5
+		`"Biroo" Reverse Thruster`
+		`"Biroo" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+		Hyperdrive
+
+	gun -22 -270.5 
+	gun 22 -270.5 
+	gun -40.5 -244.5 
+	gun 40.5 -244.5 
+	turret 0 -136.5 "Pulse Turret"
+	turret -41.5 -109.5 
+	turret 41.5 -109.5 
+	turret 0 186 "Pulse Turret"
+	turret -38 197 
+	turret 38 197 
+	engine -80.5 309 
+		zoom .8
+	engine 80.5 309 
+		zoom .8
+	engine -30 320.5 
+	engine 30 320.5 
+
+	leak "leak" 40 50
+	leak "flame" 40 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Not long after the development of Geocoris the Hai find their freighters outmatched again with the arrival of a new human fleet with even larger freighters forcing them to develop a newer, and even bigger ship to match. While not being able to match the largest of human freighters yet due to their shipyard being highly optimized for smaller ships and this being the largest design they've made for a long time, the Proetida is able to carry more than most human freighters and significantly more than the Geocoris thanks to redesigned cargo pod and spacious internal area. For that it fits in to the gap between larger human freighters like Bluewhale and Conveyor."

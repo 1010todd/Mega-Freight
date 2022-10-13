@@ -531,6 +531,21 @@ fleet "Large Human Merchants (Hai)"
 		"CH-6 Carrack" 3
 		"Lance" 12
 		"Firebird" 2
+		
+	add variant 1
+		"AYS-17 Proetida"
+	
+fleet "Large Hai Merchant"
+	add variant 1
+		"AYS-17 Proetida"
+		"Shield Beetle"
+		"Lightning Bug" 3
+		
+fleet "Large Hai Merchant (Sympathizers)"
+	add variant 1
+		"AYS-17 Proetida"
+		"Shield Beetle"
+		"Lightning Bug" 2
 	
 fleet "Human Miners"
 	add variant 3
@@ -640,12 +655,12 @@ fleet "Large Espion Miners"
 		mining harvests timid frugal appeasing
 	variant 10
 		"EM-8A Armadillo"
-		"EP-2 Marmot" 8
-		"EP-1 Mole" 10
+		"EP-2 Marmot" 6
+		"EP-1 Mole" 8
 	variant 10
 		"Armadillo (Weapon)"
-		"EP-2 Marmot" 8
-		"EP-1 Mole" 10
+		"EP-2 Marmot" 6
+		"EP-1 Mole" 8
 	variant 5
 		"SMM-111 Bagger"
 		"EP-2 Marmot" 4
@@ -883,6 +898,8 @@ fleet "Small Shadow Rakin"
 		"CF-50 Cart"
 	variant 8
 		"Sparrow (Chainsaw)"
+	variant 1
+		"SMM-111 Bagger"
 #===============================FW
 		
 fleet "Large Militia"

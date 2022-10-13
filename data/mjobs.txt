@@ -157,7 +157,7 @@ mission "MGF: Escort (Huge 3, Dangerous Destination)"
 	deadline 10
 	to offer
 		random < 15
-		"combat rating" > 100
+		"combat rating" > 800
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		#attributes "deep" "paradise" "near earth"
@@ -205,7 +205,7 @@ mission "MGF: Escort (Huge Fleet 1, Dangerous Destination)"
 	deadline 10
 	to offer
 		random < 15
-		"combat rating" > 100
+		"combat rating" > 800
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		#attributes "deep" "paradise" "near earth"
@@ -255,7 +255,7 @@ mission "MGF: Escort (Huge Fleet 2, Dangerous Destination)"
 	deadline 10
 	to offer
 		random < 15
-		"combat rating" > 100
+		"combat rating" > 1000
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		#attributes "deep" "paradise" "near earth"
@@ -307,7 +307,7 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 	deadline 10
 	to offer
 		random < 15
-		"combat rating" > 100
+		"combat rating" > 1000
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		#attributes "deep" "paradise" "near earth"
@@ -349,6 +349,60 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 				"FG-7 Conveyor" 3
 	on complete
 		payment 2120000
+		dialog phrase "generic safe escort completion dialog"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+		
+mission "MGF: Escort (Huge Fleet 4, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 10
+	to offer
+		random < 15
+		"combat rating" > 1000
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "deep" "paradise" "near earth"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "frontier"
+		distance 4 6
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system destination
+		fleet "Small Northern Pirates"
+		fleet "Small Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Core Pirates"
+	npc
+		government "Pirate"
+		personality nemesis entering harvests plunders
+		system destination
+		fleet "Large Northern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+		system destination
+		fleet "Small Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+	
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "civilian"
+			variant
+				"CK80T Tlielart"
+	on complete
+		payment 2520000
 		dialog phrase "generic safe escort completion dialog"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"

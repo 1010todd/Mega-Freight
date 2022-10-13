@@ -64,6 +64,8 @@ shipyard developer
 	"TS-1L260 Mieusbar"
 	"SWV4 Ravelin"
 	"AD-0032 Ialmuslati"
+	
+	"AYS-17 Proetida"
 
 shipyard "human plugins"
 	"FR-4 Dart"
