@@ -776,7 +776,7 @@ ship "LCC-3 Sierra"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "Large tanker vessels used for distributing hyperspace fuel from refineries."
-	
+
 ship "RF-03 Gerlache"
 	sprite "ship/mgf gerlache"
 	thumbnail "thumbnail/mgf gerlache thumb"
@@ -852,6 +852,67 @@ ship "RF-03 Gerlache"
 	"final explode" "final explosion large"
 	description "Old fleet tanker ship dating from early days of space exploration where hyperdrives were much more inefficient and inhabited planets were few, it came with bays for smaller fuel distribution ships allowing fuel to be distributed among the fleet faster. It also comes with built-in ramscoop to slowly produce fuel as they travel. Very few are seen nowadays as the galaxy becomes more inhabited."
 	
+ship "LGC-3 Mesa"
+	sprite "ship/mgf mesa"
+	thumbnail "thumbnail/mgf mesa thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8200000
+		"shields" 7900
+		"hull" 7500
+		"required crew" 28
+		"bunks" 42
+		"mass" 4520
+		"drag" 11.8
+		"heat dissipation" .7
+		"fuel capacity" 1400
+		"cargo space" 150
+		"outfit space" 670
+		"weapon capacity" 300
+		"engine capacity" 165
+		"m-type 1k gas tank" -6
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+	gun -24 -205 
+	gun 24 -205 
+	gun -24 -205 
+	gun 24 -205 
+	turret 0 -129.5 "Proton Turret"
+	turret 0 -64.5 "Heavy Anti-Missile Turret"
+	turret 0 0.5 "Heavy Anti-Missile Turret"
+	turret 0 111 "Proton Turret"
+	engine -53.5 191.5 
+	engine 53.5 191.5 
+	engine -22.5 215.5 
+	engine 22.5 215.5 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation a gas tanker allows you to take special job at some world which can be lucrative due to limited competition.`
 	
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"

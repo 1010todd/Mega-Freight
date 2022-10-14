@@ -701,14 +701,14 @@ mission "MGF: Syndi Platinum License Cancel (bfr 1yr)"
 	job
 	repeat
 	name "Cancel Platinum License"
-	description "Cancel Syndicate Platinum License for a fee of <payment>."
+	description "Cancel Syndicate Platinum License for a fee of <fine>."
 	to offer
 		has "license: Syndicate Platinum"
 		has "MGF: Syndi Platinum License Upkeep: offered"
 		#Convert years to month and count from there. This check if a year passes or not.
 		"MGF: Splatinum member regis year"  * 12 + "MGF: Splatinum member regis month" >= "year" * 12 + "month" - 12
 	on accept
-		"payment" -1820000
+		"fine" 1820000
 		clear "salary: Syndicate Platinum"
 		clear "MGF: Syndi Platinum License Upkeep: offered"
 		clear "license: Syndicate Platinum"
@@ -718,14 +718,14 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 	job
 	repeat
 	name "Cancel Platinum License"
-	description "Cancel Syndicate Platinum License for a fee of <payment>."
+	description "Cancel Syndicate Platinum License for a fee of <fine>."
 	to offer
 		has "license: Syndicate Platinum"
 		has "MGF: Syndi Platinum License Upkeep: offered"
 		#Convert years to month and count from there. This check if a year passes or not.
 		"MGF: Splatinum member regis year"  * 12 + "MGF: Splatinum member regis month" < "year" * 12 + "month" - 12
 	on accept
-		"payment" -910000
+		"fine" 910000
 		clear "salary: Syndicate Platinum"
 		clear "MGF: Syndi Platinum License Upkeep: offered"
 		clear "license: Syndicate Platinum"

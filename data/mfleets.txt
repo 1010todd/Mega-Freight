@@ -473,6 +473,10 @@ fleet "Large Northern Merchants"
 		"CH-6 Carrack (Atomic I)"
 		"AGT-31 Xencar" 4
 		
+	add variant 4
+		"LGC-3 Mesa"
+		"Firebird" 2
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
