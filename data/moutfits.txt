@@ -1372,7 +1372,7 @@ outfit "M-type 1k Gas Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 500
 	"m-type 1k gas tank" 1
-	"gas capacity" 20000
+	"gas capacity" 2000
 	"gas lock" 9e-20
 	"unplunderable" 1
 	description `Universal gas tank capable of storing either liquefied gas or compressed gas built into the LGC-3 Mesa class gas tanker ships allowing it to transport gases without relaying on special containers improving speed, capacity, and overall efficiency of the transportation. These tanks are built with high strength materials to withstand extremely high pressure and layered with advanced insulations along with dedicated cooling systems to keep the cargo at right temperature.`

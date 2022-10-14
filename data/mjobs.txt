@@ -535,7 +535,7 @@ mission "MGF CNY: Escort (Huge 1, Dangerous Origin)"
 
 mission "MGF: Gas Transport (LNG 1)"
 	name "Gas Transport"
-	description "40000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
+	description "4000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
 	to offer
@@ -548,18 +548,18 @@ mission "MGF: Gas Transport (LNG 1)"
 	on offer
 		require "M-type 1k Gas Tank" 2
 	on accept
-		outfit "Liquid Natural Gas" 40000
+		outfit "Liquid Natural Gas" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		outfit "Liquid Natural Gas" -40000
+		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
 		payment
 		payment 2000000
 		
 mission "MGF: Gas Transport (LNG 2)"
 	name "Gas Transport"
-	description "40000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
+	description "4000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
 	to offer
@@ -572,11 +572,11 @@ mission "MGF: Gas Transport (LNG 2)"
 	on offer
 		require "M-type 1k Gas Tank" 2
 	on accept
-		outfit "Liquid Natural Gas" 40000
+		outfit "Liquid Natural Gas" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
-		outfit "Liquid Natural Gas" -40000
+		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
 		payment
 		payment 2000000
