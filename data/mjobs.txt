@@ -407,6 +407,57 @@ mission "MGF: Escort (Huge Fleet 4, Dangerous Destination)"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 		
+mission "MGF: Escort (Terrestrial Miner, Dangerous Destination)"
+	name "Escort to <planet>"
+	description "The captain of the <npc> will pay you <payment> to escort their terrestrial mining vessel safely into a dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 10
+	to offer
+		random < 10
+		"combat rating" > 5000
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "core"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "frontier"
+		distance 4 6
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+		system destination
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+		fleet "Large Core Pirates"
+		fleet "Large Core Pirates"
+	npc
+		government "Pirate"
+		personality nemesis entering harvests plunders
+		system destination
+		fleet "Large Core Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+		system destination
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+		fleet "Large Core Pirates"
+		fleet "Large Core Pirates"
+	
+	npc accompany save
+		government "Merchant"
+		personality escort timid
+		fleet
+			names "civilian"
+			variant
+				"HMM-190 Kotroger"
+	on complete
+		payment 4000000
+		dialog phrase "generic safe escort completion dialog"
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
 		
 mission "MGF CNY: Large Construction Supplies [0]"
 	name "Large rush delivery to <planet>"
