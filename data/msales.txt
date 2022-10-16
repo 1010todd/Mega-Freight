@@ -166,6 +166,8 @@ outfitter developer
 	"AH-5 Eteron Torpedo"
 	"KC-344 Chainsaw"
 	"JX-2 Overdriven Gatling Turret"
+	"KC-421 Parapet Anti-Missile"
+	
 	#"X09E Fighter Assembler"
 	#"E1 Lance Blueprint"
 	

@@ -753,6 +753,159 @@ event "mgf: fw converted supercarrier"
 			"PAS-2 Bulwark" 2
 			"Bastion" 4
 			
+mission "MGF: FW plasma turret available"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: plasma turret available"
+	on offer
+		event "mgf: fw plasma turret"
+
+event "mgf: fw plasma turret"
+	fleet "Large Free Worlds"
+		add variant 1
+			"PAS-2 Bulwark (Plasma)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 1
+			"Falcon (Laser)"
+			"PAS-2 Bulwark (Plasma)"
+		add variant 1
+			"Falcon (Heavy)"
+			"PAS-2 Bulwark (Plasma)"
+			"CS-24 Garrison"
+			"Finch" 18
+			
+mission "MGF: FW Develop Parapet AM Trigger"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "Liberate Kornephoros: done"
+	on offer
+		event "mgf: fw parapet am available" 180
+		
+event "mgf: fw parapet am available"
+	outfitter "Kraz Advanced"
+		"KC-421 Parapet Anti-Missile"
+	fleet "Large Free Worlds"
+		add variant 2
+			"Falcon (Parapet)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 1
+			"Falcon (Parapet)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 2
+			"Falcon (Parapet)"
+			"Falcon"
+			"CS-24 Garrison" 2
+			"Finch" 36
+		add variant 1
+			"Falcon (Heavy)" 2
+			"Falcon (Parapet)" 2
+			"CS-24 Garrison" 5
+			"Finch" 54
+			"AGT-31 Xencar" 36
+		add variant 5
+			"Bastion"
+			"Falcon (Parapet)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+			
+		add variant 5
+			"Eleonorae (Parapet)"
+			"Falcon (Heavy)"
+		add variant 1
+			"Eleonorae (Parapet)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 2
+			"Eleonorae (Parapet)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"Eleonorae"
+			"Falcon (Parapet)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 2
+			"Eleonorae"
+			"Eleonorae (Parapet)"
+			
+	fleet "Large Southern Merchants"
+		add variant 5
+			"LCC-3 Sierra"
+			"Falcon (Parapet)"
+		add variant 6
+			"FG-7 Conveyor"
+			"Eleonorae (Parapet)"
+			"CSE-6 Steward" #6
+			"Lance" 14
+		add variant 4
+			"Hauler III" 5
+			"Falcon (Parapet)"
+			"CS-24 Garrison" #18
+			"Lance" 18
+			
+mission "MGF: FW Dreadnought Parapet"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: dreadnought deployment"
+		has "event: mgf: fw parapet am available"
+	on offer
+		event "mgf: dreadnought w parapet"
+			
+event "mgf: dreadnought w parapet"
+	fleet "Large Free Worlds"
+		add variant 2
+			"Dreadnought (Parapet)"
+		add variant 2
+			"Dreadnought (Parapet)"
+			"Bastion"
+			
+mission "MGF: FW Converted Warship w Parapet"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: mgf: fw parapet am available"
+		has "event: mgf: fw converted warships"
+	on offer
+		event "mgf: fw converted warships w parapet"
+		
+event "mgf: fw converted warships w parapet"
+	fleet "Large Free Worlds"
+		add variant 4
+			"PAS-2 Bulwark (Parapets)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 1
+			"Eleonorae"
+			"PAS-2 Bulwark (Parapets)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"Falcon (Parapet)"
+			"Eleonorae"
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+		add variant 1
+			"PCS-5 Citadel"
+			"Finch" 44
+			"AGT-31 Xencar" 100
+			"SWV4 Ravelin" 2
+			"Eleonorae" 2
+			"PAS-2 Bulwark (Parapets)" 2
+			"Bastion" 4
+			
 mission "MGF: Add Navy Mark II"
 	landing
 	invisible

@@ -812,8 +812,6 @@ effect "emx84 flak"
 	"velocity scale" 0
 	"random angle" 360
 	
-
-	
 outfit "EMX-84 Pulse-Flak Turret"
 	category "Turrets"
 	cost 2120000
@@ -963,6 +961,30 @@ effect "mgf kavacha hit"
 	"random lifetime" 1
 	"velocity scale" 0
 	"random angle" 5
+	
+outfit "KC-421 Parapet Anti-Missile"
+	category "Turrets"
+	cost 590000
+	thumbnail "outfit/mgf kc421 antimissile"
+	"mass" 65
+	"outfit space" -65
+	"weapon capacity" -65
+	"turret mounts" -1
+	weapon
+		sound "heavy anti-missile"
+		"hardpoint sprite" "hardpoint/mgf kc421 antimissile hp"
+		"hardpoint offset" 10.
+		#"hit effect" "emx55 flak"
+		"die effect" "v85 railgun fire"
+		"fire effect" "v85 railgun fire"
+		"velocity" 500
+		"turret turn" 5.5
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 13.1
+		"firing heat" 18.2
+		"anti-missile" 8
+	description "New anti-missile system developed for the Free Worlds with extremely high fire rate to deal with mass volley of missiles from Navy Rainmaker and Culverin. Though due to its size it cost significant amount of firepower for most ship to be installed one."
 	
 outfit "4C-1 Detonator"
 	category "Guns"
