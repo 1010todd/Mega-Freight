@@ -1,3 +1,6 @@
+
+#=========================ESCORT
+
 mission "MGF: Escort (Huge 1, Dangerous Destination)"
 	name "Escort to <planet>"
 	description "The captain of the <npc> will pay you <payment> to escort them safely into a dangerous region of space to reach <destination> by <date>."
@@ -68,8 +71,6 @@ mission "MGF: Escort (Huge 2, Dangerous Destination)"
 		system destination
 		fleet "Small Northern Pirates"
 		fleet "Small Northern Pirates"
-		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
 	npc
 		government "Pirate"
@@ -271,7 +272,6 @@ mission "MGF: Escort (Huge Fleet 2, Dangerous Destination)"
 		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
 	npc
 		government "Pirate"
 		personality nemesis entering harvests plunders
@@ -282,7 +282,6 @@ mission "MGF: Escort (Huge Fleet 2, Dangerous Destination)"
 		personality nemesis staying harvests plunders
 		system destination
 		fleet "Small Northern Pirates"
-		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
 	
@@ -323,8 +322,6 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
 		fleet "Large Core Pirates"
 	npc
 		government "Pirate"
@@ -336,7 +333,7 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 		personality nemesis staying harvests plunders
 		system destination
 		fleet "Small Northern Pirates"
-		fleet "Large Northern Pirates"
+		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
 	
@@ -377,20 +374,19 @@ mission "MGF: Escort (Huge Fleet 4, Dangerous Destination)"
 		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
-		fleet "Large Northern Pirates"
 		fleet "Large Core Pirates"
 	npc
 		government "Pirate"
 		personality nemesis entering harvests plunders
 		system destination
+		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 	npc
 		government "Pirate"
 		personality nemesis staying harvests plunders
 		system destination
 		fleet "Small Northern Pirates"
-		fleet "Large Northern Pirates"
+		fleet "Small Northern Pirates"
 		fleet "Large Northern Pirates"
 		fleet "Large Northern Pirates"
 	
@@ -422,7 +418,7 @@ mission "MGF: Escort (Terrestrial Miner, Dangerous Destination)"
 	destination
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "frontier"
-		distance 4 6
+		distance 3 8
 	npc
 		government "Pirate"
 		personality nemesis harvests plunders
@@ -632,6 +628,8 @@ mission "MGF: Gas Transport (LNG 2)"
 		payment
 		payment 2000000
 		
+#==============================Passenger
+		
 mission "MGF: Huge Passengers [0]"
 	name "Passenger transport to <planet>"
 	job
@@ -676,7 +674,7 @@ mission "MGF: Huge Syndi Workers [0]"
 	name "Workers to <planet>"
 	job
 	repeat
-	description "This transport agency is looking for ships to transport <bunks> of workers to <destination>. Payment is <payment>."
+	description "This transport agency is looking for ships to transport <bunks> workers to <destination>. Payment is <payment>."
 	passengers 200 700 .8
 	to offer
 		has "event: mgf: mieusbar released"
@@ -1025,7 +1023,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [4]"
 
 #========================Small Pool
 
-mission "MGF: Extra Tourists out [0]"
+mission "MGF: Extra Tourists out Compact Pool [0]"
 	name "Bring a tourist to <planet>"
 	job
 	repeat
@@ -1048,7 +1046,7 @@ mission "MGF: Extra Tourists out [0]"
 		payment 7000
 		dialog phrase "generic passenger dropoff payment"
 
-mission "MGF: Extra Tourists out [1]"
+mission "MGF: Extra Tourists out Compact Pool [1]"
 	name "Bring a tourist to <planet>"
 	job
 	repeat
@@ -1073,7 +1071,7 @@ mission "MGF: Extra Tourists out [1]"
 		
 #=========================Medium Pool
 
-mission "MGF: Extra Tourists out [0]"
+mission "MGF: Extra Tourists out Medium Pool [0]"
 	name "Bring a tourist to <planet>"
 	job
 	repeat
@@ -1096,7 +1094,7 @@ mission "MGF: Extra Tourists out [0]"
 		payment 8000
 		dialog phrase "generic passenger dropoff payment"
 
-mission "MGF: Extra Tourists out [1]"
+mission "MGF: Extra Tourists out Medium Pool [1]"
 	name "Bring a tourist to <planet>"
 	job
 	repeat
@@ -1781,7 +1779,7 @@ mission "MGF: Extra Transport Large Exotic Pool [1]"
 
 #=============================================Casino
 
-mission "MGF: Extra Wealthy Tourist Large Exotic Pool [0]"
+mission "MGF: Extra Wealthy Tourist Large Casino [0]"
 	name "Bring wealthy tourists to <planet>"
 	job
 	repeat
@@ -1807,7 +1805,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [0]"
 		payment 10000 200
 		dialog phrase "generic passenger dropoff payment"
 
-mission "MGF: Extra Wealthy Tourist Large Exotic Pool [1]"
+mission "MGF: Extra Wealthy Tourist Large Casino [1]"
 	name "Bring wealthy tourists to <planet>"
 	job
 	repeat
