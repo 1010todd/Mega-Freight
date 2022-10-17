@@ -2134,6 +2134,133 @@ event "mgf: readd fleets recapture of Kornephoros"
 		add fleet "Small Crossguard Patrol" 2700
 		add fleet "Large Crossguard Patrol" 5800
 		
+mission "MGF: readd fleet normal in Alnasl"
+	invisible
+	landing
+	to offer
+		has "event: normal in Alnasl"
+	on offer
+		event "mgf: readd fleets normal in Alnasl"
+	on accept
+		fail
+		
+event "mgf: readd fleets normal in Alnasl"
+	system Alnasl
+		add fleet "Jacks Gang" 9600
+		add fleet "Small Crossguard Patrol" 2900
+		add fleet "Large Crossguard Patrol" 5900
+		add fleet "Rangphenn Transport" 6100
+		add fleet "Small Black Death" 7900
+		add fleet "Large Black Death" 11800
+		
+mission "MGF: quick readd fleet fw southern expansion"
+	invisible
+	landing
+	to offer
+		has "event: fw southern expansion"
+	on offer
+		event "mgf: quick readd fleets fw southern expansion"
+	on accept
+		fail
+		
+event "mgf: readd fleets fw southern expansion"
+	system "Lesath"
+		add fleet "Small Crossguard Patrol" 3400
+		add fleet "Large Crossguard Patrol" 5200
+		add fleet "Small Black Death" 7600
+		add fleet "Large Black Death" 10900
+		add fleet "Rangphenn Transport" 5700
+		add fleet "Jacks Gang" 10900
+	system "Sargas"
+		add fleet "Small Crossguard Patrol" 2500
+		add fleet "Large Crossguard Patrol" 6300
+		add fleet "Small Black Death" 7700
+		add fleet "Large Black Death" 10300
+		add fleet "Rangphenn Transport" 6100
+		add fleet "Jacks Gang" 11600
+	system "Rastaban"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Girtab"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Albaldah"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Delta Sagittarii"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Kaus Borealis"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+		
+mission "MGF: quick readd fleet fw occupying the north"
+	invisible
+	landing
+	to offer
+		has "event: fw southern expansion"
+	on offer
+		event "mgf: quick readd fleets fw occupying the north"
+	on accept
+		fail
+		
+event "mgf: quick readd fleets fw occupying the north"
+	system "Alioth"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Alphecca"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Boral"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Seginus"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+	system "Wei"
+		add fleet "Small Crossguard Patrol" 2300
+		add fleet "Large Crossguard Patrol" 5400
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 16800
+		add fleet "Rangphenn Transport" 5000
+		add fleet "Jacks Gang" 11800
+		
 #Lost in Midnight Compatibility Support
 
 mission "MGF-LiM compat: Marauder Syndi HW"

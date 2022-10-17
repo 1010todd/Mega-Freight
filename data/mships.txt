@@ -5803,7 +5803,7 @@ ship "TS-1L260 Mieusbar"
 	thumbnail "thumbnail/mgf mieusbar thumb"
 	attributes
 		category "Space Liner"
-		"cost" 11060000
+		"cost" 32000000
 		"shields" 14900
 		"hull" 9800
 		"required crew" 56
