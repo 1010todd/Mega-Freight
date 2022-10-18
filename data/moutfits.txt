@@ -871,7 +871,7 @@ outfit "EL-1388 Aphelion Turret"
 		"firing energy" 86
 		"firing heat" 100
 		"hit force" 50
-		"trigger radius" 300
+		"split range" 300
 		submunition "el-1388 frag 1" 5
 		submunition "el-1388 frag 2" 2
 	description "Espion long-ranged turret for defending against attackers"
