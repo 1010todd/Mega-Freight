@@ -805,6 +805,12 @@ mission "MGF Addition: FW Pug 5B"
 	clearance
 	to offer
 		has "FW Pug 5A: done"
+		not "FW Pug 5B: done"
+		not "FW Pug 5B: failed"
+	to fail
+		or
+			has "FW Pug 5B: done"
+			has "FW Pug 5B: failed"
 	npc
 		government Republic
 		personality escort disables waiting
@@ -826,6 +832,8 @@ mission "MGF Addition: FW Syndicate Extremists 1B"
 	clearance
 	to offer
 		has "FW Syndicate Extremists 1A: done"
+	to fail
+		has "FW Syndicate Extremists 1B: done"
 	npc
 		government "Navy (Oathkeeper)"
 		system Deneb
@@ -845,6 +853,9 @@ mission "MGF Addition: FWC Attack Kaus Borealis"
 	clearance
 	to offer
 		has "FWC Scouting 1: done"
+		not "FWC Attack Kaus Borealis: done"
+	to fail
+		has "FWC Attack Kaus Borealis: done"
 	npc evade
 		personality staying heroic
 		system "Kaus Borealis"
@@ -863,7 +874,9 @@ mission "MGF Addition: FWC Checkmate 1B"
 	clearance
 	to offer
 		has "FWC Checkmate 1: done"
-	
+		not "FWC Checkmate 1B: done"
+	to fail
+		has "FWC Checkmate 1B: done"
 	npc evade
 		personality heroic staying
 		government "Republic"
@@ -902,6 +915,8 @@ mission "MGF Addition: FWC Pug 4C"
 	clearance
 	to offer
 		has "FWC Pug 4B: done"
+	to fail
+		has "FWC Pug 4C: done"
 	npc evade
 		personality disables heroic staying
 		government Pug
@@ -950,6 +965,9 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2"
 	source "Farpoint"
 	to offer
 		has "Wanderers: Sestor: Quarg Help 2: done"
+		or
+			not "Wanderers: Sestor: Farpoint Attack 2: done"
+			not "Wanderers: Sestor: Bomb Zenith 1: done"
 	to complete
 		or
 			has "Wanderers: Sestor: Farpoint Attack 2: done"
@@ -975,6 +993,9 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2 (Lucerne)"
 	to offer
 		has "Wanderers: Sestor: Quarg Help 2: done"
 		has "event: mgf: developed Lucerne"
+		or
+			not "Wanderers: Sestor: Farpoint Attack 2: done"
+			not "Wanderers: Sestor: Bomb Zenith 1: done"
 	to complete
 		or
 			has "Wanderers: Sestor: Farpoint Attack 2: done"
