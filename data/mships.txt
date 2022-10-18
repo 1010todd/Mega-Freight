@@ -2030,7 +2030,7 @@ ship "EM-28F Wombat"
 		"LP576a Battery Pack"
 		"D94-YV Shield Generator"
 		"Espion Value Detector" 12
-		"Espion Ore Refinery Module" 12
+		"Espion Ore Refinery Module" 8
 		
 		"Tyrant Plasma Steering"
 		"Tyrant Plasma Thruster"

@@ -59,7 +59,7 @@ outfit "Kotroger Excavator Turret"
 		"hardpoint offset" 80.
 		"hit effect" "smoke"
 		"hit effect" "mgf kotroger bucket"
-		icon "icon/template"
+		#icon "icon/template"
 		"inaccuracy" 0
 		"velocity" 200
 		"lifetime" 1
@@ -1172,7 +1172,7 @@ effect "spearfish smoke"
 	
 outfit "Spearfish VLS Array"
 	category "Secondary Weapons"
-	cost 200000
+	cost 400000
 	thumbnail "outfit/spearfish vls"
 	"mass" 2
 	"outfit space" -12
@@ -1198,25 +1198,25 @@ outfit "Spearfish VLS Array"
 		"inaccuracy" 1
 		"velocity" 1
 		"lifetime" 800
-		"reload" 20
+		"reload" 35
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" 1
-		"drag" .07
+		"drag" .08
 		"turn" 4
 		"homing" 4
 		"radar tracking" .7
 		"optical tracking" .8
 		"blast radius" 30
-		"shield damage" 1280
-		"hull damage" 880
+		"shield damage" 1080
+		"hull damage" 680
 		"hit force" 520
 		"missile strength" 12
 	description "Powerful anti-ship missile"
 	
 outfit "Spearfish Launcher Array"
 	category "Secondary Weapons"
-	cost 200000
+	cost 400000
 	thumbnail "outfit/spearfish vls"
 	"mass" 2
 	"outfit space" -12
@@ -1241,18 +1241,18 @@ outfit "Spearfish Launcher Array"
 		"inaccuracy" 1
 		"velocity" 1
 		"lifetime" 800
-		"reload" 20
+		"reload" 35
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" 1
-		"drag" .07
+		"drag" .08
 		"turn" 4
 		"homing" 4
 		"radar tracking" .7
 		"optical tracking" .8
 		"blast radius" 30
-		"shield damage" 1280
-		"hull damage" 880
+		"shield damage" 1080
+		"hull damage" 680
 		"hit force" 520
 		"missile strength" 12
 	description "Powerful anti-ship missile"
@@ -1914,7 +1914,25 @@ outfit "GMS14 Tungsten Product"
 
 outfit "Liquid Natural Gas"
 	category "Special"
-	cost 80000
+	cost 8000
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"gas capacity" -1
+	"gas lock" 1
+	"unplunderable" 1
+	
+outfit "Liquid Ethane"
+	category "Special"
+	cost 12000
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"gas capacity" -1
+	"gas lock" 1
+	"unplunderable" 1
+	
+outfit "Liquid Hydrogen"
+	category "Special"
+	cost 10000
 	thumbnail "outfit/unknown"
 	"mass" 1
 	"gas capacity" -1
