@@ -293,6 +293,9 @@ shipyard "Tarazed Advanced"
 	"LGC-3 Mesa"
 	"HMM-190 Kotroger"
 	
+shipyard "Hai Advanced"
+	"AYS-17 Proetida"
+	
 shipyard "Advanced Northern Pirates"
 	"CSE-6 Steward"
 	"Aplomado"

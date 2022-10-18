@@ -677,3 +677,15 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 	engine 272 299.5 
 		zoom .7
 	description `Another attempt to make the ship more attractive choice first shown concept model at the spaceship expo in 3013, the rear cargo section was modified into engine section giving the ship a massive increase to speed shortening the transit.`
+
+ship "Falcon" "Falcon (Automaton)"
+	add attributes
+		"automaton" 1
+		
+ship "Leviathan" "Leviathan (Automaton)"
+	add attributes
+		"automaton" 1
+		
+ship "Culverin" "Culverin (Automaton)"
+	add attributes
+		"automaton" 1

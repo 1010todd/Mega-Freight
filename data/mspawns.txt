@@ -4,7 +4,7 @@
 mission "MGF: Polaris Alcazar"
 	invisible
 	landing
-	npc kill
+	npc save
 		government Syndicate
 		personality heroic staying opportunistic
 		system Polaris
@@ -13,13 +13,31 @@ mission "MGF: Polaris Alcazar"
 			names "syndicate small"
 			variant
 				"Barb" 120
-	on complete
-		"reputation: Syndicate" -= 1000
+
+mission "MGF: Polaris Alcazar Respawn Delay"
+	invisible
+	landing
+	to offer
+		has "MGF: Polaris Alcazar: failed"
+	on offer
+		"MGF: Polaris Alcazar Destruction Date" = ("year" * "months") + "months"
+	on accept
+		fail
 		
+mission "MGF: Polaris Alcazar Respawn"
+	invisible
+	landing
+	to offer
+		"MGF: Polaris Alcazar Destruction Date" + 12 == ("year" * "months") + "months"
+	on offer
+		clear "MGF: Polaris Alcazar: offered"
+		clear "MGF: Polaris Alcazar: failed"
+		clear "MGF: Polaris Alcazar: done"
+
 mission "MGF: Sol Alcazar"
 	invisible
 	landing
-	npc kill
+	npc save
 		government Republic
 		personality heroic staying opportunistic
 		system Sol
@@ -29,13 +47,31 @@ mission "MGF: Sol Alcazar"
 			variant
 				"Lance" 90
 				"A-14F Rondel" 30
-	on complete
-		"reputation: Republic" -= 1000
+
+mission "MGF: Sol Alcazar Respawn Delay"
+	invisible
+	landing
+	to offer
+		has "MGF: Sol Alcazar: failed"
+	on offer
+		"MGF: Sol Alcazar Destruction Date" = ("year" * "months") + "months"
+	on accept
+		fail
+		
+mission "MGF: Sol Alcazar Respawn"
+	invisible
+	landing
+	to offer
+		"MGF: Sol Alcazar Destruction Date" + 12 == ("year" * "months") + "months"
+	on offer
+		clear "MGF: Sol Alcazar: offered"
+		clear "MGF: Sol Alcazar: failed"
+		clear "MGF: Sol Alcazar: done"
 		
 mission "MGF: Almaaz Alcazar"
 	invisible
 	landing
-	npc kill
+	npc save
 		government Pirate
 		personality heroic staying opportunistic
 		system Almaaz
@@ -44,9 +80,6 @@ mission "MGF: Almaaz Alcazar"
 			names "pirate"
 			variant
 				"Dagger" 120
-	on complete
-		"reputation: Pirate" -= 1000
-		
 		
 event "MGF: Pirate Advancement I"
 	date 16 12 3014
