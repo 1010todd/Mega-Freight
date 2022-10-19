@@ -784,6 +784,31 @@ mission "MGF: Gas Transport (Ethane 1)"
 		payment
 		payment 3000000
 		
+mission "MGF: Rush Gas Transport (Ethane 1)"
+	name "Rush Gas Transport"
+	description "4000 tons of Liquid Ethane required to be shipped to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	to offer
+		random < 70
+	source
+		attributes "factory" "manufacturing" "oil"
+	destination
+		attributes "factory" "manufacturing"
+		distance 3 20
+	on offer
+		require "M-type 1k Gas Tank" 2
+	on accept
+		outfit "Liquid Ethane" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Liquid Ethane" -4000
+		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
+		payment
+		payment 5250000
+		
 mission "MGF: Gas Transport (Hydrogen 1)"
 	name "Gas Transport"
 	description "4000 tons of Liquid Hydrogen required to be shipped to <destination>. Payment is <payment>."
@@ -807,6 +832,31 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
 		payment
 		payment 2500000
+		
+mission "MGF: Rush Gas Transport (Hydrogen 1)"
+	name "Rush Gas Transport"
+	description "4000 tons of Liquid Hydrogen required to be shipped to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	to offer
+		random < 80
+	source
+		attributes "factory" "manufacturing" "oil"
+	destination
+		attributes "factory" "manufacturing"
+		distance 3 20
+	on offer
+		require "M-type 1k Gas Tank" 2
+	on accept
+		outfit "Liquid Hydrogen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Liquid Hydrogen" -4000
+		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
+		payment
+		payment 4375000
 		
 #==============================Passenger
 		
