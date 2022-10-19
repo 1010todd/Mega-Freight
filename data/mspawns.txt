@@ -9,6 +9,10 @@ mission "MGF: Polaris Alcazar"
 		personality heroic staying opportunistic
 		system Polaris
 		ship "SC-1 Alcazar" "S.S. Asiaius"
+	npc
+		government Syndicate
+		personality heroic staying
+		system Polaris
 		fleet
 			names "syndicate small"
 			variant
@@ -42,6 +46,10 @@ mission "MGF: Sol Alcazar"
 		personality heroic staying opportunistic
 		system Sol
 		ship "SC-1 Alcazar" "Guardian of Gaia"
+	npc save
+		government Republic
+		personality heroic staying
+		system Sol
 		fleet
 			names "republic fighter"
 			variant
