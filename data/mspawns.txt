@@ -24,7 +24,7 @@ mission "MGF: Polaris Alcazar Respawn Delay"
 	to offer
 		has "MGF: Polaris Alcazar: failed"
 	on offer
-		"MGF: Polaris Alcazar Destruction Date" = ("year" * "months") + "months"
+		"MGF: Polaris Alcazar Destruction Date" = ("year" * 12) + "months"
 	on accept
 		fail
 		
@@ -32,7 +32,8 @@ mission "MGF: Polaris Alcazar Respawn"
 	invisible
 	landing
 	to offer
-		"MGF: Polaris Alcazar Destruction Date" + 12 == ("year" * "months") + "months"
+		has "MGF: Polaris Alcazar: failed"
+		"MGF: Polaris Alcazar Destruction Date" + 12 == ("year" * 12) + "months"
 	on offer
 		clear "MGF: Polaris Alcazar: offered"
 		clear "MGF: Polaris Alcazar: failed"
@@ -62,7 +63,7 @@ mission "MGF: Sol Alcazar Respawn Delay"
 	to offer
 		has "MGF: Sol Alcazar: failed"
 	on offer
-		"MGF: Sol Alcazar Destruction Date" = ("year" * "months") + "months"
+		"MGF: Sol Alcazar Destruction Date" = ("year" * 12) + "months"
 	on accept
 		fail
 		
@@ -70,7 +71,8 @@ mission "MGF: Sol Alcazar Respawn"
 	invisible
 	landing
 	to offer
-		"MGF: Sol Alcazar Destruction Date" + 12 == ("year" * "months") + "months"
+		has "MGF: Sol Alcazar: failed"
+		"MGF: Sol Alcazar Destruction Date" + 12 == ("year" * 12) + "months"
 	on offer
 		clear "MGF: Sol Alcazar: offered"
 		clear "MGF: Sol Alcazar: failed"
@@ -84,6 +86,10 @@ mission "MGF: Almaaz Alcazar"
 		personality heroic staying opportunistic
 		system Almaaz
 		ship "SC-1 Alcazar" "Eternal Void"
+	npc
+		government Pirate
+		personality heroic staying
+		system Almaaz
 		fleet
 			names "pirate"
 			variant

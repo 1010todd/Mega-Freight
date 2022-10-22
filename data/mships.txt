@@ -790,7 +790,7 @@ ship "RF-03 Gerlache"
 		"mass" 4364
 		"drag" 12.4
 		"heat dissipation" .65
-		"fuel capacity" 3000
+		"fuel capacity" 4000
 		"ramscoop" 5
 		"cargo space" 150
 		"outfit space" 452

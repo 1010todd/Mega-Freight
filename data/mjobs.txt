@@ -627,7 +627,7 @@ mission "MGF: Huge Bulk Delivery [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo random 400 900 .85
+	cargo random 400 900 .9
 	to offer
 		random < 65
 		"cargo space" > 120
@@ -865,9 +865,9 @@ mission "MGF: Huge Passengers [0]"
 	job
 	repeat
 	description "Due to last minute cancellation, this transport agency is looking for ships to bring <fare> to <destination>. Payment is <payment>."
-	passengers 200 700 .9
+	passengers 50 18 .05 #if Derpy's graph thing(https://www.desmos.com/calculator/ypadiskkc5) is right it should be from 200 ~ 700
 	to offer
-		random < 40
+		random < 100
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -876,8 +876,7 @@ mission "MGF: Huge Passengers [0]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment
-		payment 4500 70
+		payment 114500 70
 		dialog phrase "generic passenger dropoff payment"
 
 mission "MGF: Huge Passengers [1]"
@@ -885,9 +884,9 @@ mission "MGF: Huge Passengers [1]"
 	job
 	repeat
 	description "Due to last minute cancellation, this transport agency is looking for ships to bring <fare> to <destination>. Payment is <payment>."
-	passengers 200 700 .8
+	passengers 50 18 .045
 	to offer
-		random < 37
+		random < 35
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -896,8 +895,7 @@ mission "MGF: Huge Passengers [1]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment
-		payment 4500 85
+		payment 115000 80
 		dialog phrase "generic passenger dropoff payment"
 
 mission "MGF: Huge Syndi Workers [0]"
@@ -905,7 +903,7 @@ mission "MGF: Huge Syndi Workers [0]"
 	job
 	repeat
 	description "This transport agency is looking for ships to transport <bunks> workers to <destination>. Payment is <payment>."
-	passengers 200 700 .8
+	passengers 100 18 .045
 	to offer
 		has "event: mgf: mieusbar released"
 		random < 30
@@ -918,8 +916,7 @@ mission "MGF: Huge Syndi Workers [0]"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
-		payment
-		payment 5000 50
+		payment 150000 50
 		dialog phrase "generic passenger dropoff payment"
 
 mission "MGF: Landed Rollercoaster (rich urban) [0]"
@@ -1036,7 +1033,7 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [0]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 3 10 .6
+	passengers 3 10 .8
 	to offer
 		random < 80
 	on offer
@@ -1060,7 +1057,7 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [1]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 3 10 .6
+	passengers 3 10 .8
 	to offer
 		random < 75
 	on offer
@@ -1084,7 +1081,7 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [2]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 3 10 .6
+	passengers 3 10 .75
 	to offer
 		random < 70
 	on offer
@@ -1108,7 +1105,7 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [3]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 3 10 .6
+	passengers 3 10 .7
 	to offer
 		random < 60
 	on offer
@@ -1158,7 +1155,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [1]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 3 10 .6
+	passengers 3 10 .7
 	to offer
 		random < 80
 	on offer
@@ -1352,7 +1349,7 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [0]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .7
+	passengers 2 10 .75
 	to offer
 		random < 70
 	on offer
@@ -1376,7 +1373,7 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [1]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .7
+	passengers 2 10 .75
 	to offer
 		random < 60
 	on offer
@@ -1498,7 +1495,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [0]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .6
+	passengers 2 10 .8
 	to offer
 		random < 70
 	on offer
@@ -1522,7 +1519,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [1]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .6
+	passengers 2 10 .75
 	to offer
 		random < 65
 	on offer
@@ -1546,7 +1543,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [2]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .6
+	passengers 2 10 .75
 	to offer
 		random < 55
 	on offer
@@ -1570,7 +1567,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [3]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .5
+	passengers 2 10 .7
 	to offer
 		random < 50
 	on offer
@@ -1594,7 +1591,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [4]"
 	job
 	repeat
 	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
-	passengers 2 10 .4
+	passengers 2 10 .6
 	to offer
 		random < 50
 	on offer
