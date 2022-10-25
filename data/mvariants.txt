@@ -72,7 +72,6 @@ ship "CH-6 Carrack" "CH-6 Carrack (Atomic, Jacks)"
 		
 		"Fission Reactor" 2
 		"LP288a Battery Pack"
-		"D41-HY Shield Generator"
 		"D94-YV Shield Generator"
 		"Laser Rifle" 36
 		
