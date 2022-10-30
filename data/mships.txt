@@ -730,7 +730,7 @@ ship "LCC-3 Sierra"
 		"mass" 5220
 		"drag" 10.4
 		"heat dissipation" .6
-		"fuel capacity" 6000
+		"fuel capacity" 18000
 		"cargo space" 300
 		"outfit space" 670
 		"weapon capacity" 300
@@ -790,7 +790,7 @@ ship "RF-03 Gerlache"
 		"mass" 4364
 		"drag" 12.4
 		"heat dissipation" .65
-		"fuel capacity" 4000
+		"fuel capacity" 8000
 		"ramscoop" 5
 		"cargo space" 150
 		"outfit space" 452

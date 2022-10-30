@@ -703,7 +703,7 @@ mission "MGF: Syndi Platinum License Cancel (bfr 1yr)"
 	job
 	repeat
 	name "Cancel Platinum License"
-	description "Cancel Syndicate Platinum License for a fee of <fine>."
+	description "Cancel Syndicate Platinum License for a fee of 1820000."
 	to offer
 		has "license: Syndicate Platinum"
 		has "MGF: Syndi Platinum License Upkeep: offered"
@@ -720,7 +720,7 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 	job
 	repeat
 	name "Cancel Platinum License"
-	description "Cancel Syndicate Platinum License for a fee of <fine>."
+	description "Cancel Syndicate Platinum License for a fee of 910000."
 	to offer
 		has "license: Syndicate Platinum"
 		has "MGF: Syndi Platinum License Upkeep: offered"
