@@ -1278,7 +1278,7 @@ ship "PCS-4 Castle"
 		"fuel capacity" 1200
 		"cargo space" 50
 		"outfit space" 1402
-		"weapon capacity" 650
+		"weapon capacity" 550
 		"engine capacity" 245
 		weapon
 			"blast radius" 140
@@ -1841,8 +1841,8 @@ ship "CSE-6 Steward"
 		"heat dissipation" .5
 		"fuel capacity" 800
 		"cargo space" 50
-		"outfit space" 686
-		"weapon capacity" 320
+		"outfit space" 699
+		"weapon capacity" 348
 		"engine capacity" 178
 		weapon
 			"blast radius" 140
@@ -2003,7 +2003,7 @@ ship "EM-28F Wombat"
 		"fuel capacity" 1600
 		"cargo space" 1800
 		"outfit space" 8955
-		"weapon capacity" 999
+		"weapon capacity" 1049
 		"engine capacity" 368
 		"hull repair rate" .2
 		"repair delay" 300
@@ -2570,7 +2570,7 @@ ship "AP-22 Fusillade"
 		"fuel capacity" 800
 		"cargo space" 120
 		"outfit space" 3226
-		"weapon capacity" 2014
+		"weapon capacity" 2022
 		"engine capacity" 782
 		"spinal mount" 1
 		weapon
@@ -3215,8 +3215,8 @@ ship "Culverin Class"
 		"heat dissipation" .45
 		"fuel capacity" 700
 		"cargo space" 50
-		"outfit space" 833
-		"weapon capacity" 361
+		"outfit space" 853
+		"weapon capacity" 381
 		"engine capacity" 210
 		"vertical launching support" 4
 		weapon
@@ -3358,8 +3358,8 @@ ship "Spetum Class"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 150
-		"outfit space" 1988
-		"weapon capacity" 1064
+		"outfit space" 2062
+		"weapon capacity" 1079
 		"engine capacity" 350
 		weapon
 			"blast radius" 300
@@ -4690,8 +4690,8 @@ ship "Nasprite"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 500
-		"outfit space" 866
-		"weapon capacity" 412
+		"outfit space" 879
+		"weapon capacity" 419
 		"engine capacity" 192
 		weapon
 			"blast radius" 300
@@ -4766,7 +4766,7 @@ ship "CK50T Stahbar"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 850
-		"outfit space" 772
+		"outfit space" 789
 		"weapon capacity" 412
 		"engine capacity" 212
 		"radar jamming" 50
@@ -4825,7 +4825,7 @@ ship "CK40T Treibard"
 		"fuel capacity" 800
 		"cargo space" 640
 		"outfit space" 642
-		"weapon capacity" 255
+		"weapon capacity" 276
 		"engine capacity" 142
 		"radar jamming" 60
 		"scan interference" 26
@@ -5262,8 +5262,8 @@ ship "PF-80 Intrepid"
 		"heat dissipation" .5
 		"fuel capacity" 800
 		"cargo space" 400
-		"outfit space" 838
-		"weapon capacity" 466
+		"outfit space" 859
+		"weapon capacity" 478
 		"engine capacity" 174
 		weapon
 			"blast radius" 300
@@ -5555,8 +5555,8 @@ ship "AD-019A Iabayi"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 410
-		"outfit space" 562
-		"weapon capacity" 282
+		"outfit space" 576
+		"weapon capacity" 294
 		"engine capacity" 144
 		weapon
 			"blast radius" 100
@@ -5615,8 +5615,8 @@ ship "AD-0032 Ialmuslati"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 15
-		"outfit space" 452
-		"weapon capacity" 156
+		"outfit space" 472
+		"weapon capacity" 176
 		"engine capacity" 162
 		weapon
 			"blast radius" 40
@@ -5676,7 +5676,7 @@ ship "TS-650 Herrenbal"
 		"fuel capacity" 600
 		"cargo space" 20
 		"outfit space" 379
-		"weapon capacity" 139
+		"weapon capacity" 154
 		"engine capacity" 85
 		weapon
 			"blast radius" 140
@@ -5737,8 +5737,8 @@ ship "TS-CH0 Kratzbal"
 		"heat dissipation" .65
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 668
-		"weapon capacity" 334
+		"outfit space" 688
+		"weapon capacity" 358
 		"engine capacity" 154
 		weapon
 			"blast radius" 140
@@ -5814,7 +5814,7 @@ ship "TS-1L260 Mieusbar"
 		"fuel capacity" 1600
 		"cargo space" 100
 		"outfit space" 1148
-		"weapon capacity" 635
+		"weapon capacity" 678
 		"engine capacity" 182
 		weapon
 			"blast radius" 140
