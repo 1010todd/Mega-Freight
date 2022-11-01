@@ -119,6 +119,8 @@ ship "Behemoth" "Behemoth (Atomic, Jacks)"
 		"Scram Drive"
 		
 ship "Dreadnought" "Dreadnought (Parapet)"
+	add attributes
+		"weapon capacity" 5
 	outfits
 		"Torpedo Launcher" 4
 		"Torpedo" 120
@@ -133,6 +135,7 @@ ship "Dreadnought" "Dreadnought (Parapet)"
 		"Liquid Helium Cooler"
 		"Tactical Scanner"
 		"Laser Rifle" 25
+		"Outfit Expansion" 2
 		
 		"Orca Plasma Thruster"
 		"Orca Plasma Steering"
@@ -171,10 +174,33 @@ ship "Falcon" "Falcon (Parapet)"
 		"Large Radar Jammer"
 		"Liquid Nitrogen Cooler"
 		"Laser Rifle" 15
+		"Outfit Expansion"
 		
 		"Impala Plasma Thruster"
 		"Impala Plasma Steering"
 		"Hyperdrive"
+		
+ship "CS-24 Garrison" "CS-24 Garrison (Parapet)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Proton Turret" 4
+		"Blaster Turret" 5
+		"Anti-Missile Turret" 1
+		"KC-421 Parapet Anti-Missile" 2
+		
+		"Fusion Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		
+		"Torpedo Storage Rack" 3
+		"Torpedo" 45
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
 		
 ship "PAS-2 Bulwark" "PAS-2 Bulwark (Parapets)"
 	outfits

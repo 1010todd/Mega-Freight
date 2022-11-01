@@ -939,6 +939,11 @@ event "mgf: fw converted warships w parapet"
 			"CS-24 Garrison"
 			"Finch" 18
 		add variant 1
+			"Eleonorae"
+			"PAS-2 Bulwark"
+			"CS-24 Garrison (Parapet)"
+			"Finch" 18
+		add variant 1
 			"Falcon (Parapet)"
 			"Eleonorae"
 			"PCS-4 Castle"

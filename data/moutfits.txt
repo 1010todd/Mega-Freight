@@ -964,7 +964,7 @@ effect "mgf kavacha hit"
 	
 outfit "KC-421 Parapet Anti-Missile"
 	category "Turrets"
-	cost 590000
+	cost 480000
 	thumbnail "outfit/mgf kc421 antimissile"
 	"mass" 65
 	"outfit space" -65
@@ -1019,7 +1019,7 @@ outfit "4C-1 Bomb Charge"
 outfit "Swordfish Missile"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/sidewinder"
+	thumbnail "outfit/mgf swordfish missile"
 	"mass" .2
 	"swordfish capacity" -1
 	description "The Swordfish Missile is ammunition for the Swordfish Missile Launcher"
@@ -1027,7 +1027,7 @@ outfit "Swordfish Missile"
 outfit "Swordfish Missile Rack"
 	category "Ammunition"
 	cost 20000
-	thumbnail "outfit/sidewinder storage"
+	thumbnail "outfit/mgf swordfish missile rack"
 	"mass" 2.4
 	"outfit space" -7
 	"swordfish capacity" 23
@@ -1037,20 +1037,21 @@ outfit "Swordfish Missile Rack"
 outfit "Swordfish Missile Turret"
 	category "Secondary Weapons"
 	cost 80000
-	thumbnail "outfit/sidewinder launcher"
+	thumbnail "outfit/mgf swordfish turret"
 	"mass" 5
 	"outfit space" -18
 	"weapon capacity" -18
 	"turret mounts" -1
 	"swordfish capacity" 45
 	weapon
-		sprite "projectile/sidewinder"
+		hardpoint "hardpoint/mgf swordfish turret hp"
+		sprite "projectile/mgf swordfish missile proj"
 			"no repeat"
 			"frame rate" .25
 		sound "sidewinder"
 		ammo "Swordfish Missile"
 		icon "icon/sidewinder"
-		"fire effect" "sidewinder fire"
+		"fire effect" "sidewinder fire" #Todo unique missile flare
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"turret turn" 1.8
@@ -1075,7 +1076,7 @@ outfit "Swordfish Missile Turret"
 	
 outfit "swordfish missile activated"
 	weapon
-		sprite "projectile/sidewinder"
+		sprite "projectile/mgf swordfish missile proj"
 			"no repeat"
 			"frame rate" .25
 		sound "sidewinder"
@@ -1090,7 +1091,7 @@ outfit "swordfish missile activated"
 		"trigger radius" 200
 		"shield damage" 680
 		"hull damage" 258
-		"hit force" 100
+		"hit force" 75
 		"missile strength" 8
 		
 outfit "Mjolnir Missile"
@@ -1142,7 +1143,7 @@ outfit "Mjolnir Launcher"
 		"phasing"
 		"shield damage" 1025
 		"hull damage" 956
-		"hit force" 125
+		"hit force" 75
 		"missile strength" 23
 	description "A smart missile that can dodge obstacles and untargeted ships to ensure it hit the correct target."
 		
@@ -1210,7 +1211,7 @@ outfit "Spearfish VLS Array"
 		"blast radius" 30
 		"shield damage" 1080
 		"hull damage" 680
-		"hit force" 520
+		"hit force" 120
 		"missile strength" 12
 	description "Powerful anti-ship missile"
 	
@@ -1253,7 +1254,7 @@ outfit "Spearfish Launcher Array"
 		"blast radius" 30
 		"shield damage" 1080
 		"hull damage" 680
-		"hit force" 520
+		"hit force" 120
 		"missile strength" 12
 	description "Powerful anti-ship missile"
 	
@@ -1319,7 +1320,7 @@ outfit "AH-5 Eteron Launch System"
 		"blast radius" 20
 		"shield damage" 7680
 		"hull damage" 7880
-		"hit force" 820
+		"hit force" 420
 		"missile strength" 42
 		"phasing"
 	description "Powerful anti-ship missile with very limited maneuvrability but can guide itself around obstacles."
