@@ -383,8 +383,8 @@ outfit "G22 Particle Cannon"
 		"firing force" 8
 		"firing heat" 150
 		"hit force" 60
-		"shield damage" 62
-		"hull damage" 60
+		"shield damage" 50
+		"hull damage" 48
 	description `Old model of Particle Cannon with less efficiency and firepower but faster fire-rate found on some older ships.`
 		
 outfit "G22 Particle Turret"
@@ -410,8 +410,8 @@ outfit "G22 Particle Turret"
 		"firing force" 8
 		"firing heat" 150
 		"hit force" 60
-		"shield damage" 62
-		"hull damage" 60
+		"shield damage" 50
+		"hull damage" 48
 	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate found on some older ships.`
 		
 outfit "M6-ACS Artillery"
@@ -760,11 +760,11 @@ outfit "EMX-55 Flakcannon"
 		"firing energy" 122
 		"firing heat" 100
 		"hit force" 50
-		"shield damage" 655
-		"hull damage" 215
+		"shield damage" 355
+		"hull damage" 98
 		"ion damage" .05
 		"blast radius" 70
-		"trigger radius" 30
+		"trigger radius" 40
 		"safe"
 	description "Anti-swarm flakcannon"
 	
@@ -795,11 +795,11 @@ outfit "EMX-55 Flakcannon Turret"
 		"firing energy" 122
 		"firing heat" 100
 		"hit force" 50
-		"shield damage" 655
-		"hull damage" 215
+		"shield damage" 355
+		"hull damage" 98
 		"ion damage" .05
 		"blast radius" 70
-		"trigger radius" 30
+		"trigger radius" 40
 		"safe"
 	description "Anti-swarm flakcannon"
 	
@@ -839,8 +839,8 @@ outfit "EMX-84 Pulse-Flak Turret"
 		"firing energy" 212
 		"firing heat" 140
 		"hit force" 60
-		"shield damage" 955
-		"hull damage" 121
+		"shield damage" 421
+		"hull damage" 85
 		"ion damage" .14
 		"blast radius" 75
 		"trigger radius" 40
@@ -975,7 +975,7 @@ outfit "KC-421 Parapet Anti-Missile"
 		"hardpoint sprite" "hardpoint/mgf kc421 antimissile hp"
 		"hardpoint offset" 10.
 		#"hit effect" "emx55 flak"
-		"die effect" "v85 railgun fire"
+		"die effect" "bullet impact"
 		"fire effect" "v85 railgun fire"
 		"velocity" 500
 		"turret turn" 5.5
@@ -1129,7 +1129,7 @@ outfit "Mjolnir Launcher"
 		"inaccuracy" .1
 		"velocity" 10
 		"lifetime" 850
-		"reload" 35
+		"reload" 40
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" 1.2
@@ -1141,10 +1141,10 @@ outfit "Mjolnir Launcher"
 		"blast radius" 30
 		"safe"
 		"phasing"
-		"shield damage" 1025
-		"hull damage" 956
-		"hit force" 75
-		"missile strength" 23
+		"shield damage" 980
+		"hull damage" 764
+		"hit force" 45
+		"missile strength" 18
 	description "A smart missile that can dodge obstacles and untargeted ships to ensure it hit the correct target."
 		
 outfit "Spearfish Missile"
@@ -1196,15 +1196,16 @@ outfit "Spearfish VLS Array"
 		"hit effect" "huge explosion"
 		"turret turn" 360
 		"velocity override" 1000
+		"range override" 5875
 		"inaccuracy" 1
 		"velocity" 1
-		"lifetime" 800
+		"lifetime" 470
 		"reload" 35
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" 1
 		"drag" .08
-		"turn" 4
+		"turn" 3.5
 		"homing" 4
 		"radar tracking" .7
 		"optical tracking" .8
@@ -1238,16 +1239,16 @@ outfit "Spearfish Launcher Array"
 		"live effect" "spearfish smoke" 500
 		"fire effect" "smoke" 2
 		"hit effect" "huge explosion"
-		"velocity override" 1000
+		"range override" 5875
 		"inaccuracy" 1
 		"velocity" 1
-		"lifetime" 800
+		"lifetime" 470
 		"reload" 35
 		"firing energy" 10
 		"firing heat" 48
 		"acceleration" 1
 		"drag" .08
-		"turn" 4
+		"turn" 3.5
 		"homing" 4
 		"radar tracking" .7
 		"optical tracking" .8
@@ -1307,11 +1308,12 @@ outfit "AH-5 Eteron Launch System"
 		"hit effect" "huge explosion"
 		"inaccuracy" 1
 		"velocity" 1.5
-		"lifetime" 900
+		"range override" 10000
+		"lifetime" 250
 		"reload" 120
 		"firing energy" 10
 		"firing heat" 56
-		"acceleration" 1.2
+		"acceleration" .4
 		"drag" .01
 		"turn" 2
 		"homing" 4

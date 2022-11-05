@@ -167,6 +167,7 @@ outfitter developer
 	"KC-344 Chainsaw"
 	"JX-2 Overdriven Gatling Turret"
 	"KC-421 Parapet Anti-Missile"
+	"EMX-84 Pulse-Flak Turret"
 	
 	#"X09E Fighter Assembler"
 	#"E1 Lance Blueprint"
