@@ -1129,13 +1129,15 @@ fleet "Large Republic"
 		"Gunboat" 2
 	add variant 1
 		"Spetum Class"
-		"Lance" 80
+		"Lance" 40
+		"A-14F Rondel" 40
 		"Combat Drone" 24
 		"Cruiser" 2
 		"Combat Drone" 8
 	add variant 1
 		"Spetum Class"
-		"Lance" 80
+		"Lance" 40
+		"A-14F Rondel" 40
 		"Combat Drone" 24
 		"Culverin Class"
 		"Lance" 2

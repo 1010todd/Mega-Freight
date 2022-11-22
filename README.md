@@ -18,8 +18,10 @@ Over 50 ships:
 * 8 Fighters, Drones, and other carried ships (Utility and Combat)
 
 And other things:
-* A few weapons and outfits.
+* A few weapons and outfits. 
 * Mining jobs.
+* Additional luxury jobs/rich passengers depending on outfits.
+* Huge jobs (Passengers, Deliveries, Escorts).
 * New sub-factions (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard).
 * NPC fleets using the new ships. (And make pirates get stronger over time.)
 * Presistient NPC (Battlestations in 3 systems, 2 of which can respawn.)

@@ -733,7 +733,7 @@ ship "LCC-3 Sierra"
 		"fuel capacity" 18000
 		"cargo space" 300
 		"outfit space" 670
-		"weapon capacity" 300
+		"weapon capacity" 200
 		"engine capacity" 165
 		weapon
 			"blast radius" 140
@@ -868,7 +868,7 @@ ship "LGC-3 Mesa"
 		"fuel capacity" 1400
 		"cargo space" 150
 		"outfit space" 670
-		"weapon capacity" 300
+		"weapon capacity" 153
 		"engine capacity" 165
 		"m-type 1k gas tank" -6
 		weapon
