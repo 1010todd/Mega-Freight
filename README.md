@@ -15,6 +15,7 @@ This plugin adds:
 * 1 Battlestation
 * 8 Fighters, Drones, and other carried ships (Utility and Combat)
 * A few weapons and outfits.
+* Mining jobs
 
 Requires 0.9.15+/Continuous
 
