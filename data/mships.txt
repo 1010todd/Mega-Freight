@@ -6252,3 +6252,123 @@ ship "AYS-17 Proetida"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "Not long after the development of Geocoris the Hai find their freighters outmatched again with the arrival of a new human fleet with even larger freighters forcing them to develop a newer, and even bigger ship to match. While not being able to match the largest of human freighters yet due to their shipyard being highly optimized for smaller ships and this being the largest design they've made for a long time, the Proetida is able to carry more than most human freighters and significantly more than the Geocoris thanks to redesigned cargo pod and spacious internal area. For that it fits in to the gap between larger human freighters like Bluewhale and Conveyor."
+	
+ship "AYS-19 Peytoia"
+	sprite "ship/mgf hai peytoia"
+	thumbnail "thumbnail/mgf hai peytoia thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 45160000
+		"shields" 36400
+		"hull" 22100
+		"required crew" 64
+		"bunks" 88
+		"mass" 15810
+		"drag" 27.5
+		"heat dissipation" 0.4
+		"fuel capacity" 1200
+		"cargo space" 2481
+		"outfit space" 1593
+		"weapon capacity" 811
+		"engine capacity" 243
+		weapon
+			"blast radius" 600
+			"shield damage" 5000
+			"hull damage" 3000
+			"hit force" 5000
+	outfits
+		"Hai Tracker Pod" 6
+		"Hai Tracker" 336
+		"Pulse Turret" 12
+		"Mi3 Ion Cannon Turret"
+		"Bullfrog Anti-Missile" 8
+		"Geode Reactor" 5
+		"Hai Valley Batteries" 2
+		"Hai Diamond Regenerator" 2
+		"Hai Williwaw Cooling" 5
+		`"Biroo" Reverse Thruster` 2
+		`"Biroo" Atomic Thruster` 2
+		`"Bondir" Atomic Steering` 2
+		Hyperdrive
+
+	gun -34.5 -377 
+	gun 34.5 -377 
+	gun -56.5 -335 
+	gun 56.5 -335 
+	gun -77.5 -289.5 
+	gun 77.5 -289.5 
+	turret -35.5 -236.5 "Pulse Turret"
+	turret 35.5 -236.5 "Pulse Turret"
+	turret 41 -157 "Bullfrog Anti-Missile"
+	turret -41 -157 "Bullfrog Anti-Missile"
+	turret 51 -127 "Pulse Turret"
+	turret -51 -127 "Pulse Turret"
+	turret 0 -141.5 "Mi3 Ion Cannon Turret"
+	turret 136.5 -70.5 "Pulse Turret"
+	turret -136.5 -70.5 "Pulse Turret"
+	turret 147.5 -41.5 "Bullfrog Anti-Missile"
+	turret -147.5 -41.5 "Bullfrog Anti-Missile"
+	turret 42.5 -20.5 "Pulse Turret"
+	turret -42.5 -20.5 "Pulse Turret"
+	turret 82 32.5 "Pulse Turret"
+	turret -82 32.5 "Pulse Turret"
+	turret 82 178 "Bullfrog Anti-Missile"
+	turret -82 178 "Bullfrog Anti-Missile"
+	turret 46 185 "Bullfrog Anti-Missile"
+	turret -46 185 "Bullfrog Anti-Missile"
+	turret 63.5 327.5 "Pulse Turret"
+	turret -63.5 327.5 "Pulse Turret"
+	bay "Drone" 222 53 
+		angle 70
+	bay "Drone" -222 53 
+		angle -70
+	bay "Drone" 238.5 153 
+		angle 90
+	bay "Drone" -238.5 153 
+		angle -90
+	bay "Drone" 223.5 252.5 
+		angle 110
+	bay "Drone" -223.5 252.5 
+		angle -110
+	bay "Drone" 222 53 
+		angle 70
+	bay "Drone" -222 53 
+		angle -70
+	bay "Drone" 238.5 153 
+		angle 90
+	bay "Drone" -238.5 153 
+		angle -90
+	bay "Drone" 223.5 252.5 
+		angle 110
+	bay "Drone" -223.5 252.5 
+		angle -110
+	bay "Drone" 222 53 
+		angle 70
+	bay "Drone" -222 53 
+		angle -70
+	bay "Drone" 238.5 153 
+		angle 90
+	bay "Drone" -238.5 153 
+		angle -90
+	bay "Drone" 223.5 252.5 
+		angle 110
+	bay "Drone" -223.5 252.5 
+		angle -110
+	engine -92.5 388.5 
+		zoom 1.2
+	engine 92.5 388.5 
+		zoom 1.2
+	engine -46 420.5 
+		zoom 1.2
+	engine 46 420.5 
+		zoom 1.2
+	leak "leak" 40 50
+	leak "flame" 40 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "With the recent development of new Unfettered ships and deployment of Pond Strider and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying the drones to defend itself when flying past risky area."

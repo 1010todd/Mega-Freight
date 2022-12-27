@@ -1133,7 +1133,46 @@ event "MGF: Ugyr's Sanctuary Appears"
 				`There've been some mad cult strapping huge cannons to their Star barge parading it around Lesath shooting at anyone who looked at them wrong, you probably want to avoid that area for the time.`
 			word
 				`"`
+				
+mission "MGF: Peytoia Mass Production"
+	landing
+	invisible
+	to offer
+		or
+			has "event: pond strider mass production"
+			has "event: pond strider mass production v2"
+	on offer
+		event "mgf: peytoia mass production" 90
+		fail
 
+event "mgf: peytoia mass production"
+	outfitter "Hai Advanced"
+		"Mi3 Ion Cannon Turret"
+	shipyard "Hai Advanced"
+		add "AYS-19 Peytoia"
+	shipyard "Mon Ki i'Hiya Advanced"
+		add "AYS-19 Peytoia"
+	fleet "Large Hai"
+		add variant 1
+			"AYS-19 Peytoia"
+			"Flea" 18
+	fleet "Large Hai Merchant (Human)"
+		add variant 1
+			"AYS-19 Peytoia"
+			"Flea" 18
+		add variant 1
+			"AYS-19 Peytoia"
+			"Flea" 18
+			"Shield Beetle"
+	fleet "Large Hai Merchant"
+		add variant 1
+			"AYS-19 Peytoia"
+			"Flea" 18
+		add variant 1
+			"AYS-19 Peytoia"
+			"Flea" 18
+			"Aphid" 3
+			
 # Set fleets after vanilla reset
 # Vanilla events will overwrite fleets, this mission is a quick fix to it after the 4 deployments are done.
 # I blame MZ.
