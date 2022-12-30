@@ -1148,6 +1148,7 @@ mission "MGF: Peytoia Mass Production"
 event "mgf: peytoia mass production"
 	outfitter "Hai Advanced"
 		"Mi3 Ion Cannon Turret"
+		"MYi2 Railgun Turret"
 	shipyard "Hai Advanced"
 		add "AYS-19 Peytoia"
 	shipyard "Mon Ki i'Hiya Advanced"
@@ -1172,6 +1173,21 @@ event "mgf: peytoia mass production"
 			"AYS-19 Peytoia"
 			"Flea" 18
 			"Aphid" 3
+			
+mission "MGF: Peytoia Mass Production (patch)"
+	landing
+	invisible
+	to offer
+		has "event: mgf: peytoia mass production"
+	on offer
+		event "mgf: peytoia mass production (patch)"
+		fail
+	on accept
+		fail
+		
+event "mgf: peytoia mass production (patch)"
+	outfitter "Hai Advanced"
+		"MYi2 Railgun Turret"
 			
 # Set fleets after vanilla reset
 # Vanilla events will overwrite fleets, this mission is a quick fix to it after the 4 deployments are done.

@@ -1413,6 +1413,37 @@ effect "bombbox smoke"
 	"random angle" 10
 	"random velocity" 1
 	
+outfit "MYi2 Railgun Turret"
+	category "Secondary Weapons"
+	cost 65000
+	thumbnail "outfit/mgf hai railgun turret"
+	"mass" 5
+	"outfit space" -8
+	"weapon capacity" -8
+	"turret mounts" -1
+	"railgun slug capacity" 1000
+	weapon
+		`hardpoint sprite` "hardpoint/mgf hai railgun turret hp"
+			"hardpoint offset" -1. 4.
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		ammo "Railgun Slug"
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2100
+		"reload" 12
+		"firing energy" 3.5
+		"firing heat" 7.2
+		"firing force" 70
+		"stream"
+		"submunition" "rslug" 1
+	description `Turreted version of the Hai Railgun for ships with some left over space and a turret mount free.`
+	
 	
 outfit "MX30 Sirius Core"
 	category "Power"

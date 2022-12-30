@@ -6279,7 +6279,9 @@ ship "AYS-19 Peytoia"
 	outfits
 		"Hai Tracker Pod" 6
 		"Hai Tracker" 336
-		"Pulse Turret" 12
+		"Pulse Turret" 6
+		"MYi2 Railgun Turret" 6
+		"Railgun Slug" 6000
 		"Mi3 Ion Cannon Turret"
 		"Bullfrog Anti-Missile" 8
 		"Geode Reactor" 5
@@ -6304,16 +6306,16 @@ ship "AYS-19 Peytoia"
 	turret 51 -127 "Pulse Turret"
 	turret -51 -127 "Pulse Turret"
 	turret 0 -141.5 "Mi3 Ion Cannon Turret"
-	turret 136.5 -70.5 "Pulse Turret"
-	turret -136.5 -70.5 "Pulse Turret"
+	turret 136.5 -70.5 "MYi-2 Railgun Turret"
+	turret -136.5 -70.5 "MYi-2 Railgun Turret"
 	turret 147.5 -41.5 "Bullfrog Anti-Missile"
 	turret -147.5 -41.5 "Bullfrog Anti-Missile"
-	turret 42.5 -20.5 "Pulse Turret"
-	turret -42.5 -20.5 "Pulse Turret"
-	turret 82 32.5 "Pulse Turret"
-	turret -82 32.5 "Pulse Turret"
-	turret 82 178 "Bullfrog Anti-Missile"
-	turret -82 178 "Bullfrog Anti-Missile"
+	turret 42.5 -20.5 "MYi-2 Railgun Turret"
+	turret -42.5 -20.5 "MYi-2 Railgun Turret"
+	turret 82 32.5 "Bullfrog Anti-Missile"
+	turret -82 32.5 "Bullfrog Anti-Missile"
+	turret 82 178 "MYi-2 Railgun Turret"
+	turret -82 178 "MYi-2 Railgun Turret"
 	turret 46 185 "Bullfrog Anti-Missile"
 	turret -46 185 "Bullfrog Anti-Missile"
 	turret 63.5 327.5 "Pulse Turret"
