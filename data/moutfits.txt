@@ -1073,7 +1073,7 @@ outfit "Swordfish Missile Turret"
 	"turret mounts" -1
 	"swordfish capacity" 45
 	weapon
-		hardpoint "hardpoint/mgf swordfish turret hp"
+		`hardpoint sprite` "hardpoint/mgf swordfish turret hp"
 		sprite "projectile/mgf swordfish missile proj"
 			"no repeat"
 			"frame rate" .25
