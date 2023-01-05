@@ -579,15 +579,15 @@ ship "Battle Bulk"
 	
 ship "Battle Behemoth"
 	sprite "ship/mgf battle behemoth"
-	#thumbnail "thumbnail/behemoth"
+	thumbnail "thumbnail/mgf battle behemoth thumb"
 	attributes
 		category "Heavy Warship"
-		"cost" 10800000
+		"cost" 18800000
 		"shields" 7800
 		"hull" 7800
 		"required crew" 20
 		"bunks" 34
-		"mass" 540
+		"mass" 670
 		"drag" 11.7
 		"heat dissipation" .4
 		"fuel capacity" 1000
