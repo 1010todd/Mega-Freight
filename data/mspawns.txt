@@ -4,6 +4,8 @@
 mission "MGF: Polaris Alcazar"
 	invisible
 	landing
+	to complete
+		never
 	npc save
 		government Syndicate
 		personality heroic staying opportunistic
@@ -33,7 +35,7 @@ mission "MGF: Polaris Alcazar Respawn"
 	landing
 	to offer
 		has "MGF: Polaris Alcazar: failed"
-		"MGF: Polaris Alcazar Destruction Date" + 12 == ( "year" * 12 ) + "months"
+		"MGF: Polaris Alcazar Destruction Date" == ( "year" * 12 ) + "months" - 12
 	on offer
 		clear "MGF: Polaris Alcazar: offered"
 		clear "MGF: Polaris Alcazar: failed"
@@ -42,6 +44,8 @@ mission "MGF: Polaris Alcazar Respawn"
 mission "MGF: Sol Alcazar"
 	invisible
 	landing
+	to complete
+		never
 	npc save
 		government Republic
 		personality heroic staying opportunistic
@@ -72,7 +76,7 @@ mission "MGF: Sol Alcazar Respawn"
 	landing
 	to offer
 		has "MGF: Sol Alcazar: failed"
-		"MGF: Sol Alcazar Destruction Date" + 12 == ( "year" * 12 ) + "months"
+		"MGF: Sol Alcazar Destruction Date" == ( "year" * 12 ) + "months" - 12
 	on offer
 		clear "MGF: Sol Alcazar: offered"
 		clear "MGF: Sol Alcazar: failed"
@@ -81,6 +85,8 @@ mission "MGF: Sol Alcazar Respawn"
 mission "MGF: Almaaz Alcazar"
 	invisible
 	landing
+	to complete
+		never
 	npc save
 		government Pirate
 		personality heroic staying opportunistic
