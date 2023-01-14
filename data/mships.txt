@@ -4807,6 +4807,12 @@ ship "CK50T Stahbar"
 	turret 9 110.5 "Proton Turret"
 	engine -38.5 226.5 
 	engine 38.5 226.5 
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on. According to the company representative however, this feature was an accident as they're developing their coating.`
 	
 ship "CK40T Treibard"
@@ -4862,6 +4868,12 @@ ship "CK40T Treibard"
 	turret 3 155 "Proton Turret" 
 	engine -36.5 236.5 
 	engine 36.5 236.5 
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description `Smaller and cheaper version of the company's CK50T Stahbar with improved anti-radar capability and lighter armament.`
 	
 ship "CK80T Tlielart"
@@ -4917,6 +4929,12 @@ ship "CK80T Tlielart"
 	turret 0 275.5 "Proton Turret"
 	engine -46.5 397 
 	engine 46.5 397 
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description `Massive freighter developed to carry as much cargo as possible, and did so exceeding the capacity of every other ship by far. Though unlike the other ship from MarStel Industries, it is very lightly armed relative to cargo capacity to protect itself or speed to dodge any raider and will require decent escort to safely travel.`
 	description `Though it carried more than most, if not all, freighter in human space the sheer amount of cargo that have to be unloaded will require ungodly amount of time, equipment, and manpower, which only get worse when loading cargo. Any less than well developed urban spaceport would struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
 
@@ -5182,6 +5200,12 @@ ship "PCS-5 Citadel"
 		angle 135
 	bay "Pocket Light Warship" -195.5 236.5 
 		angle -135
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description `With the formation of the Free Worlds and them looking for carriers, MarStel Industries took this opportunity to convert the Tlielart into full fledged carrier however the development took too long and they were too late as the Free Worlds ended up picking others as their carrier. Though, thanks to its massive size it's capable of carrying enormous amount of fighter as well as larger carried ships unmatched by any other carrier at the time of its development. Due to this it got some interest as mobile service station for the Free Worlds patrol fleets and got adopted as part of the Free Worlds navy after some modification to improve its capability.`
 
 
@@ -5596,6 +5620,12 @@ ship "AD-019A Iabayi"
 		zoom .8
 	engine 59 173
 		zoom .8
+	explode "tiny explosion" 20
+	explode "small explosion" 30
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
 	description `Larger fancy freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distance.`
 	
 ship "AD-0032 Ialmuslati"
@@ -5656,7 +5686,7 @@ ship "AD-0032 Ialmuslati"
 	explode "tiny explosion" 10
 	explode "small explosion" 30
 	explode "medium explosion" 20
-	"final explode" "final explosion small"
+	"final explode" "final explosion medium"
 	description `Fast mid-sized transport offered by Najrmalas Shipworks seeing the few competitor. The Ialmuslati while expensive it offers more speed as well as business-class suite for better-paying customers.`
 	
 	#req|round10(bnk)|0
