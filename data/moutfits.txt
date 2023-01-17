@@ -1097,7 +1097,7 @@ outfit "Swordfish Missile Turret"
 		"turn" 3
 		"homing" 4
 		"radar tracking" .9
-		"trigger radius" 200
+		"split range" 200
 		"submunition" "swordfish missile activated"
 		"hit force" 50
 		"missile strength" 18
