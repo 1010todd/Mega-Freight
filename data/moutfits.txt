@@ -1973,6 +1973,73 @@ outfit "GMS14 Tungsten Product"
 	"minable" 1
 	description `Various basic product made from GMS14 Tungsten.`
 	
+	
+outfit "GMS49 Gold Product"
+	plural "GMS49 Gold Product"
+	category "Special"
+	cost 496560
+	thumbnail "outfit/harvested gold"
+	"flotsam sprite" "effect/flotsam gold"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS49 Gold.`
+
+outfit "GMS52 Lead Product"
+	plural "GMS52 Lead Product"
+	category "Special"
+	cost 55890
+	thumbnail "outfit/harvested lead"
+	"flotsam sprite" "effect/flotsam lead"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS52 Lead.`
+	
+outfit "GMS60 Neodymium Product"
+	plural "GMS60 Neodymium Product"
+	category "Special"
+	cost 235980
+	thumbnail "outfit/harvested neodymium"
+	"flotsam sprite" "effect/flotsam neodymium"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS60 Neodymium.`
+
+outfit "GMS78 Platinum Product"
+	plural "GMS78 Platinum Product"
+	category "Special"
+	cost 621000
+	thumbnail "outfit/harvested platinum"
+	"flotsam sprite" "effect/flotsam platinum"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS78 Platinum.`
+
+outfit "GMS84 Silicon Product"
+	plural "GMS84 Silicon Product"
+	category "Special"
+	cost 24840
+	thumbnail "outfit/harvested silicon"
+	"flotsam sprite" "effect/flotsam silicon"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS84 Silicon.`
+	
+outfit "GMS97 Silver Product"
+	plural "GMS97 Silver Product"
+	category "Special"
+	cost 372600
+	thumbnail "outfit/harvested silver"
+	"flotsam sprite" "effect/flotsam silver"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description `Various basic product made from GMS97 Silver.`
+	
 #========================================Gases ""custom commodity""
 
 outfit "Liquid Natural Gas"
