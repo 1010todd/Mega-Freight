@@ -1,4 +1,4 @@
-#Missions and events relating to spawning a persistient ship or adding new ships to fleet due to timed events or trigger mission not immediately to any story mission.
+#Missions and events relating to spawning a persistent ship or adding new ships to fleet due to timed events or trigger mission not immediately to any story mission.
 
 
 mission "MGF: Polaris Alcazar"
@@ -1195,6 +1195,28 @@ event "mgf: peytoia mass production (patch)"
 	outfitter "Hai Advanced"
 		"MYi2 Railgun Turret"
 			
+mission "MGF: Sea Strait Mass Production"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: the eye opens"
+		
+	on offer
+		event "mgf: sea strait mass production" 30
+		
+event "mgf: sea strait mass production"
+	shipyard "Wanderer Advanced" 
+		"Type-13 Sea Strait"
+	fleet "Wanderer Freight"
+		add variant
+			"Type-13 Sea Strait"
+		add variant
+			"Type-13 Sea Strait"
+			"Tempest"
+		add variant
+			"Type-13 Sea Strait"
+			"Summer Leaf" 2
+	
 # Set fleets after vanilla reset
 # Vanilla events will overwrite fleets, this mission is a quick fix to it after the 4 deployments are done.
 # I blame MZ.

@@ -6404,3 +6404,76 @@ ship "AYS-19 Peytoia"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "With the recent development of new Unfettered ships and deployment of Pond Strider and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying the drones to defend itself when flying past risky area."
+
+ship "Type-13 Sea Strait"
+	sprite "ship/mgf wanderer sea strait"
+	thumbnail "thumbnail/mgf wanderer sea strait thumb"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			Wanderer
+		"cost" 18300000
+		"shields" 44000
+		"hull" 112500
+		"required crew" 22
+		"bunks" 32
+		"mass" 2480
+		"drag" 12.8
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 2380
+		"outfit space" 1763
+		"weapon capacity" 975
+		"engine capacity" 83
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+		"Thunderhead Launcher" 6
+		"Thunderhead Missile" 320
+		"Thunderhead Storage Array" 4
+		"Dual Sunbeam Turret" 6
+		"Wanderer Anti-Missile" 4
+		
+		"Large Biochemical Cell"
+		"White Sun Reactor"
+		"Dark Storm Shielding"
+		"Wanderer Ramscoop"
+		
+		"Type 3 Radiant Thruster"
+		"Type 4 Radiant Steering"
+		"Hyperdrive"
+		
+	turret 135 -444.5 "Dual Sunbeam Turret"
+	turret -135 -444.5 "Dual Sunbeam Turret"
+	turret 37.5 114.5 "Wanderer Anti-Missile"
+	turret -37.5 114.5 "Wanderer Anti-Missile"
+	turret 55 169.5 
+	turret -55 169.5 
+	turret 80 303.5 "Dual Sunbeam Turret"
+	turret -80 303.5 "Dual Sunbeam Turret"
+	turret 49 380.5 "Wanderer Anti-Missile"
+	turret -49 380.5 "Wanderer Anti-Missile"
+	gun -67.5 -520 
+	gun 67.5 -520 
+	gun -41 -515.5 
+	gun 41 -515.5 
+	gun -14.5 -513.5 
+	gun 14.5 -513.5 
+	engine -161.5 369.5 
+		angle -23
+	engine 161.5 369.5 
+		angle -13
+	engine -116.5 427.5 
+	engine 116.5 427.5 
+	engine -70.5 482.5 
+	engine 70.5 482.5 
+
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A large Wanderer freighter iterated from the Deep River using the same style of cargo pod and arrangement but twice doubling the capacity while also more well armed than Deep River to protect itself during evacuation though still not really enough to operate alone.`
