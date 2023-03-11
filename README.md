@@ -13,7 +13,7 @@ Over 50 ships:
 * 3 Transports
 * 1 Space Liner
 * 5 Utility
-* 10 Warships + 2 Superheavy
+* 11 Warships + 2 Superheavy
 * 1 Battlestation
 * 8 Fighters, Drones, and other carried ships (Utility and Combat)
 
