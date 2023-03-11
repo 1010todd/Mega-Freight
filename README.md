@@ -28,7 +28,7 @@ And other things:
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.
 
-Requires 0.9.15+/Continuous
+Requires 0.10.0+/Continuous
 
 # Recommended 
 
