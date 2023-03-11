@@ -66,9 +66,12 @@ shipyard developer
 	"AD-0032 Ialmuslati"
 	"LGC-3 Mesa"
 	"HMM-190 Kotroger"
+	"CK80Tp Death Harmonica"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
+	
+	"Type-13 Sea Strait"
 
 shipyard "human plugins"
 	"FR-4 Dart"

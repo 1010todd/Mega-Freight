@@ -4938,6 +4938,87 @@ ship "CK80T Tlielart"
 	description `Massive freighter developed to carry as much cargo as possible, and did so exceeding the capacity of every other ship by far. Though unlike the other ship from MarStel Industries, it is very lightly armed relative to cargo capacity to protect itself or speed to dodge any raider and will require decent escort to safely travel.`
 	description `Though it carried more than most, if not all, freighter in human space the sheer amount of cargo that have to be unloaded will require ungodly amount of time, equipment, and manpower, which only get worse when loading cargo. Any less than well developed urban spaceport would struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
 
+ship "CK80Tp Death Harmonica"
+	sprite "ship/mgf tlielart spinalengine"
+	thumbnail "thumbnail/mgf tlielart spinalengine thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 56500000
+		"shields" 22500
+		"hull" 24880
+		"required crew" 84
+		"bunks" 162
+		"mass" 8759
+		"drag" 59.7
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		#"cargo space" 6800 #5100 front, 850*2 rear
+		"cargo space" 30
+		"outfit space" 4672
+		"weapon capacity" 3748
+		"engine capacity" 719
+		"radar jamming" 30
+		"scan interference" 12
+		"spinal mount" 6
+		weapon
+			"blast radius" 1200
+			"shield damage" 8000
+			"hull damage" 7500
+			"hit force" 6500
+	outfits
+		"Diatonic Apocalypse" 6
+		"Heavy Anti-Missile Turret" 4
+		"Gy6 Hellraiser Turret" 7
+		
+		"VYT Malebolge Core"
+		"LP576a Battery Pack"
+		"VIK3 Devil Shielding"
+		"VNZ5 Inferno Repair"
+		"Large Heat Shunt" 2
+		"Laser Rifle" 80
+		"Nerve Gas" 80
+		
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"AR120 Reverse Thruster" 3
+		"Jump Drive"
+	
+	gun -175 -354.5 
+	gun 175 -354.5 
+	gun -114.5 -346.5 
+	gun 114.5 -346.5 
+	gun -51.5 -336 
+	gun 51.5 -336 
+
+	turret 253.5 -223.5 "Gy6 Hellraiser Turret"
+	turret -253.5 -223.5 "Gy6 Hellraiser Turret"
+	turret 253.5 -171 "Heavy Anti-Missile Turret"
+	turret -253.5 -171 "Heavy Anti-Missile Turret"
+	turret 253.5 -118 
+	turret -253.5 -118 
+	turret 194.5 -8 "Gy6 Hellraiser Turret"
+	turret -194.5 -8 "Gy6 Hellraiser Turret"
+	turret 232 29 "Heavy Anti-Missile Turret"
+	turret -232 29 "Heavy Anti-Missile Turret"
+	turret 0 275.5 "Gy6 Hellraiser Turret"
+	engine -46.5 397 
+	engine 46.5 397 
+	engine -132 371.5 
+	engine 132 371.5 
+	engine -204 336 
+	engine 204 336 
+	engine -272 299.5
+		zoom .7
+	engine 272 299.5 
+		zoom .7
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `Heavily modified CK80T Tilelart freighter with 6 massive guns inplace of the cargo pods. The internal structure of the ship have also been reinforced (if not entirely overhauled in some area) to support the firing of its massive guns.`
+
 ship "PCS-5 Citadel"
 	sprite "ship/mgf fw citadel"
 	thumbnail "thumbnail/mgf fw citadel thumb"
@@ -6416,15 +6497,15 @@ ship "Type-13 Sea Strait"
 		"shields" 44000
 		"hull" 112500
 		"required crew" 22
-		"bunks" 32
+		"bunks" 38
 		"mass" 2480
 		"drag" 12.8
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 2380
-		"outfit space" 1763
-		"weapon capacity" 975
-		"engine capacity" 83
+		"outfit space" 1065
+		"weapon capacity" 775
+		"engine capacity" 125
 		weapon
 			"blast radius" 280
 			"shield damage" 2800
@@ -6437,12 +6518,12 @@ ship "Type-13 Sea Strait"
 		"Dual Sunbeam Turret" 6
 		"Wanderer Anti-Missile" 4
 		
-		"Large Biochemical Cell"
+		"Large Biochemical Cell" 2
 		"White Sun Reactor"
 		"Dark Storm Shielding"
 		"Wanderer Ramscoop"
 		
-		"Type 3 Radiant Thruster"
+		"Type 4 Radiant Thruster"
 		"Type 4 Radiant Steering"
 		"Hyperdrive"
 		

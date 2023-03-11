@@ -991,6 +991,76 @@ effect "mgf kavacha hit"
 	"velocity scale" 0
 	"random angle" 5
 	
+outfit "Gy6 Hellraiser Turret"
+	category "Turrets"
+	cost 2120000
+	thumbnail "outfit/mgf hellraiser turret"
+	"mass" 66
+	"outfit space" -66
+	"weapon capacity" -66
+	"turret mounts" -1
+	weapon
+		sprite "projectile/mgf hellraiser"
+		sound "mgf hellraiser"
+		"hardpoint sprite" "hardpoint/mgf hellraiser turret hp"
+		"hardpoint offset" 5.
+		"hit effect" "small explosion"
+		"die effect" "small explosion"
+		"inaccuracy" 5
+		"velocity" 21
+		"random velocity" 5
+		"random lifetime 10
+		"turret turn" 3.2
+		"lifetime" 40
+		"burst count" 5
+		"burst reload" 3
+		"reload" 12
+		"firing energy" 125
+		"firing heat" 289
+		"hit force" 12
+		"shield damage" 121
+		"hull damage" 75
+		"heat damage" 60
+	description "Mysterious turret found on the Death Harmonica."
+	
+effect "diatonic apocalypse fire"
+	sprite "effect/mgf diatonic apocalypse fire"
+		"no repeat"
+		"frame rate" 30
+	lifetime 10
+	"velocity scale" 1.1
+	
+outfit "Diatonic Apocalypse"
+	category "Guns"
+	cost 66300000
+	thumbnail "outfit/mgf diatonic apocalypse"
+	"mass" 513
+	"outfit space" -513
+	"weapon capacity" -513
+	"gun ports" -1
+	"spinal mount" -1
+	"required crew" 12
+	weapon
+		sprite "projectile/mgf diatonic apocalypse shot"
+		sound "mgf diatonic apocalypse"
+		icon "icon/template"
+		"hit effect" "huge explosion"
+		"fire effect" "diatonic apocalypse fire"
+		"inaccuracy" 1
+		"velocity" 30
+		"lifetime" 90
+		"reload" 180
+		"firing energy" 2715
+		"firing heat" 8667
+		"firing force" 855
+		"hit force" 1855
+		"shield damage" 4513
+		"hull damage" 2215
+		"heat damage" 1211
+		"blast radius" 120
+		"stream"
+	description "Massive cannon found on the Death Harmonica. The design appears to be unlike anything else in human space, the true origin of the weapon is ultimately unknown."
+	
 outfit "KC-421 Parapet Anti-Missile"
 	category "Turrets"
 	cost 480000
@@ -1489,6 +1559,50 @@ outfit "NX-40k Repair Center"
 	"hull heat" 5.1
 	"required crew" 25
 	description ""
+	
+outfit "VYT Malebolge Core"
+	category "Power"
+	cost 55000000
+	thumbnail "outfit/mgf malebolge core"
+	"mass" 151
+	"outfit space" -151
+	"energy generation" 88
+	"heat generation" 343
+	"shield heat multiplier" 1
+	"hull heat multiplier" 1
+	description "Large reactor at the core of the Death Harmonica. It is extremely powerful for the size but also runs extremely hot. It also appears to increase heat generated from shielding and hull repair systems."
+
+outfit "VIK3 Devil Shielding"
+	category "Systems"
+	cost 2300000
+	thumbnail "outfit/mgf devil shield"
+	"mass" 264
+	"outfit space" -264
+	"shield generation" 12.8
+	"shield energy" 29.7
+	"shield heat" 79.7
+	"shield fuel" .01
+	"burn resistance" 2
+	"burn resistance heat" -.5
+	"burn resistance fuel" -.01
+	"heat protection" .1
+	"cooling inefficiency" .1
+	description "Shield generator found on the Death Harmonica. Far more powerful than anything in human space but also significantly larger."
+	
+outfit "VNZ5 Inferno Repair"
+	category "Systems"
+	cost 2300000
+	thumbnail "outfit/mgf inferno repair"
+	"mass" 131
+	"outfit space" -131
+	"hull repair rate" 6.3
+	"hull energy" 14.5
+	"hull heat" 56.5
+	"hull fuel" -.01
+	"heat protection" .05
+	"hull protection" .1
+	"cooling inefficiency" .1
+	description "A strange hull repair system found on the Death Harmonica. It seems to be the source of glowing red wire that flow along the walls and hull of the ship. It provides additional benefits beside repairing hull."
 	
 outfit "M-type 1k Gas Tank"
 	category "Systems"
