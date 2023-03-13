@@ -2850,7 +2850,7 @@ mission "MGF: Mine Titanium Tiny"
 
 	on complete
 		outfit "Titanium" -15
-		payment 41200 #10
+		payment 52500 #40
 		dialog `You delivered 15 tons of Titanium and received a payment of <payment>`
 
 mission "MGF: Mine Titanium Small"
@@ -2867,7 +2867,7 @@ mission "MGF: Mine Titanium Small"
 
 	on complete
 		outfit "Titanium" -30
-		payment 84000 #2800 per ton from def 2500, 12 percent more
+		payment 108750 # 45 percent more
 		dialog `You delivered 30 tons of Titanium and received a payment of <payment>`
 
 mission "MGF: Mine Titanium Medium"
@@ -2884,7 +2884,7 @@ mission "MGF: Mine Titanium Medium"
 
 	on complete
 		outfit "Titanium" -90
-		payment 315000 #2800 per ton from def 2500, 12.5 percent more
+		payment 337500 #50
 		dialog `You delivered 90 tons of Titanium and received a payment of <payment>`
 
 mission "MGF: Mine Neodymium Tiny" #3800
@@ -2901,7 +2901,7 @@ mission "MGF: Mine Neodymium Tiny" #3800
 
 	on complete
 		outfit "Neodymium" -15
-		payment 62700
+		payment 79800
 		dialog `You delivered 15 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF: Mine Neodymium Small"
@@ -2918,7 +2918,7 @@ mission "MGF: Mine Neodymium Small"
 
 	on complete
 		outfit "Neodymium" -30
-		payment 153900
+		payment 165300
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF: Mine Silicon Tiny" #400
@@ -2935,7 +2935,7 @@ mission "MGF: Mine Silicon Tiny" #400
 
 	on complete
 		outfit "Silicon" -15
-		payment 6600
+		payment 8400
 		dialog `You delivered 15 tons of Silicon and received a payment of <payment>`
 
 mission "MGF: Mine Silicon Small" #400
@@ -2952,7 +2952,7 @@ mission "MGF: Mine Silicon Small" #400
 
 	on complete
 		outfit "Silicon" -30
-		payment 13200
+		payment 17400
 		dialog `You delivered 30 tons of Silicon and received a payment of <payment>`
 
 mission "MGF: Mine Tungsten Small"
@@ -2969,7 +2969,7 @@ mission "MGF: Mine Tungsten Small"
 
 	on complete
 		outfit "Tungsten" -30
-		payment 162000
+		payment 189000
 		dialog `You delivered 30 tons of Tungsten and received a payment of <payment>`
 
 mission "MGF: Mine Lead Tiny"
@@ -2986,7 +2986,7 @@ mission "MGF: Mine Lead Tiny"
 
 	on complete
 		outfit "Lead" -15
-		payment 14900
+		payment 18900
 		dialog `You delivered 15 tons of Lead and received a payment of <payment>`
 
 mission "MGF: Mine Lead Small"
@@ -3003,7 +3003,7 @@ mission "MGF: Mine Lead Small"
 
 	on complete
 		outfit "Lead" -30
-		payment 30000
+		payment 39150
 		dialog `You delivered 30 tons of Lead and received a payment of <payment>`
 
 mission "MGF: Mine Lead Medium"
@@ -3020,7 +3020,7 @@ mission "MGF: Mine Lead Medium"
 
 	on complete
 		outfit "Lead" -90
-		payment 89100
+		payment 121500
 		dialog `You delivered 90 tons of Lead and received a payment of <payment>`
 
 mission "MGF: Mine Lead Large"
@@ -3037,7 +3037,7 @@ mission "MGF: Mine Lead Large"
 
 	on complete
 		outfit "Lead" -180
-		payment 182400
+		payment 251100
 		dialog `You delivered 180 tons of Lead and received a payment of <payment>`
 
 mission "MGF: Mine Lead Huge"
@@ -3054,7 +3054,7 @@ mission "MGF: Mine Lead Huge"
 
 	on complete
 		outfit "Lead" -400
-		payment 422000
+		payment 576000
 		dialog `You delivered 400 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Tiny"
@@ -3072,7 +3072,7 @@ mission "MGF EPN: Mine Lead Tiny"
 
 	on complete
 		outfit "Lead" -15
-		payment 17550
+		payment 20250
 		dialog `You delivered 15 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Small"
@@ -3090,7 +3090,7 @@ mission "MGF EPN: Mine Lead Small"
 
 	on complete
 		outfit "Lead" -30
-		payment 39100
+		payment 41850
 		dialog `You delivered 30 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Medium"
@@ -3108,7 +3108,7 @@ mission "MGF EPN: Mine Lead Medium"
 
 	on complete
 		outfit "Lead" -90
-		payment 129330
+		payment 129600
 		dialog `You delivered 90 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Large"
@@ -3126,7 +3126,7 @@ mission "MGF EPN: Mine Lead Large"
 
 	on complete
 		outfit "Lead" -180
-		payment 246800
+		payment 275400
 		dialog `You delivered 180 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Lead Huge"
@@ -3144,7 +3144,7 @@ mission "MGF EPN: Mine Lead Huge"
 
 	on complete
 		outfit "Lead" -400
-		payment 582000
+		payment 630000
 		dialog `You delivered 400 tons of Lead and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Tiny"
@@ -3162,7 +3162,7 @@ mission "MGF EPN: Mine Copper Tiny"
 
 	on complete
 		outfit "Copper" -15
-		payment 58500 #3900/ton def 3000, 30% more. #probably should be reversed with smallest offering highest per ton?
+		payment 63000 
 		dialog `You delivered 30 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Small"
@@ -3180,7 +3180,7 @@ mission "MGF EPN: Mine Copper Small"
 
 	on complete
 		outfit "Copper" -30
-		payment 121500 #35%
+		payment 130500
 		dialog `You delivered 30 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Medium"
@@ -3198,7 +3198,7 @@ mission "MGF EPN: Mine Copper Medium"
 
 	on complete
 		outfit "Copper" -90
-		payment 378000 #40%
+		payment 405000 #50%
 		dialog `You delivered 90 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Large"
@@ -3216,7 +3216,7 @@ mission "MGF EPN: Mine Copper Large"
 
 	on complete
 		outfit "Copper" -180
-		payment 783000 #45
+		payment 837000 
 		dialog `You delivered 180 tons of Copper and received a payment of <payment>`
 
 mission "MGF EPN: Mine Copper Huge"
@@ -3234,7 +3234,7 @@ mission "MGF EPN: Mine Copper Huge"
 
 	on complete
 		outfit "Copper" -400
-		payment 1800000 #50
+		payment 1920000
 		dialog `You delivered 400 tons of Copper and received a payment of <payment>`
 		
 mission "MGF EPN: Mine Neodymium Tiny" #3800/ton
@@ -3252,7 +3252,7 @@ mission "MGF EPN: Mine Neodymium Tiny" #3800/ton
 
 	on complete
 		outfit "Neodymium" -15
-		payment 74100
+		payment 79800
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF EPN: Mine Neodymium Small"
@@ -3270,7 +3270,7 @@ mission "MGF EPN: Mine Neodymium Small"
 
 	on complete
 		outfit "Neodymium" -30
-		payment 160000
+		payment 165300
 		dialog `You delivered 30 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF EPN: Mine Neodymium Medium"
@@ -3288,7 +3288,7 @@ mission "MGF EPN: Mine Neodymium Medium"
 
 	on complete
 		outfit "Neodymium" -90
-		payment 478800
+		payment 513000
 		dialog `You delivered 90 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF EPN: Mine Neodymium Large"
@@ -3306,7 +3306,7 @@ mission "MGF EPN: Mine Neodymium Large"
 
 	on complete
 		outfit "Neodymium" -180
-		payment 991800
+		payment 1094400
 		dialog `You delivered 180 tons of Neodymium and received a payment of <payment>`
 
 mission "MGF EPN: Mine Neodymium Huge"
@@ -3324,7 +3324,7 @@ mission "MGF EPN: Mine Neodymium Huge"
 
 	on complete
 		outfit "Neodymium" -400
-		payment 2280000
+		payment 2508000
 		dialog `You delivered 400 tons of Neodymium and received a payment of <payment>`
 		
 
@@ -3343,7 +3343,7 @@ mission "MGF EPN: Mine Aluminum Tiny" #1800/ton
 
 	on complete
 		outfit "Aluminum" -15
-		payment 35100
+		payment 37800
 		dialog `You delivered 30 tons of Aluminum and received a payment of <payment>`
 
 mission "MGF EPN: Mine Aluminum Small"
@@ -3361,7 +3361,7 @@ mission "MGF EPN: Mine Aluminum Small"
 
 	on complete
 		outfit "Aluminum" -30
-		payment 72900
+		payment 78300
 		dialog `You delivered 30 tons of Aluminum and received a payment of <payment>`
 
 mission "MGF EPN: Mine Aluminum Medium"
@@ -3379,7 +3379,7 @@ mission "MGF EPN: Mine Aluminum Medium"
 
 	on complete
 		outfit "Aluminum" -90
-		payment 226800
+		payment 243000
 		dialog `You delivered 90 tons of Aluminum and received a payment of <payment>`
 
 mission "MGF EPN: Mine Aluminum Large"
@@ -3397,7 +3397,7 @@ mission "MGF EPN: Mine Aluminum Large"
 
 	on complete
 		outfit "Aluminum" -180
-		payment 469800
+		payment 518400
 		dialog `You delivered 180 tons of Aluminum and received a payment of <payment>`
 
 mission "MGF EPN: Mine Aluminum Huge"
@@ -3415,5 +3415,5 @@ mission "MGF EPN: Mine Aluminum Huge"
 
 	on complete
 		outfit "Aluminum" -400
-		payment 1080000
+		payment 1188000
 		dialog `You delivered 400 tons of Aluminum and received a payment of <payment>`

@@ -1179,6 +1179,7 @@ outfit "swordfish missile activated"
 			"no repeat"
 			"frame rate" .25
 		sound "sidewinder"
+		"lifetime" 60
 		"fire effect" "sidewinder fire"
 		"die effect" "missile death"
 		"hit effect" "missile hit"

@@ -118,6 +118,100 @@ ship "Behemoth" "Behemoth (Atomic, Jacks)"
 		"A375 Atomic Steering"
 		"Scram Drive"
 		
+ship "PF-80 Intrepid" "PF-80 Intrepid (Swordfish)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 3
+		"Heavy Anti-Missile Turret" 6
+		"Swordfish Missile Turret" 4
+		"Swordfish Missile Rack" 6
+		"Swordfish Missile" 318
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X4700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		
+ship "PF-80 Intrepid" "PF-80 Intrepid (Laser)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Laser Turret" 6
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X4700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Scram Drive"
+		
+ship "PF-80 Intrepid" "PF-80 Intrepid (Plasma Engine)"
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Proton Turret" 3
+		"Quad Blaster Turret" 5
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Scram Drive"
+		
+ship "Nasprite" "Nasprite (Swordfish)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Swordfish Missile Turret" 6
+		"Swordfish Missile Rack" 16
+		"Swordfish Missile" 638
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+ship "Quicksilver" "Quicksilver (EPB3-2)"
+	outfits
+		"EPB3-2 Particle Cannon" 2
+		
+		"nGVF-DD Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+		
 ship "Dreadnought" "Dreadnought (Parapet)"
 	add attributes
 		"weapon capacity" 5

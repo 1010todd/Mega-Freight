@@ -331,6 +331,7 @@ ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	gun 14 -75.5
 	turret 0 -25
 	bay "Fighter" 0 14.5
+		"launch effect" "human external"
 		under
 	engine -25 41.5
 		zoom 1
@@ -353,6 +354,7 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	gun 14 -75.5
 	turret 0 -25
 	bay "Drone" 0 14.5
+		"launch effect" "human external"
 		under
 	engine -25 41.5
 		zoom 1
@@ -701,12 +703,16 @@ ship "CH-6 Carrack"
 		angle 0
 		under
 	bay "Fighter" -123.5 218
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 123.5 218
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -123.5 218
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 123.5 218
+		"launch effect" "human internal"
 		right
 	leak "leak" 40 50
 	leak "flame" 30 80
@@ -732,7 +738,7 @@ ship "LCC-3 Sierra"
 		"heat dissipation" .6
 		"fuel capacity" 18000
 		"cargo space" 300
-		"outfit space" 670
+		"outfit space" 470
 		"weapon capacity" 200
 		"engine capacity" 165
 		weapon
@@ -819,20 +825,28 @@ ship "RF-03 Gerlache"
 	turret 0 -30 "Heavy Anti-Missile Turret"
 	turret 0 42.5
 	bay "Fighter" -59.5 -34.5
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 59.5 -34.5
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -59.5 -34.5
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 59.5 -34.5
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -59.5 -34.5
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 59.5 -34.5
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -59.5 -34.5
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 59.5 -34.5
+		"launch effect" "human internal"
 		right
 	engine -18 207
 		zoom 1
@@ -867,7 +881,7 @@ ship "LGC-3 Mesa"
 		"heat dissipation" .7
 		"fuel capacity" 1400
 		"cargo space" 150
-		"outfit space" 670
+		"outfit space" 470
 		"weapon capacity" 153
 		"engine capacity" 165
 		"m-type 1k gas tank" -6
@@ -1096,7 +1110,7 @@ ship "FG-6 Startrain"
 	thumbnail "thumbnail/mgf startrain"
 	attributes
 		category "Heavy Freighter"
-		"cost" 4210000
+		"cost" 2210000
 		"shields" 3200
 		"hull" 6880
 		"required crew" 6
@@ -1106,7 +1120,7 @@ ship "FG-6 Startrain"
 		"heat dissipation" .55
 		"fuel capacity" 600
 		"cargo space" 320
-		"outfit space" 420
+		"outfit space" 380
 		"weapon capacity" 180
 		"engine capacity" 85
 		weapon
@@ -1168,8 +1182,8 @@ ship "FG-7 Conveyor"
 		"heat dissipation" .5
 		"fuel capacity" 1400
 		"cargo space" 2000
-		"outfit space" 1320
-		"weapon capacity" 650
+		"outfit space" 1120
+		"weapon capacity" 550
 		"engine capacity" 245
 		weapon
 			"blast radius" 140
@@ -1209,20 +1223,28 @@ ship "FG-7 Conveyor"
 	turret -63 285 "Heavy Anti-Missile Turret"
 	turret 63 285 "Heavy Anti-Missile Turret"
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	engine 36 347
 		zoom 2
@@ -1318,166 +1340,246 @@ ship "PCS-4 Castle"
 	turret -63 285 "Heavy Anti-Missile Turret"
 	turret 63 285 "Heavy Anti-Missile Turret"
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -95 12
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 95 12
+		"launch effect" "human internal"
 		right
 		
 	bay "Fighter" -69 -205
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -205
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 -161
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -161
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 143
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 143
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 232
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 232
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 232
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 232
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 142
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 142
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -161
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -161
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -206
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -206
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -206
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -206
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -163
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -163
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 142
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 142
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 230
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 230
+		"launch effect" "human external"
 		right
 		
 	bay "Fighter" -69 -205
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -205
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 -161
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -161
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 143
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 143
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -69 232
+		"launch effect" "human external"
 		left
 	bay "Fighter" 69 232
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 232
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 232
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 142
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 142
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -161
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -161
+		"launch effect" "human external"
 		right
 	bay "Fighter" -86 -206
+		"launch effect" "human external"
 		left
 	bay "Fighter" 86 -206
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -206
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -206
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -163
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -163
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 -117
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 -117
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 142
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 142
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 186
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 186
+		"launch effect" "human external"
 		right
 	bay "Fighter" -96 230
+		"launch effect" "human external"
 		left
 	bay "Fighter" 96 230
+		"launch effect" "human external"
 		right
 	engine 36 347
 		zoom 2
@@ -1518,9 +1620,9 @@ ship "FTV-33 Acareus"
 		"mass" 8564
 		"drag" 18
 		"heat dissipation" .55
-		"fuel capacity" 1400
+		"fuel capacity" 1200
 		"cargo space" 850
-		"outfit space" 1120
+		"outfit space" 1020
 		"weapon capacity" 512
 		"engine capacity" 245
 		weapon
@@ -1624,12 +1726,16 @@ ship "SMM-111 Bagger"
 	turret -82 153 "Heavy Anti-Missile Turret"
 	turret 82 153 "Heavy Anti-Missile Turret"
 	bay "Fighter" -37 -71
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 37 -71
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -37 -71
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 37 -71
+		"launch effect" "human internal"
 		right
 	engine -19 282
 		zoom 2.5
@@ -1784,34 +1890,52 @@ ship "CS-24 Garrison"
 	turret 0 67.5 "Heavy Anti-Missile Turret"
 	turret 0 144.5
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 -239.5
+		"launch effect" "human internal"
 	bay "Fighter" -119.5 -99
+		"launch effect" "human internal"
 		angle 136
 	bay "Fighter" 119.5 -99
+		"launch effect" "human internal"
 		angle -136
 	bay "Fighter" -116 118
+		"launch effect" "human internal"
 		angle 52
 	bay "Fighter" 116 118
+		"launch effect" "human internal"
 		angle -52
 	bay "Fighter" -119.5 -99
+		"launch effect" "human internal"
 		angle 136
 	bay "Fighter" 119.5 -99
+		"launch effect" "human internal"
 		angle -136
 	bay "Fighter" -116 118
+		"launch effect" "human internal"
 		angle 52
 	bay "Fighter" 116 118
+		"launch effect" "human internal"
 		angle -52
 	bay "Fighter" -119.5 -99
+		"launch effect" "human internal"
 		angle 136
 	bay "Fighter" 119.5 -99
+		"launch effect" "human internal"
 		angle -136
 	bay "Fighter" -116 118
+		"launch effect" "human internal"
 		angle 52
 	bay "Fighter" 116 118
+		"launch effect" "human internal"
 		angle -52
 	engine 0 302.5
 		zoom 1
@@ -1867,11 +1991,17 @@ ship "CSE-6 Steward"
 		"Hyperdrive"
 		
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	bay "Fighter" 0 -24
+		"launch effect" "human internal"
 	gun -36.5 -115
 	gun 36.5 -115
 	gun -36.5 -115
@@ -1951,19 +2081,33 @@ ship "EM-8A Armadillo"
 	turret -35 91 "Heavy Anti-Missile Turret"
 	turret 35 91
 	bay "Fighter" -27.5 -24
+		"launch effect" "human internal"
 	bay "Fighter" 27.5 -24
+		"launch effect" "human internal"
 	bay "Fighter" -28 10
+		"launch effect" "human internal"
 	bay "Fighter" 28 10
+		"launch effect" "human internal"
 	bay "Fighter" -27.5 25
+		"launch effect" "human internal"
 	bay "Fighter" 27.5 25
+		"launch effect" "human internal"
 	bay "Drone" -42 -30
+		"launch effect" "human internal"
 	bay "Drone" 42 -30
+		"launch effect" "human internal"
 	bay "Drone" -42.5 -15
+		"launch effect" "human internal"
 	bay "Drone" 42.5 -15
+		"launch effect" "human internal"
 	bay "Drone" -42.5 1
+		"launch effect" "human internal"
 	bay "Drone" 42.5 1
+		"launch effect" "human internal"
 	bay "Drone" -43 18
+		"launch effect" "human internal"
 	bay "Drone" 43 18
+		"launch effect" "human internal"
 	engine -20.5 174
 		zoom 1
 		under
@@ -2077,202 +2221,274 @@ ship "EM-28F Wombat"
 	engine -481.5 350 
 	engine 481.5 350 
 	bay "Pocket Light Warship" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Pocket Light Warship" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Pocket Light Warship" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Pocket Light Warship" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
-		left
-	bay "Fighter" 80.5 -34.5 
-		right
-	bay "Fighter" -80.5 -34.5 
-		left
-	bay "Fighter" 80.5 -67 
-		right
-	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -34.5 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -34.5 
+		"launch effect" "human internal"
 		left
 	bay "Fighter" 80.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Fighter" -80.5 -67 
-		left
-	bay "Fighter" 80.5 -34.5 
-		right
-	bay "Fighter" -80.5 -34.5 
-		left
-	bay "Fighter" 80.5 -67 
-		right
-	bay "Fighter" -80.5 -67 
+		"launch effect" "human internal"
 		left
 	
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -67 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -67 
+		"launch effect" "human internal"
 		left
 	bay "Drone" 89.5 -39 
+		"launch effect" "human internal"
 		right
 	bay "Drone" -89.5 -39 
+		"launch effect" "human internal"
 		left
 
 	leak "leak" 40 50
@@ -2358,50 +2574,94 @@ ship "SV-4450 Sovereign"
 	turret -26.5 544.5 "Heavy Anti-Missile Turret"
 	turret 26.5 544.5 "Heavy Anti-Missile Turret"
 	
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -387.5 left
-	fighter 108.5 -387.5 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	fighter -108.5 -117 left
-	fighter 108.5 -117 right
-	drone -129.5 -274 left
-	drone 129.5 -274 right
-	drone -129.5 -274 left
-	drone 129.5 -274 right
-	drone -129.5 -274 left
-	drone 129.5 -274 right
-	drone -129 -228 left
-	drone 129 -228 right
-	drone -129 -228 left
-	drone 129 -228 right
-	drone -129 -228 left
-	drone 129 -228 right
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -387.5 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -387.5 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Fighter" -108.5 -117 left
+		"launch effect" "human internal"
+	bay "Fighter" 108.5 -117 right
+		"launch effect" "human internal"
+	bay "Drone" -129.5 -274 left
+		"launch effect" "human internal"
+	bay "Drone" 129.5 -274 right
+		"launch effect" "human internal"
+	bay "Drone" -129.5 -274 left
+		"launch effect" "human internal"
+	bay "Drone" 129.5 -274 right
+		"launch effect" "human internal"
+	bay "Drone" -129.5 -274 left
+		"launch effect" "human internal"
+	bay "Drone" 129.5 -274 right
+		"launch effect" "human internal"
+	bay "Drone" -129 -228 left
+		"launch effect" "human internal"
+	bay "Drone" 129 -228 right
+		"launch effect" "human internal"
+	bay "Drone" -129 -228 left
+		"launch effect" "human internal"
+	bay "Drone" 129 -228 right
+		"launch effect" "human internal"
+	bay "Drone" -129 -228 left
+		"launch effect" "human internal"
+	bay "Drone" 129 -228 right
+		"launch effect" "human internal"
 	engine -65 753.5 2
 	engine 65 753.5 2
 	engine -109 745.5 1.6
@@ -2864,282 +3124,432 @@ ship "SC-1 Alcazar"
 	turret 456 260.5
 	turret 0 524
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Fighter" 0 -853.5
+		"launch effect" "human internal"
 	bay "Fighter" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Fighter" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Fighter" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Fighter" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Fighter" 735 427
+		"launch effect" "human internal"
 		angle 120
 		
 	bay "Pocket Light Warship" 0 -853.5
+		"launch effect" "human internal"
 	bay "Pocket Light Warship" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Pocket Light Warship" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Pocket Light Warship" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Pocket Light Warship" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Pocket Light Warship" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Pocket Light Warship" 0 -853.5
+		"launch effect" "human internal"
 	bay "Pocket Light Warship" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Pocket Light Warship" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Pocket Light Warship" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Pocket Light Warship" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Pocket Light Warship" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Pocket Light Warship" 0 -853.5
+		"launch effect" "human internal"
 	bay "Pocket Light Warship" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Pocket Light Warship" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Pocket Light Warship" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Pocket Light Warship" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Pocket Light Warship" 735 427
+		"launch effect" "human internal"
 		angle 120
 	bay "Pocket Light Warship" 0 -853.5
+		"launch effect" "human internal"
 	bay "Pocket Light Warship" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Pocket Light Warship" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Pocket Light Warship" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Pocket Light Warship" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Pocket Light Warship" 735 427
+		"launch effect" "human internal"
 		angle 120
 		
 	bay "Pocket Medium Warship" 0 -853.5
+		"launch effect" "human internal"
 	bay "Pocket Medium Warship" 0 854
+		"launch effect" "human internal"
 		angle 180
 	bay "Pocket Medium Warship" -735.5 -427
+		"launch effect" "human internal"
 		angle -60
 	bay "Pocket Medium Warship" 735.5 -427
+		"launch effect" "human internal"
 		angle 60
 	bay "Pocket Medium Warship" -735 427
+		"launch effect" "human internal"
 		angle -120
 	bay "Pocket Medium Warship" 735 427
+		"launch effect" "human internal"
 		angle 120
 	leak "leak" 30 50
 	leak "flame" 30 80
@@ -3430,132 +3840,238 @@ ship "Spetum Class"
 		angle 0
 		under
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+		
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" -56 -157
+		"launch effect" "human internal"
 	bay "Fighter" 56 -157
+		"launch effect" "human internal"
 	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
 	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+		
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	bay "Drone" -112.5 175
+		"launch effect" "human internal"
 		left
 	bay "Drone" 112.5 175
+		"launch effect" "human internal"
 		right
 	bay "Drone" -156.5 126
+		"launch effect" "human internal"
 		left
 	bay "Drone" 156.5 126
+		"launch effect" "human internal"
 		right
 	leak "leak" 30 50
 	leak "flame" 30 80
@@ -4020,582 +4536,862 @@ ship "Lucerne Class"
 		"angle" 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 	#===============================
 	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
 		angle 90
 	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
 		angle 30
 	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
 		angle -30
 	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
 		angle -150
 	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
 		angle 150
 	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
 		angle -90
 	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
 		angle 90
 		
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
 		angle -110
 	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
 		angle 110
 	engine -173 1442
 		zoom 1.7
@@ -4680,11 +5476,11 @@ ship "Nasprite"
 	thumbnail "thumbnail/mgf nasprite thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 14200000
+		"cost" 10200000
 		"shields" 11000
 		"hull" 12500
-		"required crew" 46
-		"bunks" 120
+		"required crew" 36
+		"bunks" 100
 		"mass" 1605
 		"drag" 15.4
 		"heat dissipation" .45
@@ -4756,10 +5552,10 @@ ship "CK50T Stahbar"
 	thumbnail "thumbnail/mgf stahbar thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 12900000
+		"cost" 10900000
 		"shields" 12000
 		"hull" 12800
-		"required crew" 26
+		"required crew" 24
 		"bunks" 86
 		"mass" 3845
 		"drag" 18.2
@@ -4820,7 +5616,7 @@ ship "CK40T Treibard"
 	thumbnail "thumbnail/mgf treibard thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 10900000
+		"cost" 9900000
 		"shields" 10200
 		"hull" 9800
 		"required crew" 18
@@ -5092,186 +5888,330 @@ ship "PCS-5 Citadel"
 	bay "Pocket Light Warship" 67.5 -56 
 		angle 45
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	bay "Fighter" -58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 58.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -274 
+		"launch effect" "human external"
 	bay "Fighter" -157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 157.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" 102.5 -313 
+		"launch effect" "human external"
 	bay "Fighter" -60 -313 
+		"launch effect" "human external"
 	bay "Fighter" 60 -313 
+		"launch effect" "human external"
 	engine -46.5 397 
 	engine 46.5 397 
 	bay "Fighter" 147.5 236.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -147.5 236.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 208 178.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -208 178.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 163.5 260.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -163.5 260.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 223 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -223 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 164.5 273 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -164.5 273 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 237.5 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -237.5 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 147.5 236.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -147.5 236.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 208 178.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -208 178.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 163.5 260.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -163.5 260.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 223 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -223 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 164.5 273 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -164.5 273 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 237.5 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -237.5 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 147.5 236.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -147.5 236.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 208 178.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -208 178.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 163.5 260.5 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -163.5 260.5 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 223 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -223 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 164.5 273 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -164.5 273 
+		"launch effect" "human external"
 		angle -135
 	bay "Fighter" 237.5 201 
+		"launch effect" "human external"
 		angle 135
 	bay "Fighter" -237.5 201 
+		"launch effect" "human external"
 		angle -135
 	bay "Pocket Light Warship" 195.5 236.5 
 		angle 135
@@ -5650,7 +6590,7 @@ ship "AD-019A Iabayi"
 	thumbnail "thumbnail/mgf iabayi thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 14100000
+		"cost" 12500000
 		"shields" 10800
 		"hull" 5800
 		"required crew" 10
@@ -5839,7 +6779,7 @@ ship "TS-CH0 Kratzbal"
 	attributes
 		category "Transport"
 		"cost" 2380000
-		"shields" 6780
+		"shields" 5780
 		"hull" 3890
 		"required crew" 12
 		"bunks" 176
@@ -6432,40 +7372,58 @@ ship "AYS-19 Peytoia"
 	turret 63.5 327.5 "Pulse Turret"
 	turret -63.5 327.5 "Pulse Turret"
 	bay "Drone" 222 53 
+		"launch effect" "hai launch"
 		angle 70
 	bay "Drone" -222 53 
+		"launch effect" "hai launch"
 		angle -70
 	bay "Drone" 238.5 153 
+		"launch effect" "hai launch"
 		angle 90
 	bay "Drone" -238.5 153 
+		"launch effect" "hai launch"
 		angle -90
 	bay "Drone" 223.5 252.5 
+		"launch effect" "hai launch"
 		angle 110
 	bay "Drone" -223.5 252.5 
+		"launch effect" "hai launch"
 		angle -110
 	bay "Drone" 222 53 
+		"launch effect" "hai launch"
 		angle 70
 	bay "Drone" -222 53 
+		"launch effect" "hai launch"
 		angle -70
 	bay "Drone" 238.5 153 
+		"launch effect" "hai launch"
 		angle 90
 	bay "Drone" -238.5 153 
+		"launch effect" "hai launch"
 		angle -90
 	bay "Drone" 223.5 252.5 
+		"launch effect" "hai launch"
 		angle 110
 	bay "Drone" -223.5 252.5 
+		"launch effect" "hai launch"
 		angle -110
 	bay "Drone" 222 53 
+		"launch effect" "hai launch"
 		angle 70
 	bay "Drone" -222 53 
+		"launch effect" "hai launch"
 		angle -70
 	bay "Drone" 238.5 153 
+		"launch effect" "hai launch"
 		angle 90
 	bay "Drone" -238.5 153 
+		"launch effect" "hai launch"
 		angle -90
 	bay "Drone" 223.5 252.5 
+		"launch effect" "hai launch"
 		angle 110
 	bay "Drone" -223.5 252.5 
+		"launch effect" "hai launch"
 		angle -110
 	engine -92.5 388.5 
 		zoom 1.2

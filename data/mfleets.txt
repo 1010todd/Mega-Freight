@@ -107,6 +107,13 @@ fleet "Large Southern Merchants"
 		"Tlielart (Cargo Engine)"
 		"Corvette" 2
 		"Manta" 2
+		
+	add variant 2
+		"PF-80 Intrepid (Swordfish)"
+	add variant 3
+		"Nasprite (Swordfish)"
+	add variant 2
+		"PF-80 Intrepid (Plasma Engine)"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -275,6 +282,11 @@ fleet "Large Core Merchants"
 		"FG-5 Bluewhale-A" 2
 		"Vanguard"
 		"Quicksilver" 3
+	
+	add variant 4
+		"PF-80 Intrepid (Swordfish)"
+	add variant 6
+		"Nasprite (Swordfish)"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -476,6 +488,11 @@ fleet "Large Northern Merchants"
 	add variant 4
 		"LGC-3 Mesa"
 		"Firebird" 2
+		
+	add variant 2
+		"PF-80 Intrepid (Plasma Engine)"
+	add variant 4
+		"PF-80 Intrepid (Laser)"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -700,6 +717,8 @@ fleet "Small Espion Guard"
 		"Quicksilver" 3
 	variant 10
 		"Quicksilver (Proton)" 3
+	variant 10
+		"Quicksilver (EPB3-2)" 3
 	variant 8
 		"Quicksilver (Mark II)"
 		"Quicksilver (Proton)" 2
@@ -717,6 +736,9 @@ fleet "Large Espion Guard"
 	variant 10
 		"Vanguard"
 		"Quicksilver" 3
+	variant 10
+		"Vanguard"
+		"Quicksilver (EPB3-2)" 3
 	variant 10
 		"Vanguard"
 		"Quicksilver (Proton)" 2
