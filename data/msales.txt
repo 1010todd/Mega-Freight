@@ -67,6 +67,8 @@ shipyard developer
 	"LGC-3 Mesa"
 	"HMM-190 Kotroger"
 	"CK80Tp Death Harmonica"
+	"SKVS-2 Mudskipper"
+	"SKVS-3 Gudgeon"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -141,10 +143,16 @@ shipyard "human plugins"
 	"AD-0032 Ialmuslati"
 	"LGC-3 Mesa"
 	"HMM-190 Kotroger"
+	"CK80Tp Death Harmonica"
+	"SKVS-2 Mudskipper"
+	"SKVS-3 Gudgeon"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
+	
+shipyard "wanderer plugins"
+	"Type-13 Sea Strait"
 	
 outfitter developer
 	"Atesac Plasma Cannon"
@@ -240,6 +248,7 @@ shipyard "Betelgeuse Basic"
 	"AFFR-3 Fylla"
 	"TS-650 Herrenbal"
 	"AD-012C Iaphia"
+	"SKVS-2 Mudskipper"
 
 shipyard "Betelgeuse Advanced"
 	"CH-6 Carrack"
@@ -264,6 +273,7 @@ shipyard "Betelgeuse Advanced"
 	"CK80T Tlielart"
 	"Tlielart (Cargo Carrier)"
 	"Tlielart (Cargo Engine)"
+	"SKVS-3 Gudgeon"
 	
 shipyard "Lionheart Basics"
 	"AD-012C Iaphia"
@@ -354,6 +364,40 @@ shipyard "MGF Special D"
 	
 shipyard "MGF Special E"
 	"Star Barge (Bare, Q-Bomb)"
+	
+shipyard "Seikron Dockyard Basics"
+	"SKVS-2 Mudskipper"
+	
+shipyard "Seikron Dockyard Advanced"
+	"SKVS-2 Mudskipper"
+	"SKVS-3 Gudgeon"
+	
+shipyard "Pioneer Heavy Industries Advanced"
+	"LCC-3 Sierra"
+	"LGC-3 Mesa"
+	
+shipyard "Vessa Shipworks Advanced"
+	"TS-650 Herrenbal"
+	"TS-CH0 Kratzbal"
+	"TS-1L260 Mieusbar"
+	
+shipyard "Vefrol Dockyard Advanced"
+	"QYG-30 Qazan"
+	"QYG-60 Sandiq"
+	
+shipyard "Solomons Voidworks Advanced"
+	"FF-30 Volant"
+	"PF-80 Intrepid"
+	
+shipyard "Najrmalas Shipworks Advanced"
+	"AD-012C Iaphia"
+	"AD-019A Iabayi"
+	"AD-0032 Ialmuslati"
+	
+shipyard "Freight Galactic Advanced"
+	"FG-5 Bluewhale"
+	"FG-6 Startrain"
+	"FG-7 Conveyor"
 	
 shipyard "MarStel Intermediate"
 	"CK40T Treibard"

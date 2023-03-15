@@ -75,6 +75,67 @@ planet Glaze
 	add shipyard "MarStel Intermediate"
 	add shipyard "MarStel Advanced"
 
+#==========================Near Bourne Merchants
+system "Gamma Corvi"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Spica"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Minkar"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Mimosa"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Kraz"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Acrux"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Izar"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Zeta Centauri"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Hadar"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Alkaid"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Zubeneschmali"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Kochab"
+	add fleet "MGF: Near Bourne Merchant" 4400
+system "Zubenelgenubi"
+	add fleet "MGF: Near Bourne Merchant" 6400
+system "Sabik"
+	add fleet "MGF: Near Bourne Merchant" 6400
+system "Unukalhai"
+	add fleet "MGF: Near Bourne Merchant" 6400
+
+#==========Seikron Dockyard
+planet Rust
+	add shipyard "Seikron Dockyard Advanced"
+planet Bourne
+	add shipyard "Seikron Dockyard Basics"
+planet Zug
+	add shipyard "Seikron Dockyard Advanced"
+planet Skymoot
+	add shipyard "Seikron Dockyard Basics"
+	
+planet Earth
+	add shipyard "Seikron Dockyard Advanced"
+planet Luna
+	add shipyard "Seikron Dockyard Basics"
+planet "New China"
+	add shipyard "Seikron Dockyard Advanced"
+planet Thrall
+	add shipyard "Seikron Dockyard Basics"
+planet Follower
+	add shipyard "Seikron Dockyard Advanced"
+planet Vinci
+	add shipyard "Seikron Dockyard Basics"
+planet Mainsail
+	add shipyard "Seikron Dockyard Basics"
+planet Ada
+	add shipyard "Seikron Dockyard Basics"
+planet Tinker
+	add shipyard "Seikron Dockyard Advanced"
+
 #==========================Espion
 
 planet "New Sahara"
@@ -706,9 +767,188 @@ system Zubenelgenubi
 	add fleet "Small Black Death" 7800
 	add fleet "Large Black Death" 18700
 
+#=====================================Sulso LG Shipping
+
+system Sol
+	add fleet "Sulso LG Shipping" 4500
+system "Alpha Centauri"
+	add fleet "Sulso LG Shipping" 6500
+system Denebola
+	add fleet "Sulso LG Shipping" 6500
+
+ #Oil
+system "Kaus Borealis"
+	add fleet "Sulso LG Shipping" 6500
+system "Peacock"
+	add fleet "Sulso LG Shipping" 6500
+system Rasalhague
+	add fleet "Sulso LG Shipping" 6500
+system Vega
+	add fleet "Sulso LG Shipping" 6500
+system Cebalrai
+	add fleet "Sulso LG Shipping" 6500
+system Ascella
+	add fleet "Sulso LG Shipping" 6500
+
+system Regor
+	add fleet "Sulso LG Shipping" 6500
+system Alfheim
+	add fleet "Sulso LG Shipping" 6500
+
+system Schedar
+	add fleet "Sulso LG Shipping" 6500
+system Bellatrix
+	add fleet "Sulso LG Shipping" 6500
+system Menkar
+	add fleet "Sulso LG Shipping" 6500
+
+# factory
+system Sabik
+	add fleet "Sulso LG Shipping" 6500
+system Dabih
+	add fleet "Sulso LG Shipping" 6500
+system Alphecca
+	add fleet "Sulso LG Shipping" 6500
+system Alioth
+	add fleet "Sulso LG Shipping" 6500
+system Graffias
+	add fleet "Sulso LG Shipping" 6500
+system Kraz
+	add fleet "Sulso LG Shipping" 5500
+system Pherkad
+	add fleet "Sulso LG Shipping" 6500
+system Tarazed
+	add fleet "Sulso LG Shipping" 5500
+system Zubeneschmali
+	add fleet "Sulso LG Shipping" 5500
+system "Yed Prior"
+	add fleet "Sulso LG Shipping" 6500
+
+system Phecda
+	add fleet "Sulso LG Shipping" 6500
+system Betelgeuse 
+	add fleet "Sulso LG Shipping" 5500
+system Miaplacidus 
+	add fleet "Sulso LG Shipping" 6500
+system Aldebaran 
+	add fleet "Sulso LG Shipping" 6500
+
+system Zosma
+	add fleet "Sulso LG Shipping" 6500
+system Adhara
+	add fleet "Sulso LG Shipping" 6500
+system "Epsilon Leonis"
+	add fleet "Sulso LG Shipping" 6500
+
+system "Delta Capricorni"
+	add fleet "Sulso LG Shipping" 6500
+system Fomalhaut
+	add fleet "Sulso LG Shipping" 5500
+system Alpheratz
+	add fleet "Sulso LG Shipping" 6500
+system Caph
+	add fleet "Sulso LG Shipping" 6500
+system Mirfak
+	add fleet "Sulso LG Shipping" 6500
+system Diphda
+	add fleet "Sulso LG Shipping" 6500
+
+#intermediate
+#Nah, too lazy.
+
+#=====================================Maryhal Logistic
+
+
+
+system Zubeneschmali
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Zubenelgenubi
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Sabik
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Kornephoros
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Wei
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Alioth
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Holeb
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Rutilicus
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+system Tarazed
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Dabih
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system "Kaus Australis"
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Peacock
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Ascella
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Rasalhague
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Cebalrai
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+system Menkent
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Vega
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Sol
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+system Altair
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Fomalhaut
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Markab
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Scheat
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system "Al Dhanab"
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Achernar
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+system Sirius
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Procyon
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Pollux
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Talita
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+
+system Miaplacidus
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Tejat
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Phurad
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Canopus
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Alheka
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Betelgeuse
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
+system Alphard
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Zosma
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system Gomeisa
+	add fleet "Maryhal Logistic ArteryLine" 7500
+system "Epsilon Leonis"
+	add fleet "Maryhal Logistic ArteryLine" 7500
+
 #=====================================Rangphenn Transport
 
 system Sol
+	add fleet "Rangphenn Transport" 3400
+system "Alpha Centauri"
 	add fleet "Rangphenn Transport" 3400
 system Vega
 	add fleet "Rangphenn Transport" 4400

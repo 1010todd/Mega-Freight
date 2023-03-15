@@ -117,6 +117,136 @@ phrase "rangphenn transport"
 		""
 		""
 		
+phrase "maryhal logistic"
+	word
+		"MHL "
+	word
+		Ada
+		Bluestone
+		Bounty
+		Bourne
+		Burthen
+		Calda
+		Canyon
+		Chiron
+		Clark
+		Crossroads
+		Dancer
+		Deep
+		Delve
+		Dune
+		Earth
+		Farpoint
+		Farseer
+		Featherweight
+		Flood
+		Followers
+		Foundry
+		Furnace
+		Geminus
+		Gemstone
+		Geyser
+		Glaze
+		Glory
+		Harmony
+		Haze
+		Heartland
+		Helheim
+		Hephaestus
+		Hermes
+		Hestia
+		Hippocrates
+		Hope
+		Hopper
+		Icefall
+		Ingot
+		Lichen
+		Lodestone
+		Longjump
+		Luna
+		Maelstrom
+		Mainsail
+		Maker
+		Mani
+		Mars
+		Martini
+		Memory
+		Mere
+		Midgard
+		Millrace
+		Moonshake
+		Muspel
+		"New Argentina"
+		"New Austria"
+		"New Boston"
+		"New Britain"
+		"New China"
+		"New Greenland"
+		"New Holland"
+		"New Iceland"
+		"New India"
+		"New Kansas"
+		"New Portland"
+		"New Sahara"
+		"New Switzerland"
+		"New Tibet"
+		"New Wales"
+		"New Washington"
+		Nifel
+		Nimbus
+		Norn
+		Oasis
+		Oblivion
+		Pearl
+		Pilot
+		Placer
+		Poisonwood
+		Poseidos
+		Prime
+		Quicksilver
+		Rand
+		Relic
+		Reunion
+		Rust
+		Serpens
+		Shangri-La
+		Shiver
+		Shorebreak
+		Shroud
+		Silver
+		Sinter
+		Skillet
+		Skymoot
+		Solace
+		Splashdown
+		Starcross
+		Sundive
+		Sundrinker
+		Sunracer
+		Swiftsong
+		Thrall
+		Thule
+		Thunder
+		Tinker
+		Trinket
+		Trove
+		Tundra
+		Twinstar
+		Vail
+		Valhalla
+		Vinci
+		Wayfarer
+		Windblain
+		Winter
+		Zug
+	word
+		"${sometimes a successor}" 6
+		"XI"
+		"XII"
+		"XIII"
+		"XIV"
+		"XV"
+		
 phrase "espion name"
 	word
 		"EPNS "
@@ -124,6 +254,62 @@ phrase "espion name"
 		"standalone civilian ship names"
 	phrase
 		"sometimes a successor"
+		
+phrase "sulso name"
+	word
+		"Sulso "
+	word
+		"Galaxy"
+		"Milky Way"
+		"Andromeda"
+		"Pinwheel"
+		"Cartwheel"
+		"Magellanic"
+		"Malin"
+		"Sombrero"
+		"Whirlpool"
+		"Ocean"
+		"Pacific"
+		"Atlantic"
+		"Arctic"
+		"Gulf"
+		"Aden"
+		"Alaska"
+		"Albay"
+		"Aqaba"
+		"Burgas"
+		"Cadiz"
+		"Cambridge"
+		"Carpentaria"
+		"Cazones"
+		"Corryvreckan"
+		"Davao"
+		"Exmouth"
+		"Denoa"
+		"Hauraki"
+		"Kutch"
+		"Izmir"
+		"Kusadas"
+		"Leyte"
+		"Lingayen"
+		"Maine"
+		"Mannar"
+		"Morbihan"
+		"Nicoya"
+		"Oman"
+		"Odessa"
+		"Oristano"
+		"Panama"
+		"Paria"
+		"Riga"
+		"Saronic"
+		"Spencer"
+		"Suez"
+		"Taranto"
+		"Tonkin"
+		"Tunis"
+		"Venice"
+		"Moro"
 		
 phrase "crossguard name"
 	word

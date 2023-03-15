@@ -1150,6 +1150,7 @@ outfit "Swordfish Missile Turret"
 		sound "sidewinder"
 		ammo "Swordfish Missile"
 		icon "icon/sidewinder"
+		"live effect" "bombbox flare" 500
 		"fire effect" "sidewinder fire" #Todo unique missile flare
 		"die effect" "missile death"
 		"hit effect" "missile hit"
@@ -1180,6 +1181,8 @@ outfit "swordfish missile activated"
 			"frame rate" .25
 		sound "sidewinder"
 		"lifetime" 60
+		"live effect" "bombbox flare" 500
+		"live effect" "bombbox smoke" 500
 		"fire effect" "sidewinder fire"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
@@ -1188,7 +1191,6 @@ outfit "swordfish missile activated"
 		"turn" 4
 		"homing" 4
 		"radar tracking" .9
-		"trigger radius" 200
 		"shield damage" 680
 		"hull damage" 258
 		"hit force" 75
@@ -2161,7 +2163,8 @@ outfit "Liquid Natural Gas"
 	category "Special"
 	cost 8000
 	thumbnail "outfit/unknown"
-	"mass" 1
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1
@@ -2170,7 +2173,7 @@ outfit "Liquid Ethane"
 	category "Special"
 	cost 12000
 	thumbnail "outfit/unknown"
-	"mass" 1
+	"mass" .1
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1
@@ -2179,7 +2182,7 @@ outfit "Liquid Hydrogen"
 	category "Special"
 	cost 10000
 	thumbnail "outfit/unknown"
-	"mass" 1
+	"mass" .1
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1

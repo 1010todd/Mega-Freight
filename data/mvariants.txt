@@ -555,6 +555,72 @@ ship "Shuttle" "Shuttle (Kamikaze)"
 		"X2200 Ion Steering"
 		"Hyperdrive"
 
+ship "CSE-6 Steward" "Steward (Long Range)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Proton Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Fuel Pod" 6
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		
+		"Orca Plasma Steering"
+		"Orca Plasma Thruster"
+		"Scram Drive"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
+	turret -24 25.5 "Proton Turret"
+	turret 24 25.5 "Proton Turret"
+	turret -29.5 38 
+	turret 29.5 38 
+	turret -39.5 71.5 "Heavy Anti-Missile Turret"
+	turret 39.5 71.5 "Heavy Anti-Missile Turret"
+	turret -36.5 95 "Proton Turret"
+	turret 36.5 95 "Proton Turret"
+
+ship "CS-24 Garrison" "Garrison (Long Range)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Proton Turret" 8
+		"Heavy Anti-Missile Turret" 3
+		
+		"Fusion Reactor"
+		"Fuel Pod" 2
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		
+		"Torpedo Storage Rack" 3
+		"Torpedo" 45
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+	turret -32 -168
+	turret 32 -168
+	turret -45 -142 "Heavy Anti-Missile Turret"
+	turret 45 -142 "Heavy Anti-Missile Turret"
+	turret -57 -112.5
+	turret 57 -112.5
+	gun -31 -231.5
+	gun 31 -231.5
+	turret -106.5 10.5
+	turret 106.5 10.5
+	turret -83.5 10.5
+	turret 83.5 10.5
+	turret 0 67.5 "Heavy Anti-Missile Turret"
+	turret 0 144.5
+
 ship "Battle Bulk" "Battle Bulk (Proton)"
 	outfits
 		"Sidewinder Missile Launcher" 2
@@ -602,13 +668,40 @@ ship "Battle Behemoth" "Battle Behemoth (Proton)"
 		"A375 Atomic Steering"
 		"Scram Drive"
 		
+ship "AGT-31 Xencar" "Xencar (Particle)"
+	outfits
+		"Particle Cannon"
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+ship "CK80T Tlielart" "Tlielart (Long Range)"
+	outfits
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 6
+		
+		"Fusion Reactor"
+		"LP576a Battery Pack"
+		"Fuel Pod" 2
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 80
+		
+		"X4700 Ion Thruster"
+		"Tyrant Plasma Steering"
+		"Scram Drive"
 	
 ship "CK80T Tlielart" "Tlielart (Cargo Carrier)"
 	sprite "ship/mgf tlielart cargocarrier"
 	thumbnail "thumbnail/mgf tlielart cargocarrier thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 46500000
+		"cost" 76500000
 		"shields" 22500
 		"hull" 19240
 		"required crew" 86
@@ -739,7 +832,7 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 	thumbnail "thumbnail/mgf tlielart cargoengine thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 46500000
+		"cost" 76500000
 		"shields" 22500
 		"hull" 21880
 		"required crew" 54
@@ -796,6 +889,172 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 	engine 272 299.5 
 		zoom .7
 	description `Another attempt to make the ship more attractive choice first shown concept model at the spaceship expo in 3013, the rear cargo section was modified into engine section giving the ship a massive increase to speed shortening the transit.`
+
+#Sulso Gas shipping Fleet
+
+ship "LGC-3 Mesa" "Mesa (LNG Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Natural Gas" 12000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LNG Half-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Natural Gas" 6000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LNG Third-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Natural Gas" 4000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+
+ship "LGC-3 Mesa" "Mesa (LE Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Ethane" 12000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LE Half-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Ethane" 6000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LE Third-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Ethane" 4000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LH Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Hydrogen" 12000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LH Half-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Hydrogen" 6000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LGC-3 Mesa" "Mesa (LH Third-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"M-type 1k Gas Tank" 6
+		"Liquid Hydrogen" 4000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+
+#Claymore test mission.
 
 ship "Falcon" "Falcon (Automaton)"
 	add attributes

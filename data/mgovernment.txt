@@ -24,7 +24,7 @@ government "MGF: Espion Mining Co."
 			government "Republic"
 			near "Sol" 3
 	
-# South-north logistic
+# logistic
 government "MGF: Maryhal Logistic"
 	"display name" "Maryhal Logistic"
 	"swizzle" 17
@@ -61,6 +61,24 @@ government "MGF: Rangphenn Transport"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
+# Route between industrial worlds, operates only gas tanker
+government "MGF: Sulso LG Shipping"
+	"display name" "Sulso LG Shipping"
+	"swizzle" 14
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.01
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.2
+		"MGF: Black Death" -.2
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
 	
 # Merc/Bounty hunter, south-Core
 government "MGF: Crossguard Patrol"

@@ -238,7 +238,7 @@ ship "CF-50 Cart"
 		"hull" 1200
 		"required crew" 1
 		"bunks" 3
-		"mass" 70
+		"mass" 65
 		"drag" 1.8
 		"heat dissipation" .8
 		"fuel capacity" 400
@@ -871,7 +871,7 @@ ship "LGC-3 Mesa"
 	thumbnail "thumbnail/mgf mesa thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 8200000
+		"cost" 10200000
 		"shields" 7900
 		"hull" 7500
 		"required crew" 28
@@ -926,7 +926,7 @@ ship "LGC-3 Mesa"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation a gas tanker allows you to take special job at some world which can be lucrative due to limited competition.`
+	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation, a gas tanker allows you to take special, very well paid jobs on some industrial planets.`
 	
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
@@ -980,7 +980,7 @@ ship "FG-5 Bluewhale"
 	turret -24 126.5 "Heavy Anti-Missile Turret"
 	turret 24 126.5 "Heavy Anti-Missile Turret"
 	engine 0 253.5
-		zoom 1
+		zoom 1.5
 		angle 0
 		under
 	engine -48.5 246.5
@@ -1955,7 +1955,7 @@ ship "CSE-6 Steward"
 	thumbnail "thumbnail/mgf steward"
 	attributes
 		category "Medium Warship"
-		"cost" 18200000
+		"cost" 5200000
 		"shields" 11000
 		"hull" 7700
 		"required crew" 45
@@ -5677,7 +5677,7 @@ ship "CK80T Tlielart"
 	thumbnail "thumbnail/mgf tlielart cargocargo thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 46500000
+		"cost" 76500000
 		"shields" 22500
 		"hull" 21880
 		"required crew" 42
@@ -5813,7 +5813,7 @@ ship "CK80Tp Death Harmonica"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Heavily modified CK80T Tilelart freighter with 6 massive guns inplace of the cargo pods. The internal structure of the ship have also been reinforced (if not entirely overhauled in some area) to support the firing of its massive guns.`
+	description `Heavily modified CK80T Tlielart freighter with 6 massive guns inplace of the cargo pods. The internal structure of the ship have also been reinforced (if not entirely overhauled in some area) to support the firing of its massive guns.`
 
 ship "PCS-5 Citadel"
 	sprite "ship/mgf fw citadel"
@@ -6420,6 +6420,100 @@ ship "FF-30 Volant"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested area. Lightly protected and not designed for any combat.`
+	
+ship "SKVS-2 Mudskipper"
+	sprite "ship/mgf mudskipper"
+	thumbnail "thumbnail/mgf mudskipper thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 620000
+		"shields" 1200
+		"hull" 1100
+		"required crew" 2
+		"bunks" 4
+		"mass" 168
+		"drag" 5.8
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 180
+		"outfit space" 170
+		"weapon capacity" 40
+		"engine capacity" 53
+		"threshold percentage" .1
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 13 95.5 
+	engine -13 95.5 
+	turret 0 69 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Small, lightly armed freighter for short-ranged shipping from earlier and more peaceful era. These are most often seen in more secure area of space as they lack of any effective defense against pirates nor the range to travel far beyond their homeport.`
+	
+ship "SKVS-3 Gudgeon"
+	sprite "ship/mgf gudgeon"
+	thumbnail "thumbnail/mgf gudgeon thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 1380000
+		"shields" 1900
+		"hull" 1600
+		"required crew" 2
+		"bunks" 4
+		"mass" 288
+		"drag" 6.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 270
+		"outfit space" 200
+		"weapon capacity" 40
+		"engine capacity" 71
+		"threshold percentage" .1
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	turret 0 85.5 
+	engine -17.5 119 
+	engine 17.5 119 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessel around but also the most defenceless and slow for the size. Though few captains reported to enjoy piloting them, they all agreed it is one of the most robust and easy to maintain around.`
 	
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"

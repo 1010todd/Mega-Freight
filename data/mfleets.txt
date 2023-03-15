@@ -331,7 +331,14 @@ fleet "Paradise Merchants"
 		
 	add variant 5
 		"FG-6 Startrain-A"
-
+		
+	add variant 8
+		"SKVS-2 Mudskipper"
+	add variant 5
+		"SKVS-2 Mudskipper" 3
+	add variant 4
+		"SKVS-3 Gudgeon"
+		
 fleet "Small Northern Merchants"
 	add variant 10
 		"FR-4 Dart"
@@ -614,6 +621,30 @@ fleet "Intrasystem Merchants"
 	variant 10
 		"Wisymton"
 		
+fleet "MGF: Near Bourne Merchant"
+	government "Merchant"
+	names "civilian"
+	cargo 3
+	personality
+		confusion 40
+		timid frugal appeasing
+	variant 60
+		"SKVS-2 Mudskipper"
+	variant 50
+		"SKVS-2 Mudskipper" 3
+	variant 50
+		"SKVS-2 Mudskipper" 3
+		"Sparrow" 2
+	variant 40
+		"SKVS-3 Gudgeon"
+	variant 30
+		"SKVS-3 Gudgeon" 2
+		"Sparrow" 2
+	variant 20
+		"SKVS-3 Gudgeon"
+		"SKVS-2 Mudskipper" 2
+		"Sparrow"
+		
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
 	names "rangphenn transport"
@@ -660,6 +691,95 @@ fleet "Jacks Gang"
 		"AGT-31 Xencar" 4
 		"PF-80 Intrepid (Atomic, Jacks)" 2
 		"Behemoth (Atomic, Jacks)"
+		
+fleet "Sulso LG Shipping"
+	government "MGF: Sulso LG Shipping"
+	names "sulso name"
+	cargo 4
+	personality
+		confusion 40
+		timid frugal appeasing
+	variant 40
+		"Mesa (LH Filled)"
+		"Berserker" 2
+	variant 30
+		"Mesa (LH Half-Filled)"
+		"Berserker" 2
+	variant 60
+		"Mesa (LNG Filled)"
+		"Hawk" 2
+	variant 40
+		"Mesa (LE Filled)"
+		"Hawk" 2
+	variant 50
+		"Mesa (LH Filled)"
+		"Hawk" 2
+	variant 30
+		"Mesa (LH Third-Filled)"
+	variant 20
+		"Mesa (LH Half-Filled)"
+	variant 10
+		"Mesa (LNG Third-Filled)"
+	variant 10
+		"LGC-3 Mesa"
+	variant 30
+		"Mesa (LNG Filled)" 3
+		"Splinter"
+	variant 20
+		"Mesa (LE Filled)"
+		"Mesa (LNG Filled)" 2
+		"Splinter"
+	variant 20
+		"Mesa (LH Filled)" 3
+		"Splinter"
+	variant 20
+		"Mesa (LNG Filled)" 2
+		"Mesa (LH Filled)"
+		"Splinter"
+	variant 20
+		"Mesa (LNG Filled)"
+		"Mesa (LE Half-Filled)"
+		"Mesa (LH Filled)"
+		"Splinter"
+		
+#Largest MHL convoy traveling on specific main route between major space
+fleet "Maryhal Logistic ArteryLine"
+	government "MGF: Maryhal Logistic"
+	names "maryhal logistic"
+	cargo 4
+	personality
+		confusion 25
+		timid frugal
+	variant 50
+		"FG-5 Bluewhale-A" 3
+		"Steward (Long Range)" 2
+		"Xencar (Particle)" 12
+	variant 40
+		"FG-7 Conveyor-A" 3
+		"Lance" 24
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		"Garrison (Long Range)"
+		"Xencar (Particle)" 18
+	variant 10
+		"Tlielart (Long Range)"
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		"Garrison (Long Range)"
+		"Xencar (Particle)" 18
+	variant 30
+		"FG-5 Bluewhale-A" 5
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		"Garrison (Long Range)"
+		"Xencar (Particle)" 18
+	variant 20
+		"FG-7 Conveyor-A" 4
+		"Lance" 24
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		"Garrison (Long Range)"
+		"Xencar (Particle)" 18
 		
 fleet "Small Espion Miners"
 	government "MGF: Espion Mining Co."

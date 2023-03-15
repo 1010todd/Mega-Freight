@@ -687,20 +687,31 @@ mission "MGF: Huge Bulk Delivery [2]"
 		
 #=======================================GAS
 
+#"Lure" job that shows up even if player don't meet the requirement to give example of Gas shipping job.
 mission "MGF: Gas Transport (LNG 1)"
 	name "Gas Transport"
-	description "4000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying liquid gas."
 	job
 	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
 	to offer
-		random < 90
+		or
+			random < 50
+			and
+				random < 70
+				has "outfit (installed): M-type 1k Gas Tank"
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
-	on offer
-		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
+		#Wait for when missions can install outfit in escort.
+		#"outfit (installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Natural Gas" 4000
 	on visit
@@ -708,23 +719,27 @@ mission "MGF: Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 2000000
+		payment 1000000 1800
 		
 mission "MGF: Gas Transport (LNG 2)"
 	name "Gas Transport"
-	description "4000 tons of Liquid Natural Gas required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
+	cargo "paper works" 1
 	to offer
-		random < 80
+		random < 40
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Natural Gas" 4000
 	on visit
@@ -732,24 +747,56 @@ mission "MGF: Gas Transport (LNG 2)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 2000000
+		payment 1000000 1800
+		
+mission "MGF: Gas Transport (LNG 3)"
+	name "Gas Transport"
+	description "8000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 20
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	on offer
+		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 4 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
+	on accept
+		outfit "Liquid Natural Gas" 8000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Liquid Natural Gas" -8000
+		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
+		payment 2000000 1700
 		
 mission "MGF: Rush Gas Transport (LNG 1)"
 	name "Rush Gas Transport"
 	deadline
-	description "4000 tons of Liquid Natural Gas required to be shipped to <destination> by <date>. Payment is <payment>."
+	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>.  Payment is <payment>."
 	job
 	repeat
+	cargo "paper works" 1
 	to offer
-		random < 90
+		random < 50
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Natural Gas" 4000
 	on visit
@@ -757,23 +804,27 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 3500000
+		payment 1750000 1800
 		
 mission "MGF: Gas Transport (Ethane 1)"
 	name "Gas Transport"
-	description "4000 tons of Liquid Ethane required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
+	cargo "paper works" 1
 	to offer
-		random < 80
+		random < 30
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Ethane" 4000
 	on visit
@@ -781,24 +832,28 @@ mission "MGF: Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 3000000
+		payment 1750000 1800
 		
 mission "MGF: Rush Gas Transport (Ethane 1)"
 	name "Rush Gas Transport"
-	description "4000 tons of Liquid Ethane required to be shipped to <destination> by <date>. Payment is <payment>."
+	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
 	deadline
+	cargo "paper works" 1
 	to offer
-		random < 70
+		random < 20
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Ethane" 4000
 	on visit
@@ -806,23 +861,27 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 5250000
+		payment 2625000 1800
 		
 mission "MGF: Gas Transport (Hydrogen 1)"
 	name "Gas Transport"
-	description "4000 tons of Liquid Hydrogen required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
+	cargo "paper works" 1
 	to offer
-		random < 85
+		random < 50
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Hydrogen" 4000
 	on visit
@@ -830,24 +889,28 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 2500000
+		payment 1250000 1800
 		
 mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	name "Rush Gas Transport"
-	description "4000 tons of Liquid Hydrogen required to be shipped to <destination> by <date>. Payment is <payment>."
+	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
 	deadline
+	cargo "paper works" 1
 	to offer
-		random < 80
+		random < 50
 	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
 		require "M-type 1k Gas Tank" 2
+	to accept
+		"outfit (flagship installed): M-type 1k Gas Tank" >= 2 + ( "outfit (installed): Liquid Natural Gas" / 2000 ) + ( "outfit (installed): Liquid Ethane" / 2000 ) + ( "outfit (installed): Liquid Hydrogen" / 2000 )
 	on accept
 		outfit "Liquid Hydrogen" 4000
 	on visit
@@ -855,8 +918,7 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment
-		payment 4375000
+		payment 2188000 1800
 		
 #==============================Passenger
 		
@@ -867,7 +929,7 @@ mission "MGF: Huge Passengers [0]"
 	description "Due to last minute cancellation, this transport agency is looking for ships to bring <fare> to <destination>. Payment is <payment>."
 	passengers 50 18 .05 #if Derpy's graph thing(https://www.desmos.com/calculator/ypadiskkc5) is right it should be from 200 ~ 700
 	to offer
-		random < 100
+		random < 20
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -886,7 +948,7 @@ mission "MGF: Huge Passengers [1]"
 	description "Due to last minute cancellation, this transport agency is looking for ships to bring <fare> to <destination>. Payment is <payment>."
 	passengers 50 18 .045
 	to offer
-		random < 35
+		random < 10
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
