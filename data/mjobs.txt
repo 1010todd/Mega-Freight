@@ -1018,7 +1018,7 @@ mission "MGF: Chemical Transport (Phosphoric Acid 1)"
 	name "Chemical Transport"
 	description "2000 units of Phosphoric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 30
@@ -1045,7 +1045,7 @@ mission "MGF: Chemical Transport (Methanol 1)"
 	name "Chemical Transport"
 	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 60
@@ -1072,7 +1072,7 @@ mission "MGF: Chemical Transport (Methanol 2)"
 	name "Chemical Transport"
 	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 40
@@ -1099,7 +1099,7 @@ mission "MGF: Chemical Transport (Methanol 3)"
 	name "Chemical Transport"
 	description "4000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 40
@@ -1126,7 +1126,7 @@ mission "MGF: Chemical Transport (Ammonia 1)"
 	name "Chemical Transport"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 80
@@ -1153,7 +1153,7 @@ mission "MGF: Chemical Transport (Ammonia 2)"
 	name "Chemical Transport"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 60
@@ -1180,7 +1180,7 @@ mission "MGF: Chemical Transport (Ammonia 3)"
 	name "Chemical Transport"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 50
@@ -1207,7 +1207,7 @@ mission "MGF: Rush Chemical Transport (Ammonia 1)"
 	name "Chemical Transport"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	deadline
 	cargo "paper works" 1
 	to offer
@@ -1235,7 +1235,7 @@ mission "MGF: Rush Chemical Transport (Ammonia 2)"
 	name "Chemical Transport"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	deadline
 	cargo "paper works" 1
 	to offer
@@ -1263,7 +1263,7 @@ mission "MGF: Chemical Transport (Hydrazine 1)"
 	name "Chemical Transport"
 	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 50
@@ -1290,7 +1290,7 @@ mission "MGF: Chemical Transport (Hydrazine 2)"
 	name "Chemical Transport"
 	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 40
@@ -1317,7 +1317,7 @@ mission "MGF: Chemical Transport (Diborane 1)"
 	name "Chemical Transport"
 	description "2000 units of Diborane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 40
@@ -1344,7 +1344,7 @@ mission "MGF: Chemical Transport (Chlorine 1)"
 	name "Chemical Transport"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 70
@@ -1371,7 +1371,7 @@ mission "MGF: Chemical Transport (Chlorine 2)"
 	name "Chemical Transport"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 50
@@ -1398,7 +1398,7 @@ mission "MGF: Chemical Transport (Chlorine 3)"
 	name "Chemical Transport"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	cargo "paper works" 1
 	to offer
 		random < 50
@@ -1425,7 +1425,7 @@ mission "MGF: Rush Chemical Transport (Chlorine 1)"
 	name "Chemical Transport"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	deadline
 	cargo "paper works" 1
 	to offer
@@ -1453,7 +1453,7 @@ mission "MGF: Rush Chemical Transport (Chlorine 2)"
 	name "Chemical Transport"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
-	repeats
+	repeat
 	deadline
 	cargo "paper works" 1
 	to offer

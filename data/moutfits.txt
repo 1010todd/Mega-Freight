@@ -28,6 +28,7 @@ outfit "Bagger Excavator"
 	description `An old-school physical excavator build into the tip of the Bagger, while lack of range it will break up asteroids much faster than any other energy weapon in human space.`
 		
 outfit "Thyrupp Industrial Systems"
+	plural "Thyrupp Industrial Systems"
 	category "Systems"
 	cost 22734000
 	thumbnail "outfit/mgf espion ore refinery"
@@ -1009,7 +1010,7 @@ outfit "Gy6 Hellraiser Turret"
 		"inaccuracy" 5
 		"velocity" 21
 		"random velocity" 5
-		"random lifetime 10
+		"random lifetime" 10
 		"turret turn" 3.2
 		"lifetime" 40
 		"burst count" 5
@@ -1497,7 +1498,7 @@ outfit "MYi2 Railgun Turret"
 	"railgun slug capacity" 1000
 	weapon
 		`hardpoint sprite` "hardpoint/mgf hai railgun turret hp"
-			"hardpoint offset" -1. 4.
+		"hardpoint offset" -1. 4.
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		ammo "Railgun Slug"
@@ -1922,6 +1923,7 @@ outfit "Syndicate Platinum License"
 #========================================Gases ""custom commodity""
 
 outfit "Liquid Natural Gas"
+	plural "Liquid Natural Gas"
 	category "Special"
 	cost 8000
 	thumbnail "outfit/unknown"

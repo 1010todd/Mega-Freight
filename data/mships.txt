@@ -3671,6 +3671,7 @@ ship "A-14F Rondel"
 	description "A relatively recent fighter/bomber developed alongside the Spetum to provide more effective anti-ship capability."
 	
 ship "Culverin Class"
+	plural "Culverin Class"
 	sprite "ship/mgf navy arsenalship"
 	thumbnail "thumbnail/mgf navy arsenalship thumb"
 	attributes
@@ -3813,6 +3814,7 @@ ship "Culverin Class" "Culverin Class (Mark II)"
 		"Hyperdrive"
 	
 ship "Spetum Class"
+	plural "Spetum Class"
 	sprite "ship/mgf navy fleetcarrier"
 	thumbnail "thumbnail/mgf navy fleetcarrier thumb"
 	attributes
@@ -4179,6 +4181,7 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"Scram Drive"
 		
 ship "Claymore Class"
+	plural "Claymore Class"
 	sprite "ship/mgf navy superbattleship"
 	thumbnail "thumbnail/mgf navy superbattleship thumb"
 	attributes
@@ -4425,6 +4428,7 @@ ship "Claymore Class"
 
 
 ship "Lucerne Class"
+	plural "Lucerne Class"
 	sprite "ship/mgf navy supercarrier"
 	thumbnail "thumbnail/mgf navy supercarrier thumb"
 	attributes

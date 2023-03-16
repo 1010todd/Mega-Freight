@@ -96,7 +96,7 @@ system "Hadar"
 	add fleet "MGF: Near Bourne Merchant" 4400
 system "Alkaid"
 	add fleet "MGF: Near Bourne Merchant" 4400
-system "Zubeneschmali"
+system "Zubeneschamali"
 	add fleet "MGF: Near Bourne Merchant" 4400
 system "Kochab"
 	add fleet "MGF: Near Bourne Merchant" 4400
@@ -776,7 +776,7 @@ system "Alpha Centauri"
 system Denebola
 	add fleet "Sulso LG Shipping" 6500
 
- #Oil
+#Oil
 system "Kaus Borealis"
 	add fleet "Sulso LG Shipping" 6500
 system "Peacock"
@@ -792,7 +792,7 @@ system Ascella
 
 system Regor
 	add fleet "Sulso LG Shipping" 6500
-system Alfheim
+system Wezen
 	add fleet "Sulso LG Shipping" 6500
 
 system Schedar
@@ -819,7 +819,7 @@ system Pherkad
 	add fleet "Sulso LG Shipping" 6500
 system Tarazed
 	add fleet "Sulso LG Shipping" 5500
-system Zubeneschmali
+system Zubeneschamali
 	add fleet "Sulso LG Shipping" 5500
 system "Yed Prior"
 	add fleet "Sulso LG Shipping" 6500
@@ -860,7 +860,7 @@ system Diphda
 
 
 
-system Zubeneschmali
+system Zubeneschamali
 	add fleet "Maryhal Logistic ArteryLine" 7500
 system Zubenelgenubi
 	add fleet "Maryhal Logistic ArteryLine" 7500
