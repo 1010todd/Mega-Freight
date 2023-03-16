@@ -114,6 +114,10 @@ fleet "Large Southern Merchants"
 		"Nasprite (Swordfish)"
 	add variant 2
 		"PF-80 Intrepid (Plasma Engine)"
+		
+	add variant 2
+		"LXC-2 Strata"
+		"Hawk" 3
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -287,6 +291,34 @@ fleet "Large Core Merchants"
 		"PF-80 Intrepid (Swordfish)"
 	add variant 6
 		"Nasprite (Swordfish)"
+		
+	add variant 4
+		"LXC-2 Strata"
+		"Quicksilver (Proton)" 2
+	add variant 2
+		"LXC-2 Strata"
+		"Manta"
+	add variant 1
+		"Strata (Sulfuric Acid Filled)"
+		"Quicksilver (Proton)" 2
+	add variant 1
+		"Strata (Methanol Filled)"
+		"Manta"
+	add variant 1
+		"Strata (Sulfuric Acid Half-Filled)"
+		"Quicksilver (Proton)" 2
+	add variant 1
+		"Strata (Hydrazine Filled)"
+		"Manta"
+	add variant 1
+		"Strata (Sulfuric Acid Half-Filled)"
+		"Quicksilver (Proton)" 2
+	add variant 1
+		"Strata (Phosphoric Acid Filled)"
+		"Manta"
+	add variant 1
+		"Strata (Ammonia Filled)"
+		"Quicksilver (Proton)" 2
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -338,6 +370,18 @@ fleet "Paradise Merchants"
 		"SKVS-2 Mudskipper" 3
 	add variant 4
 		"SKVS-3 Gudgeon"
+		
+	add variant 1
+		"Strata (Sulfuric Acid Half-Filled)"
+		"Headhunter" 2
+	add variant 1
+		"Strata (Hydrazine Filled)"
+		"Firebird"
+	add variant 1
+		"Strata (Ammonia Filled)"
+		"Headhunter" 2
+	add variant 1
+		"Mesa (LNG Half-Filled)"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -500,6 +544,28 @@ fleet "Large Northern Merchants"
 		"PF-80 Intrepid (Plasma Engine)"
 	add variant 4
 		"PF-80 Intrepid (Laser)"
+		
+	add variant 4
+		"LXC-2 Strata"
+		"Firebird" 2
+	add variant 1
+		"Strata (Sulfuric Acid Filled)"
+		"Firebird" 2
+	add variant 1
+		"Strata (Methanol Filled)"
+		"Firebird"
+	add variant 1
+		"Strata (Sulfuric Acid Half-Filled)"
+		"Headhunter" 2
+	add variant 1
+		"Strata (Hydrazine Filled)"
+		"Firebird"
+	add variant 1
+		"Strata (Ammonia Filled)"
+		"Headhunter" 2
+	add variant 1
+		"Strata (Phosphoric Acid Filled)"
+		"Firebird"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3

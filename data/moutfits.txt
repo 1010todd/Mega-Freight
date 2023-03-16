@@ -1619,6 +1619,20 @@ outfit "M-type 1k Gas Tank"
 	description `Universal gas tank capable of storing either liquefied gas or compressed gas built into the LGC-3 Mesa class gas tanker ships allowing it to transport gases without relaying on special containers improving speed, capacity, and overall efficiency of the transportation. These tanks are built with high strength materials to withstand extremely high pressure and layered with advanced insulations along with dedicated cooling systems to keep the cargo at right temperature.`
 	description `Having ships with dedicated gas tanks allow you to be offered special jobs for transporting gas.`
 	
+outfit "U-type 1k Chemical Tank"
+	category "Systems"
+	cost 650000
+	thumbnail "outfit/fuel module"
+	"mass" 450
+	"u-type 1k chem tank" 1
+	"chemical capacity" 1000
+	"chemical lock" 9e-20
+	"corrosion protection" .05
+	"corrosion resistance" 1
+	"unplunderable" 1
+	description `Universal chemical tank made to safely store even the most corrosive liquid built for dedicated chemical tanker for shipping various industrial chemicals with far superior efficiency compared to regular freighter. The tanks are made with thick corrosion resistant material and coated with another layer of specialized corrosion-proof coating. Lined with dedicated temperature control system to keep the cargo at ideal heat for transport unaffected by the environment around the ship.`
+	description `Having ships with dedicated chemical tanks allow you to be offered special jobs for transporting industrial chemicals.`
+	
 outfit "X09E Fighter Assembler"
 	category "Systems"
 	cost 8200000
@@ -1905,6 +1919,102 @@ outfit "Syndicate Platinum License"
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.` 
 	description `A tiny grey print on the license mention 5000 credit per day upkeep fee. Cancellation before one year will incur fine of 9% of the registration cost and cancellation after two year will incur fine of 4.55% of the registration cost`
 	
+#========================================Gases ""custom commodity""
+
+outfit "Liquid Natural Gas"
+	category "Special"
+	cost 8000
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"gas capacity" -1
+	"gas lock" 1
+	"unplunderable" 1
+	
+outfit "Liquid Ethane"
+	category "Special"
+	cost 12000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"gas capacity" -1
+	"gas lock" 1
+	"unplunderable" 1
+	
+outfit "Liquid Hydrogen"
+	category "Special"
+	cost 10000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"gas capacity" -1
+	"gas lock" 1
+	"unplunderable" 1
+	
+#========================================Chemical
+
+outfit "Sulfuric Acid"
+	category "Special"
+	cost 3500
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Phosphoric Acid"
+	category "Special"
+	cost 1300
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Methanol"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Ammonia"
+	category "Special"
+	cost 1500
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Hydrazine"
+	category "Special"
+	cost 5000
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Diborane"
+	category "Special"
+	cost 4000
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
+outfit "Chlorine"
+	category "Special"
+	cost 1300
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"chemical capacity" -1
+	"chemical lock" 1
+	"unplunderable" 1
+	
 #========Processed Mined materials
 	
 outfit "GMS16 Steel"
@@ -2157,32 +2267,3 @@ outfit "GMS97 Silver Product"
 	"minable" 1
 	description `Various basic product made from GMS97 Silver.`
 	
-#========================================Gases ""custom commodity""
-
-outfit "Liquid Natural Gas"
-	category "Special"
-	cost 8000
-	thumbnail "outfit/unknown"
-	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
-	"mass" .1 
-	"gas capacity" -1
-	"gas lock" 1
-	"unplunderable" 1
-	
-outfit "Liquid Ethane"
-	category "Special"
-	cost 12000
-	thumbnail "outfit/unknown"
-	"mass" .1
-	"gas capacity" -1
-	"gas lock" 1
-	"unplunderable" 1
-	
-outfit "Liquid Hydrogen"
-	category "Special"
-	cost 10000
-	thumbnail "outfit/unknown"
-	"mass" .1
-	"gas capacity" -1
-	"gas lock" 1
-	"unplunderable" 1

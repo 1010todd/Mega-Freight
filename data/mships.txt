@@ -871,7 +871,7 @@ ship "LGC-3 Mesa"
 	thumbnail "thumbnail/mgf mesa thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 10200000
+		"cost" 14200000
 		"shields" 7900
 		"hull" 7500
 		"required crew" 28
@@ -915,7 +915,9 @@ ship "LGC-3 Mesa"
 	turret 0 0.5 "Heavy Anti-Missile Turret"
 	turret 0 111 "Proton Turret"
 	engine -53.5 191.5 
+		zoom .7
 	engine 53.5 191.5 
+		zoom .7
 	engine -22.5 215.5 
 	engine 22.5 215.5 
 	leak "leak" 40 50
@@ -927,6 +929,66 @@ ship "LGC-3 Mesa"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation, a gas tanker allows you to take special, very well paid jobs on some industrial planets.`
+	
+ship "LXC-2 Strata"
+	sprite "ship/mgf strata"
+	thumbnail "thumbnail/mgf strata thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8500000
+		"shields" 7400
+		"hull" 7800
+		"required crew" 22
+		"bunks" 36
+		"mass" 4180
+		"drag" 11.4
+		"heat dissipation" .7
+		"fuel capacity" 1400
+		"cargo space" 130
+		"outfit space" 450
+		"weapon capacity" 153
+		"engine capacity" 165
+		"u-type 1k chem tank" -8
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+	turret 0 -169 
+	turret -28 73.5 "Heavy Anti-Missile Turret"
+	turret 28 73.5 "Heavy Anti-Missile Turret"
+	turret 0 119.5 
+	engine -60 203 
+		zoom .7
+	engine 60 203 
+		zoom .7
+	engine -23 218.5 
+	engine 23 218.5 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A purpose-built chemical tanker for shipping various industrial chemical including highly corrosive acids with efficiency unmatched by regular freighter. With their specialized nature these ships are also rarer, often found in route to industrial planets or close by only. With difficulty of maintaining transported chemical combined with requiring special port to unload the stored liquid (efficiently) these vessels are less preferred target for pirates. While not useful in general shipping between most worlds these ships profit of their extreme specialization to take on fewer but much more profitable jobs only offered on industrialized worlds.`
 	
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
@@ -5692,6 +5754,7 @@ ship "CK80T Tlielart"
 		"engine capacity" 219
 		"radar jamming" 30
 		"scan interference" 12
+		"landing speed" .01
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -5739,7 +5802,7 @@ ship "CK80Tp Death Harmonica"
 	thumbnail "thumbnail/mgf tlielart spinalengine thumb"
 	attributes
 		category "Heavy Warship"
-		"cost" 56500000
+		"cost" 76500000
 		"shields" 22500
 		"hull" 24880
 		"required crew" 84
@@ -5822,7 +5885,7 @@ ship "PCS-5 Citadel"
 		category "Utility"
 		licenses
 			Militia
-		"cost" 46500000
+		"cost" 84500000
 		"shields" 28500
 		"hull" 20800
 		"required crew" 188
@@ -6434,7 +6497,7 @@ ship "SKVS-2 Mudskipper"
 		"mass" 168
 		"drag" 5.8
 		"heat dissipation" .8
-		"fuel capacity" 300
+		"fuel capacity" 200
 		"cargo space" 180
 		"outfit space" 170
 		"weapon capacity" 40
@@ -6481,7 +6544,7 @@ ship "SKVS-3 Gudgeon"
 		"mass" 288
 		"drag" 6.7
 		"heat dissipation" .8
-		"fuel capacity" 400
+		"fuel capacity" 300
 		"cargo space" 270
 		"outfit space" 200
 		"weapon capacity" 40

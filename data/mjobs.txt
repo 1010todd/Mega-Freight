@@ -719,7 +719,7 @@ mission "MGF: Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1000000 1800
+		payment 1000000 10000
 		
 mission "MGF: Gas Transport (LNG 2)"
 	name "Gas Transport"
@@ -747,7 +747,7 @@ mission "MGF: Gas Transport (LNG 2)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1000000 1800
+		payment 1000000 11000
 		
 mission "MGF: Gas Transport (LNG 3)"
 	name "Gas Transport"
@@ -775,7 +775,7 @@ mission "MGF: Gas Transport (LNG 3)"
 	on complete
 		outfit "Liquid Natural Gas" -8000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2000000 1700
+		payment 2000000 12000
 		
 mission "MGF: Rush Gas Transport (LNG 1)"
 	name "Rush Gas Transport"
@@ -804,7 +804,7 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1750000 1800
+		payment 1750000 18000
 		
 mission "MGF: Gas Transport (Ethane 1)"
 	name "Gas Transport"
@@ -832,7 +832,7 @@ mission "MGF: Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1750000 1800
+		payment 1750000 10000
 		
 mission "MGF: Rush Gas Transport (Ethane 1)"
 	name "Rush Gas Transport"
@@ -861,7 +861,7 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2625000 1800
+		payment 2625000 18000
 		
 mission "MGF: Gas Transport (Hydrogen 1)"
 	name "Gas Transport"
@@ -889,7 +889,7 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1250000 1800
+		payment 1250000 10000
 		
 mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	name "Rush Gas Transport"
@@ -918,7 +918,564 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2188000 1800
+		payment 2188000 18000
+		
+#=======================================Chem
+
+phrase "mgf: unload chemical"
+	word
+		`You unload the chemical at a special port near the industrial site and receive your payment of <payment>`
+
+#"Lure" job that shows up even if player don't meet the requirement to give example of Chemical shipping job.
+mission "MGF: Chemical Transport (Sulfuric 1)"
+	name "Chemical Transport"
+	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		or
+			random < 50
+			and
+				random < 80
+				has "outfit (installed): M-type 1k Gas Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Sulfuric Acid" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Sulfuric Acid" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 500000 9000
+		
+mission "MGF: Chemical Transport (Sulfuric 2)"
+	name "Chemical Transport"
+	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Sulfuric Acid" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Sulfuric Acid" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 500000 10000
+		
+mission "MGF: Rush Chemical Transport (Sulfuric 1)"
+	name "Chemical Transport"
+	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Sulfuric Acid" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Sulfuric Acid" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 550000 18000
+		
+mission "MGF: Chemical Transport (Phosphoric Acid 1)"
+	name "Chemical Transport"
+	description "2000 units of Phosphoric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Phosphoric Acid" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Phosphoric Acid" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 550000 9000
+		
+mission "MGF: Chemical Transport (Methanol 1)"
+	name "Chemical Transport"
+	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Methanol" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Methanol" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 200000 9000
+		
+mission "MGF: Chemical Transport (Methanol 2)"
+	name "Chemical Transport"
+	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Methanol" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Methanol" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 210000 10000
+		
+mission "MGF: Chemical Transport (Methanol 3)"
+	name "Chemical Transport"
+	description "4000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 4 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Methanol" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Methanol" -4000
+		dialog phrase "mgf: unload chemical"
+		payment 420000 16000
+		
+mission "MGF: Chemical Transport (Ammonia 1)"
+	name "Chemical Transport"
+	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 80
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Ammonia" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Ammonia" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 270000 9000
+		
+mission "MGF: Chemical Transport (Ammonia 2)"
+	name "Chemical Transport"
+	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Ammonia" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Ammonia" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 290000 10000
+		
+mission "MGF: Chemical Transport (Ammonia 3)"
+	name "Chemical Transport"
+	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Ammonia" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Ammonia" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 310000 11000
+		
+mission "MGF: Rush Chemical Transport (Ammonia 1)"
+	name "Chemical Transport"
+	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Ammonia" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Ammonia" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 320000 12000
+		
+mission "MGF: Rush Chemical Transport (Ammonia 2)"
+	name "Chemical Transport"
+	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Ammonia" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Ammonia" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 340000 14000
+		
+mission "MGF: Chemical Transport (Hydrazine 1)"
+	name "Chemical Transport"
+	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Hydrazine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Hydrazine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 750000 10000
+		
+mission "MGF: Chemical Transport (Hydrazine 2)"
+	name "Chemical Transport"
+	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Hydrazine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Hydrazine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 790000 10000
+		
+mission "MGF: Chemical Transport (Diborane 1)"
+	name "Chemical Transport"
+	description "2000 units of Diborane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Diborane" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Diborane" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 650000 9000
+		
+mission "MGF: Chemical Transport (Chlorine 1)"
+	name "Chemical Transport"
+	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 70
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Chlorine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Chlorine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 260000 9000
+		
+mission "MGF: Chemical Transport (Chlorine 2)"
+	name "Chemical Transport"
+	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Chlorine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Chlorine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 280000 10000
+		
+mission "MGF: Chemical Transport (Chlorine 3)"
+	name "Chemical Transport"
+	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Chlorine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Chlorine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 290000 10000
+		
+mission "MGF: Rush Chemical Transport (Chlorine 1)"
+	name "Chemical Transport"
+	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Chlorine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Chlorine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 310000 16000
+		
+mission "MGF: Rush Chemical Transport (Chlorine 2)"
+	name "Chemical Transport"
+	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
+	job
+	repeats
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (flagship installed): U-type 1k Chemical Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 2 + ( "outfit (installed): Sulfuric Acid" / 1000 ) + ( "outfit (installed): Phosphoric Acid" / 1000 ) + ( "outfit (installed): Methanol" / 1000 ) + ( "outfit (installed): Ammonia" / 1000 ) + ( "outfit (installed): Hydrazine" / 1000 ) + ( "outfit (installed): Diborane" / 1000 ) + ( "outfit (installed): Chlorine" / 1000 )
+	on accept
+		outfit "Chlorine" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Chlorine" -2000
+		dialog phrase "mgf: unload chemical"
+		payment 390000 22000
 		
 #==============================Passenger
 		
@@ -2908,7 +3465,14 @@ mission "MGF: Mine Titanium Tiny"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 17
+		or
+			and
+				random < 15
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 7
 
 	on complete
 		outfit "Titanium" -15
@@ -2925,7 +3489,14 @@ mission "MGF: Mine Titanium Small"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 7
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
 
 	on complete
 		outfit "Titanium" -30
@@ -2942,7 +3513,15 @@ mission "MGF: Mine Titanium Medium"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 4
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 2
+		"cargo space" >= 40
 
 	on complete
 		outfit "Titanium" -90
@@ -2959,7 +3538,14 @@ mission "MGF: Mine Neodymium Tiny" #3800
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 15
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 7
 
 	on complete
 		outfit "Neodymium" -15
@@ -2976,7 +3562,14 @@ mission "MGF: Mine Neodymium Small"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 7
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
 
 	on complete
 		outfit "Neodymium" -30
@@ -2993,7 +3586,14 @@ mission "MGF: Mine Silicon Tiny" #400
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 15
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 7
 
 	on complete
 		outfit "Silicon" -15
@@ -3010,7 +3610,14 @@ mission "MGF: Mine Silicon Small" #400
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 7
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
 
 	on complete
 		outfit "Silicon" -30
@@ -3027,7 +3634,14 @@ mission "MGF: Mine Tungsten Small"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 8
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
 
 	on complete
 		outfit "Tungsten" -30
@@ -3044,7 +3658,14 @@ mission "MGF: Mine Lead Tiny"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 15
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 7
 
 	on complete
 		outfit "Lead" -15
@@ -3061,7 +3682,14 @@ mission "MGF: Mine Lead Small"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 15
+		or
+			and
+				random < 7
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
 
 	on complete
 		outfit "Lead" -30
@@ -3078,7 +3706,15 @@ mission "MGF: Mine Lead Medium"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 10
+		or
+			and
+				random < 8
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 4
+		"cargo space" >= 40
 
 	on complete
 		outfit "Lead" -90
@@ -3095,7 +3731,15 @@ mission "MGF: Mine Lead Large"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 7
+		or
+			and
+				random < 4
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 2
+		"cargo space" >= 90
 
 	on complete
 		outfit "Lead" -180
@@ -3112,7 +3756,15 @@ mission "MGF: Mine Lead Huge"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		not attributes "uninhabited"
 	to offer
-		random < 5
+		or
+			and
+				random < 4
+				or
+					"ships: Interceptor" > 0
+					"ships: Light Warship" > 0
+					"ships: Utility" > 0
+			random < 2
+		"cargo space" >= 180
 
 	on complete
 		outfit "Lead" -400

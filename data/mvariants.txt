@@ -716,6 +716,7 @@ ship "CK80T Tlielart" "Tlielart (Cargo Carrier)"
 		"engine capacity" 219
 		"radar jamming" 30
 		"scan interference" 12
+		"landing speed" .01
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -847,6 +848,7 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 		"engine capacity" 719
 		"radar jamming" 30
 		"scan interference" 12
+		"landing speed" .01
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -1049,6 +1051,127 @@ ship "LGC-3 Mesa" "Mesa (LH Third-Filled)"
 		
 		"M-type 1k Gas Tank" 6
 		"Liquid Hydrogen" 4000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+
+#======================Chemical Tanker
+
+ship "LXC-2 Strata" "Strata (Sulfuric Acid Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Sulfuric Acid" 8000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Sulfuric Acid Half-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Sulfuric Acid" 4000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Sulfuric Acid Quarter-Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Sulfuric Acid" 2000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Phosphoric Acid Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Phosphoric Acid" 8000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Methanol Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Methanol" 8000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Ammonia Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Ammonia" 8000
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LXC-2 Strata" "Strata (Hydrazine Filled)"
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"U-type 1k Chemical Tank" 8
+		"Hydrazine" 8000
 		
 		"A525 Atomic Steering"
 		"A370 Atomic Thruster"
