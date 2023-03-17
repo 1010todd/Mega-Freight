@@ -258,8 +258,8 @@ ship "CF-50 Cart"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
 		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Chipmunk Plasma Steering"
+		"Chipmunk Plasma Thruster"
 		"Hyperdrive"
 		
 	gun 0 -48
@@ -310,7 +310,7 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 	gun 14 -75.5
 	turret 0 -25
 	#bay "Fighter" 0 14.5
-		under
+		#under
 	engine -25 41.5
 		zoom 1
 		angle 0
@@ -321,7 +321,7 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 15
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or methods of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering emergency supplies and tall construction or construction in inaccessible area instead of crane."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering supplies for construction of tall buildings or ones in inaccessible area."
 	description `[Carry: Nothing, you shouldnt see or use this]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Fighter)"
@@ -344,7 +344,7 @@ ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or methods of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering emergency supplies and tall construction or construction in inaccessible area instead of crane."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering supplies for construction of tall buildings or ones in inaccessible area."
 	description `[Carry: 1 Fighter]`
 
 ship "CY-10 Dragonfly" "CY-10 (Drone)"
@@ -367,7 +367,7 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or methods of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering emergency supplies and tall construction or construction in inaccessible area instead of crane."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering supplies for construction of tall buildings or ones in inaccessible area."
 	description `[Carry: 1 Drone]`
 	
 ship "Aplomado"
@@ -644,10 +644,10 @@ ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
 	attributes
 		category "Heavy Freighter"
-		"cost" 12200000
-		"shields" 12000
-		"hull" 10500
-		"required crew" 12
+		"cost" 14200000
+		"shields" 11000
+		"hull" 9500
+		"required crew" 14
 		"bunks" 36
 		"mass" 7420
 		"drag" 12.4
@@ -1076,7 +1076,7 @@ ship "PAS-2 Bulwark"
 		category "Heavy Warship"
 		licenses
 			Militia
-		"cost" 18200000
+		"cost" 20200000
 		"shields" 12000
 		"hull" 18500
 		"required crew" 42
@@ -1348,7 +1348,7 @@ ship "PCS-4 Castle"
 		category "Heavy Warship"
 		licenses
 			Militia
-		"cost" 18200000
+		"cost" 58200000
 		"shields" 13800
 		"hull" 13000
 		"hull repair rate" .01
@@ -1674,7 +1674,7 @@ ship "FTV-33 Acareus"
 	thumbnail "thumbnail/mgf acareus thumb"
 	attributes
 		category "Heavy Freighter"
-		"cost" 10800000
+		"cost" 11800000
 		"shields" 11000
 		"hull" 8900
 		"required crew" 20
@@ -2017,9 +2017,9 @@ ship "CSE-6 Steward"
 	thumbnail "thumbnail/mgf steward"
 	attributes
 		category "Medium Warship"
-		"cost" 5200000
-		"shields" 11000
-		"hull" 7700
+		"cost" 6800000
+		"shields" 9200
+		"hull" 5300
 		"required crew" 45
 		"bunks" 150
 		"mass" 1514

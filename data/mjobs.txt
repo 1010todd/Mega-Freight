@@ -685,11 +685,86 @@ mission "MGF: Huge Bulk Delivery [2]"
 		payment 3000
 		dialog phrase "generic cargo delivery payment"
 		
+#===================================Heavy Lift jobs
+
+phrase "mgf: heavy lift complete"
+	word
+		`You arrived at the job site and find out their usual heavy lift ship was broken. `
+		`You arrived at the job site at the agreed time. `
+		`You arrived at the job site and find out their crane was having a problem. `
+	word
+		`You help them lift various materials from the ground up to the building they're working on. ` 
+		`You picked up prefabricated pieces of bridge up to position and hold it while the workers below join it. `
+		`You assist them lifting a prefabricated house around as they're rearranging a village. `
+		`You assist in some tear down carrying large chunk of a building away to the dump site. `
+		`You helped the port unloading containers off a massive freighter that arrived a few minutes after you did. `
+		`Your job was to carry some landfill from a site some distance away as someone figured it'd be faster with a spaceship than a convoy of trucks. `
+		`You helped them transporting supplies between the depot and the worksite deep in some inaccessible mountainous area. `
+	word
+		`After a few hours you finished the job, the foreman thank you and handed you <payment>.`
+		
+
+mission "MGF: Heavy Lift 1"
+	name "Heavy-lift ship required at <planet>"
+	description "A construction project at <destination> requires a heavy lift craft by <date>. Travel there to do the job and you will be paid <payment>. To accept this job you need a heavy lift vehicle."
+	job
+	repeat
+	deadline
+	to offer
+		or
+			random < 30
+			and
+				random < 70
+				has "ship model (all): CY-10 Dragonfly"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "oil" "urban" "mining"
+		distance 1 3
+	to accept
+		has "ship model (all): CY-10 Dragonfly"
+	on visit
+		dialog
+			`You reached <planet> where you taken a heavy lift job but your heavy-lift ship hasn't arrived yet. Better depart and wait for it in orbit.`
+	to complete
+		has "ship model: CY-10 Dragonfly"
+	on complete
+		dialog phrase "mgf: heavy lift complete"
+		payment 3800 150
+		
+mission "MGF: Heavy Lift 2"
+	name "Heavy-lift ship required at <planet>"
+	description "A construction project at <destination> requires a heavy lift craft by <date>. Travel there to do the job and you will be paid <payment>. To accept this job you need a heavy lift vehicle."
+	job
+	repeat
+	deadline
+	to offer
+		random < 50
+		has "ship model (all): CY-10 Dragonfly"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "oil" "urban" "mining"
+		distance 1 3
+	to accept
+		has "ship model (all): CY-10 Dragonfly"
+	on visit
+		dialog
+			`You reached <planet> where you taken a heavy lift job but your heavy-lift ship hasn't arrived yet. Better depart and wait for it in orbit.`
+	to complete
+		has "ship model: CY-10 Dragonfly"
+	on complete
+		dialog phrase "mgf: heavy lift complete"
+		payment 4000 150
+		
+		
 #=======================================GAS
 
 #"Lure" job that shows up even if player don't meet the requirement to give example of Gas shipping job.
 mission "MGF: Gas Transport (LNG 1)"
-	name "Gas Transport"
+	name "Gas Transport to <planet>"
 	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying liquid gas."
 	job
 	repeat
@@ -722,7 +797,7 @@ mission "MGF: Gas Transport (LNG 1)"
 		payment 1000000 10000
 		
 mission "MGF: Gas Transport (LNG 2)"
-	name "Gas Transport"
+	name "Gas Transport to <planet>"
 	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -750,7 +825,7 @@ mission "MGF: Gas Transport (LNG 2)"
 		payment 1000000 11000
 		
 mission "MGF: Gas Transport (LNG 3)"
-	name "Gas Transport"
+	name "Gas Transport to <planet>"
 	description "8000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -778,7 +853,7 @@ mission "MGF: Gas Transport (LNG 3)"
 		payment 2000000 12000
 		
 mission "MGF: Rush Gas Transport (LNG 1)"
-	name "Rush Gas Transport"
+	name "Rush Gas Transport to <planet>"
 	deadline
 	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>.  Payment is <payment>."
 	job
@@ -807,7 +882,7 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 		payment 1750000 18000
 		
 mission "MGF: Gas Transport (Ethane 1)"
-	name "Gas Transport"
+	name "Gas Transport to <planet>"
 	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -835,7 +910,7 @@ mission "MGF: Gas Transport (Ethane 1)"
 		payment 1750000 10000
 		
 mission "MGF: Rush Gas Transport (Ethane 1)"
-	name "Rush Gas Transport"
+	name "Rush Gas Transport to <planet>"
 	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -864,7 +939,7 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 		payment 2625000 18000
 		
 mission "MGF: Gas Transport (Hydrogen 1)"
-	name "Gas Transport"
+	name "Gas Transport to <planet>"
 	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -892,7 +967,7 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 		payment 1250000 10000
 		
 mission "MGF: Rush Gas Transport (Hydrogen 1)"
-	name "Rush Gas Transport"
+	name "Rush Gas Transport to <planet>"
 	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
 	job
 	repeat
@@ -928,7 +1003,7 @@ phrase "mgf: unload chemical"
 
 #"Lure" job that shows up even if player don't meet the requirement to give example of Chemical shipping job.
 mission "MGF: Chemical Transport (Sulfuric 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
 	job
 	repeat
@@ -959,7 +1034,7 @@ mission "MGF: Chemical Transport (Sulfuric 1)"
 		payment 500000 9000
 		
 mission "MGF: Chemical Transport (Sulfuric 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
 	job
 	repeat
@@ -987,7 +1062,7 @@ mission "MGF: Chemical Transport (Sulfuric 2)"
 		payment 500000 10000
 		
 mission "MGF: Rush Chemical Transport (Sulfuric 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Sulfuric Acid along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
 	job
 	repeat
@@ -1015,7 +1090,7 @@ mission "MGF: Rush Chemical Transport (Sulfuric 1)"
 		payment 550000 18000
 		
 mission "MGF: Chemical Transport (Phosphoric Acid 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Phosphoric Acid along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying highly corrosive chemical."
 	job
 	repeat
@@ -1042,7 +1117,7 @@ mission "MGF: Chemical Transport (Phosphoric Acid 1)"
 		payment 550000 9000
 		
 mission "MGF: Chemical Transport (Methanol 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1069,7 +1144,7 @@ mission "MGF: Chemical Transport (Methanol 1)"
 		payment 200000 9000
 		
 mission "MGF: Chemical Transport (Methanol 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1096,7 +1171,7 @@ mission "MGF: Chemical Transport (Methanol 2)"
 		payment 210000 10000
 		
 mission "MGF: Chemical Transport (Methanol 3)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "4000 units of Methanol along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1123,7 +1198,7 @@ mission "MGF: Chemical Transport (Methanol 3)"
 		payment 420000 16000
 		
 mission "MGF: Chemical Transport (Ammonia 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1150,7 +1225,7 @@ mission "MGF: Chemical Transport (Ammonia 1)"
 		payment 270000 9000
 		
 mission "MGF: Chemical Transport (Ammonia 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1177,7 +1252,7 @@ mission "MGF: Chemical Transport (Ammonia 2)"
 		payment 290000 10000
 		
 mission "MGF: Chemical Transport (Ammonia 3)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1204,7 +1279,7 @@ mission "MGF: Chemical Transport (Ammonia 3)"
 		payment 310000 11000
 		
 mission "MGF: Rush Chemical Transport (Ammonia 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1232,7 +1307,7 @@ mission "MGF: Rush Chemical Transport (Ammonia 1)"
 		payment 320000 12000
 		
 mission "MGF: Rush Chemical Transport (Ammonia 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Ammonia along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1260,7 +1335,7 @@ mission "MGF: Rush Chemical Transport (Ammonia 2)"
 		payment 340000 14000
 		
 mission "MGF: Chemical Transport (Hydrazine 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1287,7 +1362,7 @@ mission "MGF: Chemical Transport (Hydrazine 1)"
 		payment 750000 10000
 		
 mission "MGF: Chemical Transport (Hydrazine 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Hydrazine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1314,7 +1389,7 @@ mission "MGF: Chemical Transport (Hydrazine 2)"
 		payment 790000 10000
 		
 mission "MGF: Chemical Transport (Diborane 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Diborane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1341,7 +1416,7 @@ mission "MGF: Chemical Transport (Diborane 1)"
 		payment 650000 9000
 		
 mission "MGF: Chemical Transport (Chlorine 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1368,7 +1443,7 @@ mission "MGF: Chemical Transport (Chlorine 1)"
 		payment 260000 9000
 		
 mission "MGF: Chemical Transport (Chlorine 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1395,7 +1470,7 @@ mission "MGF: Chemical Transport (Chlorine 2)"
 		payment 280000 10000
 		
 mission "MGF: Chemical Transport (Chlorine 3)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1422,7 +1497,7 @@ mission "MGF: Chemical Transport (Chlorine 3)"
 		payment 290000 10000
 		
 mission "MGF: Rush Chemical Transport (Chlorine 1)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
@@ -1450,7 +1525,7 @@ mission "MGF: Rush Chemical Transport (Chlorine 1)"
 		payment 310000 16000
 		
 mission "MGF: Rush Chemical Transport (Chlorine 2)"
-	name "Chemical Transport"
+	name "Chemical Transport to <planet>"
 	description "2000 units of Chlorine along with <cargo> to confirm the validity is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying chemical."
 	job
 	repeat
