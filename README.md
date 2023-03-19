@@ -4,7 +4,7 @@
 ![1](https://user-images.githubusercontent.com/19187937/176770486-96d0ba66-0464-4557-ab3b-ef5c43d44505.PNG)
 
 Adds several ships for you and various factions to use adding more variety to the galaxy(mostly just human space for now).
-* Faction with new ships: Merchant, Pirate, Republic, Syndicate, Free Worlds, Hai
+* Faction with new ships: Merchant, Pirate, Republic, Syndicate, Free Worlds, Hai, Wanderer
 
 Summary of what this plugin adds:
 

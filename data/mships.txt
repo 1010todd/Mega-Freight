@@ -959,7 +959,7 @@ ship "LXC-2 Strata"
 		"Heavy Anti-Missile Turret" 2
 		
 		"Fission Reactor"
-		"Liquid Helium Cooler"
+		"Liquid Nitrogen Cooler"
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
 		"Laser Rifle" 12
@@ -1308,20 +1308,20 @@ ship "FG-7 Conveyor"
 	bay "Fighter" 95 12
 		"launch effect" "human internal"
 		right
-	engine 36 347
-		zoom 2
-		angle 0
-		under
-	engine -36 347
-		zoom 2
-		angle 0
-		under
-	engine 25 332
+	engine -38.5 347 
 		zoom 1
+		angle 0
+		under
+	engine 38.5 347 
+		zoom 1
+		angle 0
+		under
+	engine -25.5 331.5 
+		zoom .7
 		angle 0
 		over
-	engine -25 332
-		zoom 1
+	engine 25.5 331.5 
+		zoom .7
 		angle 0
 		over
 	leak "leak" 40 50

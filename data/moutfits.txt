@@ -310,7 +310,7 @@ outfit "Atesac Plasma Cannon"
 		"firing heat" 112
 		"hit force" 20
 		"firing force" 30
-		"shield damage" 420
+		"shield damage" 520
 		"hull damage" 108
 	description "Experimental ultra-compressed plasma cannon, very powerful against shields."
 		
@@ -1932,6 +1932,8 @@ outfit "Liquid Natural Gas"
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 5
 	
 outfit "Liquid Ethane"
 	category "Special"
@@ -1941,6 +1943,8 @@ outfit "Liquid Ethane"
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 5
 	
 outfit "Liquid Hydrogen"
 	category "Special"
@@ -1950,6 +1954,8 @@ outfit "Liquid Hydrogen"
 	"gas capacity" -1
 	"gas lock" 1
 	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 7
 	
 #========================================Chemical
 

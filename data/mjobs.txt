@@ -855,7 +855,7 @@ mission "MGF: Gas Transport (LNG 3)"
 mission "MGF: Rush Gas Transport (LNG 1)"
 	name "Rush Gas Transport to <planet>"
 	deadline
-	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination>.  Payment is <payment>."
+	description "4000 units of Liquid Natural Gas along with <cargo> to confirm the validity is required to be shipped to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	cargo "paper works" 1
@@ -911,7 +911,7 @@ mission "MGF: Gas Transport (Ethane 1)"
 		
 mission "MGF: Rush Gas Transport (Ethane 1)"
 	name "Rush Gas Transport to <planet>"
-	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Ethane along with <cargo> to confirm the validity is required to be shipped to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline
@@ -968,7 +968,7 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 		
 mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	name "Rush Gas Transport to <planet>"
-	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination>. Payment is <payment>."
+	description "4000 units of Liquid Hydrogen along with <cargo> to confirm the validity is required to be shipped to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline
