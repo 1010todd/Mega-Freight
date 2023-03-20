@@ -673,6 +673,7 @@ fleet "Human Miners"
 	add variant 3
 		"Headhunter"
 		
+#Spawn in system with two+ landables.
 fleet "Intrasystem Merchants"
 	government "Merchant"
 	names "civilian"
@@ -686,6 +687,29 @@ fleet "Intrasystem Merchants"
 		"Wisymton (Cargo)" 3
 	variant 10
 		"Wisymton"
+	variant 10
+		"FC-022 Castello"
+		
+#Spawn in some midway systems.
+fleet "MGF: Intrasystem Refuelling"
+	government "Merchant"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 50
+		timid frugal appeasing
+	variant 50
+		"FC-022 Castello"
+		
+fleet "MGF: Sulso Intrasystem Refuelling"
+	government "MGF: Sulso LG Shipping"
+	names "small sulso name"
+	cargo 2
+	personality
+		confusion 50
+		timid frugal appeasing
+	variant 50
+		"FC-022 Castello"
 		
 fleet "MGF: Near Bourne Merchant"
 	government "Merchant"

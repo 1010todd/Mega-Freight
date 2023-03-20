@@ -241,11 +241,11 @@ phrase "maryhal logistic"
 		Zug
 	word
 		"${sometimes a successor}" 6
-		"XI"
-		"XII"
-		"XIII"
-		"XIV"
-		"XV"
+		" XI"
+		" XII"
+		" XIII"
+		" XIV"
+		" XV"
 		
 phrase "espion name"
 	word
@@ -254,6 +254,12 @@ phrase "espion name"
 		"standalone civilian ship names"
 	phrase
 		"sometimes a successor"
+		
+phrase "small sulso name"
+	word
+		"Sulso "
+	word
+		"${nouns of indeterminate quantity}"
 		
 phrase "sulso name"
 	word

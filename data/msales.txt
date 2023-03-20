@@ -353,6 +353,9 @@ shipyard "Navy Advanced EX"
 shipyard "Intrasystem Basic"
 	"Wisymton"
 	"Wisymton (Cargo)"
+
+shipyard "Intrasystem Advanced"
+	"FC-022 Castello"
 	
 shipyard "MGF Special A"
 	"FG-5 Bluewhale-A"

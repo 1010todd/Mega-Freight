@@ -39,27 +39,35 @@ planet Covert
 	
 planet Earth
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Luna
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Mars
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 	
 planet Wayfarer
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Thrall
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Memory
 	add shipyard "Intrasystem Basic"
 planet "New Wales"
 	add shipyard "Intrasystem Basic"
 planet Skymoot
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Glaze
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Shroud
 	add shipyard "Intrasystem Basic"
 planet Delve
 	add shipyard "Intrasystem Basic"
+	add shipyard "Intrasystem Advanced"
 planet Calda
 	add shipyard "Intrasystem Basic"
 planet Mainsail
@@ -76,6 +84,7 @@ planet Glaze
 	add shipyard "MarStel Advanced"
 
 #==========================Near Bourne Merchants
+#Lightly armed merchants, kind of a mirror of Paradise Merchants.
 system "Gamma Corvi"
 	add fleet "MGF: Near Bourne Merchant" 4400
 system "Spica"
@@ -106,6 +115,26 @@ system "Sabik"
 	add fleet "MGF: Near Bourne Merchant" 6400
 system "Unukalhai"
 	add fleet "MGF: Near Bourne Merchant" 6400
+
+#=========================Intrasystem Refuelling 
+system Rutilicus
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Ascella
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Altair
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Merak
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Zosma
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Ankaa
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Scheat
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Phurad
+	add fleet "MGF: Intrasystem Refuelling" 4500
+system Avior
+	add fleet "MGF: Intrasystem Refuelling" 4500
 
 #==========Seikron Dockyard
 planet Rust
@@ -858,6 +887,18 @@ system Diphda
 
 #intermediate
 #Nah, too lazy.
+
+#=Refuelling Fleet
+system Ruchbah
+	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
+system Menkent
+	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
+system Kornephoros
+	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
+system Izar
+	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
+system Peacock
+	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
 
 #=====================================Maryhal Logistic
 

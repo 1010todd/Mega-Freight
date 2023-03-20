@@ -6488,6 +6488,75 @@ ship "FF-30 Volant"
 	"final explode" "final explosion small"
 	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested area. Lightly protected and not designed for any combat.`
 	
+ship "FC-022 Castello"
+	sprite "ship/mgf castello"
+	thumbnail "thumbnail/mgf castello thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 880000
+		"shields" 1000
+		"hull" 880
+		"required crew" 5
+		"bunks" 12
+		"mass" 168
+		"drag" 6.1
+		"heat dissipation" .75
+		"fuel capacity" 1000
+		"cargo space" 50
+		"outfit space" 220
+		"weapon capacity" 56
+		"engine capacity" 65
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Anti-Missile Turret"
+		"Blaster Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		#"Hyperdrive"
+		
+	turret -27 37.5 
+	turret 27 37.5 
+	engine -27.5 115.5 
+	engine 27.5 115.5 
+	engine -43.5 115.5 
+	engine 43.5 115.5 
+	"reverse engine" -27.5 -112 
+	"reverse engine" 27.5 -112 
+	"steering engine" -45.5 -73.5 
+		zoom .5
+		angle 90
+		left
+	"steering engine" 45.5 -73.5 
+		zoom .5
+		angle 270
+		right
+	"steering engine" -45.5 74.5 
+		zoom .5
+		angle 90
+		left
+	"steering engine" 45.5 74.5 
+		zoom .5
+		angle 270
+		right
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Reminiscent of refuelling barge used in older days before uses of replusor engines becomes more widespread with freighters where most freighters would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barge like the Castello.`
+	description `In modern times refuelling barges are occasionally used by some companies to rapidly refuel freighters mid-flight and extend their range without requiring the slow and cumbersome freighters to visit the port.`
+	
 ship "SKVS-2 Mudskipper"
 	sprite "ship/mgf mudskipper"
 	thumbnail "thumbnail/mgf mudskipper thumb"
