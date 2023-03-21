@@ -235,7 +235,7 @@ fleet "Large Core Merchants"
 		"FG-5 Bluewhale-A"
 		
 	add variant 1
-		"AP-22 Fusillade"
+		"AP-7 Sentinel"
 		"FG-7 Conveyor-A" 3
 		"Barb (Proton)" 24
 		"CS-24 Garrison" #18
@@ -319,6 +319,10 @@ fleet "Large Core Merchants"
 	add variant 1
 		"Strata (Ammonia Filled)"
 		"Quicksilver (Proton)" 2
+		
+	add variant 3
+		"FG-5 Bluewhale-A" 2
+		"AP-7 Sentinel"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -1285,7 +1289,7 @@ fleet "Large Free Worlds"
 #=============================SYNDICATES
 fleet "Large Syndicate"
 	add variant 1
-		"AP-22 Fusillade"
+		"AP-7 Sentinel"
 		"Vanguard" 2
 		"Protector" 2
 		"Quicksilver (Proton)" 4

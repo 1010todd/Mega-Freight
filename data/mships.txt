@@ -929,6 +929,7 @@ ship "LGC-3 Mesa"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation, a gas tanker allows you to take special, very well paid jobs on some industrial planets.`
+	description `Due to nature of liquefied gas requiring extremely low temperature to maintain, any overheating can damage the tanks over time and eventually can cause it to burst, because of this gas tanker captains must keep an eye on their temperature all the time and make sure the temperature is below limit.`
 	
 ship "LXC-2 Strata"
 	sprite "ship/mgf strata"
@@ -3027,6 +3028,85 @@ ship "AP-22 Fusillade"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "Syndicate platinum member exclusive warship packed with up to more than 50 guns for taking down anyone who stand in its way."
+
+
+ship "AP-7 Sentinel"
+	sprite "ship/mgf syn sentinel"
+	thumbnail "thumbnail/mgf syn sentinel thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 12200000
+		"shields" 11700
+		"hull" 9200
+		"required crew" 46
+		"bunks" 82
+		"mass" 885
+		"drag" 10.1
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 910
+		"weapon capacity" 500
+		"engine capacity" 150
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Proton Gun" 12
+		"Proton Turret" 1
+		"Heavy Anti-Missile Turret" 2
+		"Mjolnir Missile" 240
+		"Mjolnir Launcher" 8
+		
+		"Fusion Reactor" 2
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 50
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -5 -179.5 
+	gun 5 -179.5 
+	gun -10.5 -171.5 
+	gun 10.5 -171.5 
+	gun -20.5 -194 
+	gun 20.5 -194 
+	gun -20.5 -194 
+	gun 20.5 -194 
+	gun -29 -183.5 
+	gun 29 -183.5 
+	gun -36 -159.5 
+	gun 36 -159.5 
+	gun -55 -4.5 "Mjolnir Launcher" 
+	gun 55 -4.5 "Mjolnir Launcher" 
+	gun -61.5 -4.5 "Mjolnir Launcher" 
+	gun 61.5 -4.5 "Mjolnir Launcher" 
+	gun -67 -4.5 "Mjolnir Launcher" 
+	gun 67 -4.5 "Mjolnir Launcher" 
+	gun -72 -4.5 "Mjolnir Launcher" 
+	gun 72 -4.5 "Mjolnir Launcher" 
+	turret 0 -112 "Proton Gun"
+	turret 0 -39 
+	turret 0 11 
+	engine -34.5 201.5 
+	engine 34.5 201.5 
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "A step up from the Vanguard featuring even more frontal guns."
+
+
 
 ship "SC-1 Alcazar"
 	sprite "ship/mgf alcazar"

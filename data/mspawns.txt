@@ -459,7 +459,27 @@ event "MGF: Pirate Advancement V"
 			
 	fleet "Large Core Pirates"
 		add variant 1
-			"AP-22 Fusillade"
+			"AP-7 Sentinel"
+			"Battle Bulk" 2
+			"CS-24 Garrison"
+			"Barb" 18
+			
+#Removed Fusillade spawn from older version. The ship was sort of a joke anyway.
+#In the future it'll possibly be obtainable as some unique one-of-a-kind ship.
+mission "MGF: Remove Fusillade Spawn"
+	invisible
+	landing
+	to offer
+		has "event: MGF: Pirate Advancement V"
+	on offer
+		event "MGF: Remove Fusillade Spawn"
+	on accept
+		fail
+		
+event "MGF: Remove Fusillade Spawn"
+	fleet "Large Core Pirates"
+		remove variant 1
+			"AP-7 Sentinel"
 			"Battle Bulk" 2
 			"CS-24 Garrison"
 			"Barb" 18

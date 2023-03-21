@@ -1192,7 +1192,7 @@ outfit "swordfish missile activated"
 		"turn" 4
 		"homing" 4
 		"radar tracking" .9
-		"shield damage" 680
+		"shield damage" 480
 		"hull damage" 258
 		"hit force" 75
 		"missile strength" 8
@@ -1244,10 +1244,10 @@ outfit "Mjolnir Launcher"
 		"blast radius" 30
 		"safe"
 		"phasing"
-		"shield damage" 980
-		"hull damage" 764
-		"hit force" 45
-		"missile strength" 18
+		"shield damage" 380
+		"hull damage" 364
+		"hit force" 40
+		"missile strength" 15
 	description "A smart missile that can dodge obstacles and untargeted ships to ensure it hit the correct target."
 		
 outfit "Spearfish Missile"
@@ -1313,8 +1313,8 @@ outfit "Spearfish VLS Array"
 		"radar tracking" .7
 		"optical tracking" .8
 		"blast radius" 30
-		"shield damage" 1080
-		"hull damage" 680
+		"shield damage" 380
+		"hull damage" 180
 		"hit force" 120
 		"missile strength" 12
 	description "Powerful anti-ship missile"
@@ -1356,8 +1356,8 @@ outfit "Spearfish Launcher Array"
 		"radar tracking" .7
 		"optical tracking" .8
 		"blast radius" 30
-		"shield damage" 1080
-		"hull damage" 680
+		"shield damage" 380
+		"hull damage" 180
 		"hit force" 120
 		"missile strength" 12
 	description "Powerful anti-ship missile"
