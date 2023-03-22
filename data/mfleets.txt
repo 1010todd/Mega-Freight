@@ -118,6 +118,12 @@ fleet "Large Southern Merchants"
 	add variant 2
 		"LXC-2 Strata"
 		"Hawk" 3
+		
+	add variant 1
+		"LVC-2 Sandura"
+		"Splinter"
+		"Quicksilver" 3
+		"Osprey"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -323,6 +329,11 @@ fleet "Large Core Merchants"
 	add variant 3
 		"FG-5 Bluewhale-A" 2
 		"AP-7 Sentinel"
+		
+	add variant 1
+		"LVC-2 Sandura"
+		"Splinter"
+		"Quicksilver" 3
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -386,6 +397,11 @@ fleet "Paradise Merchants"
 		"Headhunter" 2
 	add variant 1
 		"Mesa (LNG Half-Filled)"
+		
+	add variant 1
+		"LVC-2 Sandura"
+		"Firebird"
+		"Headhunter" 2
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -571,6 +587,11 @@ fleet "Large Northern Merchants"
 		"Strata (Phosphoric Acid Filled)"
 		"Firebird"
 		
+	add variant 1
+		"LVC-2 Sandura"
+		"Firebird"
+		"Headhunter" 2
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -686,11 +707,11 @@ fleet "Intrasystem Merchants"
 		confusion 50
 		timid frugal appeasing
 	variant 50
-		"Wisymton (Cargo)"
+		"Wisymton (Light Freighter, Cargo)"
 	variant 30
-		"Wisymton (Cargo)" 3
+		"Wisymton (Light Freighter, Cargo)" 3
 	variant 10
-		"Wisymton"
+		"Wisymton (Light Freighter)"
 	variant 10
 		"FC-022 Castello"
 		
@@ -701,7 +722,7 @@ fleet "MGF: Intrasystem Refuelling"
 	cargo 2
 	personality
 		confusion 50
-		timid frugal appeasing
+		timid frugal appeasing swarming
 	variant 50
 		"FC-022 Castello"
 		
@@ -711,7 +732,7 @@ fleet "MGF: Sulso Intrasystem Refuelling"
 	cargo 2
 	personality
 		confusion 50
-		timid frugal appeasing
+		timid frugal appeasing swarming
 	variant 50
 		"FC-022 Castello"
 		
@@ -765,7 +786,7 @@ fleet "Jacks Gang"
 	cargo 2
 	personality
 		confusion 30
-		heroic appeasing
+		hunting appeasing
 	variant 50
 		"CH-6 Carrack (Atomic I)"
 		"AGT-31 Xencar" 4
@@ -967,7 +988,7 @@ fleet "Small Crossguard Patrol"
 	cargo 1
 	personality
 		confusion 30
-		heroic disables
+		hunting disables
 	variant 10
 		"Osprey"
 		"Osprey (Heavy)"
@@ -983,7 +1004,7 @@ fleet "Large Crossguard Patrol"
 	cargo 1
 	personality
 		confusion 20
-		heroic disables
+		hunting disables
 	variant 8
 		"Eleonorae"
 		"Osprey"

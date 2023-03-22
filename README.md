@@ -9,7 +9,7 @@ Adds several ships for you and various factions to use adding more variety to th
 Summary of what this plugin adds:
 
 Over 50 ships:
-* 18+ Freighters
+* 25+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
 * 3 Transports
 * 1 Space Liner
 * 5 Utility
@@ -19,12 +19,12 @@ Over 50 ships:
 
 And other things:
 * A few weapons and outfits. 
-* Mining jobs.
+* Special jobs that gets expanded with appropriate ship (Mining, Gas shipping, Chemical shipping, Heavy lift/Crane, Cars, etc.)
 * Additional luxury jobs/rich passengers depending on outfits.
 * Huge jobs (Passengers, Deliveries, Escorts).
-* New sub-factions (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard).
+* New sub-factions often with unique variants or even weapons (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard, Sulso, Maryhal).
 * NPC fleets using the new ships. (And make pirates get stronger over time.)
-* Presistient NPC (Battlestations in 3 systems, 2 of which can respawn.)
+* Persistent NPC (Battlestations in 3 systems, 2 of which can respawn.)
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.
 
@@ -36,7 +36,7 @@ To fully utilize mining/utility fighters and drones provided with this plugin yo
 
 Link: https://github.com/samrocketman/endless-sky/releases/tag/continuous-with-plugins
 
-This plugin have a few debug functionality which can be unlocked with Omnis cheat/developer plugin.
+This plugin have a few debug functionality and unobtainable ships which can be unlocked with Omnis cheat/developer plugin.
 
 Link: https://github.com/Adde-Endless-Sky-Mods/-Omnis
 

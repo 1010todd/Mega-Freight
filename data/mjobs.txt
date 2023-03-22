@@ -760,6 +760,325 @@ mission "MGF: Heavy Lift 2"
 		payment 4000 150
 		
 		
+#=======================================RORO Jobs
+trade
+	commodity "RORO Cargo" #330 730
+		"cars"
+		"sports cars"
+		"luxury cars"
+		"vans"
+		"buses"
+		"trucks"
+		"tractors"
+		"semi-trailer trucks"
+		"trailers"
+		"crane trucks"
+		"refrigerated trucks"
+		"construction vehicles"
+		
+phrase "mgf: car shipping complete"
+	word
+		`You deploy the ramp and the crew begin driving <commodity> off the ship. <payment> is transferred into your account once the last vehicle left your ship.`
+		
+mission "MGF: Car Shipping 1"
+	name "Vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 25 50
+	to offer
+		random < 40
+		or
+			#If other plugin will add car carrier, having "car carrier" attribute on the ship can allow these jobs to offer as well. Due to limitation only ones on flagship can be used.
+			#For car carriers from Mega Freight it will be listed individually so they still works on escorts.
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 12000 180
+		
+mission "MGF: Car Shipping 2"
+	name "Vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 30 50
+	to offer
+		random < 30
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 12000 180
+		
+mission "MGF: Car Shipping 3"
+	name "Vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 20 40
+	to offer
+		random < 20
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes "station"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 13000 200
+		
+mission "MGF: Bulk Car Shipping 1"
+	name "Bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 75 150
+	to offer
+		random < 40
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 12000 180
+		
+mission "MGF: Bulk Car Shipping 2"
+	name "Bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 75 150
+	to offer
+		random < 30
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 12000 190
+		
+mission "MGF: Bulk Car Shipping 3"
+	name "Bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 75 170
+	to offer
+		random < 30
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 12000 190
+		
+mission "MGF: Large Bulk Car Shipping 1"
+	name "Large bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 250 880
+	to offer
+		random < 30
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 24000 190
+
+mission "MGF: Large Bulk Car Shipping 2"
+	name "Large bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 250 880
+	to offer
+		random < 15
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 24000 200
+		
+mission "MGF: Large Bulk Car Shipping 3"
+	name "Large bulk vehicles to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "RORO Cargo" 450 1000
+	to offer
+		random < 15
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: car carrier"
+			has "ship model: LVC-2 Sandura"
+	on complete
+		dialog phrase "mgf: car shipping complete"
+		payment 20000 210
+		
 #=======================================GAS
 
 #"Lure" job that shows up even if player don't meet the requirement to give example of Gas shipping job.
@@ -794,7 +1113,7 @@ mission "MGF: Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1000000 10000
+		payment 1000000 15000
 		
 mission "MGF: Gas Transport (LNG 2)"
 	name "Gas Transport to <planet>"
@@ -822,7 +1141,7 @@ mission "MGF: Gas Transport (LNG 2)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1000000 11000
+		payment 1000000 16000
 		
 mission "MGF: Gas Transport (LNG 3)"
 	name "Gas Transport to <planet>"
@@ -850,7 +1169,7 @@ mission "MGF: Gas Transport (LNG 3)"
 	on complete
 		outfit "Liquid Natural Gas" -8000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2000000 12000
+		payment 2000000 17000
 		
 mission "MGF: Rush Gas Transport (LNG 1)"
 	name "Rush Gas Transport to <planet>"
@@ -879,7 +1198,7 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1750000 18000
+		payment 1750000 23000
 		
 mission "MGF: Gas Transport (Ethane 1)"
 	name "Gas Transport to <planet>"
@@ -907,7 +1226,7 @@ mission "MGF: Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1750000 10000
+		payment 1750000 15000
 		
 mission "MGF: Rush Gas Transport (Ethane 1)"
 	name "Rush Gas Transport to <planet>"
@@ -936,7 +1255,7 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2625000 18000
+		payment 2625000 23000
 		
 mission "MGF: Gas Transport (Hydrogen 1)"
 	name "Gas Transport to <planet>"
@@ -964,7 +1283,7 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 1250000 10000
+		payment 1250000 15000
 		
 mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	name "Rush Gas Transport to <planet>"
@@ -993,7 +1312,7 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
-		payment 2188000 18000
+		payment 2188000 23000
 		
 #=======================================Chem
 

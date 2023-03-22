@@ -109,6 +109,10 @@ ship "Wisymton"
 	"final explode" "final explosion small"
 	description "A tugboat from early days of space trading made to transport cargo containers between ground and space when repulsor engines are still in its infancy and many ships from previous era still lack one or were not designed to enter atmosphere and land at all. With more freighters equipped with repulsor engines these tugboat roles changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
 
+ship "Wisymton" "Wisymton (Light Freighter)"
+	add attributes
+		category "Light Freighter"
+
 ship "Wisymton" "Wisymton (Cargo)"
 	sprite "ship/mgf wisymton c"
 	thumbnail "thumbnail/mgf wisymton c thumb"
@@ -156,6 +160,54 @@ ship "Wisymton" "Wisymton (Cargo)"
 		under
 		left
 	description "Wisymton tugboat with cargo container attached commonly used for intrasystem transport."
+		
+ship "Wisymton" "Wisymton (Light Freighter, Cargo)"
+	sprite "ship/mgf wisymton c"
+	thumbnail "thumbnail/mgf wisymton c thumb"
+	add attributes
+		category "Light Freighter"
+		"cost" 4000
+		"mass" 5
+		"cargo space" 40
+		"drag" .1
+		
+	gun 0 4.5
+	"reverse engine" -28.5 20
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 28.5 20
+		zoom 1
+		angle 0
+		under
+	"steering engine" -28 20
+		zoom 1
+		angle -180
+		under
+		left
+	"steering engine" 28 20
+		zoom 1
+		angle 180
+		under
+		right
+	engine -29 53
+		zoom 1
+		angle 0
+		under
+	engine 29 53
+		zoom 1
+		angle 0
+		under
+	"steering engine" -29 52.5
+		zoom 1
+		angle 0
+		under
+		right
+	"steering engine" 29 52.5
+		zoom 1
+		angle 0
+		under
+		left
 		
 ship "Wisymton" "Wisymton (Gold)"
 	sprite "ship/mgf wisymton-gold"
@@ -990,6 +1042,63 @@ ship "LXC-2 Strata"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description `A purpose-built chemical tanker for shipping various industrial chemical including highly corrosive acids with efficiency unmatched by regular freighter. With their specialized nature these ships are also rarer, often found in route to industrial planets or close by only. With difficulty of maintaining transported chemical combined with requiring special port to unload the stored liquid (efficiently) these vessels are less preferred target for pirates. While not useful in general shipping between most worlds these ships profit of their extreme specialization to take on fewer but much more profitable jobs only offered on industrialized worlds.`
+	
+ship "LVC-2 Sandura"
+	sprite "ship/mgf sandura"
+	thumbnail "thumbnail/mgf sandura thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12200000
+		"shields" 8500
+		"hull" 7000
+		"required crew" 32
+		"bunks" 52
+		"mass" 2820
+		"drag" 10.5
+		"heat dissipation" .8
+		"fuel capacity" 700
+		"cargo space" 1100
+		"outfit space" 470
+		"weapon capacity" 150
+		"engine capacity" 140
+		"car carrier" 1
+		weapon
+			"blast radius" 1480
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret"
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 50
+		
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+	turret -40.5 -58.5 
+	turret 40.5 -58.5 
+	turret -40.5 36.5 "Heavy Anti-Missile Turret"
+	turret 40.5 36.5 "Heavy Anti-Missile Turret"
+	turret 0 104.5 "Proton Turret"
+	engine -76.5 206.5 
+	engine 76.5 206.5 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A specialized roll-on roll-off ship for efficiently transporting land vehicles in large number by having interior laid out akin to parking lot allowing vehicles to be driven on and off the ship by itself fast and easily without having to wait for cranes. Because the interior is essentially a large empty space other cargo can also be stored allowing it to be more flexible than other specialized ships like tankers.`
+	description `Because of the highly valuable cargo and relative lack of defences these ships relies heavily on escorts to protect it.`
 	
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"

@@ -72,6 +72,7 @@ shipyard developer
 	"LXC-2 Strata"
 	"FC-022 Castello"
 	"AP-7 Sentinel"
+	"LVC-2 Sandura"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -152,6 +153,7 @@ shipyard "human plugins"
 	"LXC-2 Strata"
 	"FC-022 Castello"
 	"AP-7 Sentinel"
+	"LVC-2 Sandura"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
@@ -223,6 +225,7 @@ shipyard "Syndicate Advanced"
 	"AsK12-6 Celjurai"
 	"LGC-3 Mesa"
 	"LXC-2 Strata"
+	"LVC-2 Sandura"
 
 shipyard "Southbound Basic"
 	"CY-10 (Fighter)"
@@ -385,10 +388,19 @@ shipyard "Seikron Dockyard Advanced"
 	"SKVS-2 Mudskipper"
 	"SKVS-3 Gudgeon"
 	
+shipyard "Pioneer Heavy Industries Basic"
+	"LCC-3 Sierra"
+	"LXC-2 Strata"
+	"LVC-2 Sandura"
+	
 shipyard "Pioneer Heavy Industries Advanced"
 	"LCC-3 Sierra"
 	"LGC-3 Mesa"
 	"LXC-2 Strata"
+	"LVC-2 Sandura"
+	
+shipyard "Vessa Shipworks Basic"
+	"TS-650 Herrenbal"
 	
 shipyard "Vessa Shipworks Advanced"
 	"TS-650 Herrenbal"
@@ -399,9 +411,14 @@ shipyard "Vefrol Dockyard Advanced"
 	"QYG-30 Qazan"
 	"QYG-60 Sandiq"
 	
+shipyard "Solomons Voidworks Basic"
+	"FF-30 Volant"
+	
 shipyard "Solomons Voidworks Advanced"
 	"FF-30 Volant"
 	"PF-80 Intrepid"
+	#Oil tanker
+	#Livestock ship
 	
 shipyard "Najrmalas Shipworks Advanced"
 	"AD-012C Iaphia"
