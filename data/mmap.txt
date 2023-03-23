@@ -117,6 +117,7 @@ system "Unukalhai"
 	add fleet "MGF: Near Bourne Merchant" 6400
 
 #=========================Intrasystem Refuelling 
+#Random refuelling fleet in "midway" systems.
 system Rutilicus
 	add fleet "MGF: Intrasystem Refuelling" 4500
 system Ascella
@@ -136,7 +137,31 @@ system Phurad
 system Avior
 	add fleet "MGF: Intrasystem Refuelling" 4500
 
+#==========Pioneer Heavy Industries
+#Shipyard focused on specialized cargo ships like tankers.
+
+planet Millrace
+	add shipyard "Pioneer Heavy Industries Advanced"
+planet Moonshake
+	add shipyard "Pioneer Heavy Industries Basic"
+
+#==========Solomons Voidworks
+#Heavily armed and armoured southern ships.
+planet Zug
+	add shipyard "Solomons Voidworks Advanced"
+planet Clark
+	add shipyard "Solomons Voidworks Advanced"
+
+planet Longjump
+	add shipyard "Solomons Voidworks Basic"
+
+#==========Vessa Shipworks
+#Armed passenger transport ships
+planet Longjump
+	add shipyard "Vessa Shipworks Basic"
+
 #==========Seikron Dockyard
+#Sell short-ranged freighter, should be in relatively safe places.
 planet Rust
 	add shipyard "Seikron Dockyard Advanced"
 planet Bourne
@@ -166,7 +191,7 @@ planet Tinker
 	add shipyard "Seikron Dockyard Advanced"
 
 #==========================Espion
-
+#Asteroid mining company.
 planet "New Sahara"
 	add attributes "Espion HQ" "Espion Base"
 	add shipyard "Espion Basic"
@@ -276,6 +301,7 @@ system "Unukalhai"
 
 
 #=================================Crossguard Patrol
+#High-tech bounty hunter/mercenaries.
 system Acrux
 	add fleet "Small Crossguard Patrol" 5900
 	add fleet "Large Crossguard Patrol" 7700
@@ -539,7 +565,7 @@ system Zubeneschamali
 	add fleet "Large Crossguard Patrol" 7700
 
 #===============================Black Death
-
+#Random pirate group with unique weapon.
 system Acrux
 	add fleet "Small Black Death" 7700
 	add fleet "Large Black Death" 16600
@@ -800,7 +826,7 @@ system Zubenelgenubi
 	add fleet "Large Black Death" 18700
 
 #=====================================Sulso LG Shipping
-
+#Liquid Gas shipping company, often found in industrial system or oil system
 system Sol
 	add fleet "Sulso LG Shipping" 4500
 system "Alpha Centauri"
@@ -901,9 +927,7 @@ system Peacock
 	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
 
 #=====================================Maryhal Logistic
-
-
-
+#Large shipping company, well-defended fleets.
 system Zubeneschamali
 	add fleet "Maryhal Logistic ArteryLine" 7500
 system Zubenelgenubi
@@ -989,7 +1013,7 @@ system "Epsilon Leonis"
 	add fleet "Maryhal Logistic ArteryLine" 7500
 
 #=====================================Rangphenn Transport
-
+#South-Core transport company
 system Sol
 	add fleet "Rangphenn Transport" 3400
 system "Alpha Centauri"
@@ -1226,7 +1250,7 @@ system Zubenelgenubi
 	add fleet "Rangphenn Transport" 4500
 
 #=============================Jack
-
+#Random merchant group with unique weapon.
 system Acrux
 	add fleet "Jacks Gang" 13600
 system Albaldah

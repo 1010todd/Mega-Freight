@@ -1632,7 +1632,19 @@ outfit "U-type 1k Chemical Tank"
 	"corrosion resistance" 1
 	"unplunderable" 1
 	description `Universal chemical tank made to safely store even the most corrosive liquid built for dedicated chemical tanker for shipping various industrial chemicals with far superior efficiency compared to regular freighter. The tanks are made with thick corrosion resistant material and coated with another layer of specialized corrosion-proof coating. Lined with dedicated temperature control system to keep the cargo at ideal heat for transport unaffected by the environment around the ship.`
-	description `Having ships with dedicated chemical tanks allow you to be offered special jobs for transporting industrial chemicals.`
+	description `Having ships with dedicated chemical tanks as flagship allow you to be offered special jobs for transporting industrial chemicals.`
+	
+outfit "B-type 1k Oil Tank"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/fuel module"
+	"mass" 450
+	"b-type 1k oil tank" 1
+	"oil capacity" 1000
+	"oil lock" 9e-20
+	"unplunderable" 1
+	description `An oil tank for transporting both crude oil and processed petroleum products. Lined with heater to keep the cargo viscous enough to be pumped out. Surrounded with triple-layered armour to prevent leaks and protect the cargo as well as the environment of the planet.`
+	description `Having ships with dedicated oil tanks as flagship allow you to be offered special jobs for transporting oil and petroleum products.`
 	
 outfit "X09E Fighter Assembler"
 	category "Systems"
@@ -1957,6 +1969,56 @@ outfit "Liquid Hydrogen"
 	"overheat damage threshold" .1
 	"overheat damage rate" 7
 	
+#========================================Oil
+
+outfit "Crude Oil"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"oil capacity" -1
+	"oil lock" 1
+	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 5
+	description `Unprocessed oil right from the oil rig to be transported to a refinery for processing into various petroleum-based products.`
+	
+outfit "Gasoline"
+	category "Special"
+	cost 2000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"oil capacity" -1
+	"oil lock" 1
+	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 7
+	description `A petroleum-derived product now commonly used as ingredient for other products and rarely as fuel for some specialized industry and vehicle.`
+	
+outfit "Machine Oil"
+	category "Special"
+	cost 3000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"oil capacity" -1
+	"oil lock" 1
+	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 5
+	description `A petroleum-derived product used as lubricant for various machines.`
+	
+outfit "Kerosene"
+	category "Special"
+	cost 2000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"oil capacity" -1
+	"oil lock" 1
+	"unplunderable" 1
+	"overheat damage threshold" .1
+	"overheat damage rate" 7
+	description `A low-viscosity hydrocarbon derived from petroleum used in some chemical process and occasionally as fuel for specialized machines.`
+
 #========================================Chemical
 
 outfit "Sulfuric Acid"

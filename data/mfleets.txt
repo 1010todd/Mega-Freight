@@ -124,6 +124,13 @@ fleet "Large Southern Merchants"
 		"Splinter"
 		"Quicksilver" 3
 		"Osprey"
+		
+	add variant 3
+		"PT-60 Gallant"
+		"Bastion"
+	add variant 3
+		"LPC-3 Lavaka"
+		"Splinter" 2
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -334,6 +341,10 @@ fleet "Large Core Merchants"
 		"LVC-2 Sandura"
 		"Splinter"
 		"Quicksilver" 3
+		
+	add variant 3
+		"LPC-3 Lavaka"
+		"Splinter" 2
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -402,6 +413,10 @@ fleet "Paradise Merchants"
 		"LVC-2 Sandura"
 		"Firebird"
 		"Headhunter" 2
+		
+	add variant 3
+		"LPC-3 Lavaka"
+		"Splinter" 2
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -591,6 +606,10 @@ fleet "Large Northern Merchants"
 		"LVC-2 Sandura"
 		"Firebird"
 		"Headhunter" 2
+		
+	add variant 3
+		"LPC-3 Lavaka"
+		"Splinter" 2
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3

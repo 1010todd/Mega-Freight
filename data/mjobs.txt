@@ -912,7 +912,7 @@ mission "MGF: Bulk Car Shipping 1"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 12000 180
+		payment 12000 160
 		
 mission "MGF: Bulk Car Shipping 2"
 	name "Bulk vehicles to <planet>"
@@ -945,7 +945,7 @@ mission "MGF: Bulk Car Shipping 2"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 12000 190
+		payment 12000 150
 		
 mission "MGF: Bulk Car Shipping 3"
 	name "Bulk vehicles to <planet>"
@@ -978,7 +978,7 @@ mission "MGF: Bulk Car Shipping 3"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 12000 190
+		payment 12000 140
 		
 mission "MGF: Large Bulk Car Shipping 1"
 	name "Large bulk vehicles to <planet>"
@@ -1011,7 +1011,7 @@ mission "MGF: Large Bulk Car Shipping 1"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 24000 190
+		payment 24000 150
 
 mission "MGF: Large Bulk Car Shipping 2"
 	name "Large bulk vehicles to <planet>"
@@ -1044,7 +1044,7 @@ mission "MGF: Large Bulk Car Shipping 2"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 24000 200
+		payment 24000 140
 		
 mission "MGF: Large Bulk Car Shipping 3"
 	name "Large bulk vehicles to <planet>"
@@ -1077,7 +1077,7 @@ mission "MGF: Large Bulk Car Shipping 3"
 			has "ship model: LVC-2 Sandura"
 	on complete
 		dialog phrase "mgf: car shipping complete"
-		payment 20000 210
+		payment 20000 130
 		
 #=======================================GAS
 
@@ -1313,6 +1313,264 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
 		payment 2188000 23000
+		
+#=======================================Oil
+
+phrase "mgf: unload oil"
+	word
+		`You parked at a special port near the industrial zone and after signing some paper work the cargo is pumped out of your tank. Halfway through payment of <payment> is transferred into your account.`
+
+mission "MGF: Oil Transport (Crude Oil 1)"
+	name "Oil Transport to <planet>"
+	description "4000 units of Crude Oil along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying oil."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		or
+			random < 50
+			and
+				random < 70
+				has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 4 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Crude Oil" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Crude Oil" -4000
+		dialog phrase "mgf: unload oil"
+		payment 1500000 5000
+		
+mission "MGF: Oil Transport (Crude Oil 2)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Crude Oil along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Crude Oil" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Crude Oil" -2000
+		dialog phrase "mgf: unload oil"
+		payment 890000 6000
+		
+mission "MGF: Oil Transport (Crude Oil 3)"
+	name "Oil Transport to <planet>"
+	description "4000 units of Crude Oil along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying oil."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 4 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Crude Oil" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Crude Oil" -4000
+		dialog phrase "mgf: unload oil"
+		payment 1500000 5500
+		
+mission "MGF: Rush Oil Transport (Crude Oil 1)"
+	name "Oil Transport to <planet>"
+	description "4000 units of Crude Oil along with <cargo> to verify the batch is required to be shipped to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying oil."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 4 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Crude Oil" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Crude Oil" -4000
+		dialog phrase "mgf: unload oil"
+		payment 1800000 7000
+		
+mission "MGF: Oil Transport (Gasoline 1)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Gasoline along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil" "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Gasoline" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Gasoline" -2000
+		dialog phrase "mgf: unload oil"
+		payment 1000000 8000
+		
+mission "MGF: Rush Oil Transport (Gasoline 1)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Gasoline along with <cargo> to verify the batch is required to be shipped to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil" "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Gasoline" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Gasoline" -2000
+		dialog phrase "mgf: unload oil"
+		payment 1120000 8000
+		
+mission "MGF: Oil Transport (Machine Oil 1)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Machine Oil along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil" "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Machine Oil" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Machine Oil" -2000
+		dialog phrase "mgf: unload oil"
+		payment 1000000 9000
+		
+mission "MGF: Oil Transport (Kerosene 1)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Kerosene along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil" "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Kerosene" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Kerosene" -2000
+		dialog phrase "mgf: unload oil"
+		payment 1000000 8000
+		
+mission "MGF: Rush Oil Transport (Kerosene 1)"
+	name "Oil Transport to <planet>"
+	description "2000 units of Kerosene along with <cargo> to verify the batch is required to be shipped to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): B-type 1k Oil Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil" "factory" "manufacturing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Oil Tank" >= 2 + ( "outfit (installed): Crude Oil" / 1000 ) + ( "outfit (installed): Gasoline" / 1000 ) + ( "outfit (installed): Machine Oil" / 1000 ) + ( "outfit (installed): Kerosene" / 1000 )
+	on accept
+		outfit "Kerosene" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Kerosene" -2000
+		dialog phrase "mgf: unload oil"
+		payment 1120000 8000
 		
 #=======================================Chem
 
