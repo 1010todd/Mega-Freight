@@ -131,6 +131,10 @@ fleet "Large Southern Merchants"
 	add variant 3
 		"LPC-3 Lavaka"
 		"Splinter" 2
+		
+	add variant 5
+		"PL-50 Impavid"
+		"Bastion"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -417,6 +421,10 @@ fleet "Paradise Merchants"
 	add variant 3
 		"LPC-3 Lavaka"
 		"Splinter" 2
+		
+	add variant 5
+		"PL-50 Impavid"
+		"Bastion"
 		
 fleet "Small Northern Merchants"
 	add variant 10

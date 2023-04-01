@@ -6820,6 +6820,78 @@ ship "PT-60 Gallant"
 	"final explode" "final explosion large"
 	description `Solomons Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the southern space. Heavily armoured and armed the Gallant provides excellent protection against any pirates it might come across. Despite the being less likely to be targeted because of its liquid cargo making it difficult if not impossible to be transferred and carried by regular ships.`
 	
+ship "PL-50 Impavid"
+	sprite "ship/mgf impavid"
+	thumbnail "thumbnail/mgf impavid thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 6880000
+		"shields" 7900
+		"hull" 8300
+		"required crew" 36
+		"bunks" 56
+		"mass" 780
+		"drag" 14.2
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 600
+		"outfit space" 870
+		"weapon capacity" 480
+		"engine capacity" 180
+		"livestock carrier" 1
+		"livestock space" 300
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 4
+		
+		"Fission Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer" 1
+		"Water Coolant System"
+		"Laser Rifle" 42
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	gun -28 -162.5 
+	gun 28 -162.5 
+	gun -28 -162.5 
+	gun 28 -162.5 
+	turret 0 -110.5 "Proton Turret"
+	turret -45 -101 "Quad Blaster Turret"
+	turret 45 -101 "Quad Blaster Turret"
+	turret -59 4 
+	turret 59 4 
+	turret -59 34 "Proton Turret"
+	turret 59 34 "Proton Turret"
+	turret -59 64 
+	turret 59 64 
+	turret 0 127 "Proton Turret"
+	engine -50 164.5 
+	engine 50 164.5 
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `A well defended livestock transport for shipping various live export from the southern worlds to their destination safely.`
+	
 ship "FC-022 Castello"
 	sprite "ship/mgf castello"
 	thumbnail "thumbnail/mgf castello thumb"

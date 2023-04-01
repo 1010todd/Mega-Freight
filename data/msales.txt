@@ -426,6 +426,7 @@ shipyard "Solomons Voidworks Advanced"
 	"FF-30 Volant"
 	"PF-80 Intrepid"
 	"PT-60 Gallant"
+	"PL-50 Impavid"
 	#Livestock ship
 	
 shipyard "Najrmalas Shipworks Basic"

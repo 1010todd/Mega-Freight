@@ -1079,6 +1079,287 @@ mission "MGF: Large Bulk Car Shipping 3"
 		dialog phrase "mgf: car shipping complete"
 		payment 20000 130
 		
+#======================================Livestock
+
+trade
+	commodity "Livestock"
+		"sheep"
+		"cow"
+		"goat"
+		"pig"
+		"chicken"
+		
+phrase "mgf: livestock transport complete"
+	word
+		`You deploy the ramp and the crew begin driving <commodity> off the ship. <payment> is transferred into your account once the last vehicle left your ship.`
+		
+mission "MGF: Livestock Transport 1"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 50
+	to offer
+		random < 40
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" >= ( 50 + "mgf: current carried livestock" )
+			
+			#Number of livestock carrier is enough. Condition math is done in int so anything less than 1 will be rounded down.
+			#(newLivestock + currentLivestock) / shipCapacity
+			"ship model: PL-50 Impavid" >= ( 50 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 50
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 50
+		payment -18000 -300
+	on complete
+		"mgf: current carried livestock" -= 50
+		dialog phrase "mgf: livestock transport complete"
+		payment 18000 280
+		
+mission "MGF: Livestock Transport 2"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 50
+	to offer
+		random < 35
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" > ( 50 + "mgf: current carried livestock" )
+			
+			#Number of livestock carrier is enough. Condition math is done in int so anything less than 1 will be rounded down.
+			#(newLivestock + currentLivestock) / shipCapacity
+			"ship model: PL-50 Impavid" >= ( 50 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 50
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock carrier"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 50
+		payment -18000 -300
+	on complete
+		"mgf: current carried livestock" -= 50
+		dialog phrase "mgf: livestock transport complete"
+		payment 18000 285
+		
+mission "MGF: Large Livestock Transport 1"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 100
+	to offer
+		random < 30
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" > ( 100 + "mgf: current carried livestock" )
+			
+			#Number of livestock carrier is enough. Condition math is done in int so anything less than 1 will be rounded down.
+			#(newLivestock + currentLivestock) / shipCapacity
+			"ship model: PL-50 Impavid" >= ( 100 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 100
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 100
+		payment -28000 -300
+	on complete
+		"mgf: current carried livestock" -= 100
+		dialog phrase "mgf: livestock transport complete"
+		payment 28000 270
+		
+mission "MGF: Large Livestock Transport 2"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 100
+	to offer
+		random < 30
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" > ( 100 + "mgf: current carried livestock" )
+			
+			"ship model: PL-50 Impavid" >= ( 100 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 100
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 100
+		payment -28000 -300
+	on complete
+		"mgf: current carried livestock" -= 100
+		dialog phrase "mgf: livestock transport complete"
+		payment 28000 275
+		
+mission "MGF: Bulk Livestock Transport 1"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 200
+	to offer
+		random < 40
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" > ( 200 + "mgf: current carried livestock" )
+			
+			#Number of livestock carrier is enough. Condition math is done in int so anything less than 1 will be rounded down.
+			#(newLivestock + currentLivestock) / shipCapacity
+			"ship model: PL-50 Impavid" >= ( 200 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 200
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 200
+		payment -32000 -300
+	on complete
+		"mgf: current carried livestock" -= 200
+		dialog phrase "mgf: livestock transport complete"
+		payment 32000 265
+		
+mission "MGF: Bulk Livestock Transport to Paradise 1"
+	name "Livestock to <planet>"
+	description "Export <cargo> to <destination> by <date>. Payment is <payment>. Aborting will result in a fine."
+	job
+	repeat
+	deadline
+	cargo "Livestock" 200
+	to offer
+		random < 30
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+		attribute "paradise"
+		not attributes "station"
+	to accept
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+		or
+			"flagship attribute: livestock space" > ( 200 + "mgf: current carried livestock" )
+
+			"ship model: PL-50 Impavid" >= ( 200 + "mgf: current carried livestock" ) / 300
+	on accept
+		"mgf: current carried livestock" += 200
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: livestock space"
+			has "ship model: PL-50 Impavid"
+	on abort
+		"mgf: current carried livestock" -= 200
+		payment -52000 -400
+	on complete
+		"mgf: current carried livestock" -= 200
+		dialog phrase "mgf: livestock transport complete"
+		payment 52000 400
+		
 #=======================================GAS
 
 #"Lure" job that shows up even if player don't meet the requirement to give example of Gas shipping job.
