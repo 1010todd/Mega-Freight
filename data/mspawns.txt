@@ -634,6 +634,36 @@ event "mgf: ialmuslati released"
 		add variant 1
 			"Ialmuslati (Hyperdrive)"
 			
+event "mgf: tonazqi released"
+	date 12 5 3014
+	shipyard "Syndicate Advanced"
+		"QYG-70r Tonazqi"
+	shipyard "Vefrol Dockyard Advanced"
+		"QYG-70r Tonazqi"
+	fleet "Large Southern Merchants"
+		add variant 5
+			"QYG-70r Tonazqi"
+			"Hawk" 3
+		add variant 3
+			"QYG-70r Tonazqi"
+			"Splinter"
+		add variant 3
+			"QYG-70r Tonazqi"
+			"Bastion"
+	fleet "Large Core Merchants"
+		add variant 5
+			"QYG-70r Tonazqi"
+			"Quicksilver" 2
+		add variant 3
+			"QYG-70r Tonazqi"
+			"Quicksilver" 3
+	fleet "Paradise Merchants"
+		add variant 5
+			"QYG-70r Tonazqi"
+	fleet "Large Northern Merchants"
+		add variant 4
+			"QYG-70r Tonazqi"
+			"Berserker" 2
 #=========================Event Additions
 
 

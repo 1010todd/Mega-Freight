@@ -1091,7 +1091,6 @@ trade
 		
 phrase "mgf: livestock transport complete"
 	word
-		`You deploy the ramp and the crew begin driving <commodity> off the ship. <payment> is transferred into your account once the last vehicle left your ship.`
 		`You deploy the ramp and the crew begin herding the <commodity> off the ship. <payment> is transferred into your account once the last <commodity> left your ship.`
 		
 mission "MGF: Livestock Transport 1"
@@ -1360,6 +1359,862 @@ mission "MGF: Bulk Livestock Transport to Paradise 1"
 		"mgf: current carried livestock" -= 200
 		dialog phrase "mgf: livestock transport complete"
 		payment 52000 400
+		
+#======================================Reefer
+
+trade
+	commodity "Refrigerated Food"
+		"ackee"
+		"apples"
+		"avocados"
+		"bananas"
+		"baobab"
+		"bergamot"
+		"blackberry"
+		"blueberry"
+		"breadfruit"
+		"cranberry"
+		"cherry"
+		"che fruit"
+		"cloudberry"
+		"durian"
+		"elderberry"
+		"fig"
+		"grape"
+		"grapefruit"
+		"green sapote"
+		"guavas"
+		"lemon"
+		"lime"
+		"longan"
+		"luma berry"
+		"lychee"
+		"mangoes"
+		"melon"
+		"mulberry"
+		"nance fruit"
+		"oranges"
+		"pineapples"
+		"papaya"
+		"pomelo"
+		"raspberry"
+		"rambutan"
+		"rose apple"
+		"star apple"
+		"star fruit"
+		"watermelon"
+		"wineberry"
+		"artichoke"
+		"eggplant"
+		"broccoli"
+		"black beans"
+		"cabbage"
+		"celery"
+		"corn"
+		"cucumber"
+		"peas"
+		"tomato"
+		"okra"
+		"spinach"
+		"onions"
+		"shallot"
+		"garlic"
+		"bell pepper"
+		"chili pepper"
+		"rhubarb"
+		"beet"
+		"carrot"
+		"taro"
+		"konjac"
+		"water chestnut"
+		"ginger"
+		"parsnip"
+		"radish"
+		"wasabi"
+		"daikon"
+		"potato"
+		"sweet potato"
+		"yam"
+		"turnip"
+		"salsify"
+		"green beans"
+		"kidney beans"
+		"bean sprouts"
+		"soy beans"
+		"mange tout"
+		"lentils"
+		"yeheb"
+		"cattle"
+		"cheese"
+		"chocolate"
+		"cloned meat"
+		"dairy products"
+		"eggs"
+		"pretzels"
+		"white button mushrooms"
+		"cremini mushrooms"
+		"portobello mushrooms"
+		"shiitake mushrooms"
+		"oyster mushrooms"
+		"enoki mushrooms"
+		"soy products"
+		"yogurt"
+	commodity "Frozen Food"
+		"frozen dumplings"
+		"frozen fish"
+		"frozen seafood"
+		"frozen shrimps"
+		"frozen mussels"
+		"frozen octopus"
+		"frozen poultry"
+		"frozen squid"
+		"frozen meat"
+		"frozen pizzas"
+		"frozen vegetables"
+		"frozen fruits"
+		"frozen fries"
+		"ice cream"
+		"frozen bakery"
+		"butter"
+		"quick-frozen products"
+		"frozen juice"
+		
+phrase "mgf: refrigerated transport complete"
+	word
+		`After unloading the last of <commodity>, <payment> is transferred into your account.`
+		
+mission "MGF: Small Refrigerated Transport 1"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 5 20
+	to offer
+		random < 50
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 18000 250
+		
+mission "MGF: Small Refrigerated Transport 2"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 5 20
+	to offer
+		random < 50
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 18000 250
+		
+mission "MGF: Small Refrigerated Transport 3"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 5 20
+	to offer
+		random < 30
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		#offered anywhere.
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 18000 255
+		
+mission "MGF: Refrigerated Transport 1"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 10 50
+	to offer
+		random < 50
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 12
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 25000 200
+		
+mission "MGF: Refrigerated Transport 2"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 20 50
+	to offer
+		random < 47
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 28000 200
+		
+mission "MGF: Refrigerated Transport 3"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 20 50
+	to offer
+		random < 45
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 28000 200
+		
+mission "MGF: Large Refrigerated Transport 1"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 60 120
+	to offer
+		random < 45
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 42000 190
+		
+mission "MGF: Large Refrigerated Transport 2"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 60 130
+	to offer
+		random < 44
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 42000 190
+		
+mission "MGF: Large Refrigerated Transport 3"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 65 140
+	to offer
+		random < 45
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 42000 190
+		
+mission "MGF: Bulk Refrigerated Transport 1"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 150 250
+	to offer
+		random < 40
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 68000 180
+		
+mission "MGF: Bulk Refrigerated Transport 2"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 150 260
+	to offer
+		random < 40
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 68000 180
+		
+mission "MGF: Bulk Refrigerated Transport 3"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 160 270
+	to offer
+		random < 35
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 68000 180
+		
+mission "MGF: Bulk Refrigerated Transport 4"
+	name "Refrigerated Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 1
+	cargo "Refrigerated Food" 170 280
+	to offer
+		random < 34
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 14
+	to accept
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: refrigerated space"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 68000 180
+		
+#==============Freezer
+		
+mission "MGF: Frozen Transport 1"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 10 50
+	to offer
+		random < 50
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 18
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 28000 220
+		
+mission "MGF: Frozen Transport 2"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 10 50
+	to offer
+		random < 50
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 18
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 28000 220
+		
+mission "MGF: Frozen Transport 3"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 10 50
+	to offer
+		random < 50
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 18
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 30000 220
+		
+mission "MGF: Frozen Transport 4"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 10 50
+	to offer
+		random < 40
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 18
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 30000 220
+		
+mission "MGF: Large Frozen Transport 1"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 60 100
+	to offer
+		random < 45
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 20
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 52000 210
+		
+mission "MGF: Large Frozen Transport 2"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 60 100
+	to offer
+		random < 45
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 20
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 52000 210
+		
+mission "MGF: Large Frozen Transport 3"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 60 100
+	to offer
+		random < 45
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 20
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 52000 210
+		
+mission "MGF: Large Frozen Transport 4"
+	name "Frozen Cargo to <planet>"
+	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	cargo "Frozen Food" 60 100
+	to offer
+		random < 45
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		attributes "farming" "fishing"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 2 20
+	to accept
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: frozen space"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog phrase "mgf: refrigerated transport complete"
+		payment 52000 210
+		
+		
 		
 #=======================================GAS
 

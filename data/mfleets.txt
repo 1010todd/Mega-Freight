@@ -26,6 +26,9 @@ fleet "Small Southern Merchants"
 		
 	add variant 4
 		"FG-6 Startrain-A"
+		
+	add variant 10
+		"QYG-30r Qazan"
 
 fleet "Large Southern Merchants"
 	add variant 6
@@ -135,6 +138,10 @@ fleet "Large Southern Merchants"
 	add variant 5
 		"PL-50 Impavid"
 		"Bastion"
+		
+	add variant 10
+		"QYG-30r Qazan"
+	
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -161,6 +168,9 @@ fleet "Small Core Merchants"
 		
 	add variant 1
 		"AD-012C Iaphia"
+		
+	add variant 10
+		"QYG-30r Qazan"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -349,6 +359,9 @@ fleet "Large Core Merchants"
 	add variant 3
 		"LPC-3 Lavaka"
 		"Splinter" 2
+		
+	add variant 10
+		"QYG-30r Qazan"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -426,6 +439,9 @@ fleet "Paradise Merchants"
 		"PL-50 Impavid"
 		"Bastion"
 		
+	add variant 10
+		"QYG-30r Qazan"
+		
 fleet "Small Northern Merchants"
 	add variant 10
 		"FR-4 Dart"
@@ -451,6 +467,9 @@ fleet "Small Northern Merchants"
 		"FG-6 Startrain"
 	add variant 5
 		"FG-6 Startrain-A"
+		
+	add variant 10
+		"QYG-30r Qazan"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -618,6 +637,9 @@ fleet "Large Northern Merchants"
 	add variant 3
 		"LPC-3 Lavaka"
 		"Splinter" 2
+		
+	add variant 10
+		"QYG-30r Qazan"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
