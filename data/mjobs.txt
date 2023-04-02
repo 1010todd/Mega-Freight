@@ -1092,6 +1092,7 @@ trade
 phrase "mgf: livestock transport complete"
 	word
 		`You deploy the ramp and the crew begin driving <commodity> off the ship. <payment> is transferred into your account once the last vehicle left your ship.`
+		`You deploy the ramp and the crew begin herding the <commodity> off the ship. <payment> is transferred into your account once the last <commodity> left your ship.`
 		
 mission "MGF: Livestock Transport 1"
 	name "Livestock to <planet>"
