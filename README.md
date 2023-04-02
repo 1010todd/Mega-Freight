@@ -40,4 +40,10 @@ This plugin have a few debug functionality and unobtainable ships which can be u
 
 Link: https://github.com/Adde-Endless-Sky-Mods/-Omnis
 
+# Download
+
+To download, press the green "Code" button and download as zip. If you're on mobile and cannot see the button, open the page in desktop mode.
+
 ![2](https://user-images.githubusercontent.com/19187937/176770705-7a44249e-8a44-42a1-8692-e3da8afa46e7.PNG)
+
+
