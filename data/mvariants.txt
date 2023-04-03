@@ -1177,6 +1177,33 @@ ship "LXC-2 Strata" "Strata (Hydrazine Filled)"
 		"A370 Atomic Thruster"
 		"Scram Drive"
 
+ship "SKVS-4 Minnow" "Minnow (No Hyperdrive)"
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Water Tank" 6
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+
+ship "SKVS-4 Minnow" "Minnow (No Hyperdrive, Filled)"
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Water Tank" 6
+		"Fresh Water" 600
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+
 #Claymore test mission.
 
 ship "Falcon" "Falcon (Automaton)"

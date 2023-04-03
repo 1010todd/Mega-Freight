@@ -1646,6 +1646,30 @@ outfit "B-type 1k Oil Tank"
 	description `An oil tank for transporting both crude oil and processed petroleum products. Lined with heater to keep the cargo viscous enough to be pumped out. Surrounded with triple-layered armour to prevent leaks and protect the cargo as well as the environment of the planet.`
 	description `Having ships with dedicated oil tanks as flagship allow you to be offered special jobs for transporting oil and petroleum products.`
 	
+outfit "C-type 200 Water Tank"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/fuel module"
+	"mass" 20
+	"c-type 200 water tank" 1
+	"water capacity" 100
+	"water lock" 9e-10
+	"unplunderable" 1
+	description `A simple vacuum-rated fresh water tank for transporting fresh water to colonies or station which are unable to produce enough fresh water themselves also occasionally used to assist firefighting operations especially forest fire where large volume of water is required.`
+	description `Having ships with dedicated water tanker as flagship allow you to be offered special jobs for transporting water.`
+	
+outfit "C-type 100 Wine Tank"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/fuel module"
+	"mass" 10
+	"c-type 100 wine tank" 1
+	"wine capacity" 50
+	"wine lock" 9e-10
+	"unplunderable" 1
+	description `Specially designed wine tank with special coating and temperature control systems to perfectly maintain the wine during transport.`
+	description `Having ships with dedicated water tanker as flagship allow you to be offered special jobs for transporting water.`
+	
 outfit "X09E Fighter Assembler"
 	category "Systems"
 	cost 8200000
@@ -1932,11 +1956,60 @@ outfit "Syndicate Platinum License"
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.` 
 	description `A tiny grey print on the license mention 5000 credit per day upkeep fee. Cancellation before one year will incur fine of 9% of the registration cost and cancellation after two year will incur fine of 4.55% of the registration cost`
 	
+#=======================================Water
+	
+outfit "Fresh Water"
+	plural "Fresh Water"
+	#category "Special"
+	cost 200
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"water capacity" -1
+	"water lock" 1
+	"heat capacity" 4
+	"unplunderable" 1
+	
+#======================================Wine
+
+outfit "Red Wine"
+	#category "Special"
+	cost 6000
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"wine capacity" -1
+	"wine lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
+outfit "White Wine"
+	#category "Special"
+	cost 6000
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"wine capacity" -1
+	"wine lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+
+outfit "Rose Wine"
+	#category "Special"
+	cost 6000
+	thumbnail "outfit/unknown"
+	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
+	"mass" .1 
+	"wine capacity" -1
+	"wine lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
 #========================================Gases ""custom commodity""
 
 outfit "Liquid Natural Gas"
 	plural "Liquid Natural Gas"
-	category "Special"
+	#category "Special"
 	cost 8000
 	thumbnail "outfit/unknown"
 	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
@@ -1948,7 +2021,7 @@ outfit "Liquid Natural Gas"
 	"overheat damage rate" 5
 	
 outfit "Liquid Ethane"
-	category "Special"
+	#category "Special"
 	cost 12000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -1959,7 +2032,7 @@ outfit "Liquid Ethane"
 	"overheat damage rate" 5
 	
 outfit "Liquid Hydrogen"
-	category "Special"
+	#category "Special"
 	cost 10000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -1972,7 +2045,7 @@ outfit "Liquid Hydrogen"
 #========================================Oil
 
 outfit "Crude Oil"
-	category "Special"
+	#category "Special"
 	cost 1000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -1984,7 +2057,7 @@ outfit "Crude Oil"
 	description `Unprocessed oil right from the oil rig to be transported to a refinery for processing into various petroleum-based products.`
 	
 outfit "Gasoline"
-	category "Special"
+	#category "Special"
 	cost 2000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -1996,7 +2069,7 @@ outfit "Gasoline"
 	description `A petroleum-derived product now commonly used as ingredient for other products and rarely as fuel for some specialized industry and vehicle.`
 	
 outfit "Machine Oil"
-	category "Special"
+	#category "Special"
 	cost 3000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -2008,7 +2081,7 @@ outfit "Machine Oil"
 	description `A petroleum-derived product used as lubricant for various machines.`
 	
 outfit "Kerosene"
-	category "Special"
+	#category "Special"
 	cost 2000
 	thumbnail "outfit/unknown"
 	"mass" .1
@@ -2022,7 +2095,7 @@ outfit "Kerosene"
 #========================================Chemical
 
 outfit "Sulfuric Acid"
-	category "Special"
+	#category "Special"
 	cost 3500
 	thumbnail "outfit/unknown"
 	#Reduced mass so ship isn't too heavy and occasionally cause "bounce back" bug
@@ -2032,7 +2105,7 @@ outfit "Sulfuric Acid"
 	"unplunderable" 1
 	
 outfit "Phosphoric Acid"
-	category "Special"
+	#category "Special"
 	cost 1300
 	thumbnail "outfit/unknown"
 	"mass" .1 
@@ -2041,7 +2114,7 @@ outfit "Phosphoric Acid"
 	"unplunderable" 1
 	
 outfit "Methanol"
-	category "Special"
+	#category "Special"
 	cost 1000
 	thumbnail "outfit/unknown"
 	"mass" .1 
@@ -2050,7 +2123,7 @@ outfit "Methanol"
 	"unplunderable" 1
 	
 outfit "Ammonia"
-	category "Special"
+	#category "Special"
 	cost 1500
 	thumbnail "outfit/unknown"
 	"mass" .1 
@@ -2059,7 +2132,7 @@ outfit "Ammonia"
 	"unplunderable" 1
 	
 outfit "Hydrazine"
-	category "Special"
+	#category "Special"
 	cost 5000
 	thumbnail "outfit/unknown"
 	"mass" .1 
@@ -2068,7 +2141,7 @@ outfit "Hydrazine"
 	"unplunderable" 1
 	
 outfit "Diborane"
-	category "Special"
+	#category "Special"
 	cost 4000
 	thumbnail "outfit/unknown"
 	"mass" .1 
@@ -2077,7 +2150,7 @@ outfit "Diborane"
 	"unplunderable" 1
 	
 outfit "Chlorine"
-	category "Special"
+	#category "Special"
 	cost 1300
 	thumbnail "outfit/unknown"
 	"mass" .1 

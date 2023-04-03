@@ -763,6 +763,10 @@ fleet "Intrasystem Merchants"
 		"Wisymton (Light Freighter)"
 	variant 10
 		"FC-022 Castello"
+	variant 3
+		"Minnow (No Hyperdrive)"
+	variant 3
+		"Minnow (No Hyperdrive, Filled)"
 		
 #Spawn in some midway systems.
 fleet "MGF: Intrasystem Refuelling"
@@ -808,6 +812,8 @@ fleet "MGF: Near Bourne Merchant"
 		"SKVS-3 Gudgeon"
 		"SKVS-2 Mudskipper" 2
 		"Sparrow"
+	variant 5
+		"SKVS-4 Minnow"
 		
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"

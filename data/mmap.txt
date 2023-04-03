@@ -24,6 +24,8 @@ system Menkar
 	add fleet "Intrasystem Merchants" 1000
 system "Men"
 	add fleet "Rare Southern Pirate" 12000
+system Kornephoros
+	add fleet "Intrasystem Merchants" 1000
 planet Asgard
 	add shipyard "MGF Special C"
 planet Clark

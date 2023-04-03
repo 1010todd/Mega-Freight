@@ -759,6 +759,61 @@ mission "MGF: Heavy Lift 2"
 		dialog phrase "mgf: heavy lift complete"
 		payment 4000 150
 		
+#=======================================Water tanker
+
+mission "MGF: In-system Fresh Water Transport 1"
+	name "Transport Fresh Water to <planet>"
+	description "<planet> is running low on fresh water supply, transport 600 units of fresh water to <destination>. The payment is <payment>."
+	job
+	repeat
+	deadline
+	to offer
+		random < 30
+		has "ship model (all): SKVS-4 Minnow"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		distance 0
+	to accept
+		has "ship model (all): SKVS-4 Minnow"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		has "ship model: SKVS-4 Minnow"
+	on accept
+		outfit "Fresh Water" 600
+	on complete
+		outfit "Fresh Water" -600
+		dialog
+			`You deploy the discharging arm and connect it to the port and discharge the fresh water. After the last drop of fresh water was unloaded <payment> is transferred into your account.`
+		payment 5000
+		
+mission "MGF: Wildfire Aid (Water Tanker)"
+	job
+	repeat
+	name "Water to <planet>"
+	description "A major wildfire has occurred on <destination> and various settlements on the planet have been affected. Bring water to <planet> by <date> to assist in the firefighting efforts. You could be paid."
+	deadline
+	to offer
+		random < 5
+		has "flagship model: SKVS-4 Minnow"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		not government "Pirate"
+		distance 2 8
+		attributes "forest"
+	to accept
+		has "flagship model: SKVS-4 Minnow"
+	on accept
+		outfit "Fresh Water" 600
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		outfit "Fresh Water" -600
+		payment 12800 100
+		dialog "You picked up one of the firefighter from the spaceport who will guide you during the firefighting operation. You hover your ship above the forest and used the ship water discharging arm to spray water into the area according to the firefighter guidance. Your water tank is drained just as the fire come under control. You drop off the firefighter near his colleagues and return to the spaceport. The authorities offered you <payment> to thanks you for the assistance. A group of <planet> citizens thank you for your assistance and bid you farewell."
 		
 #=======================================RORO Jobs
 trade
@@ -2247,6 +2302,8 @@ mission "MGF: Gas Transport (LNG 1)"
 		outfit "Liquid Natural Gas" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Natural Gas" -4000
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2275,6 +2332,8 @@ mission "MGF: Gas Transport (LNG 2)"
 		outfit "Liquid Natural Gas" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Natural Gas" -4000
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2303,6 +2362,8 @@ mission "MGF: Gas Transport (LNG 3)"
 		outfit "Liquid Natural Gas" 8000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Natural Gas" -8000
 	on complete
 		outfit "Liquid Natural Gas" -8000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2332,6 +2393,8 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 		outfit "Liquid Natural Gas" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Natural Gas" -4000
 	on complete
 		outfit "Liquid Natural Gas" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2360,6 +2423,8 @@ mission "MGF: Gas Transport (Ethane 1)"
 		outfit "Liquid Ethane" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Ethane" -4000
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2389,6 +2454,8 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 		outfit "Liquid Ethane" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Ethane" -4000
 	on complete
 		outfit "Liquid Ethane" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2417,6 +2484,8 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 		outfit "Liquid Hydrogen" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Hydrogen" -4000
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2446,6 +2515,8 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 		outfit "Liquid Hydrogen" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Liquid Hydrogen" -4000
 	on complete
 		outfit "Liquid Hydrogen" -4000
 		dialog "You discharge the gas at a special port near the industrial site and receive your payment of <payment>"
@@ -2483,6 +2554,8 @@ mission "MGF: Oil Transport (Crude Oil 1)"
 		outfit "Crude Oil" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Crude Oil" -4000
 	on complete
 		outfit "Crude Oil" -4000
 		dialog phrase "mgf: unload oil"
@@ -2511,6 +2584,8 @@ mission "MGF: Oil Transport (Crude Oil 2)"
 		outfit "Crude Oil" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Crude Oil" -2000
 	on complete
 		outfit "Crude Oil" -2000
 		dialog phrase "mgf: unload oil"
@@ -2539,6 +2614,8 @@ mission "MGF: Oil Transport (Crude Oil 3)"
 		outfit "Crude Oil" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Crude Oil" -4000
 	on complete
 		outfit "Crude Oil" -4000
 		dialog phrase "mgf: unload oil"
@@ -2567,6 +2644,8 @@ mission "MGF: Rush Oil Transport (Crude Oil 1)"
 		outfit "Crude Oil" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Crude Oil" -4000
 	on complete
 		outfit "Crude Oil" -4000
 		dialog phrase "mgf: unload oil"
@@ -2594,6 +2673,8 @@ mission "MGF: Oil Transport (Gasoline 1)"
 		outfit "Gasoline" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Gasoline" -2000
 	on complete
 		outfit "Gasoline" -2000
 		dialog phrase "mgf: unload oil"
@@ -2622,6 +2703,8 @@ mission "MGF: Rush Oil Transport (Gasoline 1)"
 		outfit "Gasoline" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Gasoline" -2000
 	on complete
 		outfit "Gasoline" -2000
 		dialog phrase "mgf: unload oil"
@@ -2649,6 +2732,8 @@ mission "MGF: Oil Transport (Machine Oil 1)"
 		outfit "Machine Oil" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Machine Oil" -2000
 	on complete
 		outfit "Machine Oil" -2000
 		dialog phrase "mgf: unload oil"
@@ -2676,6 +2761,8 @@ mission "MGF: Oil Transport (Kerosene 1)"
 		outfit "Kerosene" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Kerosene" -2000
 	on complete
 		outfit "Kerosene" -2000
 		dialog phrase "mgf: unload oil"
@@ -2704,6 +2791,8 @@ mission "MGF: Rush Oil Transport (Kerosene 1)"
 		outfit "Kerosene" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Kerosene" -2000
 	on complete
 		outfit "Kerosene" -2000
 		dialog phrase "mgf: unload oil"
@@ -2742,6 +2831,8 @@ mission "MGF: Chemical Transport (Sulfuric 1)"
 		outfit "Sulfuric Acid" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Sulfuric Acid" -2000
 	on complete
 		outfit "Sulfuric Acid" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2770,6 +2861,8 @@ mission "MGF: Chemical Transport (Sulfuric 2)"
 		outfit "Sulfuric Acid" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Sulfuric Acid" -2000
 	on complete
 		outfit "Sulfuric Acid" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2798,6 +2891,8 @@ mission "MGF: Rush Chemical Transport (Sulfuric 1)"
 		outfit "Sulfuric Acid" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Sulfuric Acid" -2000
 	on complete
 		outfit "Sulfuric Acid" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2825,6 +2920,8 @@ mission "MGF: Chemical Transport (Phosphoric Acid 1)"
 		outfit "Phosphoric Acid" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Sulfuric Acid" -2000
 	on complete
 		outfit "Phosphoric Acid" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2852,6 +2949,8 @@ mission "MGF: Chemical Transport (Methanol 1)"
 		outfit "Methanol" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Methanol" -2000
 	on complete
 		outfit "Methanol" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2879,6 +2978,8 @@ mission "MGF: Chemical Transport (Methanol 2)"
 		outfit "Methanol" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Methanol" -2000
 	on complete
 		outfit "Methanol" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2906,6 +3007,8 @@ mission "MGF: Chemical Transport (Methanol 3)"
 		outfit "Methanol" 4000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Methanol" -4000
 	on complete
 		outfit "Methanol" -4000
 		dialog phrase "mgf: unload chemical"
@@ -2933,6 +3036,8 @@ mission "MGF: Chemical Transport (Ammonia 1)"
 		outfit "Ammonia" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Ammonia" -2000
 	on complete
 		outfit "Ammonia" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2960,6 +3065,8 @@ mission "MGF: Chemical Transport (Ammonia 2)"
 		outfit "Ammonia" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Ammonia" -2000
 	on complete
 		outfit "Ammonia" -2000
 		dialog phrase "mgf: unload chemical"
@@ -2987,6 +3094,8 @@ mission "MGF: Chemical Transport (Ammonia 3)"
 		outfit "Ammonia" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Ammonia" -2000
 	on complete
 		outfit "Ammonia" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3015,6 +3124,8 @@ mission "MGF: Rush Chemical Transport (Ammonia 1)"
 		outfit "Ammonia" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Ammonia" -2000
 	on complete
 		outfit "Ammonia" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3043,6 +3154,8 @@ mission "MGF: Rush Chemical Transport (Ammonia 2)"
 		outfit "Ammonia" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Ammonia" -2000
 	on complete
 		outfit "Ammonia" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3070,6 +3183,8 @@ mission "MGF: Chemical Transport (Hydrazine 1)"
 		outfit "Hydrazine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Hydrazine" -2000
 	on complete
 		outfit "Hydrazine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3097,6 +3212,8 @@ mission "MGF: Chemical Transport (Hydrazine 2)"
 		outfit "Hydrazine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Hydrazine" -2000
 	on complete
 		outfit "Hydrazine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3124,6 +3241,8 @@ mission "MGF: Chemical Transport (Diborane 1)"
 		outfit "Diborane" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Diborane" -2000
 	on complete
 		outfit "Diborane" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3151,6 +3270,8 @@ mission "MGF: Chemical Transport (Chlorine 1)"
 		outfit "Chlorine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Chlorine" -2000
 	on complete
 		outfit "Chlorine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3178,6 +3299,8 @@ mission "MGF: Chemical Transport (Chlorine 2)"
 		outfit "Chlorine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Chlorine" -2000
 	on complete
 		outfit "Chlorine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3205,6 +3328,8 @@ mission "MGF: Chemical Transport (Chlorine 3)"
 		outfit "Chlorine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Chlorine" -2000
 	on complete
 		outfit "Chlorine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3233,6 +3358,8 @@ mission "MGF: Rush Chemical Transport (Chlorine 1)"
 		outfit "Chlorine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Chlorine" -2000
 	on complete
 		outfit "Chlorine" -2000
 		dialog phrase "mgf: unload chemical"
@@ -3261,6 +3388,8 @@ mission "MGF: Rush Chemical Transport (Chlorine 2)"
 		outfit "Chlorine" 2000
 	on visit
 		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Chlorine" -2000
 	on complete
 		outfit "Chlorine" -2000
 		dialog phrase "mgf: unload chemical"

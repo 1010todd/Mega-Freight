@@ -1106,8 +1106,8 @@ ship "LPC-3 Lavaka"
 	attributes
 		category "Heavy Freighter"
 		"cost" 10200000
-		"shields" 8500
-		"hull" 11000
+		"shields" 11500
+		"hull" 15000
 		"required crew" 28
 		"bunks" 48
 		"mass" 8520
@@ -3223,7 +3223,7 @@ ship "AP-7 Sentinel"
 		"heat dissipation" .5
 		"fuel capacity" 500
 		"cargo space" 20
-		"outfit space" 910
+		"outfit space" 1020
 		"weapon capacity" 500
 		"engine capacity" 150
 		weapon
@@ -7053,7 +7053,106 @@ ship "SKVS-3 Gudgeon"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessel around but also the most defenceless and slow for the size. Though few captains reported to enjoy piloting them, they all agreed it is one of the most robust and easy to maintain around.`
+	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessel around but also the most defenceless and slow for the size. Though few captains reported to enjoy piloting them, they all agreed it is one of the most robust and easy to maintain.`
+	
+ship "SKVS-4 Minnow"
+	sprite "ship/mgf minnow"
+	thumbnail "thumbnail/mgf minnow thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 600000
+		"shields" 1200
+		"hull" 1100
+		"required crew" 2
+		"bunks" 4
+		"mass" 168
+		"drag" 5.8
+		"heat dissipation" .8
+		"fuel capacity" 200
+		"cargo space" 5
+		"outfit space" 170
+		"weapon capacity" 40
+		"engine capacity" 53
+		"threshold percentage" .1
+		"c-type 200 water tank" -6
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Water Tank" 6
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 13 95.5 
+	engine -13 95.5 
+	turret 0 69 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping which makes it less ideal for travelling to frontier worlds alone with the raise of piracy.`
+	description `Now that most colony are developed enough to supply their own water these ships became much rarer as their need decreases. Now only a small number remains parked in systems that have stations for occasional resupply mission.`
+	
+ship "CWC-2 Celestine"
+	sprite "ship/mgf celestine"
+	thumbnail "thumbnail/mgf celestine thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 600000
+		"shields" 1200
+		"hull" 1100
+		"required crew" 2
+		"bunks" 4
+		"mass" 168
+		"drag" 5.8
+		"heat dissipation" .8
+		"fuel capacity" 200
+		"cargo space" 5
+		"outfit space" 170
+		"weapon capacity" 40
+		"engine capacity" 53
+		"threshold percentage" .1
+		"c-type 200 water tank" -6
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Water Tank" 6
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 13 95.5 
+	engine -13 95.5 
+	turret 0 69 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `Custom built wine tanker for the Luna Wine Company for transporting wine in bulk from their production facility in the most well preserved way `
 	
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
