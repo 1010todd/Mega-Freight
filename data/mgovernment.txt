@@ -80,6 +80,26 @@ government "MGF: Sulso LG Shipping"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
+# Wine shipping, mostly in paradise worlds, rarely in safer rim area.
+# Not actually from Luna
+government "MGF: Luna Winery"
+	"display name" "Luna Winery"
+	"swizzle" 25
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.01
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.1
+		"MGF: Black Death" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+	
 # Merc/Bounty hunter, south-Core
 government "MGF: Crossguard Patrol"
 	"display name" "Crossguard Patrol"

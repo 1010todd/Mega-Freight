@@ -1,4 +1,4 @@
-#Missions and events relating to spawning a persistent ship or adding new ships to fleet due to timed events or trigger mission not immediately to any story mission.
+#Missions and events relating to spawning a persistent ship or adding new ships to fleet due to timed events or trigger mission not immediately attached to any story mission.
 
 
 mission "MGF: Polaris Alcazar"
@@ -578,6 +578,43 @@ event "MGF: Southern Merchant Upgrade I"
 			"CSE-6 Steward" 2
 			"Lance" 6
 			"AGT-31 Xencar" 6
+		
+mission "MGF: LunaWine Escort Upgrade I"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement II"
+	on offer
+		event "MGF: LunaWine Escort Upgrade I"
+	on accept
+		fail
+		
+event "MGF: LunaWine Escort Upgrade I"
+	fleet "MGF: Luna Winery Long Range"
+		remove variant 20
+			"CWC-2 Celestine (Long Range)"
+			"Headhunter (LunaWine Long Range Escort)" 2
+		remove variant 60
+			"Celestine (Long Range, Red Wine)"
+			"Headhunter (LunaWine Long Range Escort)" 2
+		remove variant 60
+			"Celestine (Long Range, White Wine)"
+			"Headhunter (LunaWine Long Range Escort)" 2
+		remove variant 60
+			"Celestine (Long Range, Rose Wine)"
+			"Headhunter (LunaWine Long Range Escort)" 2
+		add variant 20
+			"CWC-2 Celestine (Long Range)"
+			"Headhunter (LunaWine Long Range Escort, Burst Particle)" 2
+		add variant 60
+			"Celestine (Long Range, Red Wine)"
+			"Headhunter (LunaWine Long Range Escort, Burst Particle)" 2
+		add variant 60
+			"Celestine (Long Range, White Wine)"
+			"Headhunter (LunaWine Long Range Escort, Burst Particle)" 2
+		add variant 60
+			"Celestine (Long Range, Rose Wine)"
+			"Headhunter (LunaWine Long Range Escort, Burst Particle)" 2
 		
 event "mgf: mieusbar released"
 	date 21 4 3014

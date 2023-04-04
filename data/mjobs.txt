@@ -766,21 +766,41 @@ mission "MGF: In-system Fresh Water Transport 1"
 	description "<planet> is running low on fresh water supply, transport 600 units of fresh water to <destination>. The payment is <payment>."
 	job
 	repeat
+	clearance
 	deadline
 	to offer
 		random < 30
 		has "ship model (all): SKVS-4 Minnow"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "Neutral"
+		not attributes station
+		#planets in same system as station or moon. Except Earth/Mars
+		planet
+			Deep
+			Earth
+			Skymoot
+			Poseidos
+			Reunion
+			Delve
+			Icefall
+			Memory
+			Muspel
+			Helheim
+			Alfheim
+			Shroud
+			Thule
+			Glaze
+			Wayfarer
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent"
 		distance 0
+		attributes station moon
 	to accept
-		has "ship model (all): SKVS-4 Minnow"
+		has "flagship model: SKVS-4 Minnow"
 	on visit
 		dialog phrase "generic cargo on visit"
 	to complete
-		has "ship model: SKVS-4 Minnow"
+		has "flagship model: SKVS-4 Minnow"
 	on accept
 		outfit "Fresh Water" 600
 	on complete
@@ -814,6 +834,415 @@ mission "MGF: Wildfire Aid (Water Tanker)"
 		outfit "Fresh Water" -600
 		payment 12800 100
 		dialog "You picked up one of the firefighter from the spaceport who will guide you during the firefighting operation. You hover your ship above the forest and used the ship water discharging arm to spray water into the area according to the firefighter guidance. Your water tank is drained just as the fire come under control. You drop off the firefighter near his colleagues and return to the spaceport. The authorities offered you <payment> to thanks you for the assistance. A group of <planet> citizens thank you for your assistance and bid you farewell."
+		
+#=======================================Wine Tanker escort
+
+mission "MGF: Escort (Small, Luna Winery 1)"
+	name "Escort to <planet>"
+	description "The captain of the a wine tanker <npc> along with two escort of Luna Winery will pay you <payment> to escort them safely into dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 5 1
+	to offer
+		random < 40
+		"combat rating" > 5
+		"reputation: MGF: Luna Winery" >= 5
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "paradise"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "rim" "dirt belt" 
+		attributes "urban"
+		distance 3 14
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+		fleet "Small Southern Pirates"
+				
+	npc
+		government "MGF: Luna Winery"
+		personality escort timid frugal
+		fleet
+			names "lunawine name"
+			variant
+				"Headhunter (LunaWine Long Range Escort)" 2
+				
+	npc accompany save
+		government "MGF: Luna Winery"
+		personality escort timid frugal target
+		fleet
+			names "lunawine name"
+			variant
+				"Celestine (Long Range, Red Wine)"
+			variant
+				"Celestine (Long Range, Rose Wine)"
+			variant
+				"Celestine (Long Range, White Wine)"
+	on complete
+		"reputation: MGF: Luna Winery" += 1
+		payment 90000
+		dialog phrase "generic safe escort completion dialog"
+	on fail
+		# Reduce rep if failed but not to point of attacking (<0)
+		"reputation: MGF: Luna Winery" -= 1
+		"reputation: MGF: Luna Winery" >?= 1
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+		
+mission "MGF: Escort (Small, Luna Winery 2)"
+	name "Escort to <planet>"
+	description "The captain of the a wine tanker <npc> along with two escort of Luna Winery will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 5 1
+	to offer
+		random < 20
+		"combat rating" > 5
+		"reputation: MGF: Luna Winery" >= 5
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		planet
+			Skymoot
+			Thunder
+			Zug
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "paradise"
+		distance 3 14
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 30
+		system source
+		fleet "Small Southern Pirates"
+		fleet "Small Southern Pirates"
+				
+	npc
+		government "MGF: Luna Winery"
+		personality escort timid frugal
+		fleet
+			names "lunawine name"
+			variant
+				"Headhunter (LunaWine Long Range Escort)" 2
+				
+	npc accompany save
+		government "MGF: Luna Winery"
+		personality escort timid frugal target
+		fleet
+			names "lunawine name"
+			variant
+				"Celestine (Long Range, Red Wine)"
+			variant
+				"Celestine (Long Range, Rose Wine)"
+			variant
+				"Celestine (Long Range, White Wine)"
+	on complete
+		"reputation: MGF: Luna Winery" += 1
+		payment 120000
+		dialog phrase "generic safe escort completion dialog"
+	on fail
+		"reputation: MGF: Luna Winery" -= 1
+		"reputation: MGF: Luna Winery" >?= 1
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+
+mission "MGF: Escort (Medium, Luna Winery 1)"
+	name "Escort to <planet>"
+	description "The captain of the a wine tanker <npc> along with two escort of Luna Winery will pay you <payment> to escort them safely into dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 5 1
+	to offer
+		random < 40
+		"combat rating" > 5
+		"reputation: MGF: Luna Winery" >= 5
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "paradise"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "rim" "dirt belt" 
+		attributes "urban"
+		distance 3 14
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+		fleet "Small Southern Pirates"
+				
+	npc
+		government "MGF: Luna Winery"
+		personality escort timid frugal
+		fleet
+			names "lunawine name"
+			variant
+				"Headhunter (LunaWine Long Range Escort)" 3
+				
+	npc accompany save
+		government "MGF: Luna Winery"
+		personality escort timid frugal target
+		fleet
+			names "lunawine name"
+			variant
+				"Celestine (Long Range, Red Wine)" 2
+			variant
+				"Celestine (Long Range, Rose Wine)" 2
+			variant
+				"Celestine (Long Range, White Wine)" 2
+	on complete
+		"reputation: MGF: Luna Winery" += 2
+		payment 170000
+		dialog phrase "generic safe escort completion dialog"
+	on fail
+		"reputation: MGF: Luna Winery" -= 2
+		"reputation: MGF: Luna Winery" >?= 1
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+
+mission "MGF: Escort (Medium, Luna Winery 2)"
+	name "Escort to <planet>"
+	description "The captain of the a wine tanker <npc> along with two escort of Luna Winery will pay you <payment> to escort them safely out of this dangerous region of space to reach <destination> by <date>."
+	repeat
+	job
+	deadline 5 1
+	to offer
+		random < 20
+		"combat rating" > 5
+		"reputation: MGF: Luna Winery" >= 5
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		planet
+			Skymoot
+			Thunder
+			Zug
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "paradise"
+		distance 3 14
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Southern Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 30
+		system source
+		fleet "Small Southern Pirates"
+		fleet "Small Southern Pirates"
+				
+	npc
+		government "MGF: Luna Winery"
+		personality escort timid frugal
+		fleet
+			names "lunawine name"
+			variant
+				"Headhunter (LunaWine Long Range Escort)" 3
+				
+	npc accompany save
+		government "MGF: Luna Winery"
+		personality escort timid frugal target
+		fleet
+			names "lunawine name"
+			variant
+				"Celestine (Long Range, Red Wine)" 2
+			variant
+				"Celestine (Long Range, Rose Wine)" 2
+			variant
+				"Celestine (Long Range, White Wine)" 2
+	on complete
+		"reputation: MGF: Luna Winery" += 2
+		payment 230000
+		dialog phrase "generic safe escort completion dialog"
+	on fail
+		"reputation: MGF: Luna Winery" -= 2
+		"reputation: MGF: Luna Winery" >?= 1
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+
+phrase "mgf: unload wine"
+	word
+		`You parked your tanker at the wine packaging facility and after signing some paper work you begin unloading the cargo. After the last drop was discharged the facility manager hands you <payment>.`
+
+mission "MGF: Wine Transport (Red Wine 1)"
+	name "Bulk Wine to <planet>"
+	description "1000 units of Red Wine along with <cargo> to confirm the delivery is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying wine."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		or
+			random < 20
+			and
+				random < 60
+				has "outfit (installed): C-type 100 Wine Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+		distance 3 20
+	to accept
+		"C-type 100 Wine Tank" >= 20 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+	on accept
+		outfit "Red Wine" 1000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Red Wine" -1000
+	on complete
+		outfit "Red Wine" -1000
+		dialog phrase "mgf: unload wine"
+		payment 450000 6500
+		
+mission "MGF: Wine Transport (Red Wine 2)"
+	name "Bulk Wine to <planet>"
+	description "500 units of Red Wine along with <cargo> to confirm the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): C-type 100 Wine Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+		distance 3 20
+	to accept
+		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+	on accept
+		outfit "Red Wine" 500
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Red Wine" -500
+	on complete
+		outfit "Red Wine" -500
+		dialog phrase "mgf: unload wine"
+		payment 230000 6700
+		
+mission "MGF: Wine Transport (Red Wine 3)"
+	name "Bulk Wine to <planet>"
+	description "500 units of Red Wine along with <cargo> to confirm the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): C-type 100 Wine Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+		distance 3 20
+	to accept
+		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+	on accept
+		outfit "Red Wine" 500
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Red Wine" -500
+	on complete
+		outfit "Red Wine" -500
+		dialog phrase "mgf: unload wine"
+		payment 230000 6700
+		
+mission "MGF: Wine Transport (White Wine 1)"
+	name "Bulk Wine to <planet>"
+	description "500 units of White Wine along with <cargo> to confirm the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): C-type 100 Wine Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+		distance 3 20
+	to accept
+		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+	on accept
+		outfit "White Wine" 500
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "White Wine" -500
+	on complete
+		outfit "White Wine" -500
+		dialog phrase "mgf: unload wine"
+		payment 230000 6700
+		
+mission "MGF: Wine Transport (Rose Wine 1)"
+	name "Bulk Wine to <planet>"
+	description "500 units of Rose Wine along with <cargo> to confirm the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): C-type 100 Wine Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "paradise" "near earth"
+		distance 3 20
+	to accept
+		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+	on accept
+		outfit "Rose Wine" 500
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Rose Wine" -500
+	on complete
+		outfit "Rose Wine" -500
+		dialog phrase "mgf: unload wine"
+		payment 230000 6700
 		
 #=======================================RORO Jobs
 trade

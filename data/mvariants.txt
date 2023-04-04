@@ -1204,6 +1204,150 @@ ship "SKVS-4 Minnow" "Minnow (No Hyperdrive, Filled)"
 		"X2200 Ion Steering"
 		"X1100 Ion Reverse Thruster"
 
+ship "Headhunter" "Headhunter (LunaWine Long Range Escort)"
+	outfits
+		"Particle Cannon" 2
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Fuel Pod" 4
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		
+ship "Headhunter" "Headhunter (LunaWine Long Range Escort, Burst Particle)"
+	outfits
+		"EPB3-2 Particle Cannon" 2
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Fuel Pod" 4
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+
+
+ship "CWC-2 Celestine" "Celestine (Red Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		
+		"Red Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CWC-2 Celestine" "Celestine (White Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		
+		"White Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CWC-2 Celestine" "Celestine (Rose Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		
+		"Rose Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+
+ship "CWC-2 Celestine" "Celestine (Long Range)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		"Fuel Tank" 3
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CWC-2 Celestine" "Celestine (Long Range, Red Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		"Fuel Tank" 3
+		
+		"Red Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CWC-2 Celestine" "Celestine (Long Range, White Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		"Fuel Tank" 3
+		
+		"White Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CWC-2 Celestine" "Celestine (Long Range, Rose Wine)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 100 Wine Tank" 20
+		"Fuel Tank" 3
+		
+		"Rose Wine" 1000
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
+		"Hyperdrive"
+
 #Claymore test mission.
 
 ship "Falcon" "Falcon (Automaton)"

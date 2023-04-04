@@ -928,6 +928,76 @@ system Izar
 system Peacock
 	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
 
+#=====================================Luna Winery
+
+system Alphard
+	add fleet "MGF: Luna Winery" 4500
+system Talita
+	add fleet "MGF: Luna Winery" 4500
+system Miaplacidus
+	add fleet "MGF: Luna Winery" 4500
+system Tejat
+	add fleet "MGF: Luna Winery" 4500
+system Phurad
+	add fleet "MGF: Luna Winery" 4500
+system Wazn
+	add fleet "MGF: Luna Winery" 4500
+system Kursa
+	add fleet "MGF: Luna Winery" 4500
+system Alhena
+	add fleet "MGF: Luna Winery" 4500
+system Menkalinan
+	add fleet "MGF: Luna Winery" 4500
+system Castor
+	add fleet "MGF: Luna Winery" 4500
+system Pollux
+	add fleet "MGF: Luna Winery" 4500
+system Procyon
+	add fleet "MGF: Luna Winery" 4500
+system Capella
+	add fleet "MGF: Luna Winery" 4500
+system Aldebaran
+	add fleet "MGF: Luna Winery" 4500
+system Sirius
+	add fleet "MGF: Luna Winery" 4500
+system Eteron
+	add fleet "MGF: Luna Winery" 4500
+system Sol
+	add fleet "MGF: Luna Winery" 4500
+system "Alpha Centauri"
+	add fleet "MGF: Luna Winery" 4500
+system Caph
+	add fleet "MGF: Luna Winery" 4500
+system Denebola
+	add fleet "MGF: Luna Winery" 4500
+system Merak
+	add fleet "MGF: Luna Winery" 4500
+	
+system "Gamma Corvi"
+	add fleet "MGF: Luna Winery" 4500
+system "Spica"
+	add fleet "MGF: Luna Winery" 4500
+system Minkar
+	add fleet "MGF: Luna Winery" 4500
+system Mimosa
+	add fleet "MGF: Luna Winery" 4500
+system Kraz
+	add fleet "MGF: Luna Winery" 4500
+system Acrux
+	add fleet "MGF: Luna Winery" 4500
+system Izar
+	add fleet "MGF: Luna Winery" 5000
+system "Zeta Centauri"
+	add fleet "MGF: Luna Winery" 5000
+system Hadar
+	add fleet "MGF: Luna Winery" 5000
+system Alkaid
+	add fleet "MGF: Luna Winery" 6000
+system Zubeneschamali
+	add fleet "MGF: Luna Winery" 5000
+
+
+
 #=====================================Maryhal Logistic
 #Large shipping company, well-defended fleets.
 system Zubeneschamali

@@ -140,7 +140,8 @@ fleet "Large Southern Merchants"
 		"Bastion"
 		
 	add variant 10
-		"QYG-30r Qazan"
+		"QYG-30r Qazan" 3
+		"Bastion"
 	
 	
 fleet "Small Core Merchants"
@@ -361,7 +362,8 @@ fleet "Large Core Merchants"
 		"Splinter" 2
 		
 	add variant 10
-		"QYG-30r Qazan"
+		"QYG-30r Qazan" 2
+		"Quicksilver"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -639,7 +641,7 @@ fleet "Large Northern Merchants"
 		"Splinter" 2
 		
 	add variant 10
-		"QYG-30r Qazan"
+		"QYG-30r Qazan" 2
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -788,6 +790,48 @@ fleet "MGF: Sulso Intrasystem Refuelling"
 		timid frugal appeasing swarming
 	variant 50
 		"FC-022 Castello"
+		
+fleet "MGF: Luna Winery"
+	government "MGF: Luna Winery"
+	names "lunawine name"
+	cargo 1
+	personality
+		confusion 50
+		timid frugal appeasing
+	variant 60
+		"CWC-2 Celestine"
+		"Headhunter"
+	variant 60
+		"Celestine (Red Wine)"
+		"Headhunter"
+	variant 60
+		"Celestine (White Wine)"
+		"Headhunter"
+	variant 60
+		"Celestine (Rose Wine)"
+		"Headhunter"
+	variant 20
+		"CWC-2 Celestine"
+		
+fleet "MGF: Luna Winery Long Range"
+	government "MGF: Luna Winery"
+	names "lunawine name"
+	cargo 1
+	personality
+		confusion 50
+		timid frugal appeasing
+	variant 20
+		"CWC-2 Celestine (Long Range)"
+		"Headhunter (LunaWine Long Range Escort)" 2
+	variant 60
+		"Celestine (Long Range, Red Wine)"
+		"Headhunter (LunaWine Long Range Escort)" 2
+	variant 60
+		"Celestine (Long Range, White Wine)"
+		"Headhunter (LunaWine Long Range Escort)" 2
+	variant 60
+		"Celestine (Long Range, Rose Wine)"
+		"Headhunter (LunaWine Long Range Escort)" 2
 		
 fleet "MGF: Near Bourne Merchant"
 	government "Merchant"

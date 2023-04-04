@@ -777,6 +777,25 @@ mission "MGF: Ialmuslati Release Announcement"
 				`	(Leave)`
 					decline
 		
+mission "MGF: Celestine Available for player"
+	landing
+	name "Celestine Available"
+	to offer
+		"reputation: Luna Winery" >= 250
+	on offer
+		event "mgf: celestine available for player"
+		conversation
+			`As you land you got a mail from Luna Winery thanking you for your help escorting their tankers. They have decided to allow you to purchase their surplus tankers on Luna, Thrall, and Shroud.`
+				decline
+				
+event "mgf: celestine available for player"
+	planet Luna
+		add shipyard "Luna Winery Custom"
+	planet Thrall
+		add shipyard "Luna Winery Custom"
+	planet Shroud
+		add shipyard "Luna Winery Custom"
+		
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"

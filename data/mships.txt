@@ -7110,49 +7110,53 @@ ship "CWC-2 Celestine"
 	thumbnail "thumbnail/mgf celestine thumb"
 	attributes
 		category "Light Freighter"
-		"cost" 600000
-		"shields" 1200
-		"hull" 1100
+		"cost" 800000
+		"shields" 1100
+		"hull" 1200
 		"required crew" 2
-		"bunks" 4
-		"mass" 168
-		"drag" 5.8
+		"bunks" 6
+		"mass" 186
+		"drag" 5.1
 		"heat dissipation" .8
-		"fuel capacity" 200
-		"cargo space" 5
-		"outfit space" 170
-		"weapon capacity" 40
-		"engine capacity" 53
-		"threshold percentage" .1
-		"c-type 200 water tank" -6
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 230
+		"weapon capacity" 60
+		"engine capacity" 70
+		"c-type 100 wine tank" -20
+		"active cooling" 30
 		weapon
 			"blast radius" 40
 			"shield damage" 400
 			"hull damage" 200
 			"hit force" 600
 	outfits
+		"Blaster Turret"
 		"Anti-Missile Turret"
 		
-		"nGVF-BB Fuel Cell"
+		"Dwarf Core"
 		"LP072a Battery Pack"
 		"D14-RN Shield Generator"
-		"C-type 200 Water Tank" 6
+		"C-type 100 Wine Tank" 20
 		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"X1100 Ion Reverse Thruster"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"AR120 Reverse Thruster"
 		"Hyperdrive"
 		
-	engine 13 95.5 
-	engine -13 95.5 
-	turret 0 69 
+	turret 0 -55.5 
+	turret 0 21 
+	engine 0 104.5 
+		zoom .9
+	engine -24 100 
+	engine 24 100 
 	leak "leak" 60 50
 	leak "flame" 50 80
 	explode "tiny explosion" 10
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Custom built wine tanker for the Luna Wine Company for transporting wine in bulk from their production facility in the most well preserved way `
+	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving them in the most perfect condition with individual thermal control system for each tank to keep the heat as stable as possible. Though lightly armed these ships rarely wander away from relative safety of heavily patrolled Paradise Planets.`
 	
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
