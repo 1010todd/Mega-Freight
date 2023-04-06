@@ -928,8 +928,409 @@ system Izar
 system Peacock
 	add fleet "MGF: Sulso Intrasystem Refuelling" 4500
 
-#=====================================Luna Winery
+#====================================Solacer
+# Reefer ships/juice tankers
 
+#--------------------Reefer
+system Acrux
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Albaldah
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Albireo
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Aldhibain
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Algorel
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Alioth
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Alkaid
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Alnasl
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Alniyat
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Alpha Arae"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Alphecca
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Antares
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Arcturus
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Ascella
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Atria
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Beta Lupi"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Boral
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Cebalrai
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Cor Caroli"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Dabih
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Delta Sagittarii"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Delta Velorum"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Dschubba
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Eber
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Eltanin
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Fala
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Gacrux
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Gamma Corvi"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Girtab
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Graffias
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Hadar
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Han
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Hintar
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Holeb
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Ildaria
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Ipsing
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Izar
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Kappa Centauri"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Kaus Australis"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Kaus Borealis"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Kochab
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Kornephoros
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Kraz
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Lesath
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Limen
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Lolami
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Lurata
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Men
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Menkent
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Mimosa
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Minkar
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Mizar
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Mora
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Muhlifain
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Naper
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Nunki
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Orbona
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Orvala
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Peacock
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Phecda
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Pherkad
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Rasalhague
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Rastaban
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Rutilicus
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sabik
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sadalmelik
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sadalsuud
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sadr
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sargas
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Sarin
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Seginus
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Shaula
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Spica
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Tais
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Tania Australis"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Tarazed
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Terminus
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Turais
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Umbral
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Unukalhai
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Vindemiatrix
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Wei
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Yed Prior"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Zeta Aquilae"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system "Zeta Centauri"
+	add fleet "MGF: Small Solacer Reefer" 4500
+system Zubenelgenubi
+	add fleet "MGF: Small Solacer Reefer" 4500
+	
+#------------Juice tanker
+	
+system Acrux
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Albaldah
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Albireo
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Aldhibain
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Algorel
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Alioth
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Alkaid
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Alnasl
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Alniyat
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Alpha Arae"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Alphecca
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Antares
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Arcturus
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Ascella
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Atria
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Beta Lupi"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Boral
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Cebalrai
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Cor Caroli"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Dabih
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Delta Sagittarii"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Delta Velorum"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Dschubba
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Eber
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Eltanin
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Fala
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Gacrux
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Gamma Corvi"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Girtab
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Graffias
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Hadar
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Han
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Hintar
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Holeb
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Ildaria
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Ipsing
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Izar
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Kappa Centauri"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Kaus Australis"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Kaus Borealis"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Kochab
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Kornephoros
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Kraz
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Lesath
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Limen
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Lolami
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Lurata
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Men
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Menkent
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Mimosa
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Minkar
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Mizar
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Mora
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Muhlifain
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Naper
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Nunki
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Orbona
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Orvala
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Peacock
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Phecda
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Pherkad
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Rasalhague
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Rastaban
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Rutilicus
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sabik
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sadalmelik
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sadalsuud
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sadr
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sargas
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Sarin
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Seginus
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Shaula
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Spica
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Tais
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Tania Australis"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Tarazed
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Terminus
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Turais
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Umbral
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Unukalhai
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Vindemiatrix
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Wei
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Yed Prior"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Zeta Aquilae"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Zeta Centauri"
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system Zubenelgenubi
+	add fleet "MGF: Solacer Juice Tanker" 5500
+
+
+system Alphard
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Talita
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Miaplacidus
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Tejat
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Phurad
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Wazn
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Kursa
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Alhena
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Menkalinan
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Castor
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Pollux
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Procyon
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Capella
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Aldebaran
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Sirius
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Eteron
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Sol
+	add fleet "MGF: Solacer Juice Tanker" 5500
+system "Alpha Centauri"
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Caph
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Denebola
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Merak
+	add fleet "MGF: Solacer Juice Tanker" 7500
+	
+system Menkent
+	add fleet "MGF: Solacer Juice Tanker" 7500
+system Vega
+	add fleet "MGF: Solacer Juice Tanker" 7500
+
+#=====================================Luna Winery
+# Wine company
 system Alphard
 	add fleet "MGF: Luna Winery" 4500
 system Talita
@@ -974,29 +1375,196 @@ system Merak
 	add fleet "MGF: Luna Winery" 4500
 	
 system "Gamma Corvi"
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system "Spica"
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system Minkar
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system Mimosa
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system Kraz
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system Acrux
-	add fleet "MGF: Luna Winery" 4500
+	add fleet "MGF: Luna Winery" 5500
 system Izar
-	add fleet "MGF: Luna Winery" 5000
-system "Zeta Centauri"
-	add fleet "MGF: Luna Winery" 5000
-system Hadar
-	add fleet "MGF: Luna Winery" 5000
-system Alkaid
 	add fleet "MGF: Luna Winery" 6000
+system "Zeta Centauri"
+	add fleet "MGF: Luna Winery" 6000
+system Hadar
+	add fleet "MGF: Luna Winery" 6000
+system Alkaid
+	add fleet "MGF: Luna Winery" 8000
 system Zubeneschamali
-	add fleet "MGF: Luna Winery" 5000
+	add fleet "MGF: Luna Winery" 6000
+
+#====================================NGK Hauling
+#Large shipping company, well-defended fleets.
+
+#-------------------HeavyFreight line
+system Zubeneschamali
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Zubenelgenubi
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Sabik
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Kornephoros
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Wei
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Alioth
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Holeb
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Rutilicus
+	add fleet "NGK Hauling HeavyFreight" 7500
+	
+system "Aldhibain"
+	add fleet "NGK Hauling HeavyFreight" 8500
+system Alniyat
+	add fleet "NGK Hauling HeavyFreight" 8500
+system Pherkad
+	add fleet "NGK Hauling HeavyFreight" 8500
+	
+system Tarazed
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Dabih
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Kaus Australis"
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Peacock
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Ascella
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Rasalhague
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Cebalrai
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Menkent
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Vega
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Sol
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Altair
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Fomalhaut
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Markab
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Scheat
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Al Dhanab"
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Achernar
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Sirius
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Procyon
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Pollux
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Talita
+	add fleet "NGK Hauling HeavyFreight" 7500
 
 
+system Miaplacidus
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Tejat
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Phurad
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Canopus
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Alheka
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Betelgeuse
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Alphard
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Zosma
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Gomeisa
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Epsilon Leonis"
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Algieba
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Tania Australis"
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Fala
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Delta Velorum"
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Turais
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Algorel
+	add fleet "NGK Hauling HeavyFreight" 7500
+system "Cor Caroli"
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Vindemiatrix
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Sarin
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+#-------------------RORO line
+system Polaris
+	add fleet "NGK Hauling RORO" 12000
+system Achernar
+	add fleet "NGK Hauling RORO" 12000
+system Alpheratz
+	add fleet "NGK Hauling RORO" 12000
+system Ruchbah
+	add fleet "NGK Hauling RORO" 12000
+system Ankaa
+	add fleet "NGK Hauling RORO" 12000
+system Diphda
+	add fleet "NGK Hauling RORO" 12000
+system Caph
+	add fleet "NGK Hauling RORO" 12000
+
+system Markab
+	add fleet "NGK Hauling RORO" 12000
+system Fomalhaut
+	add fleet "NGK Hauling RORO" 12000
+system Altair
+	add fleet "NGK Hauling RORO" 12000
+	
+system Sol
+	add fleet "NGK Hauling RORO" 12000
+system "Alpha Centauri"
+	add fleet "NGK Hauling RORO" 12000
+system Denebola
+	add fleet "NGK Hauling RORO" 12000
+system Merak
+	add fleet "NGK Hauling RORO" 12000
+
+system Sirius
+	add fleet "NGK Hauling RORO" 12000
+system Procyon
+	add fleet "NGK Hauling RORO" 12000
+system Pollux
+	add fleet "NGK Hauling RORO" 12000
+system Talita
+	add fleet "NGK Hauling RORO" 12000
+
+
+system Miaplacidus
+	add fleet "NGK Hauling RORO" 12000
+system Tejat
+	add fleet "NGK Hauling RORO" 12000
+system Phurad
+	add fleet "NGK Hauling RORO" 12000
+system Canopus
+	add fleet "NGK Hauling RORO" 12000
+system Alheka
+	add fleet "NGK Hauling RORO" 12000
+system Betelgeuse
+	add fleet "NGK Hauling RORO" 12000
 
 #=====================================Maryhal Logistic
 #Large shipping company, well-defended fleets.

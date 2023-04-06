@@ -1348,6 +1348,136 @@ ship "CWC-2 Celestine" "Celestine (Long Range, Rose Wine)"
 		"AR120 Reverse Thruster"
 		"Hyperdrive"
 
+ship "CJC-3 Citrus" "Citrus (Orange Filled)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		"Conc. Orange Juice" 1600
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CJC-3 Citrus" "Citrus (Orange Half-Filled)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		"Conc. Orange Juice" 800
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CJC-3 Citrus" "Citrus (Apple Filled)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		"Conc. Apple Juice" 1600
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CJC-3 Citrus" "Citrus (Pineapple Filled)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		"Conc. Pineapple Juice" 1600
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+ship "CJC-3 Citrus" "Citrus (Coconut Filled)"
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		"Conc. Coconut Water" 1600
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
+#Leviathan custom-modified by NGK, old escort.
+ship "Leviathan" "Leviathan (NGK Escort)"
+	sprite "ship/mgf leviathan ngk"
+	thumbnail "thumbnail/mgf leviathan ngk thumb"
+	add attributes
+		"shields" 1300
+		"hull" 500
+		"drag" 2
+		"mass" 300
+		"outfit space" 100
+		"weapon capacity" 84
+		"cargo space" -60
+		"fuel capacity" 400
+		"shield generation multiplier" .05
+	outfits
+		"Torpedo Pod" 2
+		"Torpedo Storage Rack"
+		"Torpedo" 21
+		"G22 Particle Turret" 4
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 50
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		"Ramscoop"
+	description `Though a very dated model the Betelgeuse Leviathan remains to be a tough and reliable escort. NGK Hauling was one of the primary operator of Leviathan opted for a massive makeover instead as newer warship models were deemed too fragile. The result was a significantly improved warship with additional and improved armour, improved shield emitter with denser spacing and additional tuning, and expanded weapon sections for a full deck of venerable particle turrets allowing it to square up against any modern ship, all without any significant increase in maintenance requirement from the base model. It also gain additional fuel tanks to allow it to keep up with newer freighters for long distance shipping.`
+
+ship "AP-7 Sentinel" "AP-7 Sentinel (NGK Escort)"
+	outfits
+		"Proton Gun" 12
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 1
+		"Sidewinder Missile Pod" 8
+		"Sidewinder Missile Rack" 4
+		"Sidewinder Missile" 124
+		
+		"Fusion Reactor" 2
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 60
+		"Fuel Pod"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
 #Claymore test mission.
 
 ship "Falcon" "Falcon (Automaton)"

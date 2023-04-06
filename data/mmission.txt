@@ -796,6 +796,26 @@ event "mgf: celestine available for player"
 	planet Shroud
 		add shipyard "Luna Winery Custom"
 		
+mission "MGF: Citrus Available for player"
+	landing
+	name "Citrus Available"
+	to offer
+		"MGF: Juice Distribution Done" >= 30
+		"reputation: Solacer Group" >= 1
+	on offer
+		event "mgf: citrus available for player"
+		conversation
+			`You got a message from Solacer Group. "Greeting captain <last>. We have noticed your great assistance with distributing juice from our packaging facility. We would like to offer you opportunity to work with us deeper in the chain distributing juice in bulk with our custom built Citrus-class juice tanker which will be made available for you at following planets: Solace, Zug, Skymoot. We look forward working with you."`
+				decline
+		
+event "mgf: citrus available for player"
+	planet Solace
+		add shipyard "Solacer Group Custom"
+	planet Zug
+		add shipyard "Solacer Group Custom"
+	planet Skymoot
+		add shipyard "Solacer Group Custom"
+		
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"

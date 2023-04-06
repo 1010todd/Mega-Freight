@@ -80,6 +80,8 @@ shipyard developer
 	"QYG-70r Tonazqi"
 	"SKVS-4 Minnow"
 	"CWC-2 Celestine"
+	"CJC-3 Citrus"
+	"Leviathan (NGK Escort)"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -168,6 +170,8 @@ shipyard "human plugins"
 	"QYG-70r Tonazqi"
 	"SKVS-4 Minnow"
 	"CWC-2 Celestine"
+	"CJC-3 Citrus"
+	"Leviathan (NGK Escort)"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
@@ -469,6 +473,9 @@ shipyard "Pioneer Heavy Industries Advanced"
 	
 shipyard "Luna Winery Custom"
 	"CWC-2 Celestine"
+	
+shipyard "Solacer Group Custom"
+	"CJC-3 Citrus"
 	
 shipyard "Vessa Shipworks Basic"
 	"TS-650 Herrenbal"

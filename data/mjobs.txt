@@ -1112,7 +1112,7 @@ mission "MGF: Wine Transport (Red Wine 1)"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
-		"C-type 100 Wine Tank" >= 20 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+		"outfit (flagship installed): C-type 100 Wine Tank" >= 20 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
 	on accept
 		outfit "Red Wine" 1000
 	on visit
@@ -1139,10 +1139,10 @@ mission "MGF: Wine Transport (Red Wine 2)"
 		attributes "paradise" "near earth"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "paradise" "near earth"
+		attributes "paradise" "near earth" "urban"
 		distance 3 20
 	to accept
-		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+		"outfit (flagship installed): C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
 	on accept
 		outfit "Red Wine" 500
 	on visit
@@ -1172,7 +1172,7 @@ mission "MGF: Wine Transport (Red Wine 3)"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
-		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+		"outfit (flagship installed): C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
 	on accept
 		outfit "Red Wine" 500
 	on visit
@@ -1202,7 +1202,7 @@ mission "MGF: Wine Transport (White Wine 1)"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
-		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+		"outfit (flagship installed): C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
 	on accept
 		outfit "White Wine" 500
 	on visit
@@ -1232,7 +1232,7 @@ mission "MGF: Wine Transport (Rose Wine 1)"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
-		"C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
+		"outfit (flagship installed): C-type 100 Wine Tank" >= 10 + ( "outfit (installed): Red Wine" / 50 ) + ( "outfit (installed): White Wine" / 50 ) + ( "outfit (installed): Rose Wine" / 50 )
 	on accept
 		outfit "Rose Wine" 500
 	on visit
@@ -1243,6 +1243,423 @@ mission "MGF: Wine Transport (Rose Wine 1)"
 		outfit "Rose Wine" -500
 		dialog phrase "mgf: unload wine"
 		payment 230000 6700
+		
+#=======================================Juice
+
+trade
+	commodity "Packaged Juice"
+		"Bottled Orange Juice"
+		"Bottled Apple Juice"
+		"Bottled Peach Juice"
+		"Bottled Pineapple Juice"
+		"Bottled Coconut Water"
+		"Canned Orange Juice"
+		"Canned Apple Juice"
+		"Canned Peach Juice"
+		"Canned Pineapple Juice"
+		"Canned Coconut Water"
+
+phrase "mgf: juice distribution done"
+	word
+		`After you landed you look around for a truck painted in white and orange as described by your client and see a person in similarly themed uniform waving at you. After unloading the cargo from the ship and into the truck <payment> is transferred into your account.`
+
+mission "MGF: Juice Distribution [0]"
+	name "Juice Distribution to <planet>"
+	job
+	repeat
+	deadline 0 1
+	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
+	cargo "Packaged Juice" 10 3 .12
+	to offer
+		or
+			random < 30
+			and
+				#Having reefer ship boost offer chance.
+				random < 60
+				or
+					has "flagship attribute: refrigerated space"
+					has "ship model: QYG-30r Qazan"
+					has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes urban
+	destination
+		distance 2 5
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"MGF: Juice Distribution Done" += 1
+		payment
+		payment 6500
+		dialog phrase "mgf: juice distribution done"
+		
+mission "MGF: Juice Distribution [1]"
+	name "Juice Distribution to <planet>"
+	job
+	repeat
+	deadline 0 1
+	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
+	cargo "Packaged Juice" 10 3 .12
+	to offer
+		or
+			random < 25
+			and
+				#Having reefer ship boost offer chance.
+				random < 55
+				or
+					has "flagship attribute: refrigerated space"
+					has "ship model: QYG-30r Qazan"
+					has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes urban
+	destination
+		distance 2 5
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"MGF: Juice Distribution Done" += 1
+		payment
+		payment 6700
+		dialog phrase "mgf: juice distribution done"
+		
+mission "MGF: Juice Distribution [2]"
+	name "Juice Distribution to <planet>"
+	job
+	repeat
+	deadline 0 1
+	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
+	cargo "Packaged Juice" 10 3 .12
+	to offer
+		or
+			random < 20
+			and
+				#Having reefer ship boost offer chance.
+				random < 50
+				or
+					has "flagship attribute: refrigerated space"
+					has "ship model: QYG-30r Qazan"
+					has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes urban
+	destination
+		distance 2 5
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"MGF: Juice Distribution Done" += 1
+		payment
+		payment 7000
+		dialog phrase "mgf: juice distribution done"
+		
+mission "MGF: Juice Distribution [3]"
+	name "Juice Distribution to <planet>"
+	job
+	repeat
+	deadline 0 1
+	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
+	cargo "Packaged Juice" 10 3 .12
+	to offer
+		or
+			random < 20
+			and
+				#Having reefer ship boost offer chance.
+				random < 50
+				or
+					has "flagship attribute: refrigerated space"
+					has "ship model: QYG-30r Qazan"
+					has "ship model: QYG-70r Tonazqi"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes urban
+	destination
+		distance 2 5
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"MGF: Juice Distribution Done" += 1
+		payment
+		payment 7200 10
+		dialog phrase "mgf: juice distribution done"
+		
+phrase "mgf: unload juice"
+	word
+		`You parked your tanker at the specialized port and begin the discharge procedure. Midway through the unloading your the receiving company representative come and meet you to sign the papers and hand you your payment of <payment>.`
+
+mission "MGF: Juice Transport (Orange Juice 1)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Orange Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Orange Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Orange Juice" -800
+	on complete
+		outfit "Conc. Orange Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4000
+
+mission "MGF: Juice Transport (Orange Juice 2)"
+	name "Bulk Juice to <planet>"
+	description "1600 units of Concentrated Orange Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 16 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Orange Juice" 1600
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Orange Juice" -1600
+	on complete
+		outfit "Conc. Orange Juice" -1600
+		dialog phrase "mgf: unload juice"
+		payment 25000 7400
+		
+mission "MGF: Juice Transport (Orange Juice 3)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Orange Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 45
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Orange Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Orange Juice" -800
+	on complete
+		outfit "Conc. Orange Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4200
+		
+mission "MGF: Juice Transport (Apple Juice 1)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Apple Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Apple Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Apple Juice" -800
+	on complete
+		outfit "Conc. Apple Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4000
+		
+mission "MGF: Juice Transport (Apple Juice 2)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Apple Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 45
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Apple Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Apple Juice" -800
+	on complete
+		outfit "Conc. Apple Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4100
+		
+mission "MGF: Juice Transport (Apple Juice 3)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Apple Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Apple Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Apple Juice" -800
+	on complete
+		outfit "Conc. Apple Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4200
+		
+mission "MGF: Juice Transport (Pineapple Juice 1)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Pineapple Juice along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 35
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Pineapple Juice" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Pineapple Juice" -800
+	on complete
+		outfit "Conc. Pineapple Juice" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4100
+		
+mission "MGF: Juice Transport (Coconut Water 1)"
+	name "Bulk Juice to <planet>"
+	description "800 units of Concentrated Coconut Water along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 8 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Coconut Water" 800
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Coconut Water" -800
+	on complete
+		outfit "Conc. Coconut Water" -800
+		dialog phrase "mgf: unload juice"
+		payment 18000 4500
+		
+mission "MGF: Juice Transport (Coconut Water 2)"
+	name "Bulk Juice to <planet>"
+	description "1600 units of Concentrated Coconut Water along with <cargo> to verify the delivery is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 20
+		has "outfit (installed): C-type 200 Juice Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "urban"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): C-type 200 Juice Tank" >= 16 + ( "outfit (installed): Conc. Orange Juice" / 100 ) + ( "outfit (installed): Conc. Apple Juice" / 100 ) + ( "outfit (installed): Conc. Pineapple Juice" / 100 ) + ( "outfit (installed): Conc. Coconut Water" / 100 )
+	on accept
+		outfit "Conc. Coconut Water" 1600
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Conc. Coconut Water" -1600
+	on complete
+		outfit "Conc. Coconut Water" -1600
+		dialog phrase "mgf: unload juice"
+		payment 35000 8800
 		
 #=======================================RORO Jobs
 trade

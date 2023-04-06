@@ -7158,6 +7158,58 @@ ship "CWC-2 Celestine"
 	"final explode" "final explosion small"
 	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving them in the most perfect condition with individual thermal control system for each tank to keep the heat as stable as possible. Though lightly armed these ships rarely wander away from relative safety of heavily patrolled Paradise Planets.`
 	
+ship "CJC-3 Citrus"
+	sprite "ship/mgf citrus"
+	thumbnail "thumbnail/mgf citrus thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 880000
+		"shields" 1300
+		"hull" 1400
+		"required crew" 3
+		"bunks" 6
+		"mass" 284
+		"drag" 6.5
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 10
+		"outfit space" 230
+		"weapon capacity" 80
+		"engine capacity" 90
+		"c-type 200 juice tank" -16
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"C-type 200 Juice Tank" 16
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	turret 0 -61.5 
+	turret 0 -0.5 
+	gun -11.5 -107.5 
+	gun 11.5 -107.5 
+	engine -20.5 104 
+	engine 20.5 104 
+	engine 0 109 
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description `Citrus-class is purpose designed and built as fruit juice tanker for the Solacer Group mainly for transporting chilled or frozen concentrated juice exporting from the south.`
+	
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
 	thumbnail "thumbnail/mgf qazan thumb"

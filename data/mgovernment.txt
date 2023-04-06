@@ -80,6 +80,45 @@ government "MGF: Sulso LG Shipping"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
+# Logistic
+government "MGF: NGK Hauling"
+	"display name" "NGK Hauling"
+	"swizzle" 13
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.01
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.2
+		"MGF: Black Death" -.2
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+	
+# Reefer shipping
+government "MGF: Solacer Group"
+	"display name" "Solacer Group"
+	"swizzle" 8
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.01
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.1
+		"MGF: Black Death" -.1
+		"MGF: Crossguard Patrol" .5
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+	
 # Wine shipping, mostly in paradise worlds, rarely in safer rim area.
 # Not actually from Luna
 government "MGF: Luna Winery"
@@ -228,8 +267,8 @@ government "MGF: Jack's Gang"
 		"Merchant" 1
 		"Pirate" -.2
 		"Korath" -.01
-		"Militia" 1
-		"Free Worlds" 1
+		"Militia" 1.6
+		"Free Worlds" 1.6
 		"MGF: Crossguard Patrol" 1.6
 		#Lost in Midnight
 		"Invasive Lifeform" -.01

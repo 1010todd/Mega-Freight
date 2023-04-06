@@ -833,6 +833,73 @@ fleet "MGF: Luna Winery Long Range"
 		"Celestine (Long Range, Rose Wine)"
 		"Headhunter (LunaWine Long Range Escort)" 2
 		
+fleet "MGF: Small Solacer Reefer"
+	government "MGF: Solacer Group"
+	names "solacer reefer name"
+	cargo 1
+	commodities Food
+	personality
+		confusion 40
+		timid frugal appeasing
+	variant 60
+		"QYG-30r Qazan"
+		"Fury"
+		
+fleet "MGF: Solacer Juice Tanker"
+	government"MGF: Solacer Group"
+	names "solacer juicetanker name"
+	cargo 1
+	personality
+		confusion 40
+		timid frugal appeasing
+	variant 60
+		"CJC-3 Citrus"
+		"Hawk" 2
+	variant 30
+		"CJC-3 Citrus" 2
+		"Bastion"
+	variant 30
+		"CJC-3 Citrus" 2
+		"Splinter"
+	variant 60
+		"Citrus (Orange Half-Filled)"
+		"Hawk" 2
+	variant 30
+		"Citrus (Orange Filled)" 2
+		"Bastion"
+	variant 30
+		"Citrus (Orange Filled)" 2
+		"Splinter"
+	variant 60
+		"Citrus (Apple Filled)"
+		"Hawk" 2
+	variant 30
+		"Citrus (Apple Filled)" 2
+		"Bastion"
+	variant 30
+		"Citrus (Apple Filled)" 2
+		"Splinter"
+	variant 60
+		"Citrus (Pineapple Filled)"
+		"Hawk" 2
+	variant 30
+		"Citrus (Pineapple Filled)" 2
+		"Bastion"
+	variant 30
+		"Citrus (Pineapple Filled)" 2
+		"Splinter"
+	variant 60
+		"Citrus (Coconut Filled)"
+		"Hawk" 2
+	variant 30
+		"Citrus (Coconut Filled)" 2
+		"Bastion"
+	variant 30
+		"Citrus (Coconut Filled)" 2
+		"Splinter"
+
+	
+		
 fleet "MGF: Near Bourne Merchant"
 	government "Merchant"
 	names "civilian"
@@ -956,10 +1023,51 @@ fleet "Sulso LG Shipping"
 		"Mesa (LH Filled)"
 		"Splinter"
 		
+fleet "NGK Hauling HeavyFreight"
+	government "MGF: NGK Hauling"
+	names "ngk name"
+	fighters "ngk fighter"
+	cargo 4
+	personality
+		confusion 25
+		timid frugal
+	variant 50
+		"FG-5 Bluewhale-A" 3
+		"Leviathan (NGK Escort)"
+		"Steward (Long Range)" #todo custom NGK carrier/light carrier.
+		"Xencar (Particle)" 6
+	variant 50
+		"FG-5 Bluewhale-A" 3
+		"AP-7 Sentinel (NGK Escort)"
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		
+fleet "NGK Hauling RORO"
+	government "MGF: NGK Hauling"
+	names "ngk name"
+	fighters "ngk fighter"
+	cargo 4
+	personality
+		confusion 25
+		timid frugal
+	variant 50
+		"LVC-2 Sandura"
+		"Leviathan (NGK Escort)"
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+	variant 50
+		"LVC-2 Sandura"
+		"AP-7 Sentinel (NGK Escort)"
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		
+		
+		
 #Largest MHL convoy traveling on specific main route between major space
 fleet "Maryhal Logistic ArteryLine"
 	government "MGF: Maryhal Logistic"
 	names "maryhal logistic"
+	fighters "republic fighter"
 	cargo 4
 	personality
 		confusion 25

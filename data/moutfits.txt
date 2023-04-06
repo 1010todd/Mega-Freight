@@ -1664,11 +1664,25 @@ outfit "C-type 100 Wine Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 10
 	"c-type 100 wine tank" 1
+	"active cooling" 5
 	"wine capacity" 50
 	"wine lock" -9e+10
 	"unplunderable" 1
 	description `Specially designed wine tank with special coating and temperature control systems to perfectly maintain the wine quality during transport.`
 	description `Having ships with dedicated wine tank as flagship allow you to be offered special jobs for transporting wine.`
+	
+outfit "C-type 200 Juice Tank"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/fuel module"
+	"mass" 20
+	"c-type 200 juice tank" 1
+	"active cooling" 5
+	"juice capacity" 100
+	"juice lock" -9e+10
+	"unplunderable" 1
+	description `Dedicated refrigerated juice tank each built with their own cooling system to maintain the perfect temperature of their cargo.`
+	description `Having ships with dedicated juice tank as flagship allow you to be offered special jobs for transporting juice.`
 	
 outfit "X09E Fighter Assembler"
 	category "Systems"
@@ -2002,6 +2016,50 @@ outfit "Rose Wine"
 	"mass" .1 
 	"wine capacity" -1
 	"wine lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
+#=======================================Juice
+	
+#Conc. = Concentrated
+
+outfit "Conc. Orange Juice"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"juice capacity" -1
+	"juice lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
+outfit "Conc. Apple Juice"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"juice capacity" -1
+	"juice lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
+outfit "Conc. Pineapple Juice"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"juice capacity" -1
+	"juice lock" 1
+	"heat capacity" 2
+	"unplunderable" 1
+	
+outfit "Conc. Coconut Water"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"juice capacity" -1
+	"juice lock" 1
 	"heat capacity" 2
 	"unplunderable" 1
 	
