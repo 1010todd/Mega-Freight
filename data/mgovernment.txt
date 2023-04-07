@@ -88,7 +88,7 @@ government "MGF: NGK Hauling"
 	"attitude toward"
 		"Merchant" 1
 		"Pirate" -.1
-		"Korath" -.01
+		"Korath" -.1
 		"Scar's Legion" -.1
 		"MGF: Minotaurs" -.2
 		"MGF: Black Death" -.2
@@ -146,8 +146,8 @@ government "MGF: Crossguard Patrol"
 	"player reputation" 1
 	"attitude toward"
 		"Merchant" 1
-		"Pirate" -.2
-		"Korath" -.1
+		"Pirate" -.01
+		"Korath" -.01
 		"MGF: Black Death" -.2
 		"MGF: Jack's Gang" 1.6
 		#Lost in Midnight

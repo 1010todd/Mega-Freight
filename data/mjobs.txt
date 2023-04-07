@@ -685,6 +685,36 @@ mission "MGF: Huge Bulk Delivery [2]"
 		payment 3000
 		dialog phrase "generic cargo delivery payment"
 		
+#==================================Crossguard-related jobs
+
+mission "MGF: Hire Small Crossguard Escort"
+	name "Hire Small Crossguard Escort"
+	job
+	repeat
+	deadline 30
+	description `Hire a small fleet of Crossguard warships to escort you for 1 month (<date>). You will pay 480,000 credits upfront for the escort with no further fees.`
+	to offer
+		random < 30
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "dirt belt" rim "south"
+	on accept
+		payment -480000
+	
+	npc
+		government "Escort" #So they attack everything that attack you.
+		names "crossguard name"
+		cargo 1
+		personality
+			confusion 20
+			hunting disables
+		fleet
+			variant 6
+				"Marauder Quicksilver (XGS Escort)" 4
+			variant 4
+				"Marauder Quicksilver (XGS Escort, Weapons)" 4
+	to complete
+		never
 #===================================Heavy Lift jobs
 
 phrase "mgf: heavy lift complete"

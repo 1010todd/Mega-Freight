@@ -7896,6 +7896,119 @@ ship "AsK12-6 Celjurai"
 	"final explode" "final explosion medium"
 	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.`
 	
+ship "L-VC28 Zuikaku"
+	sprite "ship/mgf zuikaku"
+	thumbnail "thumbnail/mgf zuikaku thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 30800000
+		"shields" 26000
+		"hull" 13800
+		"required crew" 88
+		"bunks" 180
+		"mass" 4584
+		"drag" 18.3
+		"heat dissipation" .65
+		"fuel capacity" 1800
+		"cargo space" 50
+		"outfit space" 940
+		"weapon capacity" 500
+		"engine capacity" 210
+		"shield generation multiplier" .02
+		"hull repair rate" 1
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"G22 Particle Turret" 4
+		"Proton Turret"
+		"Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 95
+		
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Hyperdrive"
+		
+	gun 109 -74 
+		over
+	gun -109 -74 
+		over
+	gun 109 -48.5 
+		over
+	gun -109 -48.5 
+		over
+	turret 69 -44 "G22 Particle Turret"
+	turret -69 -44 "G22 Particle Turret"
+	turret 45.5 26.5 "G22 Particle Turret"
+	turret -45.5 26.5 "G22 Particle Turret"
+	turret 80 94 "Anti-Missile Turret"
+	turret -80 94 "Anti-Missile Turret"
+	turret 0 216.5 
+	#todo: custom launch effect/sound?
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" -70.5 -276 
+		"launch effect" "human internal"
+	bay "Fighter" 70.5 -276 
+		"launch effect" "human internal"
+	engine -63.5 319 
+		over
+	engine 63.5 319 
+		over
+	engine -91.5 319 
+	engine 91.5 319 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	description `NGK Hauling custom built light carrier for escorting their freighters as piracy raises. Built with unique technology by one of the most advanced shipyard resulting in one of the most advanced carrier in human space.`
+	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
 	thumbnail "thumbnail/mgf xencar thumb"

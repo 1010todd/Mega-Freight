@@ -82,6 +82,7 @@ shipyard developer
 	"CWC-2 Celestine"
 	"CJC-3 Citrus"
 	"Leviathan (NGK Escort)"
+	"L-VC28 Zuikaku"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -172,6 +173,7 @@ shipyard "human plugins"
 	"CWC-2 Celestine"
 	"CJC-3 Citrus"
 	"Leviathan (NGK Escort)"
+	"L-VC28 Zuikaku"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
@@ -476,6 +478,10 @@ shipyard "Luna Winery Custom"
 	
 shipyard "Solacer Group Custom"
 	"CJC-3 Citrus"
+	
+shipyard "MJK Heavy Industries Advanced"
+	"Leviathan (NGK Escort)"
+	"L-VC28 Zuikaku"
 	
 shipyard "Vessa Shipworks Basic"
 	"TS-650 Herrenbal"

@@ -1478,6 +1478,42 @@ ship "AP-7 Sentinel" "AP-7 Sentinel (NGK Escort)"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 
+ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort)"
+	swizzle 7
+	outfits
+		"Heavy Laser" 2
+		"Heavy Anti-Missile Turret"
+		
+		"Fission Reactor"
+		"LP036a Battery Pack"
+		"S-270 Regenerator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 7
+		
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort, Weapons)"
+	sprite "ship/mquicksilverw"
+	thumbnail "thumbnail/mquicksilverw"
+	swizzle 7
+	add attributes
+		"weapon capacity" 15
+	outfits
+		"EPB3-2 Particle Cannon" 2
+		"Mod Blaster Turret"
+		
+		"Fission Reactor"
+		"LP036a Battery Pack"
+		"S-270 Regenerator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 7
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+
 #Claymore test mission.
 
 ship "Falcon" "Falcon (Automaton)"
