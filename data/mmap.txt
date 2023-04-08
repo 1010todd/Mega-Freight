@@ -830,7 +830,7 @@ system Zubenelgenubi
 #=====================================Sulso LG Shipping
 #Liquid Gas shipping company, often found in industrial system or oil system
 system Sol
-	add fleet "Sulso LG Shipping" 4500
+	add fleet "Sulso LG Shipping" 5800
 system "Alpha Centauri"
 	add fleet "Sulso LG Shipping" 6500
 system Denebola
@@ -838,80 +838,80 @@ system Denebola
 
 #Oil
 system "Kaus Borealis"
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system "Peacock"
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Rasalhague
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Vega
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Cebalrai
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Ascella
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 system Regor
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Wezen
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 system Schedar
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Bellatrix
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Menkar
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 # factory
 system Sabik
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Dabih
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Alphecca
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Alioth
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Graffias
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Kraz
-	add fleet "Sulso LG Shipping" 5500
+	add fleet "Sulso LG Shipping" 6500
 system Pherkad
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Tarazed
-	add fleet "Sulso LG Shipping" 5500
-system Zubeneschamali
-	add fleet "Sulso LG Shipping" 5500
-system "Yed Prior"
 	add fleet "Sulso LG Shipping" 6500
+system Zubeneschamali
+	add fleet "Sulso LG Shipping" 6500
+system "Yed Prior"
+	add fleet "Sulso LG Shipping" 8500
 
 system Phecda
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Betelgeuse 
-	add fleet "Sulso LG Shipping" 5500
+	add fleet "Sulso LG Shipping" 6500
 system Miaplacidus 
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Aldebaran 
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 system Zosma
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Adhara
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system "Epsilon Leonis"
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 system "Delta Capricorni"
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Fomalhaut
-	add fleet "Sulso LG Shipping" 5500
+	add fleet "Sulso LG Shipping" 6500
 system Alpheratz
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Caph
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Mirfak
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 system Diphda
-	add fleet "Sulso LG Shipping" 6500
+	add fleet "Sulso LG Shipping" 8500
 
 #intermediate
 #Nah, too lazy.

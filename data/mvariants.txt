@@ -1,14 +1,13 @@
 
 ship "TS-650 Herrenbal" "Herrenbal (Long Range)"
-	sprite "ship/mgf herrenbal"
-	thumbnail "thumbnail/mgf herrenbal thumb"
 	outfits
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
 		
 		"Proton Turret"
 		"Quad Blaster Turret"
-		"Heavy Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Anti-Missile Turret"
 		
 		"Fuel Pod" 2
 		"nGVF-DD Fuel Cell"
@@ -68,7 +67,8 @@ ship "CH-6 Carrack" "CH-6 Carrack (Atomic, Jacks)"
 		"JX-2 Overdriven Gatling Turret" 3
 		"Gatling Gun Ammo" 36000
 		"Proton Turret" 3
-		"Heavy Anti-Missile Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		"Anti-Missile Turret"
 		
 		"Fission Reactor" 2
 		"LP288a Battery Pack"
@@ -229,7 +229,7 @@ ship "Dreadnought" "Dreadnought (Parapet)"
 		"Liquid Helium Cooler"
 		"Tactical Scanner"
 		"Laser Rifle" 25
-		"Outfit Expansion" 2
+		"Outfits Expansion" 2
 		
 		"Orca Plasma Thruster"
 		"Orca Plasma Steering"
@@ -268,7 +268,7 @@ ship "Falcon" "Falcon (Parapet)"
 		"Large Radar Jammer"
 		"Liquid Nitrogen Cooler"
 		"Laser Rifle" 15
-		"Outfit Expansion"
+		"Outfits Expansion"
 		
 		"Impala Plasma Thruster"
 		"Impala Plasma Steering"
@@ -429,7 +429,8 @@ ship "Aplomado" "Aplomado (Plasma)"
 		"Torpedo Launcher" 2
 		"Torpedo" 60
 		"Plasma Turret" 4
-		"Heavy Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Anti-Missile Turret"
 		
 		"Fusion Reactor"
 		"LP072a Battery Pack"
@@ -479,7 +480,8 @@ ship "EM-8A Armadillo" "Armadillo (Weapon)"
 		"Torpedo Launcher" 4
 		"Torpedo" 120
 		"EL-1388 Aphelion Turret" 2
-		"Heavy Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Anti-Missile Turret"
 		
 		"Fission Reactor"
 		"Water Coolant System"
@@ -679,6 +681,18 @@ ship "AGT-31 Xencar" "Xencar (Particle)"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
+		
+ship "AGT-31 Xencar" "Xencar (NGK)"
+	outfits
+		"EPB3-2 Particle Cannon"
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		
+		"X1700 Ion Thruster"
+		"A125 Atomic Steering"
 		
 ship "CK80T Tlielart" "Tlielart (Long Range)"
 	outfits
@@ -1287,7 +1301,7 @@ ship "CWC-2 Celestine" "Celestine (Long Range)"
 		"LP072a Battery Pack"
 		"D14-RN Shield Generator"
 		"C-type 100 Wine Tank" 20
-		"Fuel Tank" 3
+		"Fuel Pod" 3
 		
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
@@ -1303,7 +1317,7 @@ ship "CWC-2 Celestine" "Celestine (Long Range, Red Wine)"
 		"LP072a Battery Pack"
 		"D14-RN Shield Generator"
 		"C-type 100 Wine Tank" 20
-		"Fuel Tank" 3
+		"Fuel Pod" 3
 		
 		"Red Wine" 1000
 		
@@ -1321,7 +1335,7 @@ ship "CWC-2 Celestine" "Celestine (Long Range, White Wine)"
 		"LP072a Battery Pack"
 		"D14-RN Shield Generator"
 		"C-type 100 Wine Tank" 20
-		"Fuel Tank" 3
+		"Fuel Pod" 3
 		
 		"White Wine" 1000
 		
@@ -1339,7 +1353,7 @@ ship "CWC-2 Celestine" "Celestine (Long Range, Rose Wine)"
 		"LP072a Battery Pack"
 		"D14-RN Shield Generator"
 		"C-type 100 Wine Tank" 20
-		"Fuel Tank" 3
+		"Fuel Pod" 3
 		
 		"Rose Wine" 1000
 		

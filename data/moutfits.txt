@@ -415,6 +415,53 @@ outfit "G22 Particle Turret"
 		"hull damage" 48
 	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate found on some older ships.`
 		
+effect "k3k particle impact"
+	sprite "effect/k3k particle impact"
+		"no repeat"
+		"frame rate" 30
+	lifetime 15
+	"random angle" 3
+	"velocity scale" -.03
+		
+outfit "K3-K Particle Turret"
+	category "Turrets"
+	cost 1780000
+	thumbnail "outfit/mgf k3k particle turret"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	weapon
+		sound "k3k particle"
+		"hardpoint sprite" "hardpoint/mgf k3k particle turret hp"
+		"hardpoint offset" .2
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .6
+		"turret turn" 1.6
+		"submunition" "K3-K Particle Beam"
+			offset 1.5 0
+		"submunition" "K3-K Particle Beam"
+			offset -1.5 0
+		"velocity" 28
+		"lifetime" 1
+		"reload" 17
+		"firing energy" 90
+		"firing force" 12
+		"firing heat" 570
+	description `A re-engineered and modernized particle cannon by MJK Heavy Industries for their new carrier Zuikaku-class. Syncing the firing of two guns together and increasing the damage per shot closer to modern model while maintaining the rapid firerate of the G22 model resulting in a very formidable weapon to allow the Zuikaku-class to handle pirate ambushes with ease, and match up with the notorious heavily modified Marauder ships.`
+
+outfit "K3-K Particle Beam"
+	weapon
+		sprite "projectile/k3k particle beam"
+			scale .8
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .5
+		"lifetime" 30
+		"random lifetime" 2
+		"hit force" 50
+		"shield damage" 62
+		"hull damage" 57
+		
 outfit "M6-ACS Artillery"
 	category "Guns"
 	cost 2100000
@@ -1508,6 +1555,7 @@ outfit "MYi2 Railgun Turret"
 		"hit effect" "bullet impact"
 		"inaccuracy" 3
 		"velocity" 44
+		"turret turn" 6
 		"lifetime" 1
 		"range override" 2100
 		"reload" 12
@@ -1517,6 +1565,7 @@ outfit "MYi2 Railgun Turret"
 		"stream"
 		"submunition" "rslug" 1
 	description `Turreted version of the Hai Railgun for ships with some left over space and a turret mount free.`
+	
 	
 	
 outfit "MX30 Sirius Core"
@@ -1607,6 +1656,31 @@ outfit "VNZ5 Inferno Repair"
 	"hull protection" .1
 	"cooling inefficiency" .1
 	description "A strange hull repair system found on the Death Harmonica. It seems to be the source of glowing red wire that flow along the walls and hull of the ship. It provides additional benefits beside repairing hull."
+	
+outfit "Akataiyo Fusion Reactor"
+	category "Power"
+	cost 8000000
+	thumbnail "outfit/mgf akataiyo fusion"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 22.7
+	"heat generation" 84
+	"energy capacity" 15000
+	"ion protection" .1
+	"AT-type slot" 12
+	description `A variant of the standard fusion reactor with greatly improved output from additional and improve energy capture methods as well as slot for additional energy harvesting modules for additonal power. It's also combined built-in battery improving the reliability and endurance of the power systems.`
+	description `First came out of the lab into actual production to power the energy-hungry K3-K Particle turrets of the new Zuikaku-class.`
+	
+outfit "Ta-class Energy Module"
+	category "Power"
+	cost 240000
+	thumbnail "outfit/mgf akataiyo fusion module"
+	"mass" 1
+	"energy generation" .5
+	"cooling" .1
+	"cooling inefficiency" .5
+	"AT-type slot" -1
+	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvestign additional energy at cost of more heat management problems.`
 	
 outfit "M-type 1k Gas Tank"
 	category "Systems"

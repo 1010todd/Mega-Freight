@@ -1035,17 +1035,22 @@ fleet "NGK Hauling HeavyFreight"
 		"FG-5 Bluewhale-A" 5
 		"Leviathan (NGK Escort)"
 		"L-VC28 Zuikaku"
-		"Xencar (Particle)" 20
+		"Xencar (NGK)" 20
 	variant 50
 		"FG-5 Bluewhale-A" 5
 		"AP-7 Sentinel (NGK Escort)"
 		"L-VC28 Zuikaku"
-		"Xencar (Particle)" 20
+		"Xencar (NGK)" 20
 	variant 50
-		"FG-7 Conveyor" 4
+		"FG-7 Conveyor-A" 4
 		"Leviathan (NGK Escort)"
 		"L-VC28 Zuikaku"
-		"Xencar (Particle)" 20
+		"Xencar (NGK)" 20
+	variant 40
+		"FG-7 Conveyor-A" 5
+		"Leviathan (NGK Escort)"
+		"L-VC28 Zuikaku"
+		"Xencar (NGK)" 20
 		
 fleet "NGK Hauling RORO"
 	government "MGF: NGK Hauling"
@@ -1059,12 +1064,12 @@ fleet "NGK Hauling RORO"
 		"LVC-2 Sandura"
 		"Leviathan (NGK Escort)"
 		"Steward (Long Range)" #todo smaller carrier.
-		"Xencar (Particle)" 6
+		"Xencar (NGK)" 6
 	variant 50
 		"LVC-2 Sandura"
 		"AP-7 Sentinel (NGK Escort)"
 		"Steward (Long Range)"
-		"Xencar (Particle)" 6
+		"Xencar (NGK)" 6
 		
 		
 		

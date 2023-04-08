@@ -694,7 +694,18 @@ mission "MGF: Hire Small Crossguard Escort"
 	deadline 30
 	description `Hire a small fleet of Crossguard warships to escort you for 1 month (<date>). You will pay 480,000 credits upfront for the escort with no further fees.`
 	to offer
-		random < 30
+		or
+			random < 30
+			#-----Higher chance if using freighter with no escorts.
+			and
+				random < 50
+				or
+					has "ship: Light Freighter"
+					has "ship: Heavy Freighter"
+				"ship: Interceptor" < 3
+				"ship: Light Warship" < 3
+				"ship: Medium Warship" < 2
+				"ship: Heavy Warship" < 1
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "dirt belt" rim "south"
@@ -2265,7 +2276,7 @@ mission "MGF: Bulk Livestock Transport to Paradise 1"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent"
 		distance 2 12
-		attribute "paradise"
+		attributes "paradise"
 		not attributes "station"
 	to accept
 		or

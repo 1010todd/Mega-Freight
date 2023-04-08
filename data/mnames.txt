@@ -398,7 +398,7 @@ phrase "ngk name"
 		"Tokiwa"
 		"Yashima"
 		"Rokuryu"
-		"Hekiryu
+		"Hekiryu"
 		"Hanyo"
 		"Taisei"
 		"Seiei"

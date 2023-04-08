@@ -112,6 +112,7 @@ ship "Wisymton"
 ship "Wisymton" "Wisymton (Light Freighter)"
 	add attributes
 		category "Light Freighter"
+		"hyperdrive" 1
 
 ship "Wisymton" "Wisymton (Cargo)"
 	sprite "ship/mgf wisymton c"
@@ -166,6 +167,7 @@ ship "Wisymton" "Wisymton (Light Freighter, Cargo)"
 	thumbnail "thumbnail/mgf wisymton c thumb"
 	add attributes
 		category "Light Freighter"
+		"hyperdrive" 1
 		"cost" 4000
 		"mass" 5
 		"cargo space" 40
@@ -1849,6 +1851,7 @@ ship "PCS-4 Castle"
 	description `Modified from the FG-7 Conveyor, the Castle rivals even the Navy's Spetum class in terms of raw fighter capacity. However, it still can't compete when it comes to fighter servicing and ship's combat capability.`
 	
 ship "FTV-33 Acareus"
+	plural "FTV-33 Acareus"
 	sprite "ship/mgf acareus"
 	thumbnail "thumbnail/mgf acareus thumb"
 	attributes
@@ -2080,7 +2083,7 @@ ship "CS-24 Garrison"
 		category "Heavy Warship"
 		"cost" 18200000
 		"shields" 18000
-		"hull" 15100
+		"hull" 11200
 		"required crew" 120
 		"bunks" 310
 		"mass" 5514
@@ -3268,7 +3271,7 @@ ship "AP-7 Sentinel"
 	gun 67 -4.5 "Mjolnir Launcher" 
 	gun -72 -4.5 "Mjolnir Launcher" 
 	gun 72 -4.5 "Mjolnir Launcher" 
-	turret 0 -112 "Proton Gun"
+	turret 0 -112 "Proton Turret"
 	turret 0 -39 
 	turret 0 11 
 	engine -34.5 201.5 
@@ -3302,7 +3305,7 @@ ship "SC-1 Alcazar"
 		"fuel capacity" 6000
 		"cargo space" 1500
 		"outfit space" 13070
-		"weapon capacity" 7000
+		"weapon capacity" 8000
 		"engine capacity" 650
 		"hull repair rate" 25
 		"repair delay" 760
@@ -3938,7 +3941,7 @@ ship "Culverin Class"
 			"Navy Cruiser"
 		"cost" 14200000
 		"shields" 24200
-		"hull" 8600
+		"hull" 9800
 		"required crew" 86
 		"bunks" 160
 		"mass" 1205
@@ -4048,6 +4051,10 @@ ship "Culverin Class"
 	description "A large arsenal ship recently developed and deployed by the navy. The Culverin Class arsenal ship carries over dozens of missile launchers and over half a thousand missiles to saturate the entire battlefield with enough missiles to easily overwhelm even the best anti-missile system available."
 	
 ship "Culverin Class" "Culverin Class (Mark II)"
+	add attributes #me lazy
+		"outfit space" 60
+		"weapon capacity" 75
+		"cargo space -40
 	outfits
 		"Sidewinder Missile Launcher" 16
 		"Sidewinder Missile" 720
@@ -4059,7 +4066,7 @@ ship "Culverin Class" "Culverin Class (Mark II)"
 		"Fusion Reactor"
 		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
-		"Large Radar Jammer" 2
+		"Large Radar Jammer"
 		"Water Coolant System"
 		"Brig"
 		"Laser Rifle" 50
@@ -4081,7 +4088,7 @@ ship "Spetum Class"
 			"Navy Carrier"
 		"cost" 28200000
 		"shields" 27800
-		"hull" 12600
+		"hull" 15600
 		"hull repair rate" .4
 		"required crew" 525
 		"bunks" 822
@@ -4408,6 +4415,8 @@ ship "Spetum Class"
 	description `Public reaction was mixed, while the ship itself it a feat of engineering and a mark of progress in a way some thought the budget could've been better spent else where. Though the ship will be a major deterrence against pirates some were also concerned about the lives of fighter pilots who where often just cannon fodder. Nevertheless armchair generals were all at least somewhat satisfied with what they would consider an actual carrier.`
 	
 ship "Spetum Class" "Spetum Class (Mark II)"
+	add attributes
+		"outfit space" 20
 	outfits
 		"Typhoon Launcher" 4
 		"Typhoon Torpedo" 120
@@ -7159,6 +7168,7 @@ ship "CWC-2 Celestine"
 	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving them in the most perfect condition with individual thermal control system for each tank to keep the heat as stable as possible. Though lightly armed these ships rarely wander away from relative safety of heavily patrolled Paradise Planets.`
 	
 ship "CJC-3 Citrus"
+	plural "CJC-3 Citrus"
 	sprite "ship/mgf citrus"
 	thumbnail "thumbnail/mgf citrus thumb"
 	attributes
@@ -7896,14 +7906,24 @@ ship "AsK12-6 Celjurai"
 	"final explode" "final explosion medium"
 	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.`
 	
+effect "zuikaku fighter launch"
+	sprite "effect/particle impact"
+		"no repeat"
+		"frame rate" 45
+	"lifetime" 15
+	sound "mgf zuikaku fighter launch"
+	"random angle" 2
+	"random spin" 10
+	"velocity scale" -.05
+	
 ship "L-VC28 Zuikaku"
 	sprite "ship/mgf zuikaku"
 	thumbnail "thumbnail/mgf zuikaku thumb"
 	attributes
 		category "Heavy Warship"
 		"cost" 30800000
-		"shields" 26000
-		"hull" 13800
+		"shields" 24000
+		"hull" 12100
 		"required crew" 88
 		"bunks" 180
 		"mass" 4584
@@ -7911,8 +7931,8 @@ ship "L-VC28 Zuikaku"
 		"heat dissipation" .65
 		"fuel capacity" 1800
 		"cargo space" 50
-		"outfit space" 940
-		"weapon capacity" 500
+		"outfit space" 960
+		"weapon capacity" 510
 		"engine capacity" 210
 		"shield generation multiplier" .02
 		"hull repair rate" 1
@@ -7924,19 +7944,19 @@ ship "L-VC28 Zuikaku"
 	outfits
 		"Torpedo Launcher" 4
 		"Torpedo" 120
-		"G22 Particle Turret" 4
+		"K3-K Particle Turret" 4
 		"Proton Turret"
 		"Anti-Missile Turret" 2
 		
-		"Fusion Reactor"
+		"Akataiyo Fusion Reactor"
+		"Ta-class Energy Module" 12
 		"Water Coolant System"
-		"LP144a Battery Pack"
 		"D94-YV Shield Generator"
 		"Laser Rifle" 95
 		
 		"X5200 Ion Steering"
 		"X5700 Ion Thruster"
-		"Hyperdrive"
+		"Scram Drive"
 		
 	gun 109 -74 
 		over
@@ -7946,54 +7966,54 @@ ship "L-VC28 Zuikaku"
 		over
 	gun -109 -48.5 
 		over
-	turret 69 -44 "G22 Particle Turret"
-	turret -69 -44 "G22 Particle Turret"
-	turret 45.5 26.5 "G22 Particle Turret"
-	turret -45.5 26.5 "G22 Particle Turret"
+	turret 69 -44 "K3-K Particle Turret"
+	turret -69 -44 "K3-K Particle Turret"
+	turret 45.5 26.5 "K3-K Particle Turret"
+	turret -45.5 26.5 "K3-K Particle Turret"
 	turret 80 94 "Anti-Missile Turret"
 	turret -80 94 "Anti-Missile Turret"
 	turret 0 216.5 
 	#todo: custom launch effect/sound?
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" -70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
-		"launch effect" "human internal"
+		"launch effect" "zuikaku fighter launch"
 	engine -63.5 319 
 		over
 	engine 63.5 319 
@@ -8367,16 +8387,16 @@ ship "AYS-19 Peytoia"
 	turret 51 -127 "Pulse Turret"
 	turret -51 -127 "Pulse Turret"
 	turret 0 -141.5 "Mi3 Ion Cannon Turret"
-	turret 136.5 -70.5 "MYi-2 Railgun Turret"
-	turret -136.5 -70.5 "MYi-2 Railgun Turret"
+	turret 136.5 -70.5 "MYi2 Railgun Turret"
+	turret -136.5 -70.5 "MYi2 Railgun Turret"
 	turret 147.5 -41.5 "Bullfrog Anti-Missile"
 	turret -147.5 -41.5 "Bullfrog Anti-Missile"
-	turret 42.5 -20.5 "MYi-2 Railgun Turret"
-	turret -42.5 -20.5 "MYi-2 Railgun Turret"
+	turret 42.5 -20.5 "MYi2 Railgun Turret"
+	turret -42.5 -20.5 "MYi2 Railgun Turret"
 	turret 82 32.5 "Bullfrog Anti-Missile"
 	turret -82 32.5 "Bullfrog Anti-Missile"
-	turret 82 178 "MYi-2 Railgun Turret"
-	turret -82 178 "MYi-2 Railgun Turret"
+	turret 82 178 "MYi2 Railgun Turret"
+	turret -82 178 "MYi2 Railgun Turret"
 	turret 46 185 "Bullfrog Anti-Missile"
 	turret -46 185 "Bullfrog Anti-Missile"
 	turret 63.5 327.5 "Pulse Turret"
@@ -8471,7 +8491,7 @@ ship "Type-13 Sea Strait"
 		"heat dissipation" .6
 		"fuel capacity" 800
 		"cargo space" 2380
-		"outfit space" 1065
+		"outfit space" 1265
 		"weapon capacity" 775
 		"engine capacity" 125
 		weapon
