@@ -1171,6 +1171,70 @@ ship "LPC-3 Lavaka"
 	"final explode" "final explosion large"
 	description `A large oil carrier designed and built by Pioneer Heavy Industries. Lavaka-class is designed to ship either crude oil or other petroleum products in bulk across large distance with unmatched efficiency. Lavaka-class is also one of the largest ship designed and built by Pioneer HI.`
 	
+ship "LAC-4 Lithalsa"
+	sprite "ship/mgf lithalsa"
+	thumbnail "thumbnail/mgf lithalsa thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 8900000
+		"shields" 8000
+		"hull" 7800
+		"required crew" 20
+		"bunks" 30
+		"mass" 4250
+		"drag" 11.5
+		"heat dissipation" .7
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 480
+		"weapon capacity" 170
+		"engine capacity" 120
+		"b-type 1k bitumen tank" -4
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Quad Blaster Turret"
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 12
+		
+		"B-type 1k Bitumen Tank" 4
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+	turret -37 105 "Heavy Anti-Missile Turret"
+	turret 37 105 "Heavy Anti-Missile Turret"
+	turret -48.5 140.5 
+	turret 48.5 140.5 
+	turret 0 -179 "Quad Blaster Turret"
+	gun -21 -206 
+	gun 21 -206 
+	engine -34.5 203.5 
+	engine 34.5 203.5 
+	engine -66.5 175 
+		zoom .7
+	engine 66.5 175 
+		zoom .7
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Specialized bitumen tanker with heated tanks to maintain the cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several on going projects especially on developing worlds can require significant amount of bitumen. Because the service area for these ships often lack specialized discharge facilities the Lithalsa comes with it's own discharging system for unloading its cargo directly onto trucks or other transport to distribute it to the site.`
+	
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
 	thumbnail "thumbnail/mgf bluewhale"
@@ -1178,7 +1242,7 @@ ship "FG-5 Bluewhale"
 		category "Heavy Freighter"
 		"cost" 18200000
 		"shields" 12000
-		"hull" 14500
+		"hull" 10500
 		"required crew" 28
 		"bunks" 50
 		"mass" 7420
@@ -1417,7 +1481,7 @@ ship "FG-7 Conveyor"
 		category "Heavy Freighter"
 		"cost" 52200000
 		"shields" 13800
-		"hull" 15000
+		"hull" 13200
 		"required crew" 45
 		"bunks" 80
 		"mass" 12420
@@ -4088,7 +4152,7 @@ ship "Spetum Class"
 			"Navy Carrier"
 		"cost" 28200000
 		"shields" 27800
-		"hull" 15600
+		"hull" 17600
 		"hull repair rate" .4
 		"required crew" 525
 		"bunks" 822
@@ -7935,7 +7999,7 @@ ship "L-VC28 Zuikaku"
 		"weapon capacity" 510
 		"engine capacity" 210
 		"shield generation multiplier" .02
-		"hull repair rate" 1
+		"hull repair rate" .8
 		weapon
 			"blast radius" 140
 			"shield damage" 1200

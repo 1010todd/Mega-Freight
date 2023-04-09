@@ -3685,6 +3685,241 @@ mission "MGF: Rush Oil Transport (Kerosene 1)"
 		dialog phrase "mgf: unload oil"
 		payment 1120000 8000
 		
+#=======================================Bitumen
+
+phrase "mgf: unload bitumen regular"
+	word
+		`Soon after you landed several tanker truck arrive and park next to the ship's discharge area. You deploy the discharging arms to connect to the tankers and unload the cargo of bitumen. After the last tanker is filled up <payment> is transferred into your account.`
+
+phrase "mgf: unload bitumen urban"
+	word
+		`You dock your ship at the special port for discharging bitumen and unload the cargo. After all cargo has been unloaded <payment> is transferred into your account.`
+
+
+mission "MGF: Bitumen Transport (Regular 1)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen regular"
+		payment 500000 11000
+		
+mission "MGF: Bitumen Transport (Regular 2)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen regular"
+		payment 500000 12000
+		
+mission "MGF: Bitumen Transport (Regular 3)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 30
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen regular"
+		payment 550000 11000
+		
+mission "MGF: Rush Bitumen Transport (Regular 1)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen regular"
+		payment 900000 18000
+		
+mission "MGF: Bitumen Transport (Urban 1)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 70
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen urban"
+		payment 580000 11000
+		
+mission "MGF: Bitumen Transport (Urban 2)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 60
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen urban"
+		payment 580000 13000
+		
+mission "MGF: Bitumen Transport (Urban 3)"
+	name "Bitumen Transport to <planet>"
+	description "4000 units of Bitumen along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 55
+		has "ship model: LAC-4 Lithalsa"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "oil"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		not attributes station
+		distance 3 20
+	to accept
+		"outfit (flagship installed): B-type 1k Bitumen Tank" >= 4 + ( "outfit (installed): Bitumen" / 1000 )
+	on accept
+		outfit "Bitumen" 4000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Bitumen" -4000
+	on abort
+		outfit "Bitumen" -4000
+	on complete
+		outfit "Bitumen" -4000
+		dialog phrase "mgf: unload bitumen urban"
+		payment 620000 11000
+		
 #=======================================Chem
 
 phrase "mgf: unload chemical"

@@ -83,6 +83,7 @@ shipyard developer
 	"CJC-3 Citrus"
 	"Leviathan (NGK Escort)"
 	"L-VC28 Zuikaku"
+	"LAC-4 Lithalsa"
 	
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -174,6 +175,7 @@ shipyard "human plugins"
 	"CJC-3 Citrus"
 	"Leviathan (NGK Escort)"
 	"L-VC28 Zuikaku"
+	"LAC-4 Lithalsa"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
@@ -473,6 +475,7 @@ shipyard "Pioneer Heavy Industries Advanced"
 	"LXC-2 Strata"
 	"LVC-2 Sandura"
 	"LPC-3 Lavaka"
+	"LAC-4 Lithalsa" #Is more specialized than other on the list but no idea how to make it purchasable later right now.
 	
 shipyard "Luna Winery Custom"
 	"CWC-2 Celestine"

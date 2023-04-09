@@ -142,7 +142,10 @@ fleet "Large Southern Merchants"
 	add variant 10
 		"QYG-30r Qazan" 3
 		"Bastion"
-	
+		
+	add variant 5
+		"LAC-4 Lithalsa"
+		"Bastion"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -364,6 +367,10 @@ fleet "Large Core Merchants"
 	add variant 10
 		"QYG-30r Qazan" 2
 		"Quicksilver"
+		
+	add variant 5
+		"LAC-4 Lithalsa"
+		"Splinter"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -642,6 +649,10 @@ fleet "Large Northern Merchants"
 		
 	add variant 10
 		"QYG-30r Qazan" 2
+		
+	add variant 3
+		"LAC-4 Lithalsa"
+		"Firebird"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3

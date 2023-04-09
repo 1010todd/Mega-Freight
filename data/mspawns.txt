@@ -579,6 +579,81 @@ event "MGF: Southern Merchant Upgrade I"
 			"Lance" 6
 			"AGT-31 Xencar" 6
 		
+mission "MGF: Southern Merchant Upgrade II"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement III"
+	on offer
+		event "MGF: Southern Merchant Upgrade II"
+	on accept
+		fail
+		
+event "MGF: Southern Merchant Upgrade II"
+	fleet "Small Southern Merchants"
+		add variant 5
+			"FG-6 Startrain"
+			"Quicksilver" 2
+			
+		add variant 2
+			"QYG-30r Qazan"
+			"Headhunter"
+		add variant 2
+			"QYG-30r Qazan"
+			"Headhunter (Particle)"
+		add variant 2
+			"FF-30 Volant" 2
+			"Raven" 2
+			
+		add variant 1
+			"Clipper (Heavy Laser)" 2
+
+	fleet "Large Southern Merchants"
+		add variant 6
+			"PF-80 Intrepid"
+			"Bastion"
+		add variant 4
+			"PF-80 Intrepid" 2
+			"Osprey"
+			"Osprey (Missile)"
+		add variant 3
+			"PF-80 Intrepid" 3
+			"CSE-6 Steward"
+			"Barb (Proton)" 6
+			
+		add variant 4
+			"FG-7 Conveyor-A" 3
+			"CS-24 Garrison" #18
+			"Lance" 20
+			"AGT-31 Xencar" 22
+		add variant 4
+			"Hauler III" 4
+			"Bastion"
+			"CS-24 Garrison" #18
+			"Lance" 6
+			"AGT-31 Xencar" 12
+		add variant 5
+			"Strata (Sulfuric Acid Filled)"
+			"Osprey"
+			"Osprey (Missile)"
+		add variant 4
+			"FG-5 Bluewhale-A" 2
+			"CSE-6 Steward" 2
+			"Lance" 6
+			"AGT-31 Xencar" 6
+		add variant 3
+			"Tlielart (Cargo Carrier)" #36
+			"Lance" 20
+			"AGT-31 Xencar" 16
+		add variant 4
+			"FG-5 Bluewhale-A" 3
+			"Leviathan"
+			"Bastion"
+		add variant 2
+			"FG-7 Conveyor-A" 3
+			"Eleonorae"
+			"Osprey (Missile)"
+		
 mission "MGF: LunaWine Escort Upgrade I"
 	invisible
 	landing

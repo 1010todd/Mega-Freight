@@ -1717,8 +1717,21 @@ outfit "B-type 1k Oil Tank"
 	"oil capacity" 1000
 	"oil lock" -9e+10
 	"unplunderable" 1
-	description `An oil tank for transporting both crude oil and processed petroleum products. Lined with heater to keep the cargo viscous enough to be pumped out. Surrounded with triple-layered armour to prevent leaks and protect the cargo as well as the environment of the planet.`
+	description `An oil tank for transporting both crude oil and processed petroleum products. Lined with heater to prevent the cargo from being too viscous to be pumped out. Surrounded with triple-layered armour to prevent leaks and protect the cargo as well as the environment of the planet.`
 	description `Having ships with dedicated oil tanks as flagship allow you to be offered special jobs for transporting oil and petroleum products.`
+	
+outfit "B-type 1k Bitumen Tank"
+	category "Systems"
+	cost 240000
+	thumbnail "outfit/fuel module"
+	"mass" 450
+	"b-type 1k bitumen tank" 1
+	"bitumen capacity" 1000
+	"bitumen lock" -9e+10
+	"unplunderable" 1
+	"heat capacity" 500 #these tanks are designed to handle heat.
+	description `An bitumen tank specially designed to handle heat to keep the bitumen from solidifying. Each tank have dedicated heating system to control the temperature and keep it within the requirement.`
+	description `Having ships with dedicated bitumen tanks as flagship allow you to be offered special jobs for transporting bitumen.`
 	
 outfit "C-type 200 Water Tank"
 	category "Systems"
@@ -2223,6 +2236,19 @@ outfit "Kerosene"
 	"overheat damage threshold" .1
 	"overheat damage rate" 7
 	description `A low-viscosity hydrocarbon derived from petroleum used in some chemical process and occasionally as fuel for specialized machines.`
+
+#=======================================Bitumen
+
+outfit "Bitumen"
+	#category "Special"
+	cost 1000
+	thumbnail "outfit/unknown"
+	"mass" .1
+	"bitumen capacity" -1
+	"bitumen lock" 1
+	"unplunderable" 1
+	"heat capacity" 2
+	description ``
 
 #========================================Chemical
 
