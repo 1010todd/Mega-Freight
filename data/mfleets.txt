@@ -146,6 +146,20 @@ fleet "Large Southern Merchants"
 	add variant 5
 		"LAC-4 Lithalsa"
 		"Bastion"
+		
+	add variant 6
+		"CDB-6K Jupiter"
+	add variant 5
+		"CDB-6K Jupiter"
+		"Bastion"
+	add variant 4
+		"CDB-6K Jupiter"
+		"Osprey"
+	add variant 2
+		"CDB-6K Jupiter"
+		"CSE-6 Steward"
+		"Lance" 6
+		
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -371,6 +385,22 @@ fleet "Large Core Merchants"
 	add variant 5
 		"LAC-4 Lithalsa"
 		"Splinter"
+		
+	add variant 8
+		"CDB-6K Jupiter"
+	add variant 6
+		"CDB-6K Jupiter"
+		"Quicksilver" 2
+	add variant 4
+		"CDB-6K Jupiter"
+		"Splinter" 2
+	add variant 4
+		"CDB-6K Jupiter"
+		"Vanguard"
+	add variant 2
+		"CDB-6K Jupiter"
+		"CSE-6 Steward"
+		"Lance" 6
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -450,6 +480,12 @@ fleet "Paradise Merchants"
 		
 	add variant 10
 		"QYG-30r Qazan"
+		
+	add variant 2
+		"CDB-6K Jupiter"
+	add variant 2
+		"CDB-6K Jupiter"
+		"Bastion"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -654,6 +690,19 @@ fleet "Large Northern Merchants"
 		"LAC-4 Lithalsa"
 		"Firebird"
 		
+	add variant 5
+		"CDB-6K Jupiter"
+	add variant 5
+		"CDB-6K Jupiter"
+		"Firebird"
+	add variant 4
+		"CDB-6K Jupiter"
+		"Raven" 2
+	add variant 2
+		"CDB-6K Jupiter"
+		"CSE-6 Steward"
+		"Dagger" 6
+		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
 		"SV-4450 Sovereign"
@@ -715,6 +764,9 @@ fleet "Large Human Merchants (Hai)"
 		
 	add variant 1
 		"AYS-17 Proetida"
+	
+	add variant 4
+		"CDB-6K Jupiter"
 	
 fleet "Large Hai Merchant"
 	add variant 1
@@ -1062,6 +1114,11 @@ fleet "NGK Hauling HeavyFreight"
 		"Leviathan (NGK Escort)"
 		"L-VC28 Zuikaku"
 		"Xencar (NGK)" 20
+	variant 30
+		"CDB-6K Jupiter" 5
+		"Leviathan (NGK Escort)"
+		"L-VC28 Zuikaku"
+		"Xencar (NGK)" 20
 		
 fleet "NGK Hauling RORO"
 	government "MGF: NGK Hauling"
@@ -1123,10 +1180,17 @@ fleet "Maryhal Logistic ArteryLine"
 		"Xencar (Particle)" 6
 		"Garrison (Long Range)"
 		"Xencar (Particle)" 18
+	variant 30
+		"CDB-6K Jupiter" 4
+		"Steward (Long Range)"
+		"Xencar (Particle)" 6
+		"Garrison (Long Range)"
+		"Xencar (Particle)" 18
 		
 fleet "Small Espion Miners"
 	government "MGF: Espion Mining Co."
 	names "espion name"
+	fighters "espion fighters"
 	cargo 0
 	personality
 		confusion 40
@@ -1145,6 +1209,7 @@ fleet "Small Espion Miners"
 fleet "Large Espion Miners"
 	government "MGF: Espion Mining Co."
 	names "espion name"
+	fighters "espion fighters"
 	cargo 0
 	personality
 		confusion 30
@@ -1172,6 +1237,7 @@ fleet "Large Espion Miners"
 fleet "Small Espion Guard"
 	government "MGF: Espion Mining Co."
 	names "espion name"
+	fighters "espion fighters"
 	cargo 0
 	personality
 		confusion 30
@@ -1192,6 +1258,7 @@ fleet "Small Espion Guard"
 fleet "Large Espion Guard"
 	government "MGF: Espion Mining Co."
 	names "espion name"
+	fighters "espion fighters"
 	cargo 0
 	personality
 		confusion 25
@@ -1229,6 +1296,7 @@ fleet "Small Crossguard Patrol"
 fleet "Large Crossguard Patrol"
 	government "MGF: Crossguard Patrol"
 	names "crossguard name"
+	fighters "republic fighters"
 	cargo 1
 	personality
 		confusion 20

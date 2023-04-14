@@ -419,7 +419,7 @@ effect "k3k particle impact"
 	sprite "effect/k3k particle impact"
 		"no repeat"
 		"frame rate" 30
-	lifetime 15
+	lifetime 13
 	"random angle" 3
 	"velocity scale" -.03
 		
@@ -516,6 +516,65 @@ outfit "M6-ACS Artillery Turret"
 		"shield damage" 1850
 		"hull damage" 886
 	description "Long range anti-capital artillery turret."
+	
+effect "jaivana fire"
+	sprite "effect/jaivana fire"
+		"no repeat"
+		"frame rate" 45
+	lifetime 12
+	"random angle" .1
+	
+outfit "Jaivana Shell"
+	category "Ammunition"
+	cost 300
+	thumbnail "outfit/mgf jaivana shell"
+	"mass" .4
+	"jaivana shell capacity" -1
+	description "The Swordfish Missile is ammunition for the Swordfish Missile Launcher"
+	
+outfit "Jaivana Shell Storage"
+	category "Ammunition"
+	cost 12000
+	thumbnail "outfit/mgf swordfish missile rack"
+	"mass" 2.4
+	"outfit space" -7
+	"jaivana shell capacity" 20
+	ammo "Jaivana Shell"
+	description "The Swordfish Missile Rack is used to store extra ammunition for Swordfish Missile Launchers."
+	
+outfit "LbrC-1 Jaivana Turret"
+	category "Turrets"
+	cost 4400000
+	thumbnail "outfit/mgf jaivana turret"
+	"mass" 200
+	"outfit space" -290
+	"weapon capacity" -290
+	"turret mounts" -1
+	"required crew" 5
+	"jaivana shell capacity" 90
+	weapon
+		sprite "projectile/jaivana projectile"
+			scale .5
+		"hardpoint sprite" "hardpoint/mgf jaivana turret hp"
+		"hardpoint offset" 10.
+		sound "mgf jaivana fire"
+		"fire effect" "jaivana fire"
+		"hit effect" "huge explosion"
+		ammo "Jaivana Shell"
+		icon "icon/jaivana icon"
+		"inaccuracy" 1.8
+		"turret turn" .7
+		"velocity" 25
+		"lifetime" 85
+		"reload" 70
+		"burst count" 2
+		"burst reload" 15
+		"firing energy" 30
+		"firing heat" 180
+		"hit force" 50
+		"shield damage" 1185
+		"hull damage" 1521
+	description "With the need to manufacture a turret large enough to fully utilize the huge mount of the Free Worlds new Barbette-class artillery cruiser they quickly developed the Jaivana cannon that rely on physical shells for design simplicity over energy weapons which are far more complicated and takes longer to develop. Though ballistic weapons are not the most ideal against the shield-heavy navy ships the sheer size would make up enough that it'll be the more effective than any smaller turret on the same mount, at least for the time."
 	
 outfit "Mi3 Ion Cannon Turret"
 	category "Turrets"

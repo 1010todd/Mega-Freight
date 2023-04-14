@@ -653,7 +653,17 @@ event "MGF: Southern Merchant Upgrade II"
 			"FG-7 Conveyor-A" 3
 			"Eleonorae"
 			"Osprey (Missile)"
-		
+			
+		add variant 2
+			"CDB-6K Jupiter" 3
+			"Eleonorae"
+			"Bastion"
+		add variant 2
+			"CDB-6K Jupiter" 2
+			"CS-24 Garrison" #18
+			"Lance" 6
+			"AGT-31 Xencar" 12
+			
 mission "MGF: LunaWine Escort Upgrade I"
 	invisible
 	landing
@@ -906,6 +916,120 @@ event "mgf: fw converted warships"
 			"Finch" 20
 			"AGT-31 Xencar" 60
 			
+mission "MGF: FW Converted Warship 2"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: mgf: fw converted warships"
+	on offer
+		event "mgf: fw converted warships 2-1"
+		event "mgf: fw converted warships 2-2" 120
+		
+event "mgf: fw converted warships 2-1"
+	shipyard "Southbound Advanced"
+		"PAS-3 Barbette (Early, G22)"
+	fleet "Large Free Worlds"
+		add variant 1
+			"PAS-3 Barbette (Early, ACS)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 4
+			"PAS-3 Barbette (Early, G22)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 1
+			"PAS-3 Barbette (Early, G22)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 1
+			"Falcon (Laser)"
+			"PAS-3 Barbette (Early, G22)"
+		add variant 1
+			"PAS-3 Barbette (Early, ACS)"
+			"CS-24 Garrison"
+			"Finch" 18
+		add variant 1
+			"PAS-3 Barbette (Early, ACS)"
+			"Bastion" 2
+			"PAS-2 Bulwark"
+			"PCS-4 Castle" 2
+			"Finch" 80
+			"AGT-31 Xencar" 120
+		add variant 1
+			"PAS-2 Bulwark"
+			"Bastion" 2
+			"PAS-3 Barbette (Early, G22)" 2
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+			
+event "mgf: fw converted warships 2-2"
+	shipyard "Southbound Advanced"
+		remove "PAS-3 Barbette (Early, G22)"
+		add "PAS-3 Barbette"
+	outfitter "Kraz Basic"
+		"Jaivana Shell"
+	outfitter "Ammo South"
+		"Jaivana Shell"
+	outfitter "Kraz Advanced"
+		"LbrC-1 Jaivana Turret"
+		"Jaivana Shell Storage"
+		"Jaivana Shell"
+	outfitter "FW Security"
+		"Jaivana Shell"
+	fleet "Large Free Worlds"
+		remove variant 1
+			"PAS-3 Barbette (Early, ACS)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		remove variant 4
+			"PAS-3 Barbette (Early, G22)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		remove variant 1
+			"PAS-3 Barbette (Early, G22)"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		remove variant 1
+			"PAS-3 Barbette (Early, ACS)"
+			"CS-24 Garrison"
+			"Finch" 18
+		remove variant 1
+			"PAS-2 Bulwark"
+			"Bastion" 2
+			"PAS-3 Barbette (Early, G22)" 2
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+			
+		add variant 1
+			"PAS-3 Barbette"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 4
+			"PAS-3 Barbette"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 1
+			"PAS-3 Barbette"
+			"CSE-6 Steward" #6
+			"Finch" 6
+		add variant 1
+			"PAS-3 Barbette"
+			"PAS-2 Bulwark"
+		add variant 1
+			"PAS-3 Barbette"
+			"PCS-4 Castle"
+			"Finch" 20
+			"AGT-31 Xencar" 60
+			
 mission "MGF: FW Converted Supercarrier"
 	landing
 	invisible
@@ -966,6 +1090,27 @@ event "mgf: fw converted supercarrier"
 			"SWV4 Ravelin" 2
 			"Eleonorae" 2
 			"PAS-2 Bulwark" 2
+			"Bastion" 4
+			
+mission "MGF: FW Converted Supercarrier 2"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: initial deployment 4"
+	on offer
+		event "mgf: fw converted supercarrier 2"
+		
+event "mgf: fw converted supercarrier 2"
+	fleet "Large Free Worlds"
+		add variant 1
+			"PCS-5 Citadel"
+			"Finch" 44
+			"AGT-31 Xencar" 100
+			"SWV4 Ravelin" 2
+			"Eleonorae" 
+			"PAS-2 Bulwark" 
+			"PAS-3 Barbette"
 			"Bastion" 4
 			
 mission "MGF: FW plasma turret available"
@@ -1065,6 +1210,37 @@ event "mgf: fw parapet am available"
 			"Falcon (Parapet)"
 			"CS-24 Garrison" #18
 			"Lance" 18
+			
+mission "MGF: FW Barbette Parapet"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: mgf: fw parapet am available"
+	on offer
+		event "mgf: fw barbette parapet"
+
+event "mgf: fw barbette parapet"
+	fleet "Large Free Worlds"
+		add variant 1
+			"PAS-3 Barbette (Parapet)"
+		add variant 5
+			"PAS-3 Barbette (Parapet)"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+		add variant 1
+			"Eleonorae"
+			"PAS-3 Barbette (Parapet)"
+			"CS-24 Garrison"
+			"Finch" 10
+			"AGT-31 Xencar" 8
+		add variant 1
+			"PAS-3 Barbette (Parapet)"
+			"PAS-2 Bulwark"
+			"CS-24 Garrison"
+			"Finch" 10
+			"AGT-31 Xencar" 8
 			
 mission "MGF: FW Dreadnought Parapet"
 	landing

@@ -138,6 +138,20 @@ phrase "espion name"
 	phrase
 		"sometimes a successor"
 		
+phrase "espion fighters"
+	phrase
+		"letter"
+	phrase
+		"letter"
+	word
+		":"
+	phrase
+		"digit"
+	phrase
+		"digit"
+	phrase
+		"digit"
+		
 phrase "small sulso name"
 	word
 		"Sulso "
