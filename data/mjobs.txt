@@ -704,6 +704,7 @@ mission "MGF: Huge Dry Bulk Delivery [0]"
 		or
 			has "flagship attributes: bulk bay"
 			has "ship model: CDB-6K Jupiter"
+			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -729,6 +730,33 @@ mission "MGF: Huge Dry Bulk Delivery [1]"
 		or
 			has "flagship attributes: bulk bay"
 			has "ship model: CDB-6K Jupiter"
+			has "ship model: CDB-12K Saturn"
+			has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		distance 3 18
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF: Huge Dry Bulk Delivery [2]"
+	name "Huge dry bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "unpacked dry bulk" 1000 2000 
+	to offer
+		random < 40
+		"cargo space" > 1000
+		or
+			has "flagship attributes: bulk bay"
+			has "ship model: CDB-6K Jupiter"
+			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"

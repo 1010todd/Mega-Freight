@@ -457,7 +457,51 @@ ship "PAS-3 Barbette" "PAS-3 Barbette (Parapet)"
 	turret 0 -69 
 	turret 0 86.5 
 
+ship "A-14F Rondel" "Rondel (Typhoon Bomb)"
+	outfits
+		"MH-4 Typhoon Bomb Pod" 2
+		"Typhoon Torpedo" 4
+		
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
 
+ship "Spetum Class" "Spetum Class (Mark II, Typhoon Storage)"
+	add attributes
+		"outfit space" 30
+	outfits
+		"Typhoon Launcher" 4
+		"Typhoon Torpedo" 120
+		"Electron Turret" 6
+		"Heavy Anti-Missile Turret" 4
+		"V85 Railgun Turret" 3
+		
+		"Armageddon Core" 2
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Large Radar Jammer" 2
+		"Liquid Helium Cooler"
+		"Brig"
+		"Laser Rifle" 500
+		"Fragmentation Grenades" 90
+		"Security Station" 2
+		"Tactical Scanner"
+		
+		"Outfits Expansion" 2
+		"Sidewinder Missile Rack" 7
+		"Sidewinder Missile" 161
+		"Typhoon Storage Tube" 12
+		"Typhoon Torpedo" 180
+		
+		"X5700 Ion Thruster"
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering"
+		"X4200 Ion Steering"
+		"Scram Drive"
 
 ship "AD-0032 Ialmuslati" "Ialmuslati (Hyperdrive)"
 	outfits

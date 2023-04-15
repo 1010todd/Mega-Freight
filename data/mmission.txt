@@ -511,6 +511,78 @@ event "mgf: Claymore Deployment"
 			"Rainmaker (Mark II)" 8
 			"Gunboat (Mark II)" 6
 			
+mission "MGF: Lucerne MkII development begins"
+	landing
+	invisible
+	to offer
+		has "event: mgf: Claymore Deployment"
+	on offer
+		event "mgf: Lucerne MkII development" 360
+		event "mgf: Lucerne MkII deployment" 420
+		
+event "mgf: Lucerne MkII development"
+
+event "mgf: Lucerne MkII deployment"
+	shipyard "Navy Advanced EX"
+		add "Lucerne Class MkII"
+	shipyard "Navy Advanced"
+		"Frigate (Mark II, Pocket)"
+		"Gunboat (Mark II, Pocket)"
+		"Rainmaker (Mark II, Pocket)"
+	shipyard "Navy Basics"
+		"Gunboat (Mark II, Pocket)"
+		"Rainmaker (Mark II, Pocket)"
+	outfitter "Navy Advanced"
+		"MH-4 Typhoon Bomb Pod"
+		"CMX-12 Anti-Missile"
+	fleet "Large Republic"
+		add variant 2
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Spetum Class (Mark II)"
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 60
+			"A-14F Rondel" 50
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 48
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Culverin Class (Mark II)" 2
+			"Lance" 4
+		add variant 1
+			"Claymore Class"
+			"Lucerne Class MkII"
+			"Lance" 116
+			"Rondel (Typhoon Bomb)" 100
+			"Frigate (Mark II, Pocket)" 4
+			"Gunboat (Mark II, Pocket)" 4
+			"Rainmaker (Mark II, Pocket)" 4
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			"Frigate (Mark II)" 8
+			"Rainmaker (Mark II)" 6
+			"Gunboat (Mark II)" 10
+		add variant 1
+			"Lucerne Class MkII"
+			"Lance" 116
+			"Rondel (Typhoon Bomb)" 100
+			"Frigate (Mark II, Pocket)" 4
+			"Gunboat (Mark II, Pocket)" 4
+			"Rainmaker (Mark II, Pocket)" 4
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+			
 mission "MGF: Espion co. job ad"
 	job
 	name "Asteroid Miner Wanted"

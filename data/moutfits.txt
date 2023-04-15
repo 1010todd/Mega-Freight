@@ -91,7 +91,7 @@ outfit "Espion Mining Laser"
 	"weapon capacity" -15
 	"gun ports" -1
 	weapon
-		sprite "projectile/heavy laser"
+		sprite "projectile/espion hlaser"
 			"frame rate" 1
 		sound "heavy laser"
 		"hit effect" "heavy laser impact"
@@ -119,7 +119,7 @@ outfit "Espion Mini-Mining Laser"
 	"weapon capacity" -10
 	"gun ports" -1
 	weapon
-		sprite "projectile/heavy laser"
+		sprite "projectile/espion hlaser"
 			"frame rate" 1
 		sound "heavy laser"
 		"hit effect" "heavy laser impact"
@@ -419,7 +419,7 @@ effect "k3k particle impact"
 	sprite "effect/k3k particle impact"
 		"no repeat"
 		"frame rate" 30
-	lifetime 13
+	lifetime 7
 	"random angle" 3
 	"velocity scale" -.03
 		
@@ -434,7 +434,7 @@ outfit "K3-K Particle Turret"
 	weapon
 		sound "k3k particle"
 		"hardpoint sprite" "hardpoint/mgf k3k particle turret hp"
-		"hardpoint offset" .2
+		"hardpoint offset" 5.
 		"hit effect" "k3k particle impact"
 		"inaccuracy" .6
 		"turret turn" 1.6
@@ -442,19 +442,21 @@ outfit "K3-K Particle Turret"
 			offset 1.5 0
 		"submunition" "K3-K Particle Beam"
 			offset -1.5 0
-		"velocity" 28
+		velocity 1
+		"velocity override" 28
 		"lifetime" 1
 		"reload" 17
 		"firing energy" 90
 		"firing force" 12
 		"firing heat" 570
-	description `A re-engineered and modernized particle cannon by MJK Heavy Industries for their new carrier Zuikaku-class. Syncing the firing of two guns together and increasing the damage per shot closer to modern model while maintaining the rapid firerate of the G22 model resulting in a very formidable weapon to allow the Zuikaku-class to handle pirate ambushes with ease, and match up with the notorious heavily modified Marauder ships.`
+	description `A re-engineered and modernized particle cannon by MJK Heavy Industries for their new carrier Zuikaku-class. Syncing the firing of two guns together and increasing the damage per shot closer to modern model while maintaining the rapid firerate of the G22 model resulting in a very formidable weapon to allow the Zuikaku-class to handle pirate ambushes with ease and match up with the notorious heavily modified Marauder ships.`
 
 outfit "K3-K Particle Beam"
 	weapon
 		sprite "projectile/k3k particle beam"
 			scale .8
 		"hit effect" "k3k particle impact"
+		"velocity" 28
 		"inaccuracy" .5
 		"lifetime" 30
 		"random lifetime" 2
@@ -939,6 +941,37 @@ outfit "EMX-55 Flakcannon Turret"
 		"safe"
 	description "Anti-swarm flakcannon"
 	
+outfit "ERS-22 Electronic Warfare"
+	category "Turrets"
+	cost 1280000
+	licenses
+		Navy
+	thumbnail "outfit/emx55 flak turret"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	"scan interference" 5
+	"tactical scan power" 20
+	"scramble resistance" .01
+	"radar jamming" 15
+	weapon
+		sprite "projectile/emx55 proj"
+		sound "pulse"
+		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint offset" 2.
+		"hit effect" "emx55 flak"
+		"die effect" "emx55 flak"
+		"inaccuracy" 12
+		"velocity" 800
+		"turret turn" 8
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 1.5
+		"firing heat" 2
+		"scrambling damage" 20
+	description `Special electronic warfare system for installing on turret mounts that can jam enemy turret from long range potentially reducing their firepower for a short moment as well as jamming radar-based missiles.`
+	
 effect "emx84 flak"
 	sprite "effect/mgf pulseflak"
 		"no repeat"
@@ -978,6 +1011,7 @@ outfit "EMX-84 Pulse-Flak Turret"
 		"shield damage" 421
 		"hull damage" 85
 		"ion damage" .14
+		"scrambling damage" .1
 		"blast radius" 75
 		"trigger radius" 40
 		"safe"
@@ -986,15 +1020,15 @@ outfit "EMX-84 Pulse-Flak Turret"
 outfit "EL-1388 Aphelion Turret"
 	category "Turrets"
 	cost 820000
-	thumbnail "outfit/emx55 flak turret"
+	thumbnail "outfit/mgf aphelion turret"
 	"mass" 51
 	"outfit space" -51
 	"weapon capacity" -51
 	"turret mounts" -1
 	weapon
-		sprite "projectile/emx55 proj"
+		sprite "projectile/espion aphelion projectile"
 		sound "pulse"
-		"hardpoint sprite" "hardpoint/emx55 hardpoint"
+		"hardpoint sprite" "hardpoint/mgf aphelion turret hp"
 		"hardpoint offset" 10.
 		"fire effect" "v85 railgun fire"
 		"inaccuracy" 6
@@ -1014,22 +1048,22 @@ outfit "EL-1388 Aphelion Turret"
 	
 outfit "el-1388 frag 1"
 	weapon
-		sprite "projectile/emx55 proj"
+		sprite "projectile/espion aphelion subproj"
 		"lifetime" 20
 		"inaccuracy" 18
-		"random velocity" 1
-		"random lifetime" 5
+		"random velocity" 5
+		"random lifetime" 10
 		"shield damage" 35
 		"hull damage" 10
 		"hit force" 50
 		
 outfit "el-1388 frag 2"
 	weapon
-		sprite "projectile/emx55 proj"
+		sprite "projectile/espion aphelion subproj"
 		"lifetime" 20
 		"inaccuracy" 20
-		"random velocity" 1
-		"random lifetime" 5
+		"random velocity" 5
+		"random lifetime" 10
 		"shield damage" 35
 		"hull damage" 10
 		"hit force" 50
@@ -1060,7 +1094,7 @@ outfit "CMX-12 Anti-Missile"
 		"firing energy" 15.1
 		"firing heat" 10.2
 		"anti-missile" 15
-	description "Experimental burst Anti-missile"
+	description "Burst Anti-missile developed and used by the Navy for their new Lucerne class. Though a still partially in experimental phase it is deemed stable and effective enough for field deployment."
 	
 outfit "CMX-63 Kavacha Anti-Missile"
 	category "Turrets"
@@ -1087,7 +1121,7 @@ outfit "CMX-63 Kavacha Anti-Missile"
 		"firing energy" 187.2
 		"firing heat" 199.8
 		"anti-missile" 120
-	description "Powerful experimental heavy anti-missile"
+	description "Powerful experimental heavy anti-missile developed for the Claymore class."
 	
 effect "mgf kavacha hit"
 	sprite "effect/kavacha hit"
@@ -1221,6 +1255,47 @@ outfit "4C-1 Bomb Charge"
 		"shield damage" 2200
 		"hull damage" 1400
 		"hit force" 350
+		
+outfit "MH-4 Typhoon Bomb Pod"
+	category "Secondary Weapons"
+	cost 120000
+	thumbnail "outfit/typhoonpod"
+	"mass" 6
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	"typhoon capacity" 2
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Typhoon Torpedo"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 0
+		"velocity override" 6
+		"lifetime" 200
+		"range override" 600
+		"reload" 252
+		"burst count" 2
+		"burst reload" 120
+		"firing energy" 4
+		"firing heat" 50
+		"acceleration" .1
+		"drag" .017
+		"turn" .1
+		"homing" 1
+		"optical tracking" .75
+		"shield damage" 1850
+		"hull damage" 1850
+		"hit force" 500
+		"missile strength" 50
+	description "Modified Typhoon with much of its fuel and navigation system removed leaving it a mostly a dumb bomb with minimal course correction in exchange for tougher shell, more payload, and deadlier explosions."
 		
 outfit "Swordfish Missile"
 	category "Ammunition"
@@ -1638,6 +1713,26 @@ outfit "MX30 Sirius Core"
 	"ion resistance" .1
 	description "Massive experimental reactor designed specifically for the Lucerne Class Supercarrier."
 	
+outfit "MX32 Sirius II Core"
+	category "Power"
+	cost 94000000
+	thumbnail "outfit/core"
+	"mass" 1402
+	"outfit space" -1402
+	"energy generation" 399
+	"heat generation" 685
+	"ion resistance" .2
+	description "A breakthrough in research enable a significant improvement to the Sirius Core resulting more power generated at greater efficiency and reliability."
+	
+outfit "CN729x Battery Pack"
+	category "Power"
+	cost 640000
+	thumbnail "outfit/huge battery"
+	"mass" 300
+	"outfit space" -300
+	"energy capacity" 163000
+	description "A massive battery for massive ship with improved energy density over standard LP batteries by employing new technologies that was recently proven to be reliable enough for use in warships."
+	
 outfit "DX-30k Shield Hub"
 	category "Systems"
 	cost 3800000
@@ -1663,14 +1758,34 @@ outfit "SX-12 Shield Node"
 outfit "NX-40k Repair Center"
 	category "Systems"
 	cost 3800000
-	thumbnail "outfit/huge shield"
+	thumbnail "outfit/outfit expansion"
 	"mass" 400
 	"outfit space" -400
 	"hull repair rate" 5.1
 	"hull energy" 5.1
 	"hull heat" 5.1
 	"required crew" 25
-	description ""
+	description "Central repair center equipped with various tools and supplies for repairing the ship in-flight."
+	
+outfit "SCE-3 Radar Jammer"
+	category "Systems"
+	cost 1280000
+	licenses
+		"Navy"
+	thumbnail "outfit/large radar jammer"
+	"mass" 62
+	"outfit space" -62
+	"radar jamming" 60
+	description "Larger and more powerful radar jammer developed for the navy superheavy ships for better space efficiency."
+	
+outfit "H36B Helium Cooler"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/liquid helium"
+	"mass" 120
+	"outfit space" -120
+	"cooling" 255
+	description "Larger and more efficient cooler specifically developed cooling system fir large ships."
 	
 outfit "VYT Malebolge Core"
 	category "Power"

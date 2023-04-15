@@ -2342,7 +2342,7 @@ ship "EM-8A Armadillo"
 		category "Utility"
 		licenses
 			"Espion Employee"
-		"cost" 20200000
+		"cost" 18200000
 		"shields" 7850
 		"hull" 8540
 		"required crew" 24
@@ -4466,6 +4466,42 @@ ship "Spetum Class"
 	bay "Drone" 156.5 126
 		"launch effect" "human internal"
 		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 30 30
@@ -5790,6 +5826,42 @@ ship "Lucerne Class"
 	bay "Drone" 232.5 -222
 		"launch effect" "human internal"
 		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Drone" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Drone" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
 	engine -173 1442
 		zoom 1.7
 		under
@@ -5868,6 +5940,985 @@ ship "Lucerne Class"
 	"final explode" "final explosion large" 2
 	description `Republic Navy Supercarrier-Battleship hybrid heavily armed with multiple railgun turrets capable of tearing down smaller ships in seconds. While officially claimed to be recently developed to face against future alien invasion threat it was rumoured to be in research and development long before the war with Free Worlds for potential aggression from the Quarg or someone as advanced as them.`
 		
+ship "Lucerne Class" "Lucerne Class MkII"
+	plural "Lucerne Class"
+	sprite "ship/mgf navy supercarrier"
+	thumbnail "thumbnail/mgf navy supercarrier thumb"
+	attributes
+		category "Superheavy"
+		licenses
+			"Navy Carrier"
+		"cost" 88700000
+		"shields" 162000
+		"hull" 145800
+		"hull repair rate" 1
+		"required crew" 1450
+		"bunks" 2200
+		"mass" 35685
+		"drag" 34
+		"heat dissipation" .45
+		"fuel capacity" 2800
+		"cargo space" 1600
+		"outfit space" 13900
+		"weapon capacity" 8900
+		"engine capacity" 990
+		"vertical launching support" 12
+		"spinal mount" 1
+		"force protection" 100
+		"spearfish capacity" 120
+		"ramscoop" 30
+		"heat capacity" 120000
+		"active cooling" 250
+		"ion protection" 2
+		"ion resistance" .5
+		"scrambling resistance" .3
+		"tactical scan power" 120
+		"outfit scan power" 240
+		"outfit scan efficiency" 230
+		"cargo scan power" 210
+		"cargo scan efficiency" 200
+		"hull repair multiplier" .1
+		weapon
+			"blast radius" 3000
+			"shield damage" 8000
+			"hull damage" 5500
+			"hit force" 4500
+			
+	outfits
+		"ExP314 Railcannon"
+		"AH-5 Eteron Launch System"
+		"AH-5 Eteron Torpedo" 40
+		"EMX-55 Flakcannon Turret" 16
+		"EMX-84 Pulse-Flak Turret" 4
+		"CMX-12 Anti-Missile" 10
+		"CMX-63 Kavacha Anti-Missile" 8
+		"V85 Railgun Turret" 23
+		"Spearfish Launcher Array" 12
+		"Spearfish Missile" 264
+		"Sidewinder Missile Launcher" 10
+		"Sidewinder Missile" 450
+		
+		"MX32 Sirius II Core"
+		"CN729x Battery Pack" 2
+		"DX-30k Shield Hub" 1
+		"SX-12 Shield Node" 12
+		"NX-40k Repair Center"
+		"SCE-3 Radar Jammer"
+		"H36B Helium Cooler" 2
+		"Brig"
+		"Laser Rifle" 1300
+		"Fragmentation Grenades" 280
+		"Security Station" 8
+		
+		"Sidewinder Missile Rack" 60
+		"Sidewinder Missile" 1380
+		"Typhoon Storage Tube" 40
+		"Typhoon Torpedo" 600
+		
+		"X5700 Ion Thruster" 2
+		"X3700 Ion Thruster"
+		"X5200 Ion Steering" 2
+		"X4200 Ion Steering"
+		"Scram Drive"
+			
+	gun 0 -1485 "ExP314 Railcannon"
+	gun -96 -1352.5 "AH-5 Eteron Launch System"
+	gun 96 -1352.5 "AH-5 Eteron Launch System"
+	gun -96 -1352.5 "AH-5 Eteron Launch System"
+	gun 96 -1352.5 "AH-5 Eteron Launch System"
+	gun -271 -623 "Sidewinder Missile Launcher"
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -271 -623 "Sidewinder Missile Launcher" 
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -271 -623 "Sidewinder Missile Launcher"
+	gun 271 -623 "Sidewinder Missile Launcher"
+	gun -339 -499 "Sidewinder Missile Launcher"
+	gun 339 -499 "Sidewinder Missile Launcher"
+	gun -339 -499 "Sidewinder Missile Launcher"
+	gun 339 -499 "Sidewinder Missile Launcher"
+	turret -109 -1062.5 "V85 Railgun Turret"
+	turret 109 -1062.5 "V85 Railgun Turret"
+	turret -109 -913 "V85 Railgun Turret"
+	turret 109 -913 "V85 Railgun Turret"
+	turret -109 -763.5 "V85 Railgun Turret"
+	turret 109 -763.5 "V85 Railgun Turret"
+	turret -207 -610 "V85 Railgun Turret"
+	turret 207 -610 "V85 Railgun Turret"
+	turret -232.5 -507.5 "V85 Railgun Turret"
+	turret 232.5 -507.5 "V85 Railgun Turret"
+	turret 0 -584.5 "V85 Railgun Turret"
+	turret 0 -507.5 "V85 Railgun Turret"
+	turret 0 -362.5 "V85 Railgun Turret"
+	turret -147 247.5 "V85 Railgun Turret"
+	turret 147 247.5 "V85 Railgun Turret"
+	turret -138.5 452.5 "V85 Railgun Turret"
+	turret 138.5 452.5 "V85 Railgun Turret"
+	turret -126 354 "V85 Railgun Turret"
+	turret 126 354 "V85 Railgun Turret"
+	turret -109 1032.5 "V85 Railgun Turret"
+	turret 109 1032.5 "V85 Railgun Turret"
+	turret -104.5 1135 "V85 Railgun Turret"
+	turret 104.5 1135 "V85 Railgun Turret"
+	
+	turret -155.5 -635.5 "EMX-55 Flakcannon Turret"
+	turret 155.5 -635.5 "EMX-55 Flakcannon Turret"
+	turret -155.5 -589 "CMX-12 Anti-Missile"
+	turret 155.5 -589 "CMX-12 Anti-Missile"
+	turret -155.5 -554.5 "EMX-55 Flakcannon Turret"
+	turret 155.5 -554.5 "EMX-55 Flakcannon Turret"
+	turret -155.5 -516.5 "CMX-63 Kavacha Anti-Missile"
+	turret 155.5 -516.5 "CMX-63 Kavacha Anti-Missile"
+	turret -117.5 -405.5 "EMX-84 Pulse-Flak Turret"
+	turret 117.5 -405.5 "EMX-84 Pulse-Flak Turret"
+	turret -109 -350 "CMX-12 Anti-Missile"
+	turret 109 -350 "CMX-12 Anti-Missile"
+	turret -219.5 260.5 "EMX-55 Flakcannon Turret"
+	turret 219.5 260.5 "EMX-55 Flakcannon Turret"
+	turret -211 439.5 "CMX-12 Anti-Missile"
+	turret 211 439.5 "CMX-12 Anti-Missile"
+	turret -569.5 205 "EMX-55 Flakcannon Turret"
+	turret 569.5 205 "EMX-55 Flakcannon Turret"
+	turret -569.5 499 "CMX-63 Kavacha Anti-Missile"
+	turret 569.5 499 "CMX-63 Kavacha Anti-Missile"
+	turret -471.5 264.5 "EMX-55 Flakcannon Turret"
+	turret 471.5 264.5 "EMX-55 Flakcannon Turret"
+	turret -475.5 443.5 "CMX-63 Kavacha Anti-Missile"
+	turret 475.5 443.5 "CMX-63 Kavacha Anti-Missile"
+	turret -301 891.5 "EMX-84 Pulse-Flak Turret"
+	turret 301 891.5 "EMX-84 Pulse-Flak Turret"
+	turret -356.5 913 "CMX-12 Anti-Missile"
+	turret 356.5 913 "CMX-12 Anti-Missile"
+	turret -292.5 1130.5 "EMX-55 Flakcannon Turret"
+	turret 292.5 1130.5 "EMX-55 Flakcannon Turret"
+	turret -57.5 -311.5 "CMX-63 Kavacha Anti-Missile"
+	turret 57.5 -311.5 "CMX-63 Kavacha Anti-Missile"
+	turret -57.5 -230.5 "EMX-55 Flakcannon Turret"
+	turret 57.5 -230.5 "EMX-55 Flakcannon Turret"
+	turret -57.5 -153.5 "CMX-12 Anti-Missile"
+	turret 57.5 -153.5 "CMX-12 Anti-Missile"
+	turret -57.5 610 "EMX-55 Flakcannon Turret"
+	turret 57.5 610 "EMX-55 Flakcannon Turret"
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+	#===============================
+	bay "Fighter" -258 -38.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 258 -38.5
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -305 42.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" 305 42.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" -394.5 38.5
+		"launch effect" "human internal"
+		angle 30
+	bay "Fighter" 394.5 38.5
+		"launch effect" "human internal"
+		angle -30
+	bay "Fighter" -394.5 657
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" 394.5 657
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" -305 665.5
+		"launch effect" "human internal"
+		angle -150
+	bay "Fighter" 305 665.5
+		"launch effect" "human internal"
+		angle 150
+	bay "Fighter" -254 742.5
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 254 742.5
+		"launch effect" "human internal"
+		angle 90
+		
+	bay "Pocket Medium Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Medium Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Medium Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Medium Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Light Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Light Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Light Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Light Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Light Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Light Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	bay "Pocket Light Warship" -232.5 -222
+		"launch effect" "human internal"
+		angle -110
+	bay "Pocket Light Warship" 232.5 -222
+		"launch effect" "human internal"
+		angle 110
+	description `Using knowledge gained from developing the Claymore the Navy improved their Lucerne Class further optimizing their armour and shielding as well as employing more automation in various part of the ship increasing efficiency of repair systems.`
+	description `In addition they also refitted the drone bay for larger warships allowing it to carry a complement of Gunboats and Frigates.`
+		
+ship "Frigate" "Frigate (Mark II, Pocket)"
+	attributes
+		category "Pocket Medium Warship"
+		licenses
+			Navy
+		"cost" 5200000
+		"shields" 8000
+		"hull" 2500
+		"required crew" 21
+		"bunks" 44
+		"mass" 310
+		"drag" 5.2
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 15
+		"outfit space" 480
+		"weapon capacity" 230
+		"engine capacity" 100
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Particle Cannon" 4
+		"Anti-Missile Turret"
+		"Quad Blaster Turret" 2
+		"NT-200 Nucleovoltaic"
+		"Dwarf Core"
+		"LP072a Battery Pack"
+		"Supercapacitor"
+		"D41-HY Shield Generator"
+		"Small Radar Jammer"
+		"Water Coolant System"
+		"Laser Rifle" 8
+		"Fragmentation Grenades" 8
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+	turret "Anti-Missile Turret"
+	turret "Quad Blaster Turret"
+	turret "Quad Blaster Turret"
+	description "This frigate have its hyperspace capability removed and replaced with improved armaments as it's now to be carried by a larger mothership."
+		
+ship "Gunboat" "Gunboat (Mark II, Pocket)"
+	attributes
+		category "Pocket Light Warship"
+		licenses
+			Navy
+		"cost" 3200000
+		"shields" 5800
+		"hull" 1400
+		"required crew" 7
+		"bunks" 12
+		"mass" 150
+		"drag" 3.1
+		"heat dissipation" .8
+		"fuel capacity" 0
+		"cargo space" 10
+		"outfit space" 354
+		"weapon capacity" 142
+		"engine capacity" 90
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Electron Beam" 2
+		"Electron Turret"
+		"Fission Reactor"
+		"LP036a Battery Pack"
+		"Supercapacitor" 3
+		"D41-HY Shield Generator"
+		"Water Coolant System"
+		"Brig"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+	description `Carried variant of the Gunboat with hyperspace capability removed for other systems.`
+		
+ship "Rainmaker" "Rainmaker (Mark II, Pocket)"
+	attributes
+		category "Pocket Light Warship"
+		licenses
+			Navy
+		"cost" 1580000
+		"shields" 3500
+		"hull" 1200
+		"required crew" 3
+		"bunks" 7
+		"mass" 180
+		"drag" 3.8
+		"heat dissipation" .6
+		"cargo space" 25
+		"outfit space" 284
+		"weapon capacity" 110
+		"engine capacity" 50
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Blaster" 2
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+	gun
+	gun
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
+	gun "Sidewinder Missile Launcher"
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
 	thumbnail "thumbnail/mgf nasprite thumb"
@@ -8239,6 +9290,80 @@ ship "PAS-3 Barbette"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "With the imminent war the Free Worlds need as much firepower as they can get. The Jupiter class is next on their list as one of the biggest ship around. Its cargo bay replaced with huge turret mounts, additional armour and shield emitter installed as well as reinforced interiors they turned the freighter into a formidable warship."
+	
+ship "CDB-12K Saturn"
+	sprite "ship/mgf saturn"
+	thumbnail "thumbnail/mgf saturn thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 61900000
+		"shields" 18600
+		"hull" 16400
+		"required crew" 55
+		"bunks" 67
+		"mass" 26880
+		"drag" 13.1
+		"heat dissipation" .35
+		"fuel capacity" 1500
+		"cargo space" 4500
+		"outfit space" 920
+		"weapon capacity" 570
+		"engine capacity" 200
+		"bulk bay" 12
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Proton Turret" 8
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP576a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 35
+		
+		"X5200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+	turret 0 -347.5 
+	turret -38 -346 "Heavy Anti-Missile Turret"
+	turret 38 -346 "Heavy Anti-Missile Turret"
+	turret -78 -327 
+	turret 78 -327 
+	turret -122 -134 
+	turret 122 -134 
+	turret -122 22 "Heavy Anti-Missile Turret"
+	turret 122 22 "Heavy Anti-Missile Turret"
+	turret -122 177 
+	turret 122 177 
+	turret 0 285 
+	gun -117.5 -356 
+	gun 117.5 -356 
+	gun -104 -361 
+	gun 104 -361 
+	engine -82.5 335.5 
+		zoom 1.3
+	engine 82.5 335.5 
+		zoom 1.3
+	engine 0 392.5 
+		zoom .8
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A class of even larger dry bulk carrier with ability to also carry significant amount of container for extra profit."
 	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
