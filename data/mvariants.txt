@@ -212,6 +212,67 @@ ship "Quicksilver" "Quicksilver (EPB3-2)"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
 		
+ship "Eleonorae" "Eleonorae (Atomic, G22)"
+	outfits
+		"G22 Particle Turret" 4
+		"Heavy Anti-Missile"
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Laser Rifle" 60
+		
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+ship "CS-24 Garrison" "CS-24 Garrison (Bounty Hunter, AntiMHL)"
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"M6-ACS Artillery Turret"
+		"Heavy Anti-Missile" 3
+		
+		"Fusion Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator" 2
+		"Laser Rifle" 40
+		
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Scram Drive"
+		
+ship "Marauder Splinter" "Marauder Splinter (Engines, Bounty Hunter, AntiMHL)"
+	sprite "ship/msplintere"
+	thumbnail "thumbnail/msplintere"
+	add attributes
+		"engine capacity" 20
+	outfits
+		"Particle Cannon" 2
+		"G22 Particle Turret"
+		
+		"Fusion Reactor"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Cooling Duct"
+		"Laser Rifle" 21
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	
+	engine -15.5 115 .7
+	engine 0 117
+	engine 15.5 115 .7
+	turret 
+	turret "G22 Particle Turret"
+	turret 
+		
 ship "Dreadnought" "Dreadnought (Parapet)"
 	add attributes
 		"weapon capacity" 5
@@ -845,6 +906,18 @@ ship "Battle Behemoth" "Battle Behemoth (Proton)"
 ship "AGT-31 Xencar" "Xencar (Particle)"
 	outfits
 		"Particle Cannon"
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+		
+ship "AGT-31 Xencar" "Xencar (EPB3-2)"
+	outfits
+		"EPB3-2 Particle Cannon"
 		
 		"nGVF-BB Fuel Cell"
 		"LP036a Battery Pack"

@@ -112,7 +112,7 @@ ship "Wisymton"
 ship "Wisymton" "Wisymton (Light Freighter)"
 	add attributes
 		category "Light Freighter"
-		"hyperdrive" 1
+		"fuel capacity" 100
 
 ship "Wisymton" "Wisymton (Cargo)"
 	sprite "ship/mgf wisymton c"
@@ -167,7 +167,7 @@ ship "Wisymton" "Wisymton (Light Freighter, Cargo)"
 	thumbnail "thumbnail/mgf wisymton c thumb"
 	add attributes
 		category "Light Freighter"
-		"hyperdrive" 1
+		"fuel capacity" 100
 		"cost" 4000
 		"mass" 5
 		"cargo space" 40
@@ -9363,7 +9363,7 @@ ship "CDB-12K Saturn"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A class of even larger dry bulk carrier with ability to also carry significant amount of container for extra profit."
+	description "A class of even larger dry bulk carrier than the Jupiter as exports and demand grew though due to lack of unloading gears it can only operate at more equipped ports. In addition to its bulk bays it can also carry significant amount of container for extra profit."
 	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"

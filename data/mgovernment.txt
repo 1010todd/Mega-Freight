@@ -155,6 +155,25 @@ government "MGF: Crossguard Patrol"
 		"Phenomenon (dangerous)" -.01
 		"Indigenous Predator" -.01
 	"hostile hail" "hostile bounty hunter"
+	"bribe" .4
+	"fine" 0
+	
+# MHL-focused Bounty Hunters
+government "MGF: Bounty Hunter (AntiMHL)"
+	"display name" "Bounty Hunter"
+	swizzle 6
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" 1
+		"MGF: NGK Hauling" 1
+		"MGF: Maryhal Logistic" -.01
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"hostile hail" "hostile bounty hunter"
+	"bribe" .3
+	"fine" 0
 	
 # South-north alien-equipped pirate group.
 government "MGF: Minotaurs"
@@ -167,6 +186,7 @@ government "MGF: Minotaurs"
 		"Korath" -.1
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Maryhal Logistic" -.1
+		"MGF: NGK Hauling" -.1
 		"MGF: Jack's Gang" -.1
 		"MGF: Espion Mining Co." -.1
 		"MGF: Ugyr's Sanctuary" -5

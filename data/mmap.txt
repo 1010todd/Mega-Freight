@@ -1652,6 +1652,40 @@ system Gomeisa
 system "Epsilon Leonis"
 	add fleet "Maryhal Logistic ArteryLine" 7500
 
+#==============================Bounty Hunters
+
+system Zubeneschamali
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Zubenelgenubi
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Sabik
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Kornephoros
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Wei
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Alioth
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Holeb
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Rutilicus
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+
+system Tarazed
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Dabih
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system "Kaus Australis"
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Peacock
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Ascella
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Rasalhague
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+system Cebalrai
+	add fleet "Large Bounty Hunters (AntiMHL)" 15800
+	
 #=====================================Rangphenn Transport
 #South-Core transport company
 system Sol

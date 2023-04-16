@@ -1424,6 +1424,22 @@ fleet "Large Crossguard Patrol"
 		"Eleonorae"
 		"Aplomado"
 	
+# Dedicated to attacking MHL fleets.
+fleet "Large Bounty Hunters (AntiMHL)"
+	government "MGF: Bounty Hunter (AntiMHL)"
+	names "bounty hunter"
+	personality
+		hunting plunders coward
+		confusion 20
+	variant 50
+		"Hawk (Rocket)" 8
+		"Headhunter (Particle)" 5
+		"Marauder Splinter (Engines, Bounty Hunter, AntiMHL)" 3
+		"AP-7 Sentinel" 2
+		"Eleonorae (Atomic, G22)" 2
+		"CS-24 Garrison (Bounty Hunter, AntiMHL)"
+		"Xencar (EPB3-2)" 18
+	
 fleet "Small Black Death Fleet"
 	government "MGF: Black Death"
 	names "pirate"

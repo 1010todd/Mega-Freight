@@ -809,6 +809,55 @@ mission "MGF: Hire Small Crossguard Escort"
 				"Marauder Quicksilver (XGS Escort)" 4
 			variant 4
 				"Marauder Quicksilver (XGS Escort, Weapons)" 4
+	on fail
+		dialog
+			`The captain of <npc> informs you that they've completed the 1 month contract and give you a farewell.`
+	to complete
+		never
+		
+mission "MGF: Hire Large Crossguard Escort"
+	name "Hire Large Crossguard Escort"
+	job
+	repeat
+	deadline 30
+	description `Hire a large fleet of Crossguard warships to escort you for 1 month (<date>). You will pay 1,500,000 credits upfront for the escort with no further fees.`
+	to offer
+		or
+			random < 10
+			#-----Higher chance if using freighter with no escorts.
+			and
+				random < 30
+				or
+					"ship: Light Freighter" > 5
+					"ship: Heavy Freighter" > 2
+				"ship: Interceptor" < 5
+				"ship: Light Warship" < 4
+				"ship: Medium Warship" < 3
+				"ship: Heavy Warship" < 1
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "dirt belt" rim "south"
+	on accept
+		payment -1500000
+	
+	npc
+		government "Escort" #So they attack everything that attack you.
+		names "crossguard name"
+		cargo 1
+		personality
+			confusion 20
+			hunting disables
+		fleet
+			variant 6
+				"Eleonorae"
+				"Osprey"
+				"Osprey (Heavy)"
+			variant 4
+				"Eleonorae"
+				"Marauder Splinter" 2
+	on fail
+		dialog
+			`The captain of <npc> informs you that they've completed the 1 month contract and give you a farewell.`
 	to complete
 		never
 #===================================Heavy Lift jobs

@@ -786,6 +786,23 @@ event "mgf: tonazqi released"
 		add variant 4
 			"QYG-70r Tonazqi"
 			"Berserker" 2
+			
+mission "MGF: Solacer Upgrade I"
+	invisible
+	landing
+	to offer
+		has "event: mgf: tonazqi released"
+	on offer
+		event "MGF: Solacer Upgrade I" 60
+	on accept
+		fail
+		
+event "MGF: Solacer Upgrade I"
+	fleet "MGF: Small Solacer Reefer"
+		add variant 20
+			"QYG-70r Tonazqi"
+			"Hawk" 2
+			
 #=========================Event Additions
 
 
