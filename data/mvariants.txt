@@ -1737,6 +1737,30 @@ ship "AP-7 Sentinel" "AP-7 Sentinel (NGK Escort)"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 
+ship "CSE-6 Steward" "Steward (NGK Long Range)"
+	outfits
+		"K3-K-S Particle Turret" 6
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"Fuel Pod" 7
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 40
+		"Liquid Nitrogen Cooler"
+		
+		"X3200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+	turret -24 25.5 "K3-K-S Particle Turret"
+	turret 24 25.5 "K3-K-S Particle Turret"
+	turret -29.5 38 
+	turret 29.5 38 
+	turret -39.5 71.5 "Heavy Anti-Missile Turret"
+	turret 39.5 71.5 "Heavy Anti-Missile Turret"
+	turret -36.5 95 "K3-K-S Particle Turret"
+	turret 36.5 95 "K3-K-S Particle Turret"
+
 ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort)"
 	swizzle 7
 	outfits

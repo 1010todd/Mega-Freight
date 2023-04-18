@@ -3290,7 +3290,156 @@ mission "MGF: Large Frozen Transport 4"
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 52000 210
 		
+#======================================Cement
+
+phrase "mgf: unload cement"
+	word
+		"You dock your ship to the special unloading port and discharge the cargo to the trucks waiting. After the last truck is fully loaded <payment> is transferred into your account."
+
+mission "MGF: Cement Transport 1"
+	name "Cement Transport to <planet>"
+	description "2000 units of Cement along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): U-type 1k Cement Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
+	on accept
+		outfit "Cement" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Cement" -2000
+	on complete
+		outfit "Cement" -2000
+		dialog phrase "mgf: unload cement"
+		payment 800000 6500
 		
+mission "MGF: Cement Transport 2"
+	name "Cement Transport to <planet>"
+	description "2000 units of Cement along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): U-type 1k Cement Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
+	on accept
+		outfit "Cement" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Cement" -2000
+	on complete
+		outfit "Cement" -2000
+		dialog phrase "mgf: unload cement"
+		payment 800000 6800
+		
+mission "MGF: Fly Ash Transport 1"
+	name "Fly Ash Transport to <planet>"
+	description "2000 units of Fly Ash along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): U-type 1k Cement Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
+	on accept
+		outfit "Fly Ash" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Fly Ash" -2000
+	on complete
+		outfit "Fly Ash" -2000
+		dialog phrase "mgf: unload cement"
+		payment 800000 6500
+		
+mission "MGF: Fly Ash Transport 2"
+	name "Fly Ash Transport to <planet>"
+	description "2000 units of Fly Ash along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 40
+		has "outfit (installed): U-type 1k Cement Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
+	on accept
+		outfit "Fly Ash" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Fly Ash" -2000
+	on complete
+		outfit "Fly Ash" -2000
+		dialog phrase "mgf: unload cement"
+		payment 800000 6500
+		
+mission "MGF: Granulated Slag Transport 1"
+	name "Granulated Slag Transport to <planet>"
+	description "2000 units of Granulated Slag along with <cargo> to verify the batch is required to be shipped to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "paper works" 1
+	to offer
+		random < 50
+		has "outfit (installed): U-type 1k Cement Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		distance 3 20
+	to accept
+		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
+	on accept
+		outfit "Granulated Slag" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Granulated Slag" -2000
+	on complete
+		outfit "Granulated Slag" -2000
+		dialog phrase "mgf: unload cement"
+		payment 800000 6500
 		
 #=======================================GAS
 

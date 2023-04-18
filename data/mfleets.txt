@@ -177,6 +177,15 @@ fleet "Large Southern Merchants"
 		"CDB-6K Jupiter"
 		"Falcon"
 	
+	add variant 3
+		"FPd45 Clinker"
+	add variant 4
+		"FPd45 Clinker"
+		"Hawk" 2
+	add variant 3
+		"FPd45 Clinker"
+		"Headhunter (Particle)"
+	
 fleet "Small Core Merchants"
 	add variant 40
 		"FR-4 Dart"
@@ -447,6 +456,15 @@ fleet "Large Core Merchants"
 		"CDB-6K Jupiter" 2
 		"Vanguard"
 		"Quicksilver" 3
+		
+	add variant 5
+		"FPd45 Clinker"
+	add variant 4
+		"FPd45 Clinker"
+		"Hawk" 2
+	add variant 3
+		"FPd45 Clinker"
+		"Headhunter (Particle)"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -758,6 +776,14 @@ fleet "Large Northern Merchants"
 		"CDB-12K Saturn"
 		"Firebird"
 		
+	add variant 4
+		"FPd45 Clinker"
+	add variant 3
+		"FPd45 Clinker"
+		"Berserker" 2
+	add variant 2
+		"FPd45 Clinker"
+		"Headhunter (Particle)"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -1201,12 +1227,12 @@ fleet "NGK Hauling RORO"
 	variant 50
 		"LVC-2 Sandura"
 		"Leviathan (NGK Escort)"
-		"Steward (Long Range)" #todo smaller carrier.
+		"Steward (NGK Long Range)" #todo smaller carrier.
 		"Xencar (NGK)" 6
 	variant 50
 		"LVC-2 Sandura"
 		"AP-7 Sentinel (NGK Escort)"
-		"Steward (Long Range)"
+		"Steward (NGK Long Range)"
 		"Xencar (NGK)" 6
 		
 		

@@ -9365,6 +9365,61 @@ ship "CDB-12K Saturn"
 	"final explode" "final explosion large"
 	description "A class of even larger dry bulk carrier than the Jupiter as exports and demand grew though due to lack of unloading gears it can only operate at more equipped ports. In addition to its bulk bays it can also carry significant amount of container for extra profit."
 	
+ship "FPd45 Clinker"
+	sprite "ship/mgf clinker"
+	thumbnail "thumbnail/mgf clinker thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9500000
+		"shields" 6800
+		"hull" 7500
+		"required crew" 18
+		"bunks" 30
+		"mass" 3700
+		"drag" 11.5
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 420
+		"weapon capacity" 120
+		"engine capacity" 150
+		"u-type 1k cement tank" -4
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 2
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 18
+		
+		"U-type 1k Cement Tank" 4
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	turret 0 -163.5 
+	turret 0 -69.5 "Heavy Anti-Missile Turret"
+	turret 0 162.5 
+	engine -19 195 
+	engine 19 195 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A hatchless self-unloading cargo ship specialized for carrying and handling powdered cargoes like cement. Because of the specially designed cargo holds and loading and unloading systems for granulated cargo it cannot be used to transport any other kind of cargo."
+	description `The Clinker was built in response to growing demand for cement as colonies grow into cities though this model requires port-side facilities to properly unload directly to vehicles and will often only travel between ports with proper equipment.`
+	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
 	thumbnail "thumbnail/mgf xencar thumb"

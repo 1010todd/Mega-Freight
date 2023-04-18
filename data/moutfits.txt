@@ -464,6 +464,35 @@ outfit "K3-K Particle Beam"
 		"shield damage" 62
 		"hull damage" 57
 		
+outfit "K3-K-S Particle Turret"
+	category "Turrets"
+	cost 840000
+	thumbnail "outfit/mgf k3k single turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/k3k particle beam
+			scale .8
+		sound "k3k particle"
+		"hardpoint sprite" "hardpoint/mgf k3k single turret hp"
+		"hardpoint offset" 5.
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .8
+		"turret turn" 2.5
+		velocity 28
+		"lifetime" 31
+		"random lifetime" 2
+		"reload" 17
+		"firing energy" 45
+		"firing force" 6
+		"firing heat" 280
+		"hit force" 50
+		"shield damage" 62
+		"hull damage" 57
+	description `Single gun version of MJK Heavy Industries particle turret to be used by NGK Hauling ships for improved firepower and range over the commonly used proton turrets.`
+		
 outfit "M6-ACS Artillery"
 	category "Guns"
 	cost 2100000
@@ -1882,6 +1911,17 @@ outfit "U-type 1k Chemical Tank"
 	description `Universal chemical tank made to safely store even the most corrosive liquid built for dedicated chemical tanker for shipping various industrial chemicals with far superior efficiency compared to regular freighter. The tanks are made with thick corrosion resistant material and coated with another layer of specialized corrosion-proof coating. Lined with dedicated temperature control system to keep the cargo at ideal heat for transport unaffected by the environment around the ship.`
 	description `Having ships with dedicated chemical tanks as flagship allow you to be offered special jobs for transporting industrial chemicals.`
 	
+outfit "U-type 1k Cement Tank"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/fuel module"
+	"mass" 450
+	"u-type 1k cement tank" 1
+	"cement capacity" 1000
+	#"cement lock" -9e+10
+	"unplunderable" 1
+	description `Dedicated cement tank without hatch and instead loaded and unloaded by it's own dedicated system.`
+	
 outfit "B-type 1k Oil Tank"
 	category "Systems"
 	cost 200000
@@ -2322,6 +2362,35 @@ outfit "Conc. Coconut Water"
 	"juice capacity" -1
 	"juice lock" 1
 	"heat capacity" 2
+	"unplunderable" 1
+	
+#=====================================Cement
+
+outfit "Cement"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"cement capacity" -1
+	"cement lock" 1
+	"unplunderable" 1
+	
+outfit "Fly Ash"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"cement capacity" -1
+	"cement lock" 1
+	"unplunderable" 1
+	
+outfit "Granulated Slag"
+	#category "Special"
+	cost 650
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"cement capacity" -1
+	"cement lock" 1
 	"unplunderable" 1
 	
 #========================================Gases ""custom commodity""
