@@ -9375,7 +9375,7 @@ ship "FPd45 Clinker"
 		"hull" 7500
 		"required crew" 18
 		"bunks" 30
-		"mass" 3700
+		"mass" 2900
 		"drag" 11.5
 		"heat dissipation" .7
 		"fuel capacity" 500
@@ -9419,6 +9419,60 @@ ship "FPd45 Clinker"
 	"final explode" "final explosion large"
 	description "A hatchless self-unloading cargo ship specialized for carrying and handling powdered cargoes like cement. Because of the specially designed cargo holds and loading and unloading systems for granulated cargo it cannot be used to transport any other kind of cargo."
 	description `The Clinker was built in response to growing demand for cement as colonies grow into cities though this model requires port-side facilities to properly unload directly to vehicles and will often only travel between ports with proper equipment.`
+	
+ship "FAd36 Flint"
+	sprite "ship/mgf flint"
+	thumbnail "thumbnail/mgf flint thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9000000
+		"shields" 6300
+		"hull" 7900
+		"required crew" 16
+		"bunks" 28
+		"mass" 3500
+		"drag" 11.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 600
+		"outfit space" 450
+		"weapon capacity" 140
+		"engine capacity" 220
+		"aggregate bay" 3
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 2
+		"Blaster Turret"
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 16
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	turret -44.5 -145.5 
+	turret 44.5 -145.5 
+	turret 0 11.5 "Heavy Anti-Missile Turret"
+	turret 0 157.5 "Blaster Turret"
+	engine -36.5 185.5 
+	engine 36.5 185.5 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Flint-class is purpose built bulk freighter for carrying aggregates equipped with loading and unloading conveyor belt to allow operating independent of port equipment increasing versatility. As per requirement of some cargo the cargo hold of this ship is also equipped with moisture control system to maintain the most ideal condition for its cargo."
 	
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"

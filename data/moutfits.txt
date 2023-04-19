@@ -473,7 +473,7 @@ outfit "K3-K-S Particle Turret"
 	"weapon capacity" -40
 	"turret mounts" -1
 	weapon
-		sprite "projectile/k3k particle beam
+		sprite "projectile/k3k particle beam"
 			scale .8
 		sound "k3k particle"
 		"hardpoint sprite" "hardpoint/mgf k3k single turret hp"

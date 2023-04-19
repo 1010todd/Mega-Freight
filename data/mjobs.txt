@@ -685,6 +685,8 @@ mission "MGF: Huge Bulk Delivery [2]"
 		payment 3000
 		dialog phrase "generic cargo delivery payment"
 		
+#============================Dry Bulk (requires bulk carrier)
+		
 trade
 	commodity "unpacked dry bulk"
 		"grain"
@@ -860,6 +862,167 @@ mission "MGF: Hire Large Crossguard Escort"
 			`The captain of <npc> informs you that they've completed the 1 month contract and give you a farewell.`
 	to complete
 		never
+		
+#===================================NGK
+
+mission "MGF: NGK Corporate Saboteur Arrest"
+	name "Arrest Corporate Saboteur"
+	description `A saboteur was identified to be escaping in an Arrow named <npc>, disable and board it to arrest the saboteur and bring the to <origin> and receive your payment of <payment>.`
+	deadline 5
+	to offer
+		random < 10
+		"reputation: NGK Hauling" >= 3
+	source
+		government Republic Syndicate
+		attributes core
+		attributes urban
+	to accept
+		has "outfit (flagship installed): Brig"
+	
+	npc save board
+		government "Bounty"
+		personality launching target fleeing uninterested
+		system
+			distance 0 0
+		fleet
+			names "civilian"
+			variant
+				"Arrow"
+		dialog
+			`You boarded the <npc> and arrest its crew. Now you can land back on <origin> to claim your reward.`
+	on abort
+		"reputation: NGK Hauling" -= 1
+		"reputation: NGK Hauling" >?= 2
+	on complete
+		payment 100000
+		"reputation: NGK Hauling" += 1
+		"MGF: NGK saboteur arrest job done" += 1
+		dialog
+			`Armed NGK security personnels arrive to pick up the crew of <npc> you just arrested thanking you and hands you <payment>.`
+	
+phrase "mgf: ngk sketchy passenger done"
+	word
+		"Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
+		"Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed. Just as you turn around to get back to your ship you hear some shouting from behind. You turn around and see those you just left your ship now kneeling with hands on their head as they're being apprehended by armed security personnels."
+		"Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed. Just as you turn around to get back to your ship you hear some shouting from behind. You turn around and see those you just left your ship now kneeling with hands on their head as they're being apprehended by security personnels armed with distinct white-blue painted rifle."
+	
+mission "MGF: NGK Sketchy Passenger [0]"
+	name "Passenger transport to <planet>"
+	job
+	repeat
+	description "Bring <fare> to <destination>. Payment is <payment>."
+	passengers 2 10 .9
+	to offer
+		random < 10
+	source
+		government Republic Syndicate
+		attributes core "near earth" urban
+	destination
+		distance 2 10
+		government Republic Syndicate
+		attributes core
+		attributes urban
+	on accept
+		dialog `You have some difficulty finding your passengers, but after almost an hour of searching you finally find them. As they follow you back to your ship, you hear them whispering to each other, but you can't make out what they're saying.`
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 2000 180
+		dialog phrase "mgf: ngk sketchy passenger done"
+
+		
+#===================================MHL
+
+mission "MGF: MHL Scout Route (Rim Route)"
+	name "Scout Route"
+	description `MHL is looking for someone to scout the route ahead for their cargo fleet to allow appropriate preparation. Travel to <waypoints> then back to <origin> for <payment>. Combat is unnecessary.`
+	job
+	repeat
+	deadline
+	to offer
+		random < 20
+		"reputation: Maryhaul Logistic" >= 3
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "dirt belt" rim "south" "near earth"
+		
+	waypoint Zubeneschamali
+	waypoint Zubenelgenubi
+	waypoint Sabik
+	waypoint Kornephoros
+	waypoint Wei
+	waypoint Alioth
+	waypoint Holeb
+	waypoint Rutilicus
+	
+	npc
+		to spawn
+			random > 50
+		government "MGF: Friendly Bounty Hunter"
+		names "bounty hunter"
+		cargo 1
+		system 
+			near Wei 0 1
+		personality
+			confusion 20
+			hunting staying
+		fleet "Large Bounty Hunters (AntiMHL)" 1
+	
+	on abort
+		"reputation: Maryhaul Logistic" -= 1
+		"reputation: Maryhaul Logistic" >?= 1
+	on complete
+		dialog
+			`You land back on <origin> and send your sensor logs to MHL office and soon after <payment> is transferred into your account.`
+		"reputation: Maryhaul Logistic" += 1
+		"MGF: MHL scouting job done" += 1
+		payment 100000
+		
+		
+mission "MGF: MHL Scout Route (Tarazed Route)"
+	name "Scout Route"
+	description `MHL is looking for someone to scout the route ahead for their cargo fleet to allow appropriate preparation. Travel to <waypoints> then back to <origin> for <payment>. Combat is unnecessary.`
+	job
+	repeat
+	deadline
+	to offer
+		random < 20
+		"reputation: Maryhaul Logistic" >= 3
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "dirt belt" rim "south" "near earth"
+		
+	waypoint Tarazed
+	waypoint Dabih
+	waypoint "Kaus Australis"
+	waypoint Peacock
+	waypoint Ascella
+	waypoint Rasalhague
+	waypoint Cebalrai
+	
+	npc
+		to spawn
+			random > 50
+		government "MGF: Friendly Bounty Hunter"
+		names "bounty hunter"
+		cargo 1
+		system 
+			near Ascella 0 1
+		personality
+			confusion 20
+			hunting staying
+		fleet "Large Bounty Hunters (AntiMHL)" 1
+	
+	on abort
+		"reputation: Maryhaul Logistic" -= 1
+		"reputation: Maryhaul Logistic" >?= 1
+	on complete
+		dialog
+			`You land back on <origin> and send your sensor logs to MHL office and soon after <payment> is transferred into your account.`
+		"reputation: Maryhaul Logistic" += 1
+		"MGF: MHL scouting job done" += 1
+		payment 90000
+		
 #===================================Heavy Lift jobs
 
 phrase "mgf: heavy lift complete"
@@ -3310,7 +3473,7 @@ mission "MGF: Cement Transport 1"
 		attributes "factory" "manufacturing" "mining"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "factory" "manufacturing"
+		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
 		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
@@ -3339,7 +3502,7 @@ mission "MGF: Cement Transport 2"
 		attributes "factory" "manufacturing" "mining"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "factory" "manufacturing"
+		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
 		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
@@ -3368,7 +3531,7 @@ mission "MGF: Fly Ash Transport 1"
 		attributes "factory" "manufacturing" "mining"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "factory" "manufacturing"
+		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
 		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
@@ -3397,7 +3560,7 @@ mission "MGF: Fly Ash Transport 2"
 		attributes "factory" "manufacturing" "mining"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "factory" "manufacturing"
+		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
 		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
@@ -3426,7 +3589,7 @@ mission "MGF: Granulated Slag Transport 1"
 		attributes "factory" "manufacturing" "mining"
 	destination
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
-		attributes "factory" "manufacturing"
+		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
 		"outfit (flagship installed): U-type 1k Cement Tank" >= 2 + ( "outfit (installed): Cement" / 1000 ) + ( "outfit (installed): Fly Ash" / 1000 ) + ( "outfit (installed): Granulated Slag" / 1000 )
@@ -3440,6 +3603,165 @@ mission "MGF: Granulated Slag Transport 1"
 		outfit "Granulated Slag" -2000
 		dialog phrase "mgf: unload cement"
 		payment 800000 6500
+		
+#===================================Aggregate
+
+phrase "mgf: unload aggregate"
+	word
+		"You dock your ship to the special unloading port and discharge the cargo to the trucks waiting. After the last truck is fully loaded <payment> is transferred into your account."
+
+trade
+	commodity "Aggregate"
+		"Flint"
+		"Crushed Basalt"
+		"Crushed Granite"
+		"Crushed Quartz"
+		"Slag"
+		"Recycled Concrete"
+
+mission "MGF: Aggregate Transport 1"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 200
+	to offer
+		random < 40
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 60000 300
+		
+mission "MGF: Aggregate Transport 2"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 200
+	to offer
+		random < 35
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 62000 300
+		
+mission "MGF: Aggregate Transport 3"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 200
+	to offer
+		random < 30
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 60000 350
+		
+mission "MGF: Aggregate Transport 4"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 200
+	to offer
+		random < 35
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 63000 320
+		
+mission "MGF: Aggregate Transport 5"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 400
+	to offer
+		random < 40
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 90000 275
+		
+mission "MGF: Aggregate Transport 6"
+	name "Aggregate Transport to <planet>"
+	description "Ship <cargo> to <destination>. Payment is <payment>."
+	job
+	repeat
+	cargo "Aggregate" 600
+	to offer
+		random < 30
+		or
+			has "ship model: FAd36 Flint"
+			has "flagship attribute: aggregate bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "mining"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		dialog phrase "mgf: unload aggregate"
+		payment 150000 225
 		
 #=======================================GAS
 

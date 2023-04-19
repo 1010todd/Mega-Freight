@@ -1717,6 +1717,32 @@ ship "Leviathan" "Leviathan (NGK Escort)"
 		"Ramscoop"
 	description `Though a very dated model the Betelgeuse Leviathan remains to be a tough and reliable escort. NGK Hauling was one of the primary operator of Leviathan opted for a massive makeover instead as newer warship models were deemed too fragile. The result was a significantly improved warship with additional and improved armour, improved shield emitter with denser spacing and additional tuning, and expanded weapon sections for a full deck of venerable particle turrets allowing it to square up against any modern ship, all without any significant increase in maintenance requirement from the base model. It also gain additional fuel tanks to allow it to keep up with newer freighters for long distance shipping.`
 
+ship "Leviathan" "Leviathan (NGK Escort, Turret Upgrade)"
+	sprite "ship/mgf leviathan ngk"
+	thumbnail "thumbnail/mgf leviathan ngk thumb"
+	add attributes
+		"shields" 1300
+		"hull" 500
+		"drag" 2
+		"mass" 300
+		"outfit space" 100
+		"weapon capacity" 84
+		"cargo space" -60
+		"fuel capacity" 400
+		"shield generation multiplier" .05
+	outfits
+		"K3-K Particle Turret" 4
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 50
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		"Ramscoop"
+	description `Though a very dated model the Betelgeuse Leviathan remains to be a tough and reliable escort. NGK Hauling was one of the primary operator of Leviathan opted for a massive makeover instead as newer warship models were deemed too fragile. The result was a significantly improved warship with additional and improved armour, improved shield emitter with denser spacing and additional tuning, and expanded weapon sections for a full deck of updated, cutting-edge particle turrets allowing it to square up against any modern ship, all without any significant increase in maintenance requirement from the base model. It also gain additional fuel tanks to allow it to keep up with newer freighters for long distance shipping.`
+
 ship "AP-7 Sentinel" "AP-7 Sentinel (NGK Escort)"
 	outfits
 		"Proton Gun" 12
@@ -1761,6 +1787,82 @@ ship "CSE-6 Steward" "Steward (NGK Long Range)"
 	turret -36.5 95 "K3-K-S Particle Turret"
 	turret 36.5 95 "K3-K-S Particle Turret"
 
+ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Proton Turret" 3
+		"K3-K-S Particle Turret" 2
+		"Heavy Anti-Missile Turret" 3
+		
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 18
+		
+		"X5200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Turret Upgrade)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"K3-K-S Particle Turret" 5
+		"Heavy Anti-Missile Turret" 3
+		
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 18
+		
+		"X5200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+ship "FG-5 Bluewhale" "FG-5 Bluewhale-A (NGK, Turret Upgrade)"
+	sprite "ship/mgf bluewhale-a"
+		"random start frame" #For random cargo colour
+		"frame rate" 0
+	thumbnail "thumbnail/mgf bluewhale-a"
+	outfits
+		"Blaster Turret" 4
+		"K3-K-S Particle Turret" 5
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fission Reactor"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 4
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "LVC-2 Sandura" "LVC-2 Sandura (NGK, Turret Upgrade)" 
+	sprite "ship/mgf sandura"
+	thumbnail "thumbnail/mgf sandura thumb"
+	outfits
+		"K3-K-S Particle Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 50
+		
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
 ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort)"
 	swizzle 7
 	outfits

@@ -185,6 +185,15 @@ fleet "Large Southern Merchants"
 	add variant 3
 		"FPd45 Clinker"
 		"Headhunter (Particle)"
+		
+	add variant 4
+		"FAd36 Flint"
+	add variant 3
+		"FAd36 Flint"
+		"Argosy"
+	add variant 2
+		"FAd36 Flint"
+		"Headhunter"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -465,6 +474,16 @@ fleet "Large Core Merchants"
 	add variant 3
 		"FPd45 Clinker"
 		"Headhunter (Particle)"
+		
+	add variant 5
+		"FAd36 Flint"
+	add variant 4
+		"FAd36 Flint"
+		"Splinter"
+	add variant 3
+		"FAd36 Flint"
+		"FPd45 Clinker"
+		"Quicksilver" 3
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -784,6 +803,16 @@ fleet "Large Northern Merchants"
 	add variant 2
 		"FPd45 Clinker"
 		"Headhunter (Particle)"
+		
+	add variant 5
+		"FAd36 Flint"
+	add variant 4
+		"FAd36 Flint"
+		"Raven" 2
+	add variant 3
+		"FAd36 Flint"
+		"FPd45 Clinker"
+		"Headhunter (Particle)" 2
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -1215,6 +1244,15 @@ fleet "NGK Hauling HeavyFreight"
 		"Leviathan (NGK Escort)"
 		"L-VC28 Zuikaku"
 		"Xencar (NGK)" 20
+	variant 10
+		"FG-5 Bluewhale-A"
+		"FG-5 Bluewhale-A (NGK, Turret Upgrade)" 2
+		"CDB-6K Jupiter"
+		"CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
+		"Leviathan (NGK Escort)"
+		"L-VC28 Zuikaku"
+		"Xencar (NGK)" 20
+		
 		
 fleet "NGK Hauling RORO"
 	government "MGF: NGK Hauling"
@@ -1234,7 +1272,11 @@ fleet "NGK Hauling RORO"
 		"AP-7 Sentinel (NGK Escort)"
 		"Steward (NGK Long Range)"
 		"Xencar (NGK)" 6
-		
+	variant 10
+		"LVC-2 Sandura (NGK, Turret Upgrade)" 
+		"Leviathan (NGK Escort)"
+		"Steward (NGK Long Range)"
+		"Xencar (NGK)" 6
 		
 		
 #Largest MHL convoy traveling on specific main route between major space
