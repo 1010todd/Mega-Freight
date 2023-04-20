@@ -705,6 +705,8 @@ event "mgf: mieusbar released"
 	date 21 4 3014
 	shipyard "Southbound Advanced"
 		add "TS-1L260 Mieusbar"
+	shipyard "Vessa Shipworks Advanced"
+		add "TS-1L260 Mieusbar"
 	fleet "Rangphenn Transport"
 		add variant 5
 			"TS-1L260 Mieusbar"
@@ -735,6 +737,8 @@ event "mgf: ialmuslati released"
 	shipyard "Lionheart Basics"
 		"AD-0032 Ialmuslati"
 	shipyard "Luxury Ships"
+		"AD-0032 Ialmuslati"
+	shipyard "Najrmalas Shipworks Advanced"
 		"AD-0032 Ialmuslati"
 	fleet "Small Northern Merchants"
 		add variant 4

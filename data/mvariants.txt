@@ -215,7 +215,7 @@ ship "Quicksilver" "Quicksilver (EPB3-2)"
 ship "Eleonorae" "Eleonorae (Atomic, G22)"
 	outfits
 		"G22 Particle Turret" 4
-		"Heavy Anti-Missile"
+		"Heavy Anti-Missile Turret"
 		
 		"Fusion Reactor"
 		"LP288a Battery Pack"
@@ -233,7 +233,7 @@ ship "CS-24 Garrison" "CS-24 Garrison (Bounty Hunter, AntiMHL)"
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
 		"M6-ACS Artillery Turret"
-		"Heavy Anti-Missile" 3
+		"Heavy Anti-Missile Turret" 3
 		
 		"Fusion Reactor"
 		"Liquid Nitrogen Cooler"
@@ -259,7 +259,7 @@ ship "Marauder Splinter" "Marauder Splinter (Engines, Bounty Hunter, AntiMHL)"
 		"LP036a Battery Pack"
 		"D67-TM Shield Generator"
 		"Liquid Nitrogen Cooler"
-		"Cooling Duct"
+		"Cooling Ducts"
 		"Laser Rifle" 21
 		
 		"A370 Atomic Thruster"
@@ -935,6 +935,7 @@ ship "AGT-31 Xencar" "Xencar (NGK)"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
 		"Small Radar Jammer"
+		"NGK R11 Rifle"
 		
 		"X1700 Ion Thruster"
 		"A125 Atomic Steering"
@@ -1710,7 +1711,10 @@ ship "Leviathan" "Leviathan (NGK Escort)"
 		"LP144a Battery Pack"
 		"D94-YV Shield Generator"
 		"Liquid Helium Cooler"
-		"Laser Rifle" 50
+		"NGK R11 Rifle" 50
+		"NGK R11 QAS" 20
+		"NGK R11 Grip" 20
+		"NGK R11 Bipod" 10
 		"X3700 Ion Thruster"
 		"X4200 Ion Steering"
 		"Scram Drive"
@@ -1736,7 +1740,10 @@ ship "Leviathan" "Leviathan (NGK Escort, Turret Upgrade)"
 		"LP144a Battery Pack"
 		"D94-YV Shield Generator"
 		"Liquid Helium Cooler"
-		"Laser Rifle" 50
+		"NGK R11 Rifle" 50
+		"NGK R11 QAS" 20
+		"NGK R11 Grip" 20
+		"NGK R11 Bipod" 10
 		"X3700 Ion Thruster"
 		"X4200 Ion Steering"
 		"Scram Drive"
@@ -1756,7 +1763,10 @@ ship "AP-7 Sentinel" "AP-7 Sentinel (NGK Escort)"
 		"LP576a Battery Pack"
 		"D67-TM Shield Generator"
 		"Liquid Nitrogen Cooler"
-		"Laser Rifle" 60
+		"NGK R11 Rifle" 60
+		"NGK R11 QAS" 20
+		"NGK R11 Grip" 30
+		"NGK R11 Bipod" 10
 		"Fuel Pod"
 		
 		"X4700 Ion Thruster"
@@ -1772,7 +1782,10 @@ ship "CSE-6 Steward" "Steward (NGK Long Range)"
 		"Fuel Pod" 7
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
-		"Laser Rifle" 40
+		"NGK R11 Rifle" 50
+		"NGK R11 QAS" 20
+		"NGK R11 Grip" 10
+		"NGK R11 Bipod" 30
 		"Liquid Nitrogen Cooler"
 		
 		"X3200 Ion Steering"
@@ -1801,7 +1814,8 @@ ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
 		"Water Coolant System"
 		"LP288a Battery Pack"
 		"D41-HY Shield Generator"
-		"Laser Rifle" 18
+		"Laser Rifle" 12
+		"NGK R11 Rifle" 6
 		
 		"X5200 Ion Steering"
 		"X4700 Ion Thruster"
@@ -1820,7 +1834,7 @@ ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Turret Upgrade)"
 		"Water Coolant System"
 		"LP288a Battery Pack"
 		"D41-HY Shield Generator"
-		"Laser Rifle" 18
+		"NGK R11 Rifle" 18
 		
 		"X5200 Ion Steering"
 		"X4700 Ion Thruster"
@@ -1840,15 +1854,13 @@ ship "FG-5 Bluewhale" "FG-5 Bluewhale-A (NGK, Turret Upgrade)"
 		"Water Coolant System"
 		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
-		"Laser Rifle" 4
+		"NGK R11 Rifle" 12
 		
 		"A525 Atomic Steering"
 		"A370 Atomic Thruster"
 		"Scram Drive"
 		
 ship "LVC-2 Sandura" "LVC-2 Sandura (NGK, Turret Upgrade)" 
-	sprite "ship/mgf sandura"
-	thumbnail "thumbnail/mgf sandura thumb"
 	outfits
 		"K3-K-S Particle Turret" 2
 		"Heavy Anti-Missile Turret" 2
@@ -1856,8 +1868,7 @@ ship "LVC-2 Sandura" "LVC-2 Sandura (NGK, Turret Upgrade)"
 		"Fission Reactor"
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
-		"Laser Rifle" 50
-		
+		"NGK R11 Rifle" 50
 		
 		"X4200 Ion Steering"
 		"X4700 Ion Thruster"
@@ -1887,7 +1898,7 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort, Weapons)"
 		"weapon capacity" 15
 	outfits
 		"EPB3-2 Particle Cannon" 2
-		"Mod Blaster Turret"
+		"Modified Blaster Turret"
 		
 		"Fission Reactor"
 		"LP036a Battery Pack"

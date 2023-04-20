@@ -959,8 +959,6 @@ mission "MGF: MHL Scout Route (Rim Route)"
 		to spawn
 			random > 50
 		government "MGF: Friendly Bounty Hunter"
-		names "bounty hunter"
-		cargo 1
 		system 
 			near Wei 0 1
 		personality
@@ -1004,8 +1002,6 @@ mission "MGF: MHL Scout Route (Tarazed Route)"
 		to spawn
 			random > 50
 		government "MGF: Friendly Bounty Hunter"
-		names "bounty hunter"
-		cargo 1
 		system 
 			near Ascella 0 1
 		personality

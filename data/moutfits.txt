@@ -566,7 +566,7 @@ outfit "Jaivana Shell"
 outfit "Jaivana Shell Storage"
 	category "Ammunition"
 	cost 12000
-	thumbnail "outfit/mgf swordfish missile rack"
+	thumbnail "outfit/mgf jaivana shell storage"
 	"mass" 2.4
 	"outfit space" -7
 	"jaivana shell capacity" 20
@@ -1884,6 +1884,48 @@ outfit "Ta-class Energy Module"
 	"cooling inefficiency" .5
 	"AT-type slot" -1
 	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvestign additional energy at cost of more heat management problems.`
+	
+outfit "NGK R11 Rifle"
+	category "Hand to Hand"
+	cost 10000
+	thumbnail "outfit/mgf ngk r11 rifle"
+	"capture attack" .7
+	"capture defense" .9
+	"scope slot" 1
+	"underbarrel slot" 1
+	"overbarrel slot" 1
+	"unplunderable" 1
+	description "A unique rifle used by NGK security personnels to guard their facilities and ships. Light weight and notably more powerful than standard laser rifles by utilizing different technology. It also comes with (hidden) universal attachment points and collapsible stock allow it to adapt to various situations and make it a much more effective weapon."
+	description `Attachment modules not included.`
+	
+outfit "NGK R11 Grip"
+	category "Hand to Hand"
+	cost 5000
+	thumbnail "outfit/mgf ngk r11 grip"
+	"capture attack" .1
+	"underbarrel slot" -1
+	"unplunderable" 1
+	description "Lightweight adjustable grip for the R11 Rifle for improved control at short and medium range."
+	
+outfit "NGK R11 Bipod"
+	category "Hand to Hand"
+	cost 6000
+	thumbnail "outfit/mgf ngk r11 bipod"
+	"capture attack" -.1
+	"capture defense" .3
+	"underbarrel slot" -1
+	"unplunderable" 1
+	description "Retractable bipod for the R11 Rifle for more stable firing significantly improving accuracy and target acquisition. Ideal for marksman and machine gun role but less suitable for assault due to added weight."
+	
+outfit "NGK R11 QAS"
+	category "Hand to Hand"
+	cost 7000
+	thumbnail "outfit/mgf ngk r11 qas"
+	"capture attack" .1
+	"capture defense" .1
+	"scope slot" -1
+	"unplunderable" 1
+	description "QAS sight for the R11 Rifle allowing fast aiming over short to medium range perfect for close quarter combat like inside a ship."
 	
 outfit "M-type 1k Gas Tank"
 	category "Systems"

@@ -76,14 +76,6 @@ planet Mainsail
 	add shipyard "Intrasystem Basic"
 planet Icefall
 	add shipyard "Intrasystem Basic"
-	
-planet Clark
-	add shipyard "MarStel Intermediate"
-	add shipyard "MarStel Advanced"
-
-planet Glaze
-	add shipyard "MarStel Intermediate"
-	add shipyard "MarStel Advanced"
 
 #==========================Near Bourne Merchants
 #Lightly armed merchants, kind of a mirror of Paradise Merchants.
@@ -139,19 +131,98 @@ system Phurad
 system Avior
 	add fleet "MGF: Intrasystem Refuelling" 4500
 
+#=====================MarStel
+#Build heavily armed ships with unique radar-absorbing, scan-interfering coating. Not exactly on good ties with Syndicate so they don't have shipyard there.
+planet Clark
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+planet Glaze
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+planet Zug
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+planet Bounty
+	add shipyard "MarStel Intermediate"
+	add "Common Outfits"
+planet Prime
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+planet Chiron
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+planet Follower
+	add shipyard "MarStel Intermediate"
+	add shipyard "MarStel Advanced"
+	
 #==========Pioneer Heavy Industries
 #Shipyard focused on specialized cargo ships like tankers.
 
-planet Millrace
+planet Millrace #HQ
 	add shipyard "Pioneer Heavy Industries Advanced"
 planet Moonshake
-	add shipyard "Pioneer Heavy Industries Basic"
+	add shipyard "Pioneer Heavy Industries Intermediate"
+planet Tinker
+	add shipyard "Pioneer Heavy Industries Advanced"
+planet Chiron
+	add shipyard "Pioneer Heavy Industries Intermediate"
+planet "New China"
+	add shipyard "Pioneer Heavy Industries Intermediate"
+planet Foundry
+	add shipyard "Pioneer Heavy Industries Advanced"
+planet Shangri-La
+	add shipyard "Pioneer Heavy Industries Advanced"
+planet Hephaestus
+	add shipyard "Pioneer Heavy Industries Advanced"
+	
+#===========Vefron Dockyard
+#Shipyard that produce small to mid-sized freighter. Also build reefer ships.
 
+planet Hephaestus
+	add shipyard "Vefrol Dockyard Advanced"
+planet Millrace
+	add shipyard "Vefrol Dockyard Advanced"
+planet Relic
+	add shipyard "Vefrol Dockyard Basic"
+planet Glory
+	add shipyard "Vefrol Dockyard Intermediate"
+planet Moonshake
+	add shipyard "Vefrol Dockyard Intermediate"
+	
+planet "New Argentina" #attempt at expanding into the south to sell reefers.
+	add shipyard "Vefrol Dockyard Intermediate"
+	
+#==============Najrmalas Shipworks
+#More luxurious/fancy ships with focus on speed. Should be around near Earth, Deep, and paradise worlds.
+
+planet Follower #HQ(?)
+	add shipyard "Najrmalas Shipworks Advanced"
+planet Valhalla
+	add shipyard "Najrmalas Shipworks Advanced"
+planet Haze
+	add shipyard "Najrmalas Shipworks Advanced"
+planet Hestia
+	add shipyard "Najrmalas Shipworks Basic"
+planet Mainsail
+	add shipyard "Najrmalas Shipworks Basic"
+planet Luna
+	add shipyard "Najrmalas Shipworks Basic"
+
+planet Chiron
+	add shipyard "Najrmalas Shipworks Advanced"
+planet Ada
+	add shipyard "Najrmalas Shipworks Advanced"
+	
+#===============NGK Group (NGK Hauling, MJK Heavy Industries)
+
+planet Tinker #HQ
+	add shipyard "MJK Heavy Industries Basic"
+	
 #==========Solomons Voidworks
-#Heavily armed and armoured southern ships.
+#Heavily armed and armoured southern ships. Should be around Dirt Belt and South.
 planet Zug
 	add shipyard "Solomons Voidworks Advanced"
-planet Clark
+planet Clark #HQ
 	add shipyard "Solomons Voidworks Advanced"
 
 planet Longjump
@@ -161,7 +232,21 @@ planet Longjump
 #Armed passenger transport ships
 planet Longjump
 	add shipyard "Vessa Shipworks Basic"
-
+planet "New Argentina"
+	add shipyard "Vessa Shipworks Basic"
+planet "New Holland"
+	add shipyard "Vessa Shipworks Advanced"
+planet Zug
+	add shipyard "Vessa Shipworks Advanced"
+planet Trinket
+	add shipyard "Vessa Shipworks Basic"
+planet Dune
+	add shipyard "Vessa Shipworks Basic"
+planet Oasis
+	add shipyard "Vessa Shipworks Intermediate"
+planet Solace
+	add shipyard "Vessa Shipworks Intermediate"
+	
 #==========Seikron Dockyard
 #Sell short-ranged freighter, should be in relatively safe places.
 planet Rust
@@ -192,6 +277,18 @@ planet Ada
 planet Tinker
 	add shipyard "Seikron Dockyard Advanced"
 
+#==========================Corbel Engineering
+#Front heavy bulk carriers and specialized derivatives, should be around mining worlds.
+
+planet "Hopper"
+	add shipyard "Corbel Engineering Advanced"
+planet "New Washington"
+	add shipyard "Corbel Engineering Advanced"
+planet "New Wales"
+	add shipyard "Corbel Engineering Advanced"
+planet "Tinker"
+	add shipyard "Corbel Engineering Advanced"
+	
 #==========================Espion
 #Asteroid mining company.
 planet "New Sahara"
