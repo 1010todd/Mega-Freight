@@ -110,9 +110,25 @@ ship "Wisymton"
 	description "A tugboat from early days of space trading made to transport cargo containers between ground and space when repulsor engines are still in its infancy and many ships from previous era still lack one or were not designed to enter atmosphere and land at all. With more freighters equipped with repulsor engines these tugboat roles changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
 
 ship "Wisymton" "Wisymton (Light Freighter)"
-	add attributes
+	attributes
 		category "Light Freighter"
 		"fuel capacity" 100
+		"cost" 85000
+		"hull" 520
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" .5
+		"heat dissipation" .9
+		"cargo space" 2
+		"outfit space" 81
+		"weapon capacity" 0
+		"engine capacity" 42
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 
 ship "Wisymton" "Wisymton (Cargo)"
 	sprite "ship/mgf wisymton c"
@@ -165,13 +181,26 @@ ship "Wisymton" "Wisymton (Cargo)"
 ship "Wisymton" "Wisymton (Light Freighter, Cargo)"
 	sprite "ship/mgf wisymton c"
 	thumbnail "thumbnail/mgf wisymton c thumb"
-	add attributes
+	attributes
 		category "Light Freighter"
 		"fuel capacity" 100
-		"cost" 4000
-		"mass" 5
+		"cost" 87000
+		"hull" 520
+		"required crew" 1
+		"bunks" 1
 		"cargo space" 40
-		"drag" .1
+		"mass" 55
+		"drag" .6
+		"heat dissipation" .9
+		"cargo space" 2
+		"outfit space" 81
+		"weapon capacity" 0
+		"engine capacity" 42
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 		
 	gun 0 4.5
 	"reverse engine" -28.5 20
@@ -2155,7 +2184,7 @@ ship "CS-24 Garrison"
 		"heat dissipation" .5
 		"fuel capacity" 1200
 		"cargo space" 150
-		"outfit space" 824
+		"outfit space" 840
 		"weapon capacity" 425
 		"engine capacity" 165
 		weapon
@@ -2528,6 +2557,7 @@ ship "EM-28F Wombat"
 	engine 44.5 355 
 	engine -481.5 350 
 	engine 481.5 350 
+	#todo: unique launch sounds for miners.
 	bay "Pocket Light Warship" 80.5 -34.5 
 		"launch effect" "human internal"
 		right
@@ -2806,7 +2836,7 @@ ship "EM-28F Wombat"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station with bays for sizeable amount of fighters and drones for mining.`
+	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go as due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Due to its size and slowness the vessel is less than ideal for mining and collecting resources itself but instead relys and a sizeable fleet of fighters and drones to mine and collect resource for it. To protect their miners from harm as they operate far away from the mothership the Wombat also comes with space for 4 pocket light warships to guard the miners.`
 		
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
@@ -8810,8 +8840,8 @@ ship "TS-CH0 Kratzbal"
 		"heat dissipation" .65
 		"fuel capacity" 800
 		"cargo space" 40
-		"outfit space" 688
-		"weapon capacity" 358
+		"outfit space" 640
+		"weapon capacity" 310
 		"engine capacity" 154
 		weapon
 			"blast radius" 140
@@ -8825,8 +8855,9 @@ ship "TS-CH0 Kratzbal"
 		"Meteor Missile" 60
 		
 		"Proton Turret" 3
-		"Quad Blaster Turret" 4
-		"Heavy Anti-Missile Turret" 2
+		"Quad Blaster Turret" 2
+		"Blaster Turret" 2
+		"Anti-Missile Turret" 2
 		
 		"nGVF-EE Fuel Cell"
 		"LP288a Battery Pack"
@@ -8844,12 +8875,12 @@ ship "TS-CH0 Kratzbal"
 	turret 0 -143.5 "Proton Turret"
 	turret -12 -119 "Quad Blaster Turret"
 	turret 12 -119 "Quad Blaster Turret"
-	turret -23 -51.5 "Heavy Anti-Missile Turret"
-	turret 23 -51.5 "Heavy Anti-Missile Turret"
+	turret -23 -51.5 "Anti-Missile Turret"
+	turret 23 -51.5 "Anti-Missile Turret"
 	turret 0 20 "Proton Turret"
 	turret 0 41.5 "Proton Turret"
-	turret -18.5 96 "Quad Blaster Turret"
-	turret 18.5 96 "Quad Blaster Turret"
+	turret -18.5 96 "Blaster Turret"
+	turret 18.5 96 "Blaster Turret"
 	engine -38 162.5
 		zoom 1
 		under
@@ -9031,6 +9062,51 @@ effect "zuikaku fighter launch"
 	"random spin" 10
 	"velocity scale" -.05
 	
+ship "F-VC56 Kaga"
+	attributes
+		category "Heavy Warship"
+		"cost" 55800000
+		"shields" 32000
+		"hull" 19500
+		"required crew" 340
+		"bunks" 680
+		"mass" 7584
+		"drag" 25.3
+		"heat dissipation" .5
+		"fuel capacity" 2600
+		"cargo space" 50
+		"outfit space" 3560
+		"weapon capacity" 780
+		"engine capacity" 360
+		"shield generation multiplier" .06
+		"hull repair rate" 1.8
+		"ion protection" 1
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"K3-K Particle Turret" 4
+		#"H6-Gy Oscillator Turret" 4
+		"K3-K-S Particle Turret"
+		"Heavy Anti-Missile Turret" 2
+		
+		"Akataiyo Fusion Reactor" 2
+		"Ta-class Energy Module" 24
+		"Water Coolant System"
+		"D94-YV Shield Generator"
+		#"S-2370y Regenerator"
+		"NGK R11 Rifle" 500
+		"NGK R11 QAS" 500
+		"NGK R11 Grip" 400
+		"NGK R11 Bipod" 100
+		
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Scram Drive"
+		
+	description `Initially a plan pitched to the Republic Navy as they seek a new fleet carrier with enough capacity for 80 fighters now brought back into development as they realized the looming threat of aliens from all sides and funding to spare.`
+	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort (and advertisement) and deterrence with most threat being large pirate fleet and still have to be somewhat economically viable, Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with an array of cutting-edge armaments to out gun any alien warship it may find.`
+	
+	#Light-Vessel,Carrier
 ship "L-VC28 Zuikaku"
 	sprite "ship/mgf zuikaku"
 	thumbnail "thumbnail/mgf zuikaku thumb"
@@ -9039,16 +9115,16 @@ ship "L-VC28 Zuikaku"
 		"cost" 30800000
 		"shields" 24000
 		"hull" 12100
-		"required crew" 88
-		"bunks" 180
+		"required crew" 140
+		"bunks" 350
 		"mass" 4584
 		"drag" 18.3
 		"heat dissipation" .65
 		"fuel capacity" 1800
 		"cargo space" 50
-		"outfit space" 960
-		"weapon capacity" 510
-		"engine capacity" 210
+		"outfit space" 1260
+		"weapon capacity" 560
+		"engine capacity" 300
 		"shield generation multiplier" .02
 		"hull repair rate" .8
 		weapon
@@ -9060,14 +9136,17 @@ ship "L-VC28 Zuikaku"
 		"Torpedo Launcher" 4
 		"Torpedo" 120
 		"K3-K Particle Turret" 4
-		"Proton Turret"
-		"Anti-Missile Turret" 2
+		"K3-K-S Particle Turret"
+		"Heavy Anti-Missile Turret" 2
 		
 		"Akataiyo Fusion Reactor"
 		"Ta-class Energy Module" 12
 		"Water Coolant System"
 		"D94-YV Shield Generator"
-		"Laser Rifle" 95
+		"NGK R11 Rifle" 200
+		"NGK R11 QAS" 100
+		"NGK R11 Grip" 100
+		"NGK R11 Bipod" 80
 		
 		"X5200 Ion Steering"
 		"X5700 Ion Thruster"
@@ -9085,10 +9164,9 @@ ship "L-VC28 Zuikaku"
 	turret -69 -44 "K3-K Particle Turret"
 	turret 45.5 26.5 "K3-K Particle Turret"
 	turret -45.5 26.5 "K3-K Particle Turret"
-	turret 80 94 "Anti-Missile Turret"
-	turret -80 94 "Anti-Missile Turret"
+	turret 80 94 "Heavy Anti-Missile Turret"
+	turret -80 94 "Heavy Anti-Missile Turret"
 	turret 0 216.5 
-	#todo: custom launch effect/sound?
 	bay "Fighter" -70.5 -276 
 		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
@@ -9129,9 +9207,9 @@ ship "L-VC28 Zuikaku"
 		"launch effect" "zuikaku fighter launch"
 	bay "Fighter" 70.5 -276 
 		"launch effect" "zuikaku fighter launch"
-	engine -63.5 319 
+	engine -65 319 
 		over
-	engine 63.5 319 
+	engine 65 319 
 		over
 	engine -91.5 319 
 	engine 91.5 319 
@@ -9143,6 +9221,110 @@ ship "L-VC28 Zuikaku"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	description `NGK Hauling custom built light carrier for escorting their freighters as piracy raises. Built with unique technology by one of the most advanced shipyard resulting in one of the most advanced carrier in human space.`
+	
+	#Escort-Vessel,Carrier
+ship "E-VC14 Zuiho"
+	sprite "ship/mgf zuiho"
+	thumbnail "thumbnail/mgf zuiho thumb"
+	attributes
+		category "Medium Warship"
+		"cost" 8800000
+		"shields" 12000
+		"hull" 6800
+		"required crew" 50
+		"bunks" 120
+		"mass" 1720
+		"drag" 14.5
+		"heat dissipation" .7
+		"fuel capacity" 1200
+		"cargo space" 50
+		"outfit space" 780
+		"weapon capacity" 400
+		"engine capacity" 180
+		"shield generation multiplier" .02
+		"hull repair rate" .2
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile Pod" 6
+		"Sidewinder Missile" 114
+		"K3-K-S Particle Turret" 6
+		"Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"NGK R11 Rifle" 70
+		"NGK R11 QAS" 40
+		"NGK R11 Grip" 20
+		"NGK R11 Bipod" 30
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+	gun -35.5 -150 
+	gun 35.5 -150 
+	gun -35.5 -150 "Torpedo Launcher"
+	gun 35.5 -150 "Torpedo Launcher"
+	turret 0 -9 
+	turret 27 -3 
+	turret -27 -3 
+	turret 36.5 37 "Anti-Missile Turret"
+	turret -36.5 37 "Anti-Missile Turret"
+	turret 36.5 56.5 
+	turret -36.5 56.5 
+	turret 0 123.5 
+	gun 66 51.5 
+		angle 90
+	gun -66 51.5 
+		angle -90
+	gun 66 63 
+		angle 90
+	gun -66 63 
+		angle -90
+	gun 66 75.5 
+		angle 90
+	gun -66 75.5 
+		angle -90
+	engine -19 160 
+	engine 19 160 
+	engine 0 157 
+		zoom .7
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -91 
+		"launch effect" "zuikaku fighter launch"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	description `Zuiho is an escort carrier initially modified from the Steward but later models are now purpose-built. It was designed to offer NGK fleets advantage over other fleets that utilize commercially available ship including the pirates with larger hangar bay, improved armour and shielding, as well as larger fuel tank to keep up with the fleet.`
 	
 ship "CDB-6K Jupiter"
 	sprite "ship/mgf jupiter"

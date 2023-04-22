@@ -26,6 +26,8 @@ system "Men"
 	add fleet "Rare Southern Pirate" 12000
 system Kornephoros
 	add fleet "Intrasystem Merchants" 1000
+system Diphda
+	add fleet "Intrasystem Merchants" 1000
 planet Asgard
 	add shipyard "MGF Special C"
 planet Clark
@@ -218,6 +220,48 @@ planet Ada
 planet Tinker #HQ
 	add shipyard "MJK Heavy Industries Basic"
 	
+system Diphda
+	add object "MGF: Fake Tinker"
+		distance 548.586
+		period 212.495
+		object "Yokosuka Naval Arsenal"
+			sprite "planet/mgf yokosuka naval arsenal"
+			distance 201.24
+			period 27.3
+			
+planet "MGF: Fake Tinker"
+	attributes "requires: unlandable" "requires: oisdjfsn"
+	description `If you can land here it is a bug.`
+			
+planet "Yokosuka Naval Arsenal"
+	government "MGF: NGK Hauling"
+	attributes "core" "near earth" station factory research
+	landscape land/sivael5
+	music ambient/machinery
+	description `A large station serving as shipyard and factory for MJK Heavy Industries for manufacturing various ship-related products and building starships as well as hosting one of the largest and most advanced research facilities. Though the station itself predates the Republic it is perhaps one of the most well-maintained station around with everything interior and exterior looking like it was completed just a year ago.`
+	spaceport `The spaceport doubles as recreational area for the workers abroad this station containing various restaurant chains, cafes, gyms, game booths, and more, it is somewhat of a mall itself. Though most of the facilities are reserved for employees you can also pay your way in as well but it's not exactly the most budget friendly option. Though access beyond the immediate area around the spaceport is restricted for outsiders except for occasional guided tour of the station during weekends.`
+	shipyard "Basic Ships"
+	shipyard "Megaparsec Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Syndicate Advanced"
+	shipyard "Intrasystem Basic"
+	shipyard "Intrasystem Advanced"
+	shipyard "MJK Heavy Industries Basic"
+	shipyard "MJK Heavy Industries Advanced"
+	outfitter "Common Outfits"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Syndicate Advanced"
+	outfitter "Ammo North"
+	outfitter "MJK Heavy Industries Basic"
+	outfitter "MJK Heavy Industries Advanced"
+	security 0.5
+	tribute 3000
+		threshold 6500
+		fleet "Small Syndicate" 5
+		fleet "Large Syndicate" 12
+		fleet "MJK Defense Fleet" 3
+		
 #==========Solomons Voidworks
 #Heavily armed and armoured southern ships. Should be around Dirt Belt and South.
 planet Zug
@@ -1606,6 +1650,11 @@ system "Cor Caroli"
 system Vindemiatrix
 	add fleet "NGK Hauling HeavyFreight" 7500
 system Sarin
+	add fleet "NGK Hauling HeavyFreight" 7500
+
+system Diphda
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Caph
 	add fleet "NGK Hauling HeavyFreight" 7500
 
 #-------------------RORO line

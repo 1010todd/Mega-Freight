@@ -1471,6 +1471,7 @@ outfit "Spearfish Missile"
 effect "spearfish flare"
 	sprite "effect/spearfish flare"
 		"frame rate" 6
+		"random start frame"
 	"lifetime" 6
 	"velocity scale" .3
 	
@@ -1926,6 +1927,38 @@ outfit "NGK R11 QAS"
 	"scope slot" -1
 	"unplunderable" 1
 	description "QAS sight for the R11 Rifle allowing fast aiming over short to medium range perfect for close quarter combat like inside a ship."
+	
+outfit "MJK S1 Cargo Expansion"
+	category "Systems"
+	cost 99000
+	thumbnail "outfit/cargo expansion"
+	"mass" 3
+	"cargo space" 38
+	"outfit space" -40
+	"unplunderable" 1
+	description "More advanced and well planned outfit-to-cargo refitting offered by MJK Heavy Industries for higher price."
+	
+outfit "MJK S1 Bunk Dismantling"
+	category "Systems"
+	cost 79000
+	thumbnail "outfit/bunk room"
+	"mass" 3
+	"bunks" -4
+	"outfit space" 18
+	"unplunderable" 1
+	description "Efficient conversion of unused bunk rooms into outfit space offered by MJK Heavy Industries."
+	
+outfit "S-1670 Regenerator"
+	category "Systems"
+	cost 4200000
+	thumbnail "outfit/large regenerator"
+	"mass" 133
+	"outfit space" -133
+	"shield generation" 9.5
+	"shield energy" 9.5
+	"energy consumption" 31.5
+	"heat generation" 21
+	description "A larger version of the advanced S-970 Regenerator."
 	
 outfit "M-type 1k Gas Tank"
 	category "Systems"

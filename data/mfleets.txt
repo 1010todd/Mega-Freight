@@ -1216,15 +1216,17 @@ fleet "NGK Hauling HeavyFreight"
 	variant 50
 		"FG-5 Bluewhale-A" 5
 		"AP-7 Sentinel (NGK Escort)"
-		"L-VC28 Zuikaku"
-		"Xencar (NGK)" 20
+		"E-VC14 Zuiho"
+		"Xencar (NGK)" 10
 	variant 50
 		"FG-7 Conveyor-A" 4
-		"Leviathan (NGK Escort)"
-		"L-VC28 Zuikaku"
-		"Xencar (NGK)" 20
+		"Xencar (NGK)" 32
+		"Leviathan (NGK Escort)" 2
+		"E-VC14 Zuiho"
+		"Xencar (NGK)" 10
 	variant 40
 		"FG-7 Conveyor-A" 5
+		"Xencar (NGK)" 40
 		"Leviathan (NGK Escort)"
 		"L-VC28 Zuikaku"
 		"Xencar (NGK)" 20
@@ -1234,11 +1236,13 @@ fleet "NGK Hauling HeavyFreight"
 		"L-VC28 Zuikaku"
 		"Xencar (NGK)" 20
 	variant 30
-		"FG-5 Bluewhale-A" 3
-		"CDB-6K Jupiter" 2
+		"FG-5 Bluewhale-A" 2
+		"FG-5 Bluewhale-A (NGK, Turret Upgrade)"
+		"CDB-6K Jupiter"
+		"CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
 		"Leviathan (NGK Escort)"
-		"L-VC28 Zuikaku"
-		"Xencar (NGK)" 20
+		"E-VC14 Zuiho"
+		"Xencar (NGK)" 10
 	variant 20
 		"CDB-12K Saturn" 4
 		"Leviathan (NGK Escort)"
@@ -1253,7 +1257,6 @@ fleet "NGK Hauling HeavyFreight"
 		"L-VC28 Zuikaku"
 		"Xencar (NGK)" 20
 		
-		
 fleet "NGK Hauling RORO"
 	government "MGF: NGK Hauling"
 	names "ngk name"
@@ -1265,8 +1268,8 @@ fleet "NGK Hauling RORO"
 	variant 50
 		"LVC-2 Sandura"
 		"Leviathan (NGK Escort)"
-		"Steward (NGK Long Range)" #todo smaller carrier.
-		"Xencar (NGK)" 6
+		"E-VC14 Zuiho"
+		"Xencar (NGK)" 10
 	variant 50
 		"LVC-2 Sandura"
 		"AP-7 Sentinel (NGK Escort)"
@@ -1275,9 +1278,23 @@ fleet "NGK Hauling RORO"
 	variant 10
 		"LVC-2 Sandura (NGK, Turret Upgrade)" 
 		"Leviathan (NGK Escort)"
-		"Steward (NGK Long Range)"
-		"Xencar (NGK)" 6
+		"E-VC14 Zuiho"
+		"Xencar (NGK)" 10
 		
+fleet "MJK Defense Fleet"
+	government "MGF: NGK Hauling"
+	names "ngk name"
+	fighters "ngk fighter"
+	cargo 4
+	personality
+		confusion 30
+	variant 50
+		"Leviathan (NGK Escort)" 6
+		"AP-7 Sentinel (NGK Escort)" 3
+		"E-VC14 Zuiho" 4
+		"Xencar (NGK)" 40
+		"L-VC28 Zuikaku" 2
+		"Xencar (NGK)" 40
 		
 #Largest MHL convoy traveling on specific main route between major space
 fleet "Maryhal Logistic ArteryLine"
@@ -1647,6 +1664,8 @@ fleet "Large Militia"
 		"Eleonorae"
 		"Hawk" 2
 		"Sparrow" 3
+	add variant 2
+		"TS-CH0 Kratzbal"
 		
 fleet "Small Free Worlds"
 	add variant 4
@@ -1770,6 +1789,11 @@ fleet "Large Free Worlds"
 		"Osprey (Missile)"
 		"CSE-6 Steward" #6
 		"Finch" 6
+		
+	add variant 7 #turns out they make decent frigate
+		"TS-CH0 Kratzbal (Plasma Steering)"
+	add variant 5
+		"TS-CH0 Kratzbal" 2
 		
 #=============================SYNDICATES
 fleet "Large Syndicate"

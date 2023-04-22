@@ -581,6 +581,27 @@ ship "AD-0032 Ialmuslati" "Ialmuslati (Hyperdrive)"
 		"X1100 Ion Reverse Thruster"
 		"Hyperdrive"
 		
+ship "TS-CH0 Kratzbal" "TS-CH0 Kratzbal (Plasma Steering)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Proton Turret" 3
+		"Quad Blaster Turret" 2
+		"Blaster Turret" 2
+		"Anti-Missile Turret" 2
+		
+		"nGVF-EE Fuel Cell"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 12
+		
+		"Orca Plasma Steering"
+		"X4700 Ion Thruster"
+		"Hyperdrive"
+		
 ship "Modified Argosy" "Modified Argosy (Black Death)"
 	outfits
 		"Mixture-DX Corrosive Thrower" 2
@@ -1151,6 +1172,34 @@ ship "CK80T Tlielart" "Tlielart (Cargo Engine)"
 	engine 272 299.5 
 		zoom .7
 	description `Another attempt to make the ship more attractive choice first shown concept model at the spaceship expo in 3013, the rear cargo section was modified into engine section giving the ship a massive increase to speed shortening the transit.`
+
+ship "Culverin Class" "Culverin Class (Mark II, Jump)"
+	add attributes #me lazy
+		"outfit space" 60
+		"weapon capacity" 75
+		"cargo space -40
+	outfits
+		"Sidewinder Missile Launcher" 16
+		"Sidewinder Missile" 720
+		"Electron Turret" 1
+		"Heavy Anti-Missile Turret" 1
+		"Spearfish VLS Array" 4
+		"Spearfish Missile" 48
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer"
+		"Water Coolant System"
+		"Brig"
+		"Laser Rifle" 50
+		"Fragmentation Grenades" 40
+		"Security Station"
+		"Tactical Scanner"
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Jump Drive"
 
 #Sulso Gas shipping Fleet
 
@@ -1800,6 +1849,39 @@ ship "CSE-6 Steward" "Steward (NGK Long Range)"
 	turret -36.5 95 "K3-K-S Particle Turret"
 	turret 36.5 95 "K3-K-S Particle Turret"
 
+ship "L-VC28 Zuikaku" "L-VC28 Zuikaku (Advanced)" 
+	add attributes
+		"shields" 1000
+		"hull" 500
+		"required crew" 20
+		"bunks" -30
+		"heat dissipation" .03
+		"hull repair rate" .1
+		"outfit space" 20
+		"engine capacity" 5
+		"cargo space" -30
+		"mjolnir capacity" 100
+	outfits
+		"Mjolnir Launcher" 4
+		"Mjolnir Missile" 220
+		"K3-K Particle Turret" 5
+		"Heavy Anti-Missile Turret" 2
+		
+		"Ramscoop"
+		"Akataiyo Fusion Reactor" 2
+		"Ta-class Energy Module" 16
+		"Liquid Nitrogen Cooler"
+		"S-1670 Regenerator"
+		"NGK R11 Rifle" 200
+		"NGK R11 QAS" 100
+		"NGK R11 Grip" 100
+		"NGK R11 Bipod" 80
+		
+		"A865 Atomic Steering"
+		"A860 Atomic Thruster"
+		"A520 Atomic Thruster"
+		"Scram Drive"
+
 ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
 	outfits
 		"Torpedo Launcher" 2
@@ -1858,6 +1940,26 @@ ship "FG-5 Bluewhale" "FG-5 Bluewhale-A (NGK, Turret Upgrade)"
 		
 		"A525 Atomic Steering"
 		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+ship "FG-7 Conveyor" "FG-7 Conveyor-A (NGK, Turret Upgrade)"
+	sprite "ship/mgf conveyor-a"
+		"random start frame" #For random cargo colour
+		"frame rate" 0
+	thumbnail "thumbnail/mgf conveyor-a"
+	outfits
+		"K3-K-S Particle Turret" 9
+		"Heavy Anti-Missile Turret" 6
+		
+		"Fission Reactor"
+		"RT-I Radiothermal"
+		"Liquid Nitrogen Cooler"
+		"LP576a Battery Pack" 2
+		"D67-TM Shield Generator"
+		"NGK R11 Rifle" 18
+		
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
 		"Scram Drive"
 		
 ship "LVC-2 Sandura" "LVC-2 Sandura (NGK, Turret Upgrade)" 

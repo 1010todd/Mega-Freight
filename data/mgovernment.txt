@@ -102,6 +102,7 @@ government "MGF: Sulso LG Shipping"
 government "MGF: NGK Hauling"
 	"display name" "NGK Hauling"
 	"swizzle" 13
+	color .01 .0 .8
 	"player reputation" 10
 	"attitude toward"
 		"Merchant" 1

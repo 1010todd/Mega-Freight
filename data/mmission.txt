@@ -888,6 +888,79 @@ event "mgf: citrus available for player"
 	planet Skymoot
 		add shipyard "Solacer Group Custom"
 		
+mission "MGF: Hunt Death Harmonica"
+	name "Hunt Death Harmonica"
+	description `Find and destroy a heavily modified TK80C Tileart, Death Harmonica. It is reported to be in Lesath.`
+	source
+		attributes "rim" "south" "dirt belt"
+	destination 
+		attributes "rim" "south" "dirt belt"
+	waypoint Lesath
+	to offer
+		has "MGF: Hunt Death Harmonica Spawn: active"
+	on offer
+		event "MGF: Death Harmonica despawn" 60
+		conversation
+			`While drinking at the bar you took a glance at the news and something caught your eyes. It shows an image of a ship modified from a TK80C Tileart with six gigantic cannons in place of the cargo pods called Death Harmonica. The report say it is owned by the mad pirate Hawksparrow. No one knew how it came to be but it seems to pack as much firepower as the size suggest capable of taking down warships in few shots. It is reported that the ship along with a pair of modified Clipper escorts are currently terrorizing the merchants near Lesath. The Free Worlds is currently gathering ships to hunt it down but due to shortage of warships it can take months before they can properly respond. The local government have posted a bounty of 20M for whoever destroys the ship. The reward can be claimed on <destination>.`
+			choice
+				`	(Take the bounty)`
+					accept
+				`	(Ignore it)`
+					decline
+				
+	on complete
+		payment 20000000
+		dialog phrase "generic bounty hunting payment dialog"
+
+mission "MGF: Hunt Death Harmonica Job"
+	job
+	repeat
+	name "Hunt Death Harmonica"
+	description `Find and destroy a heavily modified TK80C Tileart, Death Harmonica. It is reported to be in Lesath.`
+	source
+		attributes "rim" "south" "dirt belt"
+	waypoint Lesath
+	to offer
+		has "MGF: Hunt Death Harmonica: declined"
+		has "MGF: Hunt Death Harmonica Spawn: active"
+	
+	to complete
+		has "MGF: Hunt Death Harmonica Spawn: failed"
+		
+	on complete
+		payment 20000000
+		dialog phrase "generic bounty hunting payment dialog"
+
+mission "MGF: Hunt Death Harmonica Spawn"
+	landing
+	invisible
+	to offer
+		random < 10
+		has "event: war begins"
+		"combat rating" > 8000
+	
+	npc save
+		government "Pirate"
+		personality heroic staying
+		system Lesath
+		fleet
+			names "pirate"
+			fighters "pirate"
+			variant
+				"CK80Tp Death Harmonica"
+		dialog
+			`As you see the ship blow up you notice escape pod launched from the ship and disappear from your sensor shortly after. If you took a bounty you can return to the planet to claim your reward.`
+				
+	npc
+		government "Pirate"
+		personality heroic staying
+		system Lesath
+		fleet
+			names "pirate"
+			fighters "pirate"
+			variant
+				"Cutthroat" 2
+		
 #=====================Story Mission Addition
 
 mission "MGF Addition: FW Southern Battle 2"
@@ -1030,6 +1103,7 @@ mission "MGF Addition: FWC Pug 4C"
 	clearance
 	to offer
 		has "FWC Pug 4B: done"
+		not "FWC Pug 4C: done"
 	to fail
 		has "FWC Pug 4C: done"
 	npc evade
@@ -1053,6 +1127,103 @@ mission "MGF Addition: FWC Pug 4C"
 				"Lance" 40
 				"A-14F Rondel" 40
 				"Combat Drone" 24
+				
+mission "MGF Addition: FWC Pug 5"
+	landing
+	invisible
+	source Rand
+	destination Silver
+	to offer
+		has "FWC Pug 4C: done"
+		not "FWC Pug 5: done"
+	to fail
+		has "FWC Pug 5: done"
+	npc
+		government Republic
+		personality heroic escort
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Culverin Class (Mark II, Jump)"
+				"Lance"
+				"A-14F Rondel"
+				
+	npc
+		personality disables heroic staying
+		government Pug
+		system Vega
+		fleet
+			names "pug"
+			variant
+				"Pug Enfolta"
+				"Pug Zibruka" 2
+				
+mission "MGF Addition: FWC Pug 5B"
+	landing
+	invisible
+	source Silver
+	destination Mars
+	to offer
+		has "FWC Pug 5: done"
+		not "FWC Pug 5B: done"
+	to fail
+		has "FWC Pug 5B: done"
+	npc
+		government Republic
+		system Sol
+		personality heroic staying uninterested launching
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Spetum Class (Mark II)"
+				"Lance" 20
+				"A-14F Rondel" 60
+				"Combat Drone" 24
+				"Culverin Class (Mark II)" 2
+				"Lance" 4
+				"Carrier (Mark II)" 2
+				"Lance" 8
+				"Combat Drone" 12
+				"Cruiser (Mark II)" 2
+				"Combat Drone" 8
+				"Frigate (Mark II)" 4
+				"Rainmaker (Mark II)" 2
+				"Gunboat (Mark II)" 4
+				
+mission "MGF Addition: FWC Pug 6"
+	landing
+	invisible
+	source Silver
+	destination Pugglemug
+	to offer
+		has "FWC Pug 5C: done"
+		not "FWC Pug 6: done"
+	to fail
+		has "FWC Pug 6: done"
+	npc
+		government Republic
+		system Sol
+		personality heroic
+		fleet
+			names "republic capital"
+			fighters "republic fighter"
+			variant
+				"Spetum Class (Mark II)"
+				"Lance" 20
+				"A-14F Rondel" 60
+				"Combat Drone" 24
+				"Culverin Class (Mark II)" 2
+				"Lance" 4
+				"Carrier (Mark II)" 2
+				"Lance" 8
+				"Combat Drone" 12
+				"Cruiser (Mark II)" 2
+				"Combat Drone" 8
+				"Frigate (Mark II)" 4
+				"Rainmaker (Mark II)" 2
+				"Gunboat (Mark II)" 4
 				
 mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 1"
 	landing
@@ -1147,79 +1318,7 @@ mission "MGF Addition: Wanderers: Sestor: Farpoint Attack 2 (Lucerne)"
 				"Culverin Class (Mark II)" 3
 				"Lance" 6
 				"Frigate (Mark II)" 2
-				
-mission "MGF: Hunt Death Harmonica"
-	name "Hunt Death Harmonica"
-	description `Find and destroy a heavily modified TK80C Tileart, Death Harmonica. It is reported to be in Lesath.`
-	source
-		attributes "rim" "south" "dirt belt"
-	destination 
-		attributes "rim" "south" "dirt belt"
-	waypoint Lesath
-	to offer
-		has "MGF: Hunt Death Harmonica Spawn: active"
-	on offer
-		event "MGF: Death Harmonica despawn" 60
-		conversation
-			`While drinking at the bar you took a glance at the news and something caught your eyes. It shows an image of a ship modified from a TK80C Tileart with six gigantic cannons in place of the cargo pods called Death Harmonica. The report say it is owned by the mad pirate Hawksparrow. No one knew how it came to be but it seems to pack as much firepower as the size suggest capable of taking down warships in few shots. It is reported that the ship along with a pair of modified Clipper escorts are currently terrorizing the merchants near Lesath. The Free Worlds is currently gathering ships to hunt it down but due to shortage of warships it can take months before they can properly respond. The local government have posted a bounty of 20M for whoever destroys the ship. The reward can be claimed on <destination>.`
-			choice
-				`	(Take the bounty)`
-					accept
-				`	(Ignore it)`
-					decline
-				
-	on complete
-		payment 20000000
-		dialog phrase "generic bounty hunting payment dialog"
 
-mission "MGF: Hunt Death Harmonica Job"
-	job
-	repeat
-	name "Hunt Death Harmonica"
-	description `Find and destroy a heavily modified TK80C Tileart, Death Harmonica. It is reported to be in Lesath.`
-	source
-		attributes "rim" "south" "dirt belt"
-	waypoint Lesath
-	to offer
-		has "MGF: Hunt Death Harmonica: declined"
-		has "MGF: Hunt Death Harmonica Spawn: active"
-	
-	to complete
-		has "MGF: Hunt Death Harmonica Spawn: failed"
-		
-	on complete
-		payment 20000000
-		dialog phrase "generic bounty hunting payment dialog"
-
-mission "MGF: Hunt Death Harmonica Spawn"
-	landing
-	invisible
-	to offer
-		random < 10
-		has "event: war begins"
-		"combat rating" > 8000
-	
-	npc save
-		government "Pirate"
-		personality heroic staying
-		system Lesath
-		fleet
-			names "pirate"
-			fighters "pirate"
-			variant
-				"CK80Tp Death Harmonica"
-		dialog
-			`As you see the ship blow up you notice escape pod launched from the ship and disappear from your sensor shortly after. If you took a bounty you can return to the planet to claim your reward.`
-				
-	npc
-		government "Pirate"
-		personality heroic staying
-		system Lesath
-		fleet
-			names "pirate"
-			fighters "pirate"
-			variant
-				"Cutthroat" 2
 				
 #==================================Plugin Addition
 # Adding additional fleets to plugin missions.

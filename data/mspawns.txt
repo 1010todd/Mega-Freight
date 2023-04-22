@@ -700,6 +700,58 @@ event "MGF: LunaWine Escort Upgrade I"
 		add variant 60
 			"Celestine (Long Range, Rose Wine)"
 			"Headhunter (LunaWine Long Range Escort, Burst Particle)" 2
+
+mission "MGF: NGK HeavyFreight Upgrade I"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement III"
+	on offer
+		event "MGF: NGK HeavyFreight Upgrade I"
+	on accept
+		fail
+
+event "MGF: NGK HeavyFreight Upgrade I"
+	fleet "NGK Hauling HeavyFreight"
+		remove variant 50
+			"FG-5 Bluewhale-A" 5
+			"AP-7 Sentinel (NGK Escort)"
+			"E-VC14 Zuiho"
+			"Xencar (NGK)" 10
+		remove variant 50
+			"FG-7 Conveyor-A" 4
+			"Xencar (NGK)" 32
+			"Leviathan (NGK Escort)" 2
+			"E-VC14 Zuiho"
+			"Xencar (NGK)" 10
+		remove variant 30
+			"FG-5 Bluewhale-A" 2
+			"FG-5 Bluewhale-A (NGK, Turret Upgrade)"
+			"CDB-6K Jupiter"
+			"CDB-6K Jupiter (NGK, Partial Turret Upgrade)"
+			"Leviathan (NGK Escort)"
+			"E-VC14 Zuiho"
+			"Xencar (NGK)" 10
+		
+		add variant 50
+			"FG-5 Bluewhale-A" 3
+			"FG-5 Bluewhale-A (NGK, Turret Upgrade)" 2
+			"AP-7 Sentinel (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"Xencar (NGK)" 20
+		add variant 50
+			"FG-7 Conveyor-A" 2
+			"FG-7 Conveyor-A (NGK, Turret Upgrade)" 2
+			"Xencar (NGK)" 32
+			"Leviathan (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"Xencar (NGK)" 20
+		add variant 10
+			"FG-5 Bluewhale-A (NGK, Turret Upgrade)" 3
+			"CDB-6K Jupiter (NGK, Turret Upgrade)" 2
+			"Leviathan (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"Xencar (NGK)" 20
 		
 event "mgf: mieusbar released"
 	date 21 4 3014
@@ -3654,6 +3706,152 @@ event "mgf: quick readd fleets fw armistice set2"
 		add fleet "Large Bounty Hunters (AntiMHL)" 15800
 		add fleet "NGK Hauling HeavyFreight" 7500
 		add fleet "Maryhal Logistic ArteryLine" 7500
+
+mission "MGF: NGK Resist Pug Invasion"
+	landing
+	invisible
+	deadline
+	to offer
+		has "FW Syndicate Capture 1C: done"
+	on offer
+		event "mgf: ngk resist pug invasion" 15
+		
+event "mgf: ngk resist pug invasion"
+	government "MGF: NGK Hauling"
+		"attitude toward"
+			"Pug" -.06
+			"Merchant" 1
+			"Pirate" -.1
+			"Korath" -.1
+			"Scar's Legion" -.1
+			"MGF: Minotaurs" -.2
+			"MGF: Black Death" -.2
+			#Lost in Midnight
+			"Invasive Lifeform" -.01
+			"Phenomenon (dangerous)" -.01
+			"Indigenous Predator" -.01
+	system Diphda
+		government Syndicate
+		
+mission "MGF: NGK Resist Pug Invasion: System Patrol"
+	landing
+	invisible
+	to offer
+		has "event: pug invasion 4"
+	to fail
+		has "event: pug territory liberated"
+	
+	npc #todo make some of them attempt to find and assist the player.
+		government "MGF: NGK Hauling"
+		system "Diphda"
+		personality
+			hunting staying uninterested
+			confusion 5
+		ship "L-VC28 Zuikaku (Advanced)" "Zuikaku"
+		ship "L-VC28 Zuikaku (Advanced)" "Satsuma"
+		ship "L-VC28 Zuikaku (Advanced)" "Chiyoda"
+		ship "L-VC28 Zuikaku (Advanced)" "Shohei"
+		ship "L-VC28 Zuikaku" "Banryu"
+		ship "L-VC28 Zuikaku" "Hyuga"
+		ship "Leviathan (NGK Escort, Turret Upgrade)" "Tango"
+		ship "Leviathan (NGK Escort, Turret Upgrade)" "Sagami"
+		ship "Leviathan (NGK Escort, Turret Upgrade)" "Suwo"
+		ship "Leviathan (NGK Escort)" "Hizen"
+		ship "Leviathan (NGK Escort)" "Iwami"
+		ship "AP-7 Sentinel (NGK Escort)" "Tsukuba"
+		ship "AP-7 Sentinel (NGK Escort)" "Ikoma"
+		ship "E-VC14 Zuiho" "Wakamiya"
+		ship "E-VC14 Zuiho" "Notoro"
+		ship "E-VC14 Zuiho" "Akitsushima"
+		ship "E-VC14 Zuiho" "Kamikawa"
+		fleet 8
+			names "ngk name"
+			fighters "ngk fighter"
+			variant
+				"Xencar (NGK)" 20
+		
+mission "MGF: quick readd fleet pug link restoration 1-4"
+	invisible
+	landing
+	to offer
+		has "event: pug link restoration 4"
+	on offer
+		event "mgf: quick readd fleet pug link restoration 4"
+	on accept
+		fail
+	
+event "mgf: quick readd fleet pug link restoration 4"
+	system "Zeta Aquilae"
+		add fleet "Small Crossguard Patrol" 6300
+		add fleet "Large Crossguard Patrol" 8500
+		add fleet "Small Black Death" 7600
+		add fleet "Large Black Death" 10100
+		add fleet "MGF: Small Solacer Reefer" 4500
+		add fleet "MGF: Solacer Juice Tanker" 5500
+		add fleet "Rangphenn Transport" 4900
+		add fleet "Jacks Gang" 15400
+	system "Rasalhague"
+		add fleet "Small Crossguard Patrol" 6000
+		add fleet "Large Crossguard Patrol" 7900
+		add fleet "Small Black Death" 7800
+		add fleet "Large Black Death" 19000
+		add fleet "Sulso LG Shipping" 8500
+		add fleet "MGF: Small Solacer Reefer" 4500
+		add fleet "MGF: Solacer Juice Tanker" 5500
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "Maryhal Logistic ArteryLine" 7500
+		add fleet "Large Bounty Hunters (AntiMHL)" 15800
+		add fleet "Rangphenn Transport" 5900
+		add fleet "Jacks Gang" 14800
+	system "Vega"
+		add fleet "Sulso LG Shipping" 8500
+		add fleet "MGF: Solacer Juice Tanker" 7500
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "Maryhal Logistic ArteryLine" 7500
+		add fleet "Rangphenn Transport" 4400
+	system "Altair"
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "NGK Hauling RORO" 12000
+		add fleet "Maryhal Logistic ArteryLine" 7500
+		add fleet "Rangphenn Transport" 4400
+		add fleet "MGF: Intrasystem Refuelling" 4500
+	system "Fomalhaut"
+		add fleet "Sulso LG Shipping" 6500
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "NGK Hauling RORO" 12000
+		add fleet "Maryhal Logistic ArteryLine" 7500
+		add fleet "Rangphenn Transport" 5600
+	system "Delta Capricorni"
+		add fleet "Sulso LG Shipping" 8500
+		add fleet "Rangphenn Transport" 5000
+	system "Alderamin"
+		add fleet "Rangphenn Transport" 4500
+	system "Diphda"
+		add fleet "Intrasystem Merchants" 1000
+		add fleet "Sulso LG Shipping" 8500
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "NGK Hauling RORO" 12000
+		add fleet "Rangphenn Transport" 5600
+	system "Caph"
+		add fleet "Sulso LG Shipping" 8500
+		add fleet "MGF: Solacer Juice Tanker" 7500
+		add fleet "MGF: Luna Winery" 4500
+		add fleet "NGK Hauling HeavyFreight" 7500
+		add fleet "NGK Hauling RORO" 12000
+		add fleet "Rangphenn Transport" 5600
+	system "Nocte"
+		add fleet "Small Espion Miners" 800
+		add fleet "Large Espion Miners" 1800
+		add fleet "Small Espion Guard" 1000
+		add fleet "Large Espion Guard" 2000
+	system "Orvala"
+		add fleet "Small Crossguard Patrol" 4700
+		add fleet "Large Crossguard Patrol" 7800
+		add fleet "Small Black Death" 7600
+		add fleet "Large Black Death" 17600
+		add fleet "MGF: Small Solacer Reefer" 4500
+		add fleet "MGF: Solacer Juice Tanker" 5500
+		add fleet "Jacks Gang" 16200
 
 #Lost in Midnight Compatibility Support
 
