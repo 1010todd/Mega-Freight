@@ -225,6 +225,7 @@ outfit "Mixture-DX Corrosive Thrower"
 	description	`Special weapon that fires sticky, corrosive liquid that melts away enemy hull, developed and used by the Black Death pirate group. It also disrupts engine functionality.`
 
 outfit "Mixture-DX Shots"
+	plural "Mixture-DX Shots"
 	weapon
 		sprite "projectile/mixturedx shot"
 			"random start frame"
@@ -386,7 +387,7 @@ outfit "G22 Particle Cannon"
 		"hit force" 60
 		"shield damage" 50
 		"hull damage" 48
-	description `Old model of Particle Cannon with less efficiency and firepower but faster fire-rate found on some older ships.`
+	description `Old model of Particle Cannon with less efficiency and firepower inexchange for slightly faster fire-rate. It can be found on some older ships.`
 		
 outfit "G22 Particle Turret"
 	category "Turrets"
@@ -413,7 +414,7 @@ outfit "G22 Particle Turret"
 		"hit force" 60
 		"shield damage" 50
 		"hull damage" 48
-	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate found on some older ships.`
+	description `A turreted version of an older Particle Cannon model with less efficiency and firepower but faster fire-rate which can be found on some older ships.`
 		
 effect "k3k particle impact"
 	sprite "effect/k3k particle impact"
@@ -571,7 +572,7 @@ outfit "Jaivana Shell Storage"
 	"outfit space" -7
 	"jaivana shell capacity" 20
 	ammo "Jaivana Shell"
-	description "The Swordfish Missile Rack is used to store extra ammunition for Swordfish Missile Launchers."
+	description "The Jaivana Shell Storage is used to store extra ammunition for LbrC-1 Jaivana Turret."
 	
 outfit "LbrC-1 Jaivana Turret"
 	category "Turrets"
@@ -1046,6 +1047,14 @@ outfit "EMX-84 Pulse-Flak Turret"
 		"safe"
 	description "Experimental pulse flak turret that deals very high shield and ion damage but weak against hull."
 	
+effect "mgf aphelion impact"
+	sprite "effect/aphelion impact"
+		"no repeat"
+		"frame rate" 42
+	lifetime 7
+	"random angle" 2
+	"velocity scale" .01
+
 outfit "EL-1388 Aphelion Turret"
 	category "Turrets"
 	cost 820000
@@ -1060,6 +1069,7 @@ outfit "EL-1388 Aphelion Turret"
 		"hardpoint sprite" "hardpoint/mgf aphelion turret hp"
 		"hardpoint offset" 10.
 		"fire effect" "v85 railgun fire"
+		"hit effect" "mgf aphelion impact" 3
 		"inaccuracy" 6
 		"velocity" 25
 		"random velocity" 5
@@ -1078,6 +1088,7 @@ outfit "EL-1388 Aphelion Turret"
 outfit "el-1388 frag 1"
 	weapon
 		sprite "projectile/espion aphelion subproj"
+		"hit effect" "mgf aphelion impact"
 		"lifetime" 20
 		"inaccuracy" 18
 		"random velocity" 5
@@ -1089,6 +1100,7 @@ outfit "el-1388 frag 1"
 outfit "el-1388 frag 2"
 	weapon
 		sprite "projectile/espion aphelion subproj"
+		"hit effect" "mgf aphelion impact"
 		"lifetime" 20
 		"inaccuracy" 20
 		"random velocity" 5
@@ -1884,7 +1896,7 @@ outfit "Ta-class Energy Module"
 	"cooling" .1
 	"cooling inefficiency" .5
 	"AT-type slot" -1
-	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvestign additional energy at cost of more heat management problems.`
+	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvesting additional energy at cost of more heat management problems.`
 	
 outfit "NGK R11 Rifle"
 	category "Hand to Hand"

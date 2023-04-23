@@ -4144,34 +4144,6 @@ ship "Culverin Class"
 	"final explode" "final explosion large"
 	description "A large arsenal ship recently developed and deployed by the navy. The Culverin Class arsenal ship carries over dozens of missile launchers and over half a thousand missiles to saturate the entire battlefield with enough missiles to easily overwhelm even the best anti-missile system available."
 	
-ship "Culverin Class" "Culverin Class (Mark II)"
-	add attributes #me lazy
-		"outfit space" 60
-		"weapon capacity" 75
-		"cargo space -40
-	outfits
-		"Sidewinder Missile Launcher" 16
-		"Sidewinder Missile" 720
-		"Electron Turret" 1
-		"Heavy Anti-Missile Turret" 1
-		"Spearfish VLS Array" 4
-		"Spearfish Missile" 48
-		
-		"Fusion Reactor"
-		"LP288a Battery Pack"
-		"D94-YV Shield Generator"
-		"Large Radar Jammer"
-		"Water Coolant System"
-		"Brig"
-		"Laser Rifle" 50
-		"Fragmentation Grenades" 40
-		"Security Station"
-		"Tactical Scanner"
-		
-		"X5700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
-	
 ship "Spetum Class"
 	plural "Spetum Class"
 	sprite "ship/mgf navy fleetcarrier"

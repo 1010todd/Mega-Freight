@@ -146,7 +146,8 @@ planet Zug
 	add shipyard "MarStel Advanced"
 planet Bounty
 	add shipyard "MarStel Intermediate"
-	add "Common Outfits"
+	add outfitter "Common Outfits"
+	add outfitter "Basic Outfits"
 planet Prime
 	add shipyard "MarStel Intermediate"
 	add shipyard "MarStel Advanced"
@@ -259,8 +260,9 @@ planet "Yokosuka Naval Arsenal"
 	tribute 3000
 		threshold 6500
 		fleet "Small Syndicate" 5
-		fleet "Large Syndicate" 12
-		fleet "MJK Defense Fleet" 3
+		fleet "Large Syndicate" 10
+		fleet "MJK Defense Fleet" 2
+		fleet "MJK Advanced Defense Fleet"
 		
 #==========Solomons Voidworks
 #Heavily armed and armoured southern ships. Should be around Dirt Belt and South.
@@ -1424,51 +1426,74 @@ system Zubenelgenubi
 
 system Alphard
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Talita
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Miaplacidus
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Tejat
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Phurad
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Wazn
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Kursa
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Alhena
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Menkalinan
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Castor
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Pollux
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Procyon
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Capella
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Aldebaran
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Sirius
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Eteron
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Sol
 	add fleet "MGF: Solacer Juice Tanker" 5500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system "Alpha Centauri"
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Caph
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Denebola
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Merak
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 	
 system Menkent
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 system Vega
 	add fleet "MGF: Solacer Juice Tanker" 7500
+	add fleet "MGF: Small Solacer Reefer" 4500
 
 #=====================================Luna Winery
 # Wine company
@@ -1542,6 +1567,13 @@ system Zubeneschamali
 #Large shipping company, well-defended fleets.
 
 #-------------------HeavyFreight line
+system Pherkad
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Alniyat
+	add fleet "NGK Hauling HeavyFreight" 7500
+system Aldhibain
+	add fleet "NGK Hauling HeavyFreight" 7500
+
 system Zubeneschamali
 	add fleet "NGK Hauling HeavyFreight" 7500
 system Zubenelgenubi

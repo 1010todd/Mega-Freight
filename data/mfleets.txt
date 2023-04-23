@@ -1023,7 +1023,7 @@ fleet "MGF: Small Solacer Reefer"
 		"Fury"
 		
 fleet "MGF: Solacer Juice Tanker"
-	government"MGF: Solacer Group"
+	government "MGF: Solacer Group"
 	names "solacer juicetanker name"
 	cargo 1
 	personality
@@ -1296,6 +1296,21 @@ fleet "MJK Defense Fleet"
 		"L-VC28 Zuikaku" 2
 		"Xencar (NGK)" 40
 		
+fleet "MJK Advanced Defense Fleet"
+	government "MGF: NGK Hauling"
+	names "ngk name"
+	fighters "ngk fighter"
+	cargo 4
+	personality
+		confusion 30
+	variant 50
+		"Leviathan (NGK Escort, Turret Upgrade)" 6
+		"AP-7 Sentinel (NGK Escort)" 3
+		"E-VC14 Zuiho (Advanced)" 4
+		"Xencar (NGK)" 40
+		"L-VC28 Zuikaku (Advanced)"  2
+		"Xencar (NGK)" 40
+
 #Largest MHL convoy traveling on specific main route between major space
 fleet "Maryhal Logistic ArteryLine"
 	government "MGF: Maryhal Logistic"
@@ -1410,7 +1425,7 @@ fleet "Small Espion Guard"
 	cargo 0
 	personality
 		confusion 30
-		disables
+		disables hunting
 	variant 10
 		"Quicksilver" 3
 	variant 10
@@ -1431,7 +1446,7 @@ fleet "Large Espion Guard"
 	cargo 0
 	personality
 		confusion 25
-		disables
+		disables hunting
 	variant 10
 		"Vanguard"
 		"Quicksilver" 3

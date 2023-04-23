@@ -3740,7 +3740,10 @@ mission "MGF: NGK Resist Pug Invasion: System Patrol"
 		has "event: pug invasion 4"
 	to fail
 		has "event: pug territory liberated"
-	
+	on offer
+		event "mgf: ngk resist pug invasion"
+	to complete
+		never
 	npc #todo make some of them attempt to find and assist the player.
 		government "MGF: NGK Hauling"
 		system "Diphda"
@@ -3760,9 +3763,9 @@ mission "MGF: NGK Resist Pug Invasion: System Patrol"
 		ship "Leviathan (NGK Escort)" "Iwami"
 		ship "AP-7 Sentinel (NGK Escort)" "Tsukuba"
 		ship "AP-7 Sentinel (NGK Escort)" "Ikoma"
-		ship "E-VC14 Zuiho" "Wakamiya"
+		ship "E-VC14 Zuiho (Advanced)" "Wakamiya"
 		ship "E-VC14 Zuiho" "Notoro"
-		ship "E-VC14 Zuiho" "Akitsushima"
+		ship "E-VC14 Zuiho (Advanced)" "Akitsushima"
 		ship "E-VC14 Zuiho" "Kamikawa"
 		fleet 8
 			names "ngk name"

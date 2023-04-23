@@ -248,49 +248,6 @@ mission "MGF: TIS Production 1 (Tungsten)"
 		outfit "GMS14 Tungsten" -2
 		outfit "GMS14 Tungsten Product" 2
 		
-mission "MGF: TIS Production 1 (Aluminum)"
-	invisible
-	landing
-	repeat
-	to offer
-		not "MGF: TIS Production 1 (Aluminum): active"
-	on offer
-		require "Thyrupp Industrial Systems" 1
-	to complete
-		never
-	on daily
-		require "Thyrupp Industrial Systems" 1
-		outfit "GMS23 Aluminum" -2
-		outfit "GMS23 Aluminum Product" 2
-mission "MGF: TIS Production 1 (Copper)"
-	invisible
-	landing
-	repeat
-	to offer
-		not "MGF: TIS Production 1 (Copper): active"
-	on offer
-		require "Thyrupp Industrial Systems" 1
-	to complete
-		never
-	on daily
-		require "Thyrupp Industrial Systems" 1
-		outfit "GMS39 Copper" -2
-		outfit "GMS39 Copper Product" 2
-mission "MGF: TIS Production 1 (Titanium)"
-	invisible
-	landing
-	repeat
-	to offer
-		not "MGF: TIS Production 1 (Titanium): active"
-	on offer
-		require "Thyrupp Industrial Systems" 1
-	to complete
-		never
-	on daily
-		require "Thyrupp Industrial Systems" 1
-		outfit "GMS02 Titanium" -2
-		outfit "GMS02 Titanium Product" 2
-		
 mission "MGF: TIS Production 1 (Gold)"
 	invisible
 	landing

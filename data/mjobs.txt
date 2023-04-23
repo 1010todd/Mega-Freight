@@ -801,12 +801,11 @@ mission "MGF: Hire Small Crossguard Escort"
 	
 	npc
 		government "Escort" #So they attack everything that attack you.
-		names "crossguard name"
-		cargo 1
 		personality
 			confusion 20
 			hunting disables
 		fleet
+			names "crossguard name"
 			variant 6
 				"Marauder Quicksilver (XGS Escort)" 4
 			variant 4
@@ -844,12 +843,11 @@ mission "MGF: Hire Large Crossguard Escort"
 	
 	npc
 		government "Escort" #So they attack everything that attack you.
-		names "crossguard name"
-		cargo 1
 		personality
 			confusion 20
 			hunting disables
 		fleet
+			names "crossguard name"
 			variant 6
 				"Eleonorae"
 				"Osprey"
