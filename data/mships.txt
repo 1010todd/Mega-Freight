@@ -5988,7 +5988,7 @@ ship "Lucerne Class" "Lucerne Class MkII"
 			
 	outfits
 		"ExP314 Railcannon"
-		"AH-5 Eteron Launch System"
+		"AH-5 Eteron Launch System" 4
 		"AH-5 Eteron Torpedo" 40
 		"EMX-55 Flakcannon Turret" 16
 		"EMX-84 Pulse-Flak Turret" 4
@@ -6100,6 +6100,31 @@ ship "Lucerne Class" "Lucerne Class MkII"
 	turret 57.5 -153.5 "CMX-12 Anti-Missile"
 	turret -57.5 610 "EMX-55 Flakcannon Turret"
 	turret 57.5 610 "EMX-55 Flakcannon Turret"
+	gun -83 -597.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -597.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -83 -542 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -542 "Spearfish Launcher Array"
+		"angle" 90
+	gun -83 -478 "Spearfish Launcher Array"
+		"angle" -90
+	gun 83 -478 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 742.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 742.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 793.5 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 793.5 "Spearfish Launcher Array"
+		"angle" 90
+	gun -49 845 "Spearfish Launcher Array"
+		"angle" -90
+	gun 49 845 "Spearfish Launcher Array"
+		"angle" 90
+		
 	bay "Fighter" -258 -38.5
 		"launch effect" "human internal"
 		angle -90
@@ -9519,6 +9544,7 @@ ship "CDB-12K Saturn"
 	"final explode" "final explosion large"
 	description "A class of even larger dry bulk carrier than the Jupiter as exports and demand grew though due to lack of unloading gears it can only operate at more equipped ports. In addition to its bulk bays it can also carry significant amount of container for extra profit."
 	
+	#Freighter Powder
 ship "FPd45 Clinker"
 	sprite "ship/mgf clinker"
 	thumbnail "thumbnail/mgf clinker thumb"
@@ -9574,6 +9600,7 @@ ship "FPd45 Clinker"
 	description "A hatchless self-unloading cargo ship specialized for carrying and handling powdered cargoes like cement. Because of the specially designed cargo holds and loading and unloading systems for granulated cargo it cannot be used to transport any other kind of cargo."
 	description `The Clinker was built in response to growing demand for cement as colonies grow into cities though this model requires port-side facilities to properly unload directly to vehicles and will often only travel between ports with proper equipment.`
 	
+	#Freighter Aggregate
 ship "FAd36 Flint"
 	sprite "ship/mgf flint"
 	thumbnail "thumbnail/mgf flint thumb"
@@ -9628,6 +9655,157 @@ ship "FAd36 Flint"
 	"final explode" "final explosion large"
 	description "Flint-class is purpose built bulk freighter for carrying aggregates equipped with loading and unloading conveyor belt to allow operating independent of port equipment increasing versatility. As per requirement of some cargo the cargo hold of this ship is also equipped with moisture control system to maintain the most ideal condition for its cargo."
 	
+	#Freighter Universal <> <model num> <pod variant>
+ship "FUe02a Gebrant"
+	sprite "ship/mgf gebrant"
+	thumbnail "thumbnail/mgf gebrant thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9000000
+		"shields" 6300
+		"hull" 7900
+		"required crew" 12
+		"bunks" 28
+		"mass" 3500
+		"drag" 11.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 660
+		"outfit space" 450
+		"weapon capacity" 140
+		"engine capacity" 220
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret"
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 16
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	turret 0 23.5 
+	turret 0 167 
+	engine -27.5 197.5 
+	engine 27.5 197.5 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A general heavy freight pusher introduced before the forming of the Republic. Designed to clamp or deploy cargo containers in orbit where transporting it to the ground is handled by a tug, though with recent advancements basically all modern containers are equipped with their own landing gear allow the ship to detach the container at the port by self. Though not super popular like the Haulers it's still preferred by several captains for its versatility of being to able to quickly latch onto multiple type of cargo pods allow them to quickly adapt to whatever market demands."
+	
+ship "FUe04a Gebrant II"
+	sprite "ship/mgf gebrant ii"
+	thumbnail "thumbnail/mgf gebrant ii thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 12000000
+		"shields" 6800
+		"hull" 8800
+		"required crew" 12
+		"bunks" 28
+		"mass" 3500
+		"drag" 11.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 1320
+		"outfit space" 450
+		"weapon capacity" 140
+		"engine capacity" 220
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret"
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 16
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+
+	engine -27.5 296 
+	engine 27.5 296 
+	turret 0 265.5 
+	turret 0 121 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Gebrant with two cargo containers attached."
+
+ship "FUe06a Gebrant III"
+	sprite "ship/mgf gebrant iii"
+	thumbnail "thumbnail/mgf gebrant iii thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15000000
+		"shields" 7300
+		"hull" 9700
+		"required crew" 12
+		"bunks" 28
+		"mass" 3500
+		"drag" 11.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 1980
+		"outfit space" 450
+		"weapon capacity" 140
+		"engine capacity" 220
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret"
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 16
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+	turret 0 218.5 
+	turret 0 364 
+	engine -27.5 393.5 
+	engine 27.5 393.5 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Three is generally considered the maximum this container model could stack without snapping during turns. Though one of the cheapest and most efficient freighter around it's far less viable today as pirates can easily overwhelm the very lightly armed freighter forcing it to either operate within the safe area or with heavily armed escort."
+
+
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
 	thumbnail "thumbnail/mgf xencar thumb"

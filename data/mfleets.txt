@@ -194,6 +194,31 @@ fleet "Large Southern Merchants"
 	add variant 2
 		"FAd36 Flint"
 		"Headhunter"
+
+	add variant 15
+		"FUe02a Gebrant"
+		"Quicksilver" 2
+	add variant 15
+		"FUe02a Gebrant"
+		"Hawk" 3
+	add variant 15
+		"FUe02a Gebrant"
+		"Bastion"
+	add variant 10
+		"FUe04a Gebrant II"
+		"Splinter"
+	add variant 10
+		"FUe04a Gebrant II" 2
+		"Falcon"
+	add variant 8
+		"FUe04a Gebrant II"
+		"Argosy"
+		"Argosy (Proton)"
+		"Argosy (Missile)"
+	add variant 5
+		"FUe06a Gebrant III"
+		"Falcon"
+		"Hawk" 2
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -484,6 +509,32 @@ fleet "Large Core Merchants"
 		"FAd36 Flint"
 		"FPd45 Clinker"
 		"Quicksilver" 3
+
+	add variant 15
+		"FUe02a Gebrant"
+		"Quicksilver" 2
+	add variant 15
+		"FUe02a Gebrant" 2
+		"Splinter"
+	add variant 15
+		"FUe02a Gebrant" 3
+		"Protector"
+		"Splinter"
+	add variant 15
+		"FUe02a Gebrant" 3
+		"Vanguard"
+	add variant 10
+		"FUe04a Gebrant II"
+		"Splinter"
+	add variant 10
+		"FUe04a Gebrant II" 2
+		"Splinter" 2
+	add variant 8
+		"FUe04a Gebrant II"
+		"Manta"
+	add variant 5
+		"FUe06a Gebrant III"
+		"Vanguard"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -572,6 +623,13 @@ fleet "Paradise Merchants"
 		
 	add variant 2
 		"CDB-12K Saturn"
+
+	add variant 3
+		"FUe02a Gebrant"
+	add variant 2
+		"FUe04a Gebrant II"
+	add variant 1
+		"FUe06a Gebrant III"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -813,6 +871,26 @@ fleet "Large Northern Merchants"
 		"FAd36 Flint"
 		"FPd45 Clinker"
 		"Headhunter (Particle)" 2
+
+	add variant 20
+		"FUe02a Gebrant"
+		"Headhunter"
+	add variant 20
+		"FUe02a Gebrant" 2
+		"Firebird"
+	add variant 20
+		"FUe02a Gebrant" 3
+		"Firebird (Plasma)"
+	add variant 15
+		"FUe04a Gebrant II"
+		"Headhunter"
+		"Berserker"
+	add variant 10
+		"FUe06a Gebrant III"
+		"Firebird"
+	add variant 5
+		"FUe06a Gebrant III"
+		"Leviathan"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -881,6 +959,13 @@ fleet "Large Human Merchants (Hai)"
 	
 	add variant 2
 		"CDB-12K Saturn"
+	
+	add variant 4
+		"FUe02a Gebrant"
+	add variant 4
+		"FUe04a Gebrant II"
+	add variant 4
+		"FUe06a Gebrant III"
 	
 fleet "Large Hai Merchant"
 	add variant 1
@@ -998,7 +1083,7 @@ fleet "MGF: Luna Winery Long Range"
 		confusion 50
 		timid frugal appeasing
 	variant 20
-		"CWC-2 Celestine (Long Range)"
+		"Celestine (Long Range)"
 		"Headhunter (LunaWine Long Range Escort)" 2
 	variant 60
 		"Celestine (Long Range, Red Wine)"
@@ -1102,6 +1187,15 @@ fleet "MGF: Near Bourne Merchant"
 		"Sparrow"
 	variant 5
 		"SKVS-4 Minnow"
+
+	variant 1
+		"FUe02a Gebrant"
+	variant 1
+		"FUe04a Gebrant II"
+		"Sparrow"
+	variant 1
+		"FUe06a Gebrant III"
+		"Sparrow" 2
 		
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
@@ -1283,7 +1377,7 @@ fleet "NGK Hauling RORO"
 		
 fleet "MJK Defense Fleet"
 	government "MGF: NGK Hauling"
-	names "ngk name"
+	names "ngk warship name"
 	fighters "ngk fighter"
 	cargo 4
 	personality
@@ -1298,7 +1392,7 @@ fleet "MJK Defense Fleet"
 		
 fleet "MJK Advanced Defense Fleet"
 	government "MGF: NGK Hauling"
-	names "ngk name"
+	names "ngk warship name"
 	fighters "ngk fighter"
 	cargo 4
 	personality
@@ -1540,7 +1634,7 @@ fleet "Large Bounty Hunters (AntiMHL)"
 		"CS-24 Garrison (Bounty Hunter, AntiMHL)"
 		"Xencar (EPB3-2)" 18
 	
-fleet "Small Black Death Fleet"
+fleet "Small Black Death"
 	government "MGF: Black Death"
 	names "pirate"
 	cargo 1
@@ -1589,7 +1683,7 @@ fleet "Small Black Death Fleet"
 		"Modified Argosy (Black Death)"
 		"Hawk (Speedy)" 
 
-fleet "Large Black Death Fleet"
+fleet "Large Black Death"
 	government "MGF: Black Death"
 	names "pirate"
 	cargo 1

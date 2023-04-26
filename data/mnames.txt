@@ -324,6 +324,20 @@ phrase "solacer juicetanker name"
 	
 #Actual Japanese ship name + Maru (Common suffix for Japanese merchant ships)
 phrase "ngk name"
+	phrase
+		"mgf japanese standalone name" 3
+		"japanese standalone" #to pull from More Merchant Name
+	word
+		"-Maru"
+
+phrase "ngk warship name"
+	word
+		"NGKF "
+	phrase
+		"mgf japanese standalone name" 3
+		"japanese standalone"
+
+phrase "mgf japanese standalone name"
 	word
 		"Akagi"
 		"Ayame"
@@ -443,9 +457,36 @@ phrase "ngk name"
 		"Hakuho"
 		"Miyako"
 		"Kirishima"
+
+#some dummy ones to avoid error. Just enough to avoid repeating many times as well if More Merchant name is not installed.
+phrase "japanese standalone"
 	word
-		"-Maru"
-		
+		"Chiyoda"
+		"Shinyo"
+		"Aso"
+		"Izumi"
+		"Naniwa"
+		"Takachiho"
+		"Unebi"
+		"Yaeyama"
+		"Chishima"
+		"Itsukushima"
+		"Matsushima"
+		"Yoshino"
+		"Niitaka"
+		"Otowa"
+		"Tone"
+		"Chikuma"
+		"Hirado"
+		"Yahagi"
+		"Tsugaru"
+		"Soya"
+		"Kasuga"
+		"Yodo"
+		"Ioshima"
+		"Yasoshima"
+
+
 # WWII Japanese Submarine classes, mostly because it's short
 phrase "ngk fighter"
 	word

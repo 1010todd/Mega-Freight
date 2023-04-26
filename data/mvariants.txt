@@ -443,7 +443,7 @@ ship "PAS-3 Barbette" "PAS-3 Barbette (Early, G22)"
 		"Sidewinder Missile" 90
 		"Proton Turret" 5
 		"Heavy Anti-Missile Turret" 3
-		"G22 Particle Cannon Turret" 6
+		"G22 Particle Turret" 6
 		
 		"Fission Reactor" 4
 		"Water Coolant System"
@@ -594,7 +594,7 @@ ship "TS-CH0 Kratzbal" "TS-CH0 Kratzbal (Plasma Steering)"
 		"Anti-Missile Turret" 2
 		
 		"nGVF-EE Fuel Cell"
-		"LP288a Battery Pack"
+		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
 		"Laser Rifle" 12
 		
@@ -949,13 +949,14 @@ ship "AGT-31 Xencar" "Xencar (EPB3-2)"
 		"X1200 Ion Steering"
 		
 ship "AGT-31 Xencar" "Xencar (NGK)"
+	add attributes
+		"outfit space" 1
 	outfits
 		"EPB3-2 Particle Cannon"
 		
 		"nGVF-BB Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
-		"Small Radar Jammer"
 		"NGK R11 Rifle"
 		
 		"X1700 Ion Thruster"
@@ -1856,7 +1857,7 @@ ship "CSE-6 Steward" "Steward (NGK Long Range)"
 		"Heavy Anti-Missile Turret" 2
 		
 		"Fusion Reactor"
-		"Fuel Pod" 7
+		"Fuel Pod" 6
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
 		"NGK R11 Rifle" 50
@@ -2082,6 +2083,6 @@ ship "Leviathan" "Leviathan (Automaton)"
 	add attributes
 		"automaton" 1
 		
-ship "Culverin Class" "Culverin (Automaton)"
+ship "Culverin Class" "Culverin Class (Automaton)"
 	add attributes
 		"automaton" 1
