@@ -9908,6 +9908,7 @@ ship "FUe02y Gebrant Tender"
 	engine -29 191.5 
 	engine 29 191.5 
 	bay "Pocket Medium Warship" 0 -123 
+		under
 	leak "leak" 40 60
 	leak "flame" 60 120
 	leak "big leak" 50 30
