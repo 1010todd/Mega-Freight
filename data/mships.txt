@@ -7765,7 +7765,66 @@ ship "SWV4 Ravelin"
 	explode "medium explosion" 30
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "Modified version of the Southbound Shipyards Bastion into a carried version for the recently developed carrier PCS-5 Citadel. Removing now unnecessary hyperdrive and fuel for extra space for other systems."
+	description "Modified version of the Southbound Shipyards Bastion into a carried version in anticipation for new Free Worlds carrier PCS-5 Citadel. Removing now unnecessary hyperdrive and fuel for extra space for other systems. Though before the carrier development was complete another shipyard where able to develop and mass produce a ship capable of carrying Medium Warships allowing Southbound to release the Ravelin early."
+
+ship "TCM-23 Harrier"
+	sprite "ship/osprey" #todo custom sprite.
+	thumbnail "thumbnail/osprey"
+	attributes
+		category "Pocket Medium Warship"
+		"cost" 4200000
+		"shields" 7200
+		"hull" 1600
+		"required crew" 9
+		"bunks" 24
+		"mass" 260
+		"drag" 5.8
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 500
+		"weapon capacity" 225
+		"engine capacity" 130
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Plasma Cannon" 5
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"Breeder Reactor"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 3
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		
+	engine -42.5 62.5 .8
+	engine 42.5 62.5 .8
+	engine -16.5 105 .6
+	engine 16.5 105 .6
+	gun 0 -104 
+	gun -25 -49.5 "Plasma Cannon"
+	gun 25 -49.5 "Plasma Cannon"
+	gun -9.5 -95.5 "Plasma Cannon"
+	gun 9.5 -95.5 "Plasma Cannon"
+	turret -15.5 -12 "Quad Blaster Turret"
+	turret 15.5 -12 "Heavy Anti-Missile Turret"
+	leak "leak" 40 50
+	leak "flame" 80 80
+	leak "big leak" 80 30
+	explode "medium explosion" 24
+	explode "large explosion" 16
+	explode "small explosion" 40
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description `With the new type of carrier for larger ships on the market Tarazed Coporation quickly modifies one of their Osprey into Pocket Medium Warship removing its hyperspace capability in exchange for additional space for outfits and weapons for additional firepower and survivability.`
 
 
 ship "PF-80 Intrepid"
@@ -9804,6 +9863,60 @@ ship "FUe06a Gebrant III"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "Three is generally considered the maximum this container model could stack without snapping during turns. Though one of the cheapest and most efficient freighter around it's far less viable today as pirates can easily overwhelm the very lightly armed freighter forcing it to either operate within the safe area or with heavily armed escort."
+
+ship "FUe02y Gebrant Tender"
+	sprite "ship/mgf gebrant mwcarrier"
+	thumbnail "thumbnail/mgf gebrant mwcarrier thumb"
+	attributes
+		category "Utility"
+		"cost" 9600000
+		"shields" 6700
+		"hull" 6500
+		"required crew" 12
+		"bunks" 24
+		"mass" 3200
+		"drag" 10.1
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 10
+		"outfit space" 530
+		"weapon capacity" 220
+		"engine capacity" 220
+		"hull repair rate" .05
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 3
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 16
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	turret 0 23.5 
+	turret -47 70.5 
+	turret 47 70.5 
+	turret 0 167 
+	engine -29 191.5 
+	engine 29 191.5 
+	bay "Pocket Medium Warship" 0 -123 
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A refitted Gebrant with gears for attaching warship inplace of the usual cargo pods to act as hyperspace carrier vessel for a medium warship allow the warship to strip of hyperspace capbility for additional space for other combat systems. The ship it self is also refitted with additional turret mounts to also provide some firepower itself as well along with adjusted shield emitter layout for better efficiency as it's not expected to be pushing cargo pods anymore and improve survivability now with the ship is expected to see more combat."
 
 
 ship "AGT-31 Xencar"

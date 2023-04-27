@@ -96,7 +96,11 @@ shipyard developer
 	"Wisymton (Light Freighter)"
 	"Wisymton (Light Freighter, Cargo)"
 	"E-VC14 Zuiho"
-	
+	"FUe02a Gebrant"
+	"FUe04a Gebrant II"
+	"FUe06a Gebrant III"
+	"FUe02y Gebrant Tender"
+
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
 	
@@ -195,6 +199,10 @@ shipyard "human plugins"
 	"FAd36 Flint"
 	"Wisymton (Light Freighter)"
 	"E-VC14 Zuiho"
+	"FUe02a Gebrant"
+	"FUe04a Gebrant II"
+	"FUe06a Gebrant III"
+	"FUe02y Gebrant Tender"
 	
 shipyard "hai plugins"
 	"AYS-17 Proetida"
@@ -314,6 +322,25 @@ outfitter "human plugins"
 	"NGK R11 Grip"
 	"NGK R11 Bipod"
 	"NGK R11 QAS"
+	
+shipyard "FW Set"
+	"AGT-31 Xencar"
+	"PCS-4 Castle"
+	"PAS-2 Bulwark"
+	"PAS-3 Barbette"
+	"PCS-5 Citadel"
+	
+	"CS-24 Garrison"
+	"CSE-6 Steward"
+	
+	"PF-80 Intrepid"
+	"TS-CH0 Kratzbal"
+	"Eleonorae"
+	
+shipyard "RN Set"
+	"A-14F Rondel"
+	"Culverin Class"
+	"Spetum Class"
 	
 shipyard "Basic Ships"
 	"CF-50 Cart"
@@ -642,9 +669,22 @@ shipyard "MarStel Advanced"
 	"Tlielart (Cargo Engine)"
 	#"PCS-5 Citadel"
 	
+shipyard "Corbel Engineering Basic"
+	"FUe02a Gebrant"
+
+shipyard "Corbel Engineering Intermediate"
+	"FAd36 Flint"
+	"FUe02a Gebrant"
+	"FUe04a Gebrant II"
+	#"FUe02y Gebrant Tender"
+
 shipyard "Corbel Engineering Advanced"
 	"FPd45 Clinker"
 	"FAd36 Flint"
+	"FUe02a Gebrant"
+	"FUe04a Gebrant II"
+	"FUe06a Gebrant III"
+	#"FUe02y Gebrant Tender"
 	
 shipyard "Espion Basic"
 	"Sparrow"

@@ -195,27 +195,27 @@ fleet "Large Southern Merchants"
 		"FAd36 Flint"
 		"Headhunter"
 
-	add variant 15
+	add variant 5
 		"FUe02a Gebrant"
 		"Quicksilver" 2
-	add variant 15
+	add variant 5
 		"FUe02a Gebrant"
 		"Hawk" 3
-	add variant 15
+	add variant 5
 		"FUe02a Gebrant"
 		"Bastion"
-	add variant 10
+	add variant 3
 		"FUe04a Gebrant II"
 		"Splinter"
-	add variant 10
+	add variant 2
 		"FUe04a Gebrant II" 2
 		"Falcon"
-	add variant 8
+	add variant 2
 		"FUe04a Gebrant II"
 		"Argosy"
 		"Argosy (Proton)"
 		"Argosy (Missile)"
-	add variant 5
+	add variant 2
 		"FUe06a Gebrant III"
 		"Falcon"
 		"Hawk" 2

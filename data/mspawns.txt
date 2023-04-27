@@ -1110,6 +1110,73 @@ mission "MGF: FW Converted Supercarrier"
 	to offer
 		has "event: initial deployment 4"
 	on offer
+		event "mgf: fw converted mwcarrier" 60
+		event "mgf: tarazed harrier" 90
+
+event "mgf: fw converted mwcarrier"
+	shipyard "Corbel Engineering Intermediate"
+		"FUe02y Gebrant Tender"
+	shipyard "Corbel Engineering Advanced"
+		"FUe02y Gebrant Tender"
+	shipyard "Southbound Advanced"
+		"FUe02y Gebrant Tender"
+		"SWV4 Ravelin"
+	fleet "Large Free Worlds"
+		add variant 4
+			"FUe02y Gebrant Tender"
+			"SWV4 Ravelin"
+			"Falcon"
+		add variant 3
+			"Falcon (Heavy)"
+			"FUe02y Gebrant Tender"
+			"SWV4 Ravelin"
+			"CSE-6 Steward" #6
+			"Finch" 3
+			"AGT-31 Xencar" 3
+	fleet "Large Southern Merchant"
+		add variant 3
+			"FUe04a Gebrant II"
+			"FUe02y Gebrant Tender"
+			"SWV4 Ravelin"
+		add variant 2
+			"FUe04a Gebrant II" 2
+			"FUe02y Gebrant Tender"
+			"SWV4 Ravelin"
+			"Falcon"
+
+event "mgf: tarazed harrier"
+	shipyard "Tarazed Advanced"
+		"TCM-23 Harrier"
+	fleet "Large Free Worlds"
+		add variant 4
+			"FUe02y Gebrant Tender"
+			"TCM-23 Harrier"
+			"Falcon"
+		add variant 3
+			"Falcon (Heavy)"
+			"FUe02y Gebrant Tender"
+			"TCM-23 Harrier"
+			"CSE-6 Steward" #6
+			"Finch" 4
+			"AGT-31 Xencar" 2
+	fleet "Large Southern Merchant"
+		add variant 2
+			"FUe04a Gebrant II"
+			"FUe02y Gebrant Tender"
+			"TCM-23 Harrier"
+		add variant 1
+			"FUe04a Gebrant II" 2
+			"FUe02y Gebrant Tender"
+			"TCM-23 Harrier"
+			"Falcon"
+
+mission "MGF: FW Converted Supercarrier"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: initial deployment 4"
+	on offer
 		event "mgf: fw converted supercarrier" 360
 		
 event "mgf: fw converted supercarrier"
