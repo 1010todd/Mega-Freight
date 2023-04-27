@@ -9716,8 +9716,8 @@ ship "FAd36 Flint"
 	
 	#Freighter Universal <> <model num> <pod variant>
 ship "FUe02a Gebrant"
-	sprite "ship/mgf gebrant"
-	thumbnail "thumbnail/mgf gebrant thumb"
+	sprite "ship/mgf gebrant i"
+	thumbnail "thumbnail/mgf gebrant i thumb"
 	attributes
 		category "Heavy Freighter"
 		"cost" 9000000
