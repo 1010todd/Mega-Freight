@@ -2072,6 +2072,18 @@ outfit "C-type 200 Juice Tank"
 	description `Dedicated refrigerated juice tank each built with their own cooling system to maintain the perfect temperature of their cargo.`
 	description `Having ships with dedicated juice tank as flagship allow you to be offered special jobs for transporting juice.`
 	
+outfit "B-type 200 Bulk Sugar Bay"
+	category "Systems"
+	cost 75000
+	thumbnail "outfit/fuel module"
+	"mass" 10
+	"b-type 200 sugar bay" 1
+	"active cooling" 3
+	"sugar capacity" 100
+	"unplunderable" 1
+	description `Specialized cargo bay for storing sugar for shipping. Due to importance of purity for sugar the bay is very tightly sealed to avoid any contaminants and not other cargo were allowed to be loaded inside. It is also installed with sensors in various point to monitor the cargo and make sure it's in perfect condition.`
+	description `Having ships with dedicated sugar bay as flagship allow you to be offered special jobs for transporting sugar.`
+
 outfit "X09E Fighter Assembler"
 	category "Systems"
 	cost 8200000
@@ -2358,6 +2370,18 @@ outfit "Syndicate Platinum License"
 	description `A Syndicate membership card that allows you to buy certain outfits and ships from the Syndicate.` 
 	description `A tiny grey print on the license mention 5000 credit per day upkeep fee. Cancellation before one year will incur fine of 9% of the registration cost and cancellation after two year will incur fine of 4.55% of the registration cost`
 	
+#=======================================Sugar
+	
+outfit "White Sugar"
+	plural "White Sugar"
+	#category "Special"
+	cost 800
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"sugar capacity" -1
+	"sugar lock" 1
+	"unplunderable" 1
+
 #=======================================Water
 	
 outfit "Fresh Water"

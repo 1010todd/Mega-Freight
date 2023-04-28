@@ -1766,6 +1766,22 @@ ship "CJC-3 Citrus" "Citrus (Coconut Filled)"
 		"X1100 Ion Reverse Thruster"
 		"Hyperdrive"
 
+ship "TQK-20 Qaytas" "TQK-20 Qaytas (White Sugar)"
+	outfits
+		"Quad Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"B-type 200 Bulk Sugar Bay" 10
+		"White Sugar" 1000
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
 #Leviathan custom-modified by NGK, old escort.
 ship "Leviathan" "Leviathan (NGK Escort)"
 	sprite "ship/mgf leviathan ngk"

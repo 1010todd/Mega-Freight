@@ -510,6 +510,13 @@ phrase "crossguard name"
 		"civilian subphrase 9"
 		"civilian subphrase 11"
 		
+phrase "corefood name"
+	word
+		"CFS "
+	phrase
+		"iau constellation"
+		"greek nymphs"
+
 # =============Phrases to be used as part of a name.==============
 		
 		#Ships are sometimes named after astrological sign
@@ -611,7 +618,7 @@ phrase "greek nymphs"
 		Leuce
 		Limnades
 		Meliae
-		Melinoë
+		Melinoe
 		Minthe
 		Naiads
 		Napaeae

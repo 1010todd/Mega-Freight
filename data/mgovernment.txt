@@ -118,6 +118,25 @@ government "MGF: NGK Hauling"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 	
+# Food shipping around core and paradise.
+government "MGF: Core Food Corp"
+	"display name" "Core Food Corp"
+	"swizzle" 19
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.06
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.1
+		"MGF: Black Death" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
 # Reefer shipping
 government "MGF: Solacer Group"
 	"display name" "Solacer Group"

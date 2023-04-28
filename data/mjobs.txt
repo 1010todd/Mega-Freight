@@ -863,6 +863,8 @@ mission "MGF: Hire Large Crossguard Escort"
 		
 #===================================NGK
 
+#Todo Yokosuka resupply jobs, ship transporting jobs.
+
 mission "MGF: NGK Corporate Saboteur Arrest"
 	name "Arrest Corporate Saboteur"
 	description `A saboteur was identified to be escaping in an Arrow named <npc>, disable and board it to arrest the saboteur and bring the to <origin> and receive your payment of <payment>.`
@@ -1167,6 +1169,46 @@ mission "MGF: Wildfire Aid (Water Tanker)"
 		payment 12800 100
 		dialog "You picked up one of the firefighter from the spaceport who will guide you during the firefighting operation. You hover your ship above the forest and used the ship water discharging arm to spray water into the area according to the firefighter guidance. Your water tank is drained just as the fire come under control. You drop off the firefighter near his colleagues and return to the spaceport. The authorities offered you <payment> to thanks you for the assistance. A group of <planet> citizens thank you for your assistance and bid you farewell."
 		
+#=======================================Sugar
+
+phrase "mgf: unload sugar bag"
+	word
+		`Once landed you begin the process to bag the sugar and unload it via an elevator on the starboard of your ship to be loaded into waiting trucks. After tha last bag was sent down <payment> is transferred into your account.`
+
+mission "MGF: Sugar Transport (to bag) 1"
+	name "Bulk Sugar to <planet>"
+	description "1000 tons of White Sugar along with <cargo> to bag the cargo when arriving at <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying bulk sugar and bagging it."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "sugar bag" 30
+	to offer
+		or
+			random < 20
+			and
+				random < 70
+				has "outfit (installed): B-type 200 Bulk Sugar Bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		attributes "paradise" "near earth" "urban"
+		distance 3 7
+	to accept
+		"outfit (flagship installed): B-type 200 Bulk Sugar Bay" >= 10 + ( "outfit (installed): White Sugar" / 100 )
+	on accept
+		outfit "White Sugar" 1000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "White Sugar" -1000
+	on complete
+		outfit "White Sugar" -1000
+		dialog phrase "mgf: unload sugar bag"
+		payment 95000 275
+
 #=======================================Wine Tanker escort
 
 mission "MGF: Escort (Small, Luna Winery 1)"

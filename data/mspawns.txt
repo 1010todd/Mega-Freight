@@ -843,6 +843,62 @@ event "mgf: tonazqi released"
 			"QYG-70r Tonazqi"
 			"Berserker" 2
 			
+mission "MGF: Core Food Update I"
+	invisible
+	landing
+	to offer
+		has "event: mgf: tonazqi released"
+	on offer
+		event "MGF: Core Food Upgrade I"
+	on accept
+		fail
+		
+event "MGF: Core Food Upgrade I"
+	fleet "MGF: Small Core Food Corp"
+		add variant 30
+			"QYG-70r Tonazqi"
+			"Quicksilver" 2
+		add variant 30
+			"QYG-70r Tonazqi"
+			"QYG-30r Qazan"
+			"Quicksilver" 2
+
+mission "MGF: Core Food Escort Upgrade (Post FW I)"
+	invisible
+	landing
+	to offer
+		has "main plot completed"
+	on offer
+		event "MGF: Core Food Escort Upgrade (Post FW I)" 360
+	on accept
+		fail
+
+event "MGF: Core Food Escort Upgrade (Post FW I)"
+	fleet "MGF: Small Core Food Corp"
+		variant 20
+			"Freighter"
+			"Quicksilver (Mark II)"
+		variant 20
+			"Freighter"
+			"QYG-30r Qazan"
+			"Quicksilver (Mark II)"
+		add variant 20
+			"QYG-70r Tonazqi"
+			"Quicksilver (Mark II)" 2
+		add variant 20
+			"QYG-70r Tonazqi"
+			"QYG-30r Qazan"
+			"Quicksilver (Mark II)" 2
+		variant 35
+			"QYG-30r Qazan" 2
+			"Quicksilver (Mark II)"
+		variant 10
+			"TQK-20 Qaytas"
+			"Quicksilver (Mark II)"
+		variant 20
+			"TQK-20 Qaytas (White Sugar)"
+			"Quicksilver (Mark II)"
+
 mission "MGF: Solacer Upgrade I"
 	invisible
 	landing

@@ -100,6 +100,8 @@ shipyard developer
 	"FUe04a Gebrant II"
 	"FUe06a Gebrant III"
 	"FUe02y Gebrant Tender"
+	"TCM-23 Harrier"
+	"TQK-20 Qaytas"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -576,6 +578,9 @@ shipyard "Luna Winery Custom"
 	
 shipyard "Solacer Group Custom"
 	"CJC-3 Citrus"
+
+shipyard "Core Food Corp Custom"
+	"TQK-20 Qaytas"
 	
 shipyard "MJK Heavy Industries Basic"
 	"Shuttle" #Placeholder

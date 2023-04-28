@@ -8421,6 +8421,56 @@ ship "CJC-3 Citrus"
 	"final explode" "final explosion medium"
 	description `Citrus-class is purpose designed and built as fruit juice tanker for the Solacer Group mainly for transporting chilled or frozen concentrated juice exporting from the south.`
 	
+ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
+	plural "TQK-20 Qaytas"
+	sprite "ship/mgf qaytas"
+	thumbnail "thumbnail/mgf qaytas thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 950000
+		"shields" 1200
+		"hull" 1600
+		"required crew" 6
+		"bunks" 8
+		"mass" 300
+		"drag" 6.5
+		"heat dissipation" .75
+		"fuel capacity" 700
+		"cargo space" 50
+		"outfit space" 250
+		"weapon capacity" 60
+		"engine capacity" 100
+		"b-type 200 sugar bay" -10
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Quad Blaster Turret"
+		"Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D14-RN Shield Generator"
+		"B-type 200 Bulk Sugar Bay" 10
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	turret 25.5 -74.5 
+	turret -22 23 
+	engine -17.5 108 
+	engine 17.5 108 
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description `A specialized bulk carrier for bagging sugar designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation to decrease port time during unloading allowing overall faster turnaround. Though the ship lacks of large cargo loading hatches to maintain a closed system free of contaminants and instead loaded via special sealed conveyor belts. It also got built-in fast and highly efficient bagging facility for rapidly bagging its cargo which can be unloaded at the port far faster than in bulk as well as being less reliant on specialized sugar unloading equipment and storage most port does not have.`
+
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
 	thumbnail "thumbnail/mgf qazan thumb"
@@ -9892,9 +9942,9 @@ ship "FUe02y Gebrant Tender"
 		"Proton Turret" 3
 		"Heavy Anti-Missile Turret" 1
 		
-		"Fission Reactor"
+		"Breeder Reactor"
 		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
+		"D94-YV Shield Generator"
 		"Laser Rifle" 16
 		
 		"X4700 Ion Thruster"
@@ -9909,6 +9959,7 @@ ship "FUe02y Gebrant Tender"
 	engine 29 191.5 
 	bay "Pocket Medium Warship" 0 -123 
 		under
+		"launch effect" "human external"
 	leak "leak" 40 60
 	leak "flame" 60 120
 	leak "big leak" 50 30
