@@ -1782,6 +1782,154 @@ ship "TQK-20 Qaytas" "TQK-20 Qaytas (White Sugar)"
 		"X1100 Ion Reverse Thruster"
 		"Hyperdrive"
 
+ship "Vanguard" "Vanguard (MGF CoreNucMKII)"
+	outfits
+		"Particle Cannon" 7
+
+		"Fusion Reactor"
+		"Dwarf Core"
+		"LP036a Battery Pack"
+		"S-970 Shield Regenerator" 2
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Laser Rifle" 4
+		"MJK S1 Outfit Expansion"
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+
+ship "SRC-41C Curie" "SRC-41C Curie (Downgraded)"
+	attributes
+		category "Light Freighter"
+		"cost" 8300000
+		"shields" 8800
+		"hull" 6200
+		"required crew" 20
+		"bunks" 30
+		"mass" 550
+		"drag" 10.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 150
+		"radioactive cargo space" 150
+		"outfit space" 370
+		"weapon capacity" 155
+		"engine capacity" 80
+		"operating cost" 2800
+		"hull protection" .02
+		"hull repair rate" .1
+		"hull heat" .4
+		"repair delay" 120
+		"disabled repair delay" 180
+		"threshold percentage" .1
+		"energy generation" .1
+		"scan interference" 1
+		"scan concealment" 50
+		"ion resistance" .02
+		"ion protection" .3
+		"burn resistance" 2.1
+		"leak resistance" .05
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 8
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"DCB28N Battery Pack"
+		"D41-HY Shield Generator" 2
+		"E-type Memory Module" 2
+		"Laser Rifle" 30
+		"Security Station" 2
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
+ship "SRC-41C Curie" "SRC-41C Curie (Cask 1)"
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 8
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"DCB28N Battery Pack"
+		"E272-S5T Shield Generator" 2
+		"E272-SR-MDSRC41C Curie" 2
+		"Laser Rifle" 45
+		"Security Station" 3
+		"Nuclear Cask (Waste)" 2
+		"Nuclear Cask (Uranium)"
+
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
+ship "SRC-41C Curie" "SRC-41C Curie (Downgraded, Cask 1)"
+	attributes
+		category "Light Freighter"
+		"cost" 8300000
+		"shields" 8800
+		"hull" 6200
+		"required crew" 20
+		"bunks" 30
+		"mass" 550
+		"drag" 10.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 150
+		"radioactive cargo space" 150
+		"outfit space" 370
+		"weapon capacity" 155
+		"engine capacity" 80
+		"operating cost" 2800
+		"hull protection" .02
+		"hull repair rate" .1
+		"hull heat" .4
+		"repair delay" 120
+		"disabled repair delay" 180
+		"threshold percentage" .1
+		"energy generation" .1
+		"scan interference" 1
+		"scan concealment" 50
+		"ion resistance" .02
+		"ion protection" .3
+		"burn resistance" 2.1
+		"leak resistance" .05
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 8
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"DCB28N Battery Pack"
+		"D41-HY Shield Generator" 2
+		"E-type Memory Module" 2
+		"Laser Rifle" 30
+		"Security Station" 2
+		"Nuclear Cask (Empty)" 2
+		"Nuclear Cask (Uranium)"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
 #Leviathan custom-modified by NGK, old escort.
 ship "Leviathan" "Leviathan (NGK Escort)"
 	sprite "ship/mgf leviathan ngk"

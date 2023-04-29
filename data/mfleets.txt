@@ -630,6 +630,11 @@ fleet "Paradise Merchants"
 		"FUe04a Gebrant II"
 	add variant 1
 		"FUe06a Gebrant III"
+
+	add variant 1
+		"SRC-41C Curie"
+		"Headhunter" 2
+		"Corvette"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -1188,7 +1193,49 @@ fleet "MGF: Small Core Food Corp"
 	variant 20
 		"TQK-20 Qaytas (White Sugar)"
 		"Quicksilver"
-		
+
+fleet "MGF: Small Core Nuclear Transport"
+	government "MGF: Core Nuclear Transport"
+	names "corenuclear name"
+	cargo 1
+	commodities "Radioactive Cargo"
+	personality
+		confusion 30
+		timid frugal
+	variant 40
+		"SRC-41C Curie (Downgraded)"
+		"Splinter"
+		"Splinter (Proton)" 2
+	variant 40
+		"SRC-41C Curie (Downgraded)"
+		"Manta"
+		"Manta (Proton)" 2
+	variant 20
+		"SRC-41C Curie"
+		"Splinter (Proton)" 2
+		"Vanguard"
+
+fleet "MGF: Small Core Nuclear Transport (Cask Job)"
+	government "MGF: Core Nuclear Transport"
+	names "corenuclear name"
+	cargo 1
+	commodities "Radioactive Cargo"
+	personality
+		confusion 30
+		timid frugal
+	variant
+		"SRC-41C Curie (Downgraded, Cask 1)"
+		"Quicksilver" 3
+		"Splinter"
+	variant
+		"SRC-41C Curie (Downgraded, Cask 1)"
+		"Splinter"
+		"Splinter (Proton)" 2
+	variant
+		"SRC-41C Curie (Cask 1)"
+		"Splinter (Proton)" 2
+		"Vanguard"
+
 fleet "MGF: Near Bourne Merchant"
 	government "Merchant"
 	names "civilian"
@@ -1224,6 +1271,11 @@ fleet "MGF: Near Bourne Merchant"
 		"FUe06a Gebrant III"
 		"Sparrow" 2
 		
+	variant 1
+		"SRC-41C Curie (Downgraded)"
+		"Bastion"
+		"Sparrow" 2
+
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
 	names "rangphenn transport"
@@ -1403,7 +1455,7 @@ fleet "NGK Hauling RORO"
 		"Xencar (NGK)" 10
 		
 fleet "MJK Defense Fleet"
-	government "MGF: NGK Hauling"
+	government "MGF: NGK Security"
 	names "ngk warship name"
 	fighters "ngk fighter"
 	cargo 4
@@ -1418,7 +1470,7 @@ fleet "MJK Defense Fleet"
 		"Xencar (NGK)" 40
 		
 fleet "MJK Advanced Defense Fleet"
-	government "MGF: NGK Hauling"
+	government "MGF: NGK Security"
 	names "ngk warship name"
 	fighters "ngk fighter"
 	cargo 4

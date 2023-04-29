@@ -912,6 +912,8 @@ mission "MGF: Hunt Death Harmonica"
 		payment 20000000
 		dialog phrase "generic bounty hunting payment dialog"
 
+event "MGF: Death Harmonica despawn"
+
 mission "MGF: Hunt Death Harmonica Job"
 	job
 	repeat
@@ -935,11 +937,13 @@ mission "MGF: Hunt Death Harmonica Spawn"
 	landing
 	invisible
 	to offer
-		random < 10
+		random < 2
 		has "event: war begins"
 		"combat rating" > 8000
 	
 	npc save
+		to despawn
+			has "event: MGF: Death Harmonica despawn"
 		government "Pirate"
 		personality heroic staying
 		system Lesath
@@ -952,6 +956,8 @@ mission "MGF: Hunt Death Harmonica Spawn"
 			`As you see the ship blow up you notice escape pod launched from the ship and disappear from your sensor shortly after. If you took a bounty you can return to the planet to claim your reward.`
 				
 	npc
+		to despawn
+			has "event: MGF: Death Harmonica despawn"
 		government "Pirate"
 		personality heroic staying
 		system Lesath
@@ -960,6 +966,86 @@ mission "MGF: Hunt Death Harmonica Spawn"
 			fighters "pirate"
 			variant
 				"Cutthroat" 2
+
+mission "MGF: Death Harmonica destroyed by FW."
+	landing
+	source
+		attributes "rim" "south" "dirt belt"
+	to offer
+		has "event: MGF: Death Harmonica despawn"
+		not "MGF: Hunt Death Harmonica Spawn: failed"
+	on offer
+		conversation
+			`On the news screen you see a picture of a heavily modified TK80C Tileart cargo ship with cargo pods replaced by 6 huge cannons heavily damaged and surrouned by Free World ships, active and as wreckage. The news reported that the Free Worlds successfully defeated the pirate warship although at great cost. Though when boarding the ship they were unable to find the captain nor the crew of it, though they reported strange glowing red wires covering nearly every surface of the ship and found several outfits of unidentified origins. The ship is now under custody of the Free Worlds and is being brought back to Zug for further research about its construction and the mysterious outfits abroad it.`
+				decline
+
+mission "MGF: Core Nuclear Transport Upgrade I"
+	landing
+	invisible
+	to offer
+		12 =< "Raid on Nuclear Transport: done" + "Nuclear Cargo Theft (Core): done"
+	on offer
+		event "MGF: Core Nuclear Transport Upgrade I"
+	on accept
+		fail
+		
+event "MGF: Core Nuclear Transport Upgrade I"
+	fleet "MGF: Small Core Nuclear Transport (Cask Job)"
+		remove variant
+			"SRC-41C Curie (Downgraded, Cask 1)"
+			"Quicksilver" 3
+			"Splinter"
+		remove variant
+			"SRC-41C Curie (Downgraded, Cask 1)"
+			"Splinter"
+			"Splinter (Proton)" 2
+		remove variant
+			"SRC-41C Curie (Cask 1)"
+			"Splinter (Proton)" 2
+			"Vanguard"
+
+		add variant
+			"SRC-41C Curie (Downgraded, Cask 1)"
+			"Quicksilver" 2
+			"Quicksilver (Mark II)" 2
+			"Splinter"
+		add variant
+			"SRC-41C Curie (Downgraded, Cask 1)"
+			"Splinter (Proton)"
+			"Splinter (Mark II)" 2
+		add variant
+			"SRC-41C Curie (Cask 1)"
+			"Splinter (Proton)"
+			"Splinter (Mark II)"
+			"Vanguard (MGF CoreNucMKII)"
+		
+	fleet "MGF: Small Core Nuclear Transport"
+		remove variant 40
+			"SRC-41C Curie (Downgraded)"
+			"Splinter"
+			"Splinter (Proton)" 2
+		remove variant 40
+			"SRC-41C Curie (Downgraded)"
+			"Manta"
+			"Manta (Proton)" 2
+		remove variant 20
+			"SRC-41C Curie"
+			"Splinter (Proton)" 2
+			"Vanguard"
+
+		add variant 40
+			"SRC-41C Curie (Downgraded)"
+			"Splinter (Proton)"
+			"Splinter (Mark II)" 2
+		add variant 40
+			"SRC-41C Curie (Downgraded)"
+			"Manta (Proton)"
+			"Manta (Mark II)" 2
+		add variant 20
+			"SRC-41C Curie"
+			"Splinter (Proton)"
+			"Splinter (Mark II)"
+			"Vanguard (MGF CoreNucMKII)"
 		
 #=====================Story Mission Addition
 

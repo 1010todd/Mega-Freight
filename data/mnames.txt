@@ -517,6 +517,13 @@ phrase "corefood name"
 		"iau constellation"
 		"greek nymphs"
 
+phrase "corenuclear name"
+	word
+		"CNS "
+	phrase
+		"greek twelve titans"
+		"greek primordial deities"
+
 # =============Phrases to be used as part of a name.==============
 		
 		#Ships are sometimes named after astrological sign

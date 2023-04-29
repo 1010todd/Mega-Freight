@@ -18,7 +18,8 @@ government "MGF: Espion Mining Co."
 	bribe .3
 	fine .75
 	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
+	"hostile hail" "hostile espion"
+	"friendly disabled hail" "mgf friendly disabled"
 	enforces
 		not
 			government "Republic"
@@ -59,7 +60,8 @@ government "MGF: Maryhal Logistic"
 		"Phenomenon (dangerous)" -.01
 		"Indigenous Predator" -.01
 	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
+	"hostile hail" "hostile maryhal"
+	"friendly disabled hail" "mgf friendly disabled"
 	
 # South-Core transport
 government "MGF: Rangphenn Transport"
@@ -97,6 +99,7 @@ government "MGF: Sulso LG Shipping"
 		"Indigenous Predator" -.01
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+	"friendly disabled hail" "mgf friendly disabled"
 	
 # Logistic
 government "MGF: NGK Hauling"
@@ -115,9 +118,34 @@ government "MGF: NGK Hauling"
 		"Invasive Lifeform" -.01
 		"Phenomenon (dangerous)" -.01
 		"Indigenous Predator" -.01
-	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
-	
+	"friendly hail" "friendly ngk"
+	"hostile hail" "hostile ngk cargo"
+	"friendly disabled hail" "mgf friendly disabled"
+
+# NGK Security division. For fighting to assist their allies while avoiding dragging their cargo fleet into it. So if player attack the Syndicate NGK can deny the player from landing at Yokosuka and other stations.
+# In-lore usually only for guarding their properties and occasionally be available for hire by company under same group.
+government "MGF: NGK Security"
+	"display name" "NGK Security"
+	"swizzle" 13
+	color .01 .0 .8
+	"player reputation" 10
+	"attitude toward"
+		"MGF: NGK Hauling" 2
+		"Syndicate" .9
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.1
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.2
+		"MGF: Black Death" -.2
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"friendly hail" "friendly ngk"
+	"hostile hail" "hostile ngk security"
+	"friendly disabled hail" "mgf friendly disabled"
+
 # Food shipping around core and paradise.
 government "MGF: Core Food Corp"
 	"display name" "Core Food Corp"
@@ -134,8 +162,36 @@ government "MGF: Core Food Corp"
 		"Invasive Lifeform" -.01
 		"Phenomenon (dangerous)" -.01
 		"Indigenous Predator" -.01
+	"bribe" .08
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+
+# Nuclear fuel shipping
+government "MGF: Core Nuclear Transport"
+	"display name" "Core Nuclear Transport"
+	"swizzle" 23
+	"player reputation" 10
+	"attitude toward"
+		"Merchant" 1
+		"Pirate" -.1
+		"Korath" -.06
+		"Scar's Legion" -.1
+		"MGF: Minotaurs" -.1
+		"MGF: Black Death" -.1
+		#Lost in Midnight
+		"Invasive Lifeform" -.01
+		"Phenomenon (dangerous)" -.01
+		"Indigenous Predator" -.01
+	"bribe" .08
+	"friendly hail" "friendly syndicate"
+	"hostile hail" "hostile syndicate"
+
+government "Syndicate"
+	"attitude toward"
+		"MGF: Core Nuclear Transport" 1
+		"MGF: Core Food Corp" 1
+		"MGF: NGK Hauling" .9
+		"MGF: NGK Security" .9
 
 # Reefer shipping
 government "MGF: Solacer Group"

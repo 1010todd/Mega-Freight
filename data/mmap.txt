@@ -235,7 +235,7 @@ planet "MGF: Fake Tinker"
 	description `If you can land here it is a bug.`
 			
 planet "Yokosuka Naval Arsenal"
-	government "MGF: NGK Hauling"
+	government "MGF: NGK Security"
 	attributes "core" "near earth" station factory research
 	landscape land/sivael5
 	music ambient/machinery
@@ -1148,6 +1148,84 @@ system Schedar
 	add fleet "MGF: Small Core Food Corp" 4000
 system Mirach
 	add fleet "MGF: Small Core Food Corp" 5000
+
+#==================================Core Nuclear
+# Operates only nuclear transport ships. Fairly well defended fleet
+
+system Alpheratz
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system "Al Dhanab"
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Scheat
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Markab
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system "Delta Capricorni"
+	add fleet "MGF: Small Core Nuclear Transport" 11000
+system Altair
+	add fleet "MGF: Small Core Nuclear Transport" 11000
+system Fomalhaut
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Ruchbah
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Ankaa
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Diphda
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Caph
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Sol
+	add fleet "MGF: Small Core Nuclear Transport" 3000
+system "Alpha Centauri"
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Denebola
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Merak
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Sirius
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Eteron
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Procyon
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Pollux
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Talita
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Castor
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Menkalinan
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Alhena
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Capella
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Aldebaran
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Wazn
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Kursa
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system "Alpha Hydri"
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Sheratan
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Zaurak
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Menkar
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Mirfak
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Bellatrix
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Achernar
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Polaris
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Schedar
+	add fleet "MGF: Small Core Nuclear Transport" 10000
+system Mirach
+	add fleet "MGF: Small Core Nuclear Transport" 11000
 
 
 #====================================Solacer

@@ -102,6 +102,7 @@ shipyard developer
 	"FUe02y Gebrant Tender"
 	"TCM-23 Harrier"
 	"TQK-20 Qaytas"
+	"SRC-41C Curie"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -267,6 +268,8 @@ outfitter developer
 	"NGK R11 Grip"
 	"NGK R11 Bipod"
 	"NGK R11 QAS"
+	"MJK S1 Cargo Expansion"
+	"MJK S1 Bunk Dismantling"
 	#"X09E Fighter Assembler"
 	#"E1 Lance Blueprint"
 	
@@ -582,6 +585,10 @@ shipyard "Solacer Group Custom"
 shipyard "Core Food Corp Custom"
 	"TQK-20 Qaytas"
 	
+# Note: while in-lore Syndicate seems to be very lose about nuclear safety this could also be a PR-thing to pretend they care about it and keep people happy enough about it.
+shipyard "Core Nuclear Transport"
+	"SRC-41C Curie"
+
 shipyard "MJK Heavy Industries Basic"
 	"Shuttle" #Placeholder
 	

@@ -1940,6 +1940,16 @@ outfit "NGK R11 QAS"
 	"unplunderable" 1
 	description "QAS sight for the R11 Rifle allowing fast aiming over short to medium range perfect for close quarter combat like inside a ship."
 	
+outfit "MJK S1 Outfit Expansion"
+	category "Systems"
+	cost 129000
+	thumbnail "outfit/outfit expansion"
+	"mass" 4
+	"cargo space" -40
+	"outfit space" 37
+	"unplunderable" 1
+	description "More advanced and well planned cargo-to-outfit refitting offered by MJK Heavy Industries for higher price."
+
 outfit "MJK S1 Cargo Expansion"
 	category "Systems"
 	cost 99000
@@ -1972,6 +1982,53 @@ outfit "S-1670 Regenerator"
 	"heat generation" 21
 	description "A larger version of the advanced S-970 Regenerator."
 	
+outfit "E272-S5T Shield Generator"
+	plural "D41-HY Shield Generator" #to conceal the outfit on ships when scanned.
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/medium shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" .5
+	"shield energy" .61
+	"shields" 300
+	"force protection" .05
+	"E272 programming slot" 1
+	description "This is a specialized shield generator that improves the shield's ability to resist damage and impact force. It is also capable of being programmed to fine-tune the matrix to a specific ship."
+	description `Aside from a single port for a programming memory module the external appearance of this generator is almost exactly the same as D41-HY model making it easy to be mistaken for the basic one.`
+
+outfit "E272-SR-MDSRC41C Curie"
+	plural "E-type Memory Modules"
+	category "Systems"
+	cost 82000
+	thumbnail "outfit/mgf akataiyo fusion module"
+	"shield generation" .1
+	"shield energy" .05
+	"shield protection" .05
+	"force protection" .05
+	"E272 programming slot" -1
+	description `A memory module with programming for tuning E272-series shield generator to the specifics of SRC-41C Curie model nuclear fuel carrier. This model improves shield generation efficiency as well as notably improve shield's ability to resist damage.`
+	description `Due to difficulty and highly specific requirements this is rarely done. It was rumored the programming for this ship was the first field testing of the concept and it took a combined power of multiple supercomputers and quantum computers several months to complete.`
+	description `Aside from fairly rugged look of the module most of the cost for it was the licensing.`
+
+outfit "E-type Memory Module"
+	category "Systems"
+	cost 50
+	thumbnail "outfit/mgf akataiyo fusion module"
+	description `A rugged-looking memory module sometimes seen attached to a D41-HY Shield Generator. Though it doesn't seems to really do anything. Rolling it around in your hand you doubt it's even a real module and rather just a case.`
+
+outfit "DCB28N Battery Pack"
+	category "Power"
+	cost 38000
+	thumbnail "outfit/small battery"
+	"mass" 35
+	"outfit space" -35
+	"energy capacity" 10500
+	"ion resistance" .015
+	"ion protection" .1
+	"energy protection" .75
+	description "Though not the most energy-dense battery it's highly resistant and durable enough as a reliable backup power. Because of low demand for such specialization in general it's not sold individually but occasionally comes with a specialized ship."
+
 outfit "M-type 1k Gas Tank"
 	category "Systems"
 	cost 1000000

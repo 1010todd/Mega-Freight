@@ -1169,6 +1169,260 @@ mission "MGF: Wildfire Aid (Water Tanker)"
 		payment 12800 100
 		dialog "You picked up one of the firefighter from the spaceport who will guide you during the firefighting operation. You hover your ship above the forest and used the ship water discharging arm to spray water into the area according to the firefighter guidance. Your water tank is drained just as the fire come under control. You drop off the firefighter near his colleagues and return to the spaceport. The authorities offered you <payment> to thanks you for the assistance. A group of <planet> citizens thank you for your assistance and bid you farewell."
 		
+#=======================================Nuclear fuel
+
+trade
+	commodity "Radioactive Cargo"
+		"fuel rods"
+		"used fuel rods"
+		"reactor-grade plutonium"
+		"reactor-grade uranium"
+		"thorium"
+		"MOX fuel"
+		"radioactive waste"
+		"plutonium"
+	commodity "Nuclear Fuel"
+		"fuel rods"
+		"reactor-grade plutonium"
+		"reactor-grade uranium"
+		"thorium"
+		"MOX fuel"
+		"plutonium"
+		"thorium"
+	commodity "Radioactive Waste"
+		"used fuel rods"
+		"contaminated medical equipment"
+		"contaminated industrial equipment"
+		"radioactive waste"
+
+phrase "mgf: unload nuclear fuel"
+	word
+		`You landed at special area of the port a bit away from other ships where you find local inspectors waiting. After some initial inspection around the ship the cargo was proceed to be unloaded. After the last cask was lifted out <payment> is transferred into your account.`
+
+mission "MGF: Radioactive Transport"
+	name "Radioactive cargo to <planet>"
+	description "Ship <cargo> to <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying radioactive."
+	job
+	repeat
+	deadline
+	cargo "Radioactive Cargo" 20 150
+	to offer
+		or
+			random < 20
+			and
+				random < 30
+				"flagship attribute: radioactive cargo space" > 0
+			and
+				random < 30
+				"ship model: SRC41C Curie" > 0
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		attributes "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		not attributes frontier
+		distance 3 10
+	to accept
+		or
+			"flagship attribute: radioactive cargo space" > 0
+			"ship model: SRC41C Curie" > 0
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+
+	on complete
+		dialog phrase "mgf: unload nuclear fuel"
+		payment 780000 680
+
+mission "MGF: Radioactive Waste Transport"
+	name "Radioactive cargo to <planet>"
+	description "Ship <cargo> to <destination> for processing, the cargo must be delivered by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying radioactive."
+	job
+	repeat
+	deadline
+	cargo "Radioactive Waste" 20 150
+	to offer
+		or
+			random < 30
+			and
+				random < 40
+				"flagship attribute: radioactive cargo space" > 0
+			and
+				random < 30
+				"ship model: SRC41C Curie" > 0
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		attributes "urban" "factory"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		attributes "factory"
+		not attributes "station"
+		distance 3 10
+	to accept
+		or
+			"flagship attribute: radioactive cargo space" > 0
+			"ship model: SRC41C Curie" > 0
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+
+	on complete
+		dialog phrase "mgf: unload nuclear fuel"
+		payment 700000 640
+
+mission "MGF: Escort (Small, Core Nuclear 1)"
+	name "Escort to <planet>"
+	description "Nuclear Fuel carrier <npc> requires additional escort to bring it to <destination> by <date>. You will be paid <payment>."
+	repeat
+	job
+	deadline 0 3
+	to offer
+		random < 35
+		"combat rating" > 50
+		"reputation: MGF: Core Nuclear Transport" >= 5
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		attributes "mining" "factory"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		attributes "urban" "station" "factory"
+		distance 3 12
+	npc
+		government "Pirate"
+		personality nemesis harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+	npc
+		government "Pirate"
+		personality nemesis staying harvests plunders
+			confusion 30
+		system destination
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+				
+	npc
+		government "MGF: Core Nuclear Transport"
+		personality escort timid frugal
+		fleet
+			names "corenuclear name"
+			variant
+				"Quicksilver" 2
+			variant 
+				"Splinter (Proton)"
+				
+	npc accompany save
+		government "MGF: Core Nuclear Transport"
+		personality escort timid frugal target
+		fleet
+			names "corenuclear name"
+			variant 2
+				"SRC-41C Curie (Downgraded)"
+			variant
+				"SRC-41C Curie"
+	on complete
+		"reputation: MGF: Core Nuclear Transport" += 1
+		payment 130000
+		dialog phrase "generic safe escort completion dialog"
+	on fail
+		# Reduce rep if failed but not to point of attacking (<0)
+		"reputation: MGF: Core Nuclear Transport" -= 1
+		"reputation: MGF: Core Nuclear Transport" >?= 1
+	on visit
+		dialog phrase "generic arrived-without-npc dialog"
+
+mission "Raid on Nuclear Transport"
+	name "Nuclear Transport near <system>"
+	repeat
+	job
+	description "A nuclear transport fleet has been spotted near the <system> system. Join in destroying them and return to <planet> for a cut of the loot (<payment>)."
+	to offer
+		random < 10
+		"combat rating" > 150
+		"reputation: Pirate" > 0
+	source
+		government "Pirate"
+		attributes "core pirate"
+	npc
+		government "Pirate"
+		personality disables plunders harvests escort
+		fleet "Small Core Pirates"
+		fleet "Small Core Pirates"
+	
+	npc kill
+		personality heroic staying target
+		government "MGF: Core Nuclear Transport"
+		system
+			distance 1 3
+		fleet "MGF: Small Core Nuclear Transport"
+		dialog "The merchants have been eliminated. Return to <destination> for your cut of the loot."
+	on complete
+		payment 250000
+		dialog "After counting up the loot from the destroyed merchant fleet, you are given your cut. <payment>"
+
+outfit "Nuclear Cask (Empty)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"cargo space" -40
+	description "A stolen empty nuclear cask nobody is going to buy."
+
+outfit "Nuclear Cask (Waste)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 45
+	"cargo space" -45
+	description "A nuclear cask full of high radioactive waste nobody is going to buy."
+
+outfit "Nuclear Cask (Uranium)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"cargo space" -60
+	description "Cargo stolen from a merchant ship which has caught the interest of a pirate warlord."
+
+outfit "Nuclear Cask (Plutonium)"
+	category "Special"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"cargo space" -60
+	description "Cargo stolen from a merchant ship which has caught the interest of a pirate warlord."
+
+mission "Nuclear Cargo Theft (Core)"
+	name "Convoy near <system>"
+	job
+	repeat
+	description `A nuclear transport fleet has been spotted near the <system> system. A local warlord is interested in having the nuclear cask with Uranium in it from the <npc>. Plunder it and return to <planet> by <day> for payment of <payment>.`
+	to offer
+		random < 5
+		"combat rating" > 3000
+		"outfit (flagship installed): Cargo Scanner" > 0
+	deadline 20
+	source
+		government Pirate
+		attributes "core pirate"
+	npc
+		government "MGF: Core Nuclear Transport"
+		personality staying heroic target
+		system
+			not government "Pirate"
+			distance 2 2
+		fleet "MGF: Small Core Nuclear Transport (Cask Job)"
+			
+	on visit
+		dialog "You land on <planet>, but you don't have the nuclear cask or you do not have the correct cask! Return to the <npc> and bring the correct cargo back to <planet>."
+	to complete
+		has "outfit (flagship cargo): Nuclear Cask (Uranium)"
+	on complete
+		outfit "Nuclear Cask (Uranium)" -1
+		payment 4500000
+		dialog "The warlord's crew come to inspect the cargo before loading it into their truck and hands you <payment>."
+
 #=======================================Sugar
 
 phrase "mgf: unload sugar bag"
@@ -1177,7 +1431,7 @@ phrase "mgf: unload sugar bag"
 
 mission "MGF: Sugar Transport (to bag) 1"
 	name "Bulk Sugar to <planet>"
-	description "1000 tons of White Sugar along with <cargo> to bag the cargo when arriving at <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying bulk sugar and bagging it."
+	description "1000 tons of White Sugar along with <cargo> to bag the cargo when arriving at <destination> by <date>. Payment is <payment>. To accept this job you need flagship capable of carrying bulk sugar and bagging it."
 	job
 	repeat
 	deadline

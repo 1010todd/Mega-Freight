@@ -9971,6 +9971,81 @@ ship "FUe02y Gebrant Tender"
 	description "A refitted Gebrant with gears for attaching warship inplace of the usual cargo pods to act as hyperspace carrier vessel for a medium warship allow the warship to strip of hyperspace capbility for additional space for other combat systems. The ship it self is also refitted with additional turret mounts to also provide some firepower itself as well along with adjusted shield emitter layout for better efficiency as it's not expected to be pushing cargo pods anymore and improve survivability now with the ship is expected to see more combat."
 
 
+	#Small Radioactive Carrier
+ship "SRC-41C Curie"
+	sprite "ship/mgf curie"
+	thumbnail "thumbnail/mgf curie thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 9100000
+		"shields" 9200
+		"hull" 6800
+		"required crew" 19
+		"bunks" 30
+		"mass" 558
+		"drag" 10.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 150
+		"radioactive cargo space" 150
+		"outfit space" 380
+		"weapon capacity" 155
+		"engine capacity" 80
+		"operating cost" 3000
+		"hull protection" .02
+		"hull repair rate" .1
+		"hull heat" .4
+		"repair delay" 120
+		"disabled repair delay" 180
+		"threshold percentage" .08
+		"energy generation" .3
+		"scan interference" 2
+		"scan concealment" 100
+		"ion resistance" .05
+		"ion protection" 1
+		"burn resistance" 5
+		"leak resistance" .1
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 8
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 2
+		
+		"nGVF-DD Fuel Cell"
+		"DCB28N Battery Pack"
+		"E272-S5T Shield Generator" 2
+		"E272-SR-MDSRC41C Curie" 2
+		"Laser Rifle" 45
+		"Security Station" 3
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+		
+	turret 0 -96 "Heavy Anti-Missile Turret"
+	turret -39 72 
+	turret 39 72 
+	turret 0 99.5 "Heavy Anti-Missile Turret"
+	gun -46 -96 
+	gun 46 -96 
+	engine -23.5 119 
+	engine 23.5 119 
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description `Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sort of radioactive cargo like fresh nuclear fuel, spent nuclear fuel, and radioactive waste. With multiple redundancies for all critical systems from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo is intact. Though the bridge is visible it is reinforced with additional armour it is mainly only used for landing and on-ground operations like unloading the cargo, the ship's primary control room buried deep inside the ship also with another layer of armour around it, not unlike what one would've expected from a warship. With the requirement to keep the cargo cool all the time the ship is also built-in with dedicated cooling system for the cargo hold which is isolated from cooling system for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with their own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
+	description `Another prt of the ship's safety includes crews trained to handle radioactive cargo as well as responding to various forseeable incidents from collision, fire, to pirates boarding, in the most unlikely case that it occurs. In addition to that the ship is also equipped for in-flight repairs allowing the ship to perform rudimentary repair on itself if damaged though there's a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
+
+
 ship "AGT-31 Xencar"
 	sprite "ship/mgf xencar"
 	thumbnail "thumbnail/mgf xencar thumb"
