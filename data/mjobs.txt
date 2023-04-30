@@ -59,10 +59,10 @@ mission "MGF: Escort (Huge 2, Dangerous Destination)"
 		random < 5
 		"combat rating" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 3 6
 	npc
@@ -107,10 +107,10 @@ mission "MGF: Escort (Huge 1, Dangerous Origin)"
 		random < 15
 		"combat rating" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth" "core"
 		distance 3 6
 	npc
@@ -160,10 +160,10 @@ mission "MGF: Escort (Huge 3, Dangerous Destination)"
 		random < 15
 		"combat rating" > 800
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 3 6
 	npc
@@ -208,10 +208,10 @@ mission "MGF: Escort (Huge Fleet 1, Dangerous Destination)"
 		random < 15
 		"combat rating" > 800
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 4 6
 	npc
@@ -258,10 +258,10 @@ mission "MGF: Escort (Huge Fleet 2, Dangerous Destination)"
 		random < 15
 		"combat rating" > 1000
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 4 6
 	npc
@@ -308,10 +308,10 @@ mission "MGF: Escort (Huge Fleet 3, Dangerous Destination)"
 		random < 15
 		"combat rating" > 1000
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 4 6
 	npc
@@ -360,10 +360,10 @@ mission "MGF: Escort (Huge Fleet 4, Dangerous Destination)"
 		random < 15
 		"combat rating" > 1000
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 4 6
 	npc
@@ -413,10 +413,10 @@ mission "MGF: Escort (Terrestrial Miner, Dangerous Destination)"
 		random < 10
 		"combat rating" > 5000
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "core"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 		distance 3 8
 	npc
@@ -468,7 +468,7 @@ mission "MGF CNY: Large Construction Supplies [0]"
 		random < 40
 	source
 		attributes "factory" "manufacturing"
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 16
 		planet "Canaveral Naval Yard"
@@ -493,7 +493,7 @@ mission "MGF CNY: Very Large Construction Supplies [0]"
 		random < 30
 	source
 		attributes "factory" "manufacturing"
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 16
 		planet "Canaveral Naval Yard"
@@ -518,7 +518,7 @@ mission "MGF CNY: Mega Construction Supplies [0]"
 		random < 20
 	source
 		attributes "factory" "manufacturing"
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 16
 		planet "Canaveral Naval Yard"
@@ -540,7 +540,7 @@ mission "MGF CNY: Escort (Huge 1, Dangerous Origin)"
 		random < 15
 		"combat rating" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "frontier"
 	destination
 		planet "Canaveral Naval Yard"
@@ -590,10 +590,10 @@ mission "MGF: Large Bulk Delivery [0]"
 		random < 70
 		"cargo space" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 10
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -611,10 +611,10 @@ mission "MGF: Large Bulk Delivery [1]"
 		random < 70
 		"cargo space" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -632,10 +632,10 @@ mission "MGF: Huge Bulk Delivery [0]"
 		random < 65
 		"cargo space" > 120
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 18
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -653,10 +653,10 @@ mission "MGF: Huge Bulk Delivery [1]"
 		random < 65
 		"cargo space" > 120
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 18
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -674,10 +674,10 @@ mission "MGF: Huge Bulk Delivery [2]"
 		random < 60
 		"cargo space" > 150
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 20
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -709,10 +709,10 @@ mission "MGF: Huge Dry Bulk Delivery [0]"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 18
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -735,10 +735,10 @@ mission "MGF: Huge Dry Bulk Delivery [1]"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 18
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -761,10 +761,10 @@ mission "MGF: Huge Dry Bulk Delivery [2]"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 3 18
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -864,6 +864,140 @@ mission "MGF: Hire Large Crossguard Escort"
 #===================================NGK
 
 #Todo Yokosuka resupply jobs, ship transporting jobs.
+mission "MGF: NGK Import [0]"
+	name "Import raw materials to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Metal" 50 3 .01
+	to offer
+		random < 70
+		"cargo space" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes mining
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: NGK Import [1]"
+	name "Import raw materials to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Metal" 50 3 .01
+	to offer
+		random < 65
+		"cargo space" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes mining
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: NGK Import [2]"
+	name "Import raw materials to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Metal" 50 3 .01
+	to offer
+		random < 60
+		"cargo space" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes mining
+	destination
+		distance 2 8
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: NGK Export [0]"
+	name "Export to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Electronics" 50 2 .01
+	to offer
+		random < 70
+		"cargo space" > 50
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	destination
+		distance 2 8
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: NGK Export [1]"
+	name "Export to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Equipment" 50 2 .01
+	to offer
+		random < 65
+		"cargo space" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	destination
+		distance 2 8
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: NGK Export [2]"
+	name "Export to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Industrial" 50 2 .01
+	to offer
+		random < 60
+		"cargo space" > 100
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		planet "Yokosuka Naval Arsenal"
+	destination
+		distance 2 8
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 8000
+		dialog phrase "generic cargo delivery payment"
 
 mission "MGF: NGK Corporate Saboteur Arrest"
 	name "Arrest Corporate Saboteur"
@@ -872,8 +1006,9 @@ mission "MGF: NGK Corporate Saboteur Arrest"
 	to offer
 		random < 10
 		"reputation: NGK Hauling" >= 3
+		"reputation: NGK Security" >= 3
 	source
-		government Republic Syndicate "MGF: NGK Hauling"
+		government Republic Syndicate "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes core
 		attributes urban
 	to accept
@@ -892,14 +1027,17 @@ mission "MGF: NGK Corporate Saboteur Arrest"
 			`You boarded the <npc> and arrest its crew. Now you can land back on <origin> to claim your reward.`
 	on abort
 		"reputation: NGK Hauling" -= 1
+		"reputation: NGK Security" -= 1
 		"reputation: NGK Hauling" >?= 2
+		"reputation: NGK Security" >?= 2
 	on complete
 		payment 100000
 		"reputation: NGK Hauling" += 1
+		"reputation: NGK Security" += 1
 		"MGF: NGK saboteur arrest job done" += 1
 		dialog
 			`Armed NGK security personnels arrive to pick up the crew of <npc> you just arrested thanking you and hands you <payment>.`
-	
+
 phrase "mgf: ngk sketchy passenger done"
 	word
 		"Your passengers ask that you land away from the busy spaceport center. They hand you <payment> and rush out of your ship and away from the spaceport with considerable speed."
@@ -1019,6 +1157,240 @@ mission "MGF: MHL Scout Route (Tarazed Route)"
 		"MGF: MHL scouting job done" += 1
 		payment 90000
 		
+#================================Ankulah
+
+
+mission "MGF: Scrap Metal [0]"
+	name "Scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 250 2 .05
+	to offer
+		or
+			random < 60
+			and
+				random < 80
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Scrap Metal [1]"
+	name "Scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 300 2 .05
+	to offer
+		or
+			random < 60
+			and
+				random < 80
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Scrap Metal [2]"
+	name "Scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 400 2 .05
+	to offer
+		or
+			random < 50
+			and
+				random < 80
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Bulk Scrap Metal [0]"
+	name "Bulk scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 600 2 .015
+	to offer
+		or
+			random < 40
+			and
+				random < 60
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 120
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Bulk Scrap Metal [1]"
+	name "Bulk scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 700 2 .015
+	to offer
+		or
+			random < 40
+			and
+				random < 60
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 120
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Bulk Scrap Metal [2]"
+	name "Bulk scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 1000 2 .01
+	to offer
+		or
+			random < 20
+			and
+				random < 60
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 120
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Bulk Scrap Metal [3]"
+	name "Bulk scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 1000 3 .01
+	to offer
+		or
+			random < 20
+			and
+				random < 60
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 120
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF: Large Bulk Scrap Metal [0]"
+	name "Large bulk scrap metal to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "scrap metal" 2000 3 .01
+	to offer
+		or
+			random < 20
+			and
+				random < 50
+				or
+					has "flagship attributes: bulk bay"
+					has "ship model: CDB-6K Jupiter"
+					has "ship model: CDB-12K Saturn"
+					has "ship model: Bulk Freighter"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "scrapyard" 
+	destination
+		distance 2 10
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "factory" "shipyard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 0 100
+		dialog phrase "generic cargo delivery payment"
 #===================================Heavy Lift jobs
 
 phrase "mgf: heavy lift complete"
@@ -1106,7 +1478,7 @@ mission "MGF: In-system Fresh Water Transport 1"
 		random < 30
 		has "ship model (all): SKVS-4 Minnow"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "Neutral"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "Neutral"
 		not attributes station
 		#planets in same system as station or moon. Except Earth/Mars
 		planet
@@ -1126,7 +1498,7 @@ mission "MGF: In-system Fresh Water Transport 1"
 			Glaze
 			Wayfarer
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 0
 		attributes station moon
 	to accept
@@ -1153,7 +1525,7 @@ mission "MGF: Wildfire Aid (Water Tanker)"
 		random < 5
 		has "flagship model: SKVS-4 Minnow"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		not government "Pirate"
 		distance 2 8
@@ -1216,10 +1588,10 @@ mission "MGF: Radioactive Transport"
 				random < 30
 				"ship model: SRC41C Curie" > 0
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes frontier
 		distance 3 10
 	to accept
@@ -1251,10 +1623,10 @@ mission "MGF: Radioactive Waste Transport"
 				random < 30
 				"ship model: SRC41C Curie" > 0
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban" "factory"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory"
 		not attributes "station"
 		distance 3 10
@@ -1281,10 +1653,10 @@ mission "MGF: Escort (Small, Core Nuclear 1)"
 		"combat rating" > 50
 		"reputation: MGF: Core Nuclear Transport" >= 5
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "mining" "factory"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "urban" "station" "factory"
 		distance 3 12
 	npc
@@ -1444,10 +1816,10 @@ mission "MGF: Sugar Transport (to bag) 1"
 				random < 70
 				has "outfit (installed): B-type 200 Bulk Sugar Bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth" "urban"
 		distance 3 7
 	to accept
@@ -1476,10 +1848,10 @@ mission "MGF: Escort (Small, Luna Winery 1)"
 		"combat rating" > 5
 		"reputation: MGF: Luna Winery" >= 5
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "paradise"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "rim" "dirt belt" 
 		attributes "urban"
 		distance 3 14
@@ -1538,13 +1910,13 @@ mission "MGF: Escort (Small, Luna Winery 2)"
 		"combat rating" > 5
 		"reputation: MGF: Luna Winery" >= 5
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		planet
 			Skymoot
 			Thunder
 			Zug
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "paradise"
 		distance 3 14
 	npc
@@ -1601,10 +1973,10 @@ mission "MGF: Escort (Medium, Luna Winery 1)"
 		"combat rating" > 5
 		"reputation: MGF: Luna Winery" >= 5
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "paradise"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "rim" "dirt belt" 
 		attributes "urban"
 		distance 3 14
@@ -1662,13 +2034,13 @@ mission "MGF: Escort (Medium, Luna Winery 2)"
 		"combat rating" > 5
 		"reputation: MGF: Luna Winery" >= 5
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		planet
 			Skymoot
 			Thunder
 			Zug
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "paradise"
 		distance 3 14
 	npc
@@ -1733,10 +2105,10 @@ mission "MGF: Wine Transport (Red Wine 1)"
 				random < 60
 				has "outfit (installed): C-type 100 Wine Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
@@ -1763,10 +2135,10 @@ mission "MGF: Wine Transport (Red Wine 2)"
 		random < 50
 		has "outfit (installed): C-type 100 Wine Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth" "urban"
 		distance 3 20
 	to accept
@@ -1793,10 +2165,10 @@ mission "MGF: Wine Transport (Red Wine 3)"
 		random < 40
 		has "outfit (installed): C-type 100 Wine Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
@@ -1823,10 +2195,10 @@ mission "MGF: Wine Transport (White Wine 1)"
 		random < 40
 		has "outfit (installed): C-type 100 Wine Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
@@ -1853,10 +2225,10 @@ mission "MGF: Wine Transport (Rose Wine 1)"
 		random < 40
 		has "outfit (installed): C-type 100 Wine Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "paradise" "near earth"
 		distance 3 20
 	to accept
@@ -1909,11 +2281,11 @@ mission "MGF: Juice Distribution [0]"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
 	destination
 		distance 2 5
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -1940,11 +2312,11 @@ mission "MGF: Juice Distribution [1]"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
 	destination
 		distance 2 5
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -1971,11 +2343,11 @@ mission "MGF: Juice Distribution [2]"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
 	destination
 		distance 2 5
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -2002,11 +2374,11 @@ mission "MGF: Juice Distribution [3]"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
 	destination
 		distance 2 5
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -2030,10 +2402,10 @@ mission "MGF: Juice Transport (Orange Juice 1)"
 		random < 50
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2060,10 +2432,10 @@ mission "MGF: Juice Transport (Orange Juice 2)"
 		random < 30
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2090,10 +2462,10 @@ mission "MGF: Juice Transport (Orange Juice 3)"
 		random < 45
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2120,10 +2492,10 @@ mission "MGF: Juice Transport (Apple Juice 1)"
 		random < 50
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2150,10 +2522,10 @@ mission "MGF: Juice Transport (Apple Juice 2)"
 		random < 45
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2180,10 +2552,10 @@ mission "MGF: Juice Transport (Apple Juice 3)"
 		random < 40
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2210,10 +2582,10 @@ mission "MGF: Juice Transport (Pineapple Juice 1)"
 		random < 35
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2240,10 +2612,10 @@ mission "MGF: Juice Transport (Coconut Water 1)"
 		random < 30
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2270,10 +2642,10 @@ mission "MGF: Juice Transport (Coconut Water 2)"
 		random < 20
 		has "outfit (installed): C-type 200 Juice Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "urban"
 		distance 3 20
 	to accept
@@ -2324,10 +2696,10 @@ mission "MGF: Car Shipping 1"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2357,10 +2729,10 @@ mission "MGF: Car Shipping 2"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2390,10 +2762,10 @@ mission "MGF: Car Shipping 3"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes "station"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2423,10 +2795,10 @@ mission "MGF: Bulk Car Shipping 1"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2456,10 +2828,10 @@ mission "MGF: Bulk Car Shipping 2"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2489,10 +2861,10 @@ mission "MGF: Bulk Car Shipping 3"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2522,10 +2894,10 @@ mission "MGF: Large Bulk Car Shipping 1"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2555,10 +2927,10 @@ mission "MGF: Large Bulk Car Shipping 2"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2588,10 +2960,10 @@ mission "MGF: Large Bulk Car Shipping 3"
 			has "flagship attribute: car carrier"
 			has "ship model: LVC-2 Sandura"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2635,10 +3007,10 @@ mission "MGF: Livestock Transport 1"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2680,10 +3052,10 @@ mission "MGF: Livestock Transport 2"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2725,10 +3097,10 @@ mission "MGF: Large Livestock Transport 1"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2770,10 +3142,10 @@ mission "MGF: Large Livestock Transport 2"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2813,10 +3185,10 @@ mission "MGF: Bulk Livestock Transport 1"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		not attributes "station"
 	to accept
@@ -2858,10 +3230,10 @@ mission "MGF: Bulk Livestock Transport to Paradise 1"
 			has "flagship attribute: livestock space"
 			has "ship model: PL-50 Impavid"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 		attributes "paradise"
 		not attributes "station"
@@ -3026,10 +3398,10 @@ mission "MGF: Small Refrigerated Transport 1"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 	to accept
 		or
@@ -3062,10 +3434,10 @@ mission "MGF: Small Refrigerated Transport 2"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 	to accept
 		or
@@ -3098,10 +3470,10 @@ mission "MGF: Small Refrigerated Transport 3"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#offered anywhere.
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 	to accept
 		or
@@ -3134,10 +3506,10 @@ mission "MGF: Refrigerated Transport 1"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 12
 	to accept
 		or
@@ -3170,10 +3542,10 @@ mission "MGF: Refrigerated Transport 2"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3206,9 +3578,9 @@ mission "MGF: Refrigerated Transport 3"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3241,10 +3613,10 @@ mission "MGF: Large Refrigerated Transport 1"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3277,10 +3649,10 @@ mission "MGF: Large Refrigerated Transport 2"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3313,9 +3685,9 @@ mission "MGF: Large Refrigerated Transport 3"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3348,10 +3720,10 @@ mission "MGF: Bulk Refrigerated Transport 1"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3384,10 +3756,10 @@ mission "MGF: Bulk Refrigerated Transport 2"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3420,10 +3792,10 @@ mission "MGF: Bulk Refrigerated Transport 3"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3456,10 +3828,10 @@ mission "MGF: Bulk Refrigerated Transport 4"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 14
 	to accept
 		or
@@ -3493,10 +3865,10 @@ mission "MGF: Frozen Transport 1"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 18
 	to accept
 		or
@@ -3526,10 +3898,10 @@ mission "MGF: Frozen Transport 2"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 18
 	to accept
 		or
@@ -3559,10 +3931,10 @@ mission "MGF: Frozen Transport 3"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 18
 	to accept
 		or
@@ -3592,9 +3964,9 @@ mission "MGF: Frozen Transport 4"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 18
 	to accept
 		or
@@ -3624,10 +3996,10 @@ mission "MGF: Large Frozen Transport 1"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 20
 	to accept
 		or
@@ -3657,10 +4029,10 @@ mission "MGF: Large Frozen Transport 2"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 20
 	to accept
 		or
@@ -3690,10 +4062,10 @@ mission "MGF: Large Frozen Transport 3"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 20
 	to accept
 		or
@@ -3723,10 +4095,10 @@ mission "MGF: Large Frozen Transport 4"
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		distance 2 20
 	to accept
 		or
@@ -3759,10 +4131,10 @@ mission "MGF: Cement Transport 1"
 		random < 50
 		has "outfit (installed): U-type 1k Cement Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
@@ -3788,10 +4160,10 @@ mission "MGF: Cement Transport 2"
 		random < 40
 		has "outfit (installed): U-type 1k Cement Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
@@ -3817,10 +4189,10 @@ mission "MGF: Fly Ash Transport 1"
 		random < 50
 		has "outfit (installed): U-type 1k Cement Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
@@ -3846,10 +4218,10 @@ mission "MGF: Fly Ash Transport 2"
 		random < 40
 		has "outfit (installed): U-type 1k Cement Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
@@ -3875,10 +4247,10 @@ mission "MGF: Granulated Slag Transport 1"
 		random < 50
 		has "outfit (installed): U-type 1k Cement Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	to accept
@@ -3921,10 +4293,10 @@ mission "MGF: Aggregate Transport 1"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -3945,10 +4317,10 @@ mission "MGF: Aggregate Transport 2"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -3969,10 +4341,10 @@ mission "MGF: Aggregate Transport 3"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -3993,10 +4365,10 @@ mission "MGF: Aggregate Transport 4"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -4017,10 +4389,10 @@ mission "MGF: Aggregate Transport 5"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -4041,10 +4413,10 @@ mission "MGF: Aggregate Transport 6"
 			has "ship model: FAd36 Flint"
 			has "flagship attribute: aggregate bay"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "mining"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 20
 	on visit
@@ -4070,10 +4442,10 @@ mission "MGF: Gas Transport (LNG 1)"
 				random < 70
 				has "outfit (installed): M-type 1k Gas Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4100,10 +4472,10 @@ mission "MGF: Gas Transport (LNG 2)"
 	to offer
 		random < 40
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4130,10 +4502,10 @@ mission "MGF: Gas Transport (LNG 3)"
 	to offer
 		random < 20
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4161,10 +4533,10 @@ mission "MGF: Rush Gas Transport (LNG 1)"
 	to offer
 		random < 50
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4191,10 +4563,10 @@ mission "MGF: Gas Transport (Ethane 1)"
 	to offer
 		random < 30
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4222,10 +4594,10 @@ mission "MGF: Rush Gas Transport (Ethane 1)"
 	to offer
 		random < 20
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4252,10 +4624,10 @@ mission "MGF: Gas Transport (Hydrogen 1)"
 	to offer
 		random < 50
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4283,10 +4655,10 @@ mission "MGF: Rush Gas Transport (Hydrogen 1)"
 	to offer
 		random < 50
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing" "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	on offer
@@ -4324,10 +4696,10 @@ mission "MGF: Oil Transport (Crude Oil 1)"
 				random < 70
 				has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4354,10 +4726,10 @@ mission "MGF: Oil Transport (Crude Oil 2)"
 		random < 50
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4384,10 +4756,10 @@ mission "MGF: Oil Transport (Crude Oil 3)"
 		random < 60
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4414,10 +4786,10 @@ mission "MGF: Rush Oil Transport (Crude Oil 1)"
 		random < 50
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4443,10 +4815,10 @@ mission "MGF: Oil Transport (Gasoline 1)"
 		random < 50
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil" "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4473,10 +4845,10 @@ mission "MGF: Rush Oil Transport (Gasoline 1)"
 		random < 40
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil" "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4502,10 +4874,10 @@ mission "MGF: Oil Transport (Machine Oil 1)"
 		random < 50
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil" "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4531,10 +4903,10 @@ mission "MGF: Oil Transport (Kerosene 1)"
 		random < 50
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil" "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4561,10 +4933,10 @@ mission "MGF: Rush Oil Transport (Kerosene 1)"
 		random < 40
 		has "outfit (installed): B-type 1k Oil Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil" "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4602,10 +4974,10 @@ mission "MGF: Bitumen Transport (Regular 1)"
 		random < 60
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4634,10 +5006,10 @@ mission "MGF: Bitumen Transport (Regular 2)"
 		random < 40
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4666,10 +5038,10 @@ mission "MGF: Bitumen Transport (Regular 3)"
 		random < 30
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4698,10 +5070,10 @@ mission "MGF: Rush Bitumen Transport (Regular 1)"
 		random < 60
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4730,10 +5102,10 @@ mission "MGF: Bitumen Transport (Urban 1)"
 		random < 70
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4762,10 +5134,10 @@ mission "MGF: Bitumen Transport (Urban 2)"
 		random < 60
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4794,10 +5166,10 @@ mission "MGF: Bitumen Transport (Urban 3)"
 		random < 55
 		has "ship model: LAC-4 Lithalsa"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "oil"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		not attributes station
 		distance 3 20
 	to accept
@@ -4836,10 +5208,10 @@ mission "MGF: Chemical Transport (Sulfuric 1)"
 				random < 80
 				has "outfit (installed): M-type 1k Gas Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4866,10 +5238,10 @@ mission "MGF: Chemical Transport (Sulfuric 2)"
 		random < 40
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4896,10 +5268,10 @@ mission "MGF: Rush Chemical Transport (Sulfuric 1)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4925,10 +5297,10 @@ mission "MGF: Chemical Transport (Phosphoric Acid 1)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4954,10 +5326,10 @@ mission "MGF: Chemical Transport (Methanol 1)"
 		random < 60
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -4983,10 +5355,10 @@ mission "MGF: Chemical Transport (Methanol 2)"
 		random < 40
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5012,10 +5384,10 @@ mission "MGF: Chemical Transport (Methanol 3)"
 		random < 40
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5041,10 +5413,10 @@ mission "MGF: Chemical Transport (Ammonia 1)"
 		random < 80
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5070,10 +5442,10 @@ mission "MGF: Chemical Transport (Ammonia 2)"
 		random < 60
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5099,10 +5471,10 @@ mission "MGF: Chemical Transport (Ammonia 3)"
 		random < 50
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5129,10 +5501,10 @@ mission "MGF: Rush Chemical Transport (Ammonia 1)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5159,10 +5531,10 @@ mission "MGF: Rush Chemical Transport (Ammonia 2)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5188,10 +5560,10 @@ mission "MGF: Chemical Transport (Hydrazine 1)"
 		random < 50
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5217,10 +5589,10 @@ mission "MGF: Chemical Transport (Hydrazine 2)"
 		random < 40
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5246,10 +5618,10 @@ mission "MGF: Chemical Transport (Diborane 1)"
 		random < 40
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5275,10 +5647,10 @@ mission "MGF: Chemical Transport (Chlorine 1)"
 		random < 70
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5304,10 +5676,10 @@ mission "MGF: Chemical Transport (Chlorine 2)"
 		random < 50
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5333,10 +5705,10 @@ mission "MGF: Chemical Transport (Chlorine 3)"
 		random < 50
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5363,10 +5735,10 @@ mission "MGF: Rush Chemical Transport (Chlorine 1)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5393,10 +5765,10 @@ mission "MGF: Rush Chemical Transport (Chlorine 2)"
 		random < 30
 		has "outfit (flagship installed): U-type 1k Chemical Tank"
 	source
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 	destination
-		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "SpaceCrate"
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
 		attributes "factory" "manufacturing"
 		distance 3 20
 	to accept
@@ -5423,10 +5795,10 @@ mission "MGF: Huge Passengers [0]"
 	to offer
 		random < 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 4 30
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -5442,10 +5814,10 @@ mission "MGF: Huge Passengers [1]"
 	to offer
 		random < 10
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
 		distance 4 30
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete

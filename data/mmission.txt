@@ -1049,6 +1049,36 @@ event "MGF: Core Nuclear Transport Upgrade I"
 		
 #=====================Story Mission Addition
 
+mission "MGF: Ankulah Neutrality"
+	landing
+	invisible
+	to offer
+		has "event: Tarazed neutrality"
+	on offer
+		event "mgf: ankulah neutrality"
+		fail
+
+event "mgf: ankulah neutrality"
+	system "Lurata"
+		government "Neutral"
+	planet "Ankulah Ship Breaking Station"
+		government "Neutral"
+
+mission "MGF: Ankulah Join FW"
+	landing
+	invisible
+	to offer
+		has "main plot completed"
+	on offer
+		event "mgf: ankulah fw"
+		fail
+
+event "mgf: ankulah fw"
+	system "Lurata"
+		government "Free Worlds"
+	planet "Ankulah Ship Breaking Station"
+		government "Free Worlds"
+
 mission "MGF Addition: FW Southern Battle 2"
 	invisible
 	source Trinket

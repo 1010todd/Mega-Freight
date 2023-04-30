@@ -1276,6 +1276,23 @@ fleet "MGF: Near Bourne Merchant"
 		"Bastion"
 		"Sparrow" 2
 
+fleet "MGF: Ankulah Scavenger"
+	government "Independent"
+	names "corefood name"
+	cargo 1
+	commodities Metal "Heavy Metal" "Equipment"
+	personality
+		confusion 30
+		timid surveillance coward appeasing
+	variant 40
+		"Scrapper (Ankulah Scout)"
+	variant 30
+		"Scrapper (Ankulah Scout)" 2
+	variant 20
+		"CY-10 (Fighter)"
+	variant 20
+		
+
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
 	names "rangphenn transport"

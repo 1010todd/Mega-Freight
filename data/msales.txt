@@ -521,6 +521,11 @@ shipyard "Advanced Core Pirates"
 	"Aplomado"
 	"Battle Bulk"
 	
+shipyard "Ankulah Basics"
+	"Scrapper (Ankulah)"
+	"CY-10 (Fighter)"
+	"CY-10 (Drone)"
+
 shipyard "Navy Basics"
 	"A-14F Rondel"
 	

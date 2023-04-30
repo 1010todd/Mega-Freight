@@ -158,6 +158,45 @@ planet Follower
 	add shipyard "MarStel Intermediate"
 	add shipyard "MarStel Advanced"
 	
+#======================Ankulah station
+#
+
+system Lurata
+	add fleet "MGF: Ankulah Scavenger" 1800
+	#planets are given names so they can be removed as well as removing it's child(the station)
+	add object "MGF: Fake Lurata e"
+		distance 2068.68
+		period 1774.16
+		object "Ankulah Ship Breaking Station"
+			sprite `planet/mgf ankulah ship breaking yard`
+			distance 270
+			period 12.8784
+
+planet "MGF: Fake Lurata e"
+	attributes "requires: unlandable" "requires: sdfsdgf"
+	description `If you can land here it is a bug.`
+
+planet "Ankulah Ship Breaking Station"
+	government "Republic"
+	attributes "dirt belt" station scrapyard "ship breaking"
+	landscape `land/mgf ankulah landscape`
+	music ambient/machinery
+	description `Initially started its life as refinery station like many others to supply nearby spaceports. As pirates banded to combat the armed Deep caravans more and more wreckages were scattered across the systems, an entrepeneur saw an opportunity for salvaging them. Because these wreckages would be difficult to find the station is equipped with a large telescope to search of them as well as a few telescope satellites in nearby orbit to assist it.`
+	description `	Though most ship could simply park near a wreckage and maybe pick up a few things most cannot fully recover all the materials from the wreck and location of these wrecks could be lost if not kept track of, it was opted to tow them to the station where it can be fully broken down using the station's equipment where scrap metals can be sold to nearby industry such as Tarazed.`
+	description `	After centuries Ankulah have become the leading expert in ship breaking as well as technology to track small objects in the system with their own dediacated survey and tow ships.`
+	spaceport `Ankulah station have a large bay to service their smaller crafts, mostly tugs and other vessels used to assist in their ship breaking operation as well as a few interstellar tug used to town wreckages in from other systems. For larger ships there are several docks mostly along side the ship breaking area for faster transfer of cargo.`
+	spaceport `In addition to salvage operation it's also the final destination for many decommissioned ships as they were sold for scrapping. Though, for some captain this place also became a marketplace for cheap secondhand ships, as depending on their specific condition some ship can be returned to service with minimal repair. Sometimes the station authority even repair and kept some of the ships they found or bought for dealing with pirates.`
+	shipyard "Ankulah Basics"
+	shipyard "Basic Ships"
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
+	outfitter "Ammo South"
+	outfitter "Kraz Basics"
+	tribute 1000
+		threshold 6000
+		fleet "Small Militia" 12
+		fleet "Large Militia" 2
+
 #==========Pioneer Heavy Industries
 #Shipyard focused on specialized cargo ships like tankers.
 

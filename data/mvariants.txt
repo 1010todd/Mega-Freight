@@ -1930,6 +1930,49 @@ ship "SRC-41C Curie" "SRC-41C Curie (Downgraded, Cask 1)"
 		"X1100 Ion Reverse Thruster"
 		"Hyperdrive"
 
+ship "Scrapper" "Scrapper (Ankulah)"
+	add attributes
+		"cost" 15000
+		"shields" 10
+		"hull" 40
+		"mass" 3
+		"cargo space" -5
+		"fuel capacity" 100
+	outfits
+		"Meteor Missile Pod"
+		"Meteor Missile" 7
+		
+		"D14-RN Shield Generator"
+		"KP-6 Photovoltaic Array"
+		"LP036a Battery Pack"
+		
+		"Greyhound Plasma Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+	description `These Scrappers built by the Ankulah crew seems to have better build quality than most you can find. Often these are used as cheap scout to look for potential salvages before sending a larger tugboat to tow it back to the station.`
+
+ship "Scrapper" "Scrapper (Ankulah Scout)"
+	add attributes
+		"cost" 15000
+		"shields" 10
+		"hull" 40
+		"mass" 3
+		"cargo space" -5
+		"fuel capacity" 100
+	outfits
+		"Meteor Missile Pod"
+		"Meteor Missile" 7
+		
+		"Ankulah Surveyor"
+		"D14-RN Shield Generator"
+		"KP-6 Photovoltaic Array"
+		"LP036a Battery Pack"
+		
+		"Greyhound Plasma Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+	description `These Scrappers built by the Ankulah crew seems to have better build quality than most you can find. Often these are used as cheap scout to look for potential salvages before sending a larger tugboat to tow it back to the station.`
+
 #Leviathan custom-modified by NGK, old escort.
 ship "Leviathan" "Leviathan (NGK Escort)"
 	sprite "ship/mgf leviathan ngk"
@@ -2235,6 +2278,126 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort, Weapons)"
 		
 		"A250 Atomic Thruster"
 		"A255 Atomic Steering"
+		"Hyperdrive"
+
+#Minotaur variants
+
+ship "Battle Behemoth" "Battle Behemoth (Minotaurs 1)"
+	add attributes
+		"cost" 100000
+		"shields" 1000
+		"hull" 1000
+		"mass" 100
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Bullfrog Anti-Missile"
+		"Shield Disruptor Turret" 3
+		"Husk-Slice Turret" 4
+		
+		"Large Heat Shunt"
+		"Outfits Expansion" 4
+		"Systems Core (Large)" 2
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Ka'het MHD Generator"
+		"Thermal Repeater Rifle" 31
+		
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		"Scram Drive"
+
+ship "Aplomado" "Aplomado (Minotaurs I)"
+	add attributes
+		"cost" 100000
+		"shields" 500
+		"hull" 200
+		"mass" 50
+	outfits
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Chameleon Anti-Missile" 2
+		"Ka'het Annihilator Turret" 4
+		
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Quantum Keystone"
+		"Small Radar Jammer" 3
+		"Thermal Repeater Rifle" 52
+		
+		`"Bufaer" Atomic Steering`
+		`"Bufaer" Atomic Thuster`
+		"Scram Drive"
+
+ship "Cruiser" "Cruiser (Minotaurs I)"
+	outfits
+		"Korath Detainer" 2
+		"Piercer Missile Launcher" 4
+		"Piercer Missile" 156
+		"Piercer Missile Rack" 2
+		"Warder Anti-Missile"
+		
+		"Large Heat Shunt"
+		"Outfit Expansion" 
+		"Small Radar Jammer"
+		"Systems Core (Large)"
+		"Boulder Reactor" 2
+		"Hai Fissure Batteries"
+		"Fragmentation Grenades" 25
+		"Thermal Repeater Rifle" 83
+		"Nerve Gas" 130
+
+		`"Bondir" Atomic Steering`
+		`"Bondir" Atomic Thuster`
+		"Hyperdrive"
+
+ship "Shield Beetle" "Shield Beetle (Minotaurs I)"
+	outfits
+		"Ion Cannon" 4
+		"Hai Tracker Pod" 4
+		"Hai Tracker" 280
+		"Tracker Storage Pod" 2
+		"Ka'het Annihilator Turret"
+		"Ka'het Raveger Turret"
+		
+		"Boulder Reactor" 2
+		"Hai Fissure Batteries"
+		"Systems Core (Large)"
+		"Large Heat Shunt"
+		"Quantum Keystone"
+		"Thermal Repeater Rifle" 76
+
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Hyperdrive"
+
+ship "Shield Beetle" "Shield Beetle (Minotaurs II)"
+	outfits
+		"Ka'het Annihilator" 4
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Raveger" 4
+		"Ka'het Raveger Turret" 
+		"Warder Anti-Missile"
+		
+		"Boulder Reactor"
+		"Double Plasma Core"
+		"Systems Core (Large)" 2
+		"Large Heat Shunt" 2
+		"Outfits Expansion" 2
+		"Hai Cuttlefish Jammer"
+		"Small Radar Jammer"
+		"Quantum Keystone"
+		"Thermal Repeater Rifle" 76
+		"Nerve Gas" 95
+
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
 		"Hyperdrive"
 
 #Claymore test mission.

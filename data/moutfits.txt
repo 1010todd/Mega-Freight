@@ -2339,6 +2339,22 @@ outfit "Dalmod Basic Bar"
 	"capture defense" 11.8
 	description "Basic bar offering some drinks to your passengers and crew to lighten up the mood after work. Also increase morale when boarding slightly improving attack and defense."
 
+outfit "Ankulah Surveyor"
+	category "Systems"
+	cost 285000
+	thumbnail "outfit/surveillance pod"
+	mass 7
+	"outfit space" -7
+	"asteroid scan power" 37
+	"cargo scan power" 3
+	"cargo scan efficiency" 2
+	"outfit scan power" 10
+	"outfit scan efficiency" 6
+	"atmosphere scan" 10
+	"energy consumption" .01
+	"required crew" 1
+	description `A compact unit of various sensors and scanner used by Ankulah crews to look for and analyze wreckages for potential salvages. `
+
 outfit "Espion Value Detector"
 	category "Systems"
 	cost 285570

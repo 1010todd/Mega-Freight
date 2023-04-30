@@ -279,8 +279,13 @@ government "MGF: Minotaurs"
 		"Pirate" .01
 		"Korath" -.1
 		"MGF: Crossguard Patrol" -.2
-		"MGF: Maryhal Logistic" -.1
-		"MGF: NGK Hauling" -.1
+		"MGF: Maryhal Logistic" -.2
+		"MGF: NGK Hauling" -.2
+		"MGF: NGK Security" -.2
+		"MGF: Luna Winery" -.1
+		"MGF: Solacer Group" -.1
+		"MGF: Core Nuclear Transport" -.1
+		"MGF: Core Food Corp" -.1
 		"MGF: Jack's Gang" -.1
 		"MGF: Espion Mining Co." -.1
 		"MGF: Ugyr's Sanctuary" -5
@@ -321,6 +326,14 @@ government "MGF: Black Death"
 		"Free Worlds" -.1
 		"MGF: Crossguard Patrol" -.2
 		"MGF: Maryhal Logistic" -.01
+		"MGF: NGK Hauling" -.2
+		"MGF: NGK Security" -.2
+		"MGF: Luna Winery" -.1
+		"MGF: Solacer Group" -.1
+		"MGF: Core Nuclear Transport" -.1
+		"MGF: Core Food Corp" -.1
+		"MGF: Jack's Gang" -.1
+		"Syndicate" -.1
 		"Quarg" -.1
 		#Lost in Midnight
 		"Invasive Lifeform" -.01
@@ -348,6 +361,14 @@ government "MGF: Ugyr's Sanctuary"
 		"Free Worlds" -.1
 		"Quarg" -.1
 		"Indigenous Lifeform" -.01
+		"MGF: Maryhal Logistic" -.1
+		"MGF: NGK Hauling" -.2
+		"MGF: NGK Security" -.2
+		"MGF: Luna Winery" -.1
+		"MGF: Solacer Group" -.1
+		"MGF: Core Nuclear Transport" -.1
+		"MGF: Core Food Corp" -.1
+		"MGF: Jack's Gang" -.1
 		#Lost in Midnight
 		"Invasive Lifeform" -.01
 		"Phenomenon (dangerous)" -.01
@@ -380,6 +401,8 @@ government "MGF: Jack's Gang"
 	"attitude toward"
 		"Merchant" 1
 		"Pirate" -.2
+		"MGF: Black Death" -.2
+		"MGF: Minotaurs" -.2
 		"Korath" -.01
 		"Militia" 1.6
 		"Free Worlds" 1.6
