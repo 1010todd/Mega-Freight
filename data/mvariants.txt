@@ -1973,6 +1973,30 @@ ship "Scrapper" "Scrapper (Ankulah Scout)"
 		"Hyperdrive"
 	description `These Scrappers built by the Ankulah crew seems to have better build quality than most you can find. Often these are used as cheap scout to look for potential salvages before sending a larger tugboat to tow it back to the station.`
 
+ship "S-PT06 Harukaze" "S-PT06 Harukaze (Armed)"
+	outfits
+		"Blaster Turret"
+
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+ship "S-PT06 Harukaze" "S-PT06 Harukaze (Quad Blaster)"
+	outfits
+		"Quad Blaster Turret"
+
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
 #Leviathan custom-modified by NGK, old escort.
 ship "Leviathan" "Leviathan (NGK Escort)"
 	sprite "ship/mgf leviathan ngk"

@@ -30,6 +30,13 @@ fleet "Small Southern Merchants"
 	add variant 10
 		"QYG-30r Qazan"
 
+	add variant 6
+		"S-PT06 Harukaze"
+	add variant 2
+		"S-PT06 Harukaze (Armed)"
+	add variant 3
+		"S-PT06 Harukaze (Quad Blaster)"
+
 fleet "Large Southern Merchants"
 	add variant 6
 		"CH-6 Carrack"
@@ -248,6 +255,13 @@ fleet "Small Core Merchants"
 		
 	add variant 10
 		"QYG-30r Qazan"
+
+	add variant 8
+		"S-PT06 Harukaze"
+	add variant 4
+		"S-PT06 Harukaze (Armed)"
+	add variant 4
+		"S-PT06 Harukaze (Quad Blaster)"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -635,6 +649,13 @@ fleet "Paradise Merchants"
 		"SRC-41C Curie"
 		"Headhunter" 2
 		"Corvette"
+
+	add variant 8
+		"S-PT06 Harukaze"
+	add variant 4
+		"S-PT06 Harukaze (Armed)"
+	add variant 4
+		"S-PT06 Harukaze (Quad Blaster)"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -664,6 +685,13 @@ fleet "Small Northern Merchants"
 		
 	add variant 10
 		"QYG-30r Qazan"
+
+	add variant 7
+		"S-PT06 Harukaze"
+	add variant 2
+		"S-PT06 Harukaze (Armed)"
+	add variant 3
+		"S-PT06 Harukaze (Quad Blaster)"
 
 fleet "Large Northern Merchants"
 	add variant 5
@@ -1289,9 +1317,7 @@ fleet "MGF: Ankulah Scavenger"
 	variant 30
 		"Scrapper (Ankulah Scout)" 2
 	variant 20
-		"CY-10 (Fighter)"
-	variant 20
-		
+		"CY-10 (Small Wreckage)"
 
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"

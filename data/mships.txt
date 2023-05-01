@@ -453,6 +453,29 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering supplies for construction of tall buildings or ones in inaccessible area."
 	description `[Carry: 1 Drone]`
 	
+ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
+	gun -14 -75.5
+	gun 14 -75.5
+	gun -14 -75.5
+	gun 14 -75.5
+	turret 0 -25
+	bay "Small Wreckage" 0 14.5
+		"launch effect" "human external"
+		under
+	engine -25 41.5
+		zoom 1
+		angle 0
+		under
+	engine 25 41.5
+		zoom 1
+		angle 0
+		under
+	explode "tiny explosion" 10
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including delivering supplies for construction of tall buildings or ones in inaccessible area."
+	description `[Carry: 1 Small Wreckage]`
+
 ship "Aplomado"
 	sprite "ship/mgf aplomado"
 	thumbnail "thumbnail/mgf aplomado"
@@ -9432,6 +9455,50 @@ ship "E-VC14 Zuiho"
 	explode "huge explosion" 20
 	description `Zuiho is an escort carrier initially modified from the Steward but later models are now purpose-built. It was designed to offer NGK fleets advantage over other fleets that utilize commercially available ship including the pirates with larger hangar bay, improved armour and shielding, as well as larger fuel tank to keep up with the fleet.`
 	
+ship "S-PT06 Harukaze"
+	sprite "ship/mgf harukaze"
+	thumbnail "thumbnail/mgf harukaze thumb"
+	attributes
+		category "Transport"
+		"cost" 520000
+		"shields" 1200
+		"hull" 900
+		"required crew" 1
+		"bunks" 11
+		"mass" 100
+		"drag" 1.5
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 190
+		"weapon capacity" 25
+		"engine capacity" 100
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Anti-Missile Turret"
+
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	turret 0 13.5 
+	engine -22 63 
+		angle 6.8
+	engine 22 63 
+		angle -6.8
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	description "MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle also with improved protection as well as utilizing turret mount instead of fixed guns allowing it to defend itself while maneuvering out of harms way. The interior is also considered to be a bit fancier than most other transport but still not enough to attract wealthy passengers."
+
 ship "CDB-6K Jupiter"
 	sprite "ship/mgf jupiter"
 	thumbnail "thumbnail/mgf jupiter thumb"
@@ -10044,6 +10111,91 @@ ship "SRC-41C Curie"
 	"final explode" "final explosion medium"
 	description `Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sort of radioactive cargo like fresh nuclear fuel, spent nuclear fuel, and radioactive waste. With multiple redundancies for all critical systems from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo is intact. Though the bridge is visible it is reinforced with additional armour it is mainly only used for landing and on-ground operations like unloading the cargo, the ship's primary control room buried deep inside the ship also with another layer of armour around it, not unlike what one would've expected from a warship. With the requirement to keep the cargo cool all the time the ship is also built-in with dedicated cooling system for the cargo hold which is isolated from cooling system for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with their own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
 	description `Another prt of the ship's safety includes crews trained to handle radioactive cargo as well as responding to various forseeable incidents from collision, fire, to pirates boarding, in the most unlikely case that it occurs. In addition to that the ship is also equipped for in-flight repairs allowing the ship to perform rudimentary repair on itself if damaged though there's a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
+
+
+ship "E-FD23 Kanran Wreckage"
+	sprite "ship/mgf wreackage kanran"
+	#thumbnail "thumbnail/mgf zuiho thumb"
+	attributes
+		category "Medium Wreckage"
+		"cost" 800000
+		"shields" 0
+		"hull" 1253
+		"automaton" 1
+		"mass" 1720
+		"drag" 12.3
+		"heat dissipation" .7
+		"fuel capacity" 0
+		"cargo space" 3
+		"outfit space" 780
+		"weapon capacity" 400
+		"engine capacity" 180
+		"shield generation multiplier" .02
+		"hull repair rate" .2
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 5
+		"Proton Turret" 3
+		"Anti-Missile Turret" 2
+		
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+
+ship "LPC-2 Atletha Wreckage"
+	sprite "ship/mgf wreckage atletha"
+	#thumbnail "thumbnail/mgf lavaka thumb"
+	attributes
+		category "Large Wreckage"
+		"cost" 2200000
+		"shields" 0
+		"hull" 4561
+		"automaton" 1
+		"mass" 8220
+		"drag" 16.2
+		"heat dissipation" .5
+		"fuel capacity" 0
+		"cargo space" 20
+		"outfit space" 640
+		"weapon capacity" 180
+		"engine capacity" 150
+		"b-type 1k oil tank" -4
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Blaster Turret" 2
+		"Anti-Missile Turret" 2
+		
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 3
+		
+		"B-type 1k Oil Tank" 4
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description ``
 
 
 ship "AGT-31 Xencar"

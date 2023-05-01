@@ -103,6 +103,7 @@ shipyard developer
 	"TCM-23 Harrier"
 	"TQK-20 Qaytas"
 	"SRC-41C Curie"
+	"S-PT06 Harukaze"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -595,7 +596,7 @@ shipyard "Core Nuclear Transport"
 	"SRC-41C Curie"
 
 shipyard "MJK Heavy Industries Basic"
-	"Shuttle" #Placeholder
+	"S-PT06 Harukaze"
 	
 shipyard "MJK Heavy Industries Advanced"
 	"Leviathan"
