@@ -1219,10 +1219,11 @@ mission "MGF: Recover Small Wreckage (Eltanin)"
 	waypoint "Eltanin"
 	to offer
 		random < 60
-		has "outfit (installed): Quil2 Wreck Towing System"
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil2 Wreck Towing System"
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1251,9 +1252,10 @@ mission "MGF: Recover Medium Wreckage (Eltanin)"
 	waypoint "Eltanin"
 	to offer
 		random < 60
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1282,8 +1284,9 @@ mission "MGF: Recover Large Wreckage (Eltanin)"
 	waypoint "Eltanin"
 	to offer
 		random < 30
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1312,7 +1315,8 @@ mission "MGF: Recover Huge Wreckage (Eltanin)"
 	waypoint "Eltanin"
 	to offer
 		random < 15
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1343,10 +1347,11 @@ mission "MGF: Recover Small Wreckage (Albaldah)"
 	waypoint "Albaldah"
 	to offer
 		random < 50
-		has "outfit (installed): Quil2 Wreck Towing System"
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil2 Wreck Towing System"
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1375,9 +1380,10 @@ mission "MGF: Recover Medium Wreckage (Albaldah)"
 	waypoint "Albaldah"
 	to offer
 		random < 40
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1406,8 +1412,9 @@ mission "MGF: Recover Large Wreckage (Albaldah)"
 	waypoint "Albaldah"
 	to offer
 		random < 30
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1436,7 +1443,8 @@ mission "MGF: Recover Huge Wreckage (Albaldah)"
 	waypoint "Albaldah"
 	to offer
 		random < 15
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1467,10 +1475,11 @@ mission "MGF: Recover Small Wreckage (Dabih)"
 	waypoint "Dabih"
 	to offer
 		random < 60
-		has "outfit (installed): Quil2 Wreck Towing System"
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil2 Wreck Towing System"
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1499,9 +1508,10 @@ mission "MGF: Recover Medium Wreckage (Dabih)"
 	waypoint "Dabih"
 	to offer
 		random < 60
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1530,8 +1540,9 @@ mission "MGF: Recover Large Wreckage (Dabih)"
 	waypoint "Dabih"
 	to offer
 		random < 30
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1560,7 +1571,8 @@ mission "MGF: Recover Huge Wreckage (Dabih)"
 	waypoint "Dabih"
 	to offer
 		random < 15
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1590,11 +1602,12 @@ mission "MGF: Recover Small Wreckage (Tais)"
 	deadline 8
 	waypoint "Tais"
 	to offer
-		random < 60
-		has "outfit (installed): Quil2 Wreck Towing System"
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		random < 50
+		or
+			has "outfit (installed): Quil2 Wreck Towing System"
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1622,10 +1635,11 @@ mission "MGF: Recover Medium Wreckage (Tais)"
 	deadline 8
 	waypoint "Tais"
 	to offer
-		random < 60
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		random < 40
+		or
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1654,8 +1668,9 @@ mission "MGF: Recover Large Wreckage (Tais)"
 	waypoint "Tais"
 	to offer
 		random < 30
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1684,7 +1699,8 @@ mission "MGF: Recover Huge Wreckage (Tais)"
 	waypoint "Tais"
 	to offer
 		random < 15
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1714,11 +1730,12 @@ mission "MGF: Recover Small Wreckage (Sadr)"
 	deadline 8
 	waypoint "Sadr"
 	to offer
-		random < 60
-		has "outfit (installed): Quil2 Wreck Towing System"
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		random < 50
+		or
+			has "outfit (installed): Quil2 Wreck Towing System"
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1746,10 +1763,11 @@ mission "MGF: Recover Medium Wreckage (Sadr)"
 	deadline 8
 	waypoint "Sadr"
 	to offer
-		random < 60
-		has "outfit (installed): Quil3 Wreck Towing System"
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		random < 40
+		or
+			has "outfit (installed): Quil3 Wreck Towing System"
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1778,8 +1796,9 @@ mission "MGF: Recover Large Wreckage (Sadr)"
 	waypoint "Sadr"
 	to offer
 		random < 30
-		has "outfit (installed): Quil4 Wreck Towing System"
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil4 Wreck Towing System"
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
@@ -1808,7 +1827,8 @@ mission "MGF: Recover Huge Wreckage (Sadr)"
 	waypoint "Sadr"
 	to offer
 		random < 10
-		has "outfit (installed): Quil5 Wreck Towing System"
+		or
+			has "outfit (installed): Quil5 Wreck Towing System"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "ship breaking"
