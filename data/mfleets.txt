@@ -1318,6 +1318,8 @@ fleet "MGF: Ankulah Scavenger"
 		"Scrapper (Ankulah Scout)" 2
 	variant 20
 		"CY-10 (Small Wreckage)"
+	variant 5
+		"AKH-8 Mlitgante"
 
 fleet "Rangphenn Transport"
 	government "MGF: Rangphenn Transport"
@@ -1365,7 +1367,7 @@ fleet "Jacks Gang"
 		"AGT-31 Xencar" 4
 		"PF-80 Intrepid (Atomic, Jacks)" 2
 		"Behemoth (Atomic, Jacks)"
-		
+
 fleet "Sulso LG Shipping"
 	government "MGF: Sulso LG Shipping"
 	names "sulso name"
@@ -1503,7 +1505,7 @@ fleet "MJK Defense Fleet"
 	fighters "ngk fighter"
 	cargo 4
 	personality
-		confusion 30
+		confusion 25
 	variant 50
 		"Leviathan (NGK Escort)" 6
 		"AP-7 Sentinel (NGK Escort)" 3
@@ -1518,7 +1520,7 @@ fleet "MJK Advanced Defense Fleet"
 	fighters "ngk fighter"
 	cargo 4
 	personality
-		confusion 30
+		confusion 20
 	variant 50
 		"Leviathan (NGK Escort, Turret Upgrade)" 6
 		"AP-7 Sentinel (NGK Escort)" 3

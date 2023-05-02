@@ -454,6 +454,20 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	description `[Carry: 1 Drone]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
+	add attributes
+		"tow system" -1
+	outfit
+		"Energy Blaster" 4
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Quil2 Wreck Towing System"
+		
+		"Impala Plasma Steering"
+		"Impala Plasma Thruster"
+		"Hyperdrive"
+
 	gun -14 -75.5
 	gun 14 -75.5
 	gun -14 -75.5
@@ -9499,6 +9513,52 @@ ship "S-PT06 Harukaze"
 	explode "small explosion" 5
 	description "MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle also with improved protection as well as utilizing turret mount instead of fixed guns allowing it to defend itself while maneuvering out of harms way. The interior is also considered to be a bit fancier than most other transport but still not enough to attract wealthy passengers."
 
+ship "S-FS06 Reisen"
+	sprite "ship/mgf reisen"
+	thumbnail "thumbnail/mgf reisen thumb"
+	attributes
+		category "Fighter"
+		"cost" 143000
+		"shields" 1200
+		"hull" 200
+		"required crew" 1
+		"bunks" 1
+		"mass" 12
+		"drag" .41
+		"heat dissipation" 1.8
+		"outfit space" 120
+		"weapon capacity" 35
+		"engine capacity" 35
+		"reisen hull lock" -1
+		"active cooling" 10
+		"operating cost" 150
+		"energy generation" .3
+		"cooling" 2
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Reisen Sidehull"
+		"K4-Mn Particle Cannon" 2
+		
+		"Supercapacitor"
+		"S-270 Regenerator"
+		
+		"GS20-Ak Fusion Engine"
+		
+	gun 0.5 -17.5
+	gun -0.5 -17.5
+	turret 0 -11 "Reisen Sidehull"
+		under
+	engine 0 39 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `A very light and agile but heavily armed space superiority and attack fighter developed by MJK Heavy Industries packed with latest and most advanced systems and powerful thrusters, outrunning and outgunning every other fighter in human space. Also thanks to it's slim profile the ship is remarkably more difficult to hit than any other fighters further improving its survivability. The ship also employ the latest S-270 Shield Regenerator and thus have pre-tuned shields to work with this specific shield regenerator.`
+	description `Though due to its extreme speed and maneuverbility it requires the best of pilots and rigourous training to fully utilize its potential.`
+	
+
 ship "CDB-6K Jupiter"
 	sprite "ship/mgf jupiter"
 	thumbnail "thumbnail/mgf jupiter thumb"
@@ -10113,12 +10173,166 @@ ship "SRC-41C Curie"
 	description `Another prt of the ship's safety includes crews trained to handle radioactive cargo as well as responding to various forseeable incidents from collision, fire, to pirates boarding, in the most unlikely case that it occurs. In addition to that the ship is also equipped for in-flight repairs allowing the ship to perform rudimentary repair on itself if damaged though there's a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
 
 
-ship "E-FD23 Kanran Wreckage"
-	sprite "ship/mgf wreackage kanran"
+ship "AKH-8 Mlitgante"
+	sprite "ship/mgf mlitgante"
+	thumbnail "thumbnail/mgf mlitgante thumb"
+	attributes
+		category "Utility"
+		"cost" 9600000
+		"shields" 4200
+		"hull" 2500
+		"required crew" 4
+		"bunks" 12
+		"mass" 310
+		"drag" 5.6
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 380
+		"weapon capacity" 80
+		"engine capacity" 200
+		"tow system" -1
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret"
+		"Blaster Turret"
+		"Heavy Anti-Missile Turret" 1
+		
+		"Fission Reactor"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 7
+		"Quil5 Wreck Towing System"
+		
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Hyperdrive"
+		
+	turret 0 -11.5 
+	turret -25.5 -25.5 
+	turret 25.5 -25.5 
+	engine -50.5 34.5 
+		angle 46.4
+		scale .8
+	engine 50.5 34.5 
+		angle -46.4
+		scale .8
+	engine -34 51 
+		angle 29.6
+	engine 34 51 
+		angle -29.6
+	bay "Small Wreckage" 0 315.5 
+		under
+		"launch effect" "human external"
+	bay "Medium Wreckage" 0 315.5 
+		under
+		"launch effect" "human external"
+	bay "Large Wreckage" 0 315.5 
+		under
+		"launch effect" "human external"
+	bay "Huge Wreckage" 0 315.5 
+		under
+		"launch effect" "human external"
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "This is a compact tow ship developed and used by the crews of Ankulah station to tow in wreckage from around the system and other system nearby. With over half of its mass dedicated to engine area it can be packed with very powerful engines and pull even the largest wreckages around and do so economically."
+
+ship "BTT06 Shuttle Wreckage"
+	sprite "ship/pirate scrapper" #placeholder
+	thumbnail "thumbnail/pirate scrapper"
+	swizzle 0
+	attributes
+		category "Small Wreckage"
+		"cost" 180000
+		"hull" 350
+		"automaton" 1
+		"mass" 55
+		"drag" 1.2
+		"heat dissipation" .8
+		"fuel capacity" 0
+		"cargo space" 12
+		"outfit space" 120
+		"weapon capacity" 10
+		"engine capacity" 60
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	engine -6 30
+	engine 6 30
+	gun 0 -31
+
+
+ship "BTT34 Ziz Wreckage"
+	sprite "ship/mgf wreckage ziz"
 	#thumbnail "thumbnail/mgf zuiho thumb"
+	swizzle 0
 	attributes
 		category "Medium Wreckage"
-		"cost" 800000
+		"cost" 320000
+		"shields" 0
+		"hull" 856
+		"automaton" 1
+		"mass" 348
+		"drag" 6.2
+		"heat dissipation" .6
+		"fuel capacity" 0
+		"cargo space" 12
+		"outfit space" 340
+		"weapon capacity" 100
+		"engine capacity" 80
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 8
+		
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"X3200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Hyperdrive"
+
+	gun -21.5 -63 
+	gun 21.5 -63 
+	turret -25.5 20.5 
+	turret 25.5 20.5 
+	turret 0 12 
+	engine -23.5 72.5 
+	engine 23.5 72.5 
+	explode "smoke" 20
+
+
+ship "E-FD23 Kanran Wreckage"
+	sprite "ship/mgf wreckage kanran"
+	#thumbnail "thumbnail/mgf zuiho thumb"
+	swizzle 0
+	attributes
+		category "Large Wreckage"
+		"cost" 700000
 		"shields" 0
 		"hull" 1253
 		"automaton" 1
@@ -10130,8 +10344,6 @@ ship "E-FD23 Kanran Wreckage"
 		"outfit space" 780
 		"weapon capacity" 400
 		"engine capacity" 180
-		"shield generation multiplier" .02
-		"hull repair rate" .2
 		weapon
 			"blast radius" 140
 			"shield damage" 1200
@@ -10150,11 +10362,27 @@ ship "E-FD23 Kanran Wreckage"
 		"X4700 Ion Thruster"
 		"Scram Drive"
 
+	gun 9 -120 
+	gun -9 -120 
+	gun 11.5 -125 
+	gun -11.5 -125 
+	turret 0 -74 
+	turret 0 -51.5 
+	turret 0 76 
+	turret -7 -26 
+	turret 7 -26 
+	engine -33.5 140.5 
+	engine 33.5 140.5 
+	engine 0 159 
+	explode "smoke" 20
+
+
 ship "LPC-2 Atletha Wreckage"
 	sprite "ship/mgf wreckage atletha"
 	#thumbnail "thumbnail/mgf lavaka thumb"
+	swizzle 0
 	attributes
-		category "Large Wreckage"
+		category "Huge Wreckage"
 		"cost" 2200000
 		"shields" 0
 		"hull" 4561
@@ -10187,13 +10415,14 @@ ship "LPC-2 Atletha Wreckage"
 		"X5700 Ion Thruster"
 		"X5200 Ion Steering"
 		
-	leak "leak" 40 50
-	leak "flame" 30 80
-	leak "big leak" 50 30
-	explode "small explosion" 15
-	explode "medium explosion" 25
-	explode "large explosion" 35
-	explode "huge explosion" 20
+	turret -32.5 -157 
+	turret 32.5 -157 
+	turret -33.5 136 
+	turret 33.5 136 
+	engine -32.5 236.5 
+	engine 32.5 236.5 
+	engine 0 261.5 
+	explode "smoke" 20
 	"final explode" "final explosion large"
 	description ``
 

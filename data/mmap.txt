@@ -187,6 +187,7 @@ planet "Ankulah Ship Breaking Station"
 	spaceport `Ankulah station have a large bay to service their smaller crafts, mostly tugs and other vessels used to assist in their ship breaking operation as well as a few interstellar tug used to town wreckages in from other systems. For larger ships there are several docks mostly along side the ship breaking area for faster transfer of cargo.`
 	spaceport `In addition to salvage operation it's also the final destination for many decommissioned ships as they were sold for scrapping. Though, for some captain this place also became a marketplace for cheap secondhand ships, as depending on their specific condition some ship can be returned to service with minimal repair. Sometimes the station authority even repair and kept some of the ships they found or bought for dealing with pirates.`
 	shipyard "Ankulah Basics"
+	shipyard "Ankulah Advanced"
 	shipyard "Basic Ships"
 	outfitter "Common Outfits"
 	outfitter "Basic Outfits"

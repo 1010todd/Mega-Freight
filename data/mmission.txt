@@ -583,6 +583,83 @@ event "mgf: Lucerne MkII deployment"
 			"Cruiser (Mark II)" 6
 			"Combat Drone" 24
 			
+mission `MGF: Reisen Development Trigger`
+	invisible
+	landing
+	to offer
+		has "main plot completed"
+	on offer
+		event "mgf: experimental reisen deployed" 1800
+		event "mgf: early reisen deployed" 2520 #~7 years
+	on accept
+		fail
+
+event "mgf: experimental reisen deployed"
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"Xencar (NGK)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"Xencar (NGK)" 40
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"Xencar (NGK)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen" 40
+
+event "mgf: early reisen deployed"
+	shipyard "MJK Heavy Industries Advanced Exclusive"
+		"S-FS06 Reisen"
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"Xencar (NGK)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen" 40
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"S-FS06 Reisen" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen" 40
+
+	fleet "MJK Defense Fleet"
+		add variant 50
+			"Leviathan (NGK Escort)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho" 4
+			"Xencar (NGK)" 40
+			"L-VC28 Zuikaku" 2
+			"S-FS06 Reisen" 40
+
+	fleet "NGK Hauling RORO"
+		remove variant 50 #phasing out Steward for Zuiho.
+			"LVC-2 Sandura"
+			"AP-7 Sentinel (NGK Escort)"
+			"Steward (NGK Long Range)"
+			"Xencar (NGK)" 6
+		
+		add variant 10
+			"LVC-2 Sandura (NGK, Turret Upgrade)" 
+			"Leviathan (NGK Escort)"
+			"E-VC14 Zuiho"
+			"S-FS06 Reisen" 10
+
+	fleet "NGK Hauling HeavyFreight"
+		add variant 10 #Because of the price Reisen still see very limited deployment early on.
+			"FG-5 Bluewhale-A (NGK, Turret Upgrade)" 3
+			"CDB-6K Jupiter (NGK, Partial Turret Upgrade)" 2
+			"Leviathan (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"S-FS06 Reisen" 20
+
 mission "MGF: Espion co. job ad"
 	job
 	name "Asteroid Miner Wanted"

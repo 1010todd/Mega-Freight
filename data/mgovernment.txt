@@ -456,7 +456,7 @@ government "MGF: NPC Target"
 	
 government "MGF: Wreckage"
 	"display name" "Wreckage"
-	swizzle 5
+	swizzle 0
 	color .51 .52 .59
 	"player reputation" 1
 	"penalty for"

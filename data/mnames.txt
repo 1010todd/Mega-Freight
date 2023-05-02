@@ -332,7 +332,7 @@ phrase "ngk name"
 
 phrase "ngk warship name"
 	word
-		"NGKF "
+		"NGF "
 	phrase
 		"mgf japanese standalone name" 3
 		"japanese standalone"

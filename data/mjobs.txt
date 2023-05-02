@@ -1159,6 +1159,672 @@ mission "MGF: MHL Scout Route (Tarazed Route)"
 		
 #================================Ankulah
 
+phrase "mgf: arrived-without-wreckage dialog"
+	word
+		`You have reached <planet>, but you left the <npc> behind! Better depart and go pick it up then return here.`
+
+phrase "mgf: wreckage recovery complete"
+	word
+		`You contact the traffic control as you approach the <planet> then detach the wreckage at the assigned orbit near the station before heading to land. Once landed one of the station crew walks up to you and handed you <payment>.`
+
+phrase "mgf: wreckage assisted"
+	word
+		`You boarded the wreckage and after a quick scan to analyze the cargo and spot for weak points the crew then begins to perform rudimentary reinforcement where's necessary and prepare for it to dock.`
+
+#For wreckage recoveryy jobs only
+fleet "MGF: Wreckage Recovery Small"
+	government "Escort"
+	names "civilian subphrase 2"
+	cargo 0
+	personality
+		derelict mute escort
+	variant 10
+		"BTT06 Shuttle Wreckage"
+
+fleet "MGF: Wreckage Recovery Medium"
+	government "Escort"
+	names "civilian subphrase 2"
+	cargo 0
+	personality
+		derelict mute escort
+	variant 10
+		"BTT34 Ziz Wreckage"
+
+fleet "MGF: Wreckage Recovery Large"
+	government "Escort"
+	names "civilian subphrase 2"
+	cargo 0
+	personality
+		derelict mute escort
+	variant 10
+		"E-FD23 Kanran Wreckage"
+
+fleet "MGF: Wreckage Recovery Huge"
+	government "Escort"
+	names "civilian subphrase 2"
+	cargo 0
+	personality
+		derelict mute escort
+	variant 10
+		"LPC-2 Atletha Wreckage"
+
+mission "MGF: Recover Small Wreckage (Eltanin)"
+	name "Recover Wreckage"
+	description "A small wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Eltanin"
+	repeat
+	job
+	deadline 8
+	waypoint "Eltanin"
+	to offer
+		random < 60
+		has "outfit (installed): Quil2 Wreck Towing System"
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Eltanin
+		fleet "MGF: Wreckage Recovery Small"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 10000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Medium Wreckage (Eltanin)"
+	name "Recover Wreckage"
+	description "A medium-sized wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Eltanin"
+	repeat
+	job
+	deadline 8
+	waypoint "Eltanin"
+	to offer
+		random < 60
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Eltanin
+		fleet "MGF: Wreckage Recovery Medium"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 30000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Large Wreckage (Eltanin)"
+	name "Recover Wreckage"
+	description "A large wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Eltanin"
+	repeat
+	job
+	deadline 8
+	waypoint "Eltanin"
+	to offer
+		random < 30
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Eltanin
+		fleet "MGF: Wreckage Recovery Large"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 50000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Huge Wreckage (Eltanin)"
+	name "Recover Wreckage"
+	description "A huge wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Eltanin"
+	repeat
+	job
+	deadline 8
+	waypoint "Eltanin"
+	to offer
+		random < 15
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Eltanin
+		fleet "MGF: Wreckage Recovery Huge"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 100000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+#===========
+
+mission "MGF: Recover Small Wreckage (Albaldah)"
+	name "Recover Wreckage"
+	description "A small wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Albaldah"
+	repeat
+	job
+	deadline 8
+	waypoint "Albaldah"
+	to offer
+		random < 50
+		has "outfit (installed): Quil2 Wreck Towing System"
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Albaldah
+		fleet "MGF: Wreckage Recovery Small"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 10000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Medium Wreckage (Albaldah)"
+	name "Recover Wreckage"
+	description "A medium-sized wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Albaldah"
+	repeat
+	job
+	deadline 8
+	waypoint "Albaldah"
+	to offer
+		random < 40
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Albaldah
+		fleet "MGF: Wreckage Recovery Medium"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 30000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Large Wreckage (Albaldah)"
+	name "Recover Wreckage"
+	description "A large wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Albaldah"
+	repeat
+	job
+	deadline 8
+	waypoint "Albaldah"
+	to offer
+		random < 30
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Albaldah
+		fleet "MGF: Wreckage Recovery Large"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 50000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Huge Wreckage (Albaldah)"
+	name "Recover Wreckage"
+	description "A huge wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Albaldah"
+	repeat
+	job
+	deadline 8
+	waypoint "Albaldah"
+	to offer
+		random < 15
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Albaldah
+		fleet "MGF: Wreckage Recovery Huge"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 100000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+#===========
+
+mission "MGF: Recover Small Wreckage (Dabih)"
+	name "Recover Wreckage"
+	description "A small wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Dabih"
+	repeat
+	job
+	deadline 8
+	waypoint "Dabih"
+	to offer
+		random < 60
+		has "outfit (installed): Quil2 Wreck Towing System"
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Dabih
+		fleet "MGF: Wreckage Recovery Small"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 10000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Medium Wreckage (Dabih)"
+	name "Recover Wreckage"
+	description "A medium-sized wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Dabih"
+	repeat
+	job
+	deadline 8
+	waypoint "Dabih"
+	to offer
+		random < 60
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Dabih
+		fleet "MGF: Wreckage Recovery Medium"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 30000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Large Wreckage (Dabih)"
+	name "Recover Wreckage"
+	description "A large wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Dabih"
+	repeat
+	job
+	deadline 8
+	waypoint "Dabih"
+	to offer
+		random < 30
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Dabih
+		fleet "MGF: Wreckage Recovery Large"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 50000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Huge Wreckage (Dabih)"
+	name "Recover Wreckage"
+	description "A huge wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Dabih"
+	repeat
+	job
+	deadline 8
+	waypoint "Dabih"
+	to offer
+		random < 15
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Dabih
+		fleet "MGF: Wreckage Recovery Huge"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 100000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+#===========
+
+mission "MGF: Recover Small Wreckage (Tais)"
+	name "Recover Wreckage"
+	description "A small wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Tais"
+	repeat
+	job
+	deadline 8
+	waypoint "Tais"
+	to offer
+		random < 60
+		has "outfit (installed): Quil2 Wreck Towing System"
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Tais
+		fleet "MGF: Wreckage Recovery Small"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 10000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Medium Wreckage (Tais)"
+	name "Recover Wreckage"
+	description "A medium-sized wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Tais"
+	repeat
+	job
+	deadline 8
+	waypoint "Tais"
+	to offer
+		random < 60
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Tais
+		fleet "MGF: Wreckage Recovery Medium"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 30000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Large Wreckage (Tais)"
+	name "Recover Wreckage"
+	description "A large wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Tais"
+	repeat
+	job
+	deadline 8
+	waypoint "Tais"
+	to offer
+		random < 30
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Tais
+		fleet "MGF: Wreckage Recovery Large"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 50000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Huge Wreckage (Tais)"
+	name "Recover Wreckage"
+	description "A huge wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Tais"
+	repeat
+	job
+	deadline 8
+	waypoint "Tais"
+	to offer
+		random < 15
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Tais
+		fleet "MGF: Wreckage Recovery Huge"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 100000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+#===========
+
+mission "MGF: Recover Small Wreckage (Sadr)"
+	name "Recover Wreckage"
+	description "A small wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Sadr"
+	repeat
+	job
+	deadline 8
+	waypoint "Sadr"
+	to offer
+		random < 60
+		has "outfit (installed): Quil2 Wreck Towing System"
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Sadr
+		fleet "MGF: Wreckage Recovery Small"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 10000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Medium Wreckage (Sadr)"
+	name "Recover Wreckage"
+	description "A medium-sized wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Sadr"
+	repeat
+	job
+	deadline 8
+	waypoint "Sadr"
+	to offer
+		random < 60
+		has "outfit (installed): Quil3 Wreck Towing System"
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Sadr
+		fleet "MGF: Wreckage Recovery Medium"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 30000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Large Wreckage (Sadr)"
+	name "Recover Wreckage"
+	description "A large wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Sadr"
+	repeat
+	job
+	deadline 8
+	waypoint "Sadr"
+	to offer
+		random < 30
+		has "outfit (installed): Quil4 Wreck Towing System"
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Sadr
+		fleet "MGF: Wreckage Recovery Large"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 50000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
+
+mission "MGF: Recover Huge Wreckage (Sadr)"
+	name "Recover Wreckage"
+	description "A huge wreckage labelled as <npc> have been discovered in <system2>, travel to that system, board and recover the wreckage then return to <origin> by <date> for <payment>."
+	substitutions
+		"<system2>" "Sadr"
+	repeat
+	job
+	deadline 8
+	waypoint "Sadr"
+	to offer
+		random < 10
+		has "outfit (installed): Quil5 Wreck Towing System"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "ship breaking"
+
+	npc assist accompany save
+		government "Escort"
+		personality staying derelict escort
+		system Sadr
+		fleet "MGF: Wreckage Recovery Huge"
+		dialog phrase "mgf: wreckage assisted"
+
+	on complete
+		payment 100000
+		dialog phrase "mgf: wreckage recovery complete"
+	on visit
+		dialog phrase "mgf: arrived-without-wreckage dialog"
 
 mission "MGF: Scrap Metal [0]"
 	name "Scrap metal to <planet>"

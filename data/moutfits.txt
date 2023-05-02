@@ -494,6 +494,85 @@ outfit "K3-K-S Particle Turret"
 		"hull damage" 57
 	description `Single gun version of MJK Heavy Industries particle turret to be used by NGK Hauling ships for improved firepower and range over the commonly used proton turrets.`
 		
+outfit "K4-Mn Particle Cannon"
+	category "Guns"
+	cost 220000
+	thumbnail "outfit/mgf k3k particle cannon"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/k3k particle beam"
+			"scale" .6
+		sound "k3k particle"
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .9
+		"velocity" 30
+		"lifetime" 20
+		"reload" 20
+		"firing energy" 32
+		"firing force" 24
+		"firing heat" 65
+		"hit force" 30
+		"shield damage" 32
+		"hull damage" 29
+	description `Improved and miniturized particle cannon developed specifically for the Reisen fighter. Powerful for the size as well as being very energy hungry.`
+
+outfit "Reisen Sidehull"
+	category "Turrets"
+	cost 142000
+	thumbnail "outfit/mgf reisen sidehull outfit"
+	"mass" 12
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	"reisen hull lock" 1
+	"reinstallation lock" -1
+	"turn" 558.6
+	"turning energy" .7
+	"turning heat" 2.3
+	"reverse thrust" 24
+	"reverse thrusting energy" 1.1
+	"reverse thrusting heat" 2.3
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"reverse flare sound" "atomic tiny"
+	"energy capacity" 300
+	weapon
+		sound "mod blaster"
+		"hardpoint sprite" "hardpoint/mgf reisen turret"
+		"hardpoint offset" 5.
+		"hit effect" "blaster impact" 2
+		"inaccuracy" .1
+		"turret turn" 8
+		"submunition" "Reisen Blaster Beam" 2
+			offset 6 0
+		"submunition" "Reisen Blaster Beam" 2
+			offset -6 0
+		velocity 1
+		"velocity override" 15
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 90
+		"firing force" 3
+		"firing heat" 55
+	description `Sidehull of the MJK Reisen houses 4 blasters of unspecified type and the auxiliary thruster contributing to 2/3rd of the ship's steering and reverse thrust capability. Though, the ability to thrust laterally is suspciously missing despite the degree of freedom that definitely allow that capability.`
+
+outfit "Reisen Blaster Beam"
+	weapon
+		sprite "projectile/blaster"
+			scale .8
+		"hit effect" "blaster impact"
+		"velocity" 17
+		"inaccuracy" .5
+		"lifetime" 28
+		"random lifetime" 5
+		"random velocity" 5
+		"hit force" 1
+		"shield damage" 12
+		"hull damage" 5
+
 outfit "M6-ACS Artillery"
 	category "Guns"
 	cost 2100000
@@ -1897,7 +1976,30 @@ outfit "Ta-class Energy Module"
 	"cooling inefficiency" .5
 	"AT-type slot" -1
 	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvesting additional energy at cost of more heat management problems.`
-	
+
+outfit "GS20-Ak Fusion Engine"
+	category "Engines"
+	"cost" 480000
+	thumbnail "outfit/tiny atomic thruster"
+	"mass" 47
+	"outfit space" -71
+	"engine capacity" -35
+	"energy generation" 5.4
+	"heat generation" 16
+	"thrust" 24.5
+	"thrusting energy" 1.1
+	"thrusting heat" 2.8
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 18
+	"flare sound" "atomic tiny"
+	"turn" 188.6
+	"turning energy" .6
+	"turning heat" 2.3
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 16
+	"steering flare sound" "atomic small"
+	description "Inspired by the Deep Atomics these fusion engines were developed in secret before making a debut miniturized and inegrated with the reactor to fit on the Reisen."
+
 outfit "NGK R11 Rifle"
 	category "Hand to Hand"
 	cost 10000
@@ -2354,6 +2456,46 @@ outfit "Ankulah Surveyor"
 	"energy consumption" .01
 	"required crew" 1
 	description `A compact unit of various sensors and scanner used by Ankulah crews to look for and analyze wreckages for potential salvages. `
+
+outfit "Quil2 Wreck Towing System"
+	category "Systems"
+	thumbnail "outfit/surveillance pod"
+	"tow system" 1
+	"reinstallable" -1
+	"cargo scan power" 2
+	"cargo scan efficiency" 2
+	description `Gears, systems, and controls for attaching and towing wreckages(or other ships) including scanners for quick assestment and anaysis of the wreck for potential weak points as well as some dangerous materials like unshielded radiation source and certain chemicals for some safety of the recovery crews. Developed and used by Ankulah station crews.`
+	description `This system is rated for small ships.`
+
+outfit "Quil3 Wreck Towing System"
+	category "Systems"
+	thumbnail "outfit/surveillance pod"
+	"tow system" 1
+	"reinstallable" -1
+	"cargo scan power" 3
+	"cargo scan efficiency" 2
+	description `Gears, systems, and controls for attaching and towing wreckages(or other ships) including scanners for quick assestment and anaysis of the wreck for potential weak points as well as some dangerous materials like unshielded radiation source and certain chemicals for some safety of the recovery crews. Developed and used by Ankulah station crews.`
+	description `This system is rated for medium-sized ships.`
+
+outfit "Quil4 Wreck Towing System"
+	category "Systems"
+	thumbnail "outfit/surveillance pod"
+	"tow system" 1
+	"reinstallable" -1
+	"cargo scan power" 4
+	"cargo scan efficiency" 2
+	description `Gears, systems, and controls for attaching and towing wreckages(or other ships) including scanners for quick assestment and anaysis of the wreck for potential weak points as well as some dangerous materials like unshielded radiation source and certain chemicals for some safety of the recovery crews. Developed and used by Ankulah station crews.`
+	description `This system is rated for large ships.`
+
+outfit "Quil5 Wreck Towing System"
+	category "Systems"
+	thumbnail "outfit/surveillance pod"
+	"tow system" 1
+	"reinstallable" -1
+	"cargo scan power" 5
+	"cargo scan efficiency" 3
+	description `Gears, systems, and controls for attaching and towing wreckages(or other ships) including scanners for quick assestment and anaysis of the wreck for potential weak points as well as some dangerous materials like unshielded radiation source and certain chemicals for some safety of the recovery crews. Developed and used by Ankulah station crews.`
+	description `This system is rated for the largest ship you could possibly find.`
 
 outfit "Espion Value Detector"
 	category "Systems"
