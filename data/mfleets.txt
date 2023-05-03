@@ -226,6 +226,15 @@ fleet "Large Southern Merchants"
 		"FUe06a Gebrant III"
 		"Falcon"
 		"Hawk" 2
+
+	add variant 5
+		`DSSN-S90 Lynchyoseu`
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"Splinter"
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"QYG-30r Qazan"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -549,6 +558,15 @@ fleet "Large Core Merchants"
 	add variant 5
 		"FUe06a Gebrant III"
 		"Vanguard"
+
+	add variant 5
+		`DSSN-S90 Lynchyoseu`
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"Splinter"
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"QYG-30r Qazan"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -656,6 +674,15 @@ fleet "Paradise Merchants"
 		"S-PT06 Harukaze (Armed)"
 	add variant 4
 		"S-PT06 Harukaze (Quad Blaster)"
+
+	add variant 5
+		`DSSN-S90 Lynchyoseu`
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"Splinter"
+	add variant 3
+		`DSSN-S90 Lynchyoseu`
+		"QYG-30r Qazan"
 		
 fleet "Small Northern Merchants"
 	add variant 10

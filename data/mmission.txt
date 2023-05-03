@@ -888,6 +888,7 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 
 # A job to be more interactive and make player more aware of which planet they can earn money at instead of invisible payment that player may or may not notice or annoying pop ups on every other planet they land.
 #TODO: More sophisticated system, allowing player to select some option like techniques they'll use and possibly area. With consequence, e.g. if player used the skimming maneuver too often on a planet that planet might restrict player from doing it or demand fees. Also maybe gain experience which can lead to better pay.
+#Todo make multiple ships stack abit
 mission "MGF: Trawler Fishing"
 	job
 	name "Go Fishing"

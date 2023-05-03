@@ -391,6 +391,7 @@ shipyard "Syndicate Advanced"
 	"QYG-30r Qazan"
 	"CDB-6K Jupiter"
 	"CDB-12K Saturn"
+	`DSSN-S90 Lynchyoseu`
 	
 shipyard "Megaparsec Basic"
 	"QYG-30 Qazan"
