@@ -109,6 +109,7 @@ shipyard developer
 	"BTT34 Ziz Wreckage"
 	"E-FD23 Kanran Wreckage"
 	"LPC-2 Atletha Wreckage"
+	`DSSN-S90 Lynchyoseu`
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -604,6 +605,9 @@ shipyard "Core Food Corp Custom"
 # Note: while in-lore Syndicate seems to be very lose about nuclear safety this could also be a PR-thing to pretend they care about it and keep people happy enough about it.
 shipyard "Core Nuclear Transport"
 	"SRC-41C Curie"
+
+shipyard "DSSE Shipbuilding Advanced"
+	`DSSN-S90 Lynchyoseu`
 
 shipyard "MJK Heavy Industries Basic"
 	"S-PT06 Harukaze"

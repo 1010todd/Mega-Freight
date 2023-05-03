@@ -583,6 +583,8 @@ event "mgf: Lucerne MkII deployment"
 			"Cruiser (Mark II)" 6
 			"Combat Drone" 24
 			
+#===========================NGK
+
 mission `MGF: Reisen Development Trigger`
 	invisible
 	landing
@@ -659,6 +661,8 @@ event "mgf: early reisen deployed"
 			"Leviathan (NGK Escort)"
 			"L-VC28 Zuikaku"
 			"S-FS06 Reisen" 20
+
+#=============================ESPION
 
 mission "MGF: Espion co. job ad"
 	job
@@ -881,6 +885,57 @@ mission "MGF: Syndi Platinum License Cancel (afr 1yr)"
 		clear "MGF: Syndi Platinum License Upkeep: offered"
 		clear "license: Syndicate Platinum"
 		fail
+
+# A job to be more interactive and make player more aware of which planet they can earn money at instead of invisible payment that player may or may not notice or annoying pop ups on every other planet they land.
+#TODO: More sophisticated system, allowing player to select some option like techniques they'll use and possibly area. With consequence, e.g. if player used the skimming maneuver too often on a planet that planet might restrict player from doing it or demand fees. Also maybe gain experience which can lead to better pay.
+mission "MGF: Trawler Fishing"
+	job
+	name "Go Fishing"
+	description `Go fishing on this planet with your trawler ship. You estimated you can make at very least 62,400 credits from selling the fish.`
+	deadline 1
+	source
+		attributes `fishing`
+	to offer	
+		has "outfit (installed): FV-8 Trawler System"
+	on accept
+		"mgf: fishing experience" += 1
+		conversation
+			`You liftoff and fly your ship to the ocean of the <origin> and land your ship at some common fishing area and begin using fishfinder sonar to scan for large group of fish.`
+			branch high
+				# 30+(experience/20)+planet bonus
+				# planet bonus is higher on world with plentiful supply or less developed/less over-fished worlds, world with mention industrialization or large fishing business will have multiplier.
+				random < 30 + ( "mgf: fishing experience" / 20 ) + ( "flagship planet: Deep" * 10 ) + ( "flagship planet: Greenwater" * 3 ) + ( "flagship planet: Nimbus" * 10 ) + ( "flagship planet: Poseidos" * 15 ) + ( "flagship planet: Vara Ke'sok" * 7 ) + ( "flagship planet: Amazon" * 5 ) + ( "flagship planet: Deadman's Cove" * 6 )
+
+			branch mid
+				random < 50 + ( "mgf: fishing experience" / 20 ) + ( "flagship planet: Deep" * 10 ) + ( "flagship planet: Greenwater" * 3 ) + ( "flagship planet: Nimbus" * 10 ) + ( "flagship planet: Poseidos" * 15 ) + ( "flagship planet: Vara Ke'sok" * 7 ) + ( "flagship planet: Amazon" * 5 ) + ( "flagship planet: Deadman's Cove" * 6 )
+
+			`	Finding one of decent size you set your ship's course toward it and deploy the trawling net. Fishes caught were then sorted and processed as you sail to a nearby port.`
+			action
+				#65% of max food commodity price * cargo of current and only trawler.
+				payment 62400
+			``
+				goto end
+
+			label high
+			`	You found a rather large group so you set your ship's course toward it and deploy the trawling net. Fishes caught were then sorted and processed as you sail to a nearby port.`
+			action
+				payment 124800
+			``
+				goto end
+
+			label mid
+			`	Finding one of good size you set your ship's course toward it and deploy the trawling net. Fishes caught were then sorted and processed as you sail to a nearby port.`
+			action
+				payment 93600
+			``
+				goto end
+
+			label end
+			`Arriving at the port you made <payment> from selling your cargo.`
+				decline
+	
+
+#==================Ship releases and fleet upgrades
 		
 mission "MGF: Mieusbar Release Announcement"
 	landing

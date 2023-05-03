@@ -2966,6 +2966,7 @@ mission "MGF: Juice Distribution [0]"
 					has "flagship attribute: refrigerated space"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
+					has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
@@ -2997,6 +2998,7 @@ mission "MGF: Juice Distribution [1]"
 					has "flagship attribute: refrigerated space"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
+					has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
@@ -3028,6 +3030,7 @@ mission "MGF: Juice Distribution [2]"
 					has "flagship attribute: refrigerated space"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
+					has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
@@ -3059,6 +3062,7 @@ mission "MGF: Juice Distribution [3]"
 					has "flagship attribute: refrigerated space"
 					has "ship model: QYG-30r Qazan"
 					has "ship model: QYG-70r Tonazqi"
+					has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes urban
@@ -4083,6 +4087,8 @@ mission "MGF: Small Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4094,6 +4100,7 @@ mission "MGF: Small Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4102,6 +4109,7 @@ mission "MGF: Small Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 18000 250
@@ -4119,6 +4127,7 @@ mission "MGF: Small Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4130,6 +4139,7 @@ mission "MGF: Small Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4138,6 +4148,7 @@ mission "MGF: Small Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 18000 250
@@ -4155,6 +4166,7 @@ mission "MGF: Small Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		#offered anywhere.
@@ -4166,6 +4178,7 @@ mission "MGF: Small Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4174,6 +4187,7 @@ mission "MGF: Small Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 18000 255
@@ -4191,6 +4205,7 @@ mission "MGF: Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4202,6 +4217,7 @@ mission "MGF: Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4210,6 +4226,7 @@ mission "MGF: Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 25000 200
@@ -4227,6 +4244,7 @@ mission "MGF: Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4238,6 +4256,7 @@ mission "MGF: Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4246,6 +4265,7 @@ mission "MGF: Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 28000 200
@@ -4263,6 +4283,7 @@ mission "MGF: Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -4273,6 +4294,7 @@ mission "MGF: Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4281,6 +4303,7 @@ mission "MGF: Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 28000 200
@@ -4298,6 +4321,7 @@ mission "MGF: Large Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4309,6 +4333,7 @@ mission "MGF: Large Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4317,6 +4342,7 @@ mission "MGF: Large Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 42000 190
@@ -4334,6 +4360,7 @@ mission "MGF: Large Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4345,6 +4372,7 @@ mission "MGF: Large Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4353,6 +4381,7 @@ mission "MGF: Large Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 42000 190
@@ -4370,6 +4399,7 @@ mission "MGF: Large Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -4380,6 +4410,7 @@ mission "MGF: Large Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4388,6 +4419,7 @@ mission "MGF: Large Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 42000 190
@@ -4405,6 +4437,7 @@ mission "MGF: Bulk Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4416,6 +4449,7 @@ mission "MGF: Bulk Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4424,6 +4458,7 @@ mission "MGF: Bulk Refrigerated Transport 1"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 68000 180
@@ -4441,6 +4476,7 @@ mission "MGF: Bulk Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4452,6 +4488,7 @@ mission "MGF: Bulk Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4460,6 +4497,7 @@ mission "MGF: Bulk Refrigerated Transport 2"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 68000 180
@@ -4477,6 +4515,7 @@ mission "MGF: Bulk Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4488,6 +4527,7 @@ mission "MGF: Bulk Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4496,6 +4536,7 @@ mission "MGF: Bulk Refrigerated Transport 3"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 68000 180
@@ -4513,6 +4554,7 @@ mission "MGF: Bulk Refrigerated Transport 4"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming"
@@ -4524,6 +4566,7 @@ mission "MGF: Bulk Refrigerated Transport 4"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough refrigerated space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4532,6 +4575,7 @@ mission "MGF: Bulk Refrigerated Transport 4"
 			has "flagship attribute: refrigerated space"
 			has "ship model: QYG-30r Qazan"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 68000 180
@@ -4550,6 +4594,7 @@ mission "MGF: Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4560,6 +4605,7 @@ mission "MGF: Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4567,6 +4613,7 @@ mission "MGF: Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 28000 220
@@ -4583,6 +4630,7 @@ mission "MGF: Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4593,6 +4641,7 @@ mission "MGF: Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4600,6 +4649,7 @@ mission "MGF: Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 28000 220
@@ -4616,6 +4666,7 @@ mission "MGF: Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4626,6 +4677,7 @@ mission "MGF: Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4633,6 +4685,7 @@ mission "MGF: Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 30000 220
@@ -4649,6 +4702,7 @@ mission "MGF: Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -4658,6 +4712,7 @@ mission "MGF: Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4665,6 +4720,7 @@ mission "MGF: Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 30000 220
@@ -4681,6 +4737,7 @@ mission "MGF: Large Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4691,6 +4748,7 @@ mission "MGF: Large Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4698,6 +4756,7 @@ mission "MGF: Large Frozen Transport 1"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 52000 210
@@ -4714,6 +4773,7 @@ mission "MGF: Large Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4724,6 +4784,7 @@ mission "MGF: Large Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4731,6 +4792,7 @@ mission "MGF: Large Frozen Transport 2"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 52000 210
@@ -4747,6 +4809,7 @@ mission "MGF: Large Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4757,6 +4820,7 @@ mission "MGF: Large Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4764,6 +4828,7 @@ mission "MGF: Large Frozen Transport 3"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 52000 210
@@ -4780,6 +4845,7 @@ mission "MGF: Large Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	source
 		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes "farming" "fishing"
@@ -4790,6 +4856,7 @@ mission "MGF: Large Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
 	on visit
 		dialog phrase "generic cargo on visit"
@@ -4797,10 +4864,303 @@ mission "MGF: Large Frozen Transport 4"
 		or
 			has "flagship attribute: frozen space"
 			has "ship model: QYG-70r Tonazqi"
+			has "ship model: DSSN-S90 Lynchyoseu"
 	on complete
 		dialog phrase "mgf: refrigerated transport complete"
 		payment 52000 210
 		
+#==============Fishing/ Fish Factory ships
+		
+phrase "mgf: fishing on visit"
+	word
+		`You have reached <planet>, but you either haven't visited all the planets yet or your fishing or reefer ship hasn't arrived yet! Better depart and make sure you visit <stopovers> or wait for your escort to arrive.`
+
+phrase "mgf: fishing from origin on visit"
+	word
+		`You have reached <planet>, but your fishing or reefer ship hasn't arrived yet! Better wait for your escort to arrive.`
+
+phrase "mgf: fishing at stopover"
+	word
+		`You find a good fishing spot as you approach the planet. After landing for refuelling and post-flight check at the port you then head toward the fishing area. Splashing down near the location you begin to scan for group of fish using your fishfinder sonar and locate a sizeable group to approach and catch. The caught fish were then pulled up into the ship, processed, and stored. Now you can head back to <origin> to deliver the cargo.`
+
+phrase "mgf: fishing at origin"
+	word
+		`After accepting the job you find a good fishing area then head toward it. Splashing down near the location you begin to scan for group of fish using your fishfinder sonar and locate a sizeable group to approach and catch. The caught fish were then pulled up into the ship, processed, and stored. Now you can head to <destination> to deliver the cargo.`
+
+#todo: more detail about the processing?
+
+mission "MGF: Special Fish Order 1"
+	name "Special Order Fish from <planet stopovers>"
+	description "A client on <origin> wants <tons> of exotic fish from <planet stopovers> delivered back to <origin> by <date>, they will pay <payment> for it. (Either a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 2
+	cargo "(reserved for fish)" 10 50
+	to offer
+		or
+			random < 5
+			and
+				random < 40 + ( "mgf: fishing experience" / 10 )
+				or
+					has "outfit (installed): FV-8 Trawler System"
+					has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 20
+		attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on stopover
+		"mgf: fishing experience" += 1
+		#todo: check if fishing ship is present(not necessary as flagship) when it can be done without invalidating the mission if arrived without one.
+		dialog phrase "mgf: fishing at stopover"
+	on visit
+		dialog phrase "mgf: fishing on visit"
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 520000 880
+
+mission "MGF: Special Fish Order 2"
+	name "Special Order Fish from <planet stopovers>"
+	description "A client on <origin> wants <tons> of exotic fish from <planet stopovers> delivered back to <origin> by <date>, they will pay <payment> for it. (Either the a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 2
+	cargo "(reserved for fish)" 10 100
+	to offer
+		or
+			and
+				random < 25 + ( "mgf: fishing experience" / 10 )
+				or
+					has "outfit (installed): FV-8 Trawler System"
+					has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 20
+		attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+		# No checking if there's enough frozen space right now, too lazy. Also won't work with random numbers.
+	on stopover
+		"mgf: fishing experience" += 1
+		dialog phrase "mgf: fishing at stopover"
+	on visit
+		dialog phrase "mgf: fishing on visit"
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+			#You can carry fresh fish reefers as well (in fact they're made for this job too), so any reefer is valid for delivery.
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 520000 980
+
+mission "MGF: Fishing Order 1"
+	name "Fresh Fish from <planet stopovers>"
+	description "A food plant on <origin> is looking to for fresh fish from <planet stopovers>, head there to fish it then deliver back to <origin> by <date>, they will pay <payment> for it. (Either a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 3
+	cargo "(reserved for fish)" 50 160
+	to offer
+		random < 25 + ( "mgf: fishing experience" / 10 )
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "urban" "factory"
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 4
+		attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	on stopover
+		"mgf: fishing experience" += 1
+		dialog phrase "mgf: fishing at stopover"
+			
+	on visit
+		dialog phrase "mgf: fishing on visit"
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 250000 520
+
+mission "MGF: Fishing Order 2"
+	name "Fresh Fish from <planet stopovers>"
+	description "A food plant on <origin> is looking to for fresh fish from <planet stopovers>, head there to fish it then deliver back to <origin> by <date>, they will pay <payment> for it. (Either a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 3
+	cargo "(reserved for fish)" 50 160
+	to offer
+		random < 20 + ( "mgf: fishing experience" / 10 )
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "urban" "factory"
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 4
+		attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	on stopover
+		"mgf: fishing experience" += 1
+		dialog phrase "mgf: fishing at stopover"
+			
+	on visit
+		dialog phrase "mgf: fishing on visit"
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 250000 550
+
+trade
+	commodity "Fresh Fish"
+		#actual commercial fishes
+		"fresh tuna"
+		"fresh trout"
+		"fresh salmon"
+		"fresh cod"
+		"fresh sardine"
+		"fresh mackerel"
+		"fresh anchovy"
+		"fresh pollock"
+		"fresh herring"
+		"fresh menhaden"
+		"fresh saury"
+		"fresh croaker"
+		"fresh haddock"
+		#made up stuffs
+		"fresh cove tuna"
+		"fresh mere sardine"
+		"fresh deep trout"
+		"fresh sunracer salmon"
+		"fresh poseidos cod"
+
+mission "MGF: Fishing Delivery 1"
+	name "Fresh Fish to <planet>"
+	description "Market at <planet> is looking to purchase <cargo> from <origin> for <payment>, fish it then deliver it to <destination> by <date>. (Either a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 3
+	cargo "Fresh Fish" 50 160
+	to offer
+		random < 40 + ( "mgf: fishing experience" / 10 )
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes `fishing`
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 7
+		not attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	on accept
+		"mgf: fishing experience" += 1
+		dialog phrase "mgf: fishing at origin"
+			
+	on visit
+		dialog phrase "mgf: fishing from origin on visit"
+
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 200000 450
+
+mission "MGF: Fishing Delivery 2"
+	name "Fresh Fish to <planet>"
+	description "Market at <planet> is looking to purchase <cargo> from <origin> for <payment>, fish it then deliver it to <destination> by <date>. (Either a fishing ship or reefer ship need to be present for delivery.)"
+	job
+	repeat
+	deadline 0 3
+	cargo "Fresh Fish" 50 160
+	to offer
+		random < 30 + ( "mgf: fishing experience" / 10 )
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes `fishing`
+	stopover
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 7
+		not attributes `fishing`
+	to accept
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+	on accept
+		"mgf: fishing experience" += 1
+		dialog phrase "mgf: fishing at origin"
+			
+	on visit
+		dialog phrase "mgf: fishing from origin on visit"
+
+	to complete
+		or
+			has "outfit (installed): FV-8 Trawler System"
+			has "ship model: DSSN-S90 Lynchyoseu"
+			has "ship model: QYG-30r Qazan"
+			has "ship model: QYG-70r Tonazqi"
+	on complete
+		dialog
+			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
+		payment 200000 450
+
 #======================================Cement
 
 phrase "mgf: unload cement"
@@ -6537,7 +6897,7 @@ mission "MGF: Landed Rollercoaster (rich urban) [0]"
 	to offer
 		random < 80
 	on offer
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): CR-3 Rollercoaster"
 		payment 1900
 	source
 		attributes "rich" "urban"
@@ -6551,7 +6911,7 @@ mission "MGF: Landed Rollercoaster (rich urban) [1]"
 	to offer
 		random < 60
 	on offer
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): CR-3 Rollercoaster"
 		payment 1800
 	source
 		attributes "rich" "urban"
@@ -6565,7 +6925,7 @@ mission "MGF: Landed Rollercoaster (rich urban) [2]"
 	to offer
 		random < 40
 	on offer
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): CR-3 Rollercoaster"
 		payment 800
 	source
 		attributes "rich" "urban"
@@ -6579,7 +6939,7 @@ mission "MGF: Landed Designer Rollercoaster (rich urban) [0]"
 	to offer
 		random < 80
 	on offer
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 		payment 5600
 	source
 		attributes "rich" "urban"
@@ -6593,7 +6953,7 @@ mission "MGF: Landed Designer Rollercoaster (human all) [0]"
 	to offer
 		random < 60
 	on offer
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 		payment 1800
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6609,7 +6969,7 @@ mission "MGF: Landed Designer Rollercoaster (hai first time)"
 	on accept
 		fail
 	on offer
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 		payment 8600
 		conversation
 			`Shortly after landing you found some Hai walking up to you asking about the uniquely designed rollercoaster on your ship and if they could ride it, of course they've prepared payment for the ride. Looking around you estimated that you could get at least 2000 credits here, possibly much more if you leave it open for longer.`
@@ -6631,7 +6991,7 @@ mission "MGF: Landed Designer Rollercoaster (hai all) [0]"
 		has "MGF: Landed Designer Rollercoaster (hai first time): done"
 		random < 80
 	on offer
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 		payment 8600
 	source
 		government "Hai"
@@ -6649,8 +7009,8 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [0]"
 	to offer
 		random < 80
 	on offer
-		require "Luxury Accommodations"
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): CR-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6673,8 +7033,8 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [1]"
 	to offer
 		random < 75
 	on offer
-		require "Luxury Accommodations"
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): CR-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6697,8 +7057,8 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [2]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): CR-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6721,8 +7081,8 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [3]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "CR-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): CR-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6747,8 +7107,8 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [0]"
 	to offer
 		random < 90
 	on offer
-		require "Luxury Accommodations"
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6771,8 +7131,8 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [1]"
 	to offer
 		random < 80
 	on offer
-		require "Luxury Accommodations"
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6795,8 +7155,8 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [2]"
 	to offer
 		random < 75
 	on offer
-		require "Luxury Accommodations"
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6819,8 +7179,8 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [3]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6843,8 +7203,8 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [4]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "D-UQ-3 Rollercoaster"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6871,7 +7231,7 @@ mission "MGF: Extra Tourists out Compact Pool [0]"
 	to offer
 		random < 25
 	on offer
-		require "Elion Compact Pool"
+		has "outfit (installed): Elion Compact Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -6894,7 +7254,7 @@ mission "MGF: Extra Tourists out Compact Pool [1]"
 	to offer
 		random < 50
 	on offer
-		require "Elion Compact Pool"
+		has "outfit (installed): Elion Compact Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -6919,7 +7279,7 @@ mission "MGF: Extra Tourists out Medium Pool [0]"
 	to offer
 		random < 30
 	on offer
-		require "Elion Medium Pool"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -6942,7 +7302,7 @@ mission "MGF: Extra Tourists out Medium Pool [1]"
 	to offer
 		random < 50
 	on offer
-		require "Elion Medium Pool"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -6965,8 +7325,8 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -6989,8 +7349,8 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [1]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7013,8 +7373,8 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [2]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7037,8 +7397,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7061,8 +7421,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [1]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7085,8 +7445,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [2]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Medium Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Medium Pool"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7111,8 +7471,8 @@ mission "MGF: Extra Wealthy Tourist Large Pool [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7135,8 +7495,8 @@ mission "MGF: Extra Wealthy Tourist Large Pool [1]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7159,8 +7519,8 @@ mission "MGF: Extra Wealthy Tourist Large Pool [2]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7183,8 +7543,8 @@ mission "MGF: Extra Wealthy Tourist Large Pool [3]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7207,8 +7567,8 @@ mission "MGF: Extra Wealthy Tourist Large Pool [4]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7222,6 +7582,30 @@ mission "MGF: Extra Wealthy Tourist Large Pool [4]"
 		payment 14500 250
 		dialog phrase "generic passenger dropoff payment"
 		
+mission "MGF: Extra Wealthy Tourist Large Pool [5]"
+	name "Bring wealthy tourists to <planet>"
+	job
+	repeat
+	description "These <bunks> wealthy tourists want to see <destination>. They are willing to pay you <payment>."
+	passengers 2 10 .6
+	to offer
+		random < 45
+	on offer
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
+	source
+		attributes "rich" "urban"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	destination
+		attributes "tourism"
+		distance 4 30
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 14500 250
+		dialog phrase "generic passenger dropoff payment"
+
 #=======================================Huge Pool
 
 mission "MGF: Extra Wealthy Tourist Huge Pool [0]"
@@ -7233,8 +7617,8 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7257,8 +7641,8 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [1]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7281,8 +7665,8 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7305,8 +7689,8 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [3]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7329,8 +7713,8 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [4]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7355,8 +7739,8 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [0]"
 	to offer
 		random < 75
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7379,8 +7763,8 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [1]"
 	to offer
 		random < 73
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7403,8 +7787,8 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [2]"
 	to offer
 		random < 71
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7427,8 +7811,8 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [3]"
 	to offer
 		random < 68
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7451,8 +7835,8 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [4]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7477,8 +7861,8 @@ mission "MGF: Extra Transport Large Pool [0]"
 	to offer
 		random < 40
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7501,8 +7885,8 @@ mission "MGF: Extra Transport Large Pool [1]"
 	to offer
 		random < 30
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7527,8 +7911,8 @@ mission "MGF: Extra Transport Huge Pool [0]"
 	to offer
 		random < 45
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7551,8 +7935,8 @@ mission "MGF: Extra Transport Huge Pool [1]"
 	to offer
 		random < 35
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Huge Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Huge Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7577,8 +7961,8 @@ mission "MGF: Extra Transport Large Exotic Pool [0]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7601,8 +7985,8 @@ mission "MGF: Extra Transport Large Exotic Pool [1]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "Elion Large Exotic Pool"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): Elion Large Exotic Pool"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7627,7 +8011,7 @@ mission "MGF: Extra Wealthy Tourist Large Casino [0]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
+		has "outfit (installed): Luxury Accommodations"
 		require "IrdaSys Large Casino"
 	source
 		attributes "rich" "urban"
@@ -7653,7 +8037,7 @@ mission "MGF: Extra Wealthy Tourist Large Casino [1]"
 	to offer
 		random < 30
 	on offer
-		require "Luxury Accommodations"
+		has "outfit (installed): Luxury Accommodations"
 		require "IrdaSys Large Casino"
 	source
 		attributes "rich" "urban"
@@ -7683,8 +8067,8 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [0]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7707,8 +8091,8 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [1]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7731,8 +8115,8 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7755,8 +8139,8 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7779,8 +8163,8 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [1]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7803,8 +8187,8 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Compact Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Compact Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7829,8 +8213,8 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [0]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7853,8 +8237,8 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [1]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7877,8 +8261,8 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7901,8 +8285,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7925,8 +8309,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [1]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7949,8 +8333,8 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Medium Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Medium Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7975,8 +8359,8 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [0]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7999,8 +8383,8 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [1]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8023,8 +8407,8 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8047,8 +8431,8 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8071,8 +8455,8 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [1]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8095,8 +8479,8 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [2]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8121,8 +8505,8 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [0]"
 	to offer
 		random < 65
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large XMAX Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8145,8 +8529,8 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [1]"
 	to offer
 		random < 60
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large XMAX Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8169,8 +8553,8 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [2]"
 	to offer
 		random < 55
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large XMAX Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8193,8 +8577,8 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [3]"
 	to offer
 		random < 50
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large XMAX Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8217,8 +8601,8 @@ mission "MGF: Extra Wealthy Tourist back Large XMAX Cinema [0]"
 	to offer
 		random < 70
 	on offer
-		require "Luxury Accommodations"
-		require "IrdaSys Large XMAX Cinema"
+		has "outfit (installed): Luxury Accommodations"
+		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8243,7 +8627,7 @@ mission "MGF: well-off tourists out [0]"
 	to offer
 		random < 70
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8266,7 +8650,7 @@ mission "MGF: well-off tourists out [1]"
 	to offer
 		random < 60
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8289,7 +8673,7 @@ mission "MGF: well-off tourists back [0]"
 	to offer
 		random < 70
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8312,7 +8696,7 @@ mission "MGF: well-off tourists back [1]"
 	to offer
 		random < 60
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8336,7 +8720,7 @@ mission "MGF: transport businessman [0]"
 	to offer
 		random < 70
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8360,7 +8744,7 @@ mission "MGF: transport businessman [1]"
 	to offer
 		random < 60
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8384,7 +8768,7 @@ mission "MGF: transport businessman [2]"
 	to offer
 		random < 30
 	on offer
-		require "AJ-5 Business-class Suite"
+		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8409,7 +8793,7 @@ mission "MGF: Extra Transport miners Small Bar"
 	to offer
 		random < 50
 	on offer
-		require "Dalmod Small Bar"
+		has "outfit (installed): Dalmod Small Bar"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination
@@ -8432,7 +8816,7 @@ mission "MGF: Extra Transport miners Basic Bar"
 	to offer
 		random < 50
 	on offer
-		require "Dalmod Basic Bar"
+		has "outfit (installed): Dalmod Basic Bar"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 	destination

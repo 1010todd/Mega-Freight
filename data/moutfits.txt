@@ -2497,6 +2497,14 @@ outfit "Quil5 Wreck Towing System"
 	description `Gears, systems, and controls for attaching and towing wreckages(or other ships) including scanners for quick assestment and anaysis of the wreck for potential weak points as well as some dangerous materials like unshielded radiation source and certain chemicals for some safety of the recovery crews. Developed and used by Ankulah station crews.`
 	description `This system is rated for the largest ship you could possibly find.`
 
+outfit "FV-8 Trawler System"
+	category "Systems"
+	thumbnail "outfit/surveillance pod"
+	"trawler system" 1
+	"reinstallable" -1
+	description `A trawling systems and other general commercial fishing systems like fishfinder sonars and weather monitor for certain ships capable of trawling in water. The net is especially designed to resist speed of skimming fishing maneuver sometime employed by captains of capable vessel.`
+	description `Having these systems allow you to take special jobs as well as having the option to earn some money while landed on fishing planets (visit job board).`
+
 outfit "Espion Value Detector"
 	category "Systems"
 	cost 285570
@@ -2559,6 +2567,29 @@ outfit "E-XE10 Ion Maneuver Engine"
 	"reverse flare sound" "ion tiny"
 	description "Ultra compact maneuvring thruster developed by Espion to improve mobility of their smaller mining vessels."
 	
+outfit "LC-90 Adaptive Engine"
+	category "Engines"
+	"cost" 1280000
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 166
+	"outfit space" -166
+	"engine capacity" -166
+	#0.898 thrust/ton
+	"thrust" 61.1
+	"thrusting energy" 6.8
+	"thrusting heat" 8.8
+	"flare sprite" "effect/plasma flare/medium"
+		"frame rate" 12
+	"flare sound" "plasma medium"
+	#32.15 turn/ton
+	"turn" 1668.45
+	"turning energy" 3.9
+	"turning heat" 4.6
+	"steering flare sprite" "effect/plasma flare/medium"
+		"frame rate" 12
+	"steering flare sound" "plasma medium"
+	description `A special engine unit developed by DSSE Shipbuilding for its Lynchyoseu trawler factory ship which can operate both on sea, air, and space. `
+
 outfit "Espion Employee License"
 	category "Licenses"
 	cost 3000

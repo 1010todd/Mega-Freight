@@ -10172,6 +10172,68 @@ ship "SRC-41C Curie"
 	description `Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sort of radioactive cargo like fresh nuclear fuel, spent nuclear fuel, and radioactive waste. With multiple redundancies for all critical systems from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo is intact. Though the bridge is visible it is reinforced with additional armour it is mainly only used for landing and on-ground operations like unloading the cargo, the ship's primary control room buried deep inside the ship also with another layer of armour around it, not unlike what one would've expected from a warship. With the requirement to keep the cargo cool all the time the ship is also built-in with dedicated cooling system for the cargo hold which is isolated from cooling system for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with their own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
 	description `Another prt of the ship's safety includes crews trained to handle radioactive cargo as well as responding to various forseeable incidents from collision, fire, to pirates boarding, in the most unlikely case that it occurs. In addition to that the ship is also equipped for in-flight repairs allowing the ship to perform rudimentary repair on itself if damaged though there's a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
 
+		#DSSN-[cateprefix][catalogNum] Rynchops->KR
+ship `DSSN-S90 Lynchyoseu`
+	sprite "ship/mgf lynchyoseu"
+	thumbnail "thumbnail/mgf lynchyoseu thumb"
+	attributes
+		category "Utility"
+		"cost" 3650000
+		"shields" 5600
+		"hull" 3400
+		"required crew" 22
+		"bunks" 42
+		"mass" 865
+		"drag" 7.2
+		"heat dissipation" .65
+		"fuel capacity" 800
+		"cargo space" 160
+		"outfit space" 640
+		"weapon capacity" 220
+		"engine capacity" 180
+		"trawler system" -1
+		"refrigerated space" 160
+		"frozen space" 160
+		"fish factory plant" 1
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Proton Turret" 3
+		"Heavy Anti-Missile Turret"
+		
+		"Fission Reactor"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 26
+		"FV-8 Trawler System"
+		
+		"LC-90 Adaptive Engine"
+		"Hyperdrive"
+		
+	turret 0 -116.5 
+	turret 0 -65 "Heavy Anti-Missile Turret"
+	turret 22.5 47 
+	turret -22.5 47 
+	bay "Fighter" 29 83 
+		over
+	bay "Fighter" -29 83 
+		over
+	engine -48 131 
+	engine 48 131 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	description `DSSE Shipbuilding specialized fishing and fish processing vessel built to operate both in sea and space. It utilized a uniquely engineered multi-mode engine that can run both in sea, air, and vacuum to save on space while being able to operate efficiently on all front.`
+	description `Unlike regular trawlers this vessel can use its repulsor engines to lift itself just above the water significantly increasing speed for the vessel allowing it to catch fish faster as well as being able to catch some faster exotic fishes called by some sailors "skimming". Due to these maneuvers the net was also designed to resist such speed and force as well as allowing it to hold much more fish than standard trawler nets. After which the captured fish can be quickly pulled inside the ship to be processed into fillet, block, canned or other forms as required before being sent to the frozen cargo holds to keep it from spoiling. Its ability to travel at higher speed in air also means the ship could travel between fishing spots far faster than standard water-bound fishing vessels though this is less often done as the extra strain means more maintenance later on which can be uneconomical if done too often. Another unique option for these vessels is allowing it to be very opportunistic in stormy worlds where they can quickly snatch up rare marine animals unique to that world during a small window of calm sea and bail out at the last minute before the heavy storm and high wave hit them.`
+	description `Its space capability is also often utilized by owner of these vessel to rapidly move them around between worlds as market demand shift and new specie of edible fishes were discovered or between known types due to random influences. In addition to solo operations these ships also have option of serving as mothership carry two additional ships to assist the operation on longer expeditions for more continuous supply of fish while processed products are offloaded to another reefer ship where the product is delivered to the port.`
+	description `Because of its adaptability and high efficiency these vessels are almost universally hated by local fishermens especially among worlds whose main export is marine products, to the point some worlds are considering to ban or greatly restrict usage of these ships.`
 
 ship "AKH-8 Mlitgante"
 	sprite "ship/mgf mlitgante"
