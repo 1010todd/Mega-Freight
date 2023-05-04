@@ -5161,6 +5161,148 @@ mission "MGF: Fishing Delivery 2"
 			`You unloaded the fishes you caught from <planet stopovers> and receive your payment of <payment>.`
 		payment 200000 450
 
+#================================Yacht Carrier
+
+phrase "mgf: yacht transport complete"
+	word
+		`Arriving on <planet> you land your ship in the water as told by your client as the crew of the ship pack up and head to their yacht. Flooding the yacht bay then opening the bay door soon the yacht begins to drive out. During the process <payment> is transferred into your account.`
+
+mission "MGF: Yacht Transport 1"
+	name "Yacht Transport to <planet>"
+	description "A rich client want their <cargo> along with its crew of <bunks> to be transported to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 4
+	passengers 5 12
+	cargo "luxury motor yacht" 120 300
+	to offer
+		random < 20
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 8
+		not attributes station frontier 
+	to accept
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on complete
+		dialog phrase "mgf: yacht transport complete"
+		payment 1220000 550
+
+mission "MGF: Yacht Transport 2"
+	name "Yacht Transport to <planet>"
+	description "A rich client want their <cargo> along with its crew of <bunks> to be transported to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 4
+	passengers 5 20
+	cargo "superyacht" 140 300
+	to offer
+		random < 15
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 8
+		not attributes station frontier 
+	to accept
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on complete
+		dialog phrase "mgf: yacht transport complete"
+		payment 1400000 580
+
+mission "MGF: Yacht Transport 3"
+	name "Yacht Transport to <planet>"
+	description "A charter company want their <cargo> along with its crew of <bunks> to be transported to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 3
+	passengers 5 8
+	cargo "luxury motor yacht" 60 150
+	to offer
+		random < 30
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 8
+		not attributes station frontier 
+	to accept
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on complete
+		dialog phrase "mgf: yacht transport complete"
+		payment 1000000 650
+
+mission "MGF: Yacht Transport 4"
+	name "Yacht Transport to <planet>"
+	description "A ship owner want their <cargo> along with its crew of <bunks> to be transported to <destination> by <date>. Payment is <payment>."
+	job
+	repeat
+	deadline 0 4
+	passengers 1 6
+	cargo "motor yacht" 60 120
+	to offer
+		random < 30
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		attributes "rich" "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+		distance 2 8
+		not attributes station frontier 
+	to accept
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on visit
+		dialog phrase "generic cargo on visit"
+	to complete
+		or
+			has "flagship attribute: marine ship space"
+			has "ship model: DSSN-C40 Dulumi"
+	on complete
+		dialog phrase "mgf: yacht transport complete"
+		payment 750000 620
+
 #======================================Cement
 
 phrase "mgf: unload cement"

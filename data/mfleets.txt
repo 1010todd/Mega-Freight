@@ -567,6 +567,10 @@ fleet "Large Core Merchants"
 	add variant 3
 		`DSSN-S90 Lynchyoseu`
 		"QYG-30r Qazan"
+		
+	add variant 1
+		`DSSN-C40 Dulumi`
+		"Manta"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -683,6 +687,10 @@ fleet "Paradise Merchants"
 	add variant 3
 		`DSSN-S90 Lynchyoseu`
 		"QYG-30r Qazan"
+
+	add variant 1
+		`DSSN-C40 Dulumi`
+		"Manta"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -951,6 +959,10 @@ fleet "Large Northern Merchants"
 	add variant 5
 		"FUe06a Gebrant III"
 		"Leviathan"
+
+	add variant 1
+		`DSSN-C40 Dulumi`
+		"Manta"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3

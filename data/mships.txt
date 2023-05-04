@@ -10219,8 +10219,10 @@ ship `DSSN-S90 Lynchyoseu`
 	turret -22.5 47 
 	bay "Fighter" 29 83 
 		over
+		"launch effect" "human external"
 	bay "Fighter" -29 83 
 		over
+		"launch effect" "human external"
 	engine -48 131 
 	engine 48 131 
 	leak "leak" 40 50
@@ -10234,6 +10236,64 @@ ship `DSSN-S90 Lynchyoseu`
 	description `Unlike regular trawlers this vessel can use its repulsor engines to lift itself just above the water significantly increasing speed for the vessel allowing it to catch fish faster as well as being able to catch some faster exotic fishes called by some sailors "skimming". Due to these maneuvers the net was also designed to resist such speed and force as well as allowing it to hold much more fish than standard trawler nets. After which the captured fish can be quickly pulled inside the ship to be processed into fillet, block, canned or other forms as required before being sent to the frozen cargo holds to keep it from spoiling. Its ability to travel at higher speed in air also means the ship could travel between fishing spots far faster than standard water-bound fishing vessels though this is less often done as the extra strain means more maintenance later on which can be uneconomical if done too often. Another unique option for these vessels is allowing it to be very opportunistic in stormy worlds where they can quickly snatch up rare marine animals unique to that world during a small window of calm sea and bail out at the last minute before the heavy storm and high wave hit them.`
 	description `Its space capability is also often utilized by owner of these vessel to rapidly move them around between worlds as market demand shift and new specie of edible fishes were discovered or between known types due to random influences. In addition to solo operations these ships also have option of serving as mothership carry two additional ships to assist the operation on longer expeditions for more continuous supply of fish while processed products are offloaded to another reefer ship where the product is delivered to the port.`
 	description `Because of its adaptability and high efficiency these vessels are almost universally hated by local fishermens especially among worlds whose main export is marine products, to the point some worlds are considering to ban or greatly restrict usage of these ships.`
+
+ship `DSSN-C40 Dulumi`
+	sprite "ship/mgf dulumi"
+	thumbnail "thumbnail/mgf dulumi thumb"
+	attributes
+		category "Utility"
+		"cost" 5820000
+		"shields" 8200
+		"hull" 4100
+		"required crew" 23
+		"bunks" 126
+		"mass" 1560
+		"drag" 11.8
+		"heat dissipation" .62
+		"fuel capacity" 800
+		"cargo space" 300
+		"outfit space" 660
+		"weapon capacity" 260
+		"engine capacity" 170
+		"marine ship space" 300
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	
+	outfits
+		"Proton Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 12
+		"Luxury Accomodations"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+	turret 48.5 1 "Heavy Anti-Missile Turret"
+	turret -48.5 1 "Heavy Anti-Missile Turret"
+	turret 0 9 
+	turret 27.5 44 
+	turret -27.5 44 
+	engine 64.5 125 
+	engine -64.5 125 
+	engine 0 165.5 
+		over
+	leak "leak" 40 60
+	leak "flame" 60 120
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Dulumi is a purpose-built boat and yacht carrier with single large bay that can hold most yacht except the very largest ones. The ship is also designed to park in the water where its cargo can be loaded and unloaded with ease along with automatic adaptive support system to hold the boats up as the water is drained. It also have fancy passenger accomodation like mini cruise liner to also transport owner and crew of these yacht as well as other passenger heading the same way.`
 
 ship "AKH-8 Mlitgante"
 	sprite "ship/mgf mlitgante"

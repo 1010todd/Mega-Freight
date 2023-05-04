@@ -110,6 +110,7 @@ shipyard developer
 	"E-FD23 Kanran Wreckage"
 	"LPC-2 Atletha Wreckage"
 	`DSSN-S90 Lynchyoseu`
+	`DSSN-C40 Dulumi`
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -586,6 +587,7 @@ shipyard "Pioneer Heavy Industries Intermediate"
 	"LXC-2 Strata"
 	"LVC-2 Sandura"
 	
+# Note: Advanced/Advanced Exclusive shipyard/outfitter also serves as list of all ship/outfit from that manufacturer. If something is to be sold later via even it can be commented out.
 shipyard "Pioneer Heavy Industries Advanced"
 	"LCC-3 Sierra"
 	"LGC-3 Mesa"
@@ -609,6 +611,7 @@ shipyard "Core Nuclear Transport"
 
 shipyard "DSSE Shipbuilding Advanced"
 	`DSSN-S90 Lynchyoseu`
+	`DSSN-C40 Dulumi`
 
 shipyard "MJK Heavy Industries Basic"
 	"S-PT06 Harukaze"
@@ -628,8 +631,10 @@ outfitter "MJK Heavy Industries Basic"
 outfitter "MJK Heavy Industries Advanced"
 	"G22 Particle Cannon"
 	"G22 Particle Turret"
+	"MJK S1 Outfit Expansion"
 	"MJK S1 Cargo Expansion"
 	"MJK S1 Bunk Dismantling"
+	"MJK S1 Bunk to Cargo"
 	
 outfitter "MJK Heavy Industries Advanced Exclusive"
 	"K3-K Particle Turret"
@@ -640,6 +645,8 @@ outfitter "MJK Heavy Industries Advanced Exclusive"
 	"NGK R11 QAS"
 	"Akataiyo Fusion Reactor"
 	"Ta-class Energy Module"
+	#"GS20-Ak Fusion Engine"
+	#"K4-Mn Particle Cannon"
 	
 shipyard "Vessa Shipworks Basic"
 	"TS-650 Herrenbal"

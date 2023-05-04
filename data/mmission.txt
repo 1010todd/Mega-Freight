@@ -662,6 +662,11 @@ event "mgf: early reisen deployed"
 			"L-VC28 Zuikaku"
 			"S-FS06 Reisen" 20
 
+event "mgf: reisen refinement" #wip
+	outfitter "MJK Heavy Industries Advanced Exclusive"
+		"GS20-Ak Fusion Engine"
+		"K4-Mn Particle Cannon"
+
 #=============================ESPION
 
 mission "MGF: Espion co. job ad"

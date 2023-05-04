@@ -2072,6 +2072,16 @@ outfit "MJK S1 Bunk Dismantling"
 	"unplunderable" 1
 	description "Efficient conversion of unused bunk rooms into outfit space offered by MJK Heavy Industries."
 	
+outfit "MJK S1 Bunk to Cargo"
+	category "Systems"
+	cost 65000
+	thumbnail "outfit/bunk room"
+	"mass" 2
+	"bunks" -4
+	"outfit space" 20
+	"unplunderable" 1
+	description "Efficient conversion of unused bunk rooms into cargo space offered by MJK Heavy Industries."
+
 outfit "S-1670 Regenerator"
 	category "Systems"
 	cost 4200000
@@ -2566,7 +2576,7 @@ outfit "E-XE10 Ion Maneuver Engine"
 		"frame rate" 1.3
 	"reverse flare sound" "ion tiny"
 	description "Ultra compact maneuvring thruster developed by Espion to improve mobility of their smaller mining vessels."
-	
+
 outfit "LC-90 Adaptive Engine"
 	category "Engines"
 	"cost" 1280000

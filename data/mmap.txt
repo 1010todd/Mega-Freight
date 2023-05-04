@@ -303,7 +303,12 @@ planet "Yokosuka Naval Arsenal"
 		fleet "Large Syndicate" 10
 		fleet "MJK Defense Fleet" 2
 		fleet "MJK Advanced Defense Fleet"
-		
+
+#=========DSSE Shipbuilding
+
+planet `Shangri-La`
+	add shipyard "DSSE Shipbuilding Advanced"
+
 #==========Solomons Voidworks
 #Heavily armed and armoured southern ships. Should be around Dirt Belt and South.
 planet Zug
