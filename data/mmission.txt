@@ -253,10 +253,12 @@ mission "MGF: Lucerne Deployment"
 		has "event: mgf: developed Lucerne"
 	on offer
 		"mgf: Lucerne post 08102022 patch" = 1
+		"mgf: CNY post 05052023 patch" = 1
 		event "mgf: Lucerne Deployment" 120
 		
 event "mgf: Lucerne Deployment" 
 	planet "Canaveral Naval Yard"
+		landscape `land/mgf canaveral landscape b`
 		add shipyard "Navy Advanced EX"
 		add outfitter "Navy Advanced EX"
 	fleet "Large Republic"
@@ -298,12 +300,28 @@ event "mgf: Lucerne Deployment"
 			"Rainmaker (Mark II)" 8
 			"Gunboat (Mark II)" 12
 		
+mission "MGF: CNY Landscape Image Patch-1"
+	landing
+	invisible
+	deadline 1
+	to offer
+		has "event: mgf: Lucerne Deployment"
+		not "mgf: CNY post 05052023 patch"
+	on offer
+		event "mgf: CNY Landscape Image Patch-1"
+		fail
+
+event "mgf: CNY Landscape Image Patch-1"
+	planet "Canaveral Naval Yard"
+		landscape `land/mgf canaveral landscape b`
+
 mission "MGF: CNY Outfitter patch"
 	landing
 	invisible
 	repeat 2 # I left empty mission here before and it might've been offered once.
 	deadline 1
 	to offer
+		not "mgf: Lucerne post 08102022 patch"
 		has "event: mgf: Lucerne Deployment" 
 	on offer
 		event "mgf: cny outfitter patch"
@@ -585,6 +603,29 @@ event "mgf: Lucerne MkII deployment"
 			
 #===========================NGK
 
+mission "MGF: NGK Exclusive Shipyard Unlock"
+	landing
+	name `MJK Exlusive Warehouse`
+	description `MJK Group has allowed you to visit and purchase items from their exclusive store.`
+	destination "Yokosuka Naval Arsenal"
+	deadline 2
+	source
+		near "Sol" 0 200
+	to offer
+		#todo other ways to help them.
+		"MGF: NGK saboteur arrest job done" >= 12
+		"reputation: MGF: NGK Security" >= 500
+	on offer
+		event "mgf: ngk exclusive unlock"
+		conversation
+			`Upon landing you recieved a mail fron MJK Group stating that in reward for your assistance they give you permission to purchase exclusive high performace ships and cuttingedge weapons the same as their security force at Yokosuka Naval Arsenal.`
+				decline
+
+event "mgf: ngk exclusive unlock"
+	planet "Yokosuka Naval Arsenal"
+		add shipyard "MJK Heavy Industries Advanced Exclusive"
+		add outfitter "MJK Heavy Industries Advanced Exclusive"
+
 mission `MGF: Reisen Development Trigger`
 	invisible
 	landing
@@ -648,7 +689,7 @@ event "mgf: early reisen deployed"
 			"Steward (NGK Long Range)"
 			"Xencar (NGK)" 6
 		
-		add variant 10
+		add variant 50
 			"LVC-2 Sandura (NGK, Turret Upgrade)" 
 			"Leviathan (NGK Escort)"
 			"E-VC14 Zuiho"
@@ -662,10 +703,108 @@ event "mgf: early reisen deployed"
 			"L-VC28 Zuikaku"
 			"S-FS06 Reisen" 20
 
-event "mgf: reisen refinement" #wip
+mission `MGF: Reisen Refinement Trigger`
+	invisible
+	landing
+	to offer
+		has "event: mgf: early reisen deployed"
+	on offer
+		event "mgf: reisen refinement 1" 660
+	on accept
+		fail
+
+event "mgf: reisen refinement 1"
 	outfitter "MJK Heavy Industries Advanced Exclusive"
 		"GS20-Ak Fusion Engine"
 		"K4-Mn Particle Cannon"
+		"CN-6 Supercapacitor"
+	shipyard "MJK Heavy Industries Advanced Exclusive"
+		"S-FS06 Reisen (Refined I)"
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"Xencar (NGK)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen" 40
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+
+	fleet "NGK Hauling HeavyFreight"
+		add variant 10
+			"FG-5 Bluewhale-A (NGK, Turret Upgrade)" 3
+			"CDB-6K Jupiter (NGK, Partial Turret Upgrade)" 2
+			"Leviathan (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"S-FS06 Reisen (Refined I)" 20
+
+	fleet "NGK Hauling RORO"
+		remove variant 50
+			"LVC-2 Sandura"
+			"Leviathan (NGK Escort)"
+			"E-VC14 Zuiho"
+			"Xencar (NGK)" 10
+		add variant 50
+			"LVC-2 Sandura (NGK, Turret Upgrade)" 
+			"Leviathan (NGK Escort)"
+			"E-VC14 Zuiho"
+			"S-FS06 Reisen (Refined I)" 10
+
+mission `MGF: Kaga Development Trigger`
+	invisible
+	landing
+	to offer
+		has "event: mgf: early reisen deployed"
+	on offer
+		event "mgf: early kaga deployed" 720 #~2 years
+	on accept
+		fail
+
+event "mgf: early kaga deployed"
+	outfitter "Syndicate Basics"
+		"Itano Missile"
+	outfitter "Syndicate Advanced"
+		"Itano SMLS"
+		"Itano Missile Rack"
+		"Itano Missile"
+	outfitter "MJK Heavy Industries Basic"
+		"Itano Missile"
+	outfitter "MJK Heavy Industries Advanced Exclusive"
+		"Itano SMLS"
+		"Itano Missile Rack"
+		"Itano Missile"
+		"K4-H Particle Turret"
+		"K4-Ms-S Particle Turret"
+		"Kiirotaiyo Fusion Reactor"
+		"S-1670 Regenerator"
+		"S-2370y Regenerator"
+	shipyard "MJK Heavy Industries Advanced Exclusive"
+		"F-VC56 Kaga (Early)"
+
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+			"F-VC56 Kaga (Early)"
+			"S-FS06 Reisen (Refined I)" 90
 
 #=============================ESPION
 

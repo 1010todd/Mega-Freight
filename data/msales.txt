@@ -111,6 +111,7 @@ shipyard developer
 	"LPC-2 Atletha Wreckage"
 	`DSSN-S90 Lynchyoseu`
 	`DSSN-C40 Dulumi`
+	"F-VC56 Kaga"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -624,6 +625,7 @@ shipyard "MJK Heavy Industries Advanced Exclusive"
 	"L-VC28 Zuikaku"
 	"E-VC14 Zuiho"
 	#"S-FS06 Reisen"
+	#"F-VC56 Kaga"
 	
 outfitter "MJK Heavy Industries Basic"
 	"Blaster"
@@ -647,6 +649,12 @@ outfitter "MJK Heavy Industries Advanced Exclusive"
 	"Ta-class Energy Module"
 	#"GS20-Ak Fusion Engine"
 	#"K4-Mn Particle Cannon"
+
+	#"Kiirotaiyo Fusion Reactor"
+	#"GS26-Ak-k Fusion Engine"
+	#"CN-6 Supercapacitor"
+	#"S-1670 Regenerator"
+	#"S-2370y Regenerator"
 	
 shipyard "Vessa Shipworks Basic"
 	"TS-650 Herrenbal"

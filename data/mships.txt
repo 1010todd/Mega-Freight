@@ -9206,48 +9206,375 @@ effect "zuikaku fighter launch"
 	"velocity scale" -.05
 	
 ship "F-VC56 Kaga"
+	sprite "ship/mgf kaga"
+	thumbnail "thumbnail/mgf kaga thumb"
 	attributes
 		category "Heavy Warship"
-		"cost" 55800000
+		"cost" 65800000
 		"shields" 32000
 		"hull" 19500
 		"required crew" 340
 		"bunks" 680
-		"mass" 7584
-		"drag" 25.3
+		"mass" 6684
+		"drag" 23.3
 		"heat dissipation" .5
-		"fuel capacity" 2600
-		"cargo space" 50
-		"outfit space" 3560
-		"weapon capacity" 780
-		"engine capacity" 360
+		"fuel capacity" 1200
+		"cargo space" 150
+		"outfit space" 4560
+		"weapon capacity" 3070
+		"engine capacity" 470
 		"shield generation multiplier" .06
 		"hull repair rate" 1.8
 		"ion protection" 1
+		"vertical launching support" 10
 	outfits
 		"Torpedo Launcher" 4
 		"Torpedo" 120
-		"K3-K Particle Turret" 4
+		"K4-H Particle Turret" 4
+		"K3-K Particle Turret" 6
 		#"H6-Gy Oscillator Turret" 4
-		"K3-K-S Particle Turret"
-		"Heavy Anti-Missile Turret" 2
+		"K3-K-S Particle Turret" 8
+		"K4-Ms-S Particle Turret" 10
+		"Heavy Anti-Missile Turret" 10
+		"Anti-Missile Turret" 10
+		"Itano SMLS" 20
+		"Itano Missile" 1200
+		"Spearfish VLS Array" 10
+		"Spearfish Missile" 120
 		
-		"Akataiyo Fusion Reactor" 2
-		"Ta-class Energy Module" 24
-		"Water Coolant System"
-		"D94-YV Shield Generator"
-		#"S-2370y Regenerator"
+		"Kiirotaiyo Fusion Reactor"
+		"Akataiyo Fusion Reactor" 1
+		"Ta-class Energy Module" 36
+		"LP576a Battery Pack" 2
+		"Liquid Helium Cooler"
+		"S-2370y Regenerator"
 		"NGK R11 Rifle" 500
 		"NGK R11 QAS" 500
 		"NGK R11 Grip" 400
 		"NGK R11 Bipod" 100
 		
-		"X5200 Ion Steering"
-		"X5700 Ion Thruster"
+		"X5200 Ion Steering" 2
+		"X5700 Ion Thruster" 2
 		"Scram Drive"
 		
-	description `Initially a plan pitched to the Republic Navy as they seek a new fleet carrier with enough capacity for 80 fighters now brought back into development as they realized the looming threat of aliens from all sides and funding to spare.`
-	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort (and advertisement) and deterrence with most threat being large pirate fleet and still have to be somewhat economically viable, Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with an array of cutting-edge armaments to out gun any alien warship it may find.`
+	#Small turrets
+	turret 159.5 -39.5 "Anti-Missile Turret"
+	turret -159.5 -39.5 "Anti-Missile Turret"
+	turret 159.5 -20.5 
+	turret -159.5 -20.5 
+
+	turret 132 6.5 "Anti-Missile Turret"
+	turret -132 6.5 "Anti-Missile Turret"
+	turret 132 24.5 "K4-Ms-S Particle Turret"
+	turret -132 24.5 "K4-Ms-S Particle Turret"
+
+	turret 26 20.5 
+	turret -26 20.5 
+	turret 26 40 "K3-K-S Particle Turret"
+	turret -26 40 "K3-K-S Particle Turret"
+
+	turret 137 97 "K4-Ms-S Particle Turret"
+	turret -137 97 "K4-Ms-S Particle Turret"
+
+	turret 87.5 96 "K4-Ms-S Particle Turret"
+	turret -87.5 96 "K4-Ms-S Particle Turret"
+	turret 87.5 119 
+	turret -87.5 119 
+	turret 87.5 140 "K3-K-S Particle Turret"
+	turret -87.5 140 "K3-K-S Particle Turret"
+
+	#engine
+	turret 170.5 256 "Anti-Missile Turret"
+	turret -170.5 256 "Anti-Missile Turret"
+	turret 170.5 277 "K3-K-S Particle Turret"
+	turret -170.5 277 "K3-K-S Particle Turret"
+	turret 170.5 299 "Anti-Missile Turret"
+	turret -170.5 299 "Anti-Missile Turret"
+
+	turret 36 81.5 "Anti-Missile Turret"
+	turret -36 81.5 "Anti-Missile Turret"
+	turret 36 103.5 "K3-K-S Particle Turret"
+	turret -36 103.5 "K3-K-S Particle Turret"
+	turret 36 124 "K4-Ms-S Particle Turret"
+	turret -36 124 "K4-Ms-S Particle Turret"
+	turret 36 145.5 
+	turret -36 145.5 
+
+	#aft
+	turret 20.5 304 "K4-Ms-S Particle Turret"
+	turret -20.5 304 "K4-Ms-S Particle Turret"
+	turret 20.5 323 
+	turret -20.5 323 
+	#medium turrets
+	turret 100.5 60.5 "K3-K Particle Turret"
+	turret -100.5 60.5 "K3-K Particle Turret"
+	turret 166.5 228 "K3-K Particle Turret"
+	turret -166.5 228 "K3-K Particle Turret"
+	turret 166 326.5 "K3-K Particle Turret"
+	turret -166 326.5 "K3-K Particle Turret"
+	#large turrets
+	turret 0 -26.5 "K4-H Particle Turret"
+	turret -100 -3.5 "K4-H Particle Turret"
+	turret 100 -3.5 "K4-H Particle Turret"
+	turret 0 225.5 "K4-H Particle Turret"
+	#Forward guns
+	gun 147 -71.5 "Torpedo Launcher"
+	gun -147 -71.5 "Torpedo Launcher"
+	gun 160 -71.5 "Torpedo Launcher"
+	gun -160 -71.5 "Torpedo Launcher"
+
+	gun 56.5 72.5 "Itano SMLS"
+		over
+	gun -56.5 72.5 "Itano SMLS"
+		over
+	gun 68.5 78.5 "Itano SMLS"
+		over
+	gun -68.5 78.5 "Itano SMLS"
+		over
+	#VLS
+	turret 8 288 "Spearfish VLS Array"
+	turret -8 288 "Spearfish VLS Array"
+	turret 8 300 "Spearfish VLS Array"
+	turret -8 300 "Spearfish VLS Array"
+	turret 8 312.5 "Spearfish VLS Array"
+	turret -8 312.5 "Spearfish VLS Array"
+	turret 8 325 "Spearfish VLS Array"
+	turret -8 325 "Spearfish VLS Array"
+	turret 8 338.5 "Spearfish VLS Array"
+	turret -8 338.5 "Spearfish VLS Array"
+
+	#Broadsideguns
+	gun 153 54 "Itano SMLS"
+		angle 90
+	gun -153 54 "Itano SMLS"
+		angle -90
+	gun 153 67.5 "Itano SMLS"
+		angle 90
+	gun -153 67.5 "Itano SMLS"
+		angle -90
+
+	gun 141.5 130.5 "Itano SMLS"
+		angle 90
+	gun -141.5 130.5 "Itano SMLS"
+		angle -90
+	gun 141.5 130.5 "Itano SMLS"
+		angle 90
+	gun -141.5 130.5 "Itano SMLS"
+		angle -90
+	gun 141.5 144 "Itano SMLS"
+		angle 90
+	gun -141.5 144 "Itano SMLS"
+		angle -90
+	gun 141.5 144 "Itano SMLS"
+		angle 90
+	gun -141.5 144 "Itano SMLS"
+		angle -90
+	gun 141.5 158 "Itano SMLS"
+		angle 90
+	gun -141.5 158 "Itano SMLS"
+		angle -90
+	gun 141.5 158 "Itano SMLS"
+		angle 90
+	gun -141.5 158 "Itano SMLS"
+		angle -90
+	engine -86.5 400.5 
+	engine 86.5 400.5 
+	engine -121 405.5 
+	engine 121 405.5 
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 0 -392.5 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" -99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+	bay "Fighter" 99.5 -324 
+		"launch effect" "zuikaku fighter launch"
+
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 30
+	explode "nuke explosion" 3
+	description `Initially a plan pitched to the Republic Navy as they seek a new fleet carrier with enough capacity for 80 fighters now brought back into development as they realized the looming threat of aliens from all sides and funding to spare. Though the original plan was already considerably expensive, the additional development and modernization for new goal rise the cost through the roof.`
+	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort and deterrence with most threat being large pirate fleet (and for advertisement) where it still have to be somewhat economically viable to build and operate. Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with an large array of cutting-edge armaments to out gun any alien warship it may find.`
 	
 	#Light-Vessel,Carrier
 ship "L-VC28 Zuikaku"

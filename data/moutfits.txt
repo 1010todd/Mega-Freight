@@ -519,6 +519,76 @@ outfit "K4-Mn Particle Cannon"
 		"hull damage" 29
 	description `Improved and miniturized particle cannon developed specifically for the Reisen fighter. Powerful for the size as well as being very energy hungry.`
 
+outfit "K4-Ms-S Particle Turret"
+	category "Turrets"
+	cost 740000
+	thumbnail "outfit/mgf k3k single turret"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		sprite "projectile/k3k particle beam"
+			scale .8
+		sound "k3k particle"
+		"hardpoint sprite" "hardpoint/mgf k3k single turret hp"
+		"hardpoint offset" 5.
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .8
+		"turret turn" 2.8
+		velocity 30
+		"lifetime" 21
+		"random lifetime" 2
+		"reload" 19
+		"firing energy" 32
+		"firing force" 24
+		"firing heat" 65
+		"hit force" 30
+		"shield damage" 32
+		"hull damage" 29
+	description `Single turret version of K4-Ms particle cannon.`
+
+outfit "K4-H Particle Turret"
+	category "Turrets"
+	cost 8900000
+	thumbnail "outfit/mgf k4h particle turret"
+	"mass" 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	weapon
+		sound "k4h particle"
+		"hardpoint sprite" "hardpoint/mgf k4h particle turret hp"
+		"hardpoint offset" 10.
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .6
+		"turret turn" .8
+		"submunition" "K4-H Particle Beam"
+			offset 4.5 0
+		"submunition" "K4-H Particle Beam"
+			offset -4.5 0
+		velocity 1
+		"velocity override" 28
+		"lifetime" 1
+		"reload" 22
+		"firing energy" 315
+		"firing force" 36
+		"firing heat" 1254
+	description `Improved and larger successor of the K3-K particle turret.`
+
+outfit "K4-H Particle Beam"
+	weapon
+		sprite "projectile/k3k particle beam"
+			scale 1.2
+		"hit effect" "k3k particle impact" 2
+		"velocity" 28
+		"inaccuracy" .5
+		"lifetime" 47
+		"random lifetime" 2
+		"hit force" 80
+		"shield damage" 188
+		"hull damage" 178
+
 outfit "Reisen Sidehull"
 	category "Turrets"
 	cost 142000
@@ -1789,6 +1859,86 @@ effect "bombbox smoke"
 	"random angle" 10
 	"random velocity" 1
 	
+
+outfit "Itano Missile"
+	category "Ammunition"
+	cost 800
+	thumbnail "outfit/sidewinder missile"
+	"mass" .05
+	"itano missile capacity" -1
+	description "Ammo for Itano SMLS"
+
+outfit "Itano Missile Rack"
+	category "Ammunition"
+	cost 32000
+	thumbnail "outfit/sidewinder storage"
+	"mass" 2
+	"outfit space" -10
+	"itano missile capacity" 30
+	ammo "Itano Missile"
+	description "Storage for Itano Missile. Enough for one burst."
+
+outfit "Itano SMLS"
+	category "Secondary Weapons"
+	cost 280000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 12
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	"itano missile capacity" 60
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Itano Missile" 2
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		submunition "Itano Missile Projectile"
+			offset 1.5 0
+		submunition "Itano Missile Projectile"
+			offset -1.5 1
+		"inaccuracy" 4
+		"velocity" 3
+		"velocity override" 14
+		"range override" 2900
+		"burst count" 15
+		"burst reload" 3
+		"reload" 60
+		"firing energy" 2
+		"firing heat" 25
+		"acceleration" .3
+		"drag" .021
+		"turn" 4
+		"homing" 4
+		"cluster"
+	description "Itano Saturation Missile Launch System is as much of a development in missile as well as a change in deployment tactic. Unlike common missiles that were slowly deployed one-by-one, this system fire missiles in pairs and in very rapid succession to totally overwhelm any anti-missile system and ensure the destruction whatever is unfortunate enough to be its target."
+
+outfit "Itano Missile Projectile"
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"live effect" "spearfish flare" 350 #temporary.
+		#"live effect" "spearfish smoke" 500
+		"lifetime" 170
+		"inaccuracy" 12
+		"acceleration" .35
+		"drag" .021
+		"turn" 4
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .4
+		"shield damage" 80
+		"hull damage" 45
+		"hit force" 20
+		"missile strength" 6
+
 outfit "MYi2 Railgun Turret"
 	category "Secondary Weapons"
 	cost 65000
@@ -1977,6 +2127,19 @@ outfit "Ta-class Energy Module"
 	"AT-type slot" -1
 	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvesting additional energy at cost of more heat management problems.`
 
+outfit "Kiirotaiyo Fusion Reactor"
+	category "Power"
+	cost 18600000
+	thumbnail "outfit/mgf akataiyo fusion"
+	"mass" 250
+	"outfit space" -250
+	"energy generation" 42.5
+	"heat generation" 142
+	"energy capacity" 30000
+	"ion protection" .2
+	"AT-type slot" 24
+	description `A larger version of the Akataiyo reactor with improved heat efficiency as well as more output.`
+
 outfit "GS20-Ak Fusion Engine"
 	category "Engines"
 	"cost" 480000
@@ -1999,6 +2162,38 @@ outfit "GS20-Ak Fusion Engine"
 		"frame rate" 16
 	"steering flare sound" "atomic small"
 	description "Inspired by the Deep Atomics these fusion engines were developed in secret before making a debut miniturized and inegrated with the reactor to fit on the Reisen."
+
+outfit "GS26-Ak-k Fusion Engine"
+	category "Engines"
+	"cost" 490000
+	thumbnail "outfit/tiny atomic thruster"
+	"mass" 47
+	"outfit space" -71
+	"engine capacity" -35
+	"energy generation" 5.9
+	"heat generation" 16
+	"thrust" 24.7
+	"thrusting energy" 1.0
+	"thrusting heat" 2.4
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 18
+	"flare sound" "atomic tiny"
+	"turn" 188.6
+	"turning energy" .45
+	"turning heat" 2.1
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 16
+	"steering flare sound" "atomic small"
+	description "Improved version of the GS20-Ak fusion engine with better efficiency and greater power generation."
+
+outfit "CN-6 Supercapacitor"
+	category "Power"
+	cost 11000
+	thumbnail "outfit/supercapacitor"
+	"mass" 2
+	"outfit space" -2
+	"energy capacity" 800
+	description ``
 
 outfit "NGK R11 Rifle"
 	category "Hand to Hand"
@@ -2094,6 +2289,18 @@ outfit "S-1670 Regenerator"
 	"heat generation" 21
 	description "A larger version of the advanced S-970 Regenerator."
 	
+outfit "S-2370y Regenerator"
+	category "Systems"
+	cost 12000000
+	thumbnail "outfit/large regenerator"
+	"mass" 250
+	"outfit space" -250
+	"shield generation" 19.3
+	"shield energy" 19.3
+	"energy consumption" 61
+	"heat generation" 53
+	description `A large shield regenerator developed for the Kaga class fleet carrier.`
+
 outfit "E272-S5T Shield Generator"
 	plural "D41-HY Shield Generator" #to conceal the outfit on ships when scanned.
 	category "Systems"

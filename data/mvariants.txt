@@ -1997,6 +1997,16 @@ ship "S-PT06 Harukaze" "S-PT06 Harukaze (Quad Blaster)"
 		"X3200 Ion Steering"
 		"Hyperdrive"
 
+ship "S-FS06 Reisen" "S-FS06 Reisen (Refined I)"
+	outfits
+		"Reisen Sidehull"
+		"K4-Mn Particle Cannon" 2
+		
+		"CN-6 Supercapacitor"
+		"S-270 Regenerator"
+		
+		"GS26-Ak-k Fusion Engine"
+
 #Leviathan custom-modified by NGK, old escort.
 ship "Leviathan" "Leviathan (NGK Escort)"
 	sprite "ship/mgf leviathan ngk"
@@ -2172,6 +2182,36 @@ ship "E-VC14 Zuiho" "E-VC14 Zuiho (Advanced)"
 		
 		"A375 Atomic Steering"
 		"A520 Atomic Thruster"
+		"Scram Drive"
+
+ship "F-VC56 Kaga" "F-VC56 Kaga (Early)" #full release should have better engines at very least?
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"K4-H Particle Turret" 4
+		"K3-K Particle Turret" 6
+		"K3-K-S Particle Turret" 8
+		"K4-Ms-S Particle Turret" 10
+		"Heavy Anti-Missile Turret" 10
+		"Anti-Missile Turret" 10
+		"Itano SMLS" 20
+		"Itano Missile" 1200
+		"Spearfish VLS Array" 10
+		"Spearfish Missile" 120
+		
+		"Kiirotaiyo Fusion Reactor"
+		"Akataiyo Fusion Reactor" 1
+		"Ta-class Energy Module" 36
+		"LP576a Battery Pack" 2
+		"Liquid Helium Cooler"
+		"S-2370y Regenerator"
+		"NGK R11 Rifle" 500
+		"NGK R11 QAS" 500
+		"NGK R11 Grip" 400
+		"NGK R11 Bipod" 100
+		
+		"X5200 Ion Steering" 2
+		"X5700 Ion Thruster" 2
 		"Scram Drive"
 
 ship "CDB-6K Jupiter" "CDB-6K Jupiter (NGK, Partial Turret Upgrade)"

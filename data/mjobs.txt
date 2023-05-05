@@ -1001,12 +1001,12 @@ mission "MGF: NGK Export [2]"
 
 mission "MGF: NGK Corporate Saboteur Arrest"
 	name "Arrest Corporate Saboteur"
-	description `A saboteur was identified to be escaping in an Arrow named <npc>, disable and board it to arrest the saboteur and bring the to <origin> and receive your payment of <payment>.`
+	description `A saboteur was identified to be escaping in a transport named <npc>, disable and board it to arrest the saboteur and bring the to <origin> and receive your payment of <payment>. To accept you need a Brig.`
 	deadline 5
 	to offer
-		random < 10
-		"reputation: NGK Hauling" >= 3
-		"reputation: NGK Security" >= 3
+		random < 15
+		"reputation: MGF: NGK Hauling" >= 3
+		"reputation: MGF: NGK Security" >= 3
 	source
 		government Republic Syndicate "MGF: NGK Hauling" "MGF: NGK Security"
 		attributes core
@@ -1014,7 +1014,7 @@ mission "MGF: NGK Corporate Saboteur Arrest"
 	to accept
 		has "outfit (flagship installed): Brig"
 	
-	npc save board
+	npc board
 		government "Bounty"
 		personality launching target fleeing uninterested
 		system
@@ -1023,17 +1023,27 @@ mission "MGF: NGK Corporate Saboteur Arrest"
 			names "civilian"
 			variant
 				"Arrow"
+			variant
+				"Shuttle"
+			variant
+				"Heavy Shuttle"
+			variant
+				"Blackbird"
+			variant
+				"Bounder"
+			variant
+				"Flivver"
 		dialog
 			`You boarded the <npc> and arrest its crew. Now you can land back on <origin> to claim your reward.`
 	on abort
-		"reputation: NGK Hauling" -= 1
-		"reputation: NGK Security" -= 1
-		"reputation: NGK Hauling" >?= 2
-		"reputation: NGK Security" >?= 2
+		"reputation: MGF: NGK Hauling" -= 1
+		"reputation: MGF: NGK Security" -= 1
+		"reputation: MGF: NGK Hauling" >?= 2
+		"reputation: MGF: NGK Security" >?= 2
 	on complete
 		payment 100000
-		"reputation: NGK Hauling" += 1
-		"reputation: NGK Security" += 1
+		"reputation: MGF: NGK Hauling" += 1
+		"reputation: MGF: NGK Security" += 1
 		"MGF: NGK saboteur arrest job done" += 1
 		dialog
 			`Armed NGK security personnels arrive to pick up the crew of <npc> you just arrested thanking you and hands you <payment>.`
