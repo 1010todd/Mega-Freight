@@ -4169,7 +4169,9 @@ ship "Culverin Class"
 		angle 0
 		under
 	bay "Fighter" -30.5 49.5
+		"launch effect" "human internal"
 	bay "Fighter" 30.5 49.5
+		"launch effect" "human internal"
 	leak "leak" 30 50
 	leak "flame" 30 80
 	leak "big leak" 30 30
@@ -4586,6 +4588,246 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"X4200 Ion Steering"
 		"Scram Drive"
 		
+ship "Dulle Griet Class"
+	plural "Dulle Griet Class"
+	sprite "ship/mgf navy fastbattleship"
+	thumbnail "thumbnail/mgf navy fastbattleship thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Navy Cruiser"
+		"cost" 22200000
+		"shields" 27000
+		"hull" 14800
+		"required crew" 260
+		"bunks" 360
+		"mass" 2805
+		"drag" 17.6
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 3660
+		"weapon capacity" 2970
+		"engine capacity" 310
+		"vertical launching support" 8
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"AH-5 Eteron Launch System" 8
+		"AH-5 Eteron Torpedo" 80
+		"Heavy Anti-Missile Turret" 6
+		"Anti-Missile Turret" 6
+		"CMX-12 Anti-Missile" 2
+		"BPl-5 Pulsor Turret" 4
+		"EMX-55 Flakcannon Turret" 5
+		"V85 Railgun" 8
+		"V85d Dual Railgun Turret" 4
+		"Spearfish Launcher Array" 8
+		"Spearfish Missile" 64
+		
+		"F450 Neptune Core"
+		"0NF M3 Core Overdriver"
+		"DCB56N Battery Pack" 2
+		"DX-10k Shield Hub"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Brig"
+		"Laser Rifle" 250
+		"Fragmentation Grenades" 120
+		"Security Station"
+		"Tactical Scanner"
+		
+		"A860 Atomic Thruster"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+		
+	turret -31 -229.5 "Heavy Anti-Missile Turret"
+	turret 31 -229.5 "Heavy Anti-Missile Turret"
+	turret -31 -213.5 "BPl-5 Pulsor Turret"
+	turret 31 -213.5 "BPl-5 Pulsor Turret"
+	turret -31 -198 "Heavy Anti-Missile Turret"
+	turret 31 -198 "Heavy Anti-Missile Turret"
+	turret -31 -181 "EMX-55 Flakcannon Turret"
+	turret 31 -181 "EMX-55 Flakcannon Turret"
+
+	turret -26.5 -92 
+	turret 26.5 -92 
+	turret -26.5 -74.5 "BPl-5 Pulsor Turret"
+	turret 26.5 -74.5 "BPl-5 Pulsor Turret"
+
+	turret 37 -44.5 "CMX-12 Anti-Missile"
+	turret -37 -44.5 "CMX-12 Anti-Missile"
+	turret 37 -28.5 "EMX-55 Flakcannon Turret"
+	turret -37 -28.5 "EMX-55 Flakcannon Turret"
+	turret 37 -12.5 
+	turret -37 -12.5 
+
+	turret 29.5 73 
+	turret -29.5 73 
+	turret 29.5 88.5
+	turret -29.5 88.5
+	turret 29.5 104.5 "Heavy Anti-Missile Turret"
+	turret -29.5 104.5 "Heavy Anti-Missile Turret"
+	turret 0 351 "EMX-55 Flakcannon Turret"
+	#large turret
+	turret 0 -244.5 "V85d Dual Railgun Turret"
+	turret 0 -190 "V85d Dual Railgun Turret"
+	turret 0 -29 "V85d Dual Railgun Turret"
+	turret 0 14.5 "V85d Dual Railgun Turret"
+	#torp battery
+	gun -6 -338.5 "AH-5 Eteron Launch System"
+	gun 6 -338.5 "AH-5 Eteron Launch System"
+	gun -6 -333 "AH-5 Eteron Launch System"
+	gun 6 -333 "AH-5 Eteron Launch System"
+	gun -18 -333 "AH-5 Eteron Launch System"
+	gun 18 -333 "AH-5 Eteron Launch System"
+	gun -18 -339 "AH-5 Eteron Launch System"
+	gun 18 -339 "AH-5 Eteron Launch System"
+	#railguns
+	gun 58 -109 "V85 Railgun"
+	gun -58 -109 "V85 Railgun"
+	gun 58 -109 "V85 Railgun"
+	gun -58 -109 "V85 Railgun"
+	gun 68.5 -109 "V85 Railgun"
+	gun -68.5 -109 "V85 Railgun"
+	gun 68.5 -109 "V85 Railgun"
+	gun -68.5 -109 "V85 Railgun"
+	#missiles
+	gun 82.5 44 "Spearfish Launcher Array"
+		angle 90
+	gun -82.5 44 "Spearfish Launcher Array"
+		angle -90
+	gun 82.5 44 "Spearfish Launcher Array"
+		angle 90
+	gun -82.5 44 "Spearfish Launcher Array"
+		angle -90
+	gun 82.5 66 "Spearfish Launcher Array"
+		angle 90
+	gun -82.5 66 "Spearfish Launcher Array"
+		angle -90
+	gun 82.5 66 "Spearfish Launcher Array"
+		angle 90
+	gun -82.5 66 "Spearfish Launcher Array"
+		angle -90
+	engine 46.5 366 
+	engine -46.5 366 
+	engine -75 359 
+		zoom .7
+	engine 75 359 
+		zoom .7
+	bay "Pocket Light Warship" 0 267 
+		"launch effect" "human internal"
+	bay "Pocket Light Warship" 0 267 
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "Dulle Griet class fast battleship was developed as a solution to very limited production capacity of Canaveral Naval Yard thus another design was drafted up. The fast battleship was designed to be smaller and easier to build allowing more shipyard to build them in times of need. Unlike the Claymore which was designed to take on entire fleet by itself Dulle Griet could serve both as flagship for small patrol and escort for larger carriers like Spetum or Lucerne."
+	description `Dulle Griet class primary armament is the advanced Eteron torpedoes to shatter any opposing warship before whittling the last of them down with 4 dual V85 railgun turrets and array of flakcannons.`
+
+ship "Dulle Griet Class" "Dulle Griet Class (Early)"
+	outfits
+		"AH-5 Eteron Launch System" 8
+		"AH-5 Eteron Torpedo" 80
+		"Heavy Anti-Missile Turret" 6
+		"Anti-Missile Turret" 6
+		"CMX-12 Anti-Missile" 2
+		"BPl-5 Pulsor Turret" 4
+		"EMX-55 Flakcannon Turret" 5
+		"V85 Railgun" 4
+		"V85d Dual Railgun Turret" 4
+		"Spearfish Launcher Array" 8
+		"Spearfish Missile" 64
+		
+		"F450 Neptune Core"
+		"0NF M3 Core Overdriver"
+		"DCB56N Battery Pack" 2
+		"CN729x Battery Pack"
+		"DX-10k Shield Hub"
+		"SX-12 Shield Node"
+		"Liquid Helium Cooler"
+		"Brig"
+		"Laser Rifle" 250
+		"Fragmentation Grenades" 120
+		"Security Station"
+		"Tactical Scanner"
+		
+		"A860 Atomic Thruster"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+
+ship "Grose Bochse Class"
+	plural "Grose Bochse Class"
+	sprite "ship/mgf navy artillerybattleship"
+	thumbnail "thumbnail/mgf navy artillerybattleship thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Navy Cruiser"
+		"cost" 22200000
+		"shields" 25000
+		"hull" 16800
+		"required crew" 220
+		"bunks" 350
+		"mass" 2805
+		"drag" 17.6
+		"heat dissipation" .45
+		"fuel capacity" 800
+		"cargo space" 20
+		"outfit space" 3760
+		"weapon capacity" 2970
+		"engine capacity" 310
+		"vertical launching support" 8
+		"spinal mount" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"ExP314 Railcannon"
+		"Heavy Anti-Missile Turret" 6
+		"Anti-Missile Turret" 6
+		"CMX-12 Anti-Missile" 2
+		"BPl-5 Pulsor Turret" 3
+		"EMX-55 Flakcannon Turret" 3
+		"V85 Railgun" 8
+		"V85d Dual Railgun Turret" 4
+		"Spearfish Launcher Array" 8
+		"Spearfish Missile" 64
+		
+		"F120 Mars Core" 2
+		"0NF M3 Core Overdriver" 2
+		"DCB56N Battery Pack" 2
+		"DX-10k Shield Hub"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Brig"
+		"Laser Rifle" 250
+		"Fragmentation Grenades" 120
+		"Security Station"
+		"Tactical Scanner"
+		
+		"A860 Atomic Thruster"
+		"A520 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+
+	description "Stemming from the same development line the Grose Bochse is designed to fit the ExP314 Railcannon used by Lucerne class and Claymore class but in smaller, cheaper and easier to build frame. With tremendous firepower and range these ships were intended to form the backline of a battle bombarding enemy ships from far beyond their reach."
+
+
+
 ship "Claymore Class"
 	plural "Claymore Class"
 	sprite "ship/mgf navy superbattleship"
@@ -9574,7 +9816,7 @@ ship "F-VC56 Kaga"
 	explode "huge explosion" 30
 	explode "nuke explosion" 3
 	description `Initially a plan pitched to the Republic Navy as they seek a new fleet carrier with enough capacity for 80 fighters now brought back into development as they realized the looming threat of aliens from all sides and funding to spare. Though the original plan was already considerably expensive, the additional development and modernization for new goal rise the cost through the roof.`
-	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort and deterrence with most threat being large pirate fleet (and for advertisement) where it still have to be somewhat economically viable to build and operate. Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with an large array of cutting-edge armaments to out gun any alien warship it may find.`
+	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort (and for advertisement) and deterrence with most threat being large pirate fleet where it still have to be somewhat economically viable to build and operate. Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with a large array of cutting-edge armaments to out gun any alien warship it may find.`
 	
 	#Light-Vessel,Carrier
 ship "L-VC28 Zuikaku"

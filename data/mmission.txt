@@ -600,7 +600,82 @@ event "mgf: Lucerne MkII deployment"
 			"Lance" 6
 			"Cruiser (Mark II)" 6
 			"Combat Drone" 24
-			
+
+mission "MGF: Dulle Griet development begins"
+	landing
+	invisible
+	to offer
+		has "event: mgf: Lucerne MkII development"
+	on offer
+		event "mgf: Dulle Griet development" 660
+		#event "mgf: Grose Bochse development" 720
+	on accept
+		fail
+		
+event "mgf: Dulle Griet development"
+	shipyard "Navy Advanced"
+		#early variant is heavily reliant on battery.
+		"Dulle Griet Class (Early)"
+	outfitter "Navy Advanced"
+		"F120 Mars Core"
+		"F230 Venus Core"
+		"BPl-5 Pulsor Turret"
+		"V85d Dual Railgun Turret"
+	fleet "Large Republic"
+		add variant 10
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 2
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 2
+			"Dulle Griet Class (Early)" 2
+			"Gunboat (Mark II, Pocket)" 4
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 2
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Frigate (Mark II)" 4
+			"Cruiser (Mark II)" 1
+			"Combat Drone" 4
+		add variant 2
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 24
+			"Cruiser (Mark II)" 4
+			"Combat Drone" 16
+			"Culverin Class (Mark II)" 2
+			"Lance" 2
+		add variant 1
+			"Lucerne Class MkII"
+			"Lance" 116
+			"Rondel (Typhoon Bomb)" 100
+			"Frigate (Mark II, Pocket)" 4
+			"Gunboat (Mark II, Pocket)" 4
+			"Rainmaker (Mark II, Pocket)" 4
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+
+event "mgf: Grose Bochse development"
+	shipyard "Navy Advanced"
+		"Grose Bochse Class"
+	fleet "Large Republic"
+		add variant 2
+			"Dulle Griet Class"
+			"Gunboat (Mark II, Pocket)" 2
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
 #===========================NGK
 
 mission "MGF: NGK Exclusive Shipyard Unlock"

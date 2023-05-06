@@ -1003,6 +1003,8 @@ mission "MGF: NGK Corporate Saboteur Arrest"
 	name "Arrest Corporate Saboteur"
 	description `A saboteur was identified to be escaping in a transport named <npc>, disable and board it to arrest the saboteur and bring the to <origin> and receive your payment of <payment>. To accept you need a Brig.`
 	deadline 5
+	repeat
+	job
 	to offer
 		random < 15
 		"reputation: MGF: NGK Hauling" >= 3

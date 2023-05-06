@@ -112,6 +112,7 @@ shipyard developer
 	`DSSN-S90 Lynchyoseu`
 	`DSSN-C40 Dulumi`
 	"F-VC56 Kaga"
+	"Dulle Griet Class"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -279,8 +280,19 @@ outfitter developer
 	"NGK R11 QAS"
 	"MJK S1 Cargo Expansion"
 	"MJK S1 Bunk Dismantling"
+	"Itano SMLS"
+	"Itano Missile Projectile"
+	"BPl-5 Pulsor Turret"
+	"V85d Dual Railgun Turret"
+	"F120 Mars Core"
+	"F230 Venus Core"
+	"F340 Earth Core"
+	"F450 Neptune Core"
+	"F560 Uranus Core"
+	"0NF M3 Core Overdriver"
 	#"X09E Fighter Assembler"
 	#"E1 Lance Blueprint"
+	"MYi2 Railgun Turret"
 	
 outfitter "human plugins"
 	"Atesac Plasma Cannon"
@@ -547,6 +559,7 @@ shipyard "Navy Basics"
 shipyard "Navy Advanced"
 	"Culverin Class"
 	"Spetum Class"
+	#"Dulle Griet Class"
 	
 shipyard "Navy Advanced EX"
 	"Lucerne Class"

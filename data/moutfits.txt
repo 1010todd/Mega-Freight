@@ -887,7 +887,7 @@ outfit "V85 Railgun"
 		"velocity" 85
 		"lifetime" 20
 		"reload" 132
-		"firing energy" 1250
+		"firing energy" 785
 		"firing heat" 1480
 		"hit force" 310
 		"shield damage" 825
@@ -918,14 +918,60 @@ outfit "V85 Railgun Turret"
 		"velocity" 85
 		"lifetime" 20
 		"reload" 132
-		"firing energy" 1250
+		"firing energy" 785
 		"firing heat" 1480
 		"hit force" 300
 		"shield damage" 825
 		"hull damage" 1286
 		"piercing" .02
 	description "Large anti-capital turret that can fire projectiles at extremely high velocity consuming enormous amount of power."
-	
+
+outfit "V85d Dual Railgun Turret"
+	category "Turrets"
+	cost 2900000
+	licenses
+		"Navy"
+	thumbnail "outfit/mgf v85 dual turret"
+	"mass" 248
+	"outfit space" -248
+	"weapon capacity" -248
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		#sprite "projectile/railgun v85 beam"
+		"hardpoint sprite" "hardpoint/mgf v85 dual turret hardpoint"
+		"hardpoint offset" 10.
+		sound "v85 railgun"
+		"hit effect" "v85 railgun hit"
+		"fire effect" "v85 railgun fire"
+		"submunition" "V85 Railgun Projectile"
+			offset 3 0
+		"submunition" "V85 Railgun Projectile"
+			offset -3 0
+		"inaccuracy" 0
+		"turret turn" .8
+		"velocity" 1
+		"velocity override" 85
+		"lifetime" 1
+		"reload" 132
+		"firing energy" 1570
+		"firing heat" 2880
+		"hit force" 300
+		"piercing" .02
+	description `Two V85 railgun mounted on a turret to provide a powerful anti-captial weapon.`
+
+outfit "V85 Railgun Projectile"
+	weapon
+		sprite "projectile/railgun v85 beam"
+		"hit effect" "v85 railgun hit"
+		"inaccuracy" .1
+		"velocity" 84
+		"lifetime" 20
+		"hit force" 300
+		"shield damage" 825
+		"hull damage" 1286
+		"piercing" .02
+
 effect "exp314 railcannon fire"
 	sprite "effect/exp314 fire"
 		"no repeat"
@@ -1112,14 +1158,43 @@ outfit "EMX-55 Flakcannon Turret"
 		"firing energy" 122
 		"firing heat" 100
 		"hit force" 50
-		"shield damage" 355
-		"hull damage" 98
+		"shield damage" 78
+		"hull damage" 38
 		"ion damage" .05
 		"blast radius" 70
 		"trigger radius" 40
 		"safe"
-	description "Anti-swarm flakcannon"
+	description "Anti-swarm flakcannon turret developed for the new navy warship. "
 	
+outfit "BPl-5 Pulsor Turret"
+	category "Turrets"
+	cost 650000
+	thumbnail "outfit/electron turret"
+	"mass" 32
+	"outfit space" -32
+	"weapon capacity" -32
+	"turret mounts" -1
+	weapon
+		sprite "projectile/mgf pulsor beam"
+			"frame rate" 7
+			"start frame" 0
+		sound "electron beam"
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hardpoint offset" 2.
+		"hit effect" "electron impact"
+		"inaccuracy" .2
+		"velocity" 530
+		"turret turn" 5.8
+		"lifetime" 1
+		"burst count" 15
+		"burst reload" 1
+		"reload" 12
+		"firing energy" 40
+		"firing heat" 120
+		"shield damage" 38
+		"hull damage" 49
+	description "Due to critical lack of range making beam weapons simply impractical on larger warships Deep Sky labs developed a new system to improve the range of their existing technology by focusing the power into shorter burst. Though far less efficient and still cannot match the range of other weapon systems like particle or proton it is still enough while also coming in a smaller package mounting only single gun on the turret."
+
 outfit "ERS-22 Electronic Warfare"
 	category "Turrets"
 	cost 1280000
@@ -1785,7 +1860,7 @@ outfit "AH-5 Eteron Launch System"
 		"velocity" 1.5
 		"range override" 10000
 		"lifetime" 250
-		"reload" 120
+		"reload" 360
 		"firing energy" 10
 		"firing heat" 56
 		"acceleration" .4
@@ -1971,8 +2046,74 @@ outfit "MYi2 Railgun Turret"
 		"submunition" "rslug" 1
 	description `Turreted version of the Hai Railgun for ships with some left over space and a turret mount free.`
 	
+outfit "F120 Mars Core"
+	category "Power"
+	cost 12000000
+	thumbnail "outfit/fusion"
+	"mass" 112
+	"outfit space" -112
+	"energy generation" 21.2
+	"heat generation" 42
+	"0NF overdrive port" 1
+	description `New breakthrough in fusion technology as result of more funding see both reduction in size and improvement in efficiency in the latest reactor first deployed by the Navy.`
 	
-	
+outfit "F230 Venus Core"
+	category "Power"
+	cost 14000000
+	thumbnail "outfit/fusion"
+	"mass" 123
+	"outfit space" -123
+	"energy generation" 23.55
+	"heat generation" 45
+	"0NF overdrive port" 1
+	description `Bigger version of the Mars Core with better efficiency.`
+
+outfit "F340 Earth Core"
+	category "Power"
+	cost 18000000
+	thumbnail "outfit/fusion"
+	"mass" 147
+	"outfit space" -147
+	"energy generation" 35.7
+	"heat generation" 48
+	"0NF overdrive port" 1
+	description ``
+
+outfit "F450 Neptune Core"
+	category "Power"
+	cost 22000000
+	thumbnail "outfit/fusion"
+	"mass" 195
+	"outfit space" -195
+	"energy generation" 42.4
+	"heat generation" 51
+	"0NF overdrive port" 2
+	description `Neptune Core is part of the new generation of warship reactors made in various size to allow maximum flexibility when refitting ships. Larger of the cores can support up to two overdriver.`
+
+outfit "F560 Uranus Core"
+	category "Power"
+	cost 25000000
+	thumbnail "outfit/fusion"
+	"mass" 242
+	"outfit space" -242
+	"energy generation" 52.9
+	"heat generation" 56
+	"0NF overdrive port" 2
+
+outfit "0NF M3 Core Overdriver"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/dwarf core"
+	licenses
+		Navy
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 14
+	"heat generation" 68
+	"cooling inefficiency" .1
+	"0NF overdrive port" -1
+	description `In order to meet the power requirement of the new weapons the Navy developed an addon to overdrive their new cores for significantly more power at cost of extreme amount of heat.`
+
 outfit "MX30 Sirius Core"
 	category "Power"
 	cost 90000000
@@ -2004,6 +2145,28 @@ outfit "CN729x Battery Pack"
 	"energy capacity" 163000
 	description "A massive battery for massive ship with improved energy density over standard LP batteries by employing new technologies that was recently proven to be reliable enough for use in warships."
 	
+outfit "DX-10k Shield Hub"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/huge shield"
+	"mass" 100
+	"outfit space" -100
+	"shield generation" 2.1
+	"shield energy" 2.1
+	"shield node" 4
+	description "A smaller shield hub devloped for the new warships to provide improved shield generation over the old D94-YV."
+
+outfit "DX-20k Shield Hub"
+	category "Systems"
+	cost 2600000
+	thumbnail "outfit/huge shield"
+	"mass" 200
+	"outfit space" -200
+	"shield generation" 4.3
+	"shield energy" 4.3
+	"shield node" 8
+	description ""
+
 outfit "DX-30k Shield Hub"
 	category "Systems"
 	cost 3800000
@@ -2347,6 +2510,18 @@ outfit "DCB28N Battery Pack"
 	"ion protection" .1
 	"energy protection" .75
 	description "Though not the most energy-dense battery it's highly resistant and durable enough as a reliable backup power. Because of low demand for such specialization in general it's not sold individually but occasionally comes with a specialized ship."
+
+outfit "DCB56N Battery Pack"
+	category "Power"
+	cost 88000
+	thumbnail "outfit/large battery"
+	"mass" 70
+	"outfit space" -70
+	"energy capacity" 21500
+	"ion resistance" .03
+	"ion protection" .2
+	"energy protection" 1.5
+	description ""
 
 outfit "M-type 1k Gas Tank"
 	category "Systems"
