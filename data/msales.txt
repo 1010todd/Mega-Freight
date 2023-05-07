@@ -113,6 +113,7 @@ shipyard developer
 	`DSSN-C40 Dulumi`
 	"F-VC56 Kaga"
 	"Dulle Griet Class"
+	"Grose Bochse Class"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -560,6 +561,7 @@ shipyard "Navy Advanced"
 	"Culverin Class"
 	"Spetum Class"
 	#"Dulle Griet Class"
+	#"Grose Bochse Class"
 	
 shipyard "Navy Advanced EX"
 	"Lucerne Class"

@@ -4777,18 +4777,17 @@ ship "Grose Bochse Class"
 			"Navy Cruiser"
 		"cost" 22200000
 		"shields" 25000
-		"hull" 16800
+		"hull" 16200
 		"required crew" 220
-		"bunks" 350
-		"mass" 2805
+		"bunks" 330
+		"mass" 3185
 		"drag" 17.6
-		"heat dissipation" .45
+		"heat dissipation" .42
 		"fuel capacity" 800
 		"cargo space" 20
-		"outfit space" 3760
-		"weapon capacity" 2970
+		"outfit space" 3780
+		"weapon capacity" 2980
 		"engine capacity" 310
-		"vertical launching support" 8
 		"spinal mount" 1
 		weapon
 			"blast radius" 300
@@ -4796,23 +4795,19 @@ ship "Grose Bochse Class"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"ExP314 Railcannon"
-		"Heavy Anti-Missile Turret" 6
+		"ExP252 Railcannon"
+		"Heavy Anti-Missile Turret" 4
 		"Anti-Missile Turret" 6
-		"CMX-12 Anti-Missile" 2
-		"BPl-5 Pulsor Turret" 3
-		"EMX-55 Flakcannon Turret" 3
-		"V85 Railgun" 8
-		"V85d Dual Railgun Turret" 4
-		"Spearfish Launcher Array" 8
-		"Spearfish Missile" 64
+		"CMX-12 Anti-Missile" 4
+		"BPl-5 Pulsor Turret" 4
+		"EMX-55 Flakcannon Turret" 2
+		"V85d Dual Railgun Turret" 2
 		
-		"F120 Mars Core" 2
+		"F450 Neptune Core"
 		"0NF M3 Core Overdriver" 2
 		"DCB56N Battery Pack" 2
 		"DX-10k Shield Hub"
-		"Large Radar Jammer"
-		"Liquid Nitrogen Cooler"
+		"Liquid Helium Cooler"
 		"Brig"
 		"Laser Rifle" 250
 		"Fragmentation Grenades" 120
@@ -4820,11 +4815,45 @@ ship "Grose Bochse Class"
 		"Tactical Scanner"
 		
 		"A860 Atomic Thruster"
-		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
 		"A865 Atomic Steering"
 		"Hyperdrive"
 
-	description "Stemming from the same development line the Grose Bochse is designed to fit the ExP314 Railcannon used by Lucerne class and Claymore class but in smaller, cheaper and easier to build frame. With tremendous firepower and range these ships were intended to form the backline of a battle bombarding enemy ships from far beyond their reach."
+	gun 0 -349 
+
+	turret -18 -239.5 "Heavy Anti-Missile Turret"
+	turret 18 -239.5 "Heavy Anti-Missile Turret"
+	turret -18 -223 "CMX-12 Anti-Missile"
+	turret 18 -223 "CMX-12 Anti-Missile"
+
+	turret -32 -25 "BPl-5 Pulsor Turret" 
+	turret 32 -25 "BPl-5 Pulsor Turret" 
+	turret -32 -10 "Heavy Anti-Missile Turret"
+	turret 32 -10 "Heavy Anti-Missile Turret"
+	turret -32 6 "EMX-55 Flakcannon Turret"
+	turret 32 6 "EMX-55 Flakcannon Turret"
+
+	turret -32 57.5 
+	turret 32 57.5 
+	turret -32 73 "CMX-12 Anti-Missile"
+	turret 32 73 "CMX-12 Anti-Missile"
+	turret -32 89 
+	turret 32 89 
+
+	turret -19.5 283.5 "BPl-5 Pulsor Turret"
+	turret 19.5 283.5 "BPl-5 Pulsor Turret"
+	turret -19.5 300 "Anti-Missile Turret"
+	turret 19.5 300 "Anti-Missile Turret"
+	#large turret
+	turret 0 -198 "V85d Dual Railgun Turret"
+	turret 0 -58 "V85d Dual Railgun Turret"
+	engine 46.5 366 
+	engine -46.5 366 
+	engine -75 359 
+		zoom .7
+	engine 75 359 
+		zoom .7
+	description "Stemming from the same development line the Grose Bochse is designed to fit the ExP302 Railcannon, a slightly smaller version of the Railcannon used by Lucerne class and Claymore class now build into a smaller, cheaper, and easier to build frame. With tremendous firepower and range these ships were intended to form the backline of a battle bombarding enemy ships from far beyond their reach."
 
 
 

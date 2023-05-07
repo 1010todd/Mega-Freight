@@ -666,13 +666,36 @@ event "mgf: Dulle Griet development"
 			"Cruiser (Mark II)" 6
 			"Combat Drone" 24
 
+mission "MGF: Grose Bochse development begins"
+	landing
+	invisible
+	to offer
+		has "event: mgf: Dulle Griet development"
+	on offer
+		event "mgf: Grose Bochse development" 360
+	on accept
+		fail
+
+#Todo Grose Bochse full deployment (in pairs accompanying carriers)
 event "mgf: Grose Bochse development"
 	shipyard "Navy Advanced"
 		"Grose Bochse Class"
 	fleet "Large Republic"
 		add variant 2
-			"Dulle Griet Class"
+			"Dulle Griet Class (Early)"
 			"Gunboat (Mark II, Pocket)" 2
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 2
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 3
+			"Combat Drone" 12
+		add variant 2
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 24
 			"Grose Bochse Class"
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
