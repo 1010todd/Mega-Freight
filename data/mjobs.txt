@@ -7050,8 +7050,9 @@ mission "MGF: Landed Rollercoaster (rich urban) [0]"
 	repeat
 	to offer
 		random < 80
-	on offer
 		has "outfit (installed): CR-3 Rollercoaster"
+	on offer
+		
 		payment 1900
 	source
 		attributes "rich" "urban"
@@ -7064,8 +7065,9 @@ mission "MGF: Landed Rollercoaster (rich urban) [1]"
 	repeat
 	to offer
 		random < 60
-	on offer
 		has "outfit (installed): CR-3 Rollercoaster"
+	on offer
+		
 		payment 1800
 	source
 		attributes "rich" "urban"
@@ -7076,10 +7078,11 @@ mission "MGF: Landed Rollercoaster (rich urban) [1]"
 mission "MGF: Landed Rollercoaster (rich urban) [2]"
 	landing
 	repeat
+	invisible
 	to offer
 		random < 40
-	on offer
 		has "outfit (installed): CR-3 Rollercoaster"
+	on offer
 		payment 800
 	source
 		attributes "rich" "urban"
@@ -7090,10 +7093,11 @@ mission "MGF: Landed Rollercoaster (rich urban) [2]"
 mission "MGF: Landed Designer Rollercoaster (rich urban) [0]"
 	landing
 	repeat
+	invisible
 	to offer
 		random < 80
-	on offer
 		has "outfit (installed): D-UQ-3 Rollercoaster"
+	on offer
 		payment 5600
 	source
 		attributes "rich" "urban"
@@ -7106,8 +7110,8 @@ mission "MGF: Landed Designer Rollercoaster (human all) [0]"
 	repeat
 	to offer
 		random < 60
-	on offer
 		has "outfit (installed): D-UQ-3 Rollercoaster"
+	on offer
 		payment 1800
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7116,14 +7120,16 @@ mission "MGF: Landed Designer Rollercoaster (human all) [0]"
 
 mission "MGF: Landed Designer Rollercoaster (hai first time)"
 	landing
+	invisible
 	to offer
 		random < 80
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
 		government "Hai"
 	on accept
 		fail
 	on offer
-		has "outfit (installed): D-UQ-3 Rollercoaster"
+		
 		payment 8600
 		conversation
 			`Shortly after landing you found some Hai walking up to you asking about the uniquely designed rollercoaster on your ship and if they could ride it, of course they've prepared payment for the ride. Looking around you estimated that you could get at least 2000 credits here, possibly much more if you leave it open for longer.`
@@ -7141,11 +7147,13 @@ mission "MGF: Landed Designer Rollercoaster (hai first time)"
 mission "MGF: Landed Designer Rollercoaster (hai all) [0]"
 	landing
 	repeat
+	invisible
 	to offer
+		has "outfit (installed): D-UQ-3 Rollercoaster"
 		has "MGF: Landed Designer Rollercoaster (hai first time): done"
 		random < 80
 	on offer
-		has "outfit (installed): D-UQ-3 Rollercoaster"
+		
 		payment 8600
 	source
 		government "Hai"
@@ -7162,7 +7170,6 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [0]"
 	passengers 3 10 .8
 	to offer
 		random < 80
-	on offer
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): CR-3 Rollercoaster"
 	source
@@ -7186,7 +7193,6 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [1]"
 	passengers 3 10 .8
 	to offer
 		random < 75
-	on offer
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): CR-3 Rollercoaster"
 	source
@@ -7210,7 +7216,6 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [2]"
 	passengers 3 10 .75
 	to offer
 		random < 70
-	on offer
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): CR-3 Rollercoaster"
 	source
@@ -7234,7 +7239,6 @@ mission "MGF: Extra Wealthy Tourist Rollercoaster [3]"
 	passengers 3 10 .7
 	to offer
 		random < 60
-	on offer
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): CR-3 Rollercoaster"
 	source
@@ -7260,7 +7264,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [0]"
 	passengers 3 10 .6
 	to offer
 		random < 90
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
@@ -7284,7 +7288,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [1]"
 	passengers 3 10 .7
 	to offer
 		random < 80
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
@@ -7308,7 +7312,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [2]"
 	passengers 3 10 .6
 	to offer
 		random < 75
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
@@ -7332,7 +7336,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [3]"
 	passengers 3 10 .6
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
@@ -7356,7 +7360,7 @@ mission "MGF: Extra Wealthy Tourist Designer Rollercoaster [4]"
 	passengers 3 10 .6
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): D-UQ-3 Rollercoaster"
 	source
@@ -7384,7 +7388,7 @@ mission "MGF: Extra Tourists out Compact Pool [0]"
 	passengers 1
 	to offer
 		random < 25
-	on offer
+
 		has "outfit (installed): Elion Compact Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7407,7 +7411,7 @@ mission "MGF: Extra Tourists out Compact Pool [1]"
 	passengers 2 10 .8
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Elion Compact Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7432,7 +7436,7 @@ mission "MGF: Extra Tourists out Medium Pool [0]"
 	passengers 1
 	to offer
 		random < 30
-	on offer
+
 		has "outfit (installed): Elion Medium Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7455,7 +7459,7 @@ mission "MGF: Extra Tourists out Medium Pool [1]"
 	passengers 2 10 .8
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Elion Medium Pool"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -7478,7 +7482,7 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [0]"
 	passengers 2 10 .75
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7502,7 +7506,7 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [1]"
 	passengers 2 10 .75
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7526,7 +7530,7 @@ mission "MGF: Extra Wealthy Tourist Medium Pool [2]"
 	passengers 2 10 .7
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7550,7 +7554,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [0]"
 	passengers 2 10 .7
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7574,7 +7578,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [1]"
 	passengers 2 10 .7
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7598,7 +7602,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Pool [2]"
 	passengers 2 10 .7
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Medium Pool"
 	source
@@ -7624,7 +7628,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [0]"
 	passengers 2 10 .8
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7648,7 +7652,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [1]"
 	passengers 2 10 .75
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7672,7 +7676,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [2]"
 	passengers 2 10 .75
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7696,7 +7700,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [3]"
 	passengers 2 10 .7
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7720,7 +7724,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [4]"
 	passengers 2 10 .6
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7744,7 +7748,7 @@ mission "MGF: Extra Wealthy Tourist Large Pool [5]"
 	passengers 2 10 .6
 	to offer
 		random < 45
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -7770,7 +7774,7 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [0]"
 	passengers 2 10 .6
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -7794,7 +7798,7 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [1]"
 	passengers 2 10 .6
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -7818,7 +7822,7 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [2]"
 	passengers 2 10 .5
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -7842,7 +7846,7 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [3]"
 	passengers 2 10 .6
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -7866,7 +7870,7 @@ mission "MGF: Extra Wealthy Tourist Huge Pool [4]"
 	passengers 2 10 .6
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -7892,7 +7896,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [0]"
 	passengers 2 10 .5
 	to offer
 		random < 75
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -7916,7 +7920,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [1]"
 	passengers 2 10 .5
 	to offer
 		random < 73
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -7940,7 +7944,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [2]"
 	passengers 2 10 .5
 	to offer
 		random < 71
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -7964,7 +7968,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [3]"
 	passengers 2 10 .5
 	to offer
 		random < 68
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -7988,7 +7992,7 @@ mission "MGF: Extra Wealthy Tourist Large Exotic Pool [4]"
 	passengers 2 10 .4
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -8014,7 +8018,7 @@ mission "MGF: Extra Transport Large Pool [0]"
 	passengers 2 10 .6
 	to offer
 		random < 40
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -8038,7 +8042,7 @@ mission "MGF: Extra Transport Large Pool [1]"
 	passengers 2 10 .6
 	to offer
 		random < 30
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Pool"
 	source
@@ -8064,7 +8068,7 @@ mission "MGF: Extra Transport Huge Pool [0]"
 	passengers 2 10 .6
 	to offer
 		random < 45
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -8088,7 +8092,7 @@ mission "MGF: Extra Transport Huge Pool [1]"
 	passengers 2 10 .6
 	to offer
 		random < 35
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Huge Pool"
 	source
@@ -8114,7 +8118,7 @@ mission "MGF: Extra Transport Large Exotic Pool [0]"
 	passengers 2 10 .5
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -8138,7 +8142,7 @@ mission "MGF: Extra Transport Large Exotic Pool [1]"
 	passengers 2 10 .5
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): Elion Large Exotic Pool"
 	source
@@ -8164,9 +8168,9 @@ mission "MGF: Extra Wealthy Tourist Large Casino [0]"
 	passengers 2 10 .8
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
-		require "IrdaSys Large Casino"
+		has "outfit (installed): IrdaSys Large Casino"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8192,7 +8196,7 @@ mission "MGF: Extra Wealthy Tourist Large Casino [1]"
 		random < 30
 	on offer
 		has "outfit (installed): Luxury Accommodations"
-		require "IrdaSys Large Casino"
+		has "outfit (installed): IrdaSys Large Casino"
 	source
 		attributes "rich" "urban"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8220,7 +8224,7 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [0]"
 	passengers 2 10 .9
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8244,7 +8248,7 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [1]"
 	passengers 2 10 .9
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8268,7 +8272,7 @@ mission "MGF: Extra Wealthy Tourist Compact Cinema [2]"
 	passengers 2 10 .9
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8292,7 +8296,7 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [0]"
 	passengers 2 10 .9
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8316,7 +8320,7 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [1]"
 	passengers 2 10 .9
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8340,7 +8344,7 @@ mission "MGF: Extra Wealthy Tourist back Compact Cinema [2]"
 	passengers 2 10 .9
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Compact Cinema"
 	source
@@ -8366,7 +8370,7 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [0]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8390,7 +8394,7 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [1]"
 	passengers 2 10 .8
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8414,7 +8418,7 @@ mission "MGF: Extra Wealthy Tourist Medium Cinema [2]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8438,7 +8442,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [0]"
 	passengers 2 10 .8
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8462,7 +8466,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [1]"
 	passengers 2 10 .8
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8486,7 +8490,7 @@ mission "MGF: Extra Wealthy Tourist back Medium Cinema [2]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Medium Cinema"
 	source
@@ -8512,7 +8516,7 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [0]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8536,7 +8540,7 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [1]"
 	passengers 2 10 .8
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8560,7 +8564,7 @@ mission "MGF: Extra Wealthy Tourist Large Cinema [2]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8584,7 +8588,7 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [0]"
 	passengers 2 10 .8
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8608,7 +8612,7 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [1]"
 	passengers 2 10 .8
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8632,7 +8636,7 @@ mission "MGF: Extra Wealthy Tourist back Large Cinema [2]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large Cinema"
 	source
@@ -8658,7 +8662,7 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [0]"
 	passengers 2 10 .7
 	to offer
 		random < 65
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
@@ -8682,7 +8686,7 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [1]"
 	passengers 2 10 .7
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
@@ -8706,7 +8710,7 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [2]"
 	passengers 2 10 .7
 	to offer
 		random < 55
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
@@ -8730,7 +8734,7 @@ mission "MGF: Extra Wealthy Tourist Large XMAX Cinema [3]"
 	passengers 2 10 .6
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
@@ -8754,7 +8758,7 @@ mission "MGF: Extra Wealthy Tourist back Large XMAX Cinema [0]"
 	passengers 2 10 .7
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): Luxury Accommodations"
 		has "outfit (installed): IrdaSys Large XMAX Cinema"
 	source
@@ -8780,7 +8784,7 @@ mission "MGF: well-off tourists out [0]"
 	passengers 2 10 .8
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
@@ -8803,7 +8807,7 @@ mission "MGF: well-off tourists out [1]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "rich" "urban"
@@ -8826,7 +8830,7 @@ mission "MGF: well-off tourists back [0]"
 	passengers 2 10 .8
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
@@ -8849,7 +8853,7 @@ mission "MGF: well-off tourists back [1]"
 	passengers 2 10 .8
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "tourism"
@@ -8873,7 +8877,7 @@ mission "MGF: transport businessman [0]"
 	passengers 1 4 .5
 	to offer
 		random < 70
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
@@ -8897,7 +8901,7 @@ mission "MGF: transport businessman [1]"
 	passengers 1 4 .5
 	to offer
 		random < 60
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
@@ -8921,7 +8925,7 @@ mission "MGF: transport businessman [2]"
 	passengers 1 4 .5
 	to offer
 		random < 30
-	on offer
+
 		has "outfit (installed): AJ-5 Business-class Suite"
 	source
 		attributes "urban"
@@ -8946,7 +8950,7 @@ mission "MGF: Extra Transport miners Small Bar"
 	passengers 2 2 .8
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Dalmod Small Bar"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -8969,7 +8973,7 @@ mission "MGF: Extra Transport miners Basic Bar"
 	passengers 2 2 .8
 	to offer
 		random < 50
-	on offer
+
 		has "outfit (installed): Dalmod Basic Bar"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
