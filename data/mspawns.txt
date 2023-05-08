@@ -782,6 +782,50 @@ event "mgf: mieusbar released"
 			"TS-1L260 Mieusbar"
 			"Quicksilver" 3
 			
+event "mgf: g-class released"
+	date 1 3 3014
+	shipyard "Syndicate Basics"
+		add "UA-10 Porter"
+	shipyard "Syndicate Advanced"
+		add "G-Class Container Transport"
+	fleet "Large Southern Merchants"
+		add variant 2
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Splinter"
+	fleet "Large Core Merchants"
+		add variant 5
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Quicksilver" 3
+		add variant 4
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Splinter"
+		add variant 4
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Wasp (Proton)" 3
+		add variant 4
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Vanguard" 1
+		add variant 3
+			"G-Class Container Transport" 2
+			"UA-10 Porter" 4
+			"Vanguard" 1
+			"Quicksilver" 2
+		add variant 3
+			"G-Class Container Transport" 2
+			"UA-10 Porter" 4
+			"Vanguard" 1
+			"Splinter"
+	fleet "Large Northern Merchants"
+		add variant 3
+			"G-Class Container Transport"
+			"UA-10 Porter" 2
+			"Splinter"
+
 event "mgf: ialmuslati released"
 	date 6 10 3014
 	shipyard "Betelgeuse Advanced"

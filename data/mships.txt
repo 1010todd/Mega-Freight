@@ -10893,6 +10893,114 @@ ship `DSSN-C40 Dulumi`
 	"final explode" "final explosion large"
 	description `Dulumi is a purpose-built boat and yacht carrier with single large bay that can hold most yacht except the very largest ones. The ship is also designed to park in the water where its cargo can be loaded and unloaded with ease along with automatic adaptive support system to hold the boats up as the water is drained. It also have fancy passenger accomodation like mini cruise liner to also transport owner and crew of these yacht as well as other passenger heading the same way.`
 
+ship "G-Class Container Transport"
+	sprite "ship/mgf gclass container transport"
+	thumbnail "thumbnail/mgf gclass container transport thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 14200000
+		"shields" 7800
+		"hull" 10000
+		"required crew" 8
+		"bunks" 20
+		"mass" 2890
+		"drag" 17.6
+		"heat dissipation" .55
+		"fuel capacity" 1200
+		"cargo space" 1650
+		"outfit space" 510
+		"weapon capacity" 220
+		"engine capacity" 140
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D23-QP Shield Generator"
+		"Laser Rifle" 3
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2
+		"Scram Drive"
+		
+	bay "Drone" 41.5 -162.5 
+		angle 90
+		"launch effect" "human internal"
+	bay "Drone" -41.5 -162.5 
+		angle -90
+		"launch effect" "human internal"
+	engine -20 196 
+		zoom .7
+	engine 20 196 
+		zoom .7
+	engine -32 196 
+		zoom .7
+	engine 32 196 
+		zoom .7
+	engine -38 196 
+		zoom .7
+	engine 38 196
+		zoom .7
+	gun -23.5 -182
+	gun 23.5 -182
+	turret 0 -90.5
+	turret 0 -40.5 "Heavy Anti-Missile Turret"
+	turret 0 9.5
+	turret 0 59.5 "Heavy Anti-Missile Turret"
+	turret 0 109
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `To compete with the newer, more modern heavy freighters dominating the market the Syndicate stacked their Container Transport into a huge Heavy Container Transport tripling capacity but also slowing it down even further from its already despised slug-pace. Though with barely any additional crew requirement from its predecessor the G-Class Container Transport cargo-to-crew ratio is absolutely unmatched.`
+	description `Though still not the most capacious in the area it instead can also carry drones to either defend itself or assist during unloading operation in less-equipped ports.`
+
+ship "UA-10 Porter"
+	sprite "ship/mgf porter"
+	thumbnail "thumbnail/mgf porter thumb"
+	attributes
+		category "Drone"
+		"cost" 60000
+		"hull" 300
+		"automaton" 1
+		"mass" 20
+		"drag" .5
+		"heat dissipation" .9
+		"outfit space" 64
+		"weapon capacity" 16
+		"engine capacity" 22
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		
+		"X1050 Ion Engines"
+		
+	turret 0 -9 
+	engine -11.5 -3.5 
+	engine 11.5 -3.5 
+	explode "tiny explosion" 15
+	description `The Porter is a small drone for assisting in cargo unloading operation of the Syndicate new freighter the G-Class especially on less equipped worlds. It is also minimally equipped with an anti-missile turret to assist in defense as merchants often deploy their all their fighters and drones in combat, even if those ships would be useless.`
+
 ship "AKH-8 Mlitgante"
 	sprite "ship/mgf mlitgante"
 	thumbnail "thumbnail/mgf mlitgante thumb"

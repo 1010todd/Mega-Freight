@@ -114,6 +114,8 @@ shipyard developer
 	"F-VC56 Kaga"
 	"Dulle Griet Class"
 	"Grose Bochse Class"
+	"G-Class Container Transport"
+	"UA-10 Porter"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
