@@ -2184,6 +2184,50 @@ ship "E-VC14 Zuiho" "E-VC14 Zuiho (Advanced)"
 		"A520 Atomic Thruster"
 		"Scram Drive"
 
+ship "E-VC14 Zuiho" "E-VC14 Zuiho (Advanced, Itano)"
+	add attributes
+		"shields" 300
+		"hull" 100
+		"required crew" 12
+		"bunks" -20
+		"heat dissipation" .05
+		"hull repair rate" .05
+		"outfit space" 20
+		"cargo space" -20
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Itano SMLS" 2
+		"Itano SMLS Pod" 6
+		"Itano Missile" 120
+		"Itano Missile" 72
+		"K3-K-S Particle Turret" 6
+		"Anti-Missile Turret" 2
+		
+		"Akataiyo Fusion Reactor"
+		"Ta-class Energy Module" 12
+		"S-970 Regenerator" 2
+		"Liquid Helium Cooler"
+		"NGK R11 Rifle" 80
+		"NGK R11 QAS" 60
+		"NGK R11 Grip" 20
+		"NGK R11 Bipod" 20
+		
+		"A375 Atomic Steering"
+		"A520 Atomic Thruster"
+		"Scram Drive"
+	
+	gun "Itano SMLS"
+	gun "Itano SMLS"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Itano SMLS Pod"
+	gun "Itano SMLS Pod"
+	gun "Itano SMLS Pod"
+	gun "Itano SMLS Pod"
+	gun "Itano SMLS Pod"
+	gun "Itano SMLS Pod"
+
 ship "F-VC56 Kaga" "F-VC56 Kaga (Early)" #full release should have better engines at very least?
 	outfits
 		"Torpedo Launcher" 4

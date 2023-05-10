@@ -904,6 +904,43 @@ event "mgf: early kaga deployed"
 			"F-VC56 Kaga (Early)"
 			"S-FS06 Reisen (Refined I)" 90
 
+mission `MGF: Zuiho Itano Upgrade`
+	invisible
+	landing
+	to offer
+		has "event: mgf: early kaga deployed"
+	on offer
+		event "mgf: zuiho itano upgrade" 60
+	on accept
+		fail
+
+event "mgf: zuiho itano upgrade"
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced, Itano)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+			"F-VC56 Kaga (Early)"
+			"S-FS06 Reisen (Refined I)" 90
+
+	fleet "NGK Hauling RORO"
+		add variant 10
+			"LVC-2 Sandura (NGK, Turret Upgrade)" 
+			"Leviathan (NGK Escort)"
+			"E-VC14 Zuiho (Advanced, Itano)"
+			"Xencar (NGK)" 10
+			
 #=============================ESPION
 
 mission "MGF: Espion co. job ad"

@@ -116,6 +116,8 @@ shipyard developer
 	"Grose Bochse Class"
 	"G-Class Container Transport"
 	"UA-10 Porter"
+	"E-VC14 Zuiho (Advanced, Itano)"
+	"H-Class Super Container Ship"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -409,6 +411,7 @@ shipyard "Syndicate Advanced"
 	"CDB-6K Jupiter"
 	"CDB-12K Saturn"
 	`DSSN-S90 Lynchyoseu`
+	#"H-Class Super Container Ship"
 	
 shipyard "Megaparsec Basic"
 	"QYG-30 Qazan"

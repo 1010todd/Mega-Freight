@@ -959,6 +959,91 @@ event "MGF: Solacer Upgrade I"
 			"QYG-70r Tonazqi"
 			"Hawk" 2
 			
+event "mgf: h-class development"
+	date 2 5 3020 # 6 years after G-class
+
+mission "MGF: H-Class on sale"
+	landing
+	invisible
+	to offer
+		has "event: mgf: h-class development"
+		or
+			#Won't offer during the war
+			not "Liberate Kornephoros: offered"
+			has "main plot completed"
+	on offer
+		event "mgf: h-class on sale"
+
+event "mgf: h-class on sale"
+	shipyard "Syndicate Advanced"
+		"H-Class Super Container Ship"
+	fleet "Large Core Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Vanguard"
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"CSE-6 Steward"
+			"Lance" 6
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Vanguard"
+			"Splinter" 2
+		add variant 4
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Splinter" 2
+	fleet "Large Northern Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Firebird" 2
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Leviathan"
+		add variant 2
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Vanguard"
+			"Splinter" 2
+		add variant 4
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Corvette" 2
+			"Raven"
+
+	fleet "Large Southern Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Falcon"
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"CSE-6 Steward"
+			"Lance" 6
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Falcon"
+			"Bastion" 2
+		add variant 3
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"Falcon" 2
+
+	fleet "NGK Hauling HeavyFreight"
+		add variant 10
+			"H-Class Super Container Ship" 2
+			"UA-10 Porter" 128
+			"Leviathan (NGK Escort)"
+			"L-VC28 Zuikaku"
+			"Xencar (NGK)" 20
+
 #=========================Event Additions
 
 

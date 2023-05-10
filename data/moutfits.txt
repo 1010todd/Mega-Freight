@@ -2055,6 +2055,45 @@ outfit "Itano Missile Projectile"
 		"hit force" 20
 		"missile strength" 6
 
+outfit "Itano SMLS Pod"
+	category "Secondary Weapons"
+	cost 32000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 1
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	"itano missile capacity" 12
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Itano Missile" 2
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		submunition "Itano Missile Projectile"
+			offset 1.5 0
+		submunition "Itano Missile Projectile"
+			offset -1.5 1
+		"inaccuracy" 4
+		"velocity" 3
+		"velocity override" 14
+		"range override" 2900
+		"burst count" 6
+		"burst reload" 3
+		"reload" 100
+		"firing energy" 2
+		"firing heat" 25
+		"acceleration" .3
+		"drag" .021
+		"turn" 4
+		"homing" 4
+		"cluster"
+	description `Smaller version of the Itano SMLS for installing on ships with limited space.`
+
 outfit "MYi2 Railgun Turret"
 	category "Secondary Weapons"
 	cost 65000

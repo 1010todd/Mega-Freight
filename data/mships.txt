@@ -4888,6 +4888,7 @@ ship "Claymore Class"
 		"heat capacity" 120000
 		"active cooling" 250
 		"ion protection" 2
+		"scrambling protection" 2
 		weapon
 			"blast radius" 3000
 			"shield damage" 8000
@@ -5135,6 +5136,7 @@ ship "Lucerne Class"
 		"heat capacity" 120000
 		"active cooling" 250
 		"ion protection" 2
+		"scrambling protection" 2
 		weapon
 			"blast radius" 3000
 			"shield damage" 8000
@@ -6280,8 +6282,9 @@ ship "Lucerne Class" "Lucerne Class MkII"
 		"heat capacity" 120000
 		"active cooling" 250
 		"ion protection" 2
+		"scrambling protection" 2
 		"ion resistance" .5
-		"scrambling resistance" .3
+		"scrambling resistance" .5
 		"tactical scan power" 120
 		"outfit scan power" 240
 		"outfit scan efficiency" 230
@@ -9497,6 +9500,7 @@ ship "F-VC56 Kaga"
 		"shield generation multiplier" .06
 		"hull repair rate" 1.8
 		"ion protection" 1
+		"scrambling protection" 1
 		"vertical launching support" 10
 	outfits
 		"Torpedo Launcher" 4
@@ -10010,8 +10014,8 @@ ship "E-VC14 Zuiho"
 		"X4700 Ion Thruster"
 		"Scram Drive"
 		
-	gun -35.5 -150 
-	gun 35.5 -150 
+	gun -35.5 -150 "Sidewinder Missile Launcher"
+	gun 35.5 -150 "Sidewinder Missile Launcher"
 	gun -35.5 -150 "Torpedo Launcher"
 	gun 35.5 -150 "Torpedo Launcher"
 	turret 0 -9 
@@ -10727,6 +10731,7 @@ ship "SRC-41C Curie"
 		"scan interference" 2
 		"scan concealment" 100
 		"ion resistance" .05
+		"scrambling resistance" .05
 		"ion protection" 1
 		"burn resistance" 5
 		"leak resistance" .1
@@ -10967,6 +10972,283 @@ ship "G-Class Container Transport"
 	"final explode" "final explosion large"
 	description `To compete with the newer, more modern heavy freighters dominating the market the Syndicate stacked their Container Transport into a huge Heavy Container Transport tripling capacity but also slowing it down even further from its already despised slug-pace. Though with barely any additional crew requirement from its predecessor the G-Class Container Transport cargo-to-crew ratio is absolutely unmatched.`
 	description `Though still not the most capacious in the area it instead can also carry drones to either defend itself or assist during unloading operation in less-equipped ports.`
+
+ship "H-Class Super Container Ship"
+	sprite "ship/mgf syn hclass super container"
+	thumbnail "thumbnail/mgf syn hclass super container thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 98200000
+		"shields" 44400
+		"hull" 52000
+		"required crew" 40
+		"bunks" 75
+		"mass" 12890
+		"drag" 25
+		"heat dissipation" .5
+		"fuel capacity" 2200
+		"cargo space" 13200
+		"outfit space" 1510
+		"weapon capacity" 840
+		"engine capacity" 420
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 6
+		"Proton Turret" 10
+		"Heavy Anti-Missile Turret" 8
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 20
+		
+		"X5700 Ion Thruster" 2
+		"X5200 Ion Steering" 2
+		"X1100 Ion Reverse Thruster" 3
+		"Scram Drive"
+		
+	gun -22.5 -679.5 
+	gun 22.5 -679.5 
+
+	turret 302.5 -517.5 "Heavy Anti-Missile Turret"
+	turret -302.5 -517.5 "Heavy Anti-Missile Turret"
+	turret 302.5 -264.5 "Heavy Anti-Missile Turret"
+	turret -302.5 -264.5 "Heavy Anti-Missile Turret"
+	turret 302.5 -10.5 "Heavy Anti-Missile Turret"
+	turret -302.5 -10.5 "Heavy Anti-Missile Turret"
+	turret 302.5 240 "Heavy Anti-Missile Turret"
+	turret -302.5 240 "Heavy Anti-Missile Turret"
+	
+	turret 48.5 -516 
+	turret -48.5 -516 
+	turret 48.5 -263.5 "Proton Turret"
+	turret -48.5 -263.5 "Proton Turret"
+	turret 48.5 -11 
+	turret -48.5 -11 
+	turret 48.5 242.5 "Proton Turret"
+	turret -48.5 242.5 "Proton Turret"
+
+	turret 58.5 484 
+	turret -58.5 484 
+
+	turret 0 -515 "Proton Turret"
+	turret 0 -262.5 "Proton Turret"
+	turret 0 -11.5 "Proton Turret"
+	turret 0 241 "Proton Turret"
+	turret 0 342 "Proton Turret"
+	turret 0 674 "Proton Turret"
+
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 445.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 445.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Drone" 310.5 521 
+		"launch effect" "human internal"
+		angle -90
+	bay "Drone" -310.5 521 
+		"launch effect" "human internal"
+		angle 90
+	
+
+	engine -93 700 
+	engine 93 700 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `This massive super container ship is the next step in Syndicate's attempt to regain dominance over heavy freighter market with over double the capacity of the previous largest freighter and similar to its predecessor, the G-Class Container Transport it carried a fleet of drones to assist in unloading as well as allowing it to unload at smaller spaceport that may not be able to handle its size by simply parking in orbit and transport containers to surface with their own drones and port's tugboats instead.  This allow the ship to visit most if not all ports without worrying about landing area or gears delivering both large and small amount of cargo to various destination.`
 
 ship "UA-10 Porter"
 	sprite "ship/mgf porter"
