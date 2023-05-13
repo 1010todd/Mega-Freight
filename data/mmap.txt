@@ -235,6 +235,40 @@ planet Moonshake
 planet "New Argentina" #attempt at expanding into the south to sell reefers.
 	add shipyard "Vefrol Dockyard Intermediate"
 	
+#==============Nordlin station
+
+planet "Nordlin Navy Yard"
+	government "Republic"
+	attributes "paradise" station
+	landscape `land/space0`
+	music ambient/machinery
+	description `This station started off as a regular refinery station like many others until it eventually got shipyard function attached to it as the paradise worlds joins the Republic and a lot of new ships are required to be built for the navy. Though the larger Geminus shipyard have phased out the need for this station it remains producing some amount of navy and civilian crafts as well as maintain ships for nearby navy patrols.`
+	spaceport `The station is quite cramped for the size. About half of the station is restricted to navy personnels and authorized crews only.`
+	bribe 0.1
+	security 0.6
+	shipyard "Basic Ships"
+	shipyard "Betelgeuse Basics"
+	shipyard "Navy Basics"
+	shipyard "Navy Intermediate"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Lovelace Advanced"
+	outfitter "Syndicate Basics"
+
+planet "MGF: Fake Capella f"
+	attributes "requires: unlandable" "requires: sdfsdgf"
+	description `If you can land here it is a bug.`
+
+system Capella
+	add object "MGF: Fake Capella f"
+		distance 1985.85
+		period 1668.68
+		add object "Nordlin Navy Yard"
+			sprite `planet/mgf nordlin shipyard v1`
+			distance 266
+			offset 180
+			period 13.5253
+
 #==============Najrmalas Shipworks
 #More luxurious/fancy ships with focus on speed. Should be around near Earth, Deep, and paradise worlds.
 

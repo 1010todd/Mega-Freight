@@ -562,6 +562,9 @@ shipyard "Ankulah Advanced"
 shipyard "Navy Basics"
 	"A-14F Rondel"
 	
+shipyard "Navy Intermediate"
+	"Frigate"
+
 shipyard "Navy Advanced"
 	"Culverin Class"
 	"Spetum Class"

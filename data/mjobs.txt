@@ -455,6 +455,8 @@ mission "MGF: Escort (Terrestrial Miner, Dangerous Destination)"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 		
+#=========================Canaveral Naval Yard
+
 mission "MGF CNY: Large Construction Supplies [0]"
 	name "Large rush delivery to <planet>"
 	job
@@ -579,6 +581,56 @@ mission "MGF CNY: Escort (Huge 1, Dangerous Origin)"
 		dialog phrase "generic safe escort completion dialog"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
+
+#===========================Nordlin Navy Yard
+
+mission "MGF NNY: Large Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "Major upgrade is being done to Nordlin Navy Yard which requires <cargo>. Deliver it to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 200 600
+	to offer
+		has "event: mgf: nordlin navy yard upgrade begin"
+		not "event: mgf: nordlin navy yard upgrade done"
+		random < 40
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 14
+		planet "Nordlin Navy Yard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 300000
+		dialog phrase "generic cargo delivery payment"
+
+mission "MGF NNY: Large Construction Supplies [1]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "Major upgrade is being done to Nordlin Navy Yard which requires <cargo>. Deliver it to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 200 600
+	to offer
+		has "event: mgf: nordlin navy yard upgrade begin"
+		not "event: mgf: nordlin navy yard upgrade done"
+		random < 35
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 14
+		planet "Nordlin Navy Yard"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 300000
+		dialog phrase "generic cargo delivery payment"
 
 mission "MGF: Large Bulk Delivery [0]"
 	name "Large bulk delivery to <planet>"

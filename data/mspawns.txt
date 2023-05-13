@@ -1288,7 +1288,7 @@ event "mgf: fw converted warships 2-2"
 			"Finch" 20
 			"AGT-31 Xencar" 60
 			
-mission "MGF: FW Converted Supercarrier"
+mission "MGF: FW Converted Gebrant Carrier"
 	landing
 	invisible
 	deadline 1
@@ -3641,13 +3641,13 @@ event "mgf: readd fleets normal in Alnasl set2"
 		add fleet "MGF: Small Solacer Reefer" 4500
 		add fleet "MGF: Solacer Juice Tanker" 5500
 	
-mission "MGF: quick readd fleet fw southern expansion"
+mission "MGF: readd fleet fw southern expansion"
 	invisible
 	landing
 	to offer
 		has "event: fw southern expansion"
 	on offer
-		event "mgf: quick readd fleets fw southern expansion"
+		event "mgf: readd fleets fw southern expansion"
 	on accept
 		fail
 		
@@ -3702,13 +3702,13 @@ event "mgf: readd fleets fw southern expansion"
 		add fleet "Rangphenn Transport" 5000
 		add fleet "Jacks Gang" 11800
 		
-mission "MGF: quick readd fleet fw southern expansion set2"
+mission "MGF: readd fleet fw southern expansion set2"
 	invisible
 	landing
 	to offer
 		has "event: fw southern expansion"
 	on offer
-		event "mgf: quick readd fleets fw southern expansion set2"
+		event "mgf: readd fleets fw southern expansion set2"
 	on accept
 		fail
 		

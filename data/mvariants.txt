@@ -1813,7 +1813,7 @@ ship "SRC-41C Curie" "SRC-41C Curie (Downgraded)"
 		"fuel capacity" 400
 		"cargo space" 150
 		"radioactive cargo space" 150
-		"outfit space" 370
+		"outfit space" 380
 		"weapon capacity" 155
 		"engine capacity" 80
 		"operating cost" 2800
@@ -1888,7 +1888,7 @@ ship "SRC-41C Curie" "SRC-41C Curie (Downgraded, Cask 1)"
 		"fuel capacity" 400
 		"cargo space" 150
 		"radioactive cargo space" 150
-		"outfit space" 370
+		"outfit space" 380
 		"weapon capacity" 155
 		"engine capacity" 80
 		"operating cost" 2800

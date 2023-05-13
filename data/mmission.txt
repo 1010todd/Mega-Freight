@@ -699,6 +699,138 @@ event "mgf: Grose Bochse development"
 			"Grose Bochse Class"
 			"Cruiser (Mark II)" 2
 			"Combat Drone" 8
+
+mission "MGF: Grose Bochse deployment"
+	landing
+	invisible
+	to offer
+		has "event: mgf: Grose Bochse development"
+	on offer
+		event "mgf: Grose Bochse development deployment" 780
+	on accept
+		fail
+
+#info: In war time they probably want to field maybe 4~5 Grose Bochse together to be effective and likely more in battle. For regular patrol 2~3 is probably max
+event "mgf: Grose Bochse development deployment"
+	fleet "Large Republic"
+		remove variant 2
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		remove variant 2
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 3
+			"Combat Drone" 12
+		remove variant 2
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 24
+			"Grose Bochse Class"
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		
+		add variant 3
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Grose Bochse Class" 2
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 3
+			"Grose Bochse Class" 2
+			"Cruiser (Mark II)" 3
+			"Combat Drone" 12
+		add variant 3
+			"Grose Bochse Class" 2
+			"Carrier (Mark II)" 2
+			"Lance" 4
+			"A-14F Rondel" 4
+			"Combat Drone" 12
+			"Cruiser (Mark II)"
+			"Combat Drone" 4
+		add variant 3
+			"Grose Bochse Class" 2
+			"Cruiser (Mark II)"
+			"Combat Drone" 4
+			"Frigate (Mark II)" 2
+		add variant 2
+			"Spetum Class (Mark II, Typhoon Storage)"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 24
+			"Grose Bochse Class" 2
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 1
+			"Lucerne Class MkII"
+			"Lance" 116
+			"Rondel (Typhoon Bomb)" 100
+			"Frigate (Mark II, Pocket)" 4
+			"Gunboat (Mark II, Pocket)" 4
+			"Rainmaker (Mark II, Pocket)" 4
+			"Dulle Griet Class (Early)"
+			"Gunboat (Mark II, Pocket)" 2
+			"Culverin Class (Mark II)" 4
+			"Lance" 6
+			"Grose Bochse Class" 3
+			"Cruiser (Mark II)" 6
+			"Combat Drone" 24
+
+mission "MGF: Canaveral Naval Yard expansion"
+	landing
+	invisible
+	to offer
+		never
+		has "event: mgf: Grose Bochse development"
+	on offer
+		event "mgf: canaveral naval yard expansion" 3650 #~10 years
+	on accept
+		fail
+
+#===========================Nordlin
+
+mission "MGF: Navy Nordlin Navy Yard Upgrade"
+	landing
+	invisible
+	to offer
+		has "war begins"
+	on offer
+		event "mgf: nordlin navy yard upgrade begin" 60
+		event "mgf: nordlin navy yard upgrade done" 105
+	on accept
+		fail
+
+event "mgf: nordlin navy yard upgrade begin"
+	planet "Nordlin Navy Yard"
+		description `This station started off as a regular refinery station like many others until it eventually got shipyard function attached to it as the paradise worlds joins the Republic and a lot of new ships are required to be built for the navy. Though the larger Geminus shipyard have phased out the need for this station it remains producing some amount of navy and civilian crafts as well as maintain ships for nearby navy patrols.`
+		description `With the Navy Shipyard on Geminus destroyed the Nordlin station is now filled with traffic as the Navy is putting the station back into full service as well as upgrading it to allow the shipyard to build the larger, more modern ships.`
+		security .9
+
+event "mgf: nordlin navy yard upgrade done"
+	planet "Nordlin Navy Yard"
+		description `This station started off as a regular refinery station like many others until it eventually got shipyard function attached to it as the paradise worlds joins the Republic and a lot of new ships are required to be built for the navy. With the shipyard on Geminus destroyed the Navy now return this station to full service and upgrade the capacity to allow the station to build larger navy warships.`
+		add shipyard "Navy Advanced"
+
+	system Capella
+		remove object "MGF: Fake Capella f"
+			distance 1985.85
+			period 1668.68
+			remove object "Nordlin Navy Yard"
+				sprite `planet/mgf nordlin shipyard v1`
+				distance 266
+				offset 180
+				period 13.5253
+		add object "MGF: Fake Capella f"
+			distance 1985.85
+			period 1668.68
+			add object "Nordlin Navy Yard"
+				sprite `planet/mgf nordlin shipyard v2`
+				distance 266
+				offset 180
+				period 13.5253
+
 #===========================NGK
 
 mission "MGF: NGK Exclusive Shipyard Unlock"
@@ -1395,7 +1527,8 @@ mission "MGF: Core Nuclear Transport Upgrade I"
 	landing
 	invisible
 	to offer
-		12 =< "Raid on Nuclear Transport: done" + "Nuclear Cargo Theft (Core): done"
+		#random condition that's almost always 1 because ES can't handle literal number on the left side.
+		"MGF: Polaris Alcazar: offered" =< ( "Raid on Nuclear Transport: done" + "Nuclear Cargo Theft (Core): done" ) / 12
 	on offer
 		event "MGF: Core Nuclear Transport Upgrade I"
 	on accept

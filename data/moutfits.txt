@@ -2030,6 +2030,7 @@ outfit "Itano SMLS"
 		"drag" .021
 		"turn" 4
 		"homing" 4
+		"tracking" 1
 		"cluster"
 	description "Itano Saturation Missile Launch System is as much of a development in missile as well as a change in deployment tactic. Unlike common missiles that were slowly deployed one-by-one, this system fire missiles in pairs and in very rapid succession to totally overwhelm any anti-missile system and ensure the destruction whatever is unfortunate enough to be its target."
 
@@ -2091,6 +2092,7 @@ outfit "Itano SMLS Pod"
 		"drag" .021
 		"turn" 4
 		"homing" 4
+		"tracking" 1
 		"cluster"
 	description `Smaller version of the Itano SMLS for installing on ships with limited space.`
 

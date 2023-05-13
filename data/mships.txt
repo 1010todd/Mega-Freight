@@ -456,7 +456,7 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
 	add attributes
 		"tow system" -1
-	outfit
+	outfits
 		"Energy Blaster" 4
 		
 		"RT-I Radiothermal"
