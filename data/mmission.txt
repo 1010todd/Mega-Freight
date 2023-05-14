@@ -778,16 +778,43 @@ event "mgf: Grose Bochse development deployment"
 			"Cruiser (Mark II)" 6
 			"Combat Drone" 24
 
-mission "MGF: Canaveral Naval Yard expansion"
+mission "MGF: Canaveral Naval Yard expansion 1"
 	landing
 	invisible
 	to offer
 		never
 		has "event: mgf: Grose Bochse development"
 	on offer
-		event "mgf: canaveral naval yard expansion" 3650 #~10 years
+		event "mgf: canaveral naval yard expansion 1 begin" 2880 #~8 years
+		event "mgf: canaveral naval yard expansion 1 auto" 3660 #~10 years
 	on accept
 		fail
+
+event "mgf: canaveral naval yard expansion 1 begin"
+
+event "mgf: canaveral naval yard expansion 1 done"
+	system Sol
+		remove object "MGF Fake Mars"
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard"
+				distance 150.24
+				period 27.3
+		add object "MGF Fake Mars"
+			distance 1471.43
+			period 687.001
+			object "Canaveral Naval Yard"
+				sprite "planet/canaveral naval yard v5 50"
+				distance 150.24
+				period 27.3
+	planet "Canaveral Naval Yard"
+		landscape land/space0
+		attributes station
+		description `To further advance the Republic Navy and secure humanity's future, the government built a new orbital naval yard to allow production of larger and more advanced ships and remains easily upgradable for any future improvement and expansion. The naval yard is very heavily armed with countless of artillery turrets and advanced anti-missile system spread across the surface. There's also always a fleet carrier in nearby orbit, always within clear visual range.`
+		description `The shipyard was recently expanded with 4 additional building docks for additional construction capacity giving the Navy more capacity to build the large superheavy warships in times of need. When not building a superheavy vessel each of these building docks can handle up to a dozen ship construction in parallel.`
+		spaceport `With the recent expansion the spaceport is now larger and contain more facilites almost comparable to urban planets.`
+
 
 #===========================Nordlin
 

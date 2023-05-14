@@ -37,6 +37,13 @@ fleet "Small Southern Merchants"
 	add variant 3
 		"S-PT06 Harukaze (Quad Blaster)"
 
+	add variant 5
+		"SMC-2 Kipuka"
+		"Hawk"
+	add variant 4
+		"SMC-2 Kipuka"
+		"Sparrow"
+
 fleet "Large Southern Merchants"
 	add variant 6
 		"CH-6 Carrack"
@@ -271,6 +278,12 @@ fleet "Small Core Merchants"
 		"S-PT06 Harukaze (Armed)"
 	add variant 4
 		"S-PT06 Harukaze (Quad Blaster)"
+
+	add variant 3
+		"SMC-2 Kipuka"
+	add variant 2
+		"SMC-2 Kipuka"
+		"Sparrow"
 
 fleet "Large Core Merchants"
 	add variant 10

@@ -1301,6 +1301,60 @@ ship "LAC-4 Lithalsa"
 	"final explode" "final explosion large"
 	description `Specialized bitumen tanker with heated tanks to maintain the cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several on going projects especially on developing worlds can require significant amount of bitumen. Because the service area for these ships often lack specialized discharge facilities the Lithalsa comes with it's own discharging system for unloading its cargo directly onto trucks or other transport to distribute it to the site.`
 	
+ship "SMC-2 Kipuka"
+	sprite "ship/mgf kipuka"
+	thumbnail "thumbnail/mgf kipuka thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 900000
+		"shields" 2200
+		"hull" 3800
+		"required crew" 3
+		"bunks" 6
+		"mass" 350
+		"drag" 5.5
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 240
+		"weapon capacity" 60
+		"engine capacity" 120
+		"u-type 500 molasses tank" -8
+		"molasses tank slot" 8
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"nGVF-CC Fuel Cell"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		"Laser Rifle" 3
+		
+		"U-type 500 Molasses Tank" 8
+		
+		"X3200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Scram Drive"
+		
+	turret 0 -79.5 
+	turret 0 74.5 
+	engine -20 105 
+	engine 20 105 
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Kipuka is a specialized type of chemical tanker dedicated to carrying molasses. Because of the special requirement for tank cleaning these molasses tankers comes equipped with special type of automatic tank cleaner to satisfy the requirement and reduce running cost.`
+
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
 	thumbnail "thumbnail/mgf bluewhale"

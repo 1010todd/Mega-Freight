@@ -118,6 +118,7 @@ shipyard developer
 	"UA-10 Porter"
 	"E-VC14 Zuiho (Advanced, Itano)"
 	"H-Class Super Container Ship"
+	"SMC-2 Kipuka"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -606,10 +607,14 @@ shipyard "Seikron Dockyard Advanced"
 	"SKVS-3 Gudgeon"
 	"SKVS-4 Minnow"
 	
+shipyard "Pioneer Heavy Industries Basics"
+	"SMC-2 Kipuka"
+
 shipyard "Pioneer Heavy Industries Intermediate"
 	"LCC-3 Sierra"
 	"LXC-2 Strata"
 	"LVC-2 Sandura"
+	"SMC-2 Kipuka"
 	
 # Note: Advanced/Advanced Exclusive shipyard/outfitter also serves as list of all ship/outfit from that manufacturer. If something is to be sold later via even it can be commented out.
 shipyard "Pioneer Heavy Industries Advanced"

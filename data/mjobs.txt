@@ -3017,7 +3017,7 @@ mission "MGF: Juice Distribution [0]"
 	name "Juice Distribution to <planet>"
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
 	cargo "Packaged Juice" 10 3 .12
 	to offer
@@ -3049,7 +3049,7 @@ mission "MGF: Juice Distribution [1]"
 	name "Juice Distribution to <planet>"
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
 	cargo "Packaged Juice" 10 3 .12
 	to offer
@@ -3081,7 +3081,7 @@ mission "MGF: Juice Distribution [2]"
 	name "Juice Distribution to <planet>"
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
 	cargo "Packaged Juice" 10 3 .12
 	to offer
@@ -3113,7 +3113,7 @@ mission "MGF: Juice Distribution [3]"
 	name "Juice Distribution to <planet>"
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	description "Deliver <cargo> to <destination>, to avoid spoilage it must be delivered by <date>. Payment is <payment>."
 	cargo "Packaged Juice" 10 3 .12
 	to offer
@@ -4143,7 +4143,7 @@ mission "MGF: Small Refrigerated Transport 1"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 5 20
 	to offer
 		random < 50
@@ -4183,7 +4183,7 @@ mission "MGF: Small Refrigerated Transport 2"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 5 20
 	to offer
 		random < 50
@@ -4222,7 +4222,7 @@ mission "MGF: Small Refrigerated Transport 3"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 5 20
 	to offer
 		random < 30
@@ -4261,7 +4261,7 @@ mission "MGF: Refrigerated Transport 1"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 10 50
 	to offer
 		random < 50
@@ -4300,7 +4300,7 @@ mission "MGF: Refrigerated Transport 2"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 20 50
 	to offer
 		random < 47
@@ -4339,7 +4339,7 @@ mission "MGF: Refrigerated Transport 3"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 20 50
 	to offer
 		random < 45
@@ -4377,7 +4377,7 @@ mission "MGF: Large Refrigerated Transport 1"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 60 120
 	to offer
 		random < 45
@@ -4416,7 +4416,7 @@ mission "MGF: Large Refrigerated Transport 2"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 60 130
 	to offer
 		random < 44
@@ -4455,7 +4455,7 @@ mission "MGF: Large Refrigerated Transport 3"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 65 140
 	to offer
 		random < 45
@@ -4493,7 +4493,7 @@ mission "MGF: Bulk Refrigerated Transport 1"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 150 250
 	to offer
 		random < 40
@@ -4532,7 +4532,7 @@ mission "MGF: Bulk Refrigerated Transport 2"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 150 260
 	to offer
 		random < 40
@@ -4571,7 +4571,7 @@ mission "MGF: Bulk Refrigerated Transport 3"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 160 270
 	to offer
 		random < 35
@@ -4610,7 +4610,7 @@ mission "MGF: Bulk Refrigerated Transport 4"
 	description "Transport <cargo> to <destination> by <date>. Payment is <payment>."
 	job
 	repeat
-	deadline 0 1
+	deadline 1 1
 	cargo "Refrigerated Food" 170 280
 	to offer
 		random < 34
@@ -7036,6 +7036,75 @@ mission "MGF: Rush Chemical Transport (Chlorine 2)"
 		dialog phrase "mgf: unload chemical"
 		payment 390000 22000
 		
+
+#==============================Molasses
+
+phrase "mgf: unload molasses"
+	word
+		`You unload the chemical at a special port and receive your payment of <payment>`
+
+mission "MGF: Molasses Transport (Sugar Cane 1)"
+	name "Molasses Transport to <planet>"
+	description "2000 units of Sugar Cane Molasses along with <cargo> to confirm the batch is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying molasses."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 80
+		has "outfit (installed): U-type 500 Molasses Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 10
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
+	on accept
+		outfit "Sugar Cane Molasses" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Sugar Cane Molasses" -2000
+	on complete
+		outfit "Sugar Cane Molasses" -2000
+		dialog phrase "mgf: unload molasses"
+		payment 220000 11000
+
+mission "MGF: Molasses Transport (Beet 1)"
+	name "Molasses Transport to <planet>"
+	description "2000 units of Beet Molasses along with <cargo> to confirm the batch is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of carrying molasses."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "paper works" 1
+	to offer
+		random < 70
+		has "outfit (installed): U-type 500 Molasses Tank"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "farming"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "factory" "manufacturing" "urban"
+		distance 3 10
+	to accept
+		"outfit (flagship installed): U-type 1k Chemical Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
+	on accept
+		outfit "Beet Molasses" 2000
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "Beet Molasses" -2000
+	on complete
+		outfit "Beet Molasses" -2000
+		dialog phrase "mgf: unload molasses"
+		payment 220000 11500
+
 #==============================Passenger
 		
 mission "MGF: Huge Passengers [0]"

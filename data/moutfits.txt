@@ -2717,6 +2717,21 @@ outfit "B-type 200 Bulk Sugar Bay"
 	description `Specialized cargo bay for storing sugar for shipping. Due to importance of purity for sugar the bay is very tightly sealed to avoid any contaminants and not other cargo were allowed to be loaded inside. It is also installed with sensors in various point to monitor the cargo and make sure it's in perfect condition.`
 	description `Having ships with dedicated sugar bay as flagship allow you to be offered special jobs for transporting sugar.`
 
+outfit "U-type 500 Molasses Tank"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/fuel module"
+	"mass" 50
+	"u-type 500 molasses tank" 1
+	"molasses tank slot" -1
+	"molasses capacity" 250
+	#"chemical lock" -9e+10
+	"corrosion protection" .01
+	"unplunderable" 1
+	description `Purpose-built molasses tank for fast and efficient transportation of molasses. It comes with heating coil to heat the cargo to ideal temperature for pumping out when unloading. The tank interior is also coated with special coating for easier cleaning.`
+	description `Having ships with dedicated molasses tank as flagship allow you to be offered special jobs for transporting molasses.`
+
+
 outfit "X09E Fighter Assembler"
 	category "Systems"
 	cost 8200000
@@ -3323,6 +3338,26 @@ outfit "Bitumen"
 	"unplunderable" 1
 	"heat capacity" 2
 	description ``
+
+#======================================Molasses
+
+outfit "Sugar Cane Molasses"
+	#category "Special"
+	cost 3500
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"molasses capacity" -1
+	"molasses lock" 1
+	"unplunderable" 1
+
+outfit "Beet Molasses"
+	#category "Special"
+	cost 3500
+	thumbnail "outfit/unknown"
+	"mass" .1 
+	"molasses capacity" -1
+	"molasses lock" 1
+	"unplunderable" 1
 
 #========================================Chemical
 
