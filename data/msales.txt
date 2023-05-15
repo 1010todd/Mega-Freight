@@ -119,6 +119,7 @@ shipyard developer
 	"E-VC14 Zuiho (Advanced, Itano)"
 	"H-Class Super Container Ship"
 	"SMC-2 Kipuka"
+	"SV80-n Catirfel"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -483,6 +484,7 @@ shipyard "Betelgeuse Advanced"
 	"CDB-12K Saturn"
 	"FPd45 Clinker"
 	"FAd36 Flint"
+	"SV80-n Catirfel"
 	
 shipyard "Lionheart Basics"
 	#"AD-012C Iaphia"

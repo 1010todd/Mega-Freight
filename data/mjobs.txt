@@ -741,11 +741,68 @@ mission "MGF: Huge Bulk Delivery [2]"
 		
 trade
 	commodity "unpacked dry bulk"
+		#farming->
 		"grain"
+		"peanuts"
+		"seeds"
+		#->farming
+		"livestock feed"
+		"citrus pellets"
+		#farming->any
+		"woodchips"
+		#factory->farming
+		"fertilizer"
+		#factory->factory
+		"plastic pellets"
+		"resin powder"
+		"synthetic fiber"
+		#any->factory
+		"scrap metal"
+		#mining->factory
 		"coal"
+		"coke"
 		"iron ore"
 		"bauxite"
+		"sand"
+		"copper concentrate"
+		"zinc concentrate"
+		"mineral sand"
+		"limestone"
+		"salt"
+		"ferroalloy"
+		"pig iron"
+		"taconite"
+		"sulphur"
 		
+		#todo more granular cargo list and source-destination pairs.
+
+mission "MGF: Large Dry Bulk Delivery [0]"
+	name "Large dry bulk delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "unpacked dry bulk" 500 900 
+	to offer
+		random < 60
+		"cargo space" > 1000
+		or
+			has "flagship attributes: bulk bay"
+			has "ship model: CDB-6K Jupiter"
+			has "ship model: CDB-12K Saturn"
+			has "ship model: Bulk Freighter"
+			has "ship model: SV80-n Catirfel"
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 18
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 5000
+		dialog phrase "generic cargo delivery payment"
+
 mission "MGF: Huge Dry Bulk Delivery [0]"
 	name "Huge dry bulk delivery to <planet>"
 	job
@@ -760,6 +817,7 @@ mission "MGF: Huge Dry Bulk Delivery [0]"
 			has "ship model: CDB-6K Jupiter"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
+			has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -786,6 +844,7 @@ mission "MGF: Huge Dry Bulk Delivery [1]"
 			has "ship model: CDB-6K Jupiter"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
+			has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -812,6 +871,7 @@ mission "MGF: Huge Dry Bulk Delivery [2]"
 			has "ship model: CDB-6K Jupiter"
 			has "ship model: CDB-12K Saturn"
 			has "ship model: Bulk Freighter"
+			has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
 	destination
@@ -1955,6 +2015,7 @@ mission "MGF: Scrap Metal [1]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -1984,6 +2045,7 @@ mission "MGF: Scrap Metal [2]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -2013,6 +2075,7 @@ mission "MGF: Bulk Scrap Metal [0]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -2042,6 +2105,7 @@ mission "MGF: Bulk Scrap Metal [1]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -2071,6 +2135,7 @@ mission "MGF: Bulk Scrap Metal [2]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -2100,6 +2165,7 @@ mission "MGF: Bulk Scrap Metal [3]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -2129,6 +2195,7 @@ mission "MGF: Large Bulk Scrap Metal [0]"
 					has "ship model: CDB-6K Jupiter"
 					has "ship model: CDB-12K Saturn"
 					has "ship model: Bulk Freighter"
+					has "ship model: SV80-n Catirfel"
 	source
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "scrapyard" 
@@ -7062,7 +7129,7 @@ mission "MGF: Molasses Transport (Sugar Cane 1)"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 10
 	to accept
-		"outfit (flagship installed): U-type 1k Chemical Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
+		"outfit (flagship installed): U-type 500 Molasses Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
 	on accept
 		outfit "Sugar Cane Molasses" 2000
 	on visit
@@ -7093,7 +7160,7 @@ mission "MGF: Molasses Transport (Beet 1)"
 		attributes "factory" "manufacturing" "urban"
 		distance 3 10
 	to accept
-		"outfit (flagship installed): U-type 1k Chemical Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
+		"outfit (flagship installed): U-type 500 Molasses Tank" >= 8 + ( "outfit (installed): Sugar Cane Molasses" / 250 ) + ( "outfit (installed): Beet Molasses" / 250 )
 	on accept
 		outfit "Beet Molasses" 2000
 	on visit

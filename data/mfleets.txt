@@ -242,6 +242,18 @@ fleet "Large Southern Merchants"
 	add variant 3
 		`DSSN-S90 Lynchyoseu`
 		"QYG-30r Qazan"
+
+	add variant 6
+		"SV80-n Catirfel"
+	add variant 4
+		"SV80-n Catirfel"
+		"Bastion"
+	add variant 2
+		"SV80-n Catirfel" 2
+		"Falcon"
+	add variant 1
+		"SV80-n Catirfel" 3
+		"Falcon"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -584,6 +596,18 @@ fleet "Large Core Merchants"
 	add variant 1
 		`DSSN-C40 Dulumi`
 		"Manta"
+
+	add variant 8
+		"SV80-n Catirfel"
+	add variant 6
+		"SV80-n Catirfel"
+		"Splinter"
+	add variant 4
+		"SV80-n Catirfel" 2
+		"Vanguard"
+	add variant 2
+		"SV80-n Catirfel" 3
+		"Vanguard"
 	
 fleet "Paradise Merchants"
 	add variant 10
@@ -704,6 +728,12 @@ fleet "Paradise Merchants"
 	add variant 1
 		`DSSN-C40 Dulumi`
 		"Manta"
+
+	add variant 2
+		"SV80-n Catirfel"
+	add variant 1
+		"SV80-n Catirfel"
+		"Splinter"
 		
 fleet "Small Northern Merchants"
 	add variant 10
@@ -976,6 +1006,18 @@ fleet "Large Northern Merchants"
 	add variant 1
 		`DSSN-C40 Dulumi`
 		"Manta"
+
+	add variant 8
+		"SV80-n Catirfel"
+	add variant 6
+		"SV80-n Catirfel"
+		"Firebird"
+	add variant 4
+		"SV80-n Catirfel" 2
+		"Leviathan"
+	add variant 2
+		"SV80-n Catirfel" 3
+		"Leviathan"
 		
 fleet "Large Human Merchants (Hai)"
 	add variant 3
@@ -1051,6 +1093,9 @@ fleet "Large Human Merchants (Hai)"
 		"FUe04a Gebrant II"
 	add variant 4
 		"FUe06a Gebrant III"
+
+	add variant 6
+		"SV80-n Catirfel"
 	
 fleet "Large Hai Merchant"
 	add variant 1

@@ -11337,6 +11337,63 @@ ship "UA-10 Porter"
 	explode "tiny explosion" 15
 	description `The Porter is a small drone for assisting in cargo unloading operation of the Syndicate new freighter the G-Class especially on less equipped worlds. It is also minimally equipped with an anti-missile turret to assist in defense as merchants often deploy their all their fighters and drones in combat, even if those ships would be useless.`
 
+ship "SV80-n Catirfel"
+	sprite "ship/mgf catirfel"
+	thumbnail "thumbnail/mgf catirfel thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15100000
+		"shields" 6700
+		"hull" 8800
+		"required crew" 8
+		"bunks" 16
+		"mass" 1670
+		"drag" 15
+		"heat dissipation" .5
+		"fuel capacity" 1000
+		"cargo space" 780
+		"outfit space" 610
+		"weapon capacity" 320
+		"engine capacity" 160
+		"bulk bay" 2 #12
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 6
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X1100 Ion Reverse Thruster" 2
+		"Scram Drive"
+		
+	turret -64 -165 
+	turret 64 -165 
+	turret 0 -154 "Heavy Anti-Missile Turret"
+	turret -64.5 179 
+	turret 64.5 179 
+	turret 0 209 "Heavy Anti-Missile Turret"
+	engine -37 267 
+	engine 37 267 
+
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Catirfel first were built to statisfy a specific requirement for a shipping company before being mass produced and sold on public market. It offered overall improvement over the standard Syndicate Bulk Freighter and while also having capability to detach its cargo pods that can also serve as bay for dry bulk cargo allowing more flexibility. The ship also features a crane that can be retracted and hidden inside the hull to protect it from in-flight damage.`
+
 ship "AKH-8 Mlitgante"
 	sprite "ship/mgf mlitgante"
 	thumbnail "thumbnail/mgf mlitgante thumb"
