@@ -120,6 +120,7 @@ shipyard developer
 	"H-Class Super Container Ship"
 	"SMC-2 Kipuka"
 	"SV80-n Catirfel"
+	"LMS-43 Mullsammler"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -485,6 +486,7 @@ shipyard "Betelgeuse Advanced"
 	"FPd45 Clinker"
 	"FAd36 Flint"
 	"SV80-n Catirfel"
+	"LMS-43 Mullsammler"
 	
 shipyard "Lionheart Basics"
 	#"AD-012C Iaphia"
@@ -530,6 +532,7 @@ shipyard "Tarazed Advanced"
 	"QYG-30r Qazan"
 	"FPd45 Clinker"
 	"FAd36 Flint"
+	"LMS-43 Mullsammler"
 	
 shipyard "Hai Advanced"
 	"AYS-17 Proetida"
@@ -636,6 +639,11 @@ shipyard "Solacer Group Custom"
 shipyard "Core Food Corp Custom"
 	"TQK-20 Qaytas"
 	
+shipyard "Thyrupp AG Advanced"
+	"SMM-111 Bagger"
+	"HMM-190 Kotroger"
+	"LMS-43 Mullsammler"
+
 # Note: while in-lore Syndicate seems to be very lose about nuclear safety this could also be a PR-thing to pretend they care about it and keep people happy enough about it.
 shipyard "Core Nuclear Transport"
 	"SRC-41C Curie"

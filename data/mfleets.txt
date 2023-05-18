@@ -44,6 +44,9 @@ fleet "Small Southern Merchants"
 		"SMC-2 Kipuka"
 		"Sparrow"
 
+	add variant 5
+		"LMS-43 Mullsammler"
+
 fleet "Large Southern Merchants"
 	add variant 6
 		"CH-6 Carrack"
@@ -296,6 +299,9 @@ fleet "Small Core Merchants"
 	add variant 2
 		"SMC-2 Kipuka"
 		"Sparrow"
+
+	add variant 5
+		"LMS-43 Mullsammler"
 
 fleet "Large Core Merchants"
 	add variant 10
@@ -771,6 +777,9 @@ fleet "Small Northern Merchants"
 	add variant 3
 		"S-PT06 Harukaze (Quad Blaster)"
 
+	add variant 5
+		"LMS-43 Mullsammler"
+
 fleet "Large Northern Merchants"
 	add variant 5
 		"CH-6 Carrack"
@@ -780,9 +789,6 @@ fleet "Large Northern Merchants"
 	add variant 10
 		"CH-6 Carrack"
 		"Dagger" 4
-	add variant 10
-		"CH-6 Carrack"
-		"Barb" 4
 	add variant 6
 		"LCC-3 Sierra"
 		"Raven" 2
@@ -798,9 +804,6 @@ fleet "Large Northern Merchants"
 	add variant 10
 		"FG-7 Conveyor"
 		"Dagger" 8
-	add variant 10
-		"FG-7 Conveyor"
-		"Barb" 8
 	add variant 7
 		"FG-5 Bluewhale"
 		"Raven" 2

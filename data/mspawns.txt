@@ -664,6 +664,98 @@ event "MGF: Southern Merchant Upgrade II"
 			"Lance" 6
 			"AGT-31 Xencar" 12
 			
+mission "MGF: Northern Merchant Upgrade I"
+	invisible
+	landing
+	to offer
+		has "MGF: Pirate Advancement II"
+	on offer
+		event "MGF: Northern Merchant Upgrade I"
+	on accept
+		fail
+		
+event "MGF: Northern Merchant Upgrade I"
+	fleet "Small Northern Merchants"
+		add variant 5
+			"TS-650 Herrenbal"
+			"Berserker" 2
+
+		add variant 5
+			"QYG-30r Qazan"
+			"Berserker"
+
+		add variant 10
+			"QYG-30 Qazan"
+			"Sparrow"
+
+		add variant 2
+			"FG-6 Startrain"
+			"Headhunter"
+		add variant 2
+			"FG-6 Startrain"
+			"Raven"
+
+		add variant 2
+			"S-PT06 Harukaze (Quad Blaster)" 2
+
+	fleet "Large Northern Merchants"
+		add variant 10
+			"CH-6 Carrack"
+			"Barb" 4
+		add variant 10
+			"FG-7 Conveyor"
+			"Barb" 8
+		add variant 5
+			"FG-5 Bluewhale"
+			"CSE-6 Steward" #6
+			"Dagger" 3
+			"Barb" 3
+		add variant 3
+			"FG-7 Conveyor" 3
+			"Dagger" 24
+			"CS-24 Garrison" #18
+			"AGT-31 Xencar" 18
+
+		add variant 20
+			"QYG-30 Qazan" 3
+			"Headhunter" 2
+		add variant 25
+			"QYG-60 Sandiq" 2
+			"Raven"
+
+		add variant 7
+			"CK50T Stahbar (Proton)"
+		add variant 1
+			"Tlielart (Cargo Carrier)"
+			"AGT-31 Xencar" 36
+
+		add variant 1
+			"Strata (Ammonia Filled)"
+			"Headhunter (Particle)" 2
+
+		add variant 10
+			"QYG-30r Qazan" 2
+			"Headhunter (Particle)"
+
+		add variant 2
+			"CDB-6K Jupiter"
+			"Corvette"
+			"CSE-6 Steward"
+			"Dagger" 3
+			"AGT-31 Xencar" 3
+		
+		add variant 4
+			"CDB-12K Saturn"
+			"Leviathan"
+		add variant 2
+			"CDB-12K Saturn"
+			"Leviathan (EPS-1)"
+
+event "MGF: Northern Merchant Upgrade II"
+	fleet "Small Northern Merchants"
+		add variant 1
+			"S-PT06 Harukaze (Swordfish)"
+
 mission "MGF: LunaWine Escort Upgrade I"
 	invisible
 	landing

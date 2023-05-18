@@ -361,9 +361,9 @@ outfit "EPS-1 Particle Cannon"
 		"firing force" 15
 		"firing heat" 120
 		"hit force" 100
-		"shield damage" 65
-		"hull damage" 62
-	description "Modified version of particle cannon by Espion Mining co. to fire slower but with faster projectile and longer range."
+		"shield damage" 137
+		"hull damage" 125
+	description "Modified version of particle cannon by Espion Mining co. to fire slower but with faster and more powerful projectile and longer range."
 		
 outfit "G22 Particle Cannon"
 	category "Guns"
@@ -2731,6 +2731,18 @@ outfit "U-type 500 Molasses Tank"
 	description `Purpose-built molasses tank for fast and efficient transportation of molasses. It comes with heating coil to heat the cargo to ideal temperature for pumping out when unloading. The tank interior is also coated with special coating for easier cleaning.`
 	description `Having ships with dedicated molasses tank as flagship allow you to be offered special jobs for transporting molasses.`
 
+outfit "B-type 500 Garbage Bay"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/cargo expansion"
+	"mass" 45
+	"b-type 500 garbage bay" 1
+	"garbage bay slot" -1
+	"garbage capacity" 250
+	#"chemical lock" -9e+10
+	"unplunderable" 1
+	description `Bay for compressed garbage.`
+	description `Having ships with dedicated garbage bay as flagship allow you to be offered special jobs for transporting garbage.`
 
 outfit "X09E Fighter Assembler"
 	category "Systems"
@@ -3115,6 +3127,19 @@ outfit "White Sugar"
 	"mass" 1
 	"sugar capacity" -1
 	"sugar lock" 1
+	"unplunderable" 1
+	
+#=======================================Sugar
+	
+outfit "MGF: Garbage"
+	"display name" "Garbage"
+	plural "Garbage"
+	#category "Special"
+	cost 250
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"garbage capacity" -1
+	"garbage lock" 1
 	"unplunderable" 1
 
 #=======================================Water

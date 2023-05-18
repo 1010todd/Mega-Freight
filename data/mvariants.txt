@@ -200,6 +200,23 @@ ship "Nasprite" "Nasprite (Swordfish)"
 		"X4200 Ion Steering"
 		"Hyperdrive"
 		
+ship "CK50T Stahbar" "CK50T Stahbar (Proton)"
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 6
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X5700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+
 ship "Quicksilver" "Quicksilver (EPB3-2)"
 	outfits
 		"EPB3-2 Particle Cannon" 2
@@ -212,6 +229,24 @@ ship "Quicksilver" "Quicksilver (EPB3-2)"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
 		
+ship "Leviathan" "Leviathan (EPS-1)"
+	outfits
+		"EPS-1 Particle Cannon" 4
+		"Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 15
+		
+		"X3700 Ion Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	
+
 ship "Eleonorae" "Eleonorae (Atomic, G22)"
 	outfits
 		"G22 Particle Turret" 4
@@ -1977,7 +2012,7 @@ ship "S-PT06 Harukaze" "S-PT06 Harukaze (Armed)"
 	outfits
 		"Blaster Turret"
 
-		"nGVF-AA Fuel Cell"
+		"nGVF-CC Fuel Cell"
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
 		
@@ -1989,7 +2024,23 @@ ship "S-PT06 Harukaze" "S-PT06 Harukaze (Quad Blaster)"
 	outfits
 		"Quad Blaster Turret"
 
-		"nGVF-AA Fuel Cell"
+		"nGVF-BB Fuel Cell"
+		"KP-6 Photovoltaic Panel" 4
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+ship "S-PT06 Harukaze" "S-PT06 Harukaze (Swordfish)"
+	outfits
+		"Swordfish Missile Turret"
+		"Swordfish Missile Rack"
+		"Swordfish Missile" 68
+
+		"nGVF-BB Fuel Cell"
+		"KP-6 Photovoltaic Panel" 4
 		"LP036a Battery Pack"
 		"D14-RN Shield Generator"
 		

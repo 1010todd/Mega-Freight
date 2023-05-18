@@ -7171,6 +7171,117 @@ mission "MGF: Molasses Transport (Beet 1)"
 		outfit "Beet Molasses" -2000
 		dialog phrase "mgf: unload molasses"
 		payment 220000 11500
+		
+#======================Garbage
+
+phrase "mgf: unload garbage"
+	word
+		`You unload the garbage at the `
+	word
+		`processing plant`
+		`dump site`
+		`recycling plant`
+	word
+		` and receive your payment of <payment>.`
+
+mission "MGF: Garbage Transport (Garbage 1)"
+	name "Garbage Transport to <planet>"
+	description "250 units of Garbage along with <cargo> to verify the shipment is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of compacting garbage."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "notes" 1
+	to offer
+		random < 70
+		has "outfit (installed): B-type 500 Garbage Bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "farming" "frontier" "mining"
+		not attributes "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		not attributes "station"
+		distance 3 10
+	to accept
+		"outfit (flagship installed): B-type 500 Garbage Bay" >= 1 + ( "outfit (installed): MGF: Garbage" / 250 )
+	on accept
+		outfit "MGF: Garbage" 250
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "MGF: Garbage" -250
+	on complete
+		outfit "MGF: Garbage" -250
+		dialog phrase "mgf: unload garbage"
+		payment 25000 6250
+
+mission "MGF: Garbage Transport (Garbage 2)"
+	name "Garbage Transport to <planet>"
+	description "250 units of Garbage along with <cargo> to verify the shipment is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of compacting garbage."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "notes" 1
+	to offer
+		random < 65
+		has "outfit (installed): B-type 500 Garbage Bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "farming" "frontier" "mining"
+		not attributes "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		not attributes "station"
+		distance 3 10
+	to accept
+		"outfit (flagship installed): B-type 500 Garbage Bay" >= 1 + ( "outfit (installed): MGF: Garbage" / 250 )
+	on accept
+		outfit "MGF: Garbage" 250
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "MGF: Garbage" -250
+	on complete
+		outfit "MGF: Garbage" -250
+		dialog phrase "mgf: unload garbage"
+		payment 25000 6250
+
+mission "MGF: Garbage Transport (Garbage 3)"
+	name "Garbage Transport to <planet>"
+	description "250 units of Garbage along with <cargo> to verify the shipment is required to be shipped to <destination>. Payment is <payment>. To accept this job you need flagship capable of compacting garbage."
+	job
+	repeat
+	deadline
+	#So Multiplier works.
+	cargo "notes" 1
+	to offer
+		random < 60
+		has "outfit (installed): B-type 500 Garbage Bay"
+	source
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "farming" "frontier"
+		not attributes "urban"
+	destination
+		government "Republic" "Syndicate" "Free Worlds" "Independent" "MGF: NGK Hauling" "MGF: NGK Security" "SpaceCrate"
+		attributes "factory" "manufacturing"
+		not attributes "station"
+		distance 3 10
+	to accept
+		"outfit (flagship installed): B-type 500 Garbage Bay" >= 1 + ( "outfit (installed): MGF: Garbage" / 250 )
+	on accept
+		outfit "MGF: Garbage" 250
+	on visit
+		dialog phrase "generic cargo on visit"
+	on fail
+		outfit "MGF: Garbage" -250
+	on complete
+		outfit "MGF: Garbage" -250
+		dialog phrase "mgf: unload garbage"
+		payment 35000 6250
 
 #==============================Passenger
 		

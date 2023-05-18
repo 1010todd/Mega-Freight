@@ -9053,6 +9053,69 @@ ship "QYG-70r Tonazqi"
 	"final explode" "final explosion medium"
 	description `A dedicated reefer ship for carrying and keeping perishable goods refrigerated in bulk over distance with dedicated cargo hold cooling systems as well as dedicated freezer section for storing cargo that requires even lower temperature to transport safely.`
 	
+ship "LMS-43 Mullsammler"
+	sprite "ship/mgf mullsammler"
+	thumbnail "thumbnail/mgf mullsammler thumb"
+	attributes
+		category "Light Freighter"
+		"cost" 820000
+		"shields" 1800
+		"hull" 2200
+		"required crew" 3
+		"bunks" 6
+		"mass" 285
+		"drag" 3.8
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 270
+		"weapon capacity" 80
+		"engine capacity" 100
+		"b-type 500 garbage bay" -1
+		"garbage bay slot" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
+	outfits
+		"Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"nGVF-DD Fuel Cell"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"B-type 500 Garbage Bay"
+		
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+		
+	turret 0 -45 
+	turret 0 50 
+	gun -4 -74.5 
+	gun 4 -74.5 
+	engine -6 85.5 
+	engine 6 85.5 
+	engine -14 85.5 
+	engine 14 85.5 
+	engine -22 85.5 
+		zoom .8
+	engine 22 85.5 
+		zoom .8
+	engine -28 85.5 
+		zoom .7
+	engine 28 85.5 
+		zoom .7
+	leak "leak" 60 50
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion small"
+	description `This ship was designed to collect garbage from various colonies in the days before they build their own garbage processing plant and with compactors these ships can collect several times more cargo than a regular freighter. Even after a processing plant was build on a planet these vessels are still used to collect garbage from various settlements scattered around the planet. The ship is equipped with six compactor to quickly load the garbage though practically the crew said three is more than enough for most small settlements this ship would be visiting and all compactors will only be utilized in more urban area.`
+
 ship "AD-012C Iaphia"
 	sprite "ship/mgf iaphia"
 	thumbnail "thumbnail/mgf iaphia thumb"

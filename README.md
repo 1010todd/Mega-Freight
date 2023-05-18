@@ -9,24 +9,25 @@ Adds several ships for you and various factions to use adding more variety to th
 Summary of what this plugin adds:
 
 Over 50 ships:
-* 25+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
-* 3 Transports
-* 1 Space Liner
-* 5 Utility
-* 11 Warships + 2 Superheavy
+* 45+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
+* 4 Transports
+* 2 Space Liner
+* 10+ Utility (Carriers, miners, etc.)
+* 17+ Warships + 2 Superheavy (Purpose-built and modifications of existing.)
 * 1 Battlestation
-* 8 Fighters, Drones, and other carried ships (Utility and Combat)
+* 9 Fighters, Drones, and other carried ships (Utility and Combat)
 
 And other things:
 * A few weapons and outfits. 
 * Special jobs that gets expanded with appropriate ship (Mining, Gas shipping, Chemical shipping, Heavy lift/Crane, Cars, etc.)
 * Additional luxury jobs/rich passengers depending on outfits.
 * Huge jobs (Passengers, Deliveries, Escorts).
-* New sub-factions often with unique variants or even weapons (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard, Sulso, Maryhal).
+* New sub-factions often with unique variants, weapons, or even ships (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard, Sulso, Maryhal, NGK, Core Food, Core Nuclear, Solacer, Luna Winery).
 * NPC fleets using the new ships. (And make pirates get stronger over time.)
-* Persistent NPC (Battlestations in 3 systems, 2 of which can respawn.)
+* Persistent NPC (Battlestations in 3 systems, 2 of which can respawn after some time.)
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.
+* A few stations (Nordlin, Ankulah, Yokosuka)
 
 Requires 0.10.0+/Continuous
 
