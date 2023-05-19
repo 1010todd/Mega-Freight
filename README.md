@@ -9,7 +9,7 @@ Adds several ships for you and various factions to use adding more variety to th
 Summary of what this plugin adds:
 
 Over 50 ships:
-* 45+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
+* 46+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
 * 4 Transports
 * 2 Space Liner
 * 10+ Utility (Carriers, miners, etc.)
@@ -23,7 +23,7 @@ And other things:
 * Additional luxury jobs/rich passengers depending on outfits.
 * Huge jobs (Passengers, Deliveries, Escorts).
 * New sub-factions often with unique variants, weapons, or even ships (Espion Mining, Rangphenn, Ugyr, Jack's, Rakin, Black Death, Crossguard, Sulso, Maryhal, NGK, Core Food, Core Nuclear, Solacer, Luna Winery).
-* NPC fleets using the new ships. (And make pirates get stronger over time.)
+* NPC fleets using the new ships. (And make pirates and merchants get stronger over time.)
 * Persistent NPC (Battlestations in 3 systems, 2 of which can respawn after some time.)
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.

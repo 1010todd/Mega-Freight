@@ -1237,6 +1237,72 @@ ship "LPC-3 Lavaka"
 	"final explode" "final explosion large"
 	description `A large oil carrier designed and built by Pioneer Heavy Industries. Lavaka-class is designed to ship either crude oil or other petroleum products in bulk across large distance with unmatched efficiency. Lavaka-class is also one of the largest ship designed and built by Pioneer HI.`
 	
+ship "LPC-2 Atletha"
+	sprite "ship/mgf atletha"
+	thumbnail "thumbnail/mgf atletha thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 7200000
+		"shields" 9800
+		"hull" 9400
+		"required crew" 16
+		"bunks" 22
+		"mass" 7520
+		"drag" 16.2
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 540
+		"weapon capacity" 220
+		"engine capacity" 150
+		"b-type 1k oil tank" -4
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+
+		"Quad Blaster Turret"
+		"Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 15
+		
+		"B-type 1k Oil Tank" 4
+		
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	gun -37.5 -254.5 
+	gun 37.5 -254.5 
+	gun -23 -266.5 
+	gun 23 -266.5 
+	turret 0 -186.5 
+	turret 0 -139 "Quad Blaster Turret"
+	turret 0 111.5 
+	turret 35.5 169.5 "Blaster Turret"
+	turret -35.5 169.5 "Blaster Turret"
+	engine -30.5 246.5 
+	engine 30.5 246.5 
+	engine 0 266.5 
+		zoom .8
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `A smaller predecessor to the Lavaka tanker. Though it is designed to carry both crude and product oil since the development of larger oil tankers most of Atletha-class in service now serve as product tanker.`
+
 ship "LAC-4 Lithalsa"
 	sprite "ship/mgf lithalsa"
 	thumbnail "thumbnail/mgf lithalsa thumb"
