@@ -1598,6 +1598,79 @@ ship "PAS-2 Bulwark"
 	"final explode" "final explosion large"
 	description "In order to quickly get a ship to match the Navy Cruiser and Carrier the Free Worlds has also opted for a modified version of the FG-5 Bluewhale replacing cargo containers with turret mounts effectively converting it into a formidable weapon platform outgunning nearly all ship in human space."
 	
+ship "SBS-12 Ossun"
+	sprite "ship/mgf ossun"
+	thumbnail "thumbnail/mgf ossun thumb"
+	attributes
+		category "Heavy Freighter"
+		"cost" 19500000
+		"shields" 13000
+		"hull" 10000
+		"required crew" 28
+		"bunks" 50
+		"mass" 7420
+		"drag" 12.8
+		"heat dissipation" .45
+		"fuel capacity" 1400
+		"cargo space" 30
+		"outfit space" 1320
+		"weapon capacity" 390
+		"engine capacity" 165
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Blaster Turret" 4
+		"Proton Turret" 4
+		"Heavy Anti-Missile Turret" 5
+		
+		"Breeder Reactor" 8
+		"Water Coolant System"
+		"LP288a Battery Pack" 2
+		"D94-YV Shield Generator"
+		"Laser Rifle" 20
+		
+		"A525 Atomic Steering"
+		"A370 Atomic Thruster"
+		"Scram Drive"
+		
+	turret 0 -197 "Heavy Anti-Missile Turret"
+	turret 0 -176.5
+	turret 0 36
+	turret -21.5 -175 "Proton Turret"
+	turret 21.5 -175 "Proton Turret"
+	turret -21.5 58 "Heavy Anti-Missile Turret"
+	turret 21.5 58 "Heavy Anti-Missile Turret"
+	turret -24 105 "Proton Turret"
+	turret 24 105 "Proton Turret"
+	turret -24 114.5
+	turret 24 114.5
+	turret -24 126.5 "Heavy Anti-Missile Turret"
+	turret 24 126.5 "Heavy Anti-Missile Turret"
+	engine 0 253.5
+		zoom 1.5
+		angle 0
+		under
+	engine -48.5 246.5
+		zoom 1
+		angle 0
+		under
+	engine 48.5 246.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description `The Ossun is a power station ship modified from the Bluewhale hull to serve as temporary power station for remote colonies or as additional source for area with high demand while a new stationary power plant is being built. Because it spent most of its operation on the ground very few of these ships can ever be seen flying around.`
+
 ship "FG-6 Startrain"
 	sprite "ship/mgf startrain"
 	thumbnail "thumbnail/mgf startrain"

@@ -122,6 +122,7 @@ shipyard developer
 	"SV80-n Catirfel"
 	"LMS-43 Mullsammler"
 	"LPC-2 Atletha"
+	"SBS-12 Ossun"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"

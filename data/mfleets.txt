@@ -263,6 +263,12 @@ fleet "Large Southern Merchants"
 		"Bastion"
 	add variant 2
 		"LPC-2 Atletha"
+	add variant 2
+		"LPC-2 Atletha"
+		"Osprey"
+
+	add variant 1
+		"SBS-12 Ossun"
 	
 fleet "Small Core Merchants"
 	add variant 40
@@ -624,6 +630,9 @@ fleet "Large Core Merchants"
 	add variant 3
 		"LPC-2 Atletha"
 		"Splinter" 2
+
+	add variant 1
+		"SBS-12 Ossun"
 	
 fleet "Paradise Merchants"
 	add variant 10
