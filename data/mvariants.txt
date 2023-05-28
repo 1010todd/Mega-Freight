@@ -616,6 +616,20 @@ ship "AD-0032 Ialmuslati" "Ialmuslati (Hyperdrive)"
 		"X1100 Ion Reverse Thruster"
 		"Hyperdrive"
 		
+ship "QYG-30 Qazan" "QYG-30 Qazan (Quad Blaster)"
+	outfits
+		"Quad Blaster Turret"
+		"Heavy Anti-Missile Turret"
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X3200 Ion Steering"
+		"X1100 Ion Reverse Thruster"
+		"Scram Drive"
+
 ship "TS-CH0 Kratzbal" "TS-CH0 Kratzbal (Plasma Steering)"
 	outfits
 		"Torpedo Launcher" 2
@@ -958,7 +972,85 @@ ship "Battle Behemoth" "Battle Behemoth (Proton)"
 		"A370 Atomic Thruster"
 		"A375 Atomic Steering"
 		"Scram Drive"
+
+ship "PL-50 Impavid" "PL-50 Impavid (Upgrade 1)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Anti-Missile Turret" 4
+		"Proton Turret" 5
+		"G22 Particle Turret"
 		
+		"Breeder Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 1
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 42
+		
+		"Impala Plasma Thruster"
+		"Orca Plasma Steering"
+		"Scram Drive"
+
+ship "TS-1L260 Mieusbar" "TS-1L260 Mieusbar (Proton)"
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Proton Turret" 9
+		"Quad Blaster Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		"D67-TM Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 26
+		
+		"Orca Plasma Steering"
+		"X4700 Ion Thruster"
+		"Hyperdrive"
+
+ship "FG-5 Bluewhale" "FG-5 Bluewhale (Proton)"
+	outfits
+		"Proton Turret" 7
+		"Heavy Anti-Missile Turret" 5
+		
+		"Breeder Reactor"
+		"Water Coolant System"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Laser Rifle" 42
+		
+		"A525 Atomic Steering"
+		"A250 Atomic Thruster"
+		"Scram Drive"
+
+ship "CDB-6K Jupiter" "CDB-6K Jupiter (G22)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Proton Turret" 
+		"G22 Particle Turret" 2
+		"Heavy Anti-Missile Turret" 3
+		
+		"Breeder Reactor"
+		"Water Coolant System"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 42
+		
+		"X5200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+
 ship "AGT-31 Xencar" "Xencar (Particle)"
 	outfits
 		"Particle Cannon"
@@ -2439,7 +2531,37 @@ ship "Marauder Quicksilver" "Marauder Quicksilver (XGS Escort, Weapons)"
 		"A255 Atomic Steering"
 		"Hyperdrive"
 
-#Minotaur variants
+#======================Minotaur variants
+
+ship "Marauder Splinter" "Marauder Splinter (Minotaurs 1, Engines)"
+	sprite "ship/msplintere"
+	thumbnail "thumbnail/msplintere"
+	add attributes
+		"engine capacity" 20
+	outfits
+		"Ka'het Ravenger Beam" 2
+		"Ka'het Annihilator Turret" 2
+		"Warder Anti-Missile"
+		
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Liquid Nitrogen Cooler"
+		"Systems Core (Medium)"
+		"MJK S1 Bunk Dismantling" 2
+		"Security Station"
+		"Laser Rifle" 14
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	
+	engine -15.5 115 .7
+	engine 0 117
+	engine 15.5 115 .7
+	turret "Ka'het Annihilator Turret"
+	turret "Warder Anti-Missile"
+	turret "Ka'het Annihilator Turret"
+	description "You're not likely to find a sub-kiloton warship faster or more deadly than this one. Large sections of the hull have been covered with extra hull plating and shield emitters. Much of the cargo space has been converted to outfit space, a great deal of which is at the rear of the ship, which features a new engine port."
 
 ship "Battle Behemoth" "Battle Behemoth (Minotaurs 1)"
 	add attributes
@@ -2515,6 +2637,40 @@ ship "Cruiser" "Cruiser (Minotaurs I)"
 		`"Bondir" Atomic Steering`
 		`"Bondir" Atomic Thuster`
 		"Hyperdrive"
+
+ship "CS-24 Garrison" "CS-24 Garrison (Minotaurs 1)"
+	outfits
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Ka'het Ravenger Beam" 4
+		"Ka'het Annihilator Turret" 5
+		"Warder Anti-Missile" 3
+		
+		"Triple Plasma Core"
+		"Small Heat Shunt" 2
+		"Systems Core (Large)"
+		"Thermal Repeater Rifle" 310
+		"Nerve Gas" 310
+		
+		"Torpedo Storage Rack" 3
+		"Torpedo" 45
+		
+		"A525 Atomic Steering"
+		"A520 Atomic Thruster"
+		"Jump Drive"
+		
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Warder Anti-Missile"
+	turret "Warder Anti-Missile"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret 
+	turret 
+	turret 
+	turret 
+	turret "Warder Anti-Missile"
+	turret "Ka'het Annihilator Turret"
 
 ship "Shield Beetle" "Shield Beetle (Minotaurs I)"
 	outfits

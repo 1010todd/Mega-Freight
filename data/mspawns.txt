@@ -844,7 +844,7 @@ event "MGF: NGK HeavyFreight Upgrade I"
 			"Leviathan (NGK Escort)"
 			"L-VC28 Zuikaku"
 			"Xencar (NGK)" 20
-		
+
 event "mgf: mieusbar released"
 	date 21 4 3014
 	shipyard "Southbound Advanced"
@@ -917,6 +917,39 @@ event "mgf: g-class released"
 			"G-Class Container Transport"
 			"UA-10 Porter" 2
 			"Splinter"
+
+mission "MGF: Liathtar Release"
+	invisible
+	landing
+	to offer
+		has "event: mgf: g-class released"
+	on offer
+		event "mgf: liathtar released" 50
+	on accept
+		fail
+
+event "mgf: liathtar released"
+	shipyard "MarStel Basics"
+		add "CK10C Liathtar"
+	shipyard "MarStel Intermediate"
+		add "CK10C Liathtar"
+	shipyard "MarStel Advanced"
+		add "CK10C Liathtar"
+	fleet "Large Southern Merchants"
+		add variant 2
+			"Tlielart (Cargo Carrier)"
+			"CK10C Liathtar" 20
+			"AGT-31 Xencar" 16
+	fleet "Large Northern Merchants"
+		add variant 2
+			"Tlielart (Cargo Carrier)"
+			"CK10C Liathtar" 26
+			"AGT-31 Xencar" 10
+	fleet "Large Core Merchants"
+		add variant 1
+			"Tlielart (Cargo Carrier)"
+			"CK10C Liathtar" 20
+			"AGT-31 Xencar" 16
 
 event "mgf: ialmuslati released"
 	date 6 10 3014
@@ -1135,6 +1168,112 @@ event "mgf: h-class on sale"
 			"Leviathan (NGK Escort)"
 			"L-VC28 Zuikaku"
 			"Xencar (NGK)" 20
+
+#=====================Patch for date-locked event
+#Because ES don't trigger it if save file is already past that date
+
+#1100429 is 16 11 3013 (ddmmyyyy)
+
+mission "MGF: Mieusbar overdue"
+	landing
+	invisible
+	to offer
+		#date 21 4 3014
+		not "event: mgf: mieusbar released"
+		"days since epoch" > 1100429 + 156
+	on offer
+		event "mgf: mieusbar released"
+
+mission "MGF: G-class overdue"
+	landing
+	invisible
+	to offer
+		# date 1 3 3014
+		not "event: mgf: g-class released"
+		"days since epoch" > 1100429 + 105
+	on offer
+		event "mgf: g-class released"
+
+mission "MGF: H-class development overdue"
+	landing
+	invisible
+	to offer
+		# date 2 5 3020
+		not "event: mgf: h-class development"
+		"days since epoch" > 1100429 + 2359
+	on offer
+		event "mgf: h-class development"
+		fail
+
+mission "MGF: Ialmuslati overdue"
+	landing
+	invisible
+	to offer
+		# date 6 10 3014
+		not "event: mgf: ialmuslati released"
+		"days since epoch" > 1100429 + 324
+	on offer
+		event "mgf: ialmuslati released"
+
+mission "MGF: Pirate Advancement V overdue"
+	landing
+	invisible
+	to offer
+		#date 16 12 3018
+		not "event: MGF: Pirate Advancement V"
+		"days since epoch" > 1100429 + 1856
+	on offer
+		event "MGF: Pirate Advancement V"
+
+mission "MGF: Pirate Advancement IV overdue"
+	landing
+	invisible
+	to offer
+		#date 16 12 3017
+		not "event: MGF: Pirate Advancement IV"
+		"days since epoch" > 1100429 + 1491
+	on offer
+		event "MGF: Pirate Advancement IV"
+
+mission "MGF: Pirate Advancement III overdue"
+	landing
+	invisible
+	to offer
+		#date 16 12 3016
+		not "event: MGF: Pirate Advancement III"
+		"days since epoch" > 1100429 + 1126
+	on offer
+		event "MGF: Pirate Advancement III"
+
+mission "MGF: Pirate Advancement II overdue"
+	landing
+	invisible
+	to offer
+		#date 16 12 3015
+		not "event: MGF: Pirate Advancement II"
+		"days since epoch" > 1100429 + 760
+	on offer
+		event "MGF: Pirate Advancement II"
+
+mission "MGF: Pirate Advancement I overdue"
+	landing
+	invisible
+	to offer
+		#date 16 12 3014
+		not "event: MGF: Pirate Advancement I"
+		"days since epoch" > 1100429 + 395
+	on offer
+		event "MGF: Pirate Advancement I"
+
+mission "MGF: Tonazqi overdue"
+	landing
+	invisible
+	to offer
+		# date 12 5 3014
+		not "event: mgf: tonazqi released"
+		"days since epoch" > 1100429 + 177
+	on offer
+		event "mgf: tonazqi released"
 
 #=========================Event Additions
 

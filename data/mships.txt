@@ -1613,9 +1613,11 @@ ship "SBS-12 Ossun"
 		"heat dissipation" .45
 		"fuel capacity" 1400
 		"cargo space" 30
-		"outfit space" 1320
+		"outfit space" 1380
 		"weapon capacity" 390
 		"engine capacity" 165
+		"energy protection" .1
+		"ion resistance" .1
 		weapon
 			"blast radius" 140
 			"shield damage" 1200
@@ -9585,7 +9587,7 @@ ship "TS-1L260 Mieusbar"
 		"hull" 9800
 		"required crew" 56
 		"bunks" 766
-		"mass" 1852
+		"mass" 4852
 		"drag" 22.2
 		"heat dissipation" .6
 		"fuel capacity" 1600
@@ -11939,6 +11941,45 @@ ship "AFFR-3 Fylla"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description `Old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`
+
+ship "CK10C Liathtar"
+	sprite "ship/mgf xencar"
+	thumbnail "thumbnail/mgf xencar thumb"
+	attributes
+		category "Fighter"
+		"cost" 55000
+		"shields" 650
+		"hull" 300
+		"required crew" 1
+		"bunks" 2
+		"mass" 50
+		"drag" .9
+		"heat dissipation" .8
+		"cargo space" 60
+		"outfit space" 120
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Anti-Missile Turret"
+		
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	turret 17.5 -23 
+	engine 17.5 49.5 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `Inspired by Syndicate G-Class and its companion Porter drone the MarStel shipyard developed a new fighter to assist with its freighter when unloading cargo, specifically its carrier variant of Tlielart-class.`
 
 ship "EP-2 Marmot"
 	sprite "ship/mgf epn marmot"

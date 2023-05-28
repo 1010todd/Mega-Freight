@@ -748,6 +748,9 @@ shipyard "Freight Galactic Advanced"
 	"FG-6 Startrain"
 	"FG-7 Conveyor"
 	
+shipyard "MarStel Basics"
+	"Shuttle" #temp
+
 shipyard "MarStel Intermediate"
 	"CK40T Treibard"
 	
