@@ -123,6 +123,8 @@ shipyard developer
 	"LMS-43 Mullsammler"
 	"LPC-2 Atletha"
 	"SBS-12 Ossun"
+	"CK10C Liathtar"
+	"SV40-n Navilel"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"

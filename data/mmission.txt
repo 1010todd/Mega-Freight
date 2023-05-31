@@ -1020,6 +1020,7 @@ mission `MGF: Kaga Development Trigger`
 		has "event: mgf: early reisen deployed"
 	on offer
 		event "mgf: early kaga deployed" 720 #~2 years
+		set "mgf: early kaga deployed post 31052023"
 	on accept
 		fail
 
@@ -1032,6 +1033,9 @@ event "mgf: early kaga deployed"
 		"Itano Missile"
 	outfitter "MJK Heavy Industries Basic"
 		"Itano Missile"
+	outfitter "MJK Heavy Industries Advanced"
+		"Itano SMLS"
+		"Itano Missile Rack"
 	outfitter "MJK Heavy Industries Advanced Exclusive"
 		"Itano SMLS"
 		"Itano Missile Rack"
@@ -1062,6 +1066,21 @@ event "mgf: early kaga deployed"
 			"S-FS06 Reisen (Refined I)" 40
 			"F-VC56 Kaga (Early)"
 			"S-FS06 Reisen (Refined I)" 90
+
+mission "MGF: Itano Sales Patch"
+	invisible
+	landing
+	to offer
+		has "event: mgf: early kaga deployed"
+		not "mgf: early kaga deployed post 31052023"
+	on offer
+		event "mgf: itano sales patch"
+		fail
+
+event "mgf: itano sales patch"
+	outfitter "MJK Heavy Industries Advanced"
+		"Itano SMLS"
+		"Itano Missile Rack"
 
 mission `MGF: Zuiho Itano Upgrade`
 	invisible

@@ -2611,6 +2611,7 @@ outfit "M-type 1k Gas Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 500
 	"m-type 1k gas tank" 1
+	"gas tank slot" -1
 	"gas capacity" 2000
 	#"gas lock" -9e+10
 	"unplunderable" 1
@@ -2623,6 +2624,7 @@ outfit "U-type 1k Chemical Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 450
 	"u-type 1k chem tank" 1
+	"chem tank slot" -1
 	"chemical capacity" 1000
 	#"chemical lock" -9e+10
 	"corrosion protection" .05
@@ -2637,6 +2639,7 @@ outfit "U-type 1k Cement Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 450
 	"u-type 1k cement tank" 1
+	"cement tank slot" -1
 	"cement capacity" 1000
 	#"cement lock" -9e+10
 	"unplunderable" 1
@@ -2649,6 +2652,7 @@ outfit "B-type 1k Oil Tank"
 	"mass" 450
 	"b-type 1k oil tank" 1
 	"oil capacity" 1000
+	"oil tank slot" -1
 	#"oil lock" -9e+10
 	"unplunderable" 1
 	description `An oil tank for transporting both crude oil and processed petroleum products. Lined with heater to prevent the cargo from being too viscous to be pumped out. Surrounded with triple-layered armour to prevent leaks and protect the cargo as well as the environment of the planet.`
@@ -2661,6 +2665,7 @@ outfit "B-type 1k Bitumen Tank"
 	"mass" 450
 	"b-type 1k bitumen tank" 1
 	"bitumen capacity" 1000
+	"bitumen tank slot" -1
 	#"bitumen lock" -9e+10
 	"unplunderable" 1
 	"heat capacity" 500 #these tanks are designed to handle heat.
@@ -2673,6 +2678,7 @@ outfit "C-type 200 Water Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 20
 	"c-type 200 water tank" 1
+	"water tank slot" -1
 	"water capacity" 100
 	#"water lock" -9e+10
 	"unplunderable" 1
@@ -2685,6 +2691,7 @@ outfit "C-type 100 Wine Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 10
 	"c-type 100 wine tank" 1
+	"wine tank slot" -1
 	"active cooling" 5
 	"wine capacity" 50
 	#"wine lock" -9e+10
@@ -2698,6 +2705,7 @@ outfit "C-type 200 Juice Tank"
 	thumbnail "outfit/fuel module"
 	"mass" 20
 	"c-type 200 juice tank" 1
+	"juice tank slot" -1
 	"active cooling" 5
 	"juice capacity" 100
 	#"juice lock" -9e+10
@@ -2711,6 +2719,7 @@ outfit "B-type 200 Bulk Sugar Bay"
 	thumbnail "outfit/fuel module"
 	"mass" 10
 	"b-type 200 sugar bay" 1
+	"sugar bay slot" -1
 	"active cooling" 3
 	"sugar capacity" 100
 	"unplunderable" 1

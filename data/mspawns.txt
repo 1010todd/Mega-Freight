@@ -951,6 +951,50 @@ event "mgf: liathtar released"
 			"CK10C Liathtar" 20
 			"AGT-31 Xencar" 16
 
+mission "MGF: Navilel Release Trigger"
+	landing
+	invisible
+	to offer
+		has "event: mgf: g-class released"
+	on offer
+		event "mgf: navilel released" 180
+		fail
+
+event "mgf: navilel released" 
+	shipyard "Betelgeuse Advanced"
+		"SV40-n Navilel"
+	fleet "Large Core Merchants"
+		add variant 3
+			"SV40-n Navilel"
+		add variant 2
+			"SV40-n Navilel"
+			"Splinter"
+		add variant 2
+			"SV40-n Navilel"
+			"Quicksilver" 2
+		add variant 2
+			"SV40-n Navilel" 2
+			"Vanguard"
+	fleet "Large Southern Merchants"
+		add variant 4
+			"SV40-n Navilel"
+		add variant 2
+			"SV40-n Navilel"
+			"Splinter"
+		add variant 2
+			"SV40-n Navilel" 2
+			"Falcon"
+	fleet "Large Northern Merchants"
+		add variant 2
+			"SV40-n Navilel"
+		add variant 1
+			"SV40-n Navilel"
+			"Splinter"
+		add variant 1
+			"SV40-n Navilel"
+			"Firebird"
+		
+
 event "mgf: ialmuslati released"
 	date 6 10 3014
 	shipyard "Betelgeuse Advanced"
