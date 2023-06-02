@@ -263,11 +263,13 @@ system Capella
 	add object "MGF: Fake Capella f"
 		distance 1985.85
 		period 1668.68
-		add object "Nordlin Navy Yard"
+		object "Nordlin Navy Yard"
 			sprite `planet/mgf nordlin shipyard v1`
 			distance 266
 			offset 180
 			period 13.5253
+
+#==============FG Shipyard
 
 #==============Najrmalas Shipworks
 #More luxurious/fancy ships with focus on speed. Should be around near Earth, Deep, and paradise worlds.

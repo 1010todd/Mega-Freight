@@ -125,6 +125,7 @@ shipyard developer
 	"SBS-12 Ossun"
 	"CK10C Liathtar"
 	"SV40-n Navilel"
+	"FG-10 Exchanger"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -305,6 +306,22 @@ outfitter developer
 	#"X09E Fighter Assembler"
 	#"E1 Lance Blueprint"
 	"MYi2 Railgun Turret"
+	"K3-K Particle Turret"
+	"K3-K-S Particle Turret"
+	"NGK R11 Rifle"
+	"NGK R11 Grip"
+	"NGK R11 Bipod"
+	"NGK R11 QAS"
+	"Akataiyo Fusion Reactor"
+	"Ta-class Energy Module"
+	"GS20-Ak Fusion Engine"
+	"K4-Mn Particle Cannon"
+	"Kiirotaiyo Fusion Reactor"
+	"GS26-Ak-k Fusion Engine"
+	"CN-6 Supercapacitor"
+	"S-1670 Regenerator"
+	"S-2370y Regenerator"
+	"Uo-class Energy Module"
 	
 outfitter "human plugins"
 	"Atesac Plasma Cannon"
@@ -750,6 +767,9 @@ shipyard "Freight Galactic Advanced"
 	"FG-6 Startrain"
 	"FG-7 Conveyor"
 	
+shipyard "Freight Galactic Advanced EX"
+	"Shuttle"
+
 shipyard "MarStel Basics"
 	"Shuttle" #temp
 

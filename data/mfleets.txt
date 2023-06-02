@@ -1712,6 +1712,20 @@ fleet "Maryhal Logistic ArteryLine"
 		"Garrison (Long Range)"
 		"Xencar (Particle)" 18
 		
+fleet "Maryhal Logistic Defense"
+	government "MGF: Maryhal Logistic"
+	names "maryhal logistic"
+	fighters "republic fighter"
+	cargo 2
+	personality
+		confusion 20
+		hunting frugal
+	variant 20
+		"Steward (MHL Combat)" 2
+		"Xencar (EPB3-2)" 12
+		"Garrison (MHL Combat)"
+		"Xencar (EPB3-2)" 18
+
 fleet "Small Espion Miners"
 	government "MGF: Espion Mining Co."
 	names "espion name"

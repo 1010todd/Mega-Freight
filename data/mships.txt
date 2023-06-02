@@ -1851,7 +1851,310 @@ ship "FG-7 Conveyor" "FG-7 Conveyor-A"
 		"random start frame" #For random cargo colour
 		"frame rate" 0
 	thumbnail "thumbnail/mgf conveyor-a"
+
+# 8 reserved for a small ship, 9 for Exporter, the ship carried by Exchanger.
+
+ship "FG-10 Exchanger"
+	sprite "ship/mgf exchanger"
+	thumbnail "thumbnail/mgf exchanger thumb"
+	attributes
+		category "Superheavy"
+		"cost" 888000000
+		"shields" 196000
+		"hull" 185000
+		"required crew" 1020
+		"bunks" 1320
+		"mass" 184500
+		"drag" 685
+		"heat dissipation" .3
+		"fuel capacity" 3000
+		"cargo space" 144000
+		"outfit space" 8120
+		"weapon capacity" 4550
+		"engine capacity" 560
+		"landing speed" .006
+		weapon
+			"blast radius" 140
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 12
+		"Sidewinder Missile" 540
+		"Proton Turret" 28
+		"G22 Particle Turret" 9
+		"Quad Blaster Turret" 28
+		"M6-ACS Artillery Turret" 4
+		"Heavy Anti-Missile Turret" 24
+		
+		"Fusion Reactor" 4
+		"Liquid Nitrogen Cooler"
+		"LP576a Battery Pack" 6
+		"D67-TM Shield Generator"
+		"Laser Rifle" 4
+		
+		"X5200 Ion Steering" 2
+		"X5700 Ion Thruster" 3
+		"Scram Drive"
+		
+	#FrontCent
+	gun 30.5 -1439 
+	gun -30.5 -1439 
+	gun 30.5 -1439 
+	gun -30.5 -1439 
+	gun 30.5 -1439 
+	gun -30.5 -1439 
+	#Sideblock
+	gun 158.5 -1182 
+	gun -158.5 -1182 
+	gun 158.5 -1117 
+	gun -158.5 -1117 
+	gun 158.5 -1048.5 
+	gun -158.5 -1048.5 
+	#FrontCent Upper
+	turret 0 -1204.5 "G22 Particle Turret" 
+	#turret 0 -1165.5 
+	turret 0 -1114.5 "Heavy Anti-Missile Turret"
+	#turret 0 -1044.5 
+	turret 0 -998.5 "Heavy Anti-Missile Turret"
+	#Lower side after guns
+	turret 157 -937 "Proton Turret"
+	turret -157 -937 "Proton Turret"
+	#Front upper block
+	turret 109.5 -870.5 "Heavy Anti-Missile Turret"
+	turret -109.5 -870.5 "Heavy Anti-Missile Turret"
+	turret 109.5 -822 "G22 Particle Turret" 
+	turret -109.5 -822 "G22 Particle Turret" 
+	#Front Tabs
+	turret 44 -679 "Heavy Anti-Missile Turret"
+	turret -44 -679 "Heavy Anti-Missile Turret"
+	turret 44 -635.5 "Proton Turret"
+	turret -44 -635.5 "Proton Turret"
+	#Midfront center upper
+	turret 0 -470.5 "M6-ACS Artillery Turret"
+	turret 0 -385.5 "M6-ACS Artillery Turret"
+	#Midfront Lower
+	turret 103 -519.5 "Proton Turret"
+	turret -103 -519.5 "Proton Turret"
+	turret 103 -459 "Quad Blaster Turret"
+	turret -103 -459 "Quad Blaster Turret"
+	turret 66 -403.5 "G22 Particle Turret" 
+	turret -66 -403.5 "G22 Particle Turret" 
+	turret 96 -340.5 "G22 Particle Turret" 
+	turret -96 -340.5 "G22 Particle Turret" 
+	#MidSec Lower
+	turret 231.5 -270.5 "Quad Blaster Turret"
+	turret -231.5 -270.5 "Quad Blaster Turret"
+	turret 326 -163.5 "Proton Turret"
+	turret -326 -163.5 "Proton Turret"
+	turret 326 -73.5 "Quad Blaster Turret"
+	turret -326 -73.5 "Quad Blaster Turret"
+	turret 326 107 "Proton Turret"
+	turret -326 107 "Proton Turret"
+	turret 326 197 "Quad Blaster Turret"
+	turret -326 197 "Quad Blaster Turret"
+	turret 239.5 298.5 "Proton Turret"
+	turret -239.5 298.5 "Proton Turret"
+
+	#MidSec Upper
+	turret 158.5 -248.5 "G22 Particle Turret" 
+	turret -158.5 -248.5 "G22 Particle Turret" 
+	turret 210 -181 "M6-ACS Artillery Turret"
+	turret -210 -181 "M6-ACS Artillery Turret"
+	#Midbay front
+	turret 214 -77 "Proton Turret"
+	turret -214 -77 "Proton Turret"
+	turret 237.5 205 "Heavy Anti-Missile Turret"
+	turret -237.5 205 "Heavy Anti-Missile Turret"
+	#rear tabs
+	turret 101.5 614.5 "Proton Turret"
+	turret -101.5 614.5 "Proton Turret"
+
+	turret 133 795 "Quad Blaster Turret"
+	turret -133 795 "Quad Blaster Turret"
+	turret 133 868.5 "Heavy Anti-Missile Turret"
+	turret -133 868.5 "Heavy Anti-Missile Turret"
+	#Engine central
+	turret 27.5 1277.5 "Proton Turret"
+	turret -27.5 1277.5 "Proton Turret"
+	turret 27.5 1335 "Heavy Anti-Missile Turret"
+	turret -27.5 1335 "Heavy Anti-Missile Turret"
+	#Engine lower
+	turret 145.5 1350 "Heavy Anti-Missile Turret"
+	turret -145.5 1350 "Heavy Anti-Missile Turret"
+
+	bay "Fighter" 98.5 160 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -98.5 160 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 98.5 221
+		"launch effect" "human internal" 
+		angle 90
+	bay "Fighter" -98.5 221 
+		"launch effect" "human internal"
+		angle -90
 	
+	bay "Fighter" 98.5 160 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -98.5 160 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 98.5 221
+		"launch effect" "human internal" 
+		angle 90
+	bay "Fighter" -98.5 221 
+		"launch effect" "human internal"
+		angle -90
+
+	bay "Fighter" 98.5 160 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -98.5 160 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 98.5 221
+		"launch effect" "human internal" 
+		angle 90
+	bay "Fighter" -98.5 221 
+		"launch effect" "human internal"
+		angle -90
+
+	bay "Fighter" 98.5 160 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -98.5 160 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 98.5 221
+		"launch effect" "human internal" 
+		angle 90
+	bay "Fighter" -98.5 221 
+		"launch effect" "human internal"
+		angle -90
+	#Exporters (the cargo arms)
+	turret 930 -848.5 "Quad Blaster Turret"
+	turret -930 -848.5 "Quad Blaster Turret"
+	turret 930 -660 "Quad Blaster Turret"
+	turret -930 -660 "Quad Blaster Turret"
+	turret 930 -466 "Quad Blaster Turret"
+	turret -930 -466 "Quad Blaster Turret"
+	turret 930 -273 "Quad Blaster Turret"
+	turret -930 -273 "Quad Blaster Turret"
+	turret 930 -83.5 "Quad Blaster Turret"
+	turret -930 -83.5 "Quad Blaster Turret"
+	turret 930 295.5 "Quad Blaster Turret"
+	turret -930 295.5 "Quad Blaster Turret"
+	turret 930 485 "Quad Blaster Turret"
+	turret -930 485 "Quad Blaster Turret"
+	turret 930 677 "Quad Blaster Turret"
+	turret -930 677 "Quad Blaster Turret"
+	turret 930 864 "Quad Blaster Turret"
+	turret -930 864 "Quad Blaster Turret"
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	bay "Fighter" 193.5 1023.5 
+		"launch effect" "human internal"
+		angle 90
+	bay "Fighter" -193.5 1023.5 
+		"launch effect" "human internal"
+		angle -90
+	#Cargo Arm holder Tips
+	turret 801.5 -846 "Heavy Anti-Missile Turret"
+	turret -801.5 -846 "Heavy Anti-Missile Turret"
+	turret 801.5 -658 "Proton Turret"
+	turret -801.5 -658 "Proton Turret"
+	turret 801.5 -471 "Heavy Anti-Missile Turret"
+	turret -801.5 -471 "Heavy Anti-Missile Turret"
+	turret 801.5 -282 "Proton Turret"
+	turret -801.5 -282 "Proton Turret"
+	turret 801.5 -92.5 "Heavy Anti-Missile Turret"
+	turret -801.5 -92.5 "Heavy Anti-Missile Turret"
+	turret 801.5 103 "Proton Turret"
+	turret -801.5 103 "Proton Turret"
+	turret 801.5 289 "Heavy Anti-Missile Turret"
+	turret -801.5 289 "Heavy Anti-Missile Turret"
+	turret 801.5 480 "Proton Turret"
+	turret -801.5 480 "Proton Turret"
+	turret 801.5 673.5 "Proton Turret"
+	turret -801.5 673.5 "Proton Turret"
+	turret 801.5 860.5 "Heavy Anti-Missile Turret"
+	turret -801.5 860.5 "Heavy Anti-Missile Turret"
+
+	engine -204 1452.5 
+	engine 204 1452.5 
+	engine -68.5 1452.5 
+	engine 68.5 1452.5 
+
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description `Inspired by the Syndicate H-class super container ship a smaller freighter development was halted in favor of an even larger freighter, and perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used as the Exchanger primary cargo arms that can be deployed to land and unload cargo as the Exchanger itself is too large to land on any port.`
+	description `To protect itself the ship carries vast array of armaments rivalling most warships as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed they were stripped down by a lot and do not serves as effective combat ship on its own as well as often taking longer to deploy as they were not designed to be deployed for immediate actions.`
+
 ship "PCS-4 Castle"
 	sprite "ship/mgf fw castle"
 	thumbnail "thumbnail/mgf fw castle thumb"
@@ -3081,8 +3384,8 @@ ship "SV-4450 Sovereign"
 	attributes
 		category "Superheavy"
 		"cost" 44200000
-		"shields" 88200
-		"hull" 38000
+		"shields" 138200
+		"hull" 88000
 		"required crew" 180
 		"bunks" 2090
 		"mass" 14280
@@ -3625,13 +3928,13 @@ ship "SC-1 Alcazar"
 	thumbnail "thumbnail/mgf alcazar"
 	attributes
 		category "Superheavy"
-		"cost" 202000000
-		"shields" 180000
-		"hull" 250000
+		"cost" 1002000000
+		"shields" 340000
+		"hull" 380000
 		"required crew" 450
 		"bunks" 2800
 		"mass" 45212
-		"drag" 150
+		"drag" 550
 		"heat dissipation" .5
 		"fuel capacity" 6000
 		"cargo space" 1500
@@ -3643,6 +3946,7 @@ ship "SC-1 Alcazar"
 		"ramscoop" 50
 		"force protection" 100
 		"heat capacity" 500000
+		"landing speed" .005
 		weapon
 			"blast radius" 1400
 			"shield damage" 12000
@@ -5065,14 +5369,14 @@ ship "Claymore Class"
 		category "Superheavy"
 		licenses
 			"Navy Battleship"
-		"cost" 88700000
-		"shields" 258800
-		"hull" 224000
+		"cost" 1288700000
+		"shields" 358800
+		"hull" 324000
 		"hull repair rate" .7
 		"required crew" 1450
 		"bunks" 2652
 		"mass" 41985
-		"drag" 34
+		"drag" 434
 		"heat dissipation" .45
 		"fuel capacity" 2800
 		"cargo space" 850
@@ -5089,6 +5393,7 @@ ship "Claymore Class"
 		"active cooling" 250
 		"ion protection" 2
 		"scrambling protection" 2
+		"landing speed" .01
 		weapon
 			"blast radius" 3000
 			"shield damage" 8000
@@ -5313,14 +5618,14 @@ ship "Lucerne Class"
 		category "Superheavy"
 		licenses
 			"Navy Carrier"
-		"cost" 88700000
-		"shields" 141500
-		"hull" 128800
+		"cost" 788700000
+		"shields" 241500
+		"hull" 228800
 		"hull repair rate" .6
 		"required crew" 1550
 		"bunks" 2200
-		"mass" 35685
-		"drag" 34
+		"mass" 135685
+		"drag" 340
 		"heat dissipation" .45
 		"fuel capacity" 2800
 		"cargo space" 1680
@@ -5337,6 +5642,7 @@ ship "Lucerne Class"
 		"active cooling" 250
 		"ion protection" 2
 		"scrambling protection" 2
+		"landing speed" .01
 		weapon
 			"blast radius" 3000
 			"shield damage" 8000
@@ -6451,6 +6757,7 @@ ship "Lucerne Class"
 	explode "nuke explosion" 10
 	"final explode" "final explosion large" 2
 	description `Republic Navy Supercarrier-Battleship hybrid heavily armed with multiple railgun turrets capable of tearing down smaller ships in seconds. While officially claimed to be recently developed to face against future alien invasion threat it was rumoured to be in research and development long before the war with Free Worlds for potential aggression from the Quarg or someone as advanced as them.`
+	description `The ship itself is by far the largest interstellar vessel ever built by humanity truly going into the territory of mobile space station rather as their scale could be measured in kilometers.`
 		
 ship "Lucerne Class" "Lucerne Class MkII"
 	plural "Lucerne Class"
@@ -6460,14 +6767,14 @@ ship "Lucerne Class" "Lucerne Class MkII"
 		category "Superheavy"
 		licenses
 			"Navy Carrier"
-		"cost" 88700000
-		"shields" 162000
-		"hull" 145800
+		"cost" 1088700000
+		"shields" 262000
+		"hull" 245800
 		"hull repair rate" 1
 		"required crew" 1450
 		"bunks" 2200
 		"mass" 35685
-		"drag" 34
+		"drag" 334
 		"heat dissipation" .45
 		"fuel capacity" 2800
 		"cargo space" 1600
@@ -6491,6 +6798,7 @@ ship "Lucerne Class" "Lucerne Class MkII"
 		"cargo scan power" 210
 		"cargo scan efficiency" 200
 		"hull repair multiplier" .1
+		"landing speed" .01
 		weapon
 			"blast radius" 3000
 			"shield damage" 8000
@@ -11626,7 +11934,7 @@ ship "SV40-n Navilel"
 		"fuel capacity" 1000
 		"cargo space" 780
 		"outfit space" 910
-		"weapon capacity" 390
+		"weapon capacity" 420
 		"engine capacity" 160
 		"bulk bay" 3
 		weapon
@@ -11637,7 +11945,8 @@ ship "SV40-n Navilel"
 	outfits
 		"Sidewinder Missile Launcher" 12
 		"Sidewinder Missile" 540
-		"Quad Blaster Turret" 4
+		"Quad Blaster Turret" 2
+		"Blaster Turret" 2
 		"Heavy Anti-Missile Turret" 2
 		
 		"Fission Reactor"

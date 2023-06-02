@@ -926,6 +926,98 @@ ship "CS-24 Garrison" "Garrison (Long Range)"
 	turret 0 67.5 "Heavy Anti-Missile Turret"
 	turret 0 144.5
 
+ship "CSE-6 Steward" "Steward (MHL Combat)"
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"Proton Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		
+		"Fission Reactor"
+		"Fuel Pod"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 40
+		
+		"Orca Plasma Steering"
+		"Orca Plasma Thruster"
+		"Hyperdrive"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	turret -24 25.5 "Proton Turret"
+	turret 24 25.5 "Proton Turret"
+	turret -29.5 38 "Proton Turret"
+	turret 29.5 38 "Proton Turret"
+	turret -39.5 71.5 "Heavy Anti-Missile Turret"
+	turret 39.5 71.5 "Heavy Anti-Missile Turret"
+	turret -36.5 95 
+	turret 36.5 95
+
+ship "CS-24 Garrison" "Garrison (MHL Combat)"
+	outfits
+		"G22 Particle Turret" 5
+		"Heavy Anti-Missile Turret"
+		
+		"Fusion Reactor"
+		"Fuel Pod" 2
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"Laser Rifle" 40
+		
+		"Orca Plasma Steering"
+		"X4700 Ion Thruster"
+		"Scram Drive"
+		
+	turret -32 -168
+	turret 32 -168
+	turret -45 -142 
+	turret 45 -142
+	turret -57 -112.5
+	turret 57 -112.5
+	gun -31 -231.5
+	gun 31 -231.5
+	turret -106.5 10.5
+	turret 106.5 10.5
+	turret -83.5 10.5
+	turret 83.5 10.5
+	turret 0 67.5 "Heavy Anti-Missile Turret"
+	turret 0 144.5
+
+ship "CK50T Stahbar" "Stahbar (MHL Combat)"
+	outfits
+		"Torpedo Launcher" 4
+		"Torpedo" 120
+		"G22 Particle Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator"
+		"Water Coolant System"
+		"Laser Rifle" 50
+		
+		"X5700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -47.5 -209.5 
+	gun -75.5 -179 
+	gun 49 -177 
+	gun 55 -159 
+	turret -6.5 -160.5 "Proton Turret"
+	turret -64.5 -150.5 
+	turret 9 -92.5 "G22 Particle Turret"
+	turret 50 -89.5 "Heavy Anti-Missile Turret"
+	turret 64.5 -11 "Proton Turret"
+	turret 64.5 21.5 "G22 Particle Turret"
+	turret 64.5 55 "Heavy Anti-Missile Turret"
+	turret 9 110.5 "Proton Turret"
+	engine -38.5 226.5 
+	engine 38.5 226.5 
+
 ship "Battle Bulk" "Battle Bulk (Proton)"
 	outfits
 		"Sidewinder Missile Launcher" 2

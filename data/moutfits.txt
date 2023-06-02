@@ -2372,6 +2372,17 @@ outfit "Ta-class Energy Module"
 	"AT-type slot" -1
 	description `Addon energy harvesting module for the Akataiyo Fusion Reactor for harvesting additional energy at cost of more heat management problems.`
 
+outfit "Uo-class Energy Module"
+	category "Power"
+	cost 360000
+	thumbnail "outfit/mgf akataiyo fusion module"
+	"mass" 1
+	"energy generation" .55
+	"cooling" .1
+	"cooling inefficiency" .25
+	"AT-type slot" -1
+	description `Addon energy harvesting module for the Akataiyo and Kiirotaiyo Fusion Reactor with heat management improvement over the Ta-class.`
+
 outfit "Kiirotaiyo Fusion Reactor"
 	category "Power"
 	cost 18600000

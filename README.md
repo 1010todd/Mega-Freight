@@ -9,9 +9,9 @@ Adds several ships for you and various factions to use adding more variety to th
 Summary of what this plugin adds:
 
 Over 50 ships:
-* 46+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.)
+* 50+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.) + 1 Superheavy
 * 4 Transports
-* 2 Space Liner
+* 3 Space Liner
 * 10+ Utility (Carriers, miners, etc.)
 * 17+ Warships + 2 Superheavy (Purpose-built and modifications of existing.)
 * 1 Battlestation
@@ -27,13 +27,13 @@ And other things:
 * Persistent NPC (Battlestations in 3 systems, 2 of which can respawn after some time.)
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.
-* A few stations (Nordlin, Ankulah, Yokosuka)
+* A few stations (Nordlin, Ankulah, Yokosuka, GS1 Galaxy)
 
-Requires 0.10.0+/Continuous
+Requires 0.10.1 or above (Will work with 0.10.0 as of 2023-05-31 but just to be safe.)
 
 # Recommended 
 
-To fully utilize mining/utility fighters and drones provided with this plugin you can try Sam's Mining Complete fork of the game which allows you command your ships to target mineable asteroids and distribute fuel among your fleet with fighters. The fork also provides other gameplay improvements and bug fixes.
+To fully utilize mining/utility fighters and drones provided with this plugin you can try Sam's Mining Complete fork of the game which allows you ~~command your ships to target mineable asteroids~~(In vanilla now) and distribute fuel among your fleet with fighters. The fork also provides other gameplay improvements and bug fixes.
 
 Link: https://github.com/samrocketman/endless-sky/releases/tag/continuous-with-plugins
 

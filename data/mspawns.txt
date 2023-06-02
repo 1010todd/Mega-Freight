@@ -1213,6 +1213,234 @@ event "mgf: h-class on sale"
 			"L-VC28 Zuikaku"
 			"Xencar (NGK)" 20
 
+mission "MGF: Galaxy Station Begin"
+	landing
+	invisible
+	to offer
+		has "event: mgf: h-class on sale"
+		or
+			not "Liberate Kornephoros: offered"
+			has "main plot completed"
+	on offer
+		event "mgf: galaxy station begin" 45
+		event "mgf: galaxy station done auto" 170
+	on accept
+		fail
+
+planet "MGF Fake New China"
+	attributes "requires: unlandable"
+
+planet "GS1 Galaxy Station"
+	government "Republic"
+	attributes station
+	landscape `land/space0`
+	music ambient/machinery
+	description `This is a purpose-built shipyard station owned by Freight Galactic shipyards specifically for building one of the largest ship ever devised.`
+	spaceport `Most of the station is dedicated to developing and building exceptionally large ships and in turns it is fairly cramped and services are minimal, though the restaurant chains brought into this station is considered one of the best around.`
+	bribe 0.1
+	security 0.5
+	shipyard "Basic Ships"
+	outfitter "Common Outfits"
+	
+
+event "mgf: galaxy station begin"
+	system "Merak"
+		add object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station wip"
+				distance 150.24
+				period 25
+
+event "mgf: galaxy station done auto"
+
+mission "MGF: Galaxy Station Done Auto"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station done auto"
+		not "event: mgf: galaxy station done"
+	on offer
+		event "mgf: galaxy station done"
+	on accept
+		fail
+
+mission "MGF: Galaxy Station Done Early"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station begin"
+		"mgf: gs1 construction assist" >= 12
+	on offer
+		event "mgf: galaxy station done"
+		event "mgf: galaxy station expansion1 begin" 360
+		event "mgf: galaxy station expansion1 done auto" 490
+	on accept
+		fail
+
+event "mgf: galaxy station done"
+	system "Merak"
+		remove object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station wip"
+				distance 150.24
+				period 25
+		add object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station complete"
+				distance 150.24
+				period 25
+	planet "GS1 Galaxy Station"
+		#Todo: improve landscape image, currently using lazy version.
+		landscape "land/mgf galaxy station landscape"
+		shipyard "Betelgeuse Basics"
+		shipyard "Freight Galactic Advanced"
+		shipyard "Freight Galactic Advanced EX"
+		outfitter "Ammo North"
+		outfitter "Lovelace Advanced"
+		outfitter "Syndicate Basics"
+
+mission "MGF: Exchanger-Class on sale trigger"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station done"
+	on offer
+		event "mgf: exchanger-class on sale" 350
+	on accept
+		fail
+
+event "mgf: exchanger-class on sale"
+	shipyard "Freight Galactic Advanced EX"
+		"FG-10 Exchanger"
+	fleet "Maryhal Logistic ArteryLine"
+		add variant 1
+			"FG-10 Exchanger"
+			"Xencar (EPB3-2)" 36
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		remove variant 10
+			"Tlielart (Long Range)"
+			"Steward (Long Range)"
+			"Xencar (Particle)" 6
+			"Garrison (Long Range)"
+			"Xencar (Particle)" 18
+		remove variant 20
+			"FG-7 Conveyor-A" 4
+			"Lance" 24
+			"Steward (Long Range)"
+			"Xencar (Particle)" 6
+			"Garrison (Long Range)"
+			"Xencar (Particle)" 18
+		remove variant 20
+			"CDB-12K Saturn" 2
+			"FG-5 Bluewhale-A" 3
+			"Steward (Long Range)"
+			"Xencar (Particle)" 6
+			"Garrison (Long Range)"
+			"Xencar (Particle)" 18
+
+		add variant 10
+			"Tlielart (Long Range)"
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		add variant 20
+			"FG-7 Conveyor-A" 4
+			"Xencar (EPB3-2)" 24
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		add variant 20
+			"CDB-12K Saturn" 2
+			"FG-5 Bluewhale-A" 3
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+
+event "mgf: galaxy station expansion1 begin"
+	system "Merak"
+		remove object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station complete"
+				distance 150.24
+				period 25
+		add object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station upgrade1 wip"
+				distance 150.24
+				period 25
+
+event "mgf: galaxy station expansion1 done auto"
+
+mission "MGF: Galaxy Station Expansion1 Done Auto"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station expansion1 done auto"
+	on offer
+		event "mgf: galaxy station expansion1 done"
+	on accept
+		fail
+
+event "mgf: galaxy station expansion1 done"
+	system "Merak"
+		remove object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station upgrade1 wip"
+				distance 150.24
+				period 25
+		add object "MGF Fake New China"
+			distance 1107.51
+			period 441.513
+			object "GS1 Galaxy Station"
+				sprite "planet/mgf galaxy station upgrade1 done"
+				distance 150.24
+				period 25
+	planet "GS1 Galaxy Station"
+		description `This is a purpose-built shipyard station owned by Freight Galactic shipyards specifically for building one of the largest ship ever devised.`
+		description `The station was recently expanded to increase production capacity to meet the demand of their customer.`
+		spaceport `With the recent expansion the station now have more space for various accomodations and facilities beside research and construction. This also includes the expansion of various worker-favorite restaurant further improve life quality abroad the station.`
+		shipyard "Betelgeuse Advanced"
+	fleet "Maryhal Logistic ArteryLine"
+		add variant 5
+			"FG-10 Exchanger"
+			"Xencar (EPB3-2)" 36
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+	fleet "Large Northern Merchant"
+		add variant 1
+			"FG-10 Exchanger"
+			"Dagger" 36
+			"Leviathan" 2
+	fleet "Large Southern Merchant"
+		add variant 1
+			"FG-10 Exchanger"
+			"Finch" 36
+			"Falcon" 2
 #=====================Patch for date-locked event
 #Because ES don't trigger it if save file is already past that date
 

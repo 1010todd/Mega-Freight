@@ -858,6 +858,92 @@ event "mgf: nordlin navy yard upgrade done"
 				offset 180
 				period 13.5253
 
+mission "MGF: MHL Combat Fleet"
+	landing
+	invisible
+	to offer
+		has "event: mgf: h-class on sale"
+	on offer
+		event "mgf: mhl combat response fleet" 14
+
+event "mgf: mhl combat response fleet"
+	fleet "Maryhal Logistic ArteryLine"
+		add variant 20
+			"FG-7 Conveyor-A" 4
+			"Xencar (EPB3-2)" 24
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		add variant 10
+			"CDB-6K Jupiter" 4
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		add variant 30
+			"FG-5 Bluewhale-A" 3
+			"Stahbar (MHL Combat)" 
+			"Steward (Long Range)" 2
+			"Xencar (EPB3-2)" 12
+		add variant 10
+			"CDB-12K Saturn" 2
+			"FG-5 Bluewhale-A" 3
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+	system Menkent
+		add fleet "Maryhal Logistic Defense" 17000
+	system Zubeneschamali
+		add fleet "Maryhal Logistic Defense" 17000
+	system Zubenelgenubi
+		add fleet "Maryhal Logistic Defense" 17000
+	system Sabik
+		add fleet "Maryhal Logistic Defense" 17000
+	system Kornephoros
+		add fleet "Maryhal Logistic Defense" 17000
+	system Wei
+		add fleet "Maryhal Logistic Defense" 17000
+	system Alioth
+		add fleet "Maryhal Logistic Defense" 17000
+	system Holeb
+		add fleet "Maryhal Logistic Defense" 17000
+	system Rutilicus
+		add fleet "Maryhal Logistic Defense" 17000
+	system Tarazed
+		add fleet "Maryhal Logistic Defense" 17000
+	system Dabih
+		add fleet "Maryhal Logistic Defense" 17000
+	system "Kaus Australis"
+		add fleet "Maryhal Logistic Defense" 17000
+	system Peacock
+		add fleet "Maryhal Logistic Defense" 17000
+	system Ascella
+		add fleet "Maryhal Logistic Defense" 17000
+	system Rasalhague
+		add fleet "Maryhal Logistic Defense" 17000
+	system Cebalrai
+		add fleet "Maryhal Logistic Defense" 17000
+
+mission "MGF: Navy Respond to AntiMHL Bounty Hunter"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station done"
+	on offer
+		event "mgf: navy attack antimhl bountyhunter"
+		fail
+
+event "mgf: navy attack antimhl bountyhunter"
+	government "Republic"
+		"attitude toward"
+			"MGF: Bounty Hunter (AntiMHL)" -.1
+
+
 #===========================NGK
 
 mission "MGF: NGK Exclusive Shipyard Unlock"
@@ -1574,7 +1660,7 @@ mission "MGF: Core Nuclear Transport Upgrade I"
 	invisible
 	to offer
 		#random condition that's almost always 1 because ES can't handle literal number on the left side.
-		"MGF: Polaris Alcazar: offered" =< ( "Raid on Nuclear Transport: done" + "Nuclear Cargo Theft (Core): done" ) / 12
+		"MGF: Polaris Alcazar: offered" <= ( "Raid on Nuclear Transport: done" + "Nuclear Cargo Theft (Core): done" ) / 12
 	on offer
 		event "MGF: Core Nuclear Transport Upgrade I"
 	on accept
