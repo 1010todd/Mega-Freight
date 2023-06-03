@@ -2173,6 +2173,21 @@ fleet "Large Syndicate"
 		"Protector" 2
 		"Quicksilver (Proton)" 4
 
+#Patrol where Korath spawn.
+fleet "Large NGK-Syndicate Border Patrol"
+	government "Syndicate"
+	names "syndicate capital"
+	fighters "syndicate fighter"
+	cargo 2
+	personality
+		confusion 5
+		heroic frugal plunders
+	variant 60
+		"F-VC56 Kaga"
+		"S-FS06 Reisen (Refined I)" 90
+		"AP-7 Sentinel" 3
+		"Splinter (Mark II)" 5
+		"Nasprite"
 #=============================PIRATES
 
 fleet "Large Southern Pirates"

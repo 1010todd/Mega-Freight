@@ -1,4 +1,13 @@
 
+effect "mgf explosion spark"
+	sprite "effect/mgf explo spark"
+		"frame rate" 50
+	lifetime 14
+	"random lifetime" 5
+	"absolute velocity" 5
+	"random velocity" 18
+	"random angle" 360
+
 outfit "Bagger Excavator"
 	category "Guns"
 	cost 1200000
@@ -588,6 +597,47 @@ outfit "K4-H Particle Beam"
 		"hit force" 80
 		"shield damage" 188
 		"hull damage" 178
+
+outfit "H6-Gy Oscillator Turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/mgf k4h particle turret"
+	"mass" 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	weapon
+		sound "k4h particle"
+		"hardpoint sprite" "hardpoint/mgf k4h particle turret hp"
+		"hardpoint offset" 10.
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .5
+		"turret turn" .8
+		"submunition" "H6-Gy Beam"
+			offset 4.5 0
+		"submunition" "H6-Gy Beam"
+			offset -4.5 0
+		velocity 1
+		"velocity override" 24
+		"lifetime" 1
+		"reload" 22
+		"firing energy" 355
+		"firing force" 30
+		"firing heat" 624
+	description `A new type of energy weapon with improved heat efficiency at minimal firepower loss compared to particle weapons.`
+
+outfit "H6-Gy Beam"
+	weapon
+		sprite "projectile/h6gy beam"
+			scale 1.2
+		"hit effect" "k3k particle impact" 2
+		"velocity" 24
+		"inaccuracy" .8
+		"lifetime" 51
+		"random lifetime" 2
+		"hit force" 75
+		"shield damage" 222
+		"hull damage" 164
 
 outfit "Reisen Sidehull"
 	category "Turrets"
@@ -2270,7 +2320,18 @@ outfit "SX-12 Shield Node"
 	"shield energy" 3.65
 	"shield node" -1
 	description `A smaller shield generator that can be placed around the ship for maximum efficiency but requires a hub to power it.`
-	
+
+outfit "SX-6 Shield Node"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/medium shield"
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 1.8
+	"shield energy" 1.8
+	"shield node" -1
+	description `A smaller shield node for smaller warships.`
+
 outfit "NX-40k Repair Center"
 	category "Systems"
 	cost 3800000
@@ -2301,7 +2362,7 @@ outfit "H36B Helium Cooler"
 	"mass" 120
 	"outfit space" -120
 	"cooling" 255
-	description "Larger and more efficient cooler specifically developed cooling system fir large ships."
+	description "Larger and more efficient cooler specifically developed cooling system for large ships."
 	
 outfit "VYT Malebolge Core"
 	category "Power"
@@ -2396,6 +2457,29 @@ outfit "Kiirotaiyo Fusion Reactor"
 	"AT-type slot" 24
 	description `A larger version of the Akataiyo reactor with improved heat efficiency as well as more output.`
 
+outfit "HS84 Helium Cooler"
+	category "Systems"
+	cost 980000
+	thumbnail "outfit/liquid helium"
+	"mass" 80
+	"outfit space" -80
+	"cooling" 174
+	description `Advanced cooling system potentially based on alien technology.`
+
+outfit "DCN224n Battery Pack"
+	category "Power"
+	cost 190000
+	thumbnail "outfit/huge battery"
+	"mass" 160
+	"outfit space" -160
+	"energy capacity" 112000
+	"ion resistance" .007
+	"scrambling resistance" .007
+	"ion protection" .05
+	"scrambling protection" .05
+	"energy protection" .32
+	description `A recently developed battery with both capacity and resistance to ion and scrambling with especially reinforced and protected wirings.`
+
 outfit "GS20-Ak Fusion Engine"
 	category "Engines"
 	"cost" 480000
@@ -2441,6 +2525,29 @@ outfit "GS26-Ak-k Fusion Engine"
 		"frame rate" 16
 	"steering flare sound" "atomic small"
 	description "Improved version of the GS20-Ak fusion engine with better efficiency and greater power generation."
+
+outfit "GS152-Ak Fusion Engine"
+	category "Engines"
+	"cost" 3490000
+	thumbnail "outfit/huge atomic thruster"
+	"mass" 610
+	"outfit space" -930
+	"engine capacity" -450
+	"energy generation" 118.5
+	"heat generation" 177
+	"thrust" 931.14
+	"thrusting energy" 13.0
+	"thrusting heat" 26.8
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 12
+	"flare sound" "atomic huge"
+	"turn" 6752
+	"turning energy" 5.85
+	"turning heat" 25.5
+	"steering flare sprite" "effect/atomic flare/huge"
+		"frame rate" 12
+	"steering flare sound" "atomic huge"
+	description `Large scale version of the fusion engine developed for the Kaga class as primary engine and power source for the ship.`
 
 outfit "CN-6 Supercapacitor"
 	category "Power"

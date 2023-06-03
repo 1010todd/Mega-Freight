@@ -1890,11 +1890,12 @@ ship "FG-10 Exchanger"
 		"Fusion Reactor" 4
 		"Liquid Nitrogen Cooler"
 		"LP576a Battery Pack" 6
-		"D67-TM Shield Generator"
-		"Laser Rifle" 4
+		"D94-YV Shield Generator"
+		"Laser Rifle" 1000
 		
-		"X5200 Ion Steering" 2
-		"X5700 Ion Thruster" 3
+		"X1100 Ion Reverse Thruster" 7
+		"X5200 Ion Steering" 3
+		"X5700 Ion Thruster" 2
 		"Scram Drive"
 		
 	#FrontCent
@@ -5092,6 +5093,376 @@ ship "Spetum Class" "Spetum Class (Mark II)"
 		"X4200 Ion Steering"
 		"Scram Drive"
 		
+ship "Ranseur Class"
+	plural "Ranseur Class"
+	sprite "ship/mgf navy fleetcarrierv2"
+	thumbnail "thumbnail/mgf navy fleetcarrierv2 thumb"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Navy Carrier"
+		"cost" 68200000
+		"shields" 30800
+		"hull" 19800
+		"hull repair rate" 2.8
+		"required crew" 550
+		"bunks" 820
+		"mass" 5955
+		"drag" 22.8
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 3880
+		"weapon capacity" 2685
+		"engine capacity" 350
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Typhoon Launcher" 4
+		"Typhoon Torpedo" 120
+		"Heavy Anti-Missile Turret" 6
+		"V85d Dual Railgun Turret" 4
+		"V85 Railgun Turret" 4
+		"V47 Plasma-Railgun Turret" 2
+		"EMX-55 Flakcannon Turret" 4
+		
+		"F560 Uranus Core"
+		"LP576a Battery Pack" 3
+		"DX-10k Shield Hub"
+		"SX-6 Shield Node"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Brig"
+		"Laser Rifle" 500
+		"Fragmentation Grenades" 90
+		"Security Station" 2
+		"Tactical Scanner"
+		
+		"Typhoon Storage Tube" 16
+		"Typhoon Torpedo" 240
+		
+		"A860 Atomic Thruster"
+		"A865 Atomic Thruster"
+		"A525 Atomic Steering"
+		"A370 Atomic Steering"
+		"Scram Drive"
+
+	gun -35.5 -389.5
+	gun 35.5 -389.5
+	gun -46.5 -363.5
+	gun 46.5 -363.5
+	turret 0 -201.5 "V85d Dual Railgun Turret"
+	turret 0 -87.5 "V85d Dual Railgun Turret"
+	turret 0 -19 "V85d Dual Railgun Turret"
+	turret 0 61 "V85d Dual Railgun Turret"
+	
+	turret -102 243 "Heavy Anti-Missile Turret"
+	turret 102 243 "Heavy Anti-Missile Turret"
+	
+	turret -21 -174 "V85 Railgun Turret"
+	turret 21 -174 "V85 Railgun Turret"
+	turret -95 25 "V47 Plasma-Railgun Turret"
+	turret 95 25 "V47 Plasma-Railgun Turret"
+	turret -95 52.5 "Heavy Anti-Missile Turret"
+	turret 95 52.5 "Heavy Anti-Missile Turret"
+	turret -95 79 "V85 Railgun Turret"
+	turret 95 79 "V85 Railgun Turret"
+
+	turret 120.5 26 "EMX-55 Flakcannon Turret"
+	turret -120.5 26 "EMX-55 Flakcannon Turret"
+	turret 120.5 53 "Heavy Anti-Missile Turret"
+	turret -120.5 53 "Heavy Anti-Missile Turret"
+	turret 120.5 81 "EMX-55 Flakcannon Turret"
+	turret -120.5 81 "EMX-55 Flakcannon Turret"
+
+	engine -54 398
+		zoom 1.2
+		angle 0
+		under
+	engine 54 398
+		zoom 1.2
+		angle 0
+		under
+	engine -119 379.5
+		zoom 1
+		angle 0
+		under
+	engine 119 379.5
+		zoom 1
+		angle 0
+		under
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+		
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" -56 -157
+		"launch effect" "human internal"
+	bay "Fighter" 56 -157
+		"launch effect" "human internal"
+	bay "Fighter" -98.5 -55.5
+		"launch effect" "human internal"
+	bay "Fighter" 98.5 -55.5
+		"launch effect" "human internal"
+		
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	bay "Drone" -112.5 175
+		"launch effect" "human internal"
+		left
+	bay "Drone" 112.5 175
+		"launch effect" "human internal"
+		right
+	bay "Drone" -156.5 126
+		"launch effect" "human internal"
+		left
+	bay "Drone" 156.5 126
+		"launch effect" "human internal"
+		right
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large" 2
+	description `The Ranseur Class is considered a sub-class of Spetum with several major improvements across the broad.`
+
 ship "Dulle Griet Class"
 	plural "Dulle Griet Class"
 	sprite "ship/mgf navy fastbattleship"
@@ -5110,7 +5481,7 @@ ship "Dulle Griet Class"
 		"heat dissipation" .45
 		"fuel capacity" 800
 		"cargo space" 20
-		"outfit space" 3660
+		"outfit space" 3680
 		"weapon capacity" 2970
 		"engine capacity" 310
 		"vertical launching support" 8
@@ -6773,7 +7144,7 @@ ship "Lucerne Class" "Lucerne Class MkII"
 		"hull repair rate" 1
 		"required crew" 1450
 		"bunks" 2200
-		"mass" 35685
+		"mass" 135685
 		"drag" 334
 		"heat dissipation" .45
 		"fuel capacity" 2800
@@ -10077,34 +10448,36 @@ ship "F-VC56 Kaga"
 		"ion protection" 1
 		"scrambling protection" 1
 		"vertical launching support" 10
+		"spearfish capacity" 120
 	outfits
 		"Torpedo Launcher" 4
 		"Torpedo" 120
-		"K4-H Particle Turret" 4
+		#"K4-H Particle Turret" 4
 		"K3-K Particle Turret" 6
-		#"H6-Gy Oscillator Turret" 4
+		"H6-Gy Oscillator Turret" 4
 		"K3-K-S Particle Turret" 8
 		"K4-Ms-S Particle Turret" 10
 		"Heavy Anti-Missile Turret" 10
 		"Anti-Missile Turret" 10
 		"Itano SMLS" 20
 		"Itano Missile" 1200
+		"Itano Missile Rack" 4
+		"Itano Missile" 120
 		"Spearfish VLS Array" 10
-		"Spearfish Missile" 120
+		"Spearfish Missile" 240
 		
-		"Kiirotaiyo Fusion Reactor"
-		"Akataiyo Fusion Reactor" 1
-		"Ta-class Energy Module" 36
-		"LP576a Battery Pack" 2
-		"Liquid Helium Cooler"
+		#"Akataiyo Fusion Reactor" 2
+		#"Kiirotaiyo Fusion Reactor"
+		#"Uo-class Energy Module" 36
+		"DCN224n Battery Pack"
+		"HS84 Helium Cooler"
 		"S-2370y Regenerator"
 		"NGK R11 Rifle" 500
 		"NGK R11 QAS" 500
 		"NGK R11 Grip" 400
 		"NGK R11 Bipod" 100
 		
-		"X5200 Ion Steering" 2
-		"X5700 Ion Thruster" 2
+		"GS152-Ak Fusion Engine"
 		"Scram Drive"
 		
 	#Small turrets
@@ -10163,10 +10536,10 @@ ship "F-VC56 Kaga"
 	turret 166 326.5 "K3-K Particle Turret"
 	turret -166 326.5 "K3-K Particle Turret"
 	#large turrets
-	turret 0 -26.5 "K4-H Particle Turret"
-	turret -100 -3.5 "K4-H Particle Turret"
-	turret 100 -3.5 "K4-H Particle Turret"
-	turret 0 225.5 "K4-H Particle Turret"
+	turret 0 -26.5 "H6-Gy Oscillator Turret"
+	turret -100 -3.5 "H6-Gy Oscillator Turret"
+	turret 100 -3.5 "H6-Gy Oscillator Turret"
+	turret 0 225.5 "H6-Gy Oscillator Turret"
 	#Forward guns
 	gun 147 -71.5 "Torpedo Launcher"
 	gun -147 -71.5 "Torpedo Launcher"
@@ -10422,7 +10795,9 @@ ship "F-VC56 Kaga"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 30
+	explode "mgf explosion spark" 90
 	explode "nuke explosion" 3
+	"final explode" "final explosion large"
 	description `Initially a plan pitched to the Republic Navy as they seek a new fleet carrier with enough capacity for 80 fighters now brought back into development as they realized the looming threat of aliens from all sides and funding to spare. Though the original plan was already considerably expensive, the additional development and modernization for new goal rise the cost through the roof.`
 	description `Unlike its predecessors Zuiho and Zuikaku the Kaga was not designed for mercantile escort (and for advertisement) and deterrence with most threat being large pirate fleet where it still have to be somewhat economically viable to build and operate. Kaga Class is designed for greatest chance of victory in combat against potentially more advanced alien with capacity for 90 fighters spread across 3 flight decks for rapid deployment and recovery along with a large array of cutting-edge armaments to out gun any alien warship it may find.`
 	
@@ -10539,7 +10914,9 @@ ship "L-VC28 Zuikaku"
 	explode "small explosion" 15
 	explode "medium explosion" 25
 	explode "large explosion" 35
+	explode "mgf explosion spark" 90
 	explode "huge explosion" 20
+	"final explode" "final explosion large"
 	description `NGK Hauling custom built light carrier for escorting their freighters as piracy raises. Built with unique technology by one of the most advanced shipyard resulting in one of the most advanced carrier in human space.`
 	
 	#Escort-Vessel,Carrier
@@ -10643,7 +11020,9 @@ ship "E-VC14 Zuiho"
 	explode "small explosion" 15
 	explode "medium explosion" 25
 	explode "large explosion" 35
+	explode "mgf explosion spark" 60
 	explode "huge explosion" 20
+	"final explode" "final explosion medium"
 	description `Zuiho is an escort carrier initially modified from the Steward but later models are now purpose-built. It was designed to offer NGK fleets advantage over other fleets that utilize commercially available ship including the pirates with larger hangar bay, improved armour and shielding, as well as larger fuel tank to keep up with the fleet.`
 	
 ship "S-PT06 Harukaze"
@@ -10687,7 +11066,9 @@ ship "S-PT06 Harukaze"
 		angle -6.8
 	leak "leak" 60 50
 	explode "tiny explosion" 10
-	explode "small explosion" 5
+	explode "small explosion" 20
+	explode "mgf explosion spark" 30
+	"final explode" "final explosion small"
 	description "MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle also with improved protection as well as utilizing turret mount instead of fixed guns allowing it to defend itself while maneuvering out of harms way. The interior is also considered to be a bit fancier than most other transport but still not enough to attract wealthy passengers."
 
 ship "S-FS06 Reisen"

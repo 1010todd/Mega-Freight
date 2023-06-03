@@ -782,7 +782,6 @@ mission "MGF: Canaveral Naval Yard expansion 1"
 	landing
 	invisible
 	to offer
-		never
 		has "event: mgf: Grose Bochse development"
 	on offer
 		event "mgf: canaveral naval yard expansion 1 begin" 2880 #~8 years
@@ -791,6 +790,16 @@ mission "MGF: Canaveral Naval Yard expansion 1"
 		fail
 
 event "mgf: canaveral naval yard expansion 1 begin"
+
+mission "MGF: Canaveral Naval Yard Expansion Auto"
+	landing
+	invisible
+	to offer
+		has "event: mgf: canaveral naval yard expansion 1 auto"
+	on offer
+		event "mgf: canaveral naval yard expansion 1 done"
+	on accept
+		fail
 
 event "mgf: canaveral naval yard expansion 1 done"
 	system Sol
@@ -815,6 +824,44 @@ event "mgf: canaveral naval yard expansion 1 done"
 		description `The shipyard was recently expanded with 4 additional building docks for additional construction capacity giving the Navy more capacity to build the large superheavy warships in times of need. When not building a superheavy vessel each of these building docks can handle up to a dozen ship construction in parallel.`
 		spaceport `With the recent expansion the spaceport is now larger and contain more facilites almost comparable to urban planets.`
 
+
+mission "MGF: Ranseur Class Development"
+	landing
+	invisible
+	to offer
+		has "event: mgf: Grose Bochse development"
+	on offer
+		event "mgf: ranseur development" 1800 #~5years
+	on accept
+		fail
+
+event "mgf: ranseur development"
+	shipyard "Navy Advanced"
+		"Ranseur Class"
+	fleet "Large Republic"
+		remove variant 1
+			"Spetum Class"
+			"Lance" 40
+			"A-14F Rondel" 40
+			"Combat Drone" 24
+			"Cruiser" 2
+			"Combat Drone" 8
+
+		add variant 1
+			"Ranseur Class"
+			"Lance" 30
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 20
+			"Grose Bochse Class" 2
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
+		add variant 1
+			"Ranseur Class"
+			"Lance" 40
+			"Rondel (Typhoon Bomb)" 50
+			"Combat Drone" 20
+			"Cruiser (Mark II)" 2
+			"Combat Drone" 8
 
 #===========================Nordlin
 
@@ -1205,6 +1252,50 @@ event "mgf: zuiho itano upgrade"
 			"E-VC14 Zuiho (Advanced, Itano)"
 			"Xencar (NGK)" 10
 			
+mission "MGF: Kaga Refinement"
+	landing
+	invisible
+	to offer
+		has "event: mgf: early kaga deployed"
+	on offer
+		event "mgf: full kaga deployed" 720
+
+event "mgf: full kaga deployed"
+	shipyard "MJK Heavy Industries Advanced Exclusive"
+		remove "F-VC56 Kaga (Early)"
+		add "F-VC56 Kaga"
+	fleet "MJK Advanced Defense Fleet"
+		remove variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced, Itano)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+			"F-VC56 Kaga (Early)"
+			"S-FS06 Reisen (Refined I)" 90
+
+		add variant 50
+			"Leviathan (NGK Escort, Turret Upgrade)" 6
+			"AP-7 Sentinel (NGK Escort)" 3
+			"E-VC14 Zuiho (Advanced, Itano)" 4
+			"S-FS06 Reisen (Refined I)" 40
+			"L-VC28 Zuikaku (Advanced)"  2
+			"S-FS06 Reisen (Refined I)" 40
+			"F-VC56 Kaga"
+			"S-FS06 Reisen (Refined I)" 90
+
+	system Polaris
+		add fleet "Large NGK-Syndicate Border Patrol" 40000
+	system Sheratan
+		add fleet "Large NGK-Syndicate Border Patrol" 60000
+	system "Alpha Hydri"
+		add fleet "Large NGK-Syndicate Border Patrol" 45000
+	system Zaurak
+		add fleet "Large NGK-Syndicate Border Patrol" 60000
+	system Polaris
+		add fleet "Large NGK-Syndicate Border Patrol" 60000
+
 #=============================ESPION
 
 mission "MGF: Espion co. job ad"

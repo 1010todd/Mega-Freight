@@ -1441,6 +1441,61 @@ event "mgf: galaxy station expansion1 done"
 			"FG-10 Exchanger"
 			"Finch" 36
 			"Falcon" 2
+
+mission "MGF: Exchanger Post-Lucerne"
+	landing
+	invisible
+	to offer
+		has "event: mgf: developed Lucerne"
+		has "event: mgf: galaxy station expansion1 done"
+	on offer
+		event "mgf: exchanger post-lucerne"
+	on accept
+		fail
+		
+event "mgf: exchanger post-lucerne"
+	shipyard "Freight Galactic Advanced EX"
+		remove "FG-10 Exchanger"
+		add "FG-10 Exchanger (Post-Lucerne)"
+	fleet "Maryhal Logistic ArteryLine"
+		remove variant 5
+			"FG-10 Exchanger"
+			"Xencar (EPB3-2)" 36
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+		add variant 5
+			"FG-10 Exchanger (Post-Lucerne, Upgrade I)"
+			"Xencar (EPB3-2)" 36
+			"Stahbar (MHL Combat)" 2
+			"Steward (Long Range)"
+			"Xencar (EPB3-2)" 6
+			"Garrison (Long Range)"
+			"Xencar (EPB3-2)" 18
+	fleet "Large Northern Merchant"
+		remove variant 1
+			"FG-10 Exchanger"
+			"Dagger" 36
+			"Leviathan" 2
+		add variant 1
+			"FG-10 Exchanger (Post-Lucerne)"
+			"Dagger" 36
+			"Leviathan" 2
+		
+	fleet "Large Southern Merchant"
+		remove variant 1
+			"FG-10 Exchanger"
+			"Finch" 36
+			"Falcon" 2
+		add variant 1
+			"FG-10 Exchanger (Post-Lucerne)"
+			"Finch" 36
+			"Falcon" 2
+		
+
+
 #=====================Patch for date-locked event
 #Because ES don't trigger it if save file is already past that date
 

@@ -1143,6 +1143,50 @@ ship "CDB-6K Jupiter" "CDB-6K Jupiter (G22)"
 		"X4700 Ion Thruster"
 		"Scram Drive"
 
+ship "FG-10 Exchanger" "FG-10 Exchanger (Post-Lucerne)"
+	outfits
+		"Sidewinder Missile Launcher" 12
+		"Sidewinder Missile" 540
+		"Proton Turret" 28
+		"G22 Particle Turret" 9
+		"Quad Blaster Turret" 28
+		"M6-ACS Artillery Turret" 4
+		"Heavy Anti-Missile Turret" 24
+		
+		"Fusion Reactor" 4
+		"Liquid Nitrogen Cooler"
+		"CN729x Battery Pack"
+		"LP576a Battery Pack" 2
+		"D94-YV Shield Generator" 2
+		"Laser Rifle" 1000
+		
+		"X1100 Ion Reverse Thruster" 7
+		"X5200 Ion Steering" 3
+		"X5700 Ion Thruster" 2
+		"Scram Drive"
+
+ship "FG-10 Exchanger" "FG-10 Exchanger (Post-Lucerne, Upgrade I)"
+	outfits
+		"Sidewinder Missile Launcher" 12
+		"Sidewinder Missile" 540
+		"Proton Turret" 28
+		"G22 Particle Turret" 9
+		"Quad Blaster Turret" 28
+		"M6-ACS Artillery Turret" 4
+		"Heavy Anti-Missile Turret" 24
+		
+		"Fusion Reactor" 6
+		"Liquid Nitrogen Cooler"
+		"CN729x Battery Pack" 2
+		"DX-30k Shield Hub"
+		"SX-12 Shield Node" 12
+		"Laser Rifle" 1000
+		
+		"X1100 Ion Reverse Thruster" 7
+		"X5200 Ion Steering" 3
+		"X5700 Ion Thruster" 2
+		"Scram Drive"
+
 ship "AGT-31 Xencar" "Xencar (Particle)"
 	outfits
 		"Particle Cannon"
@@ -2008,7 +2052,7 @@ ship "Vanguard" "Vanguard (MGF CoreNucMKII)"
 		"Fusion Reactor"
 		"Dwarf Core"
 		"LP036a Battery Pack"
-		"S-970 Shield Regenerator" 2
+		"S-970 Regenerator" 2
 		"Liquid Nitrogen Cooler"
 		"Water Coolant System"
 		"Laser Rifle" 4

@@ -126,6 +126,8 @@ shipyard developer
 	"CK10C Liathtar"
 	"SV40-n Navilel"
 	"FG-10 Exchanger"
+	"Ranseur Class"
+	"Vanguard (MGF CoreNucMKII)"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
