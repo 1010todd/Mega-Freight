@@ -128,6 +128,7 @@ shipyard developer
 	"FG-10 Exchanger"
 	"Ranseur Class"
 	"Vanguard (MGF CoreNucMKII)"
+	"K-Class Ultra Container Ship"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -439,6 +440,9 @@ shipyard "Syndicate Advanced"
 	`DSSN-S90 Lynchyoseu`
 	#"H-Class Super Container Ship"
 	
+shipyard "Syndicate Advanced EX"
+	"K-Class Ultra Container Ship"
+
 shipyard "Megaparsec Basic"
 	"QYG-30 Qazan"
 	"QYG-30r Qazan"

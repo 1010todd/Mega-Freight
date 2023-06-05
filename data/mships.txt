@@ -12240,6 +12240,289 @@ ship "UA-10 Porter"
 	explode "tiny explosion" 15
 	description `The Porter is a small drone for assisting in cargo unloading operation of the Syndicate new freighter the G-Class especially on less equipped worlds. It is also minimally equipped with an anti-missile turret to assist in defense as merchants often deploy their all their fighters and drones in combat, even if those ships would be useless.`
 
+ship "K-Class Ultra Container Ship"
+	sprite "ship/mgf syn kclass ultra container"
+	thumbnail "thumbnail/mgf syn kclass ultra container thumb"
+	attributes
+		category "Superheavy"
+		"cost" 1982000000
+		"shields" 244400
+		"hull" 248000
+		"required crew" 1032
+		"bunks" 1283
+		"mass" 452890
+		"drag" 882
+		"heat dissipation" .3
+		"fuel capacity" 3600
+		"cargo space" 515900
+		"outfit space" 6810
+		"weapon capacity" 3840
+		"engine capacity" 660
+		"landing speed" .005
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 20
+		"Sidewinder Missile" 900
+		"Quad Blaster Turret" 14
+		"Proton Turret" 21
+		"Heavy Anti-Missile Turret" 18
+		"M6-ACS Artillery Turret" 4
+		
+		"Fusion Reactor" 8
+		"LP576a Battery Pack" 8
+		"D94-YV Shield Generator" 2
+		"Laser Rifle" 1000
+		
+		"X5700 Ion Thruster" 3
+		"X5200 Ion Steering" 3
+		"X1100 Ion Reverse Thruster" 10
+		"Scram Drive"
+	turret 154.5 -1225.5 "Proton Turret" 
+	turret -154.5 -1225.5 "Proton Turret" 
+	turret 154.5 -834.5 "Proton Turret" 
+	turret -154.5 -834.5 "Proton Turret" 
+	turret 154.5 -451.5 "Proton Turret" 
+	turret -154.5 -451.5 "Proton Turret" 
+	turret 154.5 -72 "Proton Turret" 
+	turret -154.5 -72 "Proton Turret" 
+	turret 154.5 317 "Proton Turret" 
+	turret -154.5 317 "Proton Turret" 
+	gun 65 -1595.5 
+	gun -65 -1595.5 
+	gun 65 -1595.5 
+	gun -65 -1595.5 
+
+	gun 65 -1595.5 
+	gun -65 -1595.5 
+	gun 65 -1595.5 
+	gun -65 -1595.5 
+	turret 522 -1228.5 "Proton Turret" 
+	turret -522 -1228.5 "Proton Turret" 
+	turret 522 -833.5 "Proton Turret" 
+	turret -522 -833.5 "Proton Turret" 
+	turret 522 -449.5 "Proton Turret" 
+	turret -522 -449.5 "Proton Turret" 
+	turret 522 -71 "Proton Turret" 
+	turret -522 -71 "Proton Turret" 
+	turret 522 325.5 "Proton Turret" 
+	turret -522 325.5 "Proton Turret" 
+
+	turret 306.5 661 "M6-ACS Artillery Turret"
+	turret -306.5 661 "M6-ACS Artillery Turret"
+	turret 484.5 661 "M6-ACS Artillery Turret"
+	turret -484.5 661 "M6-ACS Artillery Turret"
+	gun 428.5 -1598 
+	gun -428.5 -1598 
+	gun 529.5 -1598 
+	gun -529.5 -1598 
+
+	gun 428.5 -1598 
+	gun -428.5 -1598 
+	gun 529.5 -1598 
+	gun -529.5 -1598 
+
+	gun 428.5 -1598 
+	gun -428.5 -1598 
+	gun 529.5 -1598 
+	gun -529.5 -1598 
+
+	gun 428.5 -1598 
+	gun -428.5 -1598 
+	gun 529.5 -1598 
+	gun -529.5 -1598 
+	turret 511.5 -1135.5 "Heavy Anti-Missile Turret"
+	turret -511.5 -1135.5 "Heavy Anti-Missile Turret"
+	turret 511.5 -1063 
+	turret -511.5 -1063 
+	turret 511.5 -992.5 
+	turret -511.5 -992.5 
+	turret 511.5 -916.5 "Heavy Anti-Missile Turret"
+	turret -511.5 -916.5 "Heavy Anti-Missile Turret"
+	turret 511.5 20 "Heavy Anti-Missile Turret"
+	turret -511.5 20 "Heavy Anti-Missile Turret"
+	turret 511.5 90 
+	turret -511.5 90 
+	turret 511.5 165.5 
+	turret -511.5 165.5 
+	turret 511.5 240 "Heavy Anti-Missile Turret"
+	turret -511.5 240 "Heavy Anti-Missile Turret"
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	bay "Fighter" 242.5 769.5 
+		angle -90
+	bay "Fighter" -242.5 769.5 
+		angle 90
+	bay "Fighter" 242.5 848.5 
+		angle -90
+	bay "Fighter" -242.5 848.5 
+		angle 90
+	bay "Fighter" 242.5 933.5 
+		angle -90
+	bay "Fighter" -242.5 933.5 
+		angle 90
+	turret 142.5 -1136.5 "Heavy Anti-Missile Turret"
+	turret -142.5 -1136.5 "Heavy Anti-Missile Turret"
+	turret 142.5 -1070 
+	turret -142.5 -1070 
+	turret 142.5 -999.5 
+	turret -142.5 -999.5 
+	turret 142.5 -921 "Heavy Anti-Missile Turret"
+	turret -142.5 -921 "Heavy Anti-Missile Turret"
+	turret 142.5 23 "Heavy Anti-Missile Turret"
+	turret -142.5 23 "Heavy Anti-Missile Turret"
+	turret 142.5 89.5 
+	turret -142.5 89.5 
+	turret 142.5 173.5 
+	turret -142.5 173.5 
+	turret 142.5 239 "Heavy Anti-Missile Turret"
+	turret -142.5 239 "Heavy Anti-Missile Turret"
+	bay "Fighter" 421 773 
+	bay "Fighter" -421 773 
+	bay "Fighter" 421 846 
+	bay "Fighter" -421 846 
+	bay "Fighter" 421 938 
+	bay "Fighter" -421 938 
+	bay "Fighter" 540 935 
+	bay "Fighter" -540 935 
+	bay "Fighter" 540 855 
+	bay "Fighter" -540 855 
+	bay "Fighter" 540 769 
+	bay "Fighter" -540 769 
+	bay "Fighter" 421 773 
+	bay "Fighter" -421 773 
+	bay "Fighter" 421 846 
+	bay "Fighter" -421 846 
+	bay "Fighter" 421 938 
+	bay "Fighter" -421 938 
+	bay "Fighter" 540 935 
+	bay "Fighter" -540 935 
+	bay "Fighter" 540 855 
+	bay "Fighter" -540 855 
+	bay "Fighter" 540 769 
+	bay "Fighter" -540 769 
+	bay "Fighter" 421 773 
+	bay "Fighter" -421 773 
+	bay "Fighter" 421 846 
+	bay "Fighter" -421 846 
+	bay "Fighter" 421 938 
+	bay "Fighter" -421 938 
+	bay "Fighter" 540 935 
+	bay "Fighter" -540 935 
+	bay "Fighter" 540 855 
+	bay "Fighter" -540 855 
+	bay "Fighter" 540 769 
+	bay "Fighter" -540 769 
+	turret 0 1428.5 "Proton Turret" 
+	turret 99 1588.5 "Heavy Anti-Missile Turret"
+	turret -99 1588.5 "Heavy Anti-Missile Turret"
+	turret 146 1518 
+	turret -146 1518 
+	bay "Pocket Heavy Warship" 94.5 814.5 
+		angle -90
+	bay "Pocket Heavy Warship" -94.5 814.5 
+		angle 90
+	bay "Pocket Heavy Warship" 94.5 814.5 
+		angle -90
+	bay "Pocket Heavy Warship" -94.5 814.5 
+		angle 90
+
+	bay "Pocket Heavy Warship" 94.5 814.5 
+		angle -90
+	bay "Pocket Heavy Warship" -94.5 814.5 
+		angle 90
+	bay "Pocket Heavy Warship" 94.5 814.5 
+		angle -90
+	bay "Pocket Heavy Warship" -94.5 814.5 
+		angle 90
+
+	bay "Pocket Heavy Freighter" 655.5 807 
+		angle -90
+	bay "Pocket Heavy Freighter" -655.5 807 
+		angle 90
+	bay "Pocket Heavy Freighter" 655.5 807 
+		angle -90
+	bay "Pocket Heavy Freighter" -655.5 807 
+		angle 90
+	bay "Pocket Heavy Freighter" 655.5 807 
+		angle -90
+	bay "Pocket Heavy Freighter" -655.5 807 
+		angle 90
+	bay "Pocket Heavy Freighter" 655.5 807 
+		angle -90
+	bay "Pocket Heavy Freighter" -655.5 807 
+		angle 90
+
+	engine -476 1513.5 
+	engine 476 1513.5 
+	engine 103.5 1504 
+		over
+	engine -103.5 1504 
+		over
+
+	description `This is the Syndicate take on superheavy freighter capable of carrying over a hundred times more than a regular Container Transport and three times more than its competitor. Due to its design the ship cannot land without a dedicated gear to accept them and is intended to stay in orbit instead while it carry a fleet of transfer ship to unload the cargoes for it in bulk. Due to the size of its bay it can even carry heavy warships along side to protect itself.`
+
 ship "SV80-n Catirfel"
 	sprite "ship/mgf catirfel"
 	thumbnail "thumbnail/mgf catirfel thumb"
@@ -12729,8 +13012,8 @@ ship "AFFR-3 Fylla"
 	description `Old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`
 
 ship "CK10C Liathtar"
-	sprite "ship/mgf xencar"
-	thumbnail "thumbnail/mgf xencar thumb"
+	sprite "ship/mgf liathtar"
+	thumbnail "thumbnail/mgf liathtar thumb"
 	attributes
 		category "Fighter"
 		"cost" 55000

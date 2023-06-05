@@ -1628,7 +1628,7 @@ fleet "MJK Defense Fleet"
 	fighters "ngk fighter"
 	cargo 4
 	personality
-		confusion 25
+		confusion 15
 	variant 50
 		"Leviathan (NGK Escort)" 6
 		"AP-7 Sentinel (NGK Escort)" 3
@@ -1643,7 +1643,7 @@ fleet "MJK Advanced Defense Fleet"
 	fighters "ngk fighter"
 	cargo 4
 	personality
-		confusion 20
+		confusion 5
 	variant 50
 		"Leviathan (NGK Escort, Turret Upgrade)" 6
 		"AP-7 Sentinel (NGK Escort)" 3
@@ -2187,7 +2187,7 @@ fleet "Large NGK-Syndicate Border Patrol"
 		"S-FS06 Reisen (Refined I)" 90
 		"AP-7 Sentinel" 3
 		"Splinter (Mark II)" 5
-		"Nasprite"
+		"Nasprite (Syndicate Border Patrol)"
 #=============================PIRATES
 
 fleet "Large Southern Pirates"

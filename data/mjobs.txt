@@ -709,6 +709,83 @@ mission "MGF GGS: Mega Construction Supplies [0]"
 		"mgf: gs1 construction assist" += 3
 		dialog phrase "generic cargo delivery payment"
 
+#========================Ourea Station
+
+mission "MGF ONA: Large Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 200 600
+	to offer
+		has "event: mgf: ourea naval arsenal begin"
+		not "event: mgf: ourea naval arsenal done"
+		random < 40
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 16
+		planet "Ourea Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 560000
+		"mgf: ourea construction assist" += 1
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF ONA: Very Large Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 700 2100
+	to offer
+		has "event: mgf: ourea naval arsenal begin"
+		not "event: mgf: ourea naval arsenal done"
+		random < 30
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 16
+		planet "Ourea Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 980000
+		"mgf: ourea construction assist" += 2
+		dialog phrase "generic cargo delivery payment"
+		
+mission "MGF ONA: Mega Construction Supplies [0]"
+	name "Large rush delivery to <planet>"
+	job
+	repeat
+	deadline 30
+	description "A large construction project at <destination> requires a lot of materials, deliver <cargo> to <destination> by <date>. Payment is <payment>."
+	cargo "Construction Supplies" 2500 7500
+	to offer
+		has "event: mgf: ourea naval arsenal begin"
+		not "event: mgf: ourea naval arsenal done"
+		random < 20
+	source
+		attributes "factory" "manufacturing"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "MGF: NGK Hauling" "MGF: NGK Security"
+	destination
+		distance 3 16
+		planet "Ourea Naval Arsenal"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment
+		payment 3200000
+		"mgf: ourea construction assist" += 3
+		dialog phrase "generic cargo delivery payment"
+
 #===========================================
 
 mission "MGF: Large Bulk Delivery [0]"

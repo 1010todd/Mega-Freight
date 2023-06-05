@@ -1263,6 +1263,22 @@ mission "MGF: Galaxy Station Done Auto"
 		not "event: mgf: galaxy station done"
 	on offer
 		event "mgf: galaxy station done"
+		event "mgf: galaxy station expansion1 begin" 360
+		event "mgf: galaxy station expansion1 done auto" 490
+		set "mgf: galaxy station post-05062023"
+	on accept
+		fail
+
+mission "MGF: Galaxy Station Upgrade Patch"
+	landing
+	invisible
+	to offer
+		not "mgf: galaxy station post-05062023"
+		has "event: mgf: galaxy station done auto"
+		not "MGF: Galaxy Station Done Early: offered"
+	on offer
+		event "mgf: galaxy station expansion1 begin" 360
+		event "mgf: galaxy station expansion1 done auto" 490
 	on accept
 		fail
 
@@ -1271,6 +1287,7 @@ mission "MGF: Galaxy Station Done Early"
 	invisible
 	to offer
 		has "event: mgf: galaxy station begin"
+		not "event: mgf: galaxy station done auto"
 		"mgf: gs1 construction assist" >= 12
 	on offer
 		event "mgf: galaxy station done"
@@ -1494,7 +1511,180 @@ event "mgf: exchanger post-lucerne"
 			"Finch" 36
 			"Falcon" 2
 		
+mission "MGF: Ourea Naval Arsenal Station Begin"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station done"
+		or
+			not "Liberate Kornephoros: offered"
+			has "main plot completed"
+	on offer
+		event "mgf: ourea naval arsenal begin" 30
+		event "mgf: ourea naval arsenal done auto" 160
+	on accept
+		fail
 
+planet `MGF Fake Shangri-La`
+	attributes "requires: unlandable"
+
+planet "Ourea Naval Arsenal"
+	government "Syndicate"
+	attributes station
+	landscape `land/space0`
+	music ambient/machinery
+	description `Ourea Naval Arsenal is a huge shipyard station with massive docks for building largest type of ships ever designed as well as building regular ships in parallel.`
+	spaceport `The interior of this station is as expansive as the outside suggest to support the endless stream of traffic as ships arrive to supply the station with various raw material for construction.`
+	bribe 0.15
+	security 0.7
+	shipyard "Basic Ships"
+	outfitter "Common Outfits"
+
+event "mgf: ourea naval arsenal begin"
+	system Polaris
+		add object `MGF Fake Shangri-La`
+			distance 1920.05
+			period 812.637
+			object "Ourea Naval Arsenal"
+				sprite "planet/mgf ourea naval arsenal wip"
+				distance 150.24
+				period 35
+
+event "mgf: ourea naval arsenal done auto"
+
+mission "MGF: Ourea Naval Arsenal Done Auto"
+	landing
+	invisible
+	to offer
+		has "event: mgf: ourea naval arsenal done auto"
+		not "event: mgf: ourea naval arsenal done"
+	on offer
+		event "mgf: mgf: ourea naval arsenal done"
+	on accept
+		fail
+
+mission "MGF: Ourea Naval Arsenal Done Early"
+	landing
+	invisible
+	to offer
+		has "event: mgf: galaxy station begin"
+		not "event: mgf: ourea naval arsenal done auto"
+		"mgf: ourea construction assist" >= 12
+	on offer
+		event "mgf: ourea naval arsenal done"
+	on accept
+		fail
+
+event "mgf: ourea naval arsenal done"
+	system Polaris
+		remove object `MGF Fake Shangri-La`
+			distance 1920.05
+			period 812.637
+			object "Ourea Naval Arsenal"
+				sprite "planet/mgf ourea naval arsenal wip"
+				distance 150.24
+				period 35
+
+		add object `MGF Fake Shangri-La`
+			distance 1920.05
+			period 812.637
+			object "Ourea Naval Arsenal"
+				sprite "planet/mgf ourea naval arsenal"
+				distance 150.24
+				period 35
+
+	planet "Ourea Naval Arsenal"
+		landscape `land/station24`
+		shipyard "Syndicate Basics"
+		shipyard "Syndicate Advanced"
+		shipyard "DSSE Shipbuilding Advanced"
+		outfitter "Syndicate Basic"
+		outfitter "Syndicate Advanced"
+
+mission "MGF: K-Class on sale trigger"
+	landing
+	invisible
+	to offer
+		has "event: mgf: ourea naval arsenal done"
+	on offer
+		event "mgf: k-class on sale" 580
+	on accept
+		fail
+
+event "mgf: k-class on sale"
+	shipyard "Syndicate Advanced EX"
+		add "K-Class Ultra Container Ship"
+	planet "Ourea Naval Arsenal"
+		shipyard "Syndicate Advanced EX"
+	fleet "Large Northern Merchant"
+		add variant 1
+			"K-Class Ultra Container Ship"
+			"Dagger" 72
+			"Leviathan" 2
+	fleet "Large Southern Merchant"
+		add variant 1
+			"K-Class Ultra Container Ship"
+			"Finch" 72
+			"Falcon" 2
+	fleet "Large Core Merchant"
+		add variant 1
+			"K-Class Ultra Container Ship"
+			"Barb" 42
+			"Barb (Proton)" 30
+			"Vanguard" 2
+	fleet "NGK Hauling HeavyFreight"
+		add variant 1
+			"K-Class Ultra Container Ship (NGK)"
+			"Xencar (NGK)" 72
+			"Leviathan (NGK Escort)" 2
+			"L-VC28 Zuikaku"
+			"Xencar (NGK)" 20
+			
+
+mission "MGF: K-Class Post-Lucerne"
+	landing
+	invisible
+	to offer
+		has "event: mgf: developed Lucerne"
+		has "event: mgf: ourea naval arsenal done"
+	on offer
+		event "mgf: k-class post-lucerne"
+	on accept
+		fail
+
+event "mgf: k-class post-lucerne"
+	shipyard "Syndicate Advanced EX"
+		remove "K-Class Ultra Container Ship"
+		add "K-Class Ultra Container Ship (Post-Lucerne)"
+	fleet "Large Northern Merchant"
+		remove variant 1
+			"K-Class Ultra Container Ship"
+			"Dagger" 72
+			"Leviathan" 2
+		add variant 1
+			"K-Class Ultra Container Ship (Post-Lucerne)"
+			"Dagger" 72
+			"Leviathan" 2
+	fleet "Large Southern Merchant"
+		remove variant 1
+			"K-Class Ultra Container Ship"
+			"Finch" 72
+			"Falcon" 2
+		add variant 1
+			"K-Class Ultra Container Ship (Post-Lucerne)"
+			"Finch" 72
+			"Falcon" 2
+	fleet "Large Core Merchant"
+		remove variant 1
+			"K-Class Ultra Container Ship"
+			"Barb" 42
+			"Barb (Proton)" 30
+			"Vanguard" 2
+		add variant 1
+			"K-Class Ultra Container Ship (Post-Lucerne)"
+			"Barb" 42
+			"Barb (Proton)" 30
+			"Vanguard" 2
 
 #=====================Patch for date-locked event
 #Because ES don't trigger it if save file is already past that date

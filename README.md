@@ -9,7 +9,7 @@ Adds several ships for you and various factions to use adding more variety to th
 Summary of what this plugin adds:
 
 Over 50 ships:
-* 50+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.) + 1 Superheavy
+* 50+ Freighters including specialized cargo ships (Fuel, LNG, Chemical, etc.) + 2 Superheavy
 * 4 Transports
 * 3 Space Liner
 * 10+ Utility (Carriers, miners, etc.)
@@ -27,7 +27,7 @@ And other things:
 * Persistent NPC (Battlestations in 3 systems, 2 of which can respawn after some time.)
 * Additional ship spawn for some story missions.
 * Orbital shipyard orbiting Mars after main plot.
-* A few stations (Nordlin, Ankulah, Yokosuka, GS1 Galaxy)
+* A few stations (Nordlin, Ankulah, Yokosuka, GS1 Galaxy, Ourea)
 
 Requires 0.10.1 or above (Will work with 0.10.0 as of 2023-05-31 but just to be safe.)
 

@@ -1187,6 +1187,46 @@ ship "FG-10 Exchanger" "FG-10 Exchanger (Post-Lucerne, Upgrade I)"
 		"X5700 Ion Thruster" 2
 		"Scram Drive"
 
+ship "K-Class Ultra Container Ship" "K-Class Ultra Container Ship (Post-Lucerne)"
+	outfits
+		"Sidewinder Missile Launcher" 20
+		"Sidewinder Missile" 900
+		"Quad Blaster Turret" 14
+		"Proton Turret" 21
+		"Heavy Anti-Missile Turret" 18
+		"M6-ACS Artillery Turret" 4
+		
+		"Fusion Reactor" 8
+		"CN729x Battery Pack" 3
+		"DX-30k Shield Hub"
+		"SX-12 Shield Node" 12
+		"Laser Rifle" 1000
+		
+		"X5700 Ion Thruster" 3
+		"X5200 Ion Steering" 3
+		"X1100 Ion Reverse Thruster" 10
+		"Scram Drive"
+
+ship "K-Class Ultra Container Ship" "K-Class Ultra Container Ship (NGK)"
+	outfits
+		"Sidewinder Missile Launcher" 20
+		"Sidewinder Missile" 900
+		"Quad Blaster Turret" 14
+		"K3-K-S Particle Turret" 21
+		"Heavy Anti-Missile Turret" 18
+		"M6-ACS Artillery Turret" 4
+		
+		"Akataiyo Fusion Reactor" 6
+		"Ta-class Energy Module" 16
+		"LP576a Battery Pack" 6
+		"S-970 Regenerator" 10
+		"NGK R11 Rifle" 1000
+		
+		"X5700 Ion Thruster" 3
+		"A865 Atomic Steering" 3
+		"X1100 Ion Reverse Thruster" 12
+		"Scram Drive"
+
 ship "AGT-31 Xencar" "Xencar (Particle)"
 	outfits
 		"Particle Cannon"
@@ -2043,6 +2083,26 @@ ship "TQK-20 Qaytas" "TQK-20 Qaytas (White Sugar)"
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
 		"X1100 Ion Reverse Thruster"
+		"Hyperdrive"
+
+ship "Nasprite" "Nasprite (Syndicate Border Patrol)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 2
+		"Proton Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"S-270 Regenerator" 2
+		"S-970 Regenerator"
+		"Large Radar Jammer" 2
+		"Water Coolant System"
+		"Laser Rifle" 70
+		
+		"X5700 Ion Thruster"
+		"A525 Atomic Steering"
 		"Hyperdrive"
 
 ship "Vanguard" "Vanguard (MGF CoreNucMKII)"
