@@ -129,6 +129,7 @@ shipyard developer
 	"Ranseur Class"
 	"Vanguard (MGF CoreNucMKII)"
 	"K-Class Ultra Container Ship"
+	"GKS-48 Zummenstoss"
 
 	"AYS-17 Proetida"
 	"AYS-19 Peytoia"
@@ -667,10 +668,19 @@ shipyard "Solacer Group Custom"
 shipyard "Core Food Corp Custom"
 	"TQK-20 Qaytas"
 	
+shipyard "Thyrupp AG Basics"
+	"LMS-43 Mullsammler"
+
 shipyard "Thyrupp AG Advanced"
 	"SMM-111 Bagger"
 	"HMM-190 Kotroger"
 	"LMS-43 Mullsammler"
+	#"GKS-48 Zummenstoss"
+
+outfitter "Thyrupp AG Advanced"
+	#"NW40 Hagel Cannon"
+	#"NW40z Hagel Turret"
+	"Local Map"
 
 # Note: while in-lore Syndicate seems to be very lose about nuclear safety this could also be a PR-thing to pretend they care about it and keep people happy enough about it.
 shipyard "Core Nuclear Transport"

@@ -12667,6 +12667,80 @@ ship "SV40-n Navilel"
 	"final explode" "final explosion large"
 	description `A slightly bigger version of the Catifel with all cargo pods arranged on the same side for ease of access and unloading at some port. The ship is also equipped with large array of missile launchers to deter pirates which are becoming stronger recently.`
 
+ship "GKS-48 Zummenstoss"
+	sprite "ship/mgf zummenstoss"
+	thumbnail "thumbnail/mgf zummenstoss thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 18200000
+		"shields" 10700
+		"hull" 12000
+		"required crew" 68
+		"bunks" 80
+		"mass" 1585
+		"drag" 14.8
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 25
+		"outfit space" 1120
+		"weapon capacity" 680
+		"engine capacity" 160
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"NW40 Hagel Cannon" 4
+		"NW40z Hagel Turret" 7
+		"Heavy Anti-Missile Turret" 2
+		"Blaster Turret" 4
+		
+		"Fusion Reactor"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Laser Rifle" 50
+		
+		"Orca Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	gun 17 -171.5 "NW40 Hagel Cannon"
+	gun -17 -171.5 "NW40 Hagel Cannon"
+	gun 17 -171.5 "NW40 Hagel Cannon"
+	gun -17 -171.5 "NW40 Hagel Cannon"
+	turret 43.5 -136 "NW40z Hagel Turret"
+	turret -43.5 -136 "NW40z Hagel Turret"
+	turret 43 -86.5 "NW40z Hagel Turret"
+	turret -43 -86.5 "NW40z Hagel Turret"
+	turret 43 -33.5 "NW40z Hagel Turret"
+	turret -43 -33.5 "NW40z Hagel Turret"
+	turret 0 54.5 "NW40z Hagel Turret"
+	engine -64.5 185 
+		zoom .8
+	engine 64.5 185 
+		zoom .8
+	engine -44 178.5 
+	engine 44 178.5 
+	turret 42.5 -48 "Heavy Anti-Missile Turret"
+	turret -42.5 -48 "Heavy Anti-Missile Turret"
+	turret 41.5 43.5 "Blaster Turret"
+	turret -41.5 43.5 "Blaster Turret"
+	turret 69.5 155.5 "Blaster Turret"
+	turret -69.5 155.5 "Blaster Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `A recently developed warship with focus on turrets and use it to tear down their opponent from any angle unlike most other warship on the market at the time of release. It also comes with unique weapon to surprise any enemy they face and rapidly tear down their shields.`
+
+
 ship "AKH-8 Mlitgante"
 	sprite "ship/mgf mlitgante"
 	thumbnail "thumbnail/mgf mlitgante thumb"

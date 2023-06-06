@@ -1558,6 +1558,78 @@ outfit "Diatonic Apocalypse"
 		"stream"
 	description "Massive cannon found on the Death Harmonica. The design appears to be unlike anything else in human space, the true origin of the weapon is ultimately unknown."
 	
+outfit "NW40 Hagel Cannon"
+	category "Guns"
+	cost 320000
+	thumbnail "outfit/mgf nw40 cannon"
+	"mass" 27
+	"outfit space" -27
+	"weapon capacity" -27
+	"gun ports" -1
+	weapon
+		sprite "projectile/nw40 projectile"
+		sound "nw40 fire"
+		"hit effect" "particle impact"
+		"inaccuracy" .9
+		"velocity" 24
+		"lifetime" 32
+		"random lifetime" 4
+		"reload" 12
+		"burst count" 5
+		"burst reload" 6
+		"firing energy" 43
+		"firing force" 2
+		"firing heat" 120
+		"hit force" 12
+		"shield damage" 48
+		"hull damage" 21
+		"cluster"
+	description `Burst-firing anti-capital turret developed to quickly take down shields.`
+
+outfit "NW40z Hagel Turret"
+	category "Turrets"
+	cost 850000
+	thumbnail "outfit/mgf nw40 dual turret"
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
+	"turret mounts" -1
+	weapon
+		#sprite "projectile/nw40 projectile"
+		sound "nw40 fire"
+		"hardpoint sprite" "hardpoint/mgf nw40 dual turret hp"
+		"hardpoint offset" 5.
+		"hit effect" "particle impact"
+		"inaccuracy" .1
+		"turret turn" 1.65
+		submunition "NW40 Hagel Projectile"
+			offset -5 0
+		submunition "NW40 Hagel Projectile"
+			offset 5 0
+		velocity 1
+		"velocity override" 25
+		"lifetime" 1
+		"reload" 12
+		"burst count" 5
+		"burst reload" 6
+		"firing energy" 43
+		"firing force" 2
+		"firing heat" 120
+		"hit force" 12
+	description `Burst-firing anti-capital turret developed to quickly take down shields.`
+
+outfit "NW40 Hagel Projectile"
+	weapon
+		sprite "projectile/nw40 projectile"
+		"hit effect" "particle impact"
+		"velocity" 24
+		"lifetime" 32
+		"random lifetime" 4
+		"inaccuracy" 1.8
+		"hit force" 12
+		"shield damage" 48
+		"hull damage" 21
+
 outfit "KC-421 Parapet Anti-Missile"
 	category "Turrets"
 	cost 480000

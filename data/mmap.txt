@@ -345,6 +345,12 @@ planet "Yokosuka Naval Arsenal"
 planet `Shangri-La`
 	add shipyard "DSSE Shipbuilding Advanced"
 
+#=========Thyrupp AG
+
+planet "Follower"
+	add shipyard "Thyrupp AG Advanced"
+	add outfitter "Thyrupp AG Advanced"
+
 #==========Solomons Voidworks
 #Heavily armed and armoured southern ships. Should be around Dirt Belt and South.
 planet Zug

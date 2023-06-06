@@ -1142,6 +1142,7 @@ mission "MGF: H-Class on sale"
 			has "main plot completed"
 	on offer
 		event "mgf: h-class on sale"
+		fail
 
 event "mgf: h-class on sale"
 	shipyard "Syndicate Advanced"
@@ -1212,6 +1213,138 @@ event "mgf: h-class on sale"
 			"Leviathan (NGK Escort)"
 			"L-VC28 Zuikaku"
 			"Xencar (NGK)" 20
+
+mission "MGF: Zummenstoss developed"
+	landing
+	invisible
+	to offer
+		has "event: mgf: h-class development"
+		or
+			#Won't offer during the war
+			not "Liberate Kornephoros: offered"
+			has "main plot completed"
+	on offer
+		event "mgf: zummenstoss on sale" 360
+		fail
+
+event "mgf: zummenstoss on sale"
+	shipyard "Thyrupp AG Advanced"
+		add "GKS-48 Zummenstoss"
+	shipyard "Betelgeuse Advanced"
+		add "GKS-48 Zummenstoss"
+	outfitter "Thyrupp AG Advanced"
+		"NW40 Hagel Cannon"
+		"NW40z Hagel Turret"
+	fleet "Large Core Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"CH-6 Carrack" 2
+			"Dagger" 8
+			"FG-5 Bluewhale-A"
+			"GKS-48 Zummenstoss"
+		add variant 1
+			"CK50T Stahbar"
+			"GKS-48 Zummenstoss"
+		add variant 3
+			"G-Class Container Transport" 2
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"FG-5 Bluewhale-A" 2
+			"GKS-48 Zummenstoss"
+
+	fleet "Large Northern Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"GKS-48 Zummenstoss"
+		add variant 1
+			"CDB-6K Jupiter" 2
+			"GKS-48 Zummenstoss"
+		add variant 3
+			"FG-5 Bluewhale-A" 2
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"CH-6 Carrack" 2
+			"Dagger" 8
+			"FG-5 Bluewhale-A"
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"G-Class Container Transport" 2
+			"GKS-48 Zummenstoss"
+		add variant 1
+			"CDB-12K Saturn"
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"SV80-n Catirfel"
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"FUe06a Gebrant III"
+			"FUe04a Gebrant II" 2
+			"GKS-48 Zummenstoss"
+
+	fleet "Large Southern Merchants"
+		add variant 1
+			"H-Class Super Container Ship"
+			"UA-10 Porter" 64
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"CDB-6K Jupiter" 2
+			"GKS-48 Zummenstoss"
+		add variant 1
+			"CDB-12K Saturn"
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"FG-5 Bluewhale-A" 3
+			"GKS-48 Zummenstoss"
+			"Falcon"
+		add variant 2
+			"Hauler III" 3
+			"GKS-48 Zummenstoss"
+		add variant 2
+			"CK50T Stahbar" 3
+			"GKS-48 Zummenstoss"
+
+	fleet "Large Crossguard Patrol"
+		add variant 5
+			"GKS-48 Zummenstoss"
+			"Eleonorae"
+		add variant 2
+			"GKS-48 Zummenstoss"
+			"CS-24 Garrison"
+			"Lance" 10
+			"AGT-31 Xencar" 8
+
+	fleet "Large Espion Guard"
+		add variant 8
+			"GKS-48 Zummenstoss"
+			"Quicksilver (EPB3-2)" 3
+
+	fleet "Large Northern Pirate"
+		add variant 2
+			"GKS-48 Zummenstoss"
+			"Behemoth"
+
+	fleet "Large Southern Pirate"
+		add variant 4
+			"GKS-48 Zummenstoss"
+			"Argosy" 2
+		add variant 2
+			"GKS-48 Zummenstoss"
+			"Argosy"
+			"Bastion"
+
+	fleet "Maryhal Logistic ArteryLine"
+		add variant 10
+			"CDB-6K Jupiter" 2
+			"FG-7 Conveyor-A" 3
+			"Xencar (Particle)" 18
+			"GKS-48 Zummenstoss"
+			"Garrison (Long Range)"
+			"Xencar (Particle)" 18
+	
 
 mission "MGF: Galaxy Station Begin"
 	landing
@@ -1559,7 +1692,7 @@ mission "MGF: Ourea Naval Arsenal Done Auto"
 		has "event: mgf: ourea naval arsenal done auto"
 		not "event: mgf: ourea naval arsenal done"
 	on offer
-		event "mgf: mgf: ourea naval arsenal done"
+		event "mgf: ourea naval arsenal done"
 	on accept
 		fail
 
