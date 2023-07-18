@@ -896,11 +896,11 @@ outfit "MWG-1 Harmonic Cannon"
 		"inaccuracy" .05
 		"velocity" 3500
 		"lifetime" 1
-		"reload" 21.60
+		"reload" 2160
 		"burst count" 10
 		"burst reload" 1
-		"firing energy" 958.00
-		"firing heat" 568.59
+		"firing energy" 95800
+		"firing heat" 56859
 		"firing force" 855
 		"hit force" 4520
 		#"shield damage" 19160
