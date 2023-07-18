@@ -899,8 +899,8 @@ outfit "MWG-1 Harmonic Cannon"
 		"reload" 2160
 		"burst count" 10
 		"burst reload" 1
-		"firing energy" 95800
-		"firing heat" 56859
+		"firing energy" 9580
+		"firing heat" 5685
 		"firing force" 855
 		"hit force" 4520
 		#"shield damage" 19160
@@ -964,8 +964,8 @@ outfit "Type-83 Yoden Torpedo Launcher"
 		"inaccuracy" 1
 		"velocity" 5
 		"velocity override" 12
-		"lifetime" 125
-		"range override" 1000
+		"lifetime" 325
+		"range override" 3900
 		"reload" 300
 		"burst count" 2
 		"burst reload" 240
