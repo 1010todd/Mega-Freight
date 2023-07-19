@@ -7010,19 +7010,19 @@ ship "E-FD23 Kanran"
 	thumbnail "thumbnail/mgf kanran thumb"
 	attributes
 		category "Medium Warship"
-		"cost" 700000
+		"cost" 4200000
 		"shields" 5200
 		"hull" 2400
 		"required crew" 16
 		"bunks" 30
-		"mass" 1720
-		"drag" 12.3
+		"mass" 420
+		"drag" 7.5
 		"heat dissipation" .7
-		"fuel capacity" 0
-		"cargo space" 3
-		"outfit space" 780
-		"weapon capacity" 400
-		"engine capacity" 180
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 580
+		"weapon capacity" 275
+		"engine capacity" 140
 		weapon
 			"blast radius" 140
 			"shield damage" 1200
@@ -7043,7 +7043,9 @@ ship "E-FD23 Kanran"
 		"Scram Drive"
 
 	gun 9 -120 
+		over
 	gun -9 -120 
+		over
 	gun 11.5 -125 
 	gun -11.5 -125 
 	turret 0 -74 
@@ -7051,27 +7053,35 @@ ship "E-FD23 Kanran"
 	turret 0 76 
 	turret -7 -26 "Anti-Missile Turret"
 	turret 7 -26 "Anti-Missile Turret"
+	"reverse engine" 56.5 77.5 
+		angle 3.5
+		zoom .4
+		over
+	"reverse engine" -56.5 77.5 
+		angle -3.5
+		zoom .4
+		over
+	"steering engine" 18.5 -88 
+		angle 270
+		left
+		zoom .2
+	"steering engine" -18.5 -88 
+		angle 90
+		right
+		zoom .2
+
 	engine -33.5 140.5 
+		zoom .8
 	engine 33.5 140.5 
-	engine 0 159 
-	explode "smoke" 20
-	description `Kanran is an old destroyer designed by MJK heavy industries for their security department for protecting their properties and logistic fleets as well as raiding during the turf war. Very few remains in service today mostly in private hands. Ankulah station is known for recovering enough of these to rebuild a few for their own defense fleet.`
-
-ship "E-FD23 Kanran" "E-FD23 Kanran (NGK)"
-	outfits
-		"Torpedo Launcher" 4
-		"Torpedo" 120
-		"K3-K-S Particle Turret" 3
-		"Anti-Missile Turret" 2
-		
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"D67-TM Shield Generator"
-		
-		"X4200 Ion Steering"
-		"X4700 Ion Thruster"
-		"Scram Drive"
-
+		zoom .8
+	engine 0 159
+		zoom 1.2 
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 10
+	"final explode" "final explosion medium"
+	description `Kanran is a very old destroyer designed by MJK heavy industries for their security department for protecting their properties and logistic fleets as well as raiding during the first turf war and sequentially also participated in the Alpha War. At its time it was considered one of the most advanced ship in the sky second only to those from the Deep and with sheer number it was manufactured many survived the conflict and were continually improved that some still survives to this day. Production of this model fluctuates over time but generally on descending trend before stopping not long after the formation of the Republic. Now most of Kanran on the market are ones decomissioned from NGK fleets.`
 
 ship "PAS-3 Barbette"
 	sprite "ship/mgf barbette"

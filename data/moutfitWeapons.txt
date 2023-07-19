@@ -394,6 +394,35 @@ outfit "K3-K-S Particle Turret"
 		"hull damage" 57
 	description `Single gun version of MJK Heavy Industries particle turret to be used by NGK Hauling ships for improved firepower and range over the commonly used proton turrets.`
 		
+outfit "K2-K-S Particle Turret"
+	category "Turrets"
+	cost 620000
+	thumbnail "outfit/mgf k3k single turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/k3k particle beam"
+			scale .8
+		sound "k3k particle"
+		"hardpoint sprite" "hardpoint/mgf k3k single turret hp"
+		"hardpoint offset" 5.
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .8
+		"turret turn" 2.4
+		velocity 25.5
+		"lifetime" 31
+		"random lifetime" 2
+		"reload" 18
+		"firing energy" 43.5
+		"firing force" 8
+		"firing heat" 260
+		"hit force" 50
+		"shield damage" 60
+		"hull damage" 55
+	description `Older version of the K3-K-S turret with less performance overall.`
+
 outfit "K4-Mn Particle Cannon"
 	category "Guns"
 	cost 220000
