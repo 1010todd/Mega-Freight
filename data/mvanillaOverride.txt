@@ -507,7 +507,7 @@ mission "MGF Override: Hai Reveal: Pirate Troubles [3]"
 					not "mgf: killed a lot of scars pirates"
 					not "mgf: wiped out scars legion from base"
 			branch escapeCheckFail
-				"armament detterence" < 0
+				"armament deterrence" < 0
 			`	You aim your guns at the blast door and blow it open amist the gunfire from the pirates. Once the hole is large enough you fly out and escape the ambush.`
 				flee
 			
