@@ -220,6 +220,7 @@ mission "MGF Override: Hai Reveal: Pirate Troubles [3]"
 					has "outfit (installed): Diatonic Apocalypse"
 					has "outfit (installed): MWG-1 Harmonic Cannon"
 					has "outfit (installed): Dragonflame Cannon"
+					has "outfit (installed): Ember Tear"
 			branch overwhelmingFirepower
 				"armament deterrence" > 22
 
@@ -230,6 +231,10 @@ mission "MGF Override: Hai Reveal: Pirate Troubles [3]"
 				goto intimidationNotEnoughFirepower
 
 			label slowlyDestroyBase
+			action
+				set "mgf: destoryed scars legion"
+				event "mgf: remove scars legion asteroid"
+				event "mgf: remove scars legion asteroid (cleanup)" 2
 			`	You focused your fire right into the blast door and slowly tear the entire base apart. There's no further response from the pirates.`
 			`	After a while of continuious fire the large asteroid is now reduced to field of dust and debris.`
 				flee
