@@ -2486,7 +2486,7 @@ ship "EM-28F Wombat"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go as due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Due to its size and slowness the vessel is less than ideal for mining and collecting resources itself but instead relys and a sizeable fleet of fighters and drones to mine and collect resource for it. To protect their miners from harm as they operate far away from the mothership the Wombat also comes with space for 4 pocket light warships to guard the miners.`
+	description `Espion-exclusive mining carrier that functions as a mobile mining and refinery station to extract and process resources while in flight. Due to its large cargo holds, it spends much of its time in flight as it takes a considerable amount of time to fill its cargo bay entirely. Due to its enourmous size and resultingly low maneuverability, the vessel itself is less than ideal for mining and collecting resources but instead relies on a sizeable fleet of fighters and drones to mine and collect resources for it. To protect their miners from harm as they operate far away from the mothership, the Wombat also features space for 4 pocket light warships to guard the miners.`
 
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
@@ -2662,7 +2662,7 @@ ship "SV-4450 Sovereign"
 	explode "large explosion" 60
 	explode "huge explosion" 60
 	"final explode" "final explosion large"
-	description "Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remains today in few private hands."
+	description "The Sovereign is a massive carrier and worldship of completely mysterious origin. It is rumored that this ship was designed many years ago for an expedition beyond known space. Nobody is quite certain about the fate of the project, and the ship remains today under only a few private owners who guard it with vigilance and utmost secrecy."
 
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
@@ -2738,7 +2738,7 @@ ship "Nasprite"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war made to withstand combat and long travel. Though originates from the core, most of these are now found operating around the Dirt Belt.`
+	description `Nasprite is a modernization of a dated armoured freighter design from the first turf war, made to withstand combat and long travel. Though it originates from the core, most of these are now found operating around the Dirt Belt.`
 	
 ship "CK50T Stahbar"
 	sprite "ship/mgf stahbar"
@@ -2802,7 +2802,7 @@ ship "CK50T Stahbar"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on. According to the company representative however, this feature was an accident as they're developing their coating.`
+	description `Large armoured freighter with decent armament and equipped with special, radar-deflecting armor plating, making it more difficult for radar-based missiles to lock-on. According to the company representatives, this feature was a complete accident during the development of their hull coating.`
 	
 ship "CK40T Treibard"
 	sprite "ship/mgf treibard"
@@ -2925,8 +2925,8 @@ ship "CK80T Tlielart"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Massive freighter developed to carry as much cargo as possible, and did so exceeding the capacity of every other ship by far. Though unlike the other ship from MarStel Industries, it is very lightly armed relative to cargo capacity making it lacks the firepower to properly protect itself and neither did it have speed to dodge any raider. Due to such reason, it will require decent escort to safely travel.`
-	description `Though it carried more than most, if not all, freighter in human space the sheer amount of cargo that have to be unloaded will require ungodly amount of time, equipment, and manpower, which only get worse when loading cargo. Any less than well developed urban spaceport would struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
+	description `Massive freighter developed to carry as much cargo as possible, handily exceeding the capacity of its competitors the moment it was launched. However, unlike the other ships from MarStel Industries, it is slow, unmaneuverable, and very lightly armed relative to its cargo capacity, lacking enough armament to defend itself properly and enough speed to outrun any threats. Due to those reasons, it requires well-equipped escorts to travel safely, especially through dangerous territory.`
+	description `Though it carries more than most, if not all, freighters in human space, the sheer amount of cargo that has to be unloaded during a stop requires an ungodly amount of time, equipment, and manpower, which only gets worse when loading more cargo. Any less than well developed urban spaceport struggles to service the ship and often takes a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
 
 ship "PF-80 Intrepid"
 	sprite "ship/mgf intrepid"
@@ -3055,7 +3055,7 @@ ship "FF-30 Volant"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested area. Lightly protected and not designed for any combat.`
+	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested areas. Lightly protected and not designed for any combat.`
 	
 ship "PT-60 Gallant"
 	sprite "ship/mgf gallant"
@@ -3129,7 +3129,7 @@ ship "PT-60 Gallant"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Solomons Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the southern space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While difficulty of handling bulk liquid cargo deter many pirates from stealing it, report of raid on oil tanker is not unheard of. It is suspected that they either have no other targets or it was an attempt to capture the entire ship.`
+	description `Solomons Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across southern space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While difficulty of handling bulk liquid cargo deters many pirates from stealing it, reports of raids on oil tanker are not unheard of. It is suspected on those reports particularly that the pirates either had no other targets or attempted to capture the entire ship.`
 	
 ship "PL-50 Impavid"
 	sprite "ship/mgf impavid"
@@ -3201,8 +3201,8 @@ ship "PL-50 Impavid"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `A well defended livestock transport for shipping various live export from the southern worlds to their destination safely. Unlike its sea-bound ancestor which can simply have an open deck for air, cargo deck of spacefaring livestock transport require dedicated climate control system to ensure proper air circulation and comfortable ride for the animals as well as reduce the smell and gases for when the crew have to perform task within the cargo deck.` 
-	description `Freshly butchered meat is known to be highly preferred over frozen meat by the wealthy creating a lucrative trade route between the South and Paradise Planets for these specialized freighter.`
+	description `A well defended livestock transport for shipping various live exports from the southern worlds to their destination safely. Unlike its sea-bound ancestors which simply have open decks for air, cargo decks of spacefaring livestock transport ships require dedicated climate control systems to ensure proper air circulation and a comfortable ride for the animals as well as to reduce the smell and gases for when the crew have to perform tasks within the cargo deck.` 
+	description `Freshly butchered meat is known to be highly preferred over frozen meat by the wealthy creating a lucrative trade route between the South and Paradise Planets for these specialized freighters.`
 
 ship "FC-022 Castello"
 	sprite "ship/mgf castello"
@@ -3270,8 +3270,8 @@ ship "FC-022 Castello"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Reminiscent of refuelling barge used in older days before uses of replusor engines becomes more widespread with freighters where most freighters would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barge like the Castello.`
-	description `In modern times refuelling barges are occasionally used by some companies to rapidly refuel freighters mid-flight and extend their range without requiring the slow and cumbersome freighters to visit the port.`
+	description `Reminiscent of refuelling barges used in older days before uses of replusor engines becomes more widespread with freighters where most freighters would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barges like the Castello.`
+	description `In modern times, refuelling barges are occasionally used by some companies to rapidly refuel freighters mid-flight and extend their range without requiring the slow and cumbersome freighters to visit the port.`
 	
 ship "SKVS-2 Mudskipper"
 	sprite "ship/mgf mudskipper"
@@ -3318,7 +3318,7 @@ ship "SKVS-2 Mudskipper"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Small, lightly armed freighter for short-ranged shipping from earlier and more peaceful era. These are most often seen in more secure area of space as they lack of any effective defense against pirates nor the range to travel far beyond their homeport.`
+	description `Small, lightly armed freighter for short-ranged shipping from an earlier and more peaceful era. These are most often seen in more secure areas of space as they lack of any effective defense against pirates nor the range to travel far beyond their homeport.`
 	
 ship "SKVS-3 Gudgeon"
 	sprite "ship/mgf gudgeon"
@@ -3365,7 +3365,7 @@ ship "SKVS-3 Gudgeon"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessel around but also the most defenceless and slow for the size. Though few captains reported to enjoy piloting them, they all agreed it is one of the most robust and easy to maintain.`
+	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessels around but also the most defenseless and slow for its size. Though few captains reported to have enjoyed piloting them, they all agreed that it is one of the most robust and easy to maintain.`
 	
 ship "SKVS-4 Minnow"
 	sprite "ship/mgf minnow"
@@ -3415,8 +3415,8 @@ ship "SKVS-4 Minnow"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping which makes it less ideal for travelling to frontier worlds alone with the raise of piracy.`
-	description `Now that most colony are developed enough to supply their own water these ships became much rarer as their need decreases. Now only a small number remains parked in systems that have stations for occasional resupply mission.`
+	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping pirates which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
+	description `Now that most colonies are developed enough to supply their own water, these ships became much rarer as their need decreased. Now only a small number remains parked in systems that have stations for the occasional resupply mission.`
 	
 ship "CWC-2 Celestine"
 	sprite "ship/mgf celestine"
@@ -3576,7 +3576,7 @@ ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation for transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading allowing overall faster turnaround. The ship lacks of large cargo loading hatches to maintain a closed system free of contaminants and instead loaded via special sealed conveyor belts built into the ship. Its' built-in bagging facility utilize the latest technology for fast and highly efficient packaging operation. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most port does not have.`
+	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation for transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading allowing overall faster turnaround. The ship lacks of large cargo loading hatches to maintain a closed system free of contaminants and instead loads cargo via special sealed conveyor belts built into the ship. Its built-in bagging facility utilizes the latest technology for fast and highly efficient packaging operations. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
 
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
@@ -3630,7 +3630,7 @@ ship "QYG-30 Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A fast and well armoured freighter for medium range shipping. Preferred by some captain for greater manoeuvrability compared to Syndicate Freighter.`
+	description `A fast and well armoured freighter for medium range shipping. Preferred by some captains for its greater manoeuvrability compared to Syndicate Freighter.`
 		
 ship "QYG-60 Sandiq"
 	sprite "ship/mgf sandiq"
@@ -3685,7 +3685,7 @@ ship "QYG-60 Sandiq"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighter around the Core and North area.`
+	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighters around the Core and North area.`
 	
 ship "QYG-30r Qazan"
 	sprite "ship/mgf qazan reefer"
@@ -3740,7 +3740,7 @@ ship "QYG-30r Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Modified version of Qazan with refrigerated cargo holds to allow it to maintain the perfect temperature for carrying perishable goods over long distance without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification the cargo space is slightly reduced but still more efficient than carrying multiple refrigerated container.`
+	description `Modified version of Qazan with refrigerated cargo holds to allow it to maintain the perfect temperature for carrying perishable goods over long distances without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification, the cargo space is slightly reduced but still is more efficient than carrying multiple refrigerated containers.`
 	
 ship "QYG-70r Tonazqi"
 	sprite "ship/mgf tonazqi"
