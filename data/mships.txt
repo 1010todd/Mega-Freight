@@ -34,7 +34,7 @@ ship "FR-4 Dart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "With goal of creating the smallest and cheapest spaceship possible. With everything reduced to the minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its' fragility this ship is fast enough to outrun nearly everything else in human space."
+	description "With the goal of creating the smallest and cheapest spaceship possible by reducing everything to its bare minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its fragility, this ship is fast enough to outrun nearly everything else in human space."
 
 ship "Wisymton"
 	sprite "ship/mgf wisymton"
@@ -107,7 +107,7 @@ ship "Wisymton"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "A tugboat from early days of space trading made to transport cargo containers between ground and space when repulsor engines are still in its infancy and many ships from previous era still lack one or were not designed to enter atmosphere and land at all. With more freighters equipped with repulsor engines these tugboat roles changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
+	description "A tugboat from the early days of space trading, made to transport cargo containers between ground and space. It was designed when repulsor engines were still in their infancy, and many ships from the previous era still lacked them or were not designed to enter the atmosphere and land at all. With more freighters now equipped with repulsor engines, these tugboats' roles instead changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
 
 ship "Wisymton" "Wisymton (Light Freighter)"
 	attributes
@@ -176,7 +176,7 @@ ship "Wisymton" "Wisymton (Cargo)"
 		angle 0
 		under
 		left
-	description "Wisymton tugboat with cargo container attached, commonly used for local shipping within the system."
+	description "Wisymton tugboat with cargo container attached, commonly used for local shipping within a star system."
 		
 ship "Wisymton" "Wisymton (Light Freighter, Cargo)"
 	sprite "ship/mgf wisymton c"
@@ -352,7 +352,7 @@ ship "CF-50 Cart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and cheap mining vessel as an alternative to the Tarazed Sparrow for pilots don't mind a little bit more waiting for more pay."
+	description "A small and cheap mining vessel primarily marketed as an alternative to the Tarazed Sparrow, for pilots who don't mind a little more waiting for some more pay."
 
 ship "CY-10 Dragonfly" #Base variant without carry.
 	sprite "ship/mgf dragonfly"
@@ -404,7 +404,7 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 15
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including assisting construction of tall buildings or delivering supplies to inaccessible area."
 	description `[Carry: Nothing, you shouldnt see or use this]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Fighter)"
@@ -427,7 +427,7 @@ ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method a of quickly delivering or recovering fighters. Also often used for lifting cargo within a planet's atmosphere for various purposes, including assisting construction of tall buildings or delivering supplies to otherwise inaccessible areas."
 	description `[Carry: 1 Fighter]`
 
 ship "CY-10 Dragonfly" "CY-10 (Drone)"
@@ -450,7 +450,7 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method a of quickly delivering or recovering fighters. Also often used for lifting cargo within a planet's atmosphere for various purposes, including assisting construction of tall buildings or delivering supplies to otherwise inaccessible areas."
 	description `[Carry: 1 Drone]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
@@ -487,8 +487,8 @@ ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
-	description `	This is a special variant modified by Ankulah crew to include a towing system to tow wreckages.`
+	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method a of quickly delivering or recovering fighters. Also often used for lifting cargo within a planet's atmosphere for various purposes, including assisting construction of tall buildings or delivering supplies to otherwise inaccessible areas."
+	description `	This is a special variant modified by the Ankulah crew to include a towing system for towing wreckages.`
 	description `[Carry: 1 Small Wreckage]`
 
 ship "CH-6 Carrack"
@@ -573,7 +573,7 @@ ship "CH-6 Carrack"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Carrack is an old heavy freighter for long range shipping dating back to early days of the Republic. It have bay for small complement of fighters to assist with landing and other task back in the days. In more recent time these bays are often carrying combat fighters to help defend the ship."
+	description "Carrack is an old heavy freighter for long range shipping dating back to the early days of the Republic. It features bays for a small complement of fighters to assist with landing and other tasks common in its history. In more recent times, however, these bays are often instead carrying combat fighters to help defend the ship."
 	
 ship "LCC-3 Sierra"
 	sprite "ship/mgf sierra tanker"
@@ -632,7 +632,7 @@ ship "LCC-3 Sierra"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Large hyperspace fuel tanker by Pioneer Heavy Industries. It is one of the latest fuel distribution tanker for transporting fuel from refineries to spaceports and non-refinery stations."
+	description "Large hyperspace fuel tanker by Pioneer Heavy Industries. It is one of the latest fuel distribution tankers for transporting fuel from refineries to spaceports and non-refinery stations."
 
 ship "RF-03 Gerlache"
 	sprite "ship/mgf gerlache"
@@ -715,7 +715,7 @@ ship "RF-03 Gerlache"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Old fleet tanker ship dating from early days of space exploration where hyperdrives were much more inefficient and inhabited planets were few, it came with bays for smaller fuel distribution ships allowing fuel to be distributed among the fleet faster. It also comes with built-in ramscoop to slowly produce fuel as they travel. Very few are seen nowadays as the galaxy becomes more inhabited."
+	description "Old fleet tanker ship dating from the early days of space exploration, where hyperdrives were much more inefficient and inhabited planets were few. It came with bays for smaller fuel distribution ships allowing its fuel to be distributed among a fleet more quickly. It also comes with a built-in ramscoop to slowly produce fuel as it travels. Very few are seen nowadays as the galaxy becomes more inhabited."
 	
 ship "LGC-3 Mesa"
 	sprite "ship/mgf mesa"
@@ -780,8 +780,8 @@ ship "LGC-3 Mesa"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed form across the galaxy. Relatively rare due to their specialized nature mostly running along few industrial worlds. Lightly armed but also less likely to attract pirate attention due to difficulty of storing and maintaining liquefied or compressed gas making it one of the least economical target for them. While pretty much useless in most situation, a gas tanker allows you to take special, very well paid jobs on some industrial planets.`
-	description `Due to nature of liquefied gas requiring extremely low temperature to maintain, any overheating can damage the tanks over time and eventually can cause it to burst. For that reason gas tanker captains must keep a close eye on their temperature at all time and make sure the temperature is alway below limit.`
+	description `A purpose-built gas tanker used for shipping large amount of gas in liquefied or compressed forms across the galaxy. Relatively rare due to their specialized nature mostly running along a select few industrial worlds. Lightly armed, but also less likely to attract pirate attention due to the difficulty of storing and maintaining liquefied or compressed gas which in turn makes the Mesa a very uneconomical target for them. While pretty much useless in most situations, a gas tanker allows you to take special and lucrative jobs on some industrial planets.`
+	description `Due to the nature of liquefied gas requiring extremely low temperatures to maintain, any overheating can damage the tanks over time and eventually can cause them to burst. For that reason gas tanker captains must keep a close eye on their temperatures at all times and make sure they are always below the thermal threshold of the tanks.`
 	
 ship "LXC-2 Strata"
 	sprite "ship/mgf strata"
@@ -842,7 +842,7 @@ ship "LXC-2 Strata"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A purpose-built chemical tanker for shipping various industrial chemical including highly corrosive acids with efficiency unmatched by regular freighter. Due to their specialized nature these ships are also rarer and most often found in route between industrial planets or close by. With difficulty of maintaining transported chemical combined with requiring special port to unload the stored liquid (efficiently) these vessels are less preferred target for pirates. While not useful in general shipping between most worlds these ships profit of their extreme specialization to take on fewer but much more profitable jobs only offered on industrialized worlds.`
+	description `A purpose-built chemical tanker for shipping various industrial chemicals including highly corrosive acids with efficiency unmatched by regular freighters. Due to their specialized nature, these ships are also rarer and most often found in routes between or around industrial planets. With the difficulty of maintaining transported chemicals, combined with the ships requiring special ports to unload their carried liquids (efficiently) these vessels are generally less of preferred targets for pirates. While not useful in general shipping, these ships profit off of their extreme specialization to take on fewer but significantly more profitable jobs only offered on industrialized worlds.`
 
 ship "LVC-2 Sandura"
 	sprite "ship/mgf sandura"
@@ -898,8 +898,8 @@ ship "LVC-2 Sandura"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A specialized roll-on roll-off ship for efficiently transporting land vehicles in large number by having interior laid out akin to parking lot allowing vehicles to be driven on and off the ship by itself fast and easily without having to wait for cranes. Because the interior is essentially a large empty space other cargo can also be stored allowing it to be more flexible than other specialized ships like tankers.`
-	description `Because of the highly valuable cargo and relative lack of defences these ships relies heavily on escorts to protect it.`
+	description `A specialized roll-on roll-off ship for efficiently transporting land vehicles in large numbers, achieved by having its interior laid out akin to a parking lot. This allows vehicles to be driven on and off the ship independently, quickly, and easily without having to wait for cranes to move them. Because the interior is essentially a large empty space, other cargo can also be stored allowing it to be more flexible than other specialized ships like tankers.`
+	description `Because of the highly valuable cargo and relative lack of defence, these ships rely heavily on escorts to protect them.`
 	
 ship "LPC-3 Lavaka"
 	sprite "ship/mgf lavaka"
@@ -969,7 +969,7 @@ ship "LPC-3 Lavaka"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A large oil carrier designed and built by Pioneer Heavy Industries. Lavaka-class is designed to ship either crude oil or other petroleum products in bulk across large distance with unmatched efficiency. Lavaka-class is also one of the largest ship designed and built by Pioneer HI.`
+	description `A large oil carrier designed and built by Pioneer Heavy Industries. The Lavaka-class is designed to ship either crude oil or other petroleum products in bulk across large distances with unmatched efficiency. The Lavaka-class is also one of the largest ships designed and built by Pioneer HI.`
 	
 ship "LPC-2 Atletha"
 	sprite "ship/mgf atletha"
@@ -1036,7 +1036,7 @@ ship "LPC-2 Atletha"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A smaller predecessor to the Lavaka tanker. Though it is designed to carry both crude and product oil since the development of larger oil tankers most of Atletha-class in service now serve as product tanker.`
+	description `A smaller predecessor to the Lavaka tanker. Though it is designed to carry both crude and product oils, since the development of larger oil tankers most of the Atletha-class tankers in service now serve solely as product tankers.`
 
 ship "LAC-4 Lithalsa"
 	sprite "ship/mgf lithalsa"
@@ -1101,7 +1101,7 @@ ship "LAC-4 Lithalsa"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Specialized bitumen tanker with heated tanks to maintain the cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several on going projects especially on developing worlds can require significant amount of bitumen. Because the service area for these ships often lack specialized discharge facilities the Lithalsa comes with it's own discharging system for unloading its cargo directly onto trucks or other transport to distribute it to the site.`
+	description `Specialized bitumen tanker with heated tanks to maintain cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several ongoing projects, especially on developing worlds, can require significant amounts of bitumen. Because the service areas for these ships often lack specialized discharge facilities the Lithalsa comes with its own discharging system for unloading its cargo directly onto trucks or other transports to distribute it to the site.`
 	
 ship "SMC-2 Kipuka"
 	sprite "ship/mgf kipuka"
@@ -1155,7 +1155,7 @@ ship "SMC-2 Kipuka"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Kipuka is a specialized type of chemical tanker dedicated to carrying molasses. To ensure easy flow of molasses when filling and discharging each tank is equipped with special temperature management system that can evenly heat the liquid across the tank to maintain low enough viscosity during unloading process. The ship also employs a slightly different loading system to minimize foaming as well as specialized sensor to avoid inaccuracies from said foaming of the cargo. Because of the additional requirement for tank cleaning these molasses tankers also comes equipped with special type of automatic tank cleaner to satisfy the requirement and reduce running cost.`
+	description `Kipuka is a specialized type of chemical tanker dedicated to carrying molasses. To ensure easy flow of molasses when filling and discharging, each tank is equipped with a special temperature management system that can evenly heat the liquid across the tank to maintain a low enough viscosity during the unloading process. The ship also employs a slightly different loading system to minimize foaming as well as specialized sensors to avoid inaccuracies from said foaming of the cargo. Because of the additional requirements for tank cleaning, these molasses tankers also comes equipped with a special type of automatic tank cleaner to satisfy those requirements and reduce running costs.`
 
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
@@ -1228,7 +1228,7 @@ ship "FG-5 Bluewhale"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Bluewhale is a massive freighter for hauling large amount of cargo across the galaxy. Due to its' cost these ship are often owned by freight companies rather than individuals. While it's capable of carrying much more cargo than most other freighters, one of the major complaint received from captains is that it can take very long to reach the innermost container. That said it is still far faster and easier than handling of bulk cargo."
+	description "Bluewhale is a massive freighter for hauling large amounts of cargo across the galaxy. Due to their cost, these ships are often owned by freight companies rather than individuals. While it's capable of carrying much more cargo than most other freighters, one of the major complaints received from captains is that it can take very long to reach the innermost containers. That said, it is still far faster and easier than other methods of handling bulk cargo."
 	
 ship "FG-5 Bluewhale" "FG-5 Bluewhale-A"
 	sprite "ship/mgf bluewhale-a"
@@ -1309,7 +1309,7 @@ ship "SBS-12 Ossun"
 	explode "large explosion" 35
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description `The Ossun is a power station ship modified from the Bluewhale hull to serve as temporary power station for remote colonies or as additional source for area with high demand while a new stationary power plant is being built. Because it spent most of its operation on the ground very few of these ships can ever be seen flying around.`
+	description `The Ossun is a power station ship modified from the Bluewhale hull to serve as a temporary power station for remote colonies or as an additional source for areas with high demand while a new stationary power plant is being built. Because it spends most of its operations on the ground, very few of these ships are ever seen in flight.`
 
 ship "FG-6 Startrain"
 	sprite "ship/mgf startrain"
@@ -1365,7 +1365,7 @@ ship "FG-6 Startrain"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Startrain is a medium ranged freighter offered by Freight Galactic with more limited cargo capacity than other cargo ship from the same shipyard. In exchange, it is much faster to unload equating to shorter time in port and faster delivery.`
+	description `Startrain is a medium ranged freighter offered by Freight Galactic with more limited cargo capacity than other cargo ships from the same shipyard. However, it is much faster to unload equating to lower amounts of time spent in ports and faster deliveries.`
 	
 ship "FG-6 Startrain" "FG-6 Startrain-A"
 	sprite "ship/mgf startrain-a"
@@ -1476,8 +1476,8 @@ ship "FG-7 Conveyor"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Conveyor is a massive freighter designed and build by Freight Galactic with special mechanism for quickly unloading cargo independent of port equipment and extra ports for resupplying theoretically allowing them to trade much faster than ships of similar size. In practice this is debatable as few ports can keep up with the sheer amount of cargo due to various other factors."
-	description `Conveyor is also capable of carrying a small squadron of fighters to protect itself, due to number of fighters carried almost matching entire capacity of the Navy Carrier there were attempts to have it restricted yet the CEO of the company simply told them to come get an actual carrier. It is rumoured that the company was responsible for the development of the more recent Spetum class carrier.`
+	description "Conveyor is a massive freighter designed and built by Freight Galactic with a special mechanism for quickly unloading cargo independent of port equipment and extra ports for resupplying theoretically allowing them to trade much faster than ships of similar size. In practice this is debatable, as few ports can keep up with the sheer amount of cargo and due to various other factors."
+	description `Conveyor is also capable of carrying a small squadron of fighters to protect itself. Due to the number of fighters carried almost matching the entire carrying capacity of the Navy Carrier, there were attempts to have the Conveyer restricted by the Republic. The CEO of the company simply told them to come get an actual carrier. It is rumoured that the company was responsible for the development of the more recent Spetum class carrier.`
 	
 ship "FG-7 Conveyor" "FG-7 Conveyor-A"
 	sprite "ship/mgf conveyor-a"
@@ -1786,8 +1786,8 @@ ship "FG-10 Exchanger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Inspired by the Syndicate H-class super container ship a smaller freighter development was halted in favor of an even larger freighter, and perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used as the Exchanger primary cargo arms that can be deployed to land and unload cargo as the Exchanger itself is too large to land on any port.`
-	description `To protect itself the ship carries vast array of armaments rivalling most warships as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed they were stripped down too much to serve as effective combat ship on its own, in addition longer delay to deploy as they were not designed to be deployed for immediate actions.`
+	description `Inspired by the Syndicate H-class super container ship, a smaller freighter development was halted in favor of an even larger freighter, and perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used instead as the Exchanger's primary cargo arms that can be deployed to land and unload cargo, as the Exchanger itself is too large to land on any port.`
+	description `To protect itself, the ship carries a vast array of armaments rivaling most warships as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed, they are stripped down too much to serve as effective combat ships on their own. In addition, they suffer a long delay to deploy in a combat environment as they were not designed to be deployed for immediate action.`
 
 ship "FTV-33 Acareus"
 	plural "FTV-33 Acareus"
@@ -1850,7 +1850,7 @@ ship "FTV-33 Acareus"
 	engine -179 33 
 	engine 179 33 
 	engine 0 127.5 
-	description `Fancy experimental freighter as more heavily armed alternative to the older Carrack. While relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
+	description `Fancy experimental freighter designed as a more heavily armed alternative to the older Carrack. While a relatively large number of containers are exposed for easier unloading, the unusual angles of the containers negates the benefits as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
@@ -1952,7 +1952,7 @@ ship "SMM-111 Bagger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Bagger is one of the largest mining vehicle ever made, in addition to that the Bagger is also capable of sorting and processing ores on-site along with machines to turn them into functional parts. It is essentially a mobile factory and an asteroid miner combined."
+	description "The Bagger is one of the largest mining vehicles ever made; in addition to that, the Bagger is also capable of sorting and processing ores on-site along with machines to turn them into functional parts. It is essentially a mobile factory and an asteroid miner combined."
 	
 ship "HMM-190 Kotroger"
 	sprite "ship/mgf kotroger"
@@ -2012,7 +2012,7 @@ ship "HMM-190 Kotroger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Kotroger is a terrestrial mining vehicle as well as spaceflight capability for rapidly hopping from planets to planets or even within the planet itself as each resource pool is drained as well as moving to assist excavation on other site or large construction project requiring earth to be moved in large amount. While not as economical as old-school ground-based excavators its primary strength lies in the extreme mobility compared to regular excavator where it could easily move itself from site to site and begin operation within the same day while regular ones may take days to weeks to disassemble, pack, and move and repeat in reverse at the new site, though it may be unnecessary on larger resource pool it allows the Kotroger to more economically extract resource from smaller pools of rarer materials that may otherwise be uneconomical for regular excavator to operate. Though it is not recommended by both the manufacturer and safety organizations the ship is built with extra heavy duty long-duration repulsor engines that can fire constantly for longer period which may allow it to temporary mine resources from less stable ground with repulsor engines active and minimize the weight it puts on the ground."
+	description "The Kotroger is a mining vehicle capable of terrestrial and spacefaring mining operations, designed for rapidly hopping from planets to planets or even between locations on one planet as each resource pool is drained as well as moving to assist excavation on other sites or large construction projects requiring earth to be moved in large amounts. While not as economical as old-school ground-based excavators, its primary strength lies in its extreme mobility compared to regular excavators where it could easily move itself from site to site and begin operations within the same day while regular ones may take days to weeks to disassemble, pack, and move and repeat in reverse at the new site; though it may be unnecessary on larger resource pools, it allows the Kotroger to more economically extract resources from smaller pools of rarer materials that may otherwise be uneconomical for regular excavators to operate. Though not recommended by the manufacturer nor numerous safety organizations, the ship is equipped with extra heavy duty long-duration repulsor engines that can fire constantly for longer periods which may allow it to temporarily mine resources from less stable ground with its repulsor engines active and minimize the weight it puts on the ground."
 
 ship "EM-8A Armadillo"
 	sprite "ship/mgf epn armadillo"
@@ -2114,7 +2114,7 @@ ship "EM-8A Armadillo"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Espion-exclusive light mining carrier with sizeable squadron of drones and fighters for defending itself or help mining and collecting materials.`
+	description `Espion-exclusive light mining carrier with a sizeable squadron of drones and fighters for defending itself or to help with mining and collecting materials.`
 		
 ship "EM-28F Wombat"
 	sprite "ship/mgf epn wombat"
