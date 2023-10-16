@@ -3416,7 +3416,7 @@ ship "SKVS-4 Minnow"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping pirates which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
-	description `Now that most colonies are developed enough to supply their own water, these ships became much rarer as their need decreased. Now only a small number remains parked in systems that have stations for the occasional resupply mission.`
+	description `Now that most colonies are developed enough to supply their own water, these ships became much rarer as their need decreased. Now only a small number remain parked in systems that have stations for the occasional resupply mission.`
 	
 ship "CWC-2 Celestine"
 	sprite "ship/mgf celestine"
@@ -3470,7 +3470,7 @@ ship "CWC-2 Celestine"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving them in the most perfect condition with individual thermal control system for each tank to keep the heat as stable as possible.`
+	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving it in perfect conditions, with individual thermal control systems for each tank to keep temperatures as stable as possible.`
 	description `Because these ships are lightly armed, they rarely wander away from relative safety of heavily patrolled Paradise Planets.`
 	
 ship "CJC-3 Citrus"
@@ -3525,7 +3525,7 @@ ship "CJC-3 Citrus"
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `Citrus-class is purpose designed and built as fruit juice tanker for the Solacer Group mainly for transporting frozen concentrated juice with minimal water content for maximum space efficiency. The concentrated juice would then be mixed with water and packaged at destionation facility to be distributed.`
+	description `The Citrus-class tanker is purpose-built as a fruit juice tanker for the Solacer Group, primarily for transporting frozen concentrated juices with minimal water content for maximum space efficiency. Once transported, the concentrated juices are then mixed with water and packaged at their destination facilities to be distributed.`
 	
 ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	plural "TQK-20 Qaytas"
@@ -3576,7 +3576,7 @@ ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation for transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading allowing overall faster turnaround. The ship lacks of large cargo loading hatches to maintain a closed system free of contaminants and instead loads cargo via special sealed conveyor belts built into the ship. Its built-in bagging facility utilizes the latest technology for fast and highly efficient packaging operations. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
+	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation. The Qaytas is built for bulk transportation of sugar and features in-ship bagging at a destination to decrease port times during unloading, allowing an overall faster turnaround. The ship lacks large cargo loading hatches in order to maintain a closed system free of contaminants; instead, cargo is loaded via special sealed conveyor belts built into the ship. Its built-in bagging facility utilizes the latest technology for fast and highly efficient packaging operations. Bagged sugar can be unloaded at ports far faster than in bulk, as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
 
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
@@ -3630,7 +3630,7 @@ ship "QYG-30 Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A fast and well armoured freighter for medium range shipping. Preferred by some captains for its greater manoeuvrability compared to Syndicate Freighter.`
+	description `A fast and well armoured freighter for medium-range shipping. It is preferred by some captains for its greater manoeuvrability compared to the Syndicate Freighter.`
 		
 ship "QYG-60 Sandiq"
 	sprite "ship/mgf sandiq"
@@ -3685,7 +3685,7 @@ ship "QYG-60 Sandiq"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighters around the Core and North area.`
+	description `Larger and longer ranged version of the QYG-30 Qazan to fill in the gap between the Qazan and other heavy freighters around the Core and North area.`
 	
 ship "QYG-30r Qazan"
 	sprite "ship/mgf qazan reefer"
@@ -3740,7 +3740,7 @@ ship "QYG-30r Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Modified version of Qazan with refrigerated cargo holds to allow it to maintain the perfect temperature for carrying perishable goods over long distances without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification, the cargo space is slightly reduced but still is more efficient than carrying multiple refrigerated containers.`
+	description `Modified version of the Qazan with refrigerated cargo holds, allowing it to maintain the perfect temperature for carrying perishable goods over long distances. without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification, the cargo space is slightly reduced but still is more efficient than carrying multiple refrigerated containers.`
 	
 ship "QYG-70r Tonazqi"
 	sprite "ship/mgf tonazqi"
