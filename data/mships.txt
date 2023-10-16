@@ -3740,7 +3740,7 @@ ship "QYG-30r Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Modified version of the Qazan with refrigerated cargo holds, allowing it to maintain the perfect temperature for carrying perishable goods over long distances. without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification, the cargo space is slightly reduced but still is more efficient than carrying multiple refrigerated containers.`
+	description `Modified version of the Qazan with refrigerated cargo holds, allowing it to maintain perfect temperatures for carrying perishable goods over long distances. The cargo holds eliminate the need for individual refrigerated containers, which utilize the Qazan's available space less efficiently due to their individual cooling systems and each consume resources and money to maintain. Due to the modifications, the overall cargo space is slightly reduced compared to the typical production version of the Qazan but the layout gains immense efficiency over carrying multiple refrigerated containers when shipping perishable goods.` # This could be written better on my part, but I'll give it another look when I do my skim after my first run of proofreading. ~ Polaria
 	
 ship "QYG-70r Tonazqi"
 	sprite "ship/mgf tonazqi"
@@ -3793,7 +3793,7 @@ ship "QYG-70r Tonazqi"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `A dedicated reefer ship for carrying and keeping perishable goods refrigerated in bulk over distance with dedicated cargo hold cooling systems as well as dedicated freezer section for storing cargo that requires even lower temperature to transport safely.`
+	description `A dedicated reefer ship, built for keeping perishable goods refrigerated in bulk while carrying them over interstellar distances and with dedicated cargo hold cooling systems to preserve temperature-sensitive cargo. It also features a dedicated freezer section for storing cargo that requires very low temperatures to avoid spoilage, such as certain dairy products or seafood.`
 	
 ship "LMS-43 Mullsammler"
 	sprite "ship/mgf mullsammler"
@@ -3856,7 +3856,7 @@ ship "LMS-43 Mullsammler"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `This ship was designed to collect garbage from various colonies in the days before they build their own garbage processing plant and with compactors these ships can collect several times more cargo than a regular freighter. Even after a processing plant was build on a planet these vessels are still used to collect garbage from various settlements scattered around the planet. The ship is equipped with six compactor to quickly load the garbage though practically the crew said three is more than enough for most small settlements this ship would be visiting and all compactors will only be utilized in more urban area.`
+	description `This ship was designed to collect garbage from various colonies in the days before they had built their own garbage processing plants, and with compactors, these ships can collect several times more garbage than a regular freighter could store in its cargo bay. Even after a processing plant had been constructed on a planet, the vessels were and currently are still used to collect garbage from various settlements scattered around said planet. The ship is equipped with six compactors to quickly load collected garbage onto the ship. In practical use, however, most crews report that three is typically more than enough for most small settlements, and all of the ship's compactors would only usually be utilized in population-dense urban areas.`
 
 ship "AD-012C Iaphia"
 	sprite "ship/mgf iaphia"
@@ -3911,7 +3911,7 @@ ship "AD-012C Iaphia"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Expensive, fast, and fancy freighter designed for captains who prefer speed. Some captain of weathier origins also prefer it because for less boxy look compared to other freighters.`
+	description `An expensive, fast, and fancy freighter designed and marketed towards captains who prefer speed. Some captains of wealthier origins also prefer it for its sleeker, less boxy lines compared to other cheaper and more popular freighter options.`
 	
 ship "AD-019A Iabayi"
 	sprite "ship/mgf iabayi"
@@ -3975,7 +3975,7 @@ ship "AD-019A Iabayi"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `Larger fancy freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distance.`
+	description `A larger, more luxurious version of the Iaphia, designed as a freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distances.`
 	
 ship "AD-0032 Ialmuslati"
 	sprite "ship/mgf ialmuslati"
@@ -4036,7 +4036,7 @@ ship "AD-0032 Ialmuslati"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `Fast mid-sized transport offered by Najrmalas Shipworks seeing the few competitor. The Ialmuslati while expensive it offers more speed as well as business-class suite for better-paying customers.`
+	description `Fast mid-sized transport offered by Najrmalas Shipworks, built upon seeing few competitors in its target market. The Ialmuslati, while expensive, offers more speed than other transports of its class, and features a business-class suite to draw in better-paying passengers.`
 	
 	#req|round10(bnk)|0
 ship "TS-650 Herrenbal"
@@ -4099,7 +4099,7 @@ ship "TS-650 Herrenbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `A mid-sized transport to fill in the gap between Blackbird and Star Queen as well as serving as economy-class transport.`
+	description `A mid-sized transport, designed to fill in the gaps between the Blackbird and the Star Queen as well as serving as economy-class transport.`
 	
 ship "TS-CH0 Kratzbal"
 	sprite "ship/mgf kratzbal"
@@ -4174,7 +4174,7 @@ ship "TS-CH0 Kratzbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Fast and well-armed transport for hauling large amount of people across distance as non-luxury alternative to the Star Queen.`
+	description `Fast and well-armed transport for ferrying large amounts of people across sizeable distances, primarily designed as a non-luxury alternative to the Star Queen.`
 	
 ship "TS-1L260 Mieusbar"
 	sprite "ship/mgf mieusbar"
@@ -4259,7 +4259,7 @@ ship "TS-1L260 Mieusbar"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Huge transport for mass transportation across vast distance. The development was partially sponsored by some of the southern worlds to provide means of cheap transportation for migrating workers and low-budget tourists specifically coming to the South and Rim.`
+	description `Huge transport for mass transportation across vast distances. The development of this immense ship was partially sponsored by some of the southern worlds to provide means of cheap transportation for migrating workers and low-budget tourists specifically coming to the South and Rim.`
 	
 	
 ship "AsK12-6 Celjurai"
@@ -4326,7 +4326,7 @@ ship "AsK12-6 Celjurai"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.`
+	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.` # I want to come back to this later -- not sure what to do right now. ~ Polaria
 
 ship "S-PT06 Harukaze"
 	sprite "ship/mgf harukaze"
@@ -4372,7 +4372,7 @@ ship "S-PT06 Harukaze"
 	explode "small explosion" 20
 	explode "mgf explosion spark" 30
 	"final explode" "final explosion small"
-	description "MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle also with improved protection as well as utilizing turret mount instead of fixed guns allowing it to defend itself while maneuvering out of harms way. The interior is also considered to be a bit fancier than most other transport but still not enough to attract wealthy passengers."
+	description "The MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle, boasting improved protection as well as utilizing a turret mount instead of fixed guns. This design choice allows it to defend itself while maneuvering out of harm's way. The interior is also considered by many to be slightly more luxurious than most other transports, but still not to enough of a degree to attract wealthier passengers."
 
 ship "CDB-6K Jupiter"
 	sprite "ship/mgf jupiter"
