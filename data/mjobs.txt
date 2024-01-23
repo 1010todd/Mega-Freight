@@ -869,9 +869,10 @@ mission "MGF: Vinci Station Research Phase 2"
 		fail
 
 planet "MGF: Fake Vinci"
-	attributes "requires: sdfksdfo"
+	government "MGF: Fake Planets"
+	attributes "requires: unlandable" "requires: sdfksdfo"
 	description `If you can land here its a bug.`
-#TODO
+
 planet "Nt24 Hoerni Station"
 	attributes station research #add export later.
 	landscape "land/station23"
@@ -885,7 +886,7 @@ event "mgf: vinci hoerni station construction begin"
 			distance 274.75
 			period 85.8737
 			object "Nt24 Hoerni Station"
-				sprite "station/mgf hoerni station 50"
+				sprite "planet/mgf hoerni station 50"
 				offset 180
 				distance 167
 				period 20.3008
@@ -905,7 +906,7 @@ event "mgf: vinci hoerni station construction done"
 			distance 274.75
 			period 85.8737
 			object "Nt24 Hoerni Station"
-				sprite "station/mgf hoerni station 50"
+				sprite "planet/mgf hoerni station 50"
 				offset 180
 				distance 167
 				period 20.3008
@@ -913,7 +914,7 @@ event "mgf: vinci hoerni station construction done"
 			distance 274.75
 			period 85.8737
 			object "Nt24 Hoerni Station"
-				sprite "station/mgf hoerni station"
+				sprite "planet/mgf hoerni station"
 				offset 180
 				distance 167
 				period 20.3008
