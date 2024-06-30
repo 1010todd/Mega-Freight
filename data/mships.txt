@@ -6758,33 +6758,43 @@ ship "K-Class Ultra Container Ship"
 		"X1100 Ion Reverse Thruster" 10
 		"Scram Drive"
 	turret 154.5 -1225.5 "Proton Turret" 
+		parallel #Parallel to force them to not converge and result in some weird angle.
 		angle 90
 		arc -90 90
 	turret -154.5 -1225.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 154.5 -834.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -154.5 -834.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 154.5 -451.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -154.5 -451.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 154.5 -72 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -154.5 -72 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 154.5 317 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -154.5 317 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	gun 65 -1595.5 
@@ -6797,33 +6807,43 @@ ship "K-Class Ultra Container Ship"
 	gun 65 -1595.5 
 	gun -65 -1595.5 
 	turret 522 -1228.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -522 -1228.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 522 -833.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -522 -833.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 522 -449.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -522 -449.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 522 -71 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -522 -71 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 	turret 522 325.5 "Proton Turret" 
+		parallel
 		angle 90
 		arc -90 90
 	turret -522 325.5 "Proton Turret" 
+		parallel
 		angle -90
 		arc -90 90
 
@@ -6859,51 +6879,67 @@ ship "K-Class Ultra Container Ship"
 	gun 529.5 -1598 
 	gun -529.5 -1598 
 	turret 511.5 -1135.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 -1135.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 -1063 
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 -1063 
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 -992.5 
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 -992.5 
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 -916.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 -916.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 20 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 20 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 90 
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 90 
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 165.5 
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 165.5 
+		parallel
 		angle -90
 		arc -90 90
 	turret 511.5 240 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -511.5 240 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	bay "Fighter" 242.5 769.5 
@@ -6979,51 +7015,67 @@ ship "K-Class Ultra Container Ship"
 	bay "Fighter" -242.5 933.5 
 		angle 90
 	turret 142.5 -1136.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 -1136.5 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 -1070 
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 -1070 
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 -999.5 
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 -999.5 
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 -921 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 -921 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 23 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 23 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 89.5 
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 89.5 
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 173.5 
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 173.5 
+		parallel
 		angle -90
 		arc -90 90
 	turret 142.5 239 "Heavy Anti-Missile Turret"
+		parallel
 		angle 90
 		arc -90 90
 	turret -142.5 239 "Heavy Anti-Missile Turret"
+		parallel
 		angle -90
 		arc -90 90
 	bay "Fighter" 421 773 
