@@ -546,6 +546,33 @@ outfit "K3-K-S Particle Turret"
 		"fade out" 5
 	description `Single gun version of MJK Heavy Industries particle turret to be used by NGK Hauling ships for improved firepower and range over the commonly used proton turrets.`
 		
+outfit "K3-K Particle Cannon"
+	category "Guns"
+	cost 720000
+	thumbnail "outfit/mgf k3k particle cannon"
+	"mass" 33
+	"outfit space" -33
+	"weapon capacity" -33
+	"gun ports" -1
+	weapon
+		sprite "projectile/k3k particle beam"
+			scale .8
+		sound "k3k particle"
+		"hit effect" "k3k particle impact"
+		"inaccuracy" .4
+		velocity 28
+		"lifetime" 31
+		"random lifetime" 2
+		"reload" 17
+		"firing energy" 45
+		"firing force" 6
+		"firing heat" 280
+		"hit force" 50
+		"shield damage" 62
+		"hull damage" 57
+		"fade out" 5
+	description `A particle cannon developed by MJK Heavy Industries to be used by NGK Hauling ships for improved firepower and range over the common Lovelace Particle Cannons.`
+
 outfit "K2-K-S Particle Turret"
 	category "Turrets"
 	cost 620000
@@ -2125,7 +2152,7 @@ outfit "J520 Quad Zhizhe Turret"
 		"velocity override" 26
 		"range override" 1420
 		"lifetime" 1
-		"reload" 60
+		"reload" 120
 		"firing energy" 315
 		"firing force" 50
 		"firing heat" 852
@@ -2945,7 +2972,7 @@ outfit "AH-5 Eteron Launch System"
 	"outfit space" -12
 	"weapon capacity" -12
 	"gun ports" -1
-	"ah5 eteron capacity" 10
+	"ah5 eteron capacity" 5
 	weapon
 		sprite "projectile/mgf eteron torp proj"
 			"no repeat"
@@ -2967,13 +2994,13 @@ outfit "AH-5 Eteron Launch System"
 		"firing heat" 56
 		"acceleration" .4
 		"drag" .01
-		"turn" 2
+		"turn" 1
 		"homing" 4
 		"radar tracking" .9
 		"optical tracking" .8
 		"blast radius" 20
-		"shield damage" 7680
-		"hull damage" 7880
+		"shield damage" 5680
+		"hull damage" 3880
 		"hit force" 420
 		"missile strength" 42
 		"phasing"
