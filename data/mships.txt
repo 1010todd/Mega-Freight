@@ -4342,10 +4342,12 @@ ship "FC-022 Castello"
 		zoom .5
 		angle 90
 		right
+		over
 	"steering engine" 45.5 -73.5 
 		zoom .5
 		angle 270
 		left
+		over
 	"steering engine" -45.5 74.5 
 		zoom .5
 		angle 90
