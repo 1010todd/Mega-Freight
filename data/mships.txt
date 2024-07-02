@@ -2141,7 +2141,7 @@ ship "FG-11 Starcarrier"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A mid-sized container ship offering both great capacity and benefits of containerization.`
+	description `A mid-sized container ship offering both great capacity and the benefits of containerization.`
 
 ship "FG-11 Starcarrier" "FG-11 Starcarrier (GX)"
 	sprite "ship/mgf gx starcarrier"
@@ -2221,7 +2221,7 @@ ship "FG-11 Starcarrier" "FG-11 Starcarrier (GX)"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This a special variant of the Starcarrier built for Galactic Express featuring improved engine tuning and cargo handling system.`
+	description `This a special variant of the Starcarrier built for Galactic Express, featuring improved engine tuning and a cargo handling system.`
 
 ship "FG-11 Starcarrier" "FG-11 Starcarrier (NGK)"
 	sprite "ship/mgf ngk starcarrier"
@@ -2606,8 +2606,8 @@ ship "FG-10 Exchanger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Inspired by the Syndicate H-class super container ship a smaller freighter development was halted in favor of an even larger freighter, and perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used as the Exchanger primary cargo arms that can be deployed to land and unload cargo as the Exchanger itself is too large to land on any port.`
-	description `To protect itself the ship carries vast array of armaments rivalling most warships as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed they were stripped down too much to serve as effective combat ship on its own, in addition longer delay to deploy as they were not designed to be deployed for immediate actions.`
+	description `Inspired by the Syndicate H-class super container ship, a smaller freighter development was halted in favor of an even larger freighter, perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used as the Exchanger primary cargo arms that can be deployed to land and unload cargo, as the Exchanger itself is too large to land on any port.`
+	description `	To protect itself the ship carries a vast array of armaments rivaling most warships, as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed, they were stripped down too much to serve as effective combat ship on its own, and in addition there is a longer delay to deploy, as they were not designed to be deployed for immediate action.`
 
 ship "FTV-33 Acareus"
 	plural "FTV-33 Acareus"
@@ -2699,7 +2699,7 @@ ship "FTV-33 Acareus"
 	engine -179 33 
 	engine 179 33 
 	engine 0 127.5 
-	description `Fancy experimental freighter as more heavily armed alternative to the older Carrack. While relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
+	description `This is a fancy experimental freighter as more heavily armed alternative to the older Carrack. While a relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
@@ -2819,7 +2819,7 @@ ship "SMM-111 Bagger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Bagger is one of the largest mining vehicle ever made, in addition to that the Bagger is also capable of sorting and processing ores on-site along with machines to turn them into functional parts. It is essentially a mobile factory and an asteroid miner combined."
+	description "The Bagger is one of the largest mining vehicles ever made, and in addition to that the Bagger is also capable of sorting and processing ores on-site, along with machines to turn them into functional parts. It is essentially a mobile factory and an asteroid miner combined."
 	
 ship "HMM-190 Kotroger"
 	sprite "ship/mgf kotroger"
@@ -2888,7 +2888,7 @@ ship "HMM-190 Kotroger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Kotroger is a terrestrial mining vehicle as well as spaceflight capability for rapidly hopping from planets to planets or even within the planet itself as each resource pool is drained as well as moving to assist excavation on other site or large construction project requiring earth to be moved in large amount. While not as economical as old-school ground-based excavators its primary strength lies in the extreme mobility compared to regular excavator where it could easily move itself from site to site and begin operation within the same day while regular ones may take days to weeks to disassemble, pack, and move and repeat in reverse at the new site, though it may be unnecessary on larger resource pool it allows the Kotroger to more economically extract resource from smaller pools of rarer materials that may otherwise be uneconomical for regular excavator to operate. Though it is not recommended by both the manufacturer and safety organizations the ship is built with extra heavy duty long-duration repulsor engines that can fire constantly for longer period which may allow it to temporary mine resources from less stable ground with repulsor engines active and minimize the weight it puts on the ground."
+	description "The Kotroger is a terrestrial mining vehicle, also with spaceflight capability for rapidly hopping from planets to planets or even within the planet itself as each resource pool is drained, as well as moving to assist excavation on other sites or large construction projects requiring earth to be moved in large amounts. While not as economical as old-school ground-based excavators, its primary strength lies in the extreme mobility compared to a regular excavator. It can easily move itself from site to site and begin operation within the same day, while regular ones may take days or weeks to disassemble, pack, and move, then repeat in reverse at the new site. Though it may be unnecessary on larger resource pools it allows the Kotroger to more economically extract resource from smaller pools of rarer materials that may otherwise be uneconomical for regular excavators to operate on. Though it is not recommended by both the manufacturer and safety organizations, the ship is built with extra heavy-duty long-duration repulsor engines that can fire constantly for longer periods which may allow it to temporarily mine resources from less stable ground, repulsor engines active minimizing the weight it puts on the ground."
 
 ship "EM-8A Armadillo"
 	sprite "ship/mgf epn armadillo"
@@ -3001,7 +3001,7 @@ ship "EM-8A Armadillo"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Espion-exclusive light mining carrier with sizeable squadron of drones and fighters for defending itself or help mining and collecting materials.`
+	description `Behold the Espion-exclusive light mining carrier, with sizeable squadrons of drones and fighters for defending itself, or help mining and collecting materials.`
 		
 ship "EM-28F Wombat"
 	sprite "ship/mgf epn wombat"
@@ -3417,7 +3417,7 @@ ship "EM-28F Wombat"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go as due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Due to its size and slowness the vessel is less than ideal for mining and collecting resources itself but instead relys and a sizeable fleet of fighters and drones to mine and collect resource for it. To protect their miners from harm as they operate far away from the mothership the Wombat also comes with space for 4 pocket light warships to guard the miners.`
+	description `The Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go. Due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Because of its size and slowness, the vessel is less than ideal for mining and collecting resources itself, but instead relys on a sizeable fleet of fighters and drones to mine and collect resources for it. To protect their miners from harm as they operate far away from the mothership, the Wombat also comes with space for 4 pocket light warships to guard the miners.`
 
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
@@ -3634,7 +3634,7 @@ ship "SV-4450 Sovereign"
 	explode "large explosion" 60
 	explode "huge explosion" 60
 	"final explode" "final explosion large"
-	description "Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remains today in few private hands."
+	description "The Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only a few of the ships remain today in private hands."
 
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
@@ -3791,7 +3791,7 @@ ship "CK50T Stahbar"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Large armoured freighter with decent armaments and plated with special material for scattering radar making it more difficult for radar-based missiles to lock-on. According to the company representative however, this feature was an accident as they're developing their coating.`
+	description `This is a large armoured freighter with decent armaments, which is also plated with special material for scattering radar, making it more difficult for radar-based missiles to lock-on. According to the company representative however, this feature was an accident as they were developing their coating.`
 	
 ship "CK40T Treibard"
 	sprite "ship/mgf treibard"
@@ -3862,7 +3862,7 @@ ship "CK40T Treibard"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Smaller and cheaper version of the company's CK50T Stahbar with improved anti-radar capability and lighter armament.`
+	description `A smaller and cheaper version of the company's CK50T Stahbar, with improved anti-radar capability and a lighter armament.`
 	
 ship "CK80T Tlielart"
 	sprite "ship/mgf tlielart cargocargo"
@@ -3948,8 +3948,8 @@ ship "CK80T Tlielart"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Massive freighter developed to carry as much cargo as possible, and did so exceeding the capacity of every other ship by far. Though unlike the other ship from MarStel Industries, it is very lightly armed relative to cargo capacity making it lacks the firepower to properly protect itself and neither did it have speed to dodge any raider. Due to such reason, it will require decent escort to safely travel.`
-	description `Though it carried more than most, if not all, freighter in human space the sheer amount of cargo that have to be unloaded will require ungodly amount of time, equipment, and manpower, which only get worse when loading cargo. Any less than well developed urban spaceport would struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space as few planets require this much cargo in a single delivery and fewer are capable of handling it.`
+	description `This is a massive freighter designed to carry as much cargo as possible, and does so, exceeding the capacity of every other ship by far. Though unlike the other ships from MarStel Industries, it is very lightly armed relative to cargo capacity, making it lack the firepower to properly protect itself, and it does not have the speed to dodge any raider. Due to such reasons, it will require decent escorts to safely travel.`
+	description `	Though it carries more than most, if not all, freighters in human space, the sheer amount of cargo that has to be unloaded requires ungodly amount of time, equipment, and manpower, which only gets worse when loading cargo. Any less than a well developed urban spaceport will struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space, as few planets require this much cargo in a single delivery and fewer still are capable of handling it.`
 
 ship "PF-80 Intrepid"
 	sprite "ship/mgf intrepid"
@@ -4053,7 +4053,7 @@ ship "PF-80 Intrepid"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `Intrepid is a recently developed protected freighter with heavy armour and decent firepower to hold off pirates on its own while also being fast enough to outrun heavier ships.`
+	description `The Intrepid is a recently developed protected freighter with heavy armour and decent firepower to hold off pirates on its own, while also being fast enough to outrun heavier ships.`
 	
 ship "FF-30 Volant"
 	sprite "ship/mgf volant"
@@ -4103,7 +4103,7 @@ ship "FF-30 Volant"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A recently developed cheap and fast blockade runner for quickly flying past pirate infested area. Lightly protected and not designed for any combat.`
+	description `A recently developed cheap and fast blockade runner for quickly flying past pirate-infested areas. Lightly protected and not designed for any combat.`
 	
 ship "PT-60 Gallant"
 	sprite "ship/mgf gallant"
@@ -4200,7 +4200,7 @@ ship "PT-60 Gallant"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Solomons Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the southern space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While difficulty of handling bulk liquid cargo deter many pirates from stealing it, report of raid on oil tanker is not unheard of. It is suspected that they either have no other targets or it was an attempt to capture the entire ship.`
+	description `A Solomon Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the southern part of human space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While the difficulty of handling bulk liquid cargo deters many pirates from stealing it, reports of raid on oil tankers are not unheard of. It is suspected that they either have no other targets or they were attempts to capture the entire ship.`
 	
 ship "PL-50 Impavid"
 	sprite "ship/mgf impavid"
@@ -4291,8 +4291,8 @@ ship "PL-50 Impavid"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `A well defended livestock transport for shipping various live export from the southern worlds to their destination safely. Unlike its sea-bound ancestor which can simply have an open deck for air, cargo deck of spacefaring livestock transport require dedicated climate control system to ensure proper air circulation and comfortable ride for the animals as well as reduce the smell and gases for when the crew have to perform task within the cargo deck.` 
-	description `Freshly butchered meat is known to be highly preferred over frozen meat by the wealthy creating a lucrative trade route between the South and Paradise Planets for these specialized freighter.`
+	description `A well defended livestock transport for shipping various live exports from the southern worlds to their destinations safely. Unlike its sea-bound ancestor which can simply have an open deck for air, the cargo decks of spacefaring livestock transports require dedicated climate control systems to ensure proper air circulation and comfortable rides for the animals, as well as reduce the smells and gases for when the crew have to perform tasks within the cargo deck.` 
+	description `	Freshly butchered meat is known to be highly preferred over frozen meat by the wealthy, creating a lucrative trade route between the South and Paradise Planets for these specialized freighters.`
 
 ship "FC-022 Castello"
 	sprite "ship/mgf castello"
