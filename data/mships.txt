@@ -34,7 +34,7 @@ ship "FR-4 Dart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "With goal of creating the smallest and cheapest spaceship possible. With everything reduced to the minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its' fragility this ship is fast enough to outrun nearly everything else in human space."
+	description "This was made with the goal of creating the smallest and cheapest spaceship possible. With everything reduced to the minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its fragility, this ship is fast enough to outrun nearly everything else in human space."
 
 ship "Wisymton"
 	sprite "ship/mgf wisymton"
@@ -111,7 +111,7 @@ ship "Wisymton"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "A tugboat from early days of space trading made to transport cargo containers between ground and space when repulsor engines are still in its infancy and many ships from previous era still lack one or were not designed to enter atmosphere and land at all. With more freighters equipped with repulsor engines these tugboat roles changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
+	description "A tugboat from early days of space trading, which was made to transport cargo containers between ground and space. Designed when repulsor engines were still in their infancy, many ships from the previous era still lack one or were not designed to enter the atmosphere at all. With more freighters equipped with repulsor engines now, the roles for these tugboats changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
 
 ship "Wisymton" "Wisymton (Light Freighter)"
 	attributes
@@ -358,7 +358,7 @@ ship "CF-50 Cart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and cheap mining vessel as an alternative to the Tarazed Sparrow for pilots don't mind a little bit more waiting for more pay."
+	description "This is a small and cheap mining vessel designed as an alternative to the Tarazed Sparrow, for pilots don't mind a little bit waiting for pay."
 
 ship "CY-10 Dragonfly" #Base variant without carry.
 	sprite "ship/mgf dragonfly"
@@ -410,8 +410,8 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 15
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
-	description `[Carry: Nothing, you shouldnt see or use this]`
+	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
+	description `	[Carries: nothing, you shouldn't see or use this.]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	gun -14 -75.5
@@ -433,8 +433,8 @@ ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
-	description `[Carry: 1 Fighter]`
+	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
+	description `	[Carries: 1 Fighter.]`
 
 ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	gun -14 -75.5
@@ -456,8 +456,8 @@ ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
-	description `[Carry: 1 Drone]`
+	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
+	description `	[Carries: 1 Drone.]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
 	add attributes
@@ -493,9 +493,9 @@ ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "Small and agile heavy-lift spacecraft. Can be used for transporting containers or as method of quickly delivering or recovering fighters. Also often used for lifting within atmosphere on various occasion including  assisting construction of tall buildings or delivering supplies to inaccessible area."
-	description `	This is a special variant modified by Ankulah crew to include a towing system to tow wreckages.`
-	description `[Carry: 1 Small Wreckage]`
+	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
+	description `	This is a special variant modified by the Ankulah crew to include a towing system for towing wreckages.`
+	description `	[Carries: 1 Small Wreckage.]`
 
 ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
@@ -596,7 +596,7 @@ ship "CH-6 Carrack"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Carrack is an old heavy freighter for long range shipping dating back to early days of the Republic. It have bay for small complement of fighters to assist with landing and other task back in the days. In more recent time these bays are often carrying combat fighters to help defend the ship."
+	description "The Carrack is an old heavy freighter for long range shipping, dating back to early days of the Republic. It has bays for a small complement of fighters to assist with landing and other tasks back in the days. In more recent time these bays are often carrying combat fighters to help defend the ship."
 	
 ship "CH-6 Carrack" "CH-6 Carrack (NBSL)"
 	sprite "ship/mgf nbsl carrack"
