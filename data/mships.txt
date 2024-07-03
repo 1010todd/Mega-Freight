@@ -4364,7 +4364,7 @@ ship "FC-022 Castello"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Reminiscent of refuelling barge used in older days before uses of replusor engines becomes more widespread with freighters where most freighters would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barge like the Castello.`
+	description `This ship is reminiscent of refuelling barges used in older days before uses of replusor engines became more widespread with freighters, when most ships would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barges like the Castello.`
 	description `In modern times refuelling barges are occasionally used by some companies to rapidly refuel freighters mid-flight and extend their range without requiring the slow and cumbersome freighters to visit the port.`
 	
 ship "SKVS-2 Mudskipper"
@@ -4412,7 +4412,7 @@ ship "SKVS-2 Mudskipper"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Small, lightly armed freighter for short-ranged shipping from earlier and more peaceful era. These are most often seen in more secure area of space as they lack of any effective defense against pirates nor the range to travel far beyond their homeport.`
+	description `A small, lightly armed freighter for short-ranged shipping from an earlier and more peaceful era. These are most often seen in more secure areas of space as they lack any effective defense against pirates and do not have the range to travel far beyond their home port.`
 	
 ship "SKVS-3 Gudgeon"
 	sprite "ship/mgf gudgeon"
@@ -4459,7 +4459,7 @@ ship "SKVS-3 Gudgeon"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Slightly larger version of the Mudskipper. The Gudgeon is possibly one of the most efficient cargo vessel around but also the most defenceless and slow for the size. Though few captains reported to enjoy piloting them, they all agreed it is one of the most robust and easy to maintain.`
+	description `A slightly larger version of the Mudskipper, the Gudgeon is possibly one of the most efficient cargo vessels around, but also the most defenceless and slow for its size. Though few captains enjoy piloting them, they all agree it is one of the most robust and easy to maintain freighters they know of.`
 	
 ship "SKVS-4 Minnow"
 	sprite "ship/mgf minnow"
@@ -4509,8 +4509,8 @@ ship "SKVS-4 Minnow"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping which makes it less ideal for travelling to frontier worlds alone with the raise of piracy.`
-	description `Now that most colony are developed enough to supply their own water these ships became much rarer as their need decreases. Now only a small number remains parked in systems that have stations for occasional resupply mission.`
+	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water for themselves. The Minnow itself is slow and lightly armed, making it incapable of defending itself or escaping from any threat, which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
+	description `Now that most colonies are developed enough to make their own water, these ships have become much rarer as the need for them decreases. Now only a small number remain parked in systems that have stations for occasional resupply missions.`
 	
 ship "CWC-2 Celestine"
 	sprite "ship/mgf celestine"
@@ -4564,8 +4564,8 @@ ship "CWC-2 Celestine"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Custom built wine tanker for the Luna Winery for transporting wine in bulk and preserving them in the most perfect condition with individual thermal control system for each tank to keep the heat as stable as possible.`
-	description `Because these ships are lightly armed, they rarely wander away from relative safety of heavily patrolled Paradise Planets.`
+	description `A custom-built wine tanker for the Luna Winery made to transport wine in bulk and preserve it in the most perfect condition, with individual thermal control systems for each tank to keep the heat as stable as possible.`
+	description `Because these ships are lightly armed, they rarely wander away from the relative safety of heavily patrolled Paradise Planets.`
 	
 ship "CJC-3 Citrus"
 	plural "CJC-3 Citrus"
