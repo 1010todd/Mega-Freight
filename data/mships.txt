@@ -4510,7 +4510,7 @@ ship "SKVS-4 Minnow"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water for themselves. The Minnow itself is slow and lightly armed, making it incapable of defending itself or escaping from any threat, which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
-	description `Now that most colonies are developed enough to make their own water, these ships have become much rarer as the need for them decreases. Now only a small number remain parked in systems that have stations for occasional resupply missions.`
+	description `	Now that most colonies are developed enough to make their own water, these ships have become much rarer as the need for them decreases. Only a small number remain parked in systems that have stations for occasional resupply missions.`
 	
 ship "CWC-2 Celestine"
 	sprite "ship/mgf celestine"
@@ -4565,7 +4565,7 @@ ship "CWC-2 Celestine"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description `A custom-built wine tanker for the Luna Winery made to transport wine in bulk and preserve it in the most perfect condition, with individual thermal control systems for each tank to keep the heat as stable as possible.`
-	description `Because these ships are lightly armed, they rarely wander away from the relative safety of heavily patrolled Paradise Planets.`
+	description `	Because these ships are lightly armed, they rarely wander away from the relative safety of heavily patrolled Paradise Planets.`
 	
 ship "CJC-3 Citrus"
 	plural "CJC-3 Citrus"
@@ -4619,7 +4619,7 @@ ship "CJC-3 Citrus"
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `Citrus-class is purpose designed and built as fruit juice tanker for the Solacer Group mainly for transporting frozen concentrated juice with minimal water content for maximum space efficiency. The concentrated juice would then be mixed with water and packaged at destionation facility to be distributed.`
+	description `The Citrus-class was purposely designed and built as a fruit juice tanker for the Solacer Group, mainly for transporting frozen concentrated juice with minimal water content and maximum space efficiency. The concentrated juice would then be mixed with water and packaged at destionation facility to be distributed.`
 	
 ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	plural "TQK-20 Qaytas"
@@ -4670,7 +4670,7 @@ ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries for the Core Food Corperation for transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading allowing overall faster turnaround. The ship lacks of large cargo loading hatches to maintain a closed system free of contaminants and instead loaded via special sealed conveyor belts built into the ship. Its' built-in bagging facility utilize the latest technology for fast and highly efficient packaging operation. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most port does not have.`
+	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries, made for the Core Food Corporation could do transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading, allowing overall faster turnaround. The ship lacks large cargo loading hatches to maintain a closed system free of contaminants and instead loads via special sealed conveyor belts built into the ship. Its' built-in bagging facilities utilize the latest technology for fast and highly efficient packaging operation. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
 
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
@@ -4724,7 +4724,7 @@ ship "QYG-30 Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A fast and well armoured freighter for medium range shipping. Preferred by some captain for greater manoeuvrability compared to Syndicate Freighter.`
+	description `A fast and well armoured freighter for medium-range shipping. Preferred by some captains for greater manoeuvrability compared to Syndicate Freighter.`
 		
 ship "QYG-60 Sandiq"
 	sprite "ship/mgf sandiq"
@@ -4779,7 +4779,7 @@ ship "QYG-60 Sandiq"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Larger and longer ranged version of QYG-30 Qazan to fill in the gap between the Qazan and heavy freighter around the Core and North area.`
+	description `A larger and longer ranged version of the QYG-30 Qazan to fill in the gap between the Qazan and heavy freighters around the Core and North area.`
 	
 ship "QYG-30r Qazan"
 	sprite "ship/mgf qazan reefer"
@@ -4834,7 +4834,7 @@ ship "QYG-30r Qazan"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Modified version of Qazan with refrigerated cargo holds to allow it to maintain the perfect temperature for carrying perishable goods over long distance without the need for individual refrigerated containers where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification the cargo space is slightly reduced but still more efficient than carrying multiple refrigerated container.`
+	description `A modified version of the Qazan with refrigerated cargo holds to allow it to maintain the perfect temperature for carrying perishable goods over long distances without the need for individual refrigerated containers, where more space is taken up for the individual cooling systems as well as cost for their maintenance. Due to the modification the cargo space is slightly reduced but still more efficient than carrying multiple refrigerated containers.`
 	
 ship "QYG-70r Tonazqi"
 	sprite "ship/mgf tonazqi"
@@ -4887,7 +4887,7 @@ ship "QYG-70r Tonazqi"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `A dedicated reefer ship for carrying and keeping perishable goods refrigerated in bulk over distance with dedicated cargo hold cooling systems as well as dedicated freezer section for storing cargo that requires even lower temperature to transport safely.`
+	description `A dedicated reefer ship for carrying and keeping perishable goods refrigerated in bulk over distance, with dedicated cargo hold cooling systems as well as a dedicated freezer section for storing cargo that requires an even lower temperature to transport safely.`
 	
 ship "LMS-43 Mullsammler"
 	sprite "ship/mgf mullsammler"
@@ -4954,7 +4954,7 @@ ship "LMS-43 Mullsammler"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `This ship was designed to collect garbage from various colonies in the days before they build their own garbage processing plant and with compactors these ships can collect several times more cargo than a regular freighter. Even after a processing plant was build on a planet these vessels are still used to collect garbage from various settlements scattered around the planet. The ship is equipped with six compactor to quickly load the garbage though practically the crew said three is more than enough for most small settlements this ship would be visiting and all compactors will only be utilized in more urban area.`
+	description `This ship was designed to collect garbage from various colonies in the days before they built their own garbage processing plants. With their compactors these ships can collect several times more cargo than a regular freighter. Even after a processing plant was built on a planet these vessels are still used to collect garbage from various settlements scattered around the planet. The ship is equipped with six compactors to quickly load the garbage, though practically the crew said three is more than enough for most small settlements this ship would be visiting and all compactors will only be utilized in more urban areas.`
 
 ship "AD-012C Iaphia"
 	sprite "ship/mgf iaphia"
@@ -5011,7 +5011,7 @@ ship "AD-012C Iaphia"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `Expensive, fast, and fancy freighter designed for captains who prefer speed. Some captain of weathier origins also prefer it because for less boxy look compared to other freighters.`
+	description `An expensive, fast, and fancy freighter designed for captains who prefer speed. Some captains of weathier origins also prefer it because of the less boxy look compared to other freighters.`
 	
 ship "AD-019A Iabayi"
 	sprite "ship/mgf iabayi"
@@ -5087,7 +5087,7 @@ ship "AD-019A Iabayi"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `Larger fancy freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distance.`
+	description `A larger fancy freighter for richer captains who might want to fly a ship with more cargo space than the Iaphia or travel longer distances.`
 	
 ship "AD-0032 Ialmuslati"
 	sprite "ship/mgf ialmuslati"
@@ -5152,9 +5152,9 @@ ship "AD-0032 Ialmuslati"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `Fast mid-sized transport offered by Najrmalas Shipworks seeing the few competitor. The Ialmuslati while expensive it offers more speed as well as business-class suite for better-paying customers.`
-	
-	#req|round10(bnk)|0
+	description `A fast mid-sized transport offered by Najrmalas Shipworks when they saw the few competitors in that field. The Ialmuslati, while expensive, offers more speed, as well as a business-class suite for better-paying customers.`
+
+#req|round10(bnk)|0
 ship "TS-650 Herrenbal"
 	sprite "ship/mgf herrenbal"
 	thumbnail "thumbnail/mgf herrenbal thumb"
@@ -5221,7 +5221,7 @@ ship "TS-650 Herrenbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `A mid-sized transport to fill in the gap between Blackbird and Star Queen as well as serving as economy-class transport.`
+	description `A mid-sized transport to fill in the gap between Blackbird and Star Queen, as well as serving as an economy-class transport.`
 	
 ship "TS-CH0 Kratzbal"
 	sprite "ship/mgf kratzbal"
@@ -5311,7 +5311,7 @@ ship "TS-CH0 Kratzbal"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Fast and well-armed transport for hauling large amount of people across distance as non-luxury alternative to the Star Queen.`
+	description `A fast and well-armed transport for hauling large amounts of people across huge distances, as a non-luxury alternative to the Star Queen.`
 	
 ship "TS-1L260 Mieusbar"
 	sprite "ship/mgf mieusbar"
@@ -5429,7 +5429,7 @@ ship "TS-1L260 Mieusbar"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Huge transport for mass transportation across vast distance. The development was partially sponsored by some of the southern worlds to provide means of cheap transportation for migrating workers and low-budget tourists specifically coming to the South and Rim.`
+	description `A huge transport for mass transportation across vast distances. The development was partially sponsored by some of the southern worlds, to provide easy means of cheap transportation for migrating workers and low-budget tourists specifically coming to the South and the Rim.`
 	
 	
 ship "AsK12-6 Celjurai"
@@ -5496,7 +5496,7 @@ ship "AsK12-6 Celjurai"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `Luxury sight-seeing transport offering larger view area for more people allowing transport companies to offer more exclusive seats.`
+	description `A luxury sight-seeing transport, offering larger view areas for more people, allowing transport companies to offer more exclusive seats.`
 
 ship "S-PT06 Harukaze"
 	sprite "ship/mgf harukaze"
@@ -5542,7 +5542,7 @@ ship "S-PT06 Harukaze"
 	explode "small explosion" 20
 	explode "mgf explosion spark" 30
 	"final explode" "final explosion small"
-	description "MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle also with improved protection as well as utilizing turret mount instead of fixed guns allowing it to defend itself while maneuvering out of harms way. The interior is also considered to be a bit fancier than most other transport but still not enough to attract wealthy passengers."
+	description "The MJK Heavy Industries Harukaze was developed as a faster alternative to the Betelguese Heavy Shuttle, also with improved protection as well as utilizing turret mounta instead of fixed guns, allowing it to defend itself while maneuvering out of harm's way. The interior is also considered to be a bit fancier than most other transports, but not quite fancy enough to attract more wealthy passengers."
 
 ship "CDB-6K Jupiter"
 	sprite "ship/mgf jupiter"
@@ -5625,7 +5625,7 @@ ship "CDB-6K Jupiter"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A dry bulk carrier geared with derricks for unloading cargo in less-equipped ports in the earlier days of bulk interstellar trade. Unlike container ships these bulk carriers can be loaded with unpacked dry cargoes like ores and grain directly in their cargo bays and lessen the need for the cargo to be packaged from the destination."
+	description "A dry bulk carrier geared with derricks for unloading cargo in less-equipped ports, in the earlier days of bulk interstellar trade. Unlike container ships, these bulk carriers can be loaded with unpacked dry cargoes like ores and grain directly in their cargo bays, lessening the need for the cargo to be packaged from the destination."
 
 ship "CDB-12K Saturn"
 	sprite "ship/mgf saturn"
@@ -5719,9 +5719,9 @@ ship "CDB-12K Saturn"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A class of even larger dry bulk carrier than the Jupiter as exports and demand grew. Though due to lack of unloading gears it can only operate at more equipped ports. In addition to its' bulk bays it can also carry significant amount of container allowing captains to earn additonal profit."
+	description "A class of even larger dry bulk carriers than the Jupiter as exports and demand grew. Unfortunately, due to the lack of unloading gears, it can only operate at more specially-equipped ports. In addition to its' bulk bays it can also carry significant amount of containers, allowing captains to earn additional profit."
 	
-	#Freighter Powder
+#Freighter Powder
 ship "FPd45 Clinker"
 	sprite "ship/mgf clinker"
 	thumbnail "thumbnail/mgf clinker thumb"
@@ -5777,10 +5777,10 @@ ship "FPd45 Clinker"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A hatchless self-unloading cargo ship specialized for carrying and handling powdered cargoes like cement. Because of the specially designed cargo holds and loading and unloading systems for granulated cargo it cannot be used to transport any other kind of cargo."
-	description `The Clinker was built in response to growing demand for cement as small colonies grew into cities, though this model requires port-side facilities to properly unload directly to vehicles and will often only travel between ports with proper equipment.`
+	description "A hatchless self-unloading cargo ship specialized for carrying and handling powdered cargoes like cement. Because of the specially designed cargo holds and loading and unloading systems for granulated cargo, it cannot be used to transport any other kind of cargo."
+	description `	The Clinker was built in response to the growing demand for cement as small colonies grew into cities, though this model requires port-side facilities to properly unload directly to vehicles and will often only travel between ports with proper equipment.`
 	
-	#Freighter Aggregate
+# Freighter Aggregate
 ship "FAd36 Flint"
 	sprite "ship/mgf flint"
 	thumbnail "thumbnail/mgf flint thumb"
@@ -5835,10 +5835,10 @@ ship "FAd36 Flint"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Flint-class is purpose built bulk freighter for carrying aggregates. It is equipped with conveyor belt for loading and unloading to allow the vessel to operate independent of port equipment increasing the number of ports it can visit. As per requirement of some cargo the cargo hold of this ship is also equipped with moisture control system to maintain the most ideal condition for its cargo."
+	description "The Flint-class is a purpose-built bulk freighter for carrying aggregates. It is equipped with conveyor belts for loading and unloading to allow the vessel to operate independently of port equipment, increasing the number of ports it can visit. As per requirement of some cargo the cargo hold of this ship is also equipped with moisture control system to maintain the most ideal condition for its cargo."
 
-	#Note: Gebrant is not getting "fast unload" attr because it's already super cheap (if not too cheap).
-	#Freighter Universal <> <model num> <pod variant>
+# Note: Gebrant is not getting "fast unload" attr because it's already super cheap (if not too cheap).
+# Freighter Universal <> <model num> <pod variant>
 ship "FUe02a Gebrant"
 	sprite "ship/mgf gebrant i"
 	thumbnail "thumbnail/mgf gebrant i thumb"
@@ -5887,7 +5887,7 @@ ship "FUe02a Gebrant"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A general heavy freight pusher introduced before the forming of the Republic. Designed to clamp or deploy cargo containers in orbit where transporting it to the ground is handled by a tug, though with recent advancements basically all modern containers are equipped with their own landing gear allow the ship to detach the container at the port by self. Though not super popular like the Haulers it's still preferred by several captains for its versatility of being to able to quickly latch onto multiple type of cargo pods allow them to quickly adapt to whatever market demands."
+	description "A general heavy freight pusher introduced before the forming of the Republic. Designed to clamp or deploy cargo containers in orbit where transporting it to the ground is handled by a tug, though with recent advancements basically all modern containers are equipped with their own landing gear to allow the ship to detach the container at the port by itself. Though not super popular like the Haulers, it is still preferred by several captains for its versatility of being to able to quickly latch onto multiple types of cargo pods allow them to quickly adapt to whatever the market demands."
 	
 ship "FUe04a Gebrant II"
 	sprite "ship/mgf gebrant ii"
@@ -5937,7 +5937,7 @@ ship "FUe04a Gebrant II"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Gebrant with two cargo containers attached."
+	description "A Gebrant with two cargo containers attached."
 
 ship "FUe06a Gebrant III"
 	sprite "ship/mgf gebrant iii"
@@ -5986,9 +5986,9 @@ ship "FUe06a Gebrant III"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Three is generally considered the maximum this container model could be safely stacked without risk of snapping during turns. Though one of the cheapest and most efficient freighter around it's far less viable today as pirates can easily overwhelm the very lightly armed freighter forcing it to either operate within the safe area or with heavily armed escort."
+	description "Three containers is generally considered the maximum this container model can be safely stacked without risk of snapping during turns. Though one of the cheapest and most efficient freighters around, it's far less viable today, as pirates can easily overwhelm the very lightly-armed freighter forcing it to either operate within the safe area or with heavily armed escorts."
 
-	#Small Radioactive Carrier
+# Small Radioactive Carrier
 ship "SRC-41C Curie"
 	sprite "ship/mgf curie"
 	thumbnail "thumbnail/mgf curie thumb"
@@ -6065,10 +6065,10 @@ ship "SRC-41C Curie"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sort of radioactive cargo like fresh nuclear fuel, spent nuclear fuel, and radioactive waste. With multiple redundancies for all critical systems from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo is intact. Though the bridge is visible it is reinforced with additional armour it is mainly only used for landing and on-ground operations like unloading the cargo, the ship's primary control room buried deep inside the ship also with another layer of armour around it, not unlike what one would've expected from a warship. With the requirement to keep the cargo cool all the time the ship is also built-in with dedicated cooling system for the cargo hold which is isolated from cooling system for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with their own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
-	description `Another part of the ship's safety includes crews trained to handle radioactive cargo as well as responding to various forseeable incidents from collision, fire, to pirates boarding, in the most unlikely case that it occurs. In addition to that the ship is also equipped for in-flight repairs allowing the ship to perform rudimentary repair on itself if damaged though there's a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
+	description `The Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sorts of radioactive cargo, like fresh nuclear fuel, spent nuclear fuel, and radioactive waste, with multiple redundancies for all critical systems, from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo intact. Though the bridge is visible, it is reinforced with additional armour and is mainly only used for landing and on-ground operations like unloading the cargo, with the ship's primary control room buried deep inside the ship, with another layer of armour around it, not unlike what one would have expected from a warship. With the requirement to keep the cargo cool all the time the ship also has a built-in dedicated cooling system for the cargo hold, which is isolated from the cooling systems for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with its own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
+	description `	Another part of the ship's safety includes crews specially trained to handle radioactive cargo as well as responding to various foreseeable incidents, from collision, fire, and pirates boarding, in the most unlikely case that it occurs. In addition to that, the ship is also equipped for in-flight repairs, allowing the ship to perform rudimentary repairs on itself if damaged, though there is a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these facts the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
 
-		#DSSN-[cateprefix][catalogNum] Rynchops->KR
+# DSSN-[cateprefix][catalogNum] Rynchops->KR
 ship `DSSN-S90 Lynchyoseu`
 	sprite "ship/mgf lynchyoseu"
 	thumbnail "thumbnail/mgf lynchyoseu thumb"
@@ -6134,7 +6134,7 @@ ship `DSSN-S90 Lynchyoseu`
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `DSSE Shipbuilding specialized fishing and fish processing vessel built to operate both in sea and space. It utilized a uniquely engineered multi-mode engine that can operate efficiently on both in sea, air, and vacuum.`
+	description `This is the DSSE Shipbuilding specialized fishing and fish processing vessel built to operate both in sea and space. It utilized a uniquely engineered multi-mode engine that can operate efficiently on both in sea, air, and vacuum.`
 	description `Unlike regular trawlers this vessel can use its repulsor engines to lift itself just above the water significantly increasing speed for the vessel allowing it to catch fish faster as well as being able to catch some faster exotic fishes called by some sailors "skimming". Due to these maneuvers the net was also designed to resist such speed and force as well as allowing it to hold much more fish than standard trawler nets. After which the captured fish can be quickly pulled inside the ship to be processed into fillet, block, canned or other forms as required before being sent to the frozen cargo holds to keep it from spoiling. Its ability to travel at higher speed in air also means the ship could travel between fishing spots far faster than standard water-bound fishing vessels though this is less often done as the extra strain means more maintenance later on which can be uneconomical if done too often. Another unique option for these vessels is allowing it to be very opportunistic in stormy worlds where they can quickly snatch up rare marine animals unique to that world during a small window of calm sea and bail out at the last minute before the heavy storm and high wave hit them.`
 	description `Its space capability is also often utilized by owner of these vessel to rapidly move them around between worlds as market demand shift and new specie of edible fishes were discovered or between known types due to random influences. In addition to solo operations these ships also have option of serving as mothership carry two additional ships to assist the operation on longer expeditions for more continuous supply of fish while processed products are offloaded to another reefer ship where the product is delivered to the port.`
 	description `Because of its adaptability and high efficiency these vessels are almost universally hated by local fishermens especially among worlds whose main export is marine products, to the point some worlds are considering to ban or greatly restrict usage of these ships.`
