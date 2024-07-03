@@ -6134,10 +6134,10 @@ ship `DSSN-S90 Lynchyoseu`
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `This is the DSSE Shipbuilding specialized fishing and fish processing vessel built to operate both in sea and space. It utilized a uniquely engineered multi-mode engine that can operate efficiently on both in sea, air, and vacuum.`
-	description `Unlike regular trawlers this vessel can use its repulsor engines to lift itself just above the water significantly increasing speed for the vessel allowing it to catch fish faster as well as being able to catch some faster exotic fishes called by some sailors "skimming". Due to these maneuvers the net was also designed to resist such speed and force as well as allowing it to hold much more fish than standard trawler nets. After which the captured fish can be quickly pulled inside the ship to be processed into fillet, block, canned or other forms as required before being sent to the frozen cargo holds to keep it from spoiling. Its ability to travel at higher speed in air also means the ship could travel between fishing spots far faster than standard water-bound fishing vessels though this is less often done as the extra strain means more maintenance later on which can be uneconomical if done too often. Another unique option for these vessels is allowing it to be very opportunistic in stormy worlds where they can quickly snatch up rare marine animals unique to that world during a small window of calm sea and bail out at the last minute before the heavy storm and high wave hit them.`
-	description `Its space capability is also often utilized by owner of these vessel to rapidly move them around between worlds as market demand shift and new specie of edible fishes were discovered or between known types due to random influences. In addition to solo operations these ships also have option of serving as mothership carry two additional ships to assist the operation on longer expeditions for more continuous supply of fish while processed products are offloaded to another reefer ship where the product is delivered to the port.`
-	description `Because of its adaptability and high efficiency these vessels are almost universally hated by local fishermens especially among worlds whose main export is marine products, to the point some worlds are considering to ban or greatly restrict usage of these ships.`
+	description `This is the DSSE Shipbuilding specialized fishing and fish processing vessel built to operate in both sea and space. It utilizes a uniquely engineered multi-mode engine that can operate efficiently both in sea, air, and vacuum.`
+	description `	Unlike regular trawlers, this vessel can use its repulsor engines to lift itself just above the water, significantly increasing speed for the vessel, which allows it to catch fish faster as well as being able to catch some faster exotic fishes with a method called by some sailors "skimming". Due to these maneuvers the net is also designed to resist such speed and force as well as allowing it to hold many more fish than standard trawler nets. The captured fish can be quickly pulled inside the ship to be processed into fillet, block, canned or other forms as required before being sent to the frozen cargo holds to keep it from spoiling. Its ability to travel at higher speed in air also means the ship can travel between fishing spots far faster than standard water-bound fishing vessels, though this is done less often, as the extra strain means more maintenance later on, which can be uneconomical if done too often. Another unique option for these vessels is that it can be very opportunistic in stormy worlds where they can quickly snatch up rare marine animals unique to that world during a small window of calm sea and bail out at the last minute before the heavy storms and high waves hit them.`
+	description `	Its space capability is also often utilized by owners of these vessels to rapidly move them around between worlds, as market demand shifts and new species of edible fish are discovered or between known types due to random influences. In addition to solo operations, these ships also have option of serving as mothership and carring two additional ships to assist the operation on longer expeditions for a more continuous supply of fish, while processed products are offloaded to another reefer ship whence the product is delivered to the port.`
+	description `	Because of its adaptability and high efficiency, these vessels are almost universally hated by local fishermen, especially among worlds whose main export is marine products, to the point some worlds are considering the possibility of banning or greatly restricting the usage of these ships.`
 
 ship `DSSN-C40 Dulumi`
 	sprite "ship/mgf dulumi"
@@ -6195,7 +6195,7 @@ ship `DSSN-C40 Dulumi`
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Dulumi is a purpose-built boat and yacht carrier with single large bay that can hold most yacht except for the largest of luxury yacht. The ship is designed to park in the water where its cargo can float in and out with ease along with automatic adaptive support system to hold the boats up as the water is drained. It also have fancy passenger accomodation to serve as mini cruise liner while transporting owner and crew of these yacht as well as other passenger heading the same way.`
+	description `The Dulumi is a purpose-built boat and yacht carrier with a single large bay that can hold most yachts except for the largest of luxury yachts. The ship is designed to park in the water where its cargo can float in and out with ease along with an automatic adaptive support system to hold the boats up as the water is drained. It also has fancy passenger accomodations to serve as mini cruise liner while transporting the owner and crew of these yachts as well as other passenger heading the same way.`
 
 ship "G-Class Container Transport"
 	sprite "ship/mgf gclass container transport"
@@ -6273,8 +6273,8 @@ ship "G-Class Container Transport"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `To compete with the newer, more modern heavy freighters dominating the market the Syndicate stacked their Container Transport into a huge Heavy Container Transport tripling capacity but also slowing it down even further from its already despised slug-pace. Though with barely any additional crew requirement from its predecessor the G-Class Container Transport cargo-to-crew ratio is absolutely unmatched.`
-	description `Though still not the most capacious in the area, it can carry a pair of drones to either defend itself with or assist during unloading operation in less-equipped ports.`
+	description `To compete with the newer, more modern heavy freighters dominating the market, the Syndicate stacked their Container Transport into a huge Heavy Container Transport, tripling capacity but also slowing it down even further from its already despised slug-pace. With barely any additional crew requirement from its predecessor, the G-Class Container Transport cargo-to-crew ratio is absolutely unmatched.`
+	description `	Though still not the most capacious in the area, it can carry a pair of drones to either defend itself with or assist during unloading operations in worse-equipped ports.`
 
 ship "H-Class Super Container Ship"
 	sprite "ship/mgf syn hclass super container"
@@ -6599,7 +6599,7 @@ ship "H-Class Super Container Ship"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This massive super container ship is the next step in Syndicate's attempt to regain dominance over heavy freighter market with over double the capacity of the previous largest freighter. Similarly to its predecessor, the G-Class Container Transport, it carried a fleet of drones to assist in unloading as well as allowing it to unload at smaller spaceport that may not be able to handle its size by simply parking in orbit and transport containers to surface with the ship's own drones and tugboats from the port instead. This allow the ship to visit most if not all ports without worrying about landing area or unloading gears delivering both large and small amount of cargo to various destination.`
+	description `This massive super container ship is the next step in the Syndicate's attempt to regain dominance over the heavy freighter market, with over double the capacity of the previous largest freighter. Similarly to its predecessor, the G-Class Container Transport, it carries a fleet of drones to assist in unloading, as well as allowing it to unload at smaller spaceports that may not be able to handle its size, by simply parking in orbit and transporting containers to surface with the ship's own drones and tugboats from the port instead. This allows the ship to visit most if not all ports without worrying about landing area or unloading gears delivering both large and small amount of cargo to various destination.`
 
 ship "UA-10 Porter"
 	sprite "ship/mgf porter"
@@ -6636,7 +6636,7 @@ ship "UA-10 Porter"
 	engine -11.5 -3.5 
 	engine 11.5 -3.5 
 	explode "tiny explosion" 15
-	description `The Porter is a small drone for assisting in cargo unloading operation of the Syndicate new freighter the G-Class, it is especially useful on less equipped worlds. The drone also comes with an anti-missile turret to assist in defense as merchant captains often deploy their all their fighters and drones in combat, even if those ships would be useless in a fight.`
+	description `The Porter is a small drone for assisting in the cargo unloading operation of the Syndicate new freighter the G-Class. It is especially useful on less equipped worlds. The drone also comes with an anti-missile turret to assist in defense as merchant captains often deploy all their fighters and drones in combat, even if those ships would be useless in a fight.`
 
 ship "J-Class Container Feeder"
 	sprite "ship/mgf syn jclass"
@@ -6714,8 +6714,8 @@ ship "J-Class Container Feeder"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A compact freighter designed to be carried and assist the K-Class unload its containers. Purpose-built to quickly latch on to entire block of Syndicate containers, it can rapidly transport up to 64 containers between the mothership and the spaceport at a time permitting unmatched unloading rate on the market.`
-	description `With attachment plate capable of being raised and lowered, it is also capable of carrying general cargo for short-distance haul. Though, due to entire lack of armament it is rarely seen flying between systems.`
+	description `A compact freighter designed to be carried and assist the K-Class unload its containers. Purpose-built to quickly latch on to entire block of Syndicate containers, it can rapidly transport up to 64 containers between the mothership and the spaceport at a time, permitting an unmatched unloading rate on the market.`
+	description `	With an attachment plate capable of being raised and lowered, it is also capable of carrying general cargo for short-distance hauls. However, due to the entire lack of armament it is rarely seen flying between systems.`
 
 ship "K-Class Ultra Container Ship"
 	sprite "ship/mgf syn kclass ultra container"
@@ -7172,7 +7172,7 @@ ship "K-Class Ultra Container Ship"
 	engine -103.5 1504 
 		over
 
-	description `This is the Syndicate take on superheavy freighter capable of carrying over a hundred times more than a regular Container Transport and three times more than its competitor. Due to its design the ship cannot land without a dedicated gear to accept them and is intended to stay in orbit instead while a fleet of transfer ship carried with it unload the cargo in bulk. Due to the size of its bay it can even carry heavy warships along side to protect itself.`
+	description `This is the Syndicate take on a superheavy freighter, capable of carrying over a hundred times more than a regular Container Transport and three times more than any of its competitors. Due to its design, the ship cannot land without dedicated gear to accept it and is intended to stay in orbit instead, while a fleet of transfer ships carried with it unload the cargo in bulk. Due to the size of its bays it can even carry heavy warships alongside to protect itself.`
 
 ship "SV80-n Catirfel"
 	sprite "ship/mgf catirfel"
@@ -7241,7 +7241,7 @@ ship "SV80-n Catirfel"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Catirfel first were built to statisfy a specific requirement for a shipping company before being mass produced and sold on public market. It offered overall improvement over the standard Syndicate Bulk Freighter. Each cargo pod can carry both regular break-bulk cargo and dry bulk cargo while also being detachable allowing more flexibility and faster port time. The ship also features a crane for assisting unloading operation on less equipped port, which can be retracted and hidden inside the hull to protect it from in-flight damage.`
+	description `Catirfels were first built to satisfy a specific requirement for a shipping company before being mass produced and sold on public market. It offered an overall improvement over the standard Syndicate Bulk Freighter. Each cargo pod can carry both regular break-bulk cargo and dry bulk cargo while also being detachable, allowing more flexibility and faster port time. The ship also features a crane for assisting unloading operations in less equipped ports, which can be retracted and hidden inside the hull to protect it from in-flight damage.`
 
 ship "SV40-n Navilel"
 	sprite "ship/mgf navilel"
@@ -7340,7 +7340,7 @@ ship "SV40-n Navilel"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A slightly bigger version of the Catirfel with all cargo pods arranged on the same side for ease of access and unloading at some port. The ship is also equipped with large array of missile launchers to deter pirates which are becoming stronger as time progress.`
+	description `A slightly bigger version of the Catirfel with all cargo pods arranged on the same side, for ease of access and unloading at port. The ship is also equipped with a large array of missile launchers to deter pirates, who are becoming stronger as time progress.`
 
 ship "TMS-64 Kernstoff"
 	sprite "ship/mgf kernstoff"
@@ -7415,8 +7415,8 @@ ship "TMS-64 Kernstoff"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion medium"
-	description `Purpose-built tritium carrier with special equipment to maintain stability of the tritium over some distance as well as multiple layers of protection to keep its cargo safe. Often used to deliver supplies to reactors or carry waste products from such reactors. Similarily to other vessel dedicated to carrying highly radioactive cargo it is built to the highest standard with multiple redundancies and reinforcement for every critical systems allowing the ship to survive and function while sustaining damage that would've disabled other ships of similar size.`
-	description `Unlike the Curie-class built by the Syndicate which heavily relies on escort to ward of pirates this ship is relatively heavily armed to allow it to defend itself to a degree but in most case still travel with escort to ensure security.`
+	description `A purpose-built tritium carrier with special equipment to maintain stability of the tritium over some distance, as well as multiple layers of protection to keep its cargo safe. Often used to deliver supplies to reactors or carry waste products from such reactors. Similarly to other vessels dedicated to carrying highly radioactive cargo, it is built to the highest standard with multiple redundancies and reinforcement for every critical systems allowing the ship to survive and function while sustaining damage that would've disabled other ships of similar size.`
+	description `	Unlike the Curie-class built by the Syndicate, which heavily relies on escort to ward off pirates this ship is relatively heavily armed to allow it to defend itself to a degree, but in most case still travels with escorts to ensure security.`
 
 ship "EMS-28 Niessbarkurier"
 	sprite "ship/mgf niessbarkurier"
@@ -7477,7 +7477,7 @@ ship "EMS-28 Niessbarkurier"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A specialized chemical tanker for carrying edible liquid with food grade tanks and pumps each individually equipped with dedicated refrigeration system. Unlike other tankers with minimal armament, this ship comes with enough turret mounts to rival even warships to deter pirates who seems to took interest in raiding and capturing these vessels.`
+	description `A specialized chemical tanker for carrying edible liquid with food grade tanks and pumps each individually equipped with dedicated refrigeration system. Unlike other tankers with minimal armament, this ship comes with enough turret mounts to rival even warships and deter pirates who seem to take interest in raiding and capturing these vessels.`
 
 ship "Typ115 Qiongsha"
 	sprite "ship/mgf ccs qiongsha"
@@ -7523,8 +7523,8 @@ ship "Typ115 Qiongsha"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description `CCS Corp. entry for budget freighter market. A small step up from the Syndicate Star Barge, the Qiongsha offers almost double the cargo capacity as well as benefits of containerized cargo. The Qiongsha is an ideal ship for a captain looking for something with more capacity than a Star Barge but without the money to buy a Freighter.`
-	description `	With the low cost and high capacity the price is paid elsewhere. The container carrier is designed to the barest minimum required to fly and meet safety standard. It's said to be even more difficult to fly and land than the Syndicate Freighter by some captains due to location of the cockpit and cheap sensors. Minimal durability and defense while carrying more cargo also make it an even more attractive target for pirates, so much so that many insurance companies refuses to cover it outside specific safe zone.`
+	description `The CCS Corp. entry for budget freighter market. A small step up from the Syndicate Star Barge, the Qiongsha offers almost double the cargo capacity as well as all the benefits of containerized cargo. The Qiongsha is an ideal ship for a captain looking for something with more capacity than a Star Barge but without the money to buy a Freighter.`
+	description `	With the low cost and high capacity the price is paid elsewhere. The container carrier is designed to the barest minimum required to fly and meet safety standards. It's said to be even more difficult to fly and land than the Syndicate Freighter by some captains, due to location of the cockpit and cheap sensors. Minimal durability and defense while carrying more cargo also make it an even more attractive target for pirates, so much so that many insurance companies refuse to cover it outside specific safe zones.`
 
 ship "Typ124 Lianyungang"
 	sprite "ship/mgf ccs lianyungang"
@@ -7622,7 +7622,7 @@ ship "Typ124 Lianyungang"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `Latest heavy freighter from CCS Corp designed to be a solution to modern shipping. With increasing demand and raise of piracy the Lianyungang is an armoured freighter designed to handle both by being very heavily armoured to protect its cargo but also also rotate the cargo outward for unloading to provide fast and easy access to the containers unlike other armoured freighters which have to sacrifice either convienience or capacity for protection. `
+	description `The latest heavy freighter from CCS Corp. designed to be a solution to modern shipping. With the increasing demand and the raise of piracy, the Lianyungang is an armoured freighter designed to handle both by being very heavily armoured to protect its cargo but also able rotate the cargo outward for unloading to provide fast and easy access to the containers, unlike other armoured freighters which have to sacrifice either convienience or capacity for protection.`
 
 ship "Behemoth" "Behemoth (ICS)"
 	sprite "ship/mgf ics behemoth"
@@ -7686,7 +7686,7 @@ ship "Behemoth" "Behemoth (ICS)"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This Behemoth has been extensively modified for use by ICS. Other than slightly expanded cargo holds this variant have bays for carrying courier drones. This allows faster deliverly of packages to multiple location.`
+	description `This Behemoth has been extensively modified for use by ICS. Other than slightly expanded cargo holds this variant has bays for holding courier drones. This allows faster delivery of packages to multiple location.`
 
 ship "UDV-1 Packet"
 	sprite "ship/mgf ics packet"
@@ -7800,7 +7800,7 @@ ship "AKH-8 Mlitgante"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This is a compact tow ship developed and used by the crews of Ankulah station to tow in wreckage from around the system and other system nearby. With over half of its mass dedicated to engine area it can be packed with very powerful engines and pull even the largest wreckages around and do so economically."
+	description "This is a compact tow ship developed and used by the crews of Ankulah station to tow in wreckage from around the system and other systems nearby. With over half of its mass dedicated to engine area, it can be packed with very powerful engines and pull even the largest wreckages around and do so economically."
 
 ship "BTT06 Shuttle Wreckage"
 	sprite "ship/pirate scrapper" #placeholder
@@ -8023,7 +8023,7 @@ ship "AFFR-3 Fylla"
 		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `Old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`
+	description `An old refuelling fighter design from earlier days of space travel, often carried by the largest ships or a fleet tanker to refuel other ships in the fleet.`
 
 ship "CK10C Liathtar"
 	sprite "ship/mgf liathtar"
@@ -8066,7 +8066,7 @@ ship "CK10C Liathtar"
 	engine 17.5 49.5 
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `Inspired by Syndicate G-Class and its companion Porter drone the MarStel shipyard developed a new fighter to assist with its freighter when unloading cargo, specifically its carrier variant of Tlielart-class.`
+	description `Inspired by Syndicate G-Class and its companion Porter drone, the MarStel shipyard developed a new fighter to assist its freighter when unloading cargo, specifically its carrier variant of Tlielart-class.`
 
 ship "EP-2 Marmot"
 	sprite "ship/mgf epn marmot"
@@ -8113,7 +8113,7 @@ ship "EP-2 Marmot"
 		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `Piloted mining fighter developed and used by Espion Mining Co. Due to their specialized nature these fighters comes with built-in asteroid scanner.`
+	description `A piloted mining fighter developed and used by Espion Mining Co. Due to their specialized nature these fighters come with built-in asteroid scanners.`
 	
 ship "EP-1 Mole"
 	sprite "ship/mgf epn mole"
@@ -8158,7 +8158,7 @@ ship "EP-1 Mole"
 		under
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `Automated mining drone developed and used by Espion Mining Co. Due to their specialized nature these drones comes with built-in asteroid scanner.`
+	description `An automated mining drone developed and used by Espion Mining Co. Due to their specialized nature these drones come with built-in asteroid scanners.`
 
 ship "EP-3 Rat"
 	sprite "ship/mgf epn rat"
@@ -8204,7 +8204,7 @@ ship "EP-3 Rat"
 	explode "tiny explosion" 18
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description `Espion Mining co. compact gunship to be carried by their larger carriers for guarding the mining fleets while they are away from the mothership.`
+	description `The Espion Mining Co. compact gunship to be carried by their larger carriers for guarding the mining fleets while they are away from the mothership.`
 
 ship "EP-3 Rat" "EP-3 Rat (Sniper)"
 	outfits
@@ -8290,7 +8290,7 @@ ship "AYS-17 Proetida"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "Not long after the development of Geocoris the Hai find their freighters outmatched again with the arrival of a new human fleet with even larger freighters forcing them to develop a newer, and even bigger ship to match. While not being able to match the largest of human freighters yet due to their shipyard being highly optimized for smaller ships and this being the largest design they've made for a long time, the Proetida is able to carry more than most human freighters and significantly more than the Geocoris thanks to redesigned cargo pod and spacious internal area. For that it fits in to the gap between larger human freighters like Bluewhale and Conveyor."
+	description "Not long after the development of the Geocoris the Hai found their freighters outmatched again with the arrival of a new human fleet that has even larger freighters, forcing them to develop a newer and even bigger ship to match. While not being able to match the largest of human freighters yet due to their shipyard being highly optimized for smaller ships and this being the largest design they've made for a long time, the Proetida is able to carry more than most human freighters and significantly more than the Geocoris thanks to redesigned cargo pods and spacious internal areas. For that it fits into the gap between larger human freighters like Bluewhale and Conveyor."
 
 ship "AYS-19 Peytoia"
 	sprite "ship/mgf hai peytoia"
@@ -8472,7 +8472,7 @@ ship "AYS-19 Peytoia"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "With the recent development of new Unfettered ships and deployment of Pond Strider and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying the drones to defend itself when flying past risky area."
+	description "With the recent development of new Unfettered ships and the deployment of the Pond Strider and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying drones to defend itself when flying past risky areas."
 
 ship "Type-13 Sea Strait"
 	sprite "ship/mgf wanderer sea strait"
@@ -8565,4 +8565,4 @@ ship "Type-13 Sea Strait"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A large Wanderer freighter iterated from the Deep River using the same style of cargo pod and arrangement but twice doubling the capacity while also more well armed than Deep River to protect itself during evacuation though still not really enough to operate alone.`
+	description `A large Wanderer freighter iterated from the Deep River using the same style of cargo pod and arrangement but twice doubling the capacity, also being more well armed than Deep River to protect itself during evacuation, though it is still not really enough to operate alone.`
