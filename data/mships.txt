@@ -2063,7 +2063,7 @@ ship "FG-8 Shipment"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `This is the smallest and cheapest cargo ship currently made by Freight Galactic. Though not as well armed as their typical product, it can carry decent amount of cargo for the size. The ship is also installed with equipment to independently and rapidly unload its container for faster operation at port.`
+	description `The smallest and cheapest cargo ship currently made by Freight Galactic. Though not as well armed as their typical product, it can carry decent amount of cargo for the size. The ship is also installed with equipment to independently and rapidly unload its container for faster operation at port.`
 
 ship "FG-11 Starcarrier"
 	sprite "ship/mgf starcarrier"
