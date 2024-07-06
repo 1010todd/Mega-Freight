@@ -434,7 +434,7 @@ ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	explode "small explosion" 15
 	"final explode" "final explosion small"
 	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
-	description `	[Carries: 1 Fighter.]`
+	description `	[Carries: 1 Fighter]`
 
 ship "CY-10 Dragonfly" "CY-10 (Drone)"
 	gun -14 -75.5
@@ -596,7 +596,7 @@ ship "CH-6 Carrack"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Carrack is an old heavy freighter for long range shipping, dating back to early days of the Republic. It has enough bays for a small complement of fighters, to assist with landing and other tasks, back in the days. In more recent times these bays often carry combat fighters to help defend the ship."
+	description "Carrack is an old heavy freighter for long range shipping, dating back to early days of the Republic. It has enough bays for a small complement of fighters, to assist with landing and other tasks, back in the days. In more recent times these bays often carry combat fighters to help defend the ship."
 	
 ship "CH-6 Carrack" "CH-6 Carrack (NBSL)"
 	sprite "ship/mgf nbsl carrack"
@@ -842,7 +842,7 @@ ship "RF-03 Gerlache"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "An old fleet tanker ship dating from early days of space exploration where hyperdrives were much more inefficient and inhabited planets were few, this came with bays for smaller fuel distribution ships, allowing fuel to be distributed among the fleet faster. It also comes with a built-in ramscoop to slowly produce fuel as it travels. Very few are seen now as the galaxy becomes more inhabited."
+	description "An old fleet tanker ship dating from early days of space exploration where hyperdrives were much more inefficient and inhabited planets were few, this came with bays for smaller fuel distribution ships, allowing fuel to be distributed among the fleet faster. It also comes with a built-in ramscoop to slowly produce fuel as it travels. Very few are seen nowadays as the galaxy becomes more inhabited."
 	
 ship "LGC-3 Mesa"
 	sprite "ship/mgf mesa"
@@ -979,7 +979,7 @@ ship "LXC-2 Strata"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This is a purpose-built chemical tanker for shipping various industrial chemicals, including highly corrosive acids, with efficiency unmatched by regular freighters. Due to their specialized nature these ships are also rarer and most often found in route between industrial planets or close by. With the difficulty of efficiently maintaining transported chemicals combined with requiring special ports to unload the stored liquid, these vessels are less preferred targets for pirates. While not useful in general shipping between most worlds, these ships profit of their extreme specialization to take on fewer but much more profitable jobs which are only offered on industrialized worlds.`
+	description `This is a purpose-built chemical tanker for shipping various industrial chemicals, including highly corrosive acids, with efficiency unmatched by regular freighters. Due to their specialized nature these ships are also rarer and most often found in route between industrial planets or close by. With the difficulty of efficiently maintaining transported chemicals combined with requiring special ports to unload the stored liquid, these vessels are less preferred target for pirates. While not useful in general shipping between most worlds, these ships profit of their extreme specialization to take on fewer but much more profitable jobs which are only offered on industrialized worlds.`
 
 ship "LVC-2 Sandura"
 	sprite "ship/mgf sandura"
@@ -1043,8 +1043,8 @@ ship "LVC-2 Sandura"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A specialized roll-on roll-off ship for efficiently transporting land vehicles in large numbers, by having an interior laid out akin to parking lot, allowing vehicles to be driven on and off the ship by themselves fast and easily without having to wait for cranes. Because the interior is essentially a large empty space, other cargo can also be stored, allowing it to be more flexible than other specialized ships like tankers.`
-	description `	Because of the highly valuable cargo and relative lack of defences these ships rely heavily on escorts to protect them.`
+	description `A specialized roll-on roll-off ship for efficiently transporting land vehicles in large number, by having the interior laid out akin to parking lot, allowing vehicles to be driven on and off the ship by itself fast and easily without having to wait for cranes. Because the interior is essentially a large empty space, other cargo can also be stored, allowing it to be more flexible than other specialized ships like tankers.`
+	description `	Because of the highly valuable cargo and relative lack of defences these ships rely heavily on escorts for protection.`
 	
 ship "LPC-3 Lavaka"
 	sprite "ship/mgf lavaka"
@@ -1270,7 +1270,7 @@ ship "LAC-4 Lithalsa"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `The Lithalsa has a specialized bitumen tanker with heated tanks to maintain the cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several on going projects especially on developing worlds can require significant amount of bitumen. Because the service area for these ships often lack specialized discharge facilities the Lithalsa comes with its own discharging system for unloading its cargo directly onto trucks or other transports to distribute it to the site.`
+	description `Lithalsa is a specialized bitumen tanker with heated tanks to maintain the cargo liquidity and prevent it from solidifying. Though only a relatively small quantity of bitumen is required for most construction, several on going projects especially on developing worlds can require significant amount of bitumen. Because the service area for these ships often lack specialized discharge facilities the Lithalsa comes with its' own discharging system for unloading its cargo directly onto trucks or other transports to distribute it to the site.`
 	
 ship "SMC-2 Kipuka"
 	sprite "ship/mgf kipuka"
@@ -1327,7 +1327,7 @@ ship "SMC-2 Kipuka"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `The Kipuka is a specialized type of chemical tanker dedicated to carrying molasses. To ensure easy flow of molasses when filling and discharging, each tank is equipped with a special temperature management system that can evenly heat the liquid across the tank to maintain low enough viscosity during unloading process. The ship also employs a slightly different loading system to minimize foaming as well as specialized sensor to avoid inaccuracies from said foaming of the cargo. Because of the additional requirement for tank cleaning, these molasses tankers also come equipped with a special type of automatic tank cleaner to satisfy the requirement and reduce running cost.`
+	description `Kipuka is a specialized type of chemical tanker dedicated to carrying molasses. To ensure easy flow of molasses when filling and discharging, each tank is equipped with a special temperature management system that can evenly heat the liquid across the tank to maintain low enough viscosity during unloading process. The ship also employs a slightly different loading system to minimize foaming as well as specialized sensor to avoid inaccuracies from said foaming of the cargo. Because of the additional requirement for tank cleaning, these molasses tankers also come equipped with a special type of automatic tank cleaner to satisfy the requirement and reduce running cost.`
 
 ship "FG-5 Bluewhale"
 	sprite "ship/mgf bluewhale"
@@ -1430,7 +1430,7 @@ ship "FG-5 Bluewhale"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Bluewhale is a massive freighter for hauling large amount of cargo across the galaxy. Due to its cost these ships are often owned by freight companies rather than individuals. While its capable of carrying much more cargo than most other freighters, one of the major complaints received from captains is that it can take very long to reach the innermost container. That said it is still far faster and easier than handling of bulk cargo."
+	description "Bluewhale is a massive freighter for hauling large amount of cargo across the galaxy. Due to its' cost these ships are often owned by freight companies rather than individuals. While it's capable of carrying much more cargo than most other freighters, one of the major complaints received from captains is that it can take very long to reach the innermost container. That said it is still far faster and easier than handling of bulk cargo."
 	
 ship "FG-5 Bluewhale" "FG-5 Bluewhale-A"
 	sprite "ship/mgf bluewhale-a"
@@ -1542,7 +1542,7 @@ ship "FG-5 Bluewhale" "FG-5 Bluewhale (GX)"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This a special variant of the Bluewhale built for Galactic Express. Beside the unique livery, the ship is installed with an improved model of cargo handling systems as well as being equipped with additional support equipments, allowing faster unloading than the standard variant. It is also slightly speedier, thanks to additional optimization and utilization of specially tuned engine controls."
+	description "This a special variant of the Bluewhale built for Galactic Express. Beside the unique livery, the ship is installed with an improved model of cargo handling systems as well as being equipped with additional support equipments, allowing faster unloading than the standard variant. It is also slightly faster, thanks to additional optimization and utilization of specially tuned engine controls."
 
 ship "SBS-12 Ossun"
 	sprite "ship/mgf ossun"
@@ -1642,7 +1642,7 @@ ship "SBS-12 Ossun"
 	explode "large explosion" 35
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description `The Ossun is a power station ship modified from the Bluewhale hull to serve as temporary power station for remote colonies or as additional sources for area with high demand while a new stationary power plant is being built. Because it spends most of its operation on the ground, very few of these ships can ever be seen flying around.`
+	description `The Ossun is a power station ship modified from the Bluewhale hull to serve as temporary power station for remote colonies or as an additional source for area with high demand while a new stationary power plant is being built. Because it spends most of its operation on the ground, very few of these ships can ever be seen flying around.`
 
 ship "FG-6 Startrain"
 	sprite "ship/mgf startrain"
@@ -1707,7 +1707,7 @@ ship "FG-6 Startrain"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
-	description `The Startrain is a medium ranged freighter offered by Freight Galactic with a more limited cargo capacity than other cargo ships from the same shipyard. In exchange, it is much faster to unload, equating to shorter time in port and faster deliveries.`
+	description `Startrain is a medium ranged freighter offered by Freight Galactic with more limited cargo capacity than other cargo ships from the same shipyard. In exchange, it is much faster to unload, equating to shorter time in port and faster deliveries.`
 	
 ship "FG-6 Startrain" "FG-6 Startrain-A"
 	sprite "ship/mgf startrain-a"
@@ -2009,7 +2009,7 @@ ship "FG-7 Conveyor" "FG-7 Conveyor (GX)"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "This a special variant of the Conveyor, built for Galactic Express. In addition to the improved cargo handling system and engine tuning from the Bluewhale, it also advertises safer hangar bays, claiming to decrease the chances of accidents by fighter pilots."
+	description "This a special variant of the Conveyor built for Galactic Express. In addition to the improved cargo handling system and engine tuning from the Bluewhale, it also advertises safer hangar bays, claiming to decrease the chances of accidents by fighter pilots."
 
 ship "FG-8 Shipment"
 	sprite "ship/mgf shipment"
@@ -2221,7 +2221,7 @@ ship "FG-11 Starcarrier" "FG-11 Starcarrier (GX)"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This a special variant of the Starcarrier built for Galactic Express, featuring improved engine tuning and a cargo handling system.`
+	description `This a special variant of the Starcarrier built for Galactic Express, featuring improved engine tuning and cargo handling system.`
 
 ship "FG-11 Starcarrier" "FG-11 Starcarrier (NGK)"
 	sprite "ship/mgf ngk starcarrier"
@@ -2607,7 +2607,7 @@ ship "FG-10 Exchanger"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description `Inspired by the Syndicate H-class super container ship, a smaller freighter development was halted in favor of an even larger freighter, perhaps the largest freighter to ever be developed in human space. The hull of the smaller predecessor in development was modified and used as the Exchanger primary cargo arms that can be deployed to land and unload cargo, as the Exchanger itself is too large to land on any port.`
-	description `	To protect itself the ship carries a vast array of armaments rivaling most warships, as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed, they were stripped down too much to serve as effective combat ship on its own, and in addition there is a longer delay to deploy, as they were not designed to be deployed for immediate action.`
+	description `	To protect itself the ship carries a vast array of armaments rivalling most warships as well as entire wings of fighters to protect itself. Though the sub cargo ships attached to the arms can be deployed, they were stripped down too much to serve as effective combat ship on its' own. In addition there is also a longer delay to deploy, as they were not designed for immediate action.`
 
 ship "FTV-33 Acareus"
 	plural "FTV-33 Acareus"
@@ -2699,7 +2699,7 @@ ship "FTV-33 Acareus"
 	engine -179 33 
 	engine 179 33 
 	engine 0 127.5 
-	description `This is a fancy experimental freighter as more heavily armed alternative to the older Carrack. While a relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
+	description `Fancy experimental freighter as more heavily armed alternative to the older Carrack. While a relatively large number of containers are exposed for easier unloading, the unusual angle negates the benefit as ports are unable to utilize standardized automations to unload it and require manual unloading with smaller vehicles.`
 	
 ship "SMM-111 Bagger"
 	sprite "ship/mgf bagger"
@@ -2888,7 +2888,7 @@ ship "HMM-190 Kotroger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Kotroger is a terrestrial mining vehicle, also with spaceflight capability for rapidly hopping from planets to planets or even within the planet itself as each resource pool is drained, as well as moving to assist excavation on other sites or large construction projects requiring earth to be moved in large amounts. While not as economical as old-school ground-based excavators, its primary strength lies in the extreme mobility compared to a regular excavator. It can easily move itself from site to site and begin operation within the same day, while regular ones may take days or weeks to disassemble, pack, and move, then repeat in reverse at the new site. Though it may be unnecessary on larger resource pools it allows the Kotroger to more economically extract resource from smaller pools of rarer materials that may otherwise be uneconomical for regular excavators to operate on. Though it is not recommended by both the manufacturer and safety organizations, the ship is built with extra heavy-duty long-duration repulsor engines that can fire constantly for longer periods which may allow it to temporarily mine resources from less stable ground, repulsor engines active minimizing the weight it puts on the ground."
+	description "The Kotroger is a terrestrial mining vehicle with spaceflight capability for rapidly hopping from planets to planets or even within the planet itself as each resource pool is drained, as well as moving to assist excavation on other sites or large construction projects requiring earth to be moved in large amounts. While not as economical as old-school ground-based excavators, its primary strength lies in the extreme mobility compared to a regular excavator. It can easily move itself from site to site and begin operation within the same day, while regular ones may take days or weeks to disassemble, pack, and move, then repeat in reverse at the new site. Though it may be unnecessary on larger resource pools it allows the Kotroger to more economically extract resource from smaller pools of rarer materials that may otherwise be uneconomical for regular excavators to operate on. Though it is not recommended by both the manufacturer and safety organizations, the ship is built with extra heavy-duty long-duration repulsor engines that can fire constantly for longer periods which may allow it to temporarily mine resources from less stable terrain with repulsor engines active to minimize the pressure it puts on the ground."
 
 ship "EM-8A Armadillo"
 	sprite "ship/mgf epn armadillo"
@@ -3001,7 +3001,7 @@ ship "EM-8A Armadillo"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `Behold the Espion-exclusive light mining carrier, with sizeable squadrons of drones and fighters for defending itself, or help mining and collecting materials.`
+	description `Espion-exclusive light mining carrier with sizeable squadron of drones and fighters for defending itself, or help mining and collecting materials.`
 		
 ship "EM-28F Wombat"
 	sprite "ship/mgf epn wombat"
@@ -3417,7 +3417,7 @@ ship "EM-28F Wombat"
 	explode "medium explosion" 25
 	explode "large explosion" 35
 	explode "huge explosion" 20
-	description `The Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go. Due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Because of its size and slowness, the vessel is less than ideal for mining and collecting resources itself, but instead relys on a sizeable fleet of fighters and drones to mine and collect resources for it. To protect their miners from harm as they operate far away from the mothership, the Wombat also comes with space for 4 pocket light warships to guard the miners.`
+	description `Espion-exclusive mining carrier, or rather a mobile mining and refinery station to extract and process resources on the go as due to its large cargo holds it may spend much of its time in flight to collect a full cargo of resources. Because of its size and slowness, the vessel is less than ideal for mining and collecting resources itself, but instead relies on a sizable fleet of fighters and drones to mine and collect resources for it. To protect their miners from harm as they operate far away from the mothership, the Wombat also comes with space for 4 pocket light warships to guard the miners.`
 
 ship "SV-4450 Sovereign"
 	sprite "ship/mgf sovereign"
@@ -3634,7 +3634,7 @@ ship "SV-4450 Sovereign"
 	explode "large explosion" 60
 	explode "huge explosion" 60
 	"final explode" "final explosion large"
-	description "The Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only a few of the ships remain today in private hands."
+	description "The Sovereign is a massive carrier and worldship of mysterious origins. It is said that this ship was designed many years ago for an expedition to outside of known space. No one knows the fate of the project and only the ships remain today in few private hands."
 
 ship "Nasprite"
 	sprite "ship/mgf nasprite"
@@ -3862,7 +3862,7 @@ ship "CK40T Treibard"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `A smaller and cheaper version of the company's CK50T Stahbar, with improved anti-radar capability and a lighter armament.`
+	description `Smaller and cheaper version of the company's CK50T Stahbar, with improved anti-radar capability and lighter armament.`
 	
 ship "CK80T Tlielart"
 	sprite "ship/mgf tlielart cargocargo"
@@ -3948,8 +3948,8 @@ ship "CK80T Tlielart"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `This is a massive freighter designed to carry as much cargo as possible, and does so, exceeding the capacity of every other ship by far. Though unlike the other ships from MarStel Industries, it is very lightly armed relative to cargo capacity, making it lack the firepower to properly protect itself, and it does not have the speed to dodge any raider. Due to such reasons, it will require decent escorts to safely travel.`
-	description `	Though it carries more than most, if not all, freighters in human space, the sheer amount of cargo that has to be unloaded requires ungodly amount of time, equipment, and manpower, which only gets worse when loading cargo. Any less than a well developed urban spaceport will struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in human space, as few planets require this much cargo in a single delivery and fewer still are capable of handling it.`
+	description `A massive freighter designed to carry as much cargo as possible, and did so exceedingly that it surpass the capacity of every other ships by far. Though unlike the other ships from MarStel Industries, it is very lightly armed relative to cargo capacity, making it lack the firepower to properly protect itself and neither does it have the speed to dodge any raider. Due to such reasons, it will require decent escort to safely travel.`
+	description `	Though it carries more than most, if not all, freighters in human space, the sheer amount of cargo that has to be unloaded requires ungodly amount of time, equipment, and manpower, which only gets worse when loading cargo. Any less than a well developed urban spaceport will struggle to service the ship and often will take a few days to complete the operation, if they ever require this much cargo in the first place. This results in the ship being not quite a popular choice in most of human space, as few planets require this much cargo in a single delivery and fewer capable of handling it.`
 
 ship "PF-80 Intrepid"
 	sprite "ship/mgf intrepid"
@@ -4200,7 +4200,7 @@ ship "PT-60 Gallant"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A Solomon Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the southern part of human space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While the difficulty of handling bulk liquid cargo deters many pirates from stealing it, reports of raid on oil tankers are not unheard of. It is suspected that they either have no other targets or they were attempts to capture the entire ship.`
+	description `A Solomons Voidworks protected tanker ship for shipping crude oil and other petroleum products from and across the Southern space. Heavily armoured and armed, the Gallant provides excellent protection against any pirates it might come across. While the difficulty of handling bulk liquid cargo deters many pirates from stealing it, reports of raid on oil tankers are not unheard of. It is suspected that they either have no other targets or they were attempts to capture the entire ship.`
 	
 ship "PL-50 Impavid"
 	sprite "ship/mgf impavid"
@@ -4291,7 +4291,7 @@ ship "PL-50 Impavid"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `A well defended livestock transport for shipping various live exports from the southern worlds to their destinations safely. Unlike its sea-bound ancestor which can simply have an open deck for air, the cargo decks of spacefaring livestock transports require dedicated climate control systems to ensure proper air circulation and comfortable rides for the animals, as well as reduce the smells and gases for when the crew have to perform tasks within the cargo deck.` 
+	description `A well defended livestock transport for shipping various live exports from the southern worlds to their destination safely. Unlike its sea-bound ancestor which can simply have an open deck for air, the cargo decks of a spacefaring livestock transport require dedicated climate control systems to ensure proper air circulation and comfortable ride for the animals, as well as reduce the smells and gases for when the crew have to perform tasks within the cargo deck.` 
 	description `	Freshly butchered meat is known to be highly preferred over frozen meat by the wealthy, creating a lucrative trade route between the South and Paradise Planets for these specialized freighters.`
 
 ship "FC-022 Castello"
@@ -4364,7 +4364,7 @@ ship "FC-022 Castello"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `This ship is reminiscent of refuelling barges used in older days before uses of replusor engines became more widespread with freighters, when most ships would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barges like the Castello.`
+	description `Reminiscent of refuelling barges used in older days before uses of replusor engines became more widespread with freighters, when most ships would park in orbit unloading cargo via tugboats and refueled by dedicated fuel barges like the Castello.`
 	description `In modern times refuelling barges are occasionally used by some companies to rapidly refuel freighters mid-flight and extend their range without requiring the slow and cumbersome freighters to visit the port.`
 	
 ship "SKVS-2 Mudskipper"
@@ -4412,7 +4412,7 @@ ship "SKVS-2 Mudskipper"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A small, lightly armed freighter for short-ranged shipping from an earlier and more peaceful era. These are most often seen in more secure areas of space as they lack any effective defense against pirates and do not have the range to travel far beyond their home port.`
+	description `Small, lightly armed freighter for short-ranged shipping from an earlier and more peaceful era. These are most often seen in more secure areas of space as they lack any effective defense against pirates nor the range to travel far beyond their homeport.`
 	
 ship "SKVS-3 Gudgeon"
 	sprite "ship/mgf gudgeon"
@@ -4459,7 +4459,7 @@ ship "SKVS-3 Gudgeon"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A slightly larger version of the Mudskipper, the Gudgeon is possibly one of the most efficient cargo vessels around, but also the most defenceless and slow for its size. Though few captains enjoy piloting them, they all agree it is one of the most robust and easy to maintain freighters they know of.`
+	description `Slightly larger version of the Mudskipper, the Gudgeon is possibly one of the most efficient cargo vessel around, but also the most defenceless and slow for its size. Though few captains enjoy piloting them, they all agree it is one of the most robust and easy to maintain.`
 	
 ship "SKVS-4 Minnow"
 	sprite "ship/mgf minnow"
@@ -4509,8 +4509,8 @@ ship "SKVS-4 Minnow"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water for themselves. The Minnow itself is slow and lightly armed, making it incapable of defending itself or escaping from any threat, which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
-	description `	Now that most colonies are developed enough to make their own water, these ships have become much rarer as the need for them decreases. Only a small number remain parked in systems that have stations for occasional resupply missions.`
+	description `A water tanker ship for transporting fresh water to nearby colonies or stations which are incapable of generating enough fresh water for themselves. The Minnow itself is slow and lightly armed making it incapable of defending itself or escaping from any threat, which makes it less ideal for travelling to frontier worlds alone with the rise of piracy.`
+	description `	Now that most colonies are developed enough to supply their own water, these ships have become much rarer as the need for them decreases. Only a small number remain parked in systems that have stations for occasional resupply mission.`
 	
 ship "CWC-2 Celestine"
 	sprite "ship/mgf celestine"
@@ -4564,7 +4564,7 @@ ship "CWC-2 Celestine"
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
-	description `A custom-built wine tanker for the Luna Winery made to transport wine in bulk and preserve it in the most perfect condition, with individual thermal control systems for each tank to keep the heat as stable as possible.`
+	description `A custom-built wine tanker for the Luna Winery made to transport wine in bulk and preserve it in the most perfect condition, with individual thermal control system for each tank to keep the heat as stable as possible.`
 	description `	Because these ships are lightly armed, they rarely wander away from the relative safety of heavily patrolled Paradise Planets.`
 	
 ship "CJC-3 Citrus"
@@ -4619,7 +4619,7 @@ ship "CJC-3 Citrus"
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `The Citrus-class was purposely designed and built as a fruit juice tanker for the Solacer Group, mainly for transporting frozen concentrated juice with minimal water content and maximum space efficiency. The concentrated juice would then be mixed with water and packaged at destionation facility to be distributed.`
+	description `The Citrus-class is a purpose built fruit juice tanker for the Solacer Group, mainly for transporting frozen concentrated juice with minimal water content for maximum space efficiency. The concentrated juice would then be mixed with water and packaged at destination facility to be distributed.`
 	
 ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	plural "TQK-20 Qaytas"
@@ -4670,7 +4670,7 @@ ship "TQK-20 Qaytas" #Todo bigger bulk-in bag-out
 	explode "medium explosion" 20
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries, made for the Core Food Corporation could do transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading, allowing overall faster turnaround. The ship lacks large cargo loading hatches to maintain a closed system free of contaminants and instead loads via special sealed conveyor belts built into the ship. Its' built-in bagging facilities utilize the latest technology for fast and highly efficient packaging operation. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
+	description `A specialized bulk-in bag-out ship designed in cooperation between Vefrol Dockyards and Pioneer Heavy Industries, made so that the Core Food Corporation could do transportation of bulk sugar and in-ship bagging at destination to decrease port time during unloading, allowing overall faster turnaround. The ship lacks large cargo loading hatches to maintain a closed system free of contaminants and instead loads via special sealed conveyor belts built into the ship. Its' built-in bagging facilities utilize the latest technology for fast and highly efficient packaging operation. Bagged sugar can be unloaded at the port far faster than in bulk as well as having the benefit of being less reliant on specialized sugar unloading equipment and storage that most ports do not have.`
 
 ship "QYG-30 Qazan"
 	sprite "ship/mgf qazan"
@@ -6068,7 +6068,7 @@ ship "SRC-41C Curie"
 	description `The Curie-class is a purpose-built nuclear fuel carrier dedicated to transporting all sorts of radioactive cargo, like fresh nuclear fuel, spent nuclear fuel, and radioactive waste, with multiple redundancies for all critical systems, from engines, cooling system, electrical systems to navigation systems as well as reinforced bulkheads to resist even the most extreme accident while keeping their cargo intact. Though the bridge is visible, it is reinforced with additional armour and is mainly only used for landing and on-ground operations like unloading the cargo, with the ship's primary control room buried deep inside the ship, with another layer of armour around it, not unlike what one would have expected from a warship. With the requirement to keep the cargo cool all the time the ship also has a built-in dedicated cooling system for the cargo hold, which is isolated from the cooling systems for the rest of the ship as well as having its own backup generator. Though all radioactive cargo comes with its own radiation shielding container, the material for this ship's cargo hold is also selected to provide decent amount of shielding as well.`
 	description `	Another part of the ship's safety includes crews specially trained to handle radioactive cargo as well as responding to various foreseeable incidents, from collision, fire, and pirates boarding, in the most unlikely case that it occurs. In addition to that, the ship is also equipped for in-flight repairs, allowing the ship to perform rudimentary repairs on itself if damaged, though there is a small delay before the repair can begin and longer delay if the ship got disabled. Because all of these facts the ship's minimum crew is almost the same as chemical tankers of larger size and operating cost is one of the highest.`
 
-# DSSN-[cateprefix][catalogNum] Rynchops->KR
+		# DSSN-[cateprefix][catalogNum] Rynchops->KR
 ship `DSSN-S90 Lynchyoseu`
 	sprite "ship/mgf lynchyoseu"
 	thumbnail "thumbnail/mgf lynchyoseu thumb"
