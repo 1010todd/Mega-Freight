@@ -34,7 +34,7 @@ ship "FR-4 Dart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "This was made with the goal of creating the smallest and cheapest spaceship possible. With everything reduced to the minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its fragility, this ship is fast enough to outrun nearly everything else in human space."
+	description "This was made with the goal of creating the smallest and cheapest spaceship possible. With everything reduced to the minimum, the FR-4 Dart was designed as an even cheaper alternative to the Betelgeuse Shuttle. Despite its' fragility, this ship is fast enough to outrun nearly everything else in human space."
 
 ship "Wisymton"
 	sprite "ship/mgf wisymton"
