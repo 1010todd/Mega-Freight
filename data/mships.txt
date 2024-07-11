@@ -495,7 +495,7 @@ ship "CY-10 Dragonfly" "CY-10 (Small Wreckage)"
 	"final explode" "final explosion small"
 	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
 	description `	This is a special variant modified by the Ankulah crew to include a towing system for towing wreckages.`
-	description `	[Carries: 1 Small Wreckage.]`
+	description `	[Carries: 1 Small Wreckage]`
 
 ship "CH-6 Carrack"
 	sprite "ship/mgf carrack"
