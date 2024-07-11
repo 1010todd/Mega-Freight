@@ -8204,7 +8204,7 @@ ship "EP-3 Rat"
 	explode "tiny explosion" 18
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description `The Espion Mining Co. compact gunship to be carried by their larger carriers for guarding the mining fleets while they are away from the mothership.`
+	description `Espion Mining co. compact gunship to be carried by their larger carriers for guarding the mining fleets while they are away from the mothership.`
 
 ship "EP-3 Rat" "EP-3 Rat (Sniper)"
 	outfits
