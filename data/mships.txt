@@ -410,8 +410,8 @@ ship "CY-10 Dragonfly" #Base variant without carry.
 		under
 	explode "tiny explosion" 10
 	explode "small explosion" 15
-	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. Also, it is often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
-	description `	[Carries: nothing, you shouldn't see or use this.]`
+	description "This is a small and agile heavy-lift spacecraft. It can be used for transporting containers or as a method of quickly delivering or recovering fighters. It is also often used for lifting within atmosphere on various occasions, including assisting in the construction of tall buildings or delivering supplies to inaccessible areas."
+	description `	[Carries: Nothing, you shouldn't see or use this.]`
 	
 ship "CY-10 Dragonfly" "CY-10 (Fighter)"
 	gun -14 -75.5
@@ -5719,7 +5719,7 @@ ship "CDB-12K Saturn"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "A class of even larger dry bulk carriers than the Jupiter as exports and demand grew. Unfortunately, due to the lack of unloading gears, it can only operate at more specially-equipped ports. In addition to its' bulk bays it can also carry significant amount of containers, allowing captains to earn additional profit."
+	description "A class of even larger dry bulk carriers than the Jupiter as exports and demand grew. Unfortunately, due to the lack of unloading gears, it's operation is limited to fewer more well equipped ports. In addition to its' bulk bays it can also carry significant amount of containers, allowing captains to earn additional profit."
 	
 	#Freighter Powder
 ship "FPd45 Clinker"
@@ -8472,7 +8472,7 @@ ship "AYS-19 Peytoia"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "With the recent development of new Unfettered ships and the deployment of the Pond Strider and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying drones to defend itself when flying past risky areas."
+	description "With the recent development of new Unfettered ships and the deployment of Pond Striders and Fleas to counter them, the Hai soon developed a new heavily armed heavy freighter that is also capable of carrying drones to defend itself when flying past risky areas."
 
 ship "Type-13 Sea Strait"
 	sprite "ship/mgf wanderer sea strait"
@@ -8565,4 +8565,4 @@ ship "Type-13 Sea Strait"
 	explode "large explosion" 30
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `A large Wanderer freighter iterated from the Deep River using the same style of cargo pod and arrangement but twice doubling the capacity, also being more well armed than Deep River to protect itself during evacuation, though it is still not really enough to operate alone.`
+	description `A large Wanderer freighter iterated from the Deep River using the same style of cargo pod and arrangement but twice doubling the capacity. It is also better armed than Deep River to protect itself during evacuations, though it is considered by many captains to still be insufficient to fly alone.`
