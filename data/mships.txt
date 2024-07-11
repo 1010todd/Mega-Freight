@@ -111,7 +111,7 @@ ship "Wisymton"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "A tugboat from early days of space trading, which was made to transport cargo containers between ground and space. Designed when repulsor engines were still in their infancy, many ships from the previous era still lack one or were not designed to enter the atmosphere at all. With more freighters equipped with repulsor engines now, the roles for these tugboats changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
+	description "A tugboat from early days of space trading made to transport cargo containers between ground and space. Designed when repulsor engines were still in their infancy, many ships from the previous era still lack one or were not designed to enter the atmosphere at all. In modern times where all freighters come equipped with repulsor engines, the roles for these tugboats changed to assisting these large and cumbersome ships to land, not unlike their sea-bound ancestor."
 
 ship "Wisymton" "Wisymton (Light Freighter)"
 	attributes
@@ -358,7 +358,7 @@ ship "CF-50 Cart"
 	explode "tiny explosion" 10
 	explode "small explosion" 15
 	"final explode" "final explosion small"
-	description "This is a small and cheap mining vessel designed as an alternative to the Tarazed Sparrow, for pilots don't mind a little bit waiting for pay."
+	description "This is a small and cheap mining vessel designed as an alternative to the Tarazed Sparrow, for pilots don't mind a little bit of waiting for more pay."
 
 ship "CY-10 Dragonfly" #Base variant without carry.
 	sprite "ship/mgf dragonfly"
