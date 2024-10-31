@@ -9292,12 +9292,14 @@ ship "Type-13 Sea Strait"
 	gun 41 -515.5
 	gun -14.5 -513.5
 	gun 14.5 -513.5
-	engine -161.5 369.5
+	engine -167 369.5
+		angle 23
+	engine 167 369.5
+		angle -23
+	engine -122 427.5
 		angle 13
-	engine 161.5 369.5
+	engine 122 427.5
 		angle -13
-	engine -116.5 427.5
-	engine 116.5 427.5
 	engine -70.5 482.5
 	engine 70.5 482.5
 
