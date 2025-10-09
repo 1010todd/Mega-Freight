@@ -3672,7 +3672,7 @@ outfit "chiryu penetrator proj-5"
 outfit "Itano Missile"
 	category "Ammunition"
 	cost 800
-	thumbnail "outfit/sidewinder missile"
+	thumbnail "outfit/sidewinder"
 	"mass" .05
 	"itano missile capacity" -1
 	description "Ammo for Itano SMLS"
