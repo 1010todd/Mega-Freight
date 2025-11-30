@@ -2,7 +2,7 @@
 outfit "Espion Mining Laser"
 	category "Guns"
 	series "Guns"
-	index 01076
+	index 01074
 	cost 92000
 	licenses
 		"Espion Employee"
@@ -33,7 +33,7 @@ outfit "Espion Mining Laser"
 outfit "Espion Mini-Mining Laser"
 	category "Guns"
 	series "Guns"
-	index 01075
+	index 01073
 	cost 75000
 	licenses
 		"Espion Employee"
@@ -1504,6 +1504,8 @@ outfit "Mi3 Ion Cannon Turret"
 
 outfit "uL4 Ion Artillery"
 	category "Guns"
+	series "Guns"
+	index 02035
 	cost 780000
 	thumbnail "outfit/mgf hai ul4 ion"
 	"mass" 49
@@ -1516,7 +1518,7 @@ outfit "uL4 Ion Artillery"
 		sound "ion"
 		"hit effect" "ion impact" 2
 		"inaccuracy" 1.9
-		"turret turn" .8
+		# "turret turn" .8
 		"velocity" 15
 		"lifetime" 85
 		"reload" 60
