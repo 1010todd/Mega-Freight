@@ -2478,6 +2478,7 @@ mission "MGF: Join Espion co."
 	source "New Sahara"
 	to offer
 		has "MGF: Espion co. job ad: done"
+		not "MGF: Join Espion co.: active"
 		not "MGF: Join Espion co.: done"
 		not "license: Espion Employee"
 	on offer
@@ -2498,13 +2499,16 @@ mission "MGF: Join Espion co."
 			`	After a while a man enter the room and introduce as the person who will be checking your pilot skill. He tells you to depart and mine 15 Titanium in this system as fast as you can, he'll be observing your performance in orbit. Once that's done it'll be continued back here.`
 				accept
 
-	npc accompany save
+	npc save
 		government "MGF: Espion Mining Co."
 		personality timid staying
 		fleet
 			names "civilian"
 			variant
 				"Armadillo (Weapon)"
+		on kill
+			dialog
+				`The ship observing your performance was some how blown up. Reload the save continue.`
 
 	# Was gonna do an actual timer npc here but lazy.
 
