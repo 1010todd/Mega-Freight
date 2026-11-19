@@ -1770,7 +1770,7 @@ ship "FG-7 Conveyor"
 		arc -62 82
 	turret 40 225
 		angle 90
-		arc -62 82
+		arc -82 62
 	turret -63 285 "Heavy Anti-Missile Turret"
 		angle -90
 		arc -110 89
@@ -1923,7 +1923,7 @@ ship "FG-7 Conveyor" "FG-7 Conveyor (GX)"
 		arc -62 82
 	turret 40 225
 		angle 90
-		arc -62 82
+		arc -82 62
 	turret -63 285 "Heavy Anti-Missile Turret"
 		angle -90
 		arc -110 89
